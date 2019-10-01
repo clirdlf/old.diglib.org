@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="dlfevaluate.xsl" type="text/xsl"?>
+
+<record type="dlfevaluate">
+<idno>[Unique ID]</idno>
+
+<biblFull>
+<title>Name of Evaluation Report</title>
+<author>Responsible parties</author>
+<extent>Size of evaluation report (pp; kb)</extent>
+<publisher>Institution or press</publisher>
+<pubPlace>Geographic location of publisher</pubPlace>
+<pubDate>yyyy-mm-dd</pubDate>
+
+<projectLink>URL</projectLink>
+
+<note>Any other bibliographical information.</note>
+
+</biblFull>
+
+
+
+<projectDesc>
+<head>Description</head>
+
+<abstract>Prose abstract of the evaluation report.</abstract>
+
+<purpose>Purpose of the study</purpose>
+
+<type>Institution; Collection; Course; Tool; Service; Other</type>
+
+<participants>undergraduate; graduate; untenured; tenured</participants>
+
+<discipline>Science; Technology; Medicine; Social Science; Humanities; Education; mixed; other</discipline>
+
+<material>journal; video; audio; images; text; mixed; other</material>
+
+<scope>Number of subjects surveyed</scope>
+<sample>random; quota</sample>
+<location>Where was the evaluation undertaken?</location>
+
+<startDate>yyyy-mm-dd</startDate>
+<endDate>yyyy-mm-dd</endDate>
+
+<related>Relationship to other studies</related>
+
+
+
+</projectDesc>
+
+<dataDesc>
+<head>Accompanying Datasets</head>
+<description>Description of any accompanying dataset.</description>
+<url access="public/private">URL</url>
+</dataDesc>
+
+<contacts>
+<head>Contact Information</head>
+<name mailto="">Name (with email in attribute) of contact person</name> 
+<address url="">Address (with url in attribute) of home institution for project</address>
+</contacts>
+
+<revisionDesc>
+<head>Revision Description</head>
+<change>
+	<revdate>yyyy-mm-dd</revdate>
+	<reviser>Name</reviser>
+	<revision>Change description</revision>
+</change>
+</revisionDesc>
+</record>

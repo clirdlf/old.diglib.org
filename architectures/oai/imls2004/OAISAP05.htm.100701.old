@@ -1,0 +1,1055 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2005-09-20" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2005, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>Scholars' Advisory Panel: The Distributed Library: OAI for Digital Library Aggregation</title>
+
+
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+  {margin:0in;
+  margin-bottom:.0001pt;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+  {font-family:Arial;
+  color:#0000CC;
+  text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+  {color:purple;
+  text-decoration:underline;}
+p
+  {margin-right:0in;
+  margin-left:0in;
+  font-size:10.0pt;
+  font-family:Arial;}
+@page Section1
+  {size:8.5in 11.0in;
+  margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+  {page:Section1;}
+-->
+/*]]>*/
+</style>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../../images/"+arrQuote[num]; 
+}
+
+
+}
+//-->
+</script>
+<link media="screen" href="../../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../../images/preserve_r.gif','../../../images/use_r.gif','../../../images/build_r.gif','../../../images/logo_r.gif','../../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)"><img src="../../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../../../quotations.htm">
+<img src="../../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../../publications.htm"><img src="../../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../../forums.htm"><img src="../../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../../about.htm"><img src="../../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../../news.htm"><img src="../../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../../sitemap.htm">
+<img src="../../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);"><img src="../../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)"><img src="../../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)"><img src="../../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)"><img src="../../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)"><img src="../../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p><b><i>Project Team</i></b>
+<br /><br />
+<b>Digital Library Federation</b>
+<br /><br />
+David Seaman,<br />
+Project Director/<br />
+Principal Investigator
+<br /><br />
+Barrie Howard,<br />
+Project Manager
+<br /><br />
+Martha Brogan,<br />
+Consultant
+<br /><br />
+<b>Emory University</b>
+<br /><br />
+Martin Halbert,<br />
+Co-Principal Investigator
+<br /><br />
+Elizabeth Milewicz,<br />
+Technical Manager
+<br /><br />
+Katherine Skinner,<br />
+Technical Manager
+<br /><br />
+<b>University of Illinois<br />
+at Urbana-Champaign</b>
+<br /><br />
+Tom Habing,<br />
+Co-Principal Investigator
+<br /><br />
+Lucas Wing Kau Mak,<br />
+Technician
+<br /><br />
+<b>University of Michigan</b>
+<br /><br />
+Perry Willet, <br />
+Co-Principal Investigator
+<br /><br />
+Kat Hagedorn,<br />
+Technical Manager
+<br /><br />
+Qian Liao, <br />
+Programmer
+</p>
+</td>
+</tr>    
+
+<tr> 
+<td align="left" valign="top"><img src="../../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+</tr>
+
+<tr> 
+<td align="left" valign="top"><img src="../../../images/horizline.gif" alt="" width="156" height="16" /></td>
+</tr>
+
+<tr>
+<td align="left" valign="top"><p class="news">Project participants follow this 
+<a href="http://dlf.projectpath.com/">link</a> to log on the project management
+interface.</p>
+</td>
+</tr>
+</table></td>
+<td width="584" height="634" colspan="9" valign="top">
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr> 
+<td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Section1">
+
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><i><span style='font-size:14.0pt'>The Distributed Library: OAI
+for Digital Library Aggregation</span></i></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>OAI Scholars Advisory Panel
+Meeting</span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>June 20-21, 2005</span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>Washington</span></b><b><span
+style='font-size:14.0pt'>DC</span></b><br />
+<br />
+</p>
+<hr align="center" />
+
+<p class="MsoNormal" align="center" style='text-align:center'>
+<i>Note: while this Panel includes some members of the June 2004
+DLF Scholars&rsquo; Panel</i> (<a
+href="/use/scholars0406/">http://www.diglib.org/use/scholars0406/</a>),<i>
+the two meetings had quite different purposes; the former was a
+wide-ranging discussion of a variety of issues; this one is much
+more focused on the needs, opportunities, and obligations of the
+DLF IMLS grant.</i></p>
+
+<hr align="center" />
+
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The current IMLS grant to the
+DLF&mdash;<i>The Distributed Library: OAI for Digital Library
+Aggregation</i>&mdash;has as an important part of it a pair of
+advisory committees, one technical and one scholarly. This
+meeting was the first face-to-face gathering of the OAI
+Scholars&rsquo; Advisory Panel.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Composition of the Panel:</b> The
+Scholars&rsquo; Panel is comprised of teaching faculty from DLF
+members and other major institutions.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Purpose of the Panel:</b> These scholars
+are well-positioned both to speak to scholarly user needs and
+interests across all levels of university constituencies (i.e.,
+undergraduate, graduate, faculty, and staff), and to comment from
+an end-user perspective on the prototypes and experimental
+services we develop. The Scholars&rsquo; Panel will serve not
+only as a key resource for evaluation but will also contribute
+substantial subject expertise during the content
+selection/collection development phase of the project.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>OAI Scholars&rsquo; Panel Members</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><br />
+<b>Gail McMillan</b>, Virginia Tech., Director, Digital Library
+and Archives</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://scholar.lib.vt.edu/staff/gailmac/Gailshp.html">http://scholar.lib.vt.edu/staff/gailmac/Gailshp.html</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Ken Price</b>, U
+Nebraska, Lincoln, English: Walt Whitman<br />
+<a
+href="http://www.unl.edu/Price/">http://www.unl.edu/Price/</a><br />
+&nbsp;<br />
+<b>Roy Rosensweig</b>, GMU History and Center for History and New
+Media: scholars tools<br />
+<a href="http://chnm.gmu.edu/">http://chnm.gmu.edu/</a><br />
+<br />
+</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Bruce
+Rosenstock</b>, UIUC, Associate Professor of Religious Studies
+and the Coordinator of Computer-Assisted Instruction of the
+College of Liberal Arts and Sciences.<br />
+<br />
+</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Steve
+Railton</b>, UVa, English: Harriet Beecher Stowe; Mark
+Twain<br />
+<a
+href="http://etext.lib.virginia.edu/railton/railtonhp.html">http://etext.lib.virginia.edu/railton/railtonhp.html</a><br />
+&nbsp;<br />
+<b>Martha Nell Smith</b>, U Maryland, English and MITH: Emily
+Dickinson<br />
+<a
+href="http://www.mith.umd.edu/mnsmith/">http://www.mith.umd.edu/mnsmith/</a><br />
+&nbsp;<br />
+<b>Randy Shifflett</b>, Virginia Tech., History: Virtual
+Jamestown<br />
+<a
+href="http://www.virtualjamestown.org/">http://www.virtualjamestown.org/</a><br />
+&nbsp;<br />
+<b>Will Thomas</b>, UVa, History: Civil War; the New South<br />
+<a
+href="http://www.virginia.edu/history/faculty/wthomas.html">http://www.virginia.edu/history/faculty/wthomas.html</a></p>
+<p class="MsoNormal" style='margin-left:.5in'><br />
+<b>Allen Tullos</b>, Emory&rsquo;s American South project <a
+href="http://www.southernspaces.org/edi_boa.html%C2%A0">http://www.southernspaces.org/edi_boa.html<br />
+&nbsp;</a> &nbsp;<br />
+<b>John <span class="hl">Willinsky</span></b>, University of
+British Columbia<br />
+<a
+href="http://www.lled.educ.ubc.ca/faculty/willinsky.htm">http://www.lled.educ.ubc.ca/faculty/<span
+ class="hl">willinsky</span>.htm</a><br />
+<a href="http://www.pkp.ubc.ca/">http://www.pkp.ubc.ca/</a><br />
+<br />
+<b>Also in attendance at the June 2005 meeting from the DLF
+project:</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>Christie Hartmann,
+DLF</p>
+<p class="MsoNormal" style='margin-left:.5in'>David Seaman,
+DLF</p>
+<p class="MsoNormal" style='margin-left:.5in'>Michael Furlough,
+University of Virginia</p>
+<p class="MsoNormal" style='margin-left:.5in'>Sarah Shreeves,
+UIUC</p>
+<p class="MsoNormal" style='margin-left:.5in'>Tom Habing,
+UIUC</p>
+<p class="MsoNormal" style='margin-left:.5in'>Kat Hagedorn,
+University of Michigan</p>
+<p class="MsoNormal" style='margin-left:.5in'>Martin Halbert,
+Emory University<br />
+<br />
+</p>
+<p class="MsoNormal"><b>Purpose of the Meeting</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The meeting achieved several interlocking
+goals: introduced the members of the Panel to each other and to
+the librarians taking part in the grant activities; allowed the
+librarians to explain what harvestable metadata is, how OAI
+works, and what its potentials for digital scholarship are;
+allowed the scholars to ask questions about their role in the
+project; and allowed the librarians to test assumptions against a
+sample audience and to receive feedback fairly early in the
+grant&rsquo;s timeline.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The bulk of the first half of the meeting
+was taken up with a series of discussions and demonstrations of
+existing OAI tools and prototypes, and to an explanation of where
+OAI has come from and where we hope to take it as a library
+service. The University of Michigan&rsquo;s OAIster, Emory's
+Metadata Migrator, UIUC's Experimental OAI Registry, the CIC OAI
+collection, and The University of Waikato&rsquo;s Greenstone were
+all demonstrated.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The second half of the meeting on the
+following day started with a discussion of the OAI Best Practices
+work, MODS, and DLF Aquifer. There was early on an observation
+from a scholar that many of their Web projects are going into
+their second generations and this may be a good time to influence
+scholars to add metadata and use services such as OAI harvesting.
+It was also noted that there is an inherent tension between the
+individualism that drives much humanities work and the
+consistency across projects that a service based on harvested
+metadata requires.</p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal">The meeting gave the attendees an
+opportunity to ask a series of basic, clarifying questions:</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Q: How is an OAI service different to a
+library catalog (OPAC)?</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>A: A wider range of electronic material
+will be included &ndash; and a much narrower range of print
+material. The OPAC may have a collection-level MARC record for a
+body of archival material, for example; an OAI services may have
+simple item-level records.</i></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Q: What is an OAI record a record of? A
+print item? An electronic one?</b> <b>There was some confusion
+over why an OAI record exists when there is no digital surrogate
+attached to it.</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>A: Typically of electronic items, but not
+at all limited to that technically.</i></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Q: What is the purpose of OAI?</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>A: To enhance access to materials
+otherwise hard to find, in order to foster better scholarship and
+teaching.</i></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Q: How is an OAI service different from
+Google?</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>A: This led to a long discussion in which
+we referred to the ability of OAI to use controlled vocabularies
+and thesauri; tailor the delivery to our users' needs; and expose
+content held in databases that Google misses (the so-called Dark
+Web).</i></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Q: Does the appearance of a digital
+library item in an OAI record and subsequently in an OAI service
+give us any assurance that the link will be permanent?</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>A: It was no surprise to see this
+manifestation of the scholars&rsquo; concerns with the lack of
+permanent URLs for the online library resources on which they
+rely. There was predictable disappointment that the metadata
+contained a URL that was not necessarily permanent, and there
+could be no explicit assurance given by OAI service providers
+that the content will still be there. This led to a discussion of
+caching the content linked to from OAI services, as Google does
+for content in its search engine.</i></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>Findings</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The discussions over the course of this
+meeting elicited much feedback on the possibilities of OAI from
+the scholars&rsquo; perspectives, and on the shortcomings of the
+current implementations. These notes gather the observations and
+comments thematically, but not strictly chronologically.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span
+style='font-size:14.0pt'>Function</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">Much of the conversation centered on
+discussions of how the scholar works, and would like to work, and
+how OAI may be able to aid and support those working habits.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>There was very high value placed on being
+able to find quickly archival material on a subject. This was
+seen to be the single best potential for OAI services of the sort
+that we demonstrated.</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>Gathering:</i> Lots of interest in the
+creation of virtual collections, a personal book bag (gathering)
+feature, and the ability to make collections that can be shared
+with a class, or with a scholarly community. A common desire was
+to be able to capture metadata records and manipulate them
+locally, perhaps in a citations program such as EndNote. This is
+a version of the desire to be able to capture the content itself
+into a local &ldquo;filing cabinet&rdquo;, personal digital
+library, or annotations tool. This desire to gather, hoard, and
+annotate pre-dates the Web (it recalls John Unsworth&rsquo;s
+discussions of basic behaviors and academic practice of what he
+calls &ldquo;scholarly primitives&rdquo;), but is all the more
+understandable in light of the concern that a resource may not be
+there when next you return to its URL (&ldquo;link
+rot&rdquo;).</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>Metadata alongside the data:</i> There
+was a clear desire to have the metadata available at the point
+that one views the data object. At present, the OAI record
+typically includes a URL to the object, but once you follow the
+link the metadata disappears&mdash;the user cannot access it from
+the library page on which the resource exists. We see the
+metadata as a finding tool; the scholars clearly saw its value as
+a reference or citation once the object was on the screen.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>Alerting and Profiles of Interest:</i>
+High value was attached to any sort of alerting services if one
+can be specific enough about what one wants. Problems seen: too
+many alerts if too general; no alerts if too specific.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>Multi-searching</i>: If one gets no
+result in an OAI search, the OAI service could send your search
+on to Google. This led us to look at Amazon&rsquo;s A9 and to
+discuss briefly the pros and cons of such rich but crowded
+displays.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><i>Browsing</i>: There was a good deal of
+interest in being able to browse by subject and by collection, as
+well as being able to find items via search.</p>
+<p class="MsoNormal"><b><span
+style='font-size:14.0pt'>&nbsp;</span></b></p>
+<p class="MsoNormal"><b><span
+style='font-size:14.0pt'>Context</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">There was a need for the services to be much
+clearer about whether a record was for an item or a collection,
+and to have better connections between the two. Can you easily
+see the collection in which an item belongs?</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">There was considerable confusion in how the
+search results are sorted when they come back&mdash;the main
+desire seemed to be to sort item results first by the collection
+they belong to, and by their subject, and only then by
+institution.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">One of the acknowledged strengths of OAI
+over the Web search tools is that you have fields by which to
+limit a search&mdash;for example, subject, date, or author.
+However, when not every record in an aggregated collection has --
+say -- subject terms, it was thought to be helpful to know how
+much or how little of the catalog you are searching if you invoke
+a limiter. That is, within OAIster&rsquo;s 5 million records, how
+many are you searching if you use a &ldquo;subject&rdquo;
+limitation?</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span
+style='font-size:14.0pt'>Authority</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">How often is a record for an item created by
+someone other than the author/owner/creator of the resource? One
+scholar found a record for one of his own Web resources in both
+HUMBUL in the UK and in the DLF collections registry, neither of
+which he had had a hand in creating or knew anything about. Can
+you always tell if it is a third party who is the source for a
+collection or item description? Are these as trustworthy?</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span style='font-size:14.0pt'>Appearance
+and Usability</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">There was a strong feeling that the services
+we demonstrated were too &ldquo;library-focused&rdquo;&mdash;they
+gave too much priority to the name of the institution from which
+an object came&mdash;this was seen as good PR for the library but
+not a particularly useful thing for the scholar to know (at
+least, not of prime value earlier in the searching process). The
+item and its collection are of prime importance, not the
+institution that holds the item.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The interfaces did not have the look of
+something that is easy, approachable, and useful&mdash;they
+looked dense and ponderous (like finding aid services, said one
+scholar who had obviously had a bad experience on a special
+collections Web site).</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">As seen elsewhere, we also saw a clear
+desire for the search tool to mimic Google in its initial search
+screens and in the layout of the results returned&mdash;simple
+search first, and then advanced search one layer down; simple
+display first, and then full-record display, with record fields
+names visible. A suggestion was to put in the users&rsquo;
+control the decision of whether results came back in a short form
+or in a full record view initially.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The use of a thumbnail image in the metadata
+record and the "text grabber" function Tom Habing described were
+considered to be very useful indeed, which are part of &nbsp;the CIC
+OAI project.&nbsp; The search interface with the thumbnails is the
+"Keyword search" located at: <a
+href="http://nergal.grainger.uiuc.edu/cgi/b/bib/oaister">http://nergal.grainger.uiuc.edu/cgi/b/bib/oaister</a>
+.&nbsp; Only 10-20% of the records have thumbnails at present; to see
+them in action try any of the following searches:</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='text-indent:.5in'>"steel mill"</p>
+<p class="MsoNormal" style='text-indent:.5in'>"war damage"</p>
+<p class="MsoNormal" style='text-indent:.5in'>"illinois
+river"</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">CIC also uses thumbshots, which are shrunken
+screen captures of web pages, in their "Collection Browse"
+located at: <a
+href="http://cicharvest.grainger.uiuc.edu/colls/collections.asp">http://cicharvest.grainger.uiuc.edu/colls/collections.asp</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">Several times we heard comments about the
+importance of the name of the service, marketing it to scholars,
+and explaining how this is different to a mini-Google. We were
+encouraged to stress the fact that this material is largely
+scholarly and often comes from archives, special collections, and
+museums. That is, it collects together material that these
+scholars are interested in and that they often have a hard job
+finding.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span
+style='font-size:14.0pt'>Tools</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">Finally, there was considerable interest in
+tools for harvesting OAI and for creating it for their own
+material.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span style='font-size:14.0pt'>Most
+Valued Services</span></b></p>
+<p class="MsoNormal"><span style='font-size:14.0pt'>&nbsp;</span></p>
+<p class="MsoNormal">As an exercise late in the meeting, we
+summarized the features that they felt collectively were of most
+utility&mdash;a wish-list, untempered by our ability to deliver
+them all. The first two, when put to a vote, were considered most
+valuable of all.</p>
+<p class="MsoNormal"><span style='font-size:14.0pt'>&nbsp;</span></p>
+<p class="MsoNormal" style='margin-left:.5in'>a) The ability for
+the user to download the metadata in a fielded or tagged format,
+for use locally (in a bibliography, personal library tool, in
+EndNote, etc)</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>b) Tools to aid
+institutions&mdash;especially those with rich holdings but
+limited technical expertise&mdash;to create sharable metadata</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>c) Thumbgrabber /
+textgrabber services to enrich metadata records with snippets of
+the content they describe</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>d) Metadata
+conversion/migration tools for individual users</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>e) Multi-search of
+OAI repositories alongside Google, etc.</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>f) The ability to
+find an item and invoke a &ldquo;More Items Like This&rdquo;
+service</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>g) Alerting
+services</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>h) The ability to
+search abstracts where they occur</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>i) Annotation by
+user (Wiki-like?)</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>j) Clustering and
+categorization by subject for browsing/searching (&ldquo;search
+within&rdquo;)</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>k)
+Normalization</p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>l) Display
+collection name/institution name for item</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Next Steps</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The meeting concluded with a sense that we
+had learned a lot about the scholars&rsquo; reactions to services
+and digital library protocols that we were familiar with but
+which were largely new to our scholarly advisors.&nbsp; It also
+underscored how useful it is to have such a panel of experts as a
+part of the planning and development of a research and
+demonstration grant such as this one, and not simply as
+commentators on a finished service built &ldquo;on
+spec.&rdquo;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">The Scholars&rsquo; Advisory Panel remains
+in place (along with a Technical Advisory Panel) for the duration
+of the grant and we will be convening them again by phone and in
+person as we move into the second half of the project.</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">In the meantime, we are analyzing their
+comments and service &ldquo;wish lists&rdquo; to see how quickly
+we can offer up prototypes of services for them to react to that
+are guided by their sense of what would be most useful.&nbsp; There
+are over 30,000 OAI records for four DLF member organizations
+that already have MODS metadata in them, and it will be with
+these richer records that we will test out the scholar-driven OAI
+prototype services.</p>
+<p class="MsoNormal">&nbsp;</p>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br
+clear="all" style='page-break-before:always' />
+</span> 
+<p class="MsoNormal"><b><span style='font-size:14.0pt'>Selected
+Resources Referred to in the Course of the Meeting</span></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>The Open Archives Initiative
+(OAI)</b></p>
+<p class="MsoNormal"><a
+href="http://www.openarchives.org/">www.openarchives.org</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><i>The Distributed Library: OAI for
+Digital Library Aggregation.</i></b> IMLS 2004 National
+Leadership Grant for Libraries, Research and Demonstration. The
+current DLF grant.</p>
+<p class="MsoNormal"><a
+href="/architectures/oai/index.htm">http://www.diglib.org/architectures/oai/index.htm</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>OAI-based Services</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Grainger
+Engineering Library at University of Illinois at
+Urbana-Champaign:</b> Search OAI Information in Engineering,
+Computer Science, and Physics <a
+href="http://g118.grainger.uiuc.edu/engroai/">http://g118.grainger.uiuc.edu/engroai/</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>OAIster</b>: an
+example of an OAI service that aims to include every OAI record
+that points to a digital object &nbsp;<a
+href="http://www.oaister.org/o/oaister/">http://www.oaister.org/o/oaister/</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Index to the DLF
+OAI Portal:</b> under development for this project. A portal for
+all OAI records (items and collections) from DLF institutions</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://www.hti.umich.edu/cgi/b/bib/bib-idx?c=imls">http://www.hti.umich.edu/cgi/b/bib/bib-idx?c=imls</a></p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://www.hti.umich.edu/cgi/b/bib/bib-idx?c=imls;page=simple">
+http://www.hti.umich.edu/cgi/b/bib/bib-idx?c=imls;page=simple</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>An Experimental
+OAI Registry at UIUC:</b> of use principally to builders of OAI
+services <a
+href="http://gita.grainger.uiuc.edu/">http://gita.grainger.uiuc.edu/</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Examples of OAI
+records from the Library of Congress</b>: see the raw material
+that OAI service providers gather</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://memory.loc.gov/cgi-bin/oai2_0?verb=ListSets">http://memory.loc.gov/cgi-bin/oai2_0?verb=ListSets</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>The Southern
+Digital Archives Conspectus:</b> This website documents the
+library- and museum-produced, open access digital collections
+currently available on the topics of history, literature, and
+culture in the U.S. South from the Colonial Period (beginning
+1605) to the present. &nbsp;<a
+href="http://southconspectus.library.emory.edu/">http://southconspectus.library.emory.edu/</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>The CIC OAI
+project:</b> Access to digital library resources of major
+Midwestern universities (CIC -- Committee on Institutional
+Cooperation).</p>
+<p class="MsoNormal" style='text-indent:.5in'><a
+href="http://cicharvest.grainger.uiuc.edu/">http://cicharvest.grainger.uiuc.edu/</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Other Services</b></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal"><b>Community-built resources</b></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Wikipedia</b>:
+an example of a community-built, Wiki-based resource</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://www.wikipedia.org/">http://www.wikipedia.org/</a></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Multi-Search</b></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>A9:</b>
+Amazon&rsquo;s multi-search tool that allows one simultaneously
+to search Amazon, Google, and other services. <a
+href="http://a9.com/">http://a9.com/</a></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal"><b>Mass Digitization</b></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>Google Print
+(incorporating Google Library)</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://print.google.com/">http://print.google.com/</a></p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://print.google.com/googleprint/about.html">http://print.google.com/googleprint/about.html</a></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal"><b>Directories of resources</b></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal" style='text-indent:.5in'>Humbul Humanities
+Hub</p>
+<p class="MsoNormal" style='text-indent:.5in'><a
+href="http://www.jisc.ac.uk/index.cfm?name=collections_humbul&amp;src=alpha">
+http://www.jisc.ac.uk/index.cfm?name=collections_humbul&amp;src=alpha</a></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal"><b>Tools</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>TAPOR</b>:
+digital tools for the humanities</p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://tapor2.mcmaster.ca/TaporMain/portal/portal">http://tapor2.mcmaster.ca/TaporMain/portal/portal</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Greenstone:</b>
+digital library in a box, with OAI support <a
+href="http://www.greenstone.org/">http://www.greenstone.org</a></p>
+<p class="MsoNormal"><b>&nbsp;</b></p>
+<p class="MsoNormal"><b>Other Resources</b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" style='margin-left:.5in'>Martha Brogan,
+<b><i>A Kaleidoscope of Digital American Literature</i></b>: An
+e<span class="artcopy">xploration of what digital resources offer
+to the study of American literature.</span></p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="/pubs/brogan0505/">http://www.diglib.org/pubs/brogan0505/</a></p>
+<p
+style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in; margin-bottom:.0001pt'>
+<b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>&nbsp;</span></b></p>
+<p
+style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in; margin-bottom:.0001pt'>
+<b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>Library of
+Congress Authority records:</span></b> <span
+style='font-size:12.0pt; font-family:"Times New Roman"'>An
+authority record is a tool used by librarians to establish forms
+of names (for persons, places, meetings, and organizations),
+titles, and subjects used on bibliographic records. Authority
+records enable librarians to provide uniform access to materials
+in library catalogs and to provide clear identification of
+authors and subject headings. For example, works about "movies,"
+"motion pictures," "cinema," and "films" are all entered under
+the established subject heading "Motion pictures."</span></p>
+<p
+style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in; margin-bottom:.0001pt'>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><a
+href="http://authorities.loc.gov/">http://authorities.loc.gov/</a></span></p>
+<p
+style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in; margin-bottom:.0001pt'>
+<span
+style='font-size:12.0pt;font-family:"Times New Roman"'>&nbsp;</span></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Digital Promise
+Coalition&rsquo;s Digital Opportunity Investment Trust</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><a
+href="http://www.digitalpromise.org/">http://www.digitalpromise.org/</a></p>
+<p class="MsoNormal" style='margin-left:.5in'>&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+</div>
+
+<!-- End text -->
+
+     <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+    </tr>
+   </table>
+   <p>&nbsp;</p>
+   <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+    Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+   </td>
+ </tr>
+ <tr>
+  <td width="192" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="192" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="99" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="99" height="1" /></td>
+  <td width="18" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="18" height="1" /></td>
+  <td width="59" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="59" height="1" /></td>
+  <td width="50" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="50" height="1" /></td>
+  <td width="8" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="8" height="1" /></td>
+  <td width="63" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="63" height="1" /></td>
+  <td width="53" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="53" height="1" /></td>
+ </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

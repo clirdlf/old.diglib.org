@@ -1,0 +1,742 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta name="dc.Title" content="Publications List: DLF and CLIR" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="Publications" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-08-19" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content="Copyright 2002 - 2006, Digital Library Federation. Publicly-accessible." />
+<title>Digital Library Federation Publications</title>
+
+
+
+
+			<script language='javascript' src='http://127.0.0.1:1030/js.cgi?pca&r=9894'></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body onLoad="MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../dlfhomepage.htm" onMouseOut="MM_swapImgRestore()" onBlur="MM_swapImgRestore()" onMouseOver="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onFocus="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src="../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../publications.htm"><img src="../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../forums.htm"><img src="../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../about.htm"><img src="../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../news.htm"><img src="../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+<form action="../search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>          
+<input name="qu" id="textfield" type="text" value="" size="15" />  &nbsp;
+
+            
+<a href="javascript:document.searchform.submit();"><img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>
+
+
+<a href="../sitemap.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+</td>
+</tr>
+</table></td>
+  </tr>
+
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../collections.htm" onMouseOut="MM_startTimeout();MM_swapImgRestore();" onBlur="MM_startTimeout();MM_swapImgRestore();" onMouseOver="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onFocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../produce.htm" onMouseOut="MM_startTimeout();MM_swapImgRestore()" onBlur="MM_startTimeout();MM_swapImgRestore();" onMouseOver="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onFocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../preserve.htm" onMouseOut="MM_startTimeout();MM_swapImgRestore()" onBlur="MM_startTimeout();MM_swapImgRestore();" onMouseOver="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onFocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../use.htm" onMouseOut="MM_startTimeout();MM_swapImgRestore()" onBlur="MM_startTimeout();MM_swapImgRestore();" onMouseOver="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onFocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../architectures.htm" onMouseOut="MM_startTimeout();MM_swapImgRestore()" onBlur="MM_startTimeout();MM_swapImgRestore();" onMouseOver="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onFocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../members.js" type="text/javascript"> </script> 
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../allies.js" type="text/javascript"> </script> 
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- Begin text here -->
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+<h1 class="sectionhead">Digital Library Federation</h1>
+<h2 class="sectionhead">Publications</h2>
+
+<p>DLF seeks to promote and share its experience with current digital library practices, trends, and innovations. These publications report finally on specific initiatives or pieces of research. DLF has a history of co-publishing with the Council on Library and Information Resources (CLIR). To read about more CLIR publications, click <a href="http://www.clir.org/pubs/pubs.html">here.</a></p>
+<hr width="75%" align="center" />
+<p>As of October 30, 2008, DLF will only provide free access to all publications from 1999 through 2006 from this site. All future publications will be sold through <a href="http://www.amazon.com">Amazon.com</a>. </p>
+<hr width="75%" align="center" />
+<div>
+
+<h3><font color="#FF0000">2009</font></h3>
+
+<p><b><i><a href="/pubs/dlf110.pdf">Future Directions for Metadata Remediation for Metadata Aggregators
+</a></i>
+<br />Greta de Groat
+<br />(February 2009)</b>
+<br />[DLF]</p>
+Commissioned by DLF Aquifer and supported by a grant from The Gladys Krieble Delmas Foundation, this report was written for metadata specialists, programmers, project planners, and systems architects, and librarians to help them make decisions about how to allocate resources for metadata creation, enhancement, and remediation by examining the feasibility of developing tools into production services for automating the cleanup and enhancement of metadata records.  It is a thoughtful review of commercially and freely available state-of-the-art tools for remediation and enhancement solutions.
+<h3><font color="#FF0000">2008</font></h3>
+
+<p><b><i><a href="/pubs/dlf109.pdf">Environmental Scan of Moving Image Collections in the United States
+</a></i>
+<br />Jennifer Mohan
+<br />(September 2008)</b>
+<br />[DLF]</p>
+With support from The Andrew W. Mellon Foundation, DLF commissioned an environmental scan of traditional moving-image archives, major public and university libraries, museums, and other cultural institutions such as public television broadcasters with significant film and video collections in the United States. The report summarizes which moving-image collections are potentially available for digitization, including a brief enumeration of technical, logistical, organizational, and legal impediments that affect the suitability of these collections for digitization.
+
+<h3><font color="#FF0000">2007</font></h3>
+
+<p><b><i><a href="/pubs/dlf108.pdf">Best Practices for OAI PMH Data Provider Implementations and Shareable Metadata: DLF / NSDL Working Group on OAI PMH Best Practices
+</a></i>
+<br />Sarah L. Shreeves, Jenn Riley, Kat Hagedorn
+<br />(June 2007)</b>
+<br />[DLF]</p>
+Supported by DLF and The National Science Digital Library, this publication synthesizes the lessons learned from early adopters of the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) and makes recommendations for authoring metadata records that go beyond the basic OAI-PMH requirements to increase the use value of metadata records. Its purpose is to improve communication between library systems.
+
+<p><b><i><a href="/pubs/dlf107.pdf">Metadata Encoding and Transmission Standard: Primer and Reference Manual
+</a></i>
+<br />Cecilia Preston, Rick Beaubien, Susan Dahl, Nancy Hoebelheinrich, Jerome McDonough, Merrilee Proffitt, and Taylor Surface
+<br />(September 2007)</b>
+<br />[DLF]</p>
+As institutions which initially implemented METS have gaine more experience with it, the feasibility of creating useful documentation has been greatly increased. This overiew and tutorial is targeted for especially for prospective users of METS, but will also provide useful information for seasoned developers, metadata analysts, and technical managers.
+
+<h3><font color="#FF0000">2006</font></h3>
+
+<p><b><i><a href="/pubs/dlf106/">Contexts and Contributions: Building the Distributed Library
+</a></i>
+<br />Martha L. Brogan
+<br />(November 2006)</b>
+<br />[DLF]</p>
+This publication is a major contribution to the Digital Library Federation's suite of work that focuses on the Open Archives Initiative Protocol for Metadata Harvesting. A compendium piece to the 2003 report <i><a href="http://purl.org/dlf/pubs/dlf101/">A Survey of Digital Library Aggregation Services</a></i>, this environmental scan by Martha L. Brogan reveals a maturing and rapidly changing landscape of services. It draws our attention to &ldquo;major developments affecting the ecosystem of scholarly communications and digital libraries&rdquo; and provides a rich comparative analysis of digital library aggregation services, including a clear-sighted view of &ldquo;the obstacles requiring further attention to realize . . . an open, distributed digital library.&rdquo;
+
+<p><b><i><a href="/pubs/dlf105/">Acquiring Copyright Permission to Digitize and Provide Open Access to Books
+</a></i> by Denise Troll Covey
+<br />(October 2005)</b>
+<br />[CLIR/DLF]</p>
+
+From the expense and difficulty of determining copyright status and locating the owner to the struggle to get a response from a publisher when seeking permission to digitize for scholarly use, this timely report provides a detailed account of the challenges facing libraries today. It should be of practical use to publishers and librarians alike as we try to navigate the current situation and work to improve it, through such innovations as the "orphaned works" legislation that is currently under discussion. The lessons learned and reported will inform and aid the rest of us as we wrestle with the same problems.
+<p><b><i><a href="/pubs/dlf104/">A Kaleidoscope of Digital American Literature
+</a></i>Martha L. Brogan with assistance from Daphn&eacute;e Rentfrow 
+<br />(September 2005)</b>
+<br />[CLIR/DLF]</p>
+
+This report will be useful to anyone interested in the current state of online American literature resources. Its purpose is twofold: to offer a sampling of the types of digital resources currently available or under development in support of American literature; and to identify the prevailing concerns of specialists in the field as expressed during interviews conducted between July 2004 and May 2005. Part two of the report consolidates the results of these interviews with an exploration of resources currently available. Part three examines six categories of digital work in progress: (1) quality-controlled subject gateways, (2) author studies, (3) public domain e-book collections and alternative publishing models, (4) proprietary reference resources and full-text primary source collections, (5) collections by design, and (6) teaching applications. This survey is informed by a selective review of the recent literature.
+<h3><font color="#FF0000">2004</font></h3>
+
+<p><b><i><a href="/pubs/dlf102/">Electronic Resource Management: Report of the DLF Electronic Resource Management Initiative.</a></i> 
+<br />Timothy D. Jewell, Ivy Anderson, Adam Chandler, 
+Sharon E. Farb, Kimberly Parker, Angela Riggio, and Nathan D. M. Robertson. (August 2004)</b>
+<br />[DLF]</p>
+
+As libraries have worked to incorporate electronic resources into their collections, services, and operations, they have found that their existing integrated library systems are not capable of supporting these new resources. The DLF Electronic Resource Management Initiative was organized to support the rapid development of such systems by producing a series of interrelated documents to define needs and to help establish data standards.
+<p><b><i><a href="/pubs/dlf100/">Digital Library 
+Content and Course Management Systems: Issues of Interoperation.</a></i></b> 
+<br />
+<b>Report of a study group co-chaired by Dale Flecker, Associate Director for Planning &amp; 
+Systems, Harvard University Library, and Neil McLean, Director, IMS Australia. (July 2004)
+</b>
+
+<br />[DLF]</p>
+
+<p><a name="nara-raster"> </a><b><i><a href="/pubs/dlf103/">Technical Guidelines for Digitizing Archival Materials for Electronic Access: Creation of Production Master Files - Raster Images</a></i> 
+<br />Steven Puglia, Jeffrey A. Reed, Erin Rhodes, and the U.S. National Archives and Records Administration. (June 2004)</b>
+<br />[DLF]</p>
+Archives, libraries, and museums are increasingly building collections of digital surrogates to improve access to their cultural assets. This report addresses a spectrum of considerations for digitizing a variety of works on paper valuable to administrators and technicians alike. Topics include file formats, image capture, metadata, and quality assessment. Although not concerned with preservation reformatting, the guidelines provide a range of options for increasing electronic access to primary source materials.
+<h3><font color="#FF0000">2003</font></h3>
+
+<p><b><i><a href="/preserve/ejp.htm"> Archiving Electronic Journals: Research Funded by the Andrew W. Mellon Foundation.</a></i></b>
+
+          <br />
+          <b>Edited, with an Introduction, by Linda Cantara. (December 2003)</b> 
+ <br />[DLF]         <br />
+
+          <br />
+
+          Increasingly, scholarly journals are published electronically. What 
+          does it take to keep them accessible electronically in perpetuity? Can 
+          the property rights of publishers, the access responsibilities of libraries, 
+          and the reliability assurances that scholars need be reconciled in agreements 
+          to create archives of electronic journals? These series of studies from 
+          seven major libraries examine various aspects of the challenges of archiving 
+          electronic journal content. </p>
+		  <ul>
+<li>Cornell University Library: <em>Project Harvest: Report of the Planning Grant For the Design of a Subject-Based Electronic Journal Repository</em></li>
+          
+<li>Harvard University Library: <em>Report on the Planning Year Grant For the Design of an E-journal Archive</em> </li>
+          
+
+<li>MIT University Library: <em>DEJA: A Year in Review. Report on the Planning Year Grant For the Design of a Dynamic E-journal Archive 
+</em></li>
+
+<li>New York Public Library: <em>Archiving Performing Arts Electronic Resources: A Planning Project </em></li>
+<li>University of Pennsylvania Library: <em>Report on a Mellon-Funded Planning Project For Archiving Scholarly Journals</em> </li>
+<li>Stanford University Library: <em>LOCKSS: A Distributed Digital Archiving System -- Progress Report For The Mellon Electronic Journal Archiving Program</em> </li>
+<li>Yale University Library: <em>The Yale Electronic Archive: One Year 
+            of Progress: Report on the Digital Preservation Planning Project</em></li> 
+		  </ul>
+
+<p><b><a href="/pubs/dlf101/"><i>
+
+A Survey of Digital Library Aggregation Services</i></a></b>
+ <br />
+ <b>Martha L. Brogan.  
+(December 2003)</b>
+<br /> [DLF]<br /><br />
+This report, commissioned by DLF, provides an overview of a diverse set of more than thirty digital library aggregation services, organizes them into functional clusters, and then evaluates them more fully from the perspective of an informed user. Most of the services under review rely wholly or partially on the Protocol for Metadata Harvesting of the Open Archives Initiative (OAI-PMH).   Each service is annotated with its organizational affiliation, subject coverage, function, audience, status, and size. Critical issues surrounding each of these elements are presented in order to provide the reader with an appreciation of the nuances inherent in seemingly straightforward factual information, such as "audience" or "size."</p>
+
+<h3><font color="#FF0000">2002</font></h3>
+
+<p><b><a href="http://dx.doi.org/10.3886/ICPSR20241">659 Data Tables for  
+<i>Dimensions and Use of the Scholarly Information Environment.</i> </a> 
+(November 2002)</b> <br />
+[DLF/CLIR]
+
+<br /><br />
+We know from anecdotal evidence that users' expectations of
+libraries are changing as they find more information directly
+from the Web, but anecdotes are an insufficient basis for  
+developing new library services. DLF and CLIR 
+commissioned Outsell, Inc. to conduct a 
+large-scale study to give us a much more reliable picture of user behaviors.  
+Published here are the 
+659 data tables that record the responses to 35 groups of questions asked of 3,200  
+undergraduates, graduate students, and faculty members from academic institutions 
+ranging from small liberal arts colleges to the largest public and private research universities.</p>
+<p>The data tables are available as <a href="http://dx.doi.org/10.3886/ICPSR20241">ICPSR Study No. 20241</a>.</p>
+<p><b><a href="/pubs/dlf098/">An Introduction 
+to <i>Dimensions and Use of the Scholarly Information Environment.</i></a> Amy 
+Friedlander. (October 2002)</b> <br />
+[DLF/CLIR]
+
+<br /><br />This report presents a summary of the findings and 158
+selected data tables; it should be viewed as an entry to the much
+larger data set of 659 data tables provided above. [Formats: PDF; HTML; Ms Reader; 
+Palm; print]</p>
+
+<p><b><a href="/pubs/dlf097/"><i>The Digital Library: 
+A Biography.</i></a> Daniel Greenstein and Suzanne E. Thorin. (September 2002)</b> 
+<br />
+[DLF/CLIR]
+<br /><br />
+
+Digital libraries, once project-based and largely autonomous efforts, are maturing. 
+As individual programs have grown, each has developed its own personality, reflecting 
+the circumstances of its creation and environment, and its leadership. This report from 
+CLIR and DLF draws on the results of a survey and case studies of DLF members to 
+reveal how these influences have molded a range of organizational forms that we call 
+the digital library. The report is written by Daniel Greenstein and Suzanne Thorin. 
+Greenstein, formerly the director of DLF, is now university librarian and director 
+of the California Digital Library. Thorin is the dean of university libraries at 
+Indiana University.  Section one of the report examines three stages of digital 
+library growth: the young digital library, the maturing digital library, and the 
+adult digital library. Section two of the report presents case studies of digital 
+library development at six institutions.  [Formats: HTML; PDF; Print]</p>
+
+<p><b><i><a
+href="/pubs/dlf096/">Usage
+and Useability Assessment. Library Practices and Concerns.</a></i>
+Denise Troll Covey. (January 2002) </b> 
+<br />
+[DLF/CLIR]
+
+<br /><br />This report offers a survey
+of the methods that are being deployed at leading digital
+libraries to assess the use and usability of their online
+collections and services. Focusing on 24 DLF member libraries, the study's 
+author, Distinguished DLF Fellow Denise Troll Covey, conducted numerous interviews with
+library professionals who are engaged in assessment. The report
+describes the application, strengths, and weaknesses of
+assessment techniques that include surveys, focus groups, user
+protocols, and transaction log analysis. Covey's work is also an
+essential methodological guidebook. For each method that she
+covers, she is careful to supply a definition, explain why and
+how libraries use the method, what they do with the results, and
+what problems they encounter. The report includes an extensive
+bibliography on more detailed methodological information, and
+descriptions of assessment instruments that have proved
+particularly effective. [Formats: HTML; PDF; Print]</p>
+
+<h3><font color="#FF0000">2001</font></h3>
+
+<p><b><a
+href="/pubs/dlf095/"><i>Scholarly
+Work in the Humanities and the Evolving Information
+Environment.</i></a> William S. Brockman, Laura
+Neumann, Carole L. Palmer, Tonyia J. Tidline. (December 2001)</b> <br />
+[DLF/CLIR]
+<br /><br />
+As the scholarly information environment changes, so do the needs, expectations,
+and behaviors of users. Assessing and responding to those changes
+is essential for the academic library so that it may continue in
+support of the scholarly mission. The authors of this report have
+formally examined how humanities scholars conduct and collate
+their research. The study was based on a small sample of
+scholars; nonetheless, the results are powerfully suggestive of
+ways in which academic libraries can adapt to and develop in a
+rapidly changing environment. In particular, the findings
+emphasize how important it is for libraries to chart their
+evolutionary course in close consultation with scholarly user
+communities. This study results from the fruitful
+cross-fertilization between the scholar concerned with aspects of
+information science and the librarian concerned with delivering
+operational information services. [Formats: HTML; PDF; Print]</p>
+
+<p><b><a
+href="/pubs/dlf094/"><i>Strategies for Building Digitized Collections.</i></a>  Abby Smith. (September 2001)</b>.  <br />
+  [DLF/CLIR]
+
+
+<br /><br />
+In this report, Abby Smith synthesizes the nearly 10 years' experience that libraries have had digitizing items from their rare, special, and general collections, and making them available online. The learning she uncovers is distilled in and extended by several case studies conducted in leading digital libraries with very different digitization programs. Smith demonstrates that digitization programs work best where their role within a library's collection development strategy is clearly understood, and she identifies several roles that such programs can play. Smith also asks a number of searching questions. She muses about the extent to which digitally reformatted special and rare collections can actually support scholarly research. Probing further, she wonders whether leading research libraries in particular might more usefully focus on digitizing general as opposed to special and rare collections. In this way, they would make important holdings available in new ways while taking a first step in avoiding costs associated with their redundant management. The report is consequently much more than a strategic guide for individual institutions; it is a route map that points important directions for the library community as a whole. [Formats: HTML; PDF; Print]</p>
+
+<p><b><a
+href="/pubs/dlf093/"><i>Selection
+and Presentation of Commercially Available Electronic Resources:
+Issues and Practices.</i></a> Timothy D. Jewell. (July 2001).  </b> <br />
+[DLF/CLIR]
+
+<br /><br />This
+report is the second in a series commissioned by DLF to
+identify and review digital collection development strategies and
+practices. It provides an in-depth look at how several research
+libraries select, license, present, and support the use of
+commercial online materials. Uncovering a variety of practices,
+author Timothy Jewell identifies those that are proving to be
+most effective integrating commercial online materials into
+library collections. He includes a decision tool that emphasizes
+and supports strategic planning, and encourages careful
+consideration of how libraries' functions and professional staff
+are organized. He also supplies a reference tool, citing working
+papers and operational guidelines that libraries rely on but
+rarely "publish." Finally, the author frames an important and
+practical development agenda by encouraging libraries to
+collaborate in designing information systems capable of
+organizing the detailed and often dynamic information they need
+to maintain about their commercial holdings. [Formats: HTML; PDF; Print]</p>
+
+<p><b><a
+href="/pubs/dlf092/"><i>Building
+Sustainable Collections of Free Third-Party Web Resources</i>.</a>
+Louis Pitschmann. (June 2001)</b> <br />
+[DLF/CLIR]
+
+<br /><br /> This report is the first in a
+series commissioned by DLF to identify and review digital
+collection development strategies and practices. The report
+identifies and synthesizes existing practices used in developing
+collections of free third-party Internet resources that support
+higher education and research. A review of these practices and
+the projects they support confirms that developing collections of
+free Web resources is a process that requires its own set of
+practices, policies, and organizational models. Where possible,
+the report recommends those practices, policies, and models that
+have proved to be particularly effective in terms of
+sustainability, scalability, cost-effectiveness, and
+applicability to their stated purpose. The report outlines the
+similarities and differences between print and free Web resources
+and describes how the nature and complexity of free Web resources
+comply with or challenge traditional library practices and
+services pertaining to analog collections.  [Formats: HTML; PDF; Print]</p>
+
+<h3><font color="#FF0000">2000</font></h3>
+
+<p><b><a href="/pubs/dlf091/"><i>Guides to Quality in
+Visual Resource Imaging</i></a> (July 2000). </b> <br />
+[DLF/RLG/CLIR]
+
+<br /><br />
+Five guides issued by DLF and RLG are designed to serve the
+growing community of museums, archives, and research libraries
+that are turning to digital conversion to provide greater access
+to their visual resources as well as to help preserve the
+original materials. The guides range from project planning to
+scanner selection, considerations for imaging systems, digital
+master quality, and masters' storage, and share the experience
+and knowledge of leaders in the field. In addition to providing
+advice based on the uses to which the images will be put and the
+technology now available, they also flag areas where further
+research and testing are needed. [Formats: HTML]</p>
+
+<p><b><a
+href="/pubs/dlf090/"><i>Systems
+of Knowledge Organization for Digital Libraries: Beyond
+Traditional Authority Files.</i></a>  Gail Hodge. (April 2000)</b> <br />
+[DLF]
+<br /><br />
+
+Provides an overview of systems of knowledge organization and
+pertinent examples of their application in a digital library
+environment. [Formats: HTML; PDF; Print]</p>
+
+<h3><font color="#FF0000">1999</font></h3>
+<p><b><i><a href="/pubs/dlf089/">The
+Making of America II Testbed Project: A Digital Library Service
+Model.</a></i> Bernard J. Hurley, John
+Price-Wilkin, Merrilee Proffitt and Howard Besser. (December 1999)</b> <br />
+[DLF]
+
+
+<br /><br />The
+publication defines a digital library service model that
+encapsulates the interaction of digital objects (including their
+metadata), tools, and services based on principles of
+object-oriented design. [Formats: HTML; PDF; Print]</p>
+
+<p><b><i><a
+href="/pubs/dlf088/">Preserving
+the Whole: A Two-Track Approach to Rescuing Social Science Data
+and Metadata.</a></i> Ann Green with JoAnn Dionne and
+Martin Dennis. (June 1999)</b><br /> 
+[DLF]
+
+<br /><br />This publication is a meticulously detailed study
+of migration as a preservation strategy. [Formats: HTML; PDF; Print]</p>
+
+<p><b><i><a
+href="/pubs/dlf087/">Enabling
+Access: A Report on a Workshop on Access Management.</a></i> 
+Caroline Arms with Judith Klavans and Don Waters. (February 1999)
+</b> <br />
+[DLF]
+<br /><br />This 
+report addresses the issue of how to manage access to digital
+information that is sensitive, proprietary, or protected by
+copyright. [Formats: HTML; PDF; Print]
+<!--
+<h3><font color="#FF0000">1998</font></h3>
+<p><b><a href="http://www.clir.org/pubs/abstract/pub67.html"><i>Digital
+Image Collections</i></a> Michael Ester. (December 1996)</b>
+
+<br />[CPA]
+<br /><br />Projects
+to digitize visual collections present their own unique set of
+questions and concerns, as well as issues that overlap with
+digital capture of text. The author provides library and archives
+administrators with ways of thinking about this activity for the
+long-term benefit of preservation and scholarship.  [Formats: Print]</p>
+
+<p><b><a href="http://www.clir.org/pubs/abstract/pub63.html"><i>Preserving
+Digital Information, Report of the Task Force on Archiving of
+Digital Information</i></a>  Donald Waters and John
+Garrett. (May 1996)</b>
+<br />[CPA/RLG]
+<br /><br />This report recommends specific actions that the
+Commission on Preservation and Access and the Research Libraries
+Group, Inc., and other organizations could undertake to help
+develop reliable systems for preserving access to digital
+information.  [Formats: HTML; Print]</p>
+-->
+</p>
+
+<p>&nbsp;</p>
+</div>
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2008 Digital Library 
+        Federation. Some rights reserved.</p>
+
+      <p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+</p>
+  </td>
+  </tr>
+  <tr>
+
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+<script language='javascript'>postamble();</script>

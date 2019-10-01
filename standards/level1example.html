@@ -1,0 +1,302 @@
+<html>
+   <head>
+      <title>Level 1 Example</title>
+      <style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+</style>
+
+   </head>
+
+   <body>
+      <h3>Level 1 Example</h3>
+      <p>This example was given by the University of Michigan Library. It is a very small work from the "Making of
+         America" project. The example illustrates that the emphasis in "Level 1" texts is on the descriptive and
+         administrative metadata contained in the &lt;teiHeader&gt; and conveying the textual object as a series
+         of page images with loosely-encoded dirty OCR (usually not displayed) for searching.</p>
+      <p>The breaking up of each page into a paragraph (&lt;p&gt;) chunk is one of Michigan's local practices
+         used for navigation purposes.</p>
+      <p>Again, this type of markup is typically used for high-volume production projects of which "Making of America"
+         is an excellent example. To see what how this XML functions in published context, <a
+            href="http://www.hti.umich.edu/cgi/b/bib/bibperm?q1=adg9061.0001.001">go here</a>.</p>
+      <hr/>
+      <pre>
+<span class="element">&lt;!DOCTYPE TEI.2 SYSTEM "C:\work\tools and support programs\dtds\teixlite.dtd"&gt;</span>
+<span class="element">&lt;TEI.2&gt;</span>
+   <span class="element">&lt;teiHeader&gt;</span>
+	<span class="element">&lt;fileDesc&gt;</span>
+		<span class="element">&lt;titleStmt&gt;</span>
+			<span class="element">&lt;title type="245"&gt;</span>The Wade-Davis manifesto. A last appeal to the democracy. By Caspar Butz.<span class="element">&lt;/title&gt;</span>
+			<span class="element">&lt;author&gt;</span> Butz, Caspar, 1825-1885.<span class="element">&lt;/author&gt;</span>
+		<span class="element">&lt;/titleStmt&gt;</span>
+		<span class="element">&lt;extent&gt;</span>4 600 dpi G4 TIFF images<span class="element">&lt;/extent&gt;</span>
+		<span class="element">&lt;publicationStmt&gt;</span>
+			<span class="element">&lt;publisher&gt;</span>University of Michigan Library<span class="element">&lt;/publisher&gt;</span>
+			<span class="element">&lt;pubPlace&gt;</span>Ann Arbor, Michigan<span class="element">&lt;/pubPlace&gt;</span>
+			<span class="element">&lt;date&gt;</span>2005<span class="element">&lt;/date&gt;</span>
+			<span class="element">&lt;idno type="dlps"&gt;</span>ADG9061.0001.001<span class="element">&lt;/idno&gt;</span>
+			<span class="element">&lt;idno type="lccallno"&gt;</span>E458.4 .B99<span class="element">&lt;/idno&gt;</span>
+			<span class="element">&lt;availability&gt;</span>
+				<span class="element">&lt;p&gt;</span>These pages may be freely searched and displayed. Permission must be received for 
+subsequent distribution in print or electronically. Please go to http://www.umdl.umich.edu/ for more information.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/availability&gt;</span>
+		<span class="element">&lt;/publicationStmt&gt;</span>
+		<span class="element">&lt;sourceDesc&gt;</span>
+			<span class="element">&lt;biblFull&gt;</span>
+			  <span class="element">&lt;titleStmt&gt;</span>
+				<span class="element">&lt;title type="245"&gt;</span>The Wade-Davis manifesto. A last appeal to the democracy. By Caspar Butz.<span class="element">&lt;/title&gt;</span>
+				<span class="element">&lt;author&gt;</span> Butz, Caspar, 1825-1885.<span class="element">&lt;/author&gt;</span>
+			  <span class="element">&lt;/titleStmt&gt;</span>
+			  <span class="element">&lt;extent&gt;</span>[4] p.  27 cm.  <span class="element">&lt;/extent&gt;</span>
+			  <span class="element">&lt;publicationStmt&gt;</span>
+			  <span class="element">&lt;pubPlace&gt;</span>[Chicago?<span class="element">&lt;/pubPlace&gt;</span>
+			  <span class="element">&lt;date&gt;</span>1864]<span class="element">&lt;/date&gt;</span>
+			  <span class="element">&lt;/publicationStmt&gt;</span>
+			  <span class="element">&lt;notesStmt&gt;</span>
+				<span class="element">&lt;note&gt;</span>Caption title.<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>At head of title: Printed by order of the Fremont central committee.<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>"From the German American monthly for September."<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>"Messr. Wade and Davis ... propose to hold a new convention ... 
+in order to trot out a new presidential candidate against Mr. Lincoln, in case ... [he] does not ... withdraw voluntarily ... 
+We only know of one man, who ... can ... re-establish this Union, and his name is John C. Fremont.--p. [2], [4]<span class="element">&lt;/note&gt;</span>
+			  <span class="element">&lt;/notesStmt&gt;</span>
+			<span class="element">&lt;/biblFull&gt;</span>
+		<span class="element">&lt;/sourceDesc&gt;</span>
+		<span class="element">&lt;/fileDesc&gt;</span>
+		<span class="element">&lt;encodingDesc&gt;</span>
+			<span class="element">&lt;projectDesc&gt;</span>
+				<span class="element">&lt;p&gt;</span>Header created with script mrcb2teiutf.xsl on 2005-05-25.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/projectDesc&gt;</span>
+			<span class="element">&lt;editorialDecl n="1"&gt;</span>
+				<span class="element">&lt;p&gt;</span>This electronic text file was created by Optical Character Recognition (OCR). 
+No corrections have been made to the OCR-ed text and no editing has been done to the content of the original document. 
+Encoding has been done using the recommendations for Level 1 of the TEI in Libraries Guidelines. Digital page images are 
+linked to the text file.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/editorialDecl&gt;</span>
+		<span class="element">&lt;/encodingDesc&gt;</span>
+	<span class="element">&lt;profileDesc&gt;</span>
+		<span class="element">&lt;langUsage id="eng"&gt;</span>
+			<span class="element">&lt;language&gt;</span>eng<span class="element">&lt;/language&gt;</span>
+		<span class="element">&lt;/langUsage&gt;</span>
+		<span class="element">&lt;textClass&gt;</span>
+			<span class="element">&lt;keywords&gt;</span>
+				<span class="element">&lt;term&gt;</span>Campaign literature -- United States<span class="element">&lt;/term&gt;</span>
+				<span class="element">&lt;term&gt;</span>Frémont, John Charles, -- 1813-1890.<span class="element">&lt;/term&gt;</span>
+				<span class="element">&lt;term&gt;</span>Lincoln, Abraham, -- 1809-1865.<span class="element">&lt;/term&gt;</span>
+			<span class="element">&lt;/keywords&gt;</span>
+		<span class="element">&lt;/textClass&gt;</span>
+	<span class="element">&lt;/profileDesc&gt;</span>
+   <span class="element">&lt;/teiHeader&gt;</span>
+   <span class="element">&lt;text n="ADG9061.01"&gt;</span>
+	<span class="element">&lt;body&gt;</span>
+	  <span class="element">&lt;div1&gt;</span>
+<span class="element">&lt;p&gt;</span>
+<span class="element">&lt;pb id="p00000001" n="1"/&gt;</span>
+Printed by order of the Fremont Central Committee.
+THE WADE-DAVIS MANIFESTO.
+A Last Appeal to the Democracy.
+BY CASPAR BUTZ.
+[From the German American, Monthly for September.]
+Slowly and by degrees, but for all that the more thoroughly the conviction settles upon the mind
+of the American people, that the continuation, in power of the present administration is equivalent to
+the destruction of the Republic. The fatal error,'which the retainers s of Mr. Lincoln, supported by the
+misguided Union-Leagues, committed at Baltimore, by securing his re-nomination, becomes more patent
+from day to day. The unprincipled Lincoln press has never represented the true opinion of the people,
+and at the same time it never has been successful in poisoning it for a lon- period. Truth always will
+shine out; what we said eight months ago in our "Monthly," at a time when Lincoln seemed to be the
+invincible candidate, is now preached from every house-top' and at every cross-road in the country"Abraham Lincoln 
+is unable to save the Republic."
+The only man to whom Lincoln is beholden for this change in public opinion is Abraham Lincoln
+himself. It is truly said that " some men are born to greatness and that others have greatness thrust
+upon them."  Our present President certainly belongs to the latter class. The cloak of fame which his
+retainers contended to see upon his shoulders, never fitted him; the smutty joker always peeped from
+underneath, and the nation could only be deceived by him for a very short time. It would be better for
+the Republic if Lincoln would at last perceive this; but the'sweet custom of governing and the flatteries
+of his creatures have blinded him to such a degree, that besides playing the part of the " Honest," he
+undertakes to usurp the part of the dictator and his " sic pvolo, sic jubeo" is heard in trumpet tones
+from the White House to the Pacific.
+A Dictatorship commends itself to the respect of even the most energetic nations and in a time of a
+tremendous crisis they suffer, willingly or unwillingly, violations of the constitution and encroachments
+upon their rights, provided, that such violations and encroachments appear to be indispensable for the
+salvation of the commonwealth, and that a Man exercises such usurped prerogatives. But Abraham
+Lincoln, offending the representatives of the nation, and putting his will in the place.of the will of the
+people, is but a caricature of a Dictator. There may be no immediate danger in his usurpations; but
+<span class="element">&lt;/p&gt;</span>
+
+<span class="element">&lt;p&gt;</span>
+<span class="element">&lt;pb id="p00000002" n="2"/&gt;</span>
+here, as in every case, the old maxim, " obsta principiis," must strictly be adhered to, and it is the duty
+of the people to tell the incapable dwarf, who tries to play the part of the giant: Till here and no
+farther!
+This has been done at last. After all the slights and affronts, which "My Lord President" threw into
+the face of his servile Baltimore constituents, after the dismissal of Mr. Chase, by which measure Seward,
+Halleck and Blair, the triumvirate, still more firmly held their grasp upon the weak old man, the proclamation of 
+July 8th appeared. Congress had passed a reconstruction bill as to the Rebel States, if the
+President did not want to sign the bill, there were two ways left for him in regard to it. Either he
+could veto the bill and send it back to the House, where it originated, or, as the bill passed a few days
+before the final adjournment of Congress, he could pocket it and send it back at the next session. He
+did neither of these. He issued a proclamation, couched in the most horrible railsplitting English, and
+declares to the people, that he intends to do with the bill just as he pleases, that he will execute such
+provisions, which meet with his approval, and disregard entirely such which are in conflict with his own
+views. " Car tel est notre plaisir."
+Against this flagrant and wanton violation of the Constitution, two men, whose names are well
+known to the people, and of whose patriotism there can be no doubt, have at last issued their protest. Senator 
+B. F. Wade and Representative Henry Winter Davis, both chairmen of the committees on
+Reconstruction in the respective branches of Congress. It is indeed quite late in the day that the
+gentlemen in question come to a definite conclusion about Mr. Lincoln; Mr. Wade particularly would
+have been more in his place at Cleveland, protesting with us against the mistakes and blunders of the
+President; but for that we do want to arraign him. The protest, from the pen of Winter Davis, if
+certainly not devoid of thought, is still
+" Sicklied o'er with the pale cast of regard"
+but the acid logic of the talented Marylander, although couched in the mildest terms; is a c(ondemnation
+of Lincoln, which annihilates every prospect of his re-election. }is sincere and honest supporters now
+admit he cannot be re-elected.
+It is not within our task to review the said. manifesto in detail, nor is it necessary for us to give an
+account of all the sins which Mr. Lincoln committed after the Baltimore nomination. We are not a
+chronicler of passing events; our readers take their daily papers which furnish them everything worth
+knowing, and all we have to do is to draw our own conclusions. Messrs. Wade and Davis regard their
+protest only as the precursor of a new movement, to be o'rganized by them. They propose to hold a
+new Convention on the 22d of September next (anniversary of Lincoln's Emancipation Proclamation) in
+order to trot out a new Presidential candidate against Mr. Lincoln, in case the latter gentleman does not
+think that " discretion is the better part of valor" and withdraws voluntarily.
+When the friends of Fremont met at Cleveland, they committed (according to the opinion of Mr.
+Lincoln's retainers) a crime, because they " split" the great Union party. Since then Mr. Lincoln, as we
+always supposed he would, has succeeded with such admirable dexterity, to split the great Union party,
+that the proposition of Messrs. Wade and Davis, although the call has not yet appeared, meets with the
+decided approval of a great portion of the Lincoln press. The leading paper of America, the New
+York Tribune, suddenly boils over with the praise of Fremont. It makes the proposition, to let the
+friends of the different candidates vote for the same presidential electors, but head their ballots with the
+names of the candidates for President, etc., and then the'electors should elect the candidates of the
+majority. The proposition might be very acceptable-if the Republican electors had not been pledged
+beforehand for Mr. Lincoln! It is evident even to the blindest supporters of Lincoln, that he cannot be
+re-elected; the desertions from the Lincoln camp now already comprise whole regiments and brigades
+and are still on the increase; the speculating politicians feel that a new star is in the ascendency, but
+<span class="element">&lt;/p&gt;</span>
+
+
+<span class="element">&lt;p&gt;</span>
+<span class="element">&lt;pb id="p00000003" n="3"/&gt;</span>
+,they are not like the sages from the East; the star has as yet not appeared to them. Like the great
+Daniel Webster they cry out in despair: Where shall I go? For the present the all important question
+is, who shall be the successor of Abraham Lincoln?
+And so far as this question is concerned we would like to address an earnest and last word to the
+Chicago Convention which is to meet here in a few days and particularly to the German delegates in
+that body.
+No party, which seeks only in the defeat of the Nation the lever which may overthrow an incapable and corrupt 
+administration, and which tries to profit by such a disaster in order to conclude a dishonorable peace, can be a 
+patriotic party. American arms, wielded by our brothers, fight for the highest blessing which ever was vouchsafed 
+to us; for Union and Liberty. A party which is ready to throw
+away the sword because victory is not achieved fast enough is a party of cowards. Will the Democratic Convention 
+load itself with this inextinguishable reproach? Shall all the blood that has been shed
+be shed in vain?  Shall we declare ourselves vanquished when courage and perseverance, and before
+all a better' and wiser supreme leadership must attach victory to our banners? There are hundreds of
+thousands who are ready to support this Convention and assist them to hurl a corrupt administration
+from power. _But they are not ready to approve of the doings of this Convention, if the flag of Union
+and Liberty is to be trampled upon, and ca dishonorable peace is to be proclaimed as the fervent wish of
+the Democracy.
+If, in this respect, the Convention acts wisely, if it declares for the Union and universal liberty, then
+there only remains the question of candidates. Does the Convention perhaps believe that Millard Fillmo re is the man to 
+carry on to victory the banner of the opposition? We hereby tell the convention
+that Fillmore, the former high-priest of the Know-nothing order, never can get the votes of the foreign,born population, 
+be they Germans, Irishmen, Scandinavians or Frenchmen. What? The Convention
+will go into battle with a leader whose defeat is assured i.'dl\'ance? Is the Democratic party really
+bent on self destruction?
+Franklin Pierce is spoken of' Ti'ern is  an  -xps:-*ssin extant, made by him, often repeated and,never contradicted, 
+that if he was younger he would fight for the South. This classifies him with the
+Rebels. Will the Democratic Convention elevate such a man to the position of standard bearer in the
+greatest political campaign of the century? But, as a general thing, why is it necessary to go back to
+the fossil politicians of by-gone times, whose administrations, at the time, the people so loudly condemned? 
+Fillmore and Pierce both were candidates for re-election before their respective party Conventions,
+and both parties acted wisely when they threw them overboard. Have these Gentlemen perhaps grown
+wiser and more patriotic since that time?  We have never been able to discover anything except their
+increasing age. And why is it necessary to revive all the old complaints against either of the Ex-presidents, 
+heretofore buried in the dust of the past, and to burden with such a dead-weight the approaching
+political campaign? We do not want such old men with a sullied reputation; what we want is a man,of unblemished 
+character' and unconquerable.energy; the Republic is in danger.
+From various sides General McClellan is recommended. It will be well for the Convention to
+think of it, that outside of the city-of New  York there does not exist a real McClellan party. The
+Country thinks that McClellan is a gallant but unfortunate general, whether by his own or Mr. Lin-co ln's 
+fault is immaterial. There is no prestige of popularity about him; entirely unknown before the
+war broke out, he has not had the good fortune during the war to find the claim to the Presidency on
+the battle-field; his nomination would not kindle any enthusiasm in the masses; we think it would be a
+political mistake.
+And above all it is the enthusiasm of the people, so artificially suffocated by the administration,
+which must be revived in order to save the Republic. The honest and sincere elements of the oppo
+
+
+<span class="element">&lt;/p&gt;</span>
+
+<span class="element">&lt;p&gt;</span>
+<span class="element">&lt;pb id="p00000004" n="4"/&gt;</span>
+sition must be gathered together and united. In such a case it is but boys' play to beat a Lincoln. We
+only know of one man who is able to unite this opposition; only one man, who after the bloody struggle, can, with a strong 
+hand bind together the red and white rose again into one tuft and re-establish this
+Union, and his name is
+JOHN C. FREMONT.
+It is superfluous to say even a single word to the Convention about the character and ability of
+Fremont, nor about his present political position. Behind him there is already a great and nunierous
+political party. We tell the Convention, and we know that we are telling the truth, that among Repube
+licans as well as Democrats 400,000 German votes are sure for Fremont. Can the Convention pass
+lightly over such a fact? With Fremont as the leader of the campaign the death knell of a corrupt
+administration and its shoddy aristocracy has sounded. A leader who is already at the head of such a
+host must be sure of victory. With the rallying cry, "Fremont and the Union," the Republic is saved.
+The Goddess of Liberty will no longer hide her head in sorrow and despair. The starry flag of our.
+Union Will again float over a prosperous and free Union, and foreign countries will soon recommence to
+believe in the perpetuity of our Republic. May the Convention well ponder these facts.
+And on the other hand we trust that the members of the Chicago Convention will not believe that
+they are omnipotent. There is a terrible responsibility resting upon them. We well know how much,
+how very much depends upon their deliberations; the existence of the Republic is at stake. But the
+power of the Convention collapses into nothing as soon as it pursues an anti-liberal course. Those men,
+who left their former parties and only know one party: the party that will save the Union, will never
+submit in case the Convention should take the wrong course. They will continue to fight Lincoln
+with all honest weapons, but they will rather try the last and go to Buffalo with Wade and Davis, if the
+Convention of the 29th of August, by a reactionary course, compels them to separate themselves
+If the German Delegates approve of the views expressed in this article, then it is their duty to urge
+them upon the Convention. At Cleveland the German element was among the controlling ones; the time has gone 
+by when the German citizens were merely regarded as the voting cattle at elections. Many of
+the German delegates, as far as we know, are excellent orators on the English tribune; it is their task to,
+represent the German element in a dignified manner.
+And thus we calmly and demurely await the result of the Chicago Convention. We are conscious:
+of having performed our whole duty according to our humble talents. The dark clouds hang heavily
+over the ship of State and the waves rage furiously. Only a strong and energetic hand at the helm
+can find the path through the foaming billows into the port of safety. May the Convention give us such.
+a man! The times are portentous and full of dangers. God save the Republic!
+
+
+
+<span class="element">&lt;/p&gt;</span>
+
+	<span class="element">&lt;/div1&gt;</span>
+      <span class="element">&lt;/body&gt;</span>
+   <span class="element">&lt;/text&gt;</span>
+<span class="element">&lt;/TEI.2&gt;</span>
+
+</pre>
+   <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

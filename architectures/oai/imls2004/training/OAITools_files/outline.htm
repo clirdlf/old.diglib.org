@@ -1,0 +1,1098 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../OAITools.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>OAI Tools<br>
+    http://gita.grainger.uiuc.edu/registry/DLFFall2005</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>By Thomas G. Habing<br>
+              thabing@uiuc.edu<br>
+              Grainger Engineering Library Information Center<br>
+              University of Illinois at Urbana-Champaign</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL2>Outline</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Emory’s Metadata Migrator</li>
+   <li>OAI Static Repositories</li>
+   <li>UIUC’s OAI FileMakerPro Gateway</li>
+   <li>Other Tools</li>
+   <li>Validating</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL3>Emory’s Metadata
+  Migrator</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>Turning it over to Martin</li>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <li>“conquering the digital library world” <br>
+              A Google Images search for “Martin Halbert” really did turn up
+       this image of Caesar</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0014.htm');" id=PPTL4>OAI Static Repositories</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Back to me</li>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <li>“wrangling metadata” <br>
+              This is the closest I could come in Google Images to an unusual
+       picture for “Habing” <br>
+              (I don’t know who this person really is)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL5>OAI Static Repositories<br>
+    The Problem</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>OAI-PMH is simple, but not simple enough for:</li>
+   <ul>
+    <li>Technically challenged organizations</li>
+    <ul>
+     <li>Limited resources</li>
+     <li>No control over their web server</li>
+    </ul>
+    <li>With small collections</li>
+    <ul>
+     <li>1-5000 records (10-20 MB XML File)</li>
+    </ul>
+    <li>That do not change often</li>
+    <ul>
+     <li>Less frequent than monthly</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0003.htm');" id=PPTL6>OAI Static Repositories<br>
+    The Solution</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Static Repository</li>
+   <ul>
+    <li>A single XML file containing all metadata, identifiers, and datestamps</li>
+    <li>Accessible from a web server via an HTTP URL, such as
+        http://host:port/path/file.xml</li>
+    <li>May be created manually by an XML or simple text editor, or
+        programmatically</li>
+   </ul>
+   <li>Static Repository Gateway</li>
+   <ul>
+    <li>Provides intermediation for one or more Static Repositories</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL7>OAI Static Repositories<br>
+    Official Specification</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://www.openarchives.org/OAI/2.0/<br>
+              guidelines-static-repository.htm</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0006.htm');" id=PPTL8>OAI Static Repositories<br>
+    Illustration</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0005.htm');" id=PPTL9>OAI Static Repositories<br>
+    Static Repository Limitations</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Must be a single XML file (mime: text/xml)</li>
+   <ul>
+    <li>No resumptionTokens</li>
+   </ul>
+   <li>Must be UTF-8 encoded Unicode</li>
+   <ul>
+    <li>http://www.cs.cornell.edu/people/simeon/software/utf8conditioner/</li>
+   </ul>
+   <li>Must validate against Static Repository XML Schema</li>
+   <li>The baseURL element must be the concatenation of the Static Gateway URL
+       and the Static Repository URL</li>
+   <li>ListRecords elements must conform to the<span style='mso-spacerun:yes'> 
+       </span>OAI-PMH record format</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL10>OAI Static Repositories<br>
+    Additional Limitations</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>The URL of the Static Repository XML file cannot include a fragment or
+       query string</li>
+   <li>Sets are not supported</li>
+   <li>Deleted records are not supported</li>
+   <li>Response compression is not supported</li>
+   <li>Only YYYY-MM-DD date stamp granularity is supported</li>
+   <li>The guidelines for OAI identifiers should be followed:</li>
+   <ul>
+    <li>http://www.openarchives.org/OAI/2.0/guidelines-oai-identifier.htm</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL11>OAI Static Repositories<br>
+    Static Repository XML Sections</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>&lt;Repository&gt;<br>
+              &lt;Identify&gt;<br>
+              <span style='mso-spacerun:yes'>   </span>…<br>
+              &lt;/Identify&gt;<br>
+              &lt;ListMetadataFormats&gt;<br>
+              <span style='mso-spacerun:yes'>   </span>…<br>
+              &lt;/ListMetadataFormats&gt;<br>
+              &lt;ListRecords metadataPrefix=&quot;oai_dc&quot;&gt;<br>
+              <span style='mso-spacerun:yes'>   </span>…<br>
+              &lt;/ListRecords&gt;<br>
+              &lt;ListRecords metadataPrefix=“other&quot;&gt;<br>
+              <span style='mso-spacerun:yes'>   </span>…<br>
+              &lt;/ListRecords&gt;<br>
+              …</li>
+   <li>&lt;/Repository&gt;</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL12>OAI Static Repositories<br>
+    &lt;Identify&gt;</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>&lt;Identify&gt;<br>
+              &lt;oai:repositoryName&gt;Demo&lt;/oai:repositoryName&gt;<span
+       style='mso-spacerun:yes'>    </span>&lt;oai:baseURL&gt;<br>
+              	http://myoai.org/oai/this.edu/col1/oai.xml<br>
+              &lt;/oai:baseURL&gt;<br>
+              &lt;oai:protocolVersion&gt;2.0&lt;/oai:protocolVersion&gt;<br>
+              &lt;oai:adminEmail&gt;jondoe@oai.org&lt;/oai:adminEmail&gt;<br>
+              &lt;oai:earliestDatestamp&gt;<br>
+              	2002-09-19<br>
+              &lt;/oai:earliestDatestamp&gt;<br>
+              &lt;oai:deletedRecord&gt;no&lt;/oai:deletedRecord&gt;<span
+       style='mso-spacerun:yes'>   
+       </span>&lt;oai:granularity&gt;YYYY-MM-DD&lt;/oai:granularity&gt;</li>
+   <li>&lt;/Identify&gt;</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0010.htm');" id=PPTL13>OAI Static Repositories<br>
+    &lt;ListMetadataFormats&gt;</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>&lt;ListMetadataFormats&gt;<br>
+              &lt;oai:metadataFormat&gt;<span style='mso-spacerun:yes'>        
+       </span>	&lt;oai:metadataPrefix&gt;oai_dc&lt;/oai:metadataPrefix&gt;<br>
+              	&lt;oai:schema&gt;<br>
+              	<span style='mso-spacerun:yes'>    </span>http://www.openarchives.org/OAI/2.0/oai_dc.xsd<br>
+              	&lt;/oai:schema&gt;<br>
+              	&lt;oai:metadataNamespace&gt;<br>
+              	<span style='mso-spacerun:yes'>    </span>http://www.openarchives.org/OAI/2.0/oai_dc/	&lt;/oai:metadataNamespace&gt;<br>
+              &lt;/oai:metadataFormat&gt;</li>
+   <li>	…</li>
+   <li>&lt;/ListMetadataFormats&gt;</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL14>OAI Static Repositories<br>
+    &lt;ListRecords&gt;</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>&lt;ListRecords metadataPrefix=&quot;oai_dc&quot;&gt;<br>
+              &lt;oai:record&gt;<br>
+              <span style='mso-spacerun:yes'>  </span>&lt;oai:header&gt;<br>
+              <span style='mso-spacerun:yes'>    
+       </span>&lt;oai:identifier&gt;oai:this.edu:123456&lt;/oai:identifier&gt;<br>
+              <span style='mso-spacerun:yes'>    
+       </span>&lt;oai:datestamp&gt;2001-12-14&lt;/oai:datestamp&gt;<br>
+              <span style='mso-spacerun:yes'>  </span>&lt;/oai:header&gt;<br>
+              <span style='mso-spacerun:yes'> 
+       </span>&lt;oai:metadata&gt;<br>
+              <span style='mso-spacerun:yes'>    
+       </span>&lt;oai_dc:dc&gt;<br>
+              <span style='mso-spacerun:yes'>       
+       </span>&lt;dc:title&gt;Some Title&lt;/dc:title&gt;</li>
+   <li><span style='mso-spacerun:yes'>             </span>…<br>
+              <span style='mso-spacerun:yes'>    
+       </span>&lt;/oai_dc:dc&gt;<br>
+              <span style='mso-spacerun:yes'> 
+       </span>&lt;/oai:metadata&gt;<br>
+              &lt;/oai:record&gt;<br>
+              …</li>
+   <li>&lt;/ListRecords&gt;</li>
+   <li>…</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL15><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0017.htm');" id=PPTL16>OAI FileMakerPro
+  Gateway<br>
+    The Problem</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>FMP has widespread use in the museum community and is often used for
+       special collections in libraries</li>
+   <li>Until recently there are no easy or convenient tools for making FMP
+       databases OAI accessible</li>
+   <li>Could use Emory’s Metadata Migrator (or similar tools), but there could
+       be latency problems if the database was active.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL17>OAI FileMakerPro
+  Gateway<br>
+    Solution</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Out of the box, FMP has a built-in web server and can export XML</li>
+   <ul>
+    <li>http://www.filemaker.com/downloads/pdf/xml_overview.pdf</li>
+   </ul>
+   <li>This facilitates a solution similar to OAI Static Repositories</li>
+   <li>Except it is not static; data is being fed directly from the database
+       and not from a static copy</li>
+   <ul>
+    <li>This is a slight fib: because of how datestamps are derived they only
+        have a ganularity of one day, so an incremental harvest might be up to
+        24 hours out of date</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0019.htm');" id=PPTL18>OAI FileMakerPro
+  Gateway<br>
+    Some Technical Details<br>
+    How to Get XML From FMP</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://base_url:591/FMPro<br>
+              ?-db=database<br>
+              &amp;-lay=layout<br>
+              &amp;-format=format<br>
+              &amp;-max=max_records<br>
+              &amp;-skip=skip-records<br>
+              &amp;-recid=record_id<br>
+              &amp;-command</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL19>OAI FileMakerPro
+  Gateway<br>
+    More Technical Details</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>FMP XML Formats</li>
+   <ul>
+    <li>The -dso_xml format:</li>
+    <ul>
+     <li>Easier to transform with XSLT</li>
+     <li>But may be malformed in some cases (the gateway can accommodate this)</li>
+     <li>The XML Schema varies by database</li>
+     <li>Same as XML export format used by MS SQL Server</li>
+    </ul>
+    <li>The –fmp_xml format:</li>
+    <ul>
+     <li>Always the same XML Schema regardless of the database</li>
+     <li>Difficult to transform</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0023.htm');" id=PPTL20>OAI FileMakerPro
+  Gateway<br>
+    More Technical Details</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Datestamps</li>
+   <ul>
+    <li>All FMP records have a RECORDID and a MODID &lt;ROW MODID=&quot;2&quot;
+        RECORDID=&quot;12584941&quot;&gt;</li>
+    <li>The MODID increments each time the record is changed, thus it can be
+        used as a surrogate for the datestamp</li>
+    <li>When a new FMP database is added to the Gateway, all RECORDID and MODID
+        are recorded locally, and each record is assigned the current date for
+        the datestamp.<span style='mso-spacerun:yes'>  </span>Once a day, the
+        MODID of each record are compared against the locally stored value, and
+        the datestamp of the record is set to the current date if the MODID has
+        changed.</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0024.htm');" id=PPTL21>OAI FileMakerPro
+  Gateway<br>
+    Configuring the Gateway</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>	&lt;caribbeancovers&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;repositoryName&quot; value=&quot;Caribbean Book Jacket Art
+       Database&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;adminEmail&quot; value=&quot;thabing@uiuc.edu&quot;/&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- define the max
+       records returned in one response --&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;MAX_ListIdentifiers&quot; value='100'/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;MAX_ListRecords&quot; value='10'/&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- define the various
+       components used to make an OAI identifier (i.e.
+       oai:oai.library.uiuc.edu:illinet_online/AAA-1234) --&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;NamespaceIdentifier&quot;
+       value=&quot;lib.uic.edu.caribbeancovers&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;LocalIdentifierPath&quot; value=&quot;&quot;/&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- FileMaker Pro
+       Parameters--&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPBaseURL&quot;
+       value=&quot;http://libsys.lib.uic.edu:591/fmpro&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPDatabase&quot; value=&quot;caribbeancovers.fp5&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPLayout_ListIdentifiers&quot; value='Search'/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPLayout_ListRecords&quot; value='Layout #1'/&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- build a local xml
+       file containing datestamps deduced from the modid attribute --&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPDatestampsFile&quot;
+       value=&quot;caribbeancovers.xml&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- the datestamp file
+       will be updated with the following frequency in days --&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPDatestampsFileUpdateFrequency&quot;
+       value=&quot;1&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- if there is a major
+       change in the mappings, just delete the old datestamps file, and it will
+       be rebuilt with all new dates --&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;!-- transform the FMP
+       Format into a DC Format --&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;FMPTransformation&quot;
+       value=&quot;caribbeancovers.xsl&quot;/&gt;</li>
+   <li><span style='mso-spacerun:yes'>   </span>		&lt;add
+       key=&quot;DSOXMLIsNotWellFormed&quot; value=&quot;1&quot;/&gt;</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>  </span>	&lt;/caribbeancovers&gt;</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL22>OAI FileMakerPro
+  Gateway<br>
+    Covert Implementations</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>It is relatively easy to identify and intermediate FMP databases using
+       the Gateway.</li>
+   <li>Use Google to Find them:</li>
+   <ul>
+    <li>http://www.google.com/search?q=allinurl%3A591+fmpro</li>
+   </ul>
+   <li>Gather configuration details like layouts, etc.</li>
+   <li>Write an XSLT to transform –dso_xml into oai_dc</li>
+   <li>Most FMP database owners probably don’t even realize how easy it is for
+       someone to perform a wholesale download of their entire database</li>
+   <ul>
+    <li>Good for OAI implementers,</li>
+    <li>But FMP database owners, be careful of sensitive data!!!</li>
+    <li>Make sure the web-based edit features are secured!!!</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL23>OAI FileMakerPro
+  Gateway<br>
+    An Invitation</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://cicharvest.grainger.uiuc.edu/fmpgateway/</li>
+   <br>
+   <br>
+   <li>We are looking for FMP collections we can test with the Gateway</li>
+   <br>
+   <br>
+   <li>We do plan to maintain the Gateway, similar to our OAI Static Gateway</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0025.htm');" id=PPTL24>Other OAI Gateways</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>z39.50 &lt;-&gt; OAI-PMH</li>
+   <ul>
+    <li>http://frasier.library.uiuc.edu/research.htm</li>
+    <li>ZMARCO http://zmarco.sourceforge.net/</li>
+   </ul>
+   <li>SRU/W &lt;-&gt; OAI-PMH</li>
+   <ul>
+    <li>http://www.dlib.org/dlib/february05/sanderson/02sanderson.html</li>
+    <ul>
+     <br>
+     <br>
+    </ul>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL25>Open Source OAI
+  Toolkits</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>OCLC</li>
+   <ul>
+    <li>http://www.oclc.org/research/projects/oai/default.htm</li>
+   </ul>
+   <li>UIUC Grainger Engineering Library</li>
+   <ul>
+    <li>http://uilib-oai.sourceforge.net/</li>
+   </ul>
+   <li>Virginia Tech DLRL Projects</li>
+   <ul>
+    <li>http://www.dlib.vt.edu/projects/OAI/</li>
+   </ul>
+   <li>Lots of other Open Source tools</li>
+   <ul>
+    <li>http://sourceforge.net/search/?words=oai</li>
+    <li>http://www.openarchives.org/tools/tools.html</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0028.htm');" id=PPTL26>OAI Turnkey Solutions</a></font></div>
+  <div id=PPTC26 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Adlib</li>
+   <li>CWIS</li>
+   <li>ContentDM</li>
+   <li>Digitool</li>
+   <li>DLESE</li>
+   <li>DLXS</li>
+   <li>DSpace</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL27>How to Test Your OAI
+  Provider</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Repository Explorer http://re.cs.uct.ac.za/</li>
+   <ul>
+    <li>Good start, but does not do a complete harvest, nor does it check
+        non-oai_dc metadata formats, so can’t find all problems</li>
+   </ul>
+   <li>W3C Validator for XML Schema http://www.w3.org/2001/03/webdata/xsv</li>
+   <ul>
+    <li>Great for pinpointing obscure XML Schema validation errors or character
+        encoding problems</li>
+    <li>Only one request at a time though</li>
+   </ul>
+   <li>Character Encoding Problems</li>
+   <ul>
+    <li>http://www.cs.cornell.edu/people/simeon/software/utf8conditioner/</li>
+   </ul>
+   <li>Try to harvest your OAI provider yourself</li>
+   <ul>
+    <li>Use REAP, the Windows command line OAI harvester from UIUC</li>
+    <li>http://gita.grainger.uiuc.edu/registry/dlffall2005/reap_readme.htm</li>
+    <li>Use the U. Michigan Harvester (Kat can provide more detail)</li>
+   </ul>
+   <li>Ask one of us to do it <font face=Wingdings>J</font></li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master03.htm></a><a href=master03.xml></a><a
+href=preview.wmf></a><a href=pres.xml></a><a href=slide0001.htm></a><a
+href=slide0012.htm></a><a href=slide0013.htm></a><a
+href="slide0013_image001.png"></a><a href="slide0013_image002.jpg"></a><a
+href=slide0014.htm></a><a href="slide0014_image003.png"></a><a
+href="slide0014_image004.jpg"></a><a href=slide0002.htm></a><a
+href=slide0003.htm></a><a href=slide0004.htm></a><a href=slide0006.htm></a><a
+href="slide0006_image005.gif"></a><a href="slide0006_image006.gif"></a><a
+href="slide0006_image007.gif"></a><a href="slide0006_image008.gif"></a><a
+href=slide0005.htm></a><a href=slide0007.htm></a><a href=slide0008.htm></a><a
+href=slide0009.htm></a><a href=slide0010.htm></a><a href=slide0011.htm></a><a
+href=slide0016.htm></a><a href="slide0016_image009.gif"></a><a
+href="slide0016_image010.gif"></a><a href="slide0016_image011.gif"></a><a
+href="slide0016_image012.gif"></a><a href="slide0016_image013.png"></a><a
+href="slide0016_image014.jpg"></a><a href="slide0016_image015.jpg"></a><a
+href=slide0017.htm></a><a href=slide0018.htm></a><a href=slide0019.htm></a><a
+href=slide0022.htm></a><a href=slide0023.htm></a><a href=slide0024.htm></a><a
+href=slide0021.htm></a><a href=slide0020.htm></a><a href=slide0025.htm></a><a
+href=slide0027.htm></a><a href=slide0028.htm></a><a href=slide0026.htm></a><a
+href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../OAITools.htm"></a><a href=fullscreen.htm></a><a href=buttons.gif></a><a
+href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

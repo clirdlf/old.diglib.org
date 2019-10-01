@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="Usage, Usability and User Support (April 2000)" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>Usage, Usability and User Support (April 2000)</title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+  if (Math.random) {
+    strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+    arrQuote = strQuote.split("^");
+    var num = Math.floor(Math.random() * arrQuote.length);
+    quote_rotate.src = "../images/"+arrQuote[num];
+  }
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type=
+"text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type=
+"text/css" />
+</head>
+<body onload=
+"MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src=
+"../images/logo.gif" alt="Digital Library Federation, Link: Home"
+name="dlf_logo" width="192" height="133" border="0" id=
+"dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../images/quote_hold.gif" name="quote_rotate" alt=
+"random quote" width="333" height="95" id="quote_rotate" /></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../publications.htm"><img src="../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><img src=
+"../images/forum.gif" alt="Forum" width="50" height="27" border=
+"0" /></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../about.htm"><img src="../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../news.htm"><img src="../images/news.gif" alt="Link: News"
+width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top"><a href=
+"http://www.diglib.org/search.html">Search</a> 
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> --></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);">
+<img src="../images/collect.gif" alt="Link: Digital Collections"
+name="collect" width="117" height="38" border="0" id=
+"collect" /></a></td>
+<td width="117" height="38" valign="top"><a href="../produce.htm"
+onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)">
+<img src="../images/produce.gif" alt="Link: Digital Production"
+name="produce" width="117" height="38" border="0" id=
+"produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)">
+<img src="../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()"
+onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)">
+<img src="../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)">
+<img src="../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Executive Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top"><!-- Begin text here -->
+<h1 class="sectionhead">Usage, Usability and User Support</h1>
+<h3>Report of a discussion group convened at the DLF Forum on 2
+April 2000</h3>
+<p>Dan Greenstein and Denise Troll<br />
+Version 1.1<br />
+26 May 2000</p>
+<p><b>Participants</b><br /></p>
+<table width="65%">
+<tr>
+<td width="50%">Caroline Beebe</td>
+<td width="50%">Betsey Patterson</td>
+</tr>
+<tr>
+<td>Kitty Bridges</td>
+<td>Rod Rucker</td>
+</tr>
+<tr>
+<td>Selden Deemer</td>
+<td>Steve Ruddy</td>
+</tr>
+<tr>
+<td>Laine Farley</td>
+<td>Chuck Spornick</td>
+</tr>
+<tr>
+<td>Daniel Greenstein</td>
+<td>Barbara Tillett</td>
+</tr>
+<tr>
+<td>Heike Kordish</td>
+<td>Denise Troll</td>
+</tr>
+<tr>
+<td>David Milman</td>
+<td>Lisa Yesson</td>
+</tr>
+</table>
+<br />
+<h3>I. Purposes of the meeting</h3>
+<ul>
+<li>To identify a research, development, and information sharing
+agenda for the DLF that will inform and support its members in
+their efforts to evaluate the use and usability of digital
+library collections and services.</li>
+<li>To identify user communities and provide support for their
+use of digital collections and services.</li>
+<li>To recommend next steps that may be taken to develop the
+identified agenda.</li>
+</ul>
+<h3>II. Research development and information sharing agendas
+identified</h3>
+<p>The group identified three broad areas that might benefit from
+some shared effort:</p>
+<h4>1. Research methodologies and their application in the
+digital library context</h4>
+<ul>
+<li>Identify, evaluate, and determine the potential shared
+application of quantitative and qualitative research methods
+appropriate for evaluating the nature, extent, quality and
+effectiveness of the use and usability of digital collections and
+services.</li>
+<li>Encourage commercial vendors and local developers to apply
+whatever learning results from use and usability studies in the
+design and development of digital library collections, services,
+and applications.</li>
+<li>Encourage application of whatever learning results from use
+and usability studies in the development of user support services
+and in professional development activities (e.g. for public
+service librarians)</li>
+</ul>
+<h4>2. User support in a 24/7 digital library</h4>
+<ul>
+<li>Identify communities that use physical as well as digital
+libraries.</li>
+<li>In part through an environmental scan of current practice,
+identify, evaluate, and determine the potential shared
+investigation of methods appropriate for delivering public
+service functions and user support in a 24/7 digital library
+service environment.</li>
+<li>Contribute to the development of performance measures, best
+practices and knowledge management appropriate to 24/7 user
+support services.</li>
+</ul>
+<h4>3. The library as space</h4>
+<ul>
+<li>Study the use of the library as both a physical and virtual
+place.</li>
+<li>Identify social interactions in the physical library that are
+not currently available in the digital library, determine which
+social interactions are essential to the mission and values of a
+library and investigate ways to support these interactions in the
+digital library environment.</li>
+</ul>
+<p>These three areas are intrinsically inter-related. The
+research methodologies developed to evaluate use and usability of
+digital collections and services (area 1) will inform strategies
+for supplying user support in the 24/7 digital library (area 2)
+and decisions about the utilization of library space (area 3).
+Similarly investigations into the use of library space (area 3)
+and, for example, the importance of encouraging social
+interactions, will inform the development of 24/7 support
+services (area 2) where such interactions may also be encouraged
+albeit in an online environment.</p>
+<p>Despite the inter-relatedness of the three areas, the
+participants felt that the DLF should focus initially in a single
+area. Priority was given to research methodologies and their
+application to analyses of the nature, extent, quality, and
+effectiveness of use of digital library collections and services
+(area 1).</p>
+<p>Given the work currently being conducted by ICOLC and other
+organizations to develop measures appropriate to assessing use of
+commercial data resources, the DLF initiative will concentrate on
+measures appropriate to assessing the use of non-commercial
+collections and services.</p>
+<p>Clearly, any research results arising from such a program
+would need to be assessed in light of their implications for user
+support services and the allocation and use of library space.</p>
+<h3>III. Next steps</h3>
+<p>The group outlined a six-step implementation process for work
+in the first of these three areas, i.e., methods for evaluating
+and enhancing the use and usability of digital library
+collections and services. (The same steps might apply to work
+undertaken in the other two areas.)</p>
+<h4>Step 1. Prepare a problem statement addressing the question
+"why do libraries need to analyze the use and usability of
+digital collections and services?"</h4>
+<p>Draft problem statement: Libraries need to assess the use and
+usability of digital collections and services to do or
+improve:</p>
+<ul>
+<li>Capacity planning (e.g. networking, hardware and
+software)</li>
+<li>Systems design (e.g. the appearance and functionality of
+systems that deliver digital collections and services)</li>
+<li>User support (e.g., the design and organization of support
+services)</li>
+<li>Collection development (e.g. the acquisition of third-party
+commercial content and services; selection of locally managed
+content for digitization)</li>
+<li>Strategic planning (e.g., the library's institutional role,
+organization, funding and developmental direction)</li>
+</ul>
+<p>Although both qualitative and quantitative methods exist and
+are being deployed to meet some of these assessment needs, there
+is substantial room for shared activity to help libraries:</p>
+<ul>
+<li>Articulate more precisely the kinds of data required to
+support their assessment needs</li>
+<li>Identify, evaluate and share information about appropriate
+methods, tools and techniques and how they may be applied to
+gather these data</li>
+<li>Develop comparable datasets and analyses that reduce
+redundant effort while enhancing a collective understanding of
+user needs, expectations and behaviors</li>
+<li>Advocate amongst third-party content and service providers to
+supply relevant data that meet the library's needs</li>
+<li>Learn from and build upon relevant experience and expertise
+that exists outside the library sector</li>
+</ul>
+<h4>Step 2. Identify specific assessment needs, the kinds of data
+that are being generated to meet them, and the methods being used
+to generate and analyze those data.</h4>
+<p>Initially the process will involve limited telephone survey
+involving as respondents professionals at DLF member institutions
+who are currently involved in assessing use and usability of
+non-commercial digital library collections and services.</p>
+<p>In conducting this survey, the DLF will be looking for
+respondents who have experience in applying any of the assessment
+methods listed in column a below to any of the collections or
+services that are listed in column b.<br />
+<br />
+<br /></p>
+<table border="3" width="100%" cellpadding="10">
+<tr>
+<th width="50%">Method of assessment<br />
+(column a)</th>
+<th width="50%">Collection or service assessed<br />
+(column b)</th>
+</tr>
+<tr>
+<td>Aggregate transaction log analyses - statistics on the
+number, domain origin, pattern of use etc. made of online
+collections, services, web pages, etc.</td>
+<td>Digital collections developed by or in partnership with the
+library and based in part on digital surrogates of library
+holdings</td>
+</tr>
+<tr>
+<td>Individual (user/session) transaction log-analysis - tracking
+online behavior of individual users or sessions (e.g. using
+click-stream analysis, logs generated by desktop based tracking
+software, etc)</td>
+<td>Online catalogues, indexes or finding aids developed by the
+library (e.g. OPAC, archival finding aids, indexes of third-party
+Internet resources)</td>
+</tr>
+<tr>
+<td>Group (focus/group) review of collection/service</td>
+<td>Library web site</td>
+</tr>
+<tr>
+<td>Monitoring live individual use of collection service (e.g. by
+video, talk through, etc)</td>
+<td>Specific online services (e.g. ILL, ILS, e-reserves, online
+reference services)</td>
+</tr>
+<tr>
+<td>Use of survey questionnaires (whether printed, web-based,
+email driven)</td>
+<td>Features associated with specific services or collections
+(e.g. user profiling, help, search and retrieve)</td>
+</tr>
+<tr>
+<td>Manual tracking of use</td>
+<td>Beta versions of online collections, services, or any
+specific features associated with these</td>
+</tr>
+<tr>
+<td>Other (please specify)</td>
+<td>Other (please specify)</td>
+</tr>
+</table>
+<br />
+<br />
+<p>Respondents will be asked to discuss what they hope to learn
+from their assessments, the data they are generating, how they
+are generating and analyzing those data, and how they are using
+the results they are obtaining. They will also be asked for any
+methodological documentation that describes their efforts and for
+reports based in whole or in part on the results they are
+obtaining.</p>
+<h4>Step 3. Develop a bibliography of relevant "publications"
+which discuss relevant assessment methods and identify and
+involve any interested library organizations (e.g. ICOLC, ARL)
+and individuals from outside the library community who have
+relevant expertise.</h4>
+<h4>Step 4. Develop an inventory of current research practices at
+DLF member sites and elsewhere, both within and outside the
+library community.</h4>
+<p>Development of the inventory may rely upon two modes of data
+collection:</p>
+<ul>
+<li>Extending the survey indicated above in step2 to a broader
+community of respondents;</li>
+<li>Commissioned research into assessment methods and their
+application within and outside the digital library arena.</li>
+</ul>
+<h4>Step 5. Conduct evaluation and gap analysis.</h4>
+<p>Convene a workshop of experts to evaluate the effectiveness of
+research methodologies inventoried in step 4 in meeting specific
+assessment needs. The outcome of the workshop will identify where
+assessment needs are and are not being met with existing research
+methods.</p>
+<h4>Step 6. Initiate further work, as appropriate.</h4>
+<p>Based on the outcome of the meeting in Step 5:</p>
+<ol>
+<li>Where assessment needs are not being met with existing
+research methods, initiate appropriately focused research and
+development work to devise methods to meet these needs.</li>
+<li>Where assessment needs are more or less being met with
+existing research methods, explore prospects for sharing the
+research results generated with these methods.</li>
+</ol>
+<!-- End text -->
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+
+<p align="center" class="copyright">Copyright &copy; 2004 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

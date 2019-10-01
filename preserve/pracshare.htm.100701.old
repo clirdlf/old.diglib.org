@@ -1,0 +1,526 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="A Framework for Sharing Digital Preservation Practice (2000)" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>A Framework for Sharing Digital Preservation Practice (2000)</title>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src="../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../publications.htm"><img src="../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<img src="../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../about.htm"><img src="../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../news.htm"><img src="../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> 
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"><img src="../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"><img src="../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"><img src="../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"><img src="../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"><img src="../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">A Framework for Sharing Digital Preservation Practice</h1>
+
+
+<p>D. Greenstein<br />
+18 April 2000
+</p>
+<p>The document outlines some of the key research and process issues that are likely to confront digital archival repositories as they emerge and begin to gain experience in with collections of digital scholarly journals. It is intended to facilitate information sharing amongst such repositories as they confront these issues and is based on a framework used to similar effect within the Arts and Humanities Data Service - a distributed organization of subject-based archives (see <a href="http://ahds.ac.uk/manage/manintro.html">Managing Digital Collections. AHDS Policies, Practices and Standards</a>).
+</p>
+<p>The document is intended to be read in conjunction with the <a href="criteria.htm">Minimum Criteria for an Archival Repository of Digital Scholarly Journals</a>.
+</p>
+<h3>Mission statement</h3>
+
+<p>Mission statements focus a repository on the nature and extent of the digital information it acquires and on the requirements of the communities that act as the primary recipient of any data that it disseminates.</p>
+<h3>Collections development</h3>
+<p><b>Scope of the data sought for deposit</b> including collection levels 
+where appropriate. The concept of collection levels can distinguish a 
+repository's responsibilities for its different holdings (or categories 
+of holdings). Collection levels may include:</p>
+<ul>
+<li><i>archived</i> - the repository takes primary archival responsibility for the data resource;</li>
+<li><i>served</i> - the repository is accessioned, catalogued, disseminated, even archived by the repository but primary archival responsibility belongs to another organization;</li>
+<li><i>brokered</i> - the data resource is physically hosted elsewhere and maintained by another institution but repository has negotiated accession of it as a failsafe measure. Reference to the data resource (including pointers to it), may be included in the repository's catalogue.</li>
+</ul>
+
+<p>
+<b>Evaluation criteria for acquisition</b> enable repositories to fulfill their missions and constrain their costs. Criteria may be designed to:</p>
+<ul>
+<li>assess data in terms of a repository's scope of collection statement and stated mission;</li>
+<li>assess a data resource's relevance and value to the library community and the likely level of its re-use and/or dissemination;</li>
+<li>ensure that copyright and other intellectual property rights have been addressed and terms for both deposit and access agreed;</li>
+<li>determine whether, how, and at what cost a data resource may viably be managed, preserved, and disseminated (in this respect the repository may review a data resource's format, associated metadata, etc.);</li>
+<li>determine the presence or absence of another more suitable archival home.</li>
+</ul>
+
+<p>
+<b>Collection development strategies and methods</b>. To be determined by the repository these may document the aims and processes adopted by the repository to expand its collections and may include:</p>
+<ul>
+<li>promotional activities amongst data producers designed to attract deposit;</li>
+<li>standing agreements with data producers governing a steady stream of deposit;</li>
+<li>collaboration with data producers or with other repositories;</li>
+<li>focused or targeted acquisitions of certain categories or types of deposit;</li>
+<li>activities undertaken by the repository to add value to deposited resources.</li>
+</ul>
+
+<p><b>Collections development procedures</b>. Documenting process information supplied under this head may include:
+</p>
+
+<ul>
+<li>publicity used as a passive means of attracting deposit;</li>
+<li>proactive strategies for acquiring certain kinds or categories of data;</li>
+<li>procedures for negotiating with individual depositors;</li>
+<li>guidelines for depositors indicating preferred or required data and metadata formats, transmission procedures and media, etc.;</li>
+<li>how data resources offered for deposit are evaluated;</li>
+<li>boiler-plate deposit agreements licenses, schedules of submission preferred by the repository and how used;</li>
+<li>details pertaining to administration of the acquisitions process;</li>
+<li>charging models used (where charges are levied upon depositors);</li>
+<li>guidelines supplied to depositors indicating</li>
+</ul>
+
+<p>
+<b>Retention and review of collections</b>. Includes information on the timing, procedures and criteria used to review collections with a view to de-accessioning, etc.
+</p>
+
+<h3>Collections Management</h3>
+
+<p><b>Accessioning and cataloguing procedures</b>. These may involve:</p>
+<ul>
+<li>conventions for unique naming;</li>
+<li>preferred marking and labeling;</li>
+<li>data validation and integrity checking procedures;</li>
+<li>reformatting procedures (what and where required);</li>
+<li>cataloguing, documentation, preservation metadata creation procedures;</li>
+<li>procedures governing submission to archive;</li>
+<li>administration procedures governing the above;</li>
+<li>processing times and costs.</li>
+</ul>
+
+<p>
+<b>Cataloguing and data documentation standards</b>. As applied, for example to:</p>
+<ul>
+<li>resource discovery (e.g. the location of a resource which is at least briefly described along with many other resources);</li>
+<li>resource evaluation (e.g. the process by which a user determines whether s/he requires access to that resource);</li>
+<li>resource ordering (e.g. that information which instructs a user about the terms and conditions attached to a resource and the processes or other means by which access to that resource may be acquired);</li>
+<li>resource use (e.g. that information which may be required by a user in order to access the resource's information content);</li>
+<li>resource management (e.g. administrative information essential to a resource's management as part of a broader collection and including information about location, version control, etc.).</li>
+</ul>
+
+<p>
+<b>Preservation procedures - data security</b>. Measures taken to ensure preservation and integrity of the resource by preventing alteration or loss, for example, through:</p>
+<ul>
+<li>use of passwords and user ids, and other network security procedures;</li>
+<li>controlled access to storage facilities, defined access privileges for staff, and specific staff responsibilities for data security;</li>
+<li>storage facilities and procedures which minimize the threat from natural disasters such as fire and flood or to magnetic storage media from magnetic fields;</li>
+<li>procedures for copying all digital resources and a disaster recovery plan;</li>
+<li>maintain off-site storage facilities where copies of all digital resources are stored;</li>
+<li>use of fireproof cabinets for any unique hard-copy documentation such as licenses which accompany the resource.</li>
+</ul>
+
+<p><b>Preservation procedures - environmental control</b></p>
+
+<p>
+<b>Preservation procedures - copying data</b>. Procedures and timing for example to:</p>
+
+<ul>
+<li>create archive copies of data resources at the time of their transfer to the repository;</li>
+<li>reformat data resources onto archive media or file formats, if necessary;</li>
+<li>retain copies of the digital resource in its original format whenever some information or presentation of the resource may be lost or modified in re-formatting;</li>
+<li>store archive copies on industry standard digital tape or on other approved contemporary media as may arise;</li>
+<li>store archive copies on- and off site;</li>
+<li>write archive copies with different software to protect data against corruption from malfunctioning or virus- or bug-ridden software;</li>
+<li>write archive to comparable magnetic media purchased from different suppliers to guard against faults introduced by the media's suppliers into their products or into batches of their products;</li>
+<li>re-fresh or transfer archive copies to new media at specified times;</li>
+<li>employ quality control procedure such as bit/byte or other checksum comparisons with originals to ensure the authenticity of  archive copies;</li>
+<li>document actions taken when data resources are copied</li>
+</ul>
+
+<p>
+<b>Preservation procedures - migrating data</b>. Methods for:</p>
+<ul>
+<li>migrating data whenever there is a software upgrade or a new software application is installed;</li>
+<li>ensuring the migration results in little or no loss in content, or context;</li>
+<li>employing strict quality control procedures that may include testing the migration program with a sample of records or bit/byte or checksum comparisons of migrated and original data;</li>
+<li>retaining copies of the digital resource in its original format whenever some information or presentation of the resource may be lost or modified in migration;</li>
+<li>documenting all actions taken and transformations made when  migrating data resources.</li>
+</ul>
+
+<p>
+<b>Preservation procedures - periodically auditing data</b>. 
+Checking the readability and integrity of the data for example, by:</p>
+<ul>
+<li>checking media periodically for their readability;</li>
+<li>checking the integrity of data files periodically using checksum and other like procedures</li>
+</ul>
+
+<h3>Access and Use</h3>
+
+<p><b>Finding aids, how constructed and maintained, to whom available</b></p>
+
+<p>
+<b>Resource ordering and data dissemination</b>. Procedures that inform potential users about:</p>
+
+<ul>
+<li>how to register with the repository as a user;</li>
+<li>how to locate and order a digital resource;</li>
+<li>the file formats and delivery media in which resources will be available;</li>
+<li>the documentation that will be supplied with digital resources;</li>
+<li>copyright and conditions and terms for access and use;</li>
+<li>any user "help desk" and online help screen facilities offered;</li>
+<li>any charges levied e.g. for media or postage;</li>
+<li>conditions of use.</li>
+</ul>
+
+<p><b>User support and user development services offered</b>
+</p>
+
+<p>For further information, please consult the following pages: </p>
+<ul>
+<li><a href="presjour.htm">Preservation of digital scholarly journals</a></li>
+<li><a href="criteria.htm">Minimum criteria for an archival repository of digital scholarly journals, <b>Version 1.2</b></a></li>
+<li><a href="archreq.htm">Minimum criteria for an archival repository of digital scholarly journals, <b>Version 1.1</b></a></li>
+</ul>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2004 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

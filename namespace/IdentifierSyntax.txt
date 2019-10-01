@@ -1,0 +1,32 @@
+Identifiers in the dlf namespace are used to identify 
+information assets used in Digital Library Federation 
+research and development projects.
+
+An  'info' URI with  namespace 'dlf' takes the form:
+
+info:dlf/<dlf-project>/<project-specific-id>
+ 
+dlf-project = ALPHA *( ALPHA | DIGIT )
+
+i.e. alphanumeric with leading alphabetic character.
+
+Values of dlf-project are assigned by the Digital Library Federation and registered at http://diglib.org/namespace/projects.txt.  At the time of this registration the only valid dlf-project value is "Aquifer".
+
+project-specific-id = project-specific-component *("/" project-specific-component) 
+
+project-specific-component = *pchar 
+
+pchar is as defined in RFC 3986, that is:
+
+pchar  = unreserved | pct-encoded | sub-delims | ":" | "@"
+unreserved    = ALPHA | DIGIT | "-" | "." | "_" | "~"
+pct-encoded = "%" HEXDIG HEXDIG
+sub-delims  = "!" | "$" | "&" | "'" | "(" | ")"  | "*" | "+" | "," | ";" | "="
+
+ALPHA, DIGIT, AND HEXDIG are as defined in RFC 2234: upper 
+or  lower case alphabetic (A-Z | a-z), decimal digit (0-9), 
+and hexadecimal digit (DIGIT | "A" | "B" | "C" | "D" | "E" | "F")  respectively.
+
+Percent Encoded Characters  
+
+No characters in general need to be percent encoded. 

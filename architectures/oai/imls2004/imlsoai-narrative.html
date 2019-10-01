@@ -1,0 +1,979 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="The Distributed Library: OAI for Digital Library Aggregation Narrative" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2005-01-21" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2005, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>The Distributed Library: OAI for Digital Library Aggregation Narrative</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../../print.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="/wrap/wrap.css" /><script type="text/javascript" src="/wrap/wrap.js"></script></head>
+<body onload="wrapoldcontent();MM_preloadImages('../../../images/preserve_r.gif','../../../images/use_r.gif','../../../images/build_r.gif','../../../images/logo_r.gif','../../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)"><img src="../../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../../publications.htm"><img src="../../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../../forums.htm"><img src="../../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../../about.htm"><img src="../../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../../news.htm"><img src="../../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../../sitemap.htm">
+<img src="../../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);"><img src="../../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)"><img src="../../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)"><img src="../../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)"><img src="../../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)"><img src="../../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p><b><i>Project Team</i></b>
+<br /><br />
+<b>Digital Library Federation</b>
+<br /><br />
+David Seaman,<br />
+Project Director/<br />
+Principal Investigator
+<br /><br />
+Barrie Howard,<br />
+Project Manager
+<br /><br />
+Martha Brogan,<br />
+Consultant
+<br /><br />
+<b>Emory University</b>
+<br /><br />
+Martin Halbert,<br />
+Co-Principal Investigator
+<br /><br />
+Elizabeth Milewicz,<br />
+Technical Manager
+<br /><br />
+Katherine Skinner,<br />
+Technical Manager
+<br /><br />
+<b>University of Illinois<br />
+at Urbana-Champaign</b>
+<br /><br />
+Tom Habing,<br />
+Co-Principal Investigator
+<br /><br />
+Lucas Wing Kau Mak,<br />
+Technician
+<br /><br />
+<b>University of Michigan</b>
+<br /><br />
+Perry Willet, <br />
+Co-Principal Investigator
+<br /><br />
+Kat Hagedorn,<br />
+Technical Manager
+<br /><br />
+Qian Liao, Programmer
+</p>
+</td>
+</tr>
+        
+
+        
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">The Distributed Library:
+<br />OAI for Digital Library Aggregation</h1>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:Arial'><center>IMLS 2004 National Leadership Grant for Libraries
+<br />Research and Demonstration</center></span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>National Impact</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The Open Archives Initiative
+Protocol for Metadata Harvesting (OAI-PMH) has proven itself as a
+straightforward and functional mechanism for sharing metadata across systems
+for the purpose of building focused services. We have collectively proven the
+protocol and its utility; however, as Martha Brogan notes, &quot;there are numerous
+practical, technical and philosophical impediments to the full realization of
+OAI-based services . . .&quot;  The multi-stranded research proposed in this grant will
+address these various impediments, and move us closer to the goal of federated
+collections across institutions, and the ability to create richer services for
+our library users.  </span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>This issue of a <i>distributed
+library</i> made up of multiple collections in a much more malleable, easily
+accessed <i>service landscape</i> is of sufficient importance to the major research
+libraries who make up the DLF that--after a strategic planning session and
+eight months of discussion and planning (February through October, 2003)--we voted unanimously
+to make the creation and sustenance of a distributed, open, digital library the
+organization’s overarching strategic goal, taking us full circle to the first
+item on our founding 1995 charter. This endeavor, we believe, has far-reaching
+impacts inside and outside the DLF institutions, and the work done during this
+grant will be of fundamental importance to our ambitions for a comprehensive
+finding system.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Our team of
+partner organizations draws on very active OAI practitioners: the University of
+Michigan (Michigan) will host an experimental harvesting service and metadata search
+portal for the purposes of the grant, with the harvesting service functioning
+as a test-bed for our research and as an encouragement for broad participation
+within the DLF; University of Illinois at Urbana-Champaign (UIUC) will develop a registry to allow closer relationships between
+harvesters and providers; Emory University (Emory) will oversee the training and consultancy
+portion of our work, and we expect to see their established and thriving <i>American
+South</i> collaboratory as a major subject-focused <i>proving ground</i> during the
+IMLS grant period.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Workflow and Training</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>One impact will be to learn
+how to ingrain the creation of item-level metadata into the digitizing
+workflows of the DLF--we are keen to know how to do this and will look to the
+workflow evaluation and subsequent training provided here by Emory to do this. The
+barriers to the routine provision of sharable metadata are--we believe--not
+substantial, but they are real and not clearly understood. By canvassing the
+DLF member institutions we expect to learn a lot more about what changes in
+local day-to-day practices and our collective sense of mission need to occur
+for us to share digital object metadata readily, and start to rely on its
+existence in our local service provision. Our ambitions for richer <i>deep
+sharing</i> and more tailored local library services have at their foundation the
+need for a trustworthy and well-populated finding system for our distributed
+content.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Enriching the OAI Record </span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The ability to examine the
+form and use of collection-level OAI records, and to build on work currently
+being funded at UIUC, is another important area, as is the question of when
+we need a metadata <i>base</i> that is richer than the <i>unqualified Dublin Core</i>
+mandated by OAI. We feel confident that digital library providers of records
+for digital library aggregations and services will be willing to follow rather
+more nuanced and prescriptive Best Practices for the creation of the <i>digital
+library</i> OAI record; indeed, we are typically avaricious for such guidance and
+advice, as the success of past <i>best practice</i> guides from the DLF, RLG, IMLS, and
+elsewhere attests. This IMLS grant will cull the lessons learned from the
+first wave of harvesting services and reflect back our collective observations
+with regard to the formation of the catalog records. Early harvesters have
+spent inordinate amounts of time normalizing and completing the records in
+order to build the services they wish to provide, and we must improve that
+situation if a distributed finding system is going to scale and thrive.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Coordinating Services and
+Providers</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>In the conclusion of her publication <i>Survey
+of Digital Library Aggregation Services</i>, Brogan highlights the lack
+of any comprehensive registry of OAI service and metadata providers, &quot;it
+is difficult (at best) for users to know the extent of services
+available.&quot; Recent work at UIUC and within the
+European Union, along with tools like Virginia Tech's <a href="http://www.dlib.vt.edu/projects/OAI/software/explorer/explorer.html">
+<i>Repository Explorer</i></a>,
+are helpful in this regard, but clearly more research is needed to enable OAI
+service providers to better discover and learn about OAI metadata providers
+(and vice-versa).</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>As part of the
+proposed research and using as a starting point the experimental registry of
+OAI metadata providers already developed by UIUC(<a href="http://oai.grainger.uiuc.edu/registry">http://oai.grainger.uiuc.edu/registry</a>),
+we propose to investigate and experiment with potential methods to enable
+better discovery of OAI service and metadata providers. The outcome will have
+positive national and international impact on how OAI service and metadata
+providers discover each other and learn about available metadata and services.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Adaptability</span></b></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>OAI-PMH is based fundamentally
+on omnipresent standards and protocols such as HTTP, XML, and the Dublin Core
+metadata schema. It has proven itself as a functional and stable protocol,
+and is increasingly widely used. What we provide by way of a prototype
+registry, or services crafted with deep input from users, or guidance on the
+creation of records more amenable to use in digital library services, will be
+usable far beyond the confines of the DLF institutions who comprise the test-bed
+collections and user communities. The ultimate impact, we believe, will be that
+many other libraries will follow the example of the DLF and its recommendations
+for OAI metadata tailored for digital library services; there is a strong history
+of the DLF recommendations and best practices having a wider influence than the DLF
+membership. As with other project components, software and schemas developed
+as part of the upgrading of the UIUC registry of OAI metadata providers will be
+made available under OpenSource license. This work will exploit collection
+level description being done by the UIUC IMLS Digital Collections and Content
+project, the UK's RSLP (and related) projects, and the Dublin Core Collection
+Description Working Group. Schemas developed as part of the OAI registry
+component enhancement work will be especially adaptable for use in sharing
+information about collections generally and OAI metadata providers in
+particular.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Design</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+<i>Context.</i> The DLF has been actively engaged with the OAI community since its
+beginning, providing some of the funding for the early work (with CNI) and
+through its members having an early commitment to providing OAI records and
+harvesting services. The California Digital Library, Carnegie Mellon
+University, Cornell University, Emory, Indiana University, Library of Congress, MIT, North Carolina
+State University, and universities of California, Berkeley, Chicago, Illinois, Michigan, 
+Pennsylvania, Tennessee, Virginia, Michigan, and Washington all show up as providers of OAI records currently, and as the letters of
+support attached to this proposal demonstrate, other DLF institutions are
+committed to much deeper engagement with sharable metadata and the
+<i>next-generation</i> services they allow.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+<b><i>Audience.</i></b> The material to hand most easily for this research and
+demonstration project is that which has already been digitized in DLF
+libraries. Typically, to date, this biases heavily towards text and images,
+and predominantly in the humanities and social sciences (so much so, in fact,
+that in our discussions of the DLF distributed library we have raised again the
+notion of using it as the seed for a national library for the humanities). Brockman,
+<i>et al</i>, in the abstract to <a href="http://www.clir.org/pubs/reports/pub104/contents.html">
+<i>Scholarly Work in the Humanities and the Evolving Information Environment</i></a>, have reminded us &quot;in particular, the
+findings emphasize how important it is for libraries to chart their
+evolutionary course in close consultation with scholarly user communities.&quot; Working
+with our scholarly advisory group (see below) we plan to extract out of the
+larger collection of records some area or areas of subject focus--The American
+South and/or American literature would be likely candidates. This builds on
+existing communities of interest and our own sense of what is in our collections
+and--if at all possible--would allow us to extend our examination of how
+scholars and teachers use a metadata-based finding system into some ongoing
+research and classroom projects. The <a href="/pubs/techreps.htm">
+DLF Registry</a> of digital collections, currently being
+updated with material up to December 2004, will be of considerable aid in this
+work.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+<b><i>Assessment of Needs.</i></b> From their own work and that of close colleagues, the
+participants from Emory, Michigan, and UIUC have a firm grasp of what
+relevant work has been done to evaluate OAI-based services, and what is going
+on to improve them.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+In addition, the DLF commissioned Brogan to undertake a <a href="/pubs/brogan/">
+<i>Survey of Digital Library Aggregation Services</i></a>, which provided an overview of a diverse set of more
+than thirty digital library aggregation services, organizing them into functional
+clusters, and then evaluating them from the perspective of an informed user. Most of the services under review 
+rely wholly or partially on OAI-PMH, and the
+conclusions of this study are ones that will guide part of our research. Her
+findings urge cautious optimism but show plenty of room for major improvement
+in precisely the areas we concentrate on here.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+Most important is the current IMLS-funded
+work at UIUC, <i>Digital Collections and Content (DCC)</i>, a three-year
+effort to build a national infrastructure for
+adaptable, interoperable, and sustainable digital collections, which uses
+OAI-PMH to harvest metadata from current and past IMLS National Leadership Grants
+(NLG) awardees with digital collections. The current DLF submittal to the
+IMLS NLG program proposes explicitly to build on and extend important facets of
+the current UIUC project.  Specifically, this new and
+deliberately complementary proposal focuses on a more homogeneous universe of
+digital collections and institutions, which will allow the DLF researchers to
+go further in developing more advanced standards, recommended best practices,
+and training approaches expressly tailored for academic research libraries.
+Development of these standards will build on research undertaken on our broader
+based project at Illinois into metadata schema implementations and authoring
+practices within the community of IMLS grantees, and will inform and be
+informed by the ongoing involvement of many DLF members in the evolution of
+metadata standards like Dublin Core, MODS, EAD, and METS. This work promises to
+further advance and prove in yet another domain the usefulness of OAI as a
+technology for sharing descriptive metadata.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><br />
+The work proposed by the DLF also will extend and make more valuable the work being
+done at UIUC on collection-level description. The DLF proposal promises to
+take the collection-level description best practices developed at Illinois in
+support of the collection registry component of its project and identify a
+range of standard ways in which such rich collection-level description can be
+included in OAI metadata provider services (e.g., through use of more complex,
+multi-faceted metadata schemes such as METS). This is the logical next step
+towards more closely coupling technologies used for the dissemination and
+management of item-level metadata and collection-level descriptive metadata,
+and is a necessary prerequisite towards merging human-generated metadata about
+collections with descriptive metadata derived by automated text mining. More
+seamless joining of collection-level description, item-level description, and
+automated full-text retrieval technologies is essential in the long run to
+enable capable end-user portals to our digital libraries.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Implementation</span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Based on this range of
+experience, knowledge, and expertise, we will undertake this research and
+demonstration by performing the following tasks, expressed here in four 6-month blocks.</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Phase One, months 1--6:</span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Set up technical components
+     for OAI-PMH harvesting [Michigan team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Harvest all current
+     available data from DLF institutions [Michigan team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Convene <a href="http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl">
+     the DLF OAI Best
+     Practices Working Group</a> to draft documents of best practices for OAI records
+     and collection descriptions, drawing heavily on  the collective experience
+     of DLF members who have already created OAI harvesting services and are
+     actively researching the next steps, including Emory, Michigan, OCLC,
+     and UIUC</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Establish the research
+     project’s <i>Scholarly Advisory Group</i>, and provide them with the means
+     and encouragement to inform and challenge our decisions and assumptions
+     throughout the project. [Note: prior to the beginning of the grant, the
+     DLF convened a meeting of scholars who are deeply involved in
+     digital projects that draw heavily on digital library resources; we expect
+     that the Scholarly Advisory Group will grow out of that focus group we
+     will establish in the spring of 2004, see <a href="/use/scholars0406/">
+     http://www.diglib.org/use/scholars0406/</a>.] </span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Work on export of registry
+     records  [UIUC Team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Experiment with addition
+     of classification attributes to registry records [UIUC Team]</span></li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Phase Two, months 7--12:
+</span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Test the harvesting
+     mechanisms and resolve any remaining technical problems [Michigan team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Plan the training needed
+     to ease the transition of DLF institutions to the provision of OAI
+     metadata records for harvesting [Emory team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Provide draft versions of 
+     best practices documents for the creation of new OAI records that are
+     explicitly tailored for digital library services [DLF OAI Best Practices
+     Working Group]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Convene a DLF Finding
+     System Research team, drawing from across DLF institutions; their
+     first task will be to identify tools used for creation of OAI records at
+     local institutions, in order to inform the training and guidance provided
+     to new providers</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Sample metadata records to
+     look for ways to enrich registry records [UIUC Team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>implement experimental
+     search features that use collection-level description metadata  [UIUC
+     Team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Expect to be working with
+     some new providers by this point</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Commission Martha Brogan
+     to review and revisit the work she did in 2003 for the DLF in surveying
+     digital library aggregation services, in part to inform the service design
+     in the second half of the grant</span></li>
+</ul>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Phase Three, months
+13--18:</span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Expect to see the bulk of
+     new OAI  providers by this phase of the grant</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Through significant use of
+     the Scholarly Advisory Group, design a functional OAI-based finding system
+     that will form the initial prototype for the DLF’s distributed library</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Work with the Scholarly
+     Advisory Group to uncover focused collections within the mass of the
+     aggregated records, and identify individual scholars and/or teachers who
+     will use that material in their work.</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Explore what level of
+     normalization of the harvested data is needed [DLF Finding System Research
+     team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Experiment with exposure of
+     the records to Google, and report on the results [Michigan team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>experiment with the use of
+     OCLC Web services tools for name authority provision, and report on the
+     results [Michigan team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Research techniques to
+     automatically characterize metadata records available from given OAI
+     providers [Illinois Team]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Expand current registry to
+     include OAI service providers  [Illinois Team]</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-left:.25in'><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Phase Four, months
+19--24:</span></b></p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal><span style='font-family:Arial'>Experimentation with
+     existing portals such as OAIster, Internet Scout portal, iVia [Michigan]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Explore the collection
+     development potentials of the prototype [All]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Gather feedback from
+     across the IMLS-funded and DLF-funded teams that have contributed to this
+     research and prototyping [All]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Revision, documentation,
+     and promotion of results [All]</span></li>
+ <li class=MsoNormal><span style='font-family:Arial'>Liaise with the DLF teams
+     (and others) that will be moving forwards after this research to implement
+     a finding system informed by our research [All]</span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Management</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The Principal Investigator,
+together with Co-Principal Investigators, shall provide the overall direction
+of the work undertaken here. Project Director/Principal Investigator, David
+Seaman, will provide coordination and oversight for the whole project. The three Co-Principal
+Investigators--one each at partner institutions Emory, Michigan, and UIUC--have
+all been involved in successful digital library projects for funding agencies
+including NEH, IMLS and the National Science Foundation. The University of
+Michigan Library will host an experimental OAI metadata harvesting service and
+metadata discovery portal(s) for the aggregation of DLF-member contributed
+metadata.  This harvesting service and associated portal(s) will serve as a
+test bed for many of the research investigations outlined in the proposal
+narrative. UIUC’s Grainger Library will
+host the collection registry and metadata repository services created as part
+of this project. Grainger Library currently hosts both the UIUC OAI
+Metadata Harvesting project and the TDC project.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Personnel</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Digital Library
+Federation/Council on Library and Information Resources</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>David Seaman</span><span
+style='font-family:Arial'> (Project Director/Principal Investigator): has previously run grants
+from the Andrew Mellon Foundation, NSF (international collaboration grant with
+the Deutsche Forschungsgemeinschaft), NEH (a national challenge grant), and has
+been a contributing partner on an IMLS grant (<i>The Philip S. Hench/Walter
+Reed Yellow Fever Collection</i>.  He has taught, lectured, and written
+frequently for the past twelve years on various aspects of digital library and
+humanities computing, in particular the use of SGML and XML texts in
+large-scale digital library aggregations. </span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Emory University</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Martin Halbert </span><span
+style='font-family:Arial'>(Co-Principal Investigator): Martin Halbert has been
+Director for Library Systems at the Emory University General Libraries since
+1996, and has extensive experience in planning and coordinating metadata
+harvesting projects.  He is currently principal investigator and executive
+director for the projects of the <a href="http://metascholar.org/"><i>MetaScholar Initiative </i></a>. 
+A recognized authority on metadata harvesting services, he has spoken on the
+topic at a number of national and international conferences.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>University of Michigan</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Kat Hagedorn</span><span
+style='font-family:Arial'> (Technical Manager): Work on metadata standards, interface design and
+reporting on current practices will be managed at the University of Michigan by
+Kat Hagedorn, the Metadata Harvesting Librarian at the University of Michigan. 
+She managed the OAI project funded by the Andrew W. Mellon Foundation at the
+University of Michigan, OAIster. Her work on OAIster and DLXS will provide the
+basis for the development of the new service envisioned in this proposal. </span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Perry Willett</span><span
+style='font-family:Arial'> (Co-Principal Investigator): Head of the Digital
+Library Production Service, University of Michigan, Perry Willett was before
+that Assistant Director for Projects and Services, Digital Library Program
+(DLP), Indiana University and Head of the Library Electronic Text Resource
+Service (LETRS)</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>University of Illinois</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Thomas G. Habing</span><span
+style='font-family:Arial'> (Co-Principal Investigator): Work on the
+experimental registry of OAI service and metadata providers will be managed at
+the University of Illinois by Thomas G. Habing and carried out by a library
+school graduate research assistant under his direction. Mr. Habing has been
+active as a developer of OAI-related software and services since the alpha
+testing phase of the protocol. He is a co-author of an XML schema for Qualified
+Dublin Core and the creator of the UIUC experimental registry of OAI metadata
+providers (<a href="http://oai.grainger.uiuc.edu/registry">http://oai.grainger.uiuc.edu/registry</a>).
+</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-autospace:none'><b><span style='font-family:
+Arial'>Project Evaluation</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Two
+advisory committees will be formed early in this research project to assist
+with ongoing evaluation and assessment and to help ensure usefulness and
+sustainability potential of this work.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The
+first, to be chaired by the project director/principal investigator, David Seaman, will be comprised of selected
+staff from DLF member libraries and digital projects. As representative of
+librarians and content providers, this advisory committee will help set project
+priorities and research agendas and will provide guidance on the resolution of
+high-level project issues. This first committee also will assess, evaluate, and
+provide ongoing qualitative feedback regarding what the research results tell
+us about the potential uses of metadata repositories to support the provision
+of advanced library services and their effectiveness as utilities for resource
+sharing and digital collection interoperability. Tom Habing (UIUC), Martin Halbert (Emory), and Perry Willet
+(Michigan) have all committed to serve on this first advisory
+committee. Additional members will be selected
+at project start to fill out this group. Members will be selected for their
+familiarity with digital library systems and interoperability issues, and to
+represent a diverse set of subject domains and digital information resource
+knowledge. We anticipate that this committee will meet face-to-face twice
+annually during the project, and will confer by email and conference calls as
+necessary at other times during the project.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>A
+second advisory committee will be comprised of approximately 8 DLF member
+institution teaching faculty who are well positioned to speak to scholarly user
+needs and interests, across all levels of university constituencies (i.e.,
+undergraduate, graduate, faculty, and staff). This committee as well will
+advise on project priorities and agendas on an ongoing basis, but this second
+group also will be especially well-positioned to comment from an end-user
+perspective on outcomes of prototyping activities and usability testing of
+experimental systems and services developed. The Scholarly Advisory Committee will
+serve not only as a key resource for evaluation but also as an aid to
+dissemination of results and as a group that can help facilitate sustainability
+and transformation of experimental services developed here into the longer term
+DLF distributed library. In this role they will convene an end-of-project
+conference to disseminate and research results and solicit user community input
+into next steps. The Scholarly Advisory Committee will also contribute
+substantial subject expertise during the content selection/collection
+development phase of the project.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Dissemination</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The DLF has both its semi-annual Forums and its listserv, Dlf-announce, for
+dissemination, and we will be publishing several reports out of this project.  In
+addition, we will actively seek out appropriate electronic forums, such as
+listservs and online discussion lists, in which to alert the wider library and
+museum communities of the progress of this project. The participants fully
+intend to generate journal articles, conference papers, and avail themselves to
+professional presentations designed to disseminate the findings of the project.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Sustainability</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The ultimate goal of creating a finding system for
+DLF holdings is to research the usefulness and viability of sharing
+collection-level and item-level metadata in the context of digitization
+projects within the DLF. The endeavor will accomplish those goals and will
+lay the foundation for further exploitation of these technologies and
+approaches. </span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>All software, documentation, training
+modules, and best practice recommendations developed for the distributed
+library service will be publicly available.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>With regard to item-level metadata
+sharing, a primary objective of the proposed work is to engender a commitment
+on the part of DLF institutions and others to implement and maintain metadata
+provider services so that metadata may be harvested not only by other DLF
+members but by all such interested parties.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The DLF is committed to long-term
+research, creation, and support of a range of elements that will go to make up
+the open, distributed library that we are ambitious for, with the richer
+services and better scholarship that will engender.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><b><span style='font-family:Arial'>Conclusion</span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Recently, the DLF’s Steering Committee has unanimously renewed the organization’s original
+commitment to an open, distributed, digital library, which means that we start
+this research at a moment when the DLF membership is prepared to commit to
+build more OAI records, fund related initiatives, and to implement and maintain
+a permanent finding system (a prototype of which this grant will provide); it
+also means that we are avaricious for research and demonstration that -- for
+example -- encourages new behaviors such as the routine provision of
+publicly-available item-level metadata records as part of our daily production
+processes, and that provides a richer knowledge of how users expect finding
+systems to behave.</span> </p>
+
+<p class=MsoNormal><span style='font-family:Arial'>The DLF members are
+committed to developing the prototype into a large-scale, long-term tool for
+discovery and re-use of their rich but scattered digital holdings.  This in
+turn, we hope, quickly expands beyond the DLF to much wider participation, and
+we will do everything we can to promote, publicize, and empower larger
+distributed libraries.  </span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>During this
+research period we will coordinate closely with our colleagues in other
+large-scale library aggregations, especially the National Science Digital
+Library (NSDL), and with ongoing research at UIUC.  Already we see ways in
+which the practical experimentation undertaken here will inform the emerging
+discussions about national cyber-infrastructures for both the sciences and the
+humanities, and will contribute to the discussions about a National Digital
+Library for the Humanities.</span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>&nbsp;</span></p>
+
+<p><img src="imls1-smallfile.jpg" alt="imls logo" hspace="10" width="120" height="120"align="left" />
+<br />
+<i>The Institute of Museum and Library Services, a federal grant-making agency
+dedicated to creating and sustaining a nation of learners by helping libraries
+and museums serve their communities, supports the Digital Library Federation.</i>
+
+<!-- End text -->
+
+     <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+    </tr>
+   </table>
+   <p>&nbsp;</p>
+   <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+    Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+   </td>
+ </tr>
+ <tr>
+  <td width="192" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="192" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="99" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="99" height="1" /></td>
+  <td width="18" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="18" height="1" /></td>
+  <td width="59" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="59" height="1" /></td>
+  <td width="50" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="50" height="1" /></td>
+  <td width="8" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="8" height="1" /></td>
+  <td width="63" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="63" height="1" /></td>
+  <td width="53" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="53" height="1" /></td>
+ </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

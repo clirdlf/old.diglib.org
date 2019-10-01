@@ -1,0 +1,37 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><p:colorscheme
+  colors="#8d8d8d,#727272,#808080,#000000,#007ef8,#333399,#009999,#99cc00"/>
+ <v:background id="_x0000_s1028" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="master03_image001.png" o:title="" type="frame"/>
+ </v:background><p:shaperange id="_x0000_m1025">
+  <v:shapetype id="_x0000_m1025" style='position:absolute;left:62pt;top:118pt;
+   width:675pt;height:172pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f" stroked="f"
+   strokeweight="1pt">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <v:textbox inset="10.8pt,0,12.96pt,0"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m1026">
+  <v:shapetype id="_x0000_m1026" style='position:absolute;left:62pt;top:309pt;
+   width:675pt;height:78pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" stroked="f" strokeweight="1pt">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <v:textbox inset="3.6pt,0,3.6pt,0"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s1027">
+  <v:line id="_x0000_s1027" style='position:absolute;rotation:180;flip:x'
+   from="62pt,299pt" to="736.875pt,300pt" strokecolor="#737373"/>
+ </p:shaperange>
+</xml>

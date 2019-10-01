@@ -1,0 +1,1303 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../DLF-Formats-arms.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>  </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>Digital Formats: Factors
+  for Sustainability, Functionality, and Quality</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Caroline R. Arms</li>
+   <li>Carl Fleischhauer</li>
+   <li>DLF Forum</li>
+   <li>November 17, 2003</li>
+   <br>
+   <br>
+   <li>Temporary URL for this slide show and related documents:</li>
+   <li>http://memory.loc.gov/ammem/techdocs/digform/</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL2>Analysis of Digital
+  Formats</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Goal: provide information to help LC staff develop strategies and
+       practices for incoming content</li>
+   <li>Begin by identifying preferred formats – a continuing process</li>
+   <li>Later, move to appropriate actions with non-preferred</li>
+   <li>Project includes media-independent formats (&quot;intangible&quot;),
+       e.g., MP3 files</li>
+   <li>Project excludes media-dependent formats (&quot;tangible&quot;), e.g.,
+       audio CDs, DVDs</li>
+   <li>Synergy with the proposed Global Digital Format Registry</li>
+   <li>Initial analysis focuses on four “easy” categories: still images, audio,
+       video, and text.<span style='mso-spacerun:yes'>  </span>Draft documents
+       reviewed by a small group of LC and outside readers.</li>
+   <li>Additional format categories as the work proceeds</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0035.htm');" id=PPTL3>Section I.<span
+  style='mso-spacerun:yes'>  </span>Factors for Evaluation</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0023.htm');" id=PPTL4>Two Types of Evaluation
+  Factors</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Sustainability factors for all formats</li>
+   <ul>
+    <li>influence feasibility and cost of preserving content in the face of
+        future change</li>
+   </ul>
+   <li>Quality and functionality factors that vary by content category</li>
+   <ul>
+    <li>reflect considerations that will be expected by future users</li>
+   </ul>
+   <li>Factors compete and the process of selection entails finding a good
+       balance</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL5>Sustainability:
+  Disclosure</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Degree to which complete specifications and tools for validating
+       technical integrity exist and are accessible to those creating and
+       sustaining digital content. A spectrum of disclosure levels can be
+       observed for digital formats.<span style='mso-spacerun:yes'> 
+       </span>What is most significant is not approval by a recognized
+       standards body, but the existence of complete documentation.</li>
+   <li>Preservation of content in a given digital format over the long term is
+       not feasible without an understanding of how the information is
+       represented (encoded) as bits and bytes in digital files.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>TIFF image format well documented, many products and shareware</li>
+    <li>MrSID image format partially documented, proprietary elements protected</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL6>Sustainability: Adoption</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Degree to which the format is already used by the primary creators,
+       disseminators, or users of information resources.<span
+       style='mso-spacerun:yes'>  </span>This includes use as a master format,
+       for delivery to end users, and as a means of interchange between
+       systems.</li>
+   <li>If a format is widely adopted, it is less likely to become obsolete
+       rapidly, and tools for migration and emulation are more likely to emerge
+       from industry without specific investment by archival institutions.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>PDF text format very widely used</li>
+    <li>Microsoft eBook Reader not widely used</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL7>Sustainability:
+  Transparency</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Degree to which the digital representation is open to direct analysis
+       with basic tools, such as human readability using a text-only editor.</li>
+   <li>Digital formats in which the underlying information is represented
+       simply and directly will be easier to migrate to new formats and more
+       susceptible to digital archaeology; easier development of rendering
+       software for new technical environments.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>Uncompressed raster image bitstream easy to interpret</li>
+    <li>Lossy compressed image bitstream requires complex decoding</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL8>Sustainability:
+  Self-documentation</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Self-documenting digital objects contain basic descriptive, technical,
+       and other administrative metadata.</li>
+   <li>Self-documenting digital objects are likely to be easier to sustain over
+       the long term and to transfer reliably from one archival system to
+       another, including a successor system.<span style='mso-spacerun:yes'> 
+       </span>LC wants to take advantage of the trend towards embedded metadata
+       for business reasons.<span style='mso-spacerun:yes'>  </span>Some
+       metadata will be extracted to support discovery and collection
+       management.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>JPEG (.jpg) image files contain very scant metadata</li>
+    <li>EXIF JPEG wraps JPEG compression with richer metadata</li>
+    <li>JPEG2000 (.jpx) image files may contain metadata ‘boxes’ – can include
+        an extensive DIG35 record</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0019.htm');" id=PPTL9>Sustainability: External
+  Dependencies</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Degree to which a particular format depends on particular hardware,
+       operating system, or software for rendering or use and the predicted
+       complexity of dealing with those dependencies in future technical
+       environments.</li>
+   <li>Some interactive digital content is designed for use with specific
+       hardware, such as a joystick.<span style='mso-spacerun:yes'> 
+       </span>Scientific datasets built from sensor data may require
+       specialized software for analysis and visualization.</li>
+   <li>External dependencies will make content more difficult and costly to
+       sustain than static content. The specialized software required by some
+       scientific datasets may itself be very difficult to sustain.</li>
+   <li>Examples:</li>
+   <ul>
+    <ul>
+     <li>Adobe eBooks require a Microsoft Passport account.</li>
+     <li>Open eBook format is free of external dependencies</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL10>Sustainability: Impact
+  of Patents</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Degree to which the ability of archival institutions to sustain content
+       in a format will be inhibited by patents.</li>
+   <li>Although the costs for licenses to decode current standard formats are
+       often low, the development of open source decoders will be
+       inhibited.<span style='mso-spacerun:yes'>  </span>Tools to transcode
+       content in these formats when they become obsolete may be more costly to
+       develop.</li>
+   <li>This factor was recently added to our list. We are uncertain whether it
+       will prove significant and welcome the chance to discuss with others.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>Makers of tools for MPEG-1 moving image format do not [appear to]
+        require licenses</li>
+    <li>Makers of tools for MPEG-2 and MPEG-4 moving image formats must pay for
+        licenses and/or pass through royalties</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0017.htm');" id=PPTL11>Sustainability: Tech
+  Protection Mechanisms</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Implementation of mechanisms such as encryption that prevent the
+       preservation of content by a trusted repository.</li>
+   <li>Preservation of the digital content requires replicating it on new
+       media, migrating and normalizing it in the face of changing
+       technology.<span style='mso-spacerun:yes'>  </span>Protection mechanisms
+       may also prevent the dissemination of content to authorized users.</li>
+   <li>Exploitation of technical protection mechanisms is generally optional;
+       their use depends on how a format is used in a particular context.</li>
+   <li>Examples:</li>
+   <ul>
+    <li>Sound recordings from Audible.com will only play with software and/or
+        devices from Audible</li>
+    <li>MP3 files play anywhere</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0032.htm');" id=PPTL12>Sustainability
+  Evaluation (not weighted)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0005.htm');" id=PPTL13>Quality and
+  Functionality Factors</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Vary according to content type, e.g., text, image, sound</li>
+   <li>Pertain to current and future usefulness, e.g., for scholarship or
+       repurposing</li>
+   <li>Identification of factors reflects consideration of what are likely to
+       be significant or essential features of some content items</li>
+   <ul>
+    <li>Surround sound for audio</li>
+    <li>Color maintenance for still images</li>
+    <li>Logical structure for text documents</li>
+   </ul>
+   <li>Trying to get at this at a simplified high level</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0025.htm');" id=PPTL14>Quality &amp;
+  Functionality: Still Images</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Normal rendering includes on-screen viewing and printing to paper;
+       likely to also include the ability to zoom in to study detail or produce
+       publication quality output</li>
+   <li>Clarity (support for high image resolution)</li>
+   <ul>
+    <li>Format allows for high pixel count and bit depth</li>
+    <li>Prefer implementations that eschew or minimize compression loss or
+        effect of watermarking</li>
+   </ul>
+   <li>Color maintenance (support for color management)</li>
+   <ul>
+    <li>Format allows for color management, e.g., ICC profiles</li>
+   </ul>
+   <li>Functionality beyond normal image rendering (vector graphics, 3-D
+       models, etc.)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0024.htm');" id=PPTL15>Quality &amp;
+  Functionality: Sound</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Normal rendering includes playback in mono and stereo; typical software
+       provides user control over volume, tone, and balance, as well as
+       navigation (fast forward, go-to-segment, etc.).</li>
+   <li>Fidelity (support for high audio resolution)</li>
+   <ul>
+    <li>For LPCM bitstream, format allows for high sampling frequency and word
+        length</li>
+    <li>Prefer implementations that eschew or minimize compression loss or
+        watermarking effect</li>
+   </ul>
+   <li>Sound field (support for multi-channel audio)</li>
+   <ul>
+    <li>Allows for surround sound or other multi-track representation</li>
+   </ul>
+   <li>Functionality beyond normal rendering applies to music notation formats,
+       e.g., MIDI</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL16>Quality &amp;
+  Functionality: Video</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Normal rendering includes playback of a single image stream with sound
+       in mono or stereo through speakers or headphones; typical software
+       provides user control over picture elements (brightness, hue, contrast),
+       sound elements (volume, tone, balance), and navigation (fast forward,
+       go-to-segment, etc.).</li>
+   <li>Clarity (support for high image resolution)</li>
+   <ul>
+    <li>Format allows for large picture size (pixels), progressive scan option</li>
+    <li>Prefer implementations that eschew or minimize compression loss or
+        watermarking effect</li>
+   </ul>
+   <li>Fidelity (support for high audio resolution)</li>
+   <li>Sound field (support for multichannel audio)</li>
+   <ul>
+    <li>Considerations for fidelity and sound field same as for sound formats</li>
+   </ul>
+   <li>Functionality beyond normal rendering</li>
+   <ul>
+    <li>Work in progress: “animation” formats (ShockWave), frame-accurate
+        editing</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL17>Quality &amp;
+  Functionality: Text</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>A work in progress . . .</li>
+   <li>Normal rendering includes linear reading on screen, print to paper,
+       search for words, and index for searching; rendering must reflect the
+       intent of the author in representing individual characters, paragraph
+       structure, lists, headings, and indicators of emphasis.</li>
+   <li>Support for integrity of document structure and navigation</li>
+   <ul>
+    <li>Format allows for navigation and automated analysis that reflects the
+        logical structure of a work; important for directories, encyclopedias,
+        works that use a formal structure</li>
+   </ul>
+   <li>Support for integrity of layout, font, and other design features</li>
+   <ul>
+    <li>Allows for reliable presentation in terms of look and feel, when exact
+        choices of features like font and column layout are essential to
+        meaning</li>
+   </ul>
+   <li>Support for rendering for mathematics, formulae, diagrams, etc.</li>
+   <ul>
+    <li>Allows for accurate rendering of non-textual elements that are crucial
+        to informational content (markup languages sometimes fall short in this
+        area)</li>
+   </ul>
+   <li>Functionality beyond normal rendering</li>
+   <ul>
+    <li>More work in progress, e.g., talking books (ANSI/NISO Z39.86 for the
+        blind)</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0033.htm');" id=PPTL18>Evaluate All Factors,
+  Example of Sound</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0036.htm');" id=PPTL19>Section II.<span
+  style='mso-spacerun:yes'>  </span>Relationships</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0045.htm');" id=PPTL20>What is a format?</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Working definition from format registry proposal:</li>
+   <li>	A format is a fixed, byte-serializing encoding of an information model.</li>
+   <br>
+   <br>
+   <li>Working definition we have used:</li>
+   <li>	Formats are packages of information that can be stored as data files or
+       sent via network as data streams (aka bitstreams, byte streams)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL21>Formats: Types &amp;
+  Relationships</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>file formats</li>
+   <ul>
+    <li>at the level indicated by file extensions, e.g., .mp3</li>
+    <li>as indicated by Internet MediaType (aka MIME type), e.g. text/html</li>
+    <li>versions develop through time</li>
+    <li>refinements are tailored to specific purposes, e.g., TIFF-EP for
+        electronic photography</li>
+   </ul>
+   <li>class of related formats whose familial characteristics are important</li>
+   <ul>
+    <li>e.g., the WAVE audio format is an instance of the RIFF format class</li>
+   </ul>
+   <li>&quot;wrappers&quot; distinguished in terms of their underlying
+       bitstreams</li>
+   <ul>
+    <li>e.g., WAVE files may contain linear pulse code modulated [LPCM] audio
+        (like a CD) or highly compressed audio as used for digital telephony.</li>
+   </ul>
+   <li>file formats may have optional features significant to sustainability</li>
+   <ul>
+    <li>e.g. for encryption</li>
+   </ul>
+   <li>bundling formats bind together files comprising a single digital work</li>
+   <ul>
+    <li>e.g., text and supporting illustrations, or a movie with sound tracks
+        in different languages</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0043.htm');" id=PPTL22>Simple Example: WAVE</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Wrapper for different bitstreams</li>
+   <li>Simple, but extensible method for embedding metadata</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0010.htm');" id=PPTL23>More Complex Example --
+  PDF</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Much more than text</li>
+   <li>A file format, a wrapper, a bundling format, all in one</li>
+   <li>Complexity of relationships</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL24>Sidebar on PDF/A for
+  Archiving</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>To be open standard, not proprietary to Adobe</li>
+   <li>Constrained for sustainability</li>
+   <ul>
+    <li>No encryption (transparency, technical protection)</li>
+    <li>No audio or video embedded</li>
+    <li>No Javascript or executable file launches</li>
+    <li>All fonts must be embedded and also must be legally embeddable for
+        unlimited, universal rendering (disclosure, self-documentation)</li>
+    <li>Colorspaces must be specified in a device independent manner (external
+        dependencies)</li>
+    <li>Embedded metadata must be in XMP -- XML-based (transparency,
+        self-documentation)</li>
+   </ul>
+   <li>LC &amp; other DLF participants involved in development</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0030.htm');" id=PPTL25>Format Description
+  Documents</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Structured documents</li>
+   <ul>
+    <li>Identification &amp; description</li>
+    <li>Local use/preference/expertise/tools</li>
+    <li>Sustainability factors</li>
+    <li>Quality &amp; functionality factors</li>
+    <li>Useful references</li>
+   </ul>
+   <li>Intended primarily for people making plans/decisions now</li>
+   <ul>
+    <li>Choosing formats</li>
+    <li>Making provision for systems</li>
+    <li>Assembling documentation &amp; tools</li>
+   </ul>
+   <li>Plan to develop XML Schema</li>
+   <li>Clearly much in common with other efforts</li>
+   <ul>
+    <li>Diffuse, PRONOM, Wotsit</li>
+    <li>Global Digital Format Registry</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0044.htm');" id=PPTL26>Synergy with Registry</a></font></div>
+  <div id=PPTC26 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Global Digital Format Registry plans to build a resource that can
+       support more automated services</li>
+   <li>Common challenges</li>
+   <li>Granularity of identification</li>
+   <ul>
+    <li>How finely to identify</li>
+   </ul>
+   <li>Are different types of subtype relationships needed?</li>
+   <ul>
+    <li>Simple restriction on bitstream encoding</li>
+    <li>Formal sections or explicit profiles in standards</li>
+    <li>Mandatory metadata</li>
+    <li>Mandatory structural features</li>
+    <li>Options outlawed</li>
+   </ul>
+   <li>Hard questions.<span style='mso-spacerun:yes'>  </span>Clear value from
+       collaboration</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0034.htm');" id=PPTL27>Complexity Increasing</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>New standards have portmanteau nature</li>
+   <ul>
+    <li>Many parts, many options, as already noted in the case of PDF</li>
+   </ul>
+   <li>JPEG2000</li>
+   <ul>
+    <li>Part 1.<span style='mso-spacerun:yes'>  </span>.jp2 (core lossless and
+        lossy compression schemes for continuous tone, replacement for JPEG)</li>
+    <li>Part 2.<span style='mso-spacerun:yes'>  </span>.jpx (extensions,
+        including more capabilities for embedding metadata)</li>
+    <li>Part 6.<span style='mso-spacerun:yes'>  </span>.jpm (multi-layer
+        images, can embed other bitstream encodings, including bitonal)</li>
+   </ul>
+   <li>MPEG-4</li>
+   <ul>
+    <li>Many ‘profiles’ for different contexts</li>
+   </ul>
+   <li>Which parts of these standards will be widely adopted?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0037.htm');" id=PPTL28>Section III. Content
+  States in a Production and Distribution Cycle</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0040.htm');" id=PPTL29>Content States in a
+  Production Process</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>A bit of a simplification but . . .</li>
+   <li>Content in a publishing or distribution stream can be seen as existing
+       in three states:</li>
+   <ul>
+    <li>Initial “while the author is creating it”</li>
+    <li>Middle “while the publisher manages and archives it”</li>
+    <li>End “what is presented or sold to an end-user”</li>
+   </ul>
+   <li>Different formats are often associated with these three states,
+       appropriate to the task at hand</li>
+   <li>Debt owed to Mellon-funded journals projects (and others) for these
+       ideas</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL30>Initial State, Early
+  Creative Processes</a></font></div>
+  <div id=PPTC30 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Example for sound recording</li>
+   <li>Multiple separate tracks in a recording studio</li>
+   <li>Complex multipart entity, e.g., twelve tracks for instruments and voices</li>
+   <li>“Edit decision list&quot; manages elements</li>
+   <li>Very high fidelity</li>
+   <li>Specialized production formats, e.g., proprietary format produced by the
+       SADiE digital audio workstation</li>
+   <li>Other examples</li>
+   <li>Text: writer using word processing software, e.g., MS-Word</li>
+   <li>Video: multi-segment work in progress has elements in AAF wrapper</li>
+   <li>Initial state formats are often proprietary and may be limited to
+       creator's favorite software package</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL31>Middle State, in Hands
+  of Publisher</a></font></div>
+  <div id=PPTC31 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Example for sound recording</li>
+   <li>Mixed master, often in stereo or surround sound; possible multi-track
+       with “sub-mixes” completed</li>
+   <li>Not as complex as the studio session recordings, ready or close-to-ready
+       for distribution as digital-file or compact disk</li>
+   <li>Edit decision list may still be required</li>
+   <li>Very high fidelity</li>
+   <li>Specialized industry formats, e.g., AES-31 recorded sound format</li>
+   <li>No technological protections embedded in bitstream</li>
+   <li>Other examples</li>
+   <li>Text: author’s journal article marked up and in document management
+       system</li>
+   <li>Video: program archived in MXF format, transmitted by TV network at
+       designated time</li>
+   <li>Middle state formats used by industry to send or exchange data, may
+       emerge as preferred formats for archiving within an industry.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL32>Final State,
+  Distributed to End Users</a></font></div>
+  <div id=PPTC32 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Example for sound recording</li>
+   <li>Simple entity, may be high, moderate, or low fidelity</li>
+   <li>Common, current media-independent formats, e.g., WAVE-LPCM file, Windows
+       Media Audio (.wma), or MP3</li>
+   <li>Security elements may be embedded in the bitstream</li>
+   <li>Other examples</li>
+   <li>Journal article “published” as PDF file</li>
+   <li>Video program disseminated as MPEG-4 compressed file</li>
+   <li>Final state formats are for items in the marketplace.<span
+       style='mso-spacerun:yes'>  </span>“This year, we released the song in
+       RealAudio, next year we’ll probably reissue it as encrypted AAC.”</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL33>Prefer the Middle-state
+  Formats?</a></font></div>
+  <div id=PPTC33 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>	For Library of Congress collections the best formats for the long term
+       may well be the middle state formats.<span style='mso-spacerun:yes'> 
+       </span>These are likely to have higher quality than final-state formats,
+       may be easier to manage for preservation, and may be the focus of
+       developing archiving approaches by industry.</li>
+   <br>
+   <br>
+   <li>	Of course, we do sometimes collect initial-state works, and will often
+       receive final-state.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>34</font></div>
+  </td>
+  <td>
+  <div id=PPTP34 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0029.htm');" id=PPTL34>Middle-state Preference
+  Challenges</a></font></div>
+  <div id=PPTC34 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>	Seeking middle-state digital formats for LC collections would be
+       different than the most widespread current practice.<span
+       style='mso-spacerun:yes'>  </span>The selection of best editions
+       authorized by copyright law and LC practices today is generally limited
+       to works in their final state.</li>
+   <li></li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>35</font></div>
+  </td>
+  <td>
+  <div id=PPTP35 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0041.htm');" id=PPTL35>Section IV. Curator’s
+  Judgment</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>36</font></div>
+  </td>
+  <td>
+  <div id=PPTP36 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0038.htm');" id=PPTL36>Putting Format
+  Preferences to Work</a></font></div>
+  <div id=PPTC36 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Illustration from the realm of sound recordings</li>
+   <li>How a curator might</li>
+   <ul>
+    <li>analyze significant or essential characteristics for categories of
+        content</li>
+    <li>combine that analysis with technical information about formats, and</li>
+    <li>develop format-preference statements for content subcategories.</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>37</font></div>
+  </td>
+  <td>
+  <div id=PPTP37 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0031.htm');" id=PPTL37>Sound content
+  subcategories and their significant characteristics</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>38</font></div>
+  </td>
+  <td>
+  <div id=PPTP38 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0042.htm');" id=PPTL38>Sound content
+  subcategories and format preferences</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>39</font></div>
+  </td>
+  <td>
+  <div id=PPTP39 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL39>Project Next Steps</a></font></div>
+  <div id=PPTC39 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Continuing inside and outside expert review – we want YOUR comments!</li>
+   <li>Plan to work with registry as it takes shape</li>
+   <li>Implementation at LC:</li>
+   <ul>
+    <li>Develop web site for LC staff</li>
+    <li>Launch process to identify which formats to analyze next</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href="v3_document.htm"></a><a href=preview.wmf></a><a
+href="v3_next_active.gif"></a><a href="v3_next_disabled.gif"></a><a
+href="v3_prev_active.gif"></a><a href="v3_prev_disabled.gif"></a><a
+href="v3_outline_collapse.gif"></a><a href="v3_outline_expand.gif"></a><a
+href="v3_space.gif"></a><a href="v3_endshow.htm"></a><a
+href="v3_navigation_bar.htm"></a><a href="v3_outline_navigation_bar.htm"></a><a
+href="v3_outline_collapsed.htm"></a><a href="v3_outline_expanded.htm"></a><a
+href="v3_blank_notes.htm"></a><a href=master03.htm></a><a href=master03.xml></a><a
+href=master02.htm></a><a href=pres.xml></a><a href="v3_slide0001.htm"></a><a
+href="v3_master03_background.gif"></a><a href="v3_slide0002.htm"></a><a
+href="v3_slide0035.htm"></a><a href="v3_slide0023.htm"></a><a
+href="v3_slide0004.htm"></a><a href="v3_slide0021.htm"></a><a
+href="v3_slide0020.htm"></a><a href="v3_slide0018.htm"></a><a
+href="v3_slide0019.htm"></a><a href="v3_slide0022.htm"></a><a
+href="v3_slide0017.htm"></a><a href="v3_slide0017_image001.gif"></a><a
+href="v3_slide0032.htm"></a><a href="v3_slide0032_background.gif"></a><a
+href="v3_slide0005.htm"></a><a href="v3_slide0025.htm"></a><a
+href="v3_slide0025_image002.gif"></a><a href="v3_slide0024.htm"></a><a
+href="v3_slide0024_image003.gif"></a><a href="v3_slide0026.htm"></a><a
+href="v3_slide0026_image004.gif"></a><a href="v3_slide0027.htm"></a><a
+href="v3_slide0027_image005.gif"></a><a href="v3_slide0033.htm"></a><a
+href="v3_slide0033_background.gif"></a><a href="v3_slide0036.htm"></a><a
+href="v3_slide0045.htm"></a><a href="v3_slide0007.htm"></a><a
+href="v3_slide0043.htm"></a><a href="v3_slide0010.htm"></a><a
+href="v3_slide0011.htm"></a><a href="v3_slide0030.htm"></a><a
+href="v3_slide0044.htm"></a><a href="v3_slide0034.htm"></a><a
+href="v3_slide0037.htm"></a><a href="v3_slide0040.htm"></a><a
+href="v3_slide0008.htm"></a><a href="v3_slide0009.htm"></a><a
+href="v3_slide0009_image006.gif"></a><a href="v3_slide0012.htm"></a><a
+href="v3_slide0013.htm"></a><a href="v3_slide0029.htm"></a><a
+href="v3_slide0041.htm"></a><a href="v3_slide0038.htm"></a><a
+href="v3_slide0031.htm"></a><a href="v3_slide0031_background.gif"></a><a
+href="v3_slide0042.htm"></a><a href="v3_slide0042_background.gif"></a><a
+href="v3_slide0042_image007.gif"></a><a href="v3_slide0016.htm"></a><a
+href=slide0001.htm></a><a href=slide0002.htm></a><a href=slide0035.htm></a><a
+href=slide0023.htm></a><a href=slide0004.htm></a><a href=slide0021.htm></a><a
+href=slide0020.htm></a><a href=slide0018.htm></a><a href=slide0019.htm></a><a
+href=slide0022.htm></a><a href=slide0017.htm></a><a href=slide0032.htm></a><a
+href=slide0032.xml></a><a href="slide0032_image008.gif"></a><a
+href=slide0005.htm></a><a href=slide0025.htm></a><a href=slide0024.htm></a><a
+href=slide0026.htm></a><a href=slide0027.htm></a><a href=slide0033.htm></a><a
+href=slide0033.xml></a><a href="slide0033_image009.gif"></a><a
+href=slide0036.htm></a><a href=slide0045.htm></a><a href=slide0007.htm></a><a
+href=slide0043.htm></a><a href="slide0043_image010.gif"></a><a
+href=slide0010.htm></a><a href="slide0010_image011.gif"></a><a
+href=slide0011.htm></a><a href=slide0030.htm></a><a href=slide0044.htm></a><a
+href=slide0034.htm></a><a href=slide0037.htm></a><a href=slide0040.htm></a><a
+href=slide0008.htm></a><a href=slide0009.htm></a><a href=slide0012.htm></a><a
+href=slide0013.htm></a><a href=slide0029.htm></a><a href=slide0041.htm></a><a
+href=slide0038.htm></a><a href=slide0031.htm></a><a
+href="slide0031_image012.wmz"></a><a href=oledata.mso></a><a
+href="slide0031_image013.gif"></a><a href=slide0042.htm></a><a
+href="slide0042_image014.wmz"></a><a href="slide0042_image015.gif"></a><a
+href=slide0016.htm></a><a href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../DLF-Formats-arms.htm"></a><a href=fullscreen.htm></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

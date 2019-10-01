@@ -1,0 +1,17 @@
+An  'info' URI with  namespace 'dlf' takes the form:
+
+info:dlf/<dlf-project>/<project-specific-id>
+ 
+Values of dlf-project are assigned by the Digital Library Federation and 
+registered at http://diglib.org/namespace/projects.txt.  
+
+Following is the list of currently assigned dlf-project values:
+
+dlf-project  Description
+-----------  -----------------------------------------------------------
+Aquifer      URIs for use with the DLF Aquifer project will be created
+             in this namespace.  Examples include:
+             
+             info:dlf/Aquifer/AssetActions/AssetDefinition/
+             info:dlf/Aquifer/AssetActions/MODS3.2-extension/
+             info:dlf/Aquifer/AssetActions/getWebView

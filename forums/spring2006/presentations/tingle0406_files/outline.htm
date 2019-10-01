@@ -1,0 +1,1317 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../tingle0406.htm">
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>&quot;The Melvyl
+  Recommender Project&quot;</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <ul>
+    <li>The Melvyl Recommender Project</li>
+    <br>
+    <br>
+    <li>originally presented as a CNI Project Briefing 2006 April 3 by</li>
+    <br>
+    <br>
+    <li>Colleen Whitney</li>
+    <li>California Digital Library</li>
+    <li>and UC Berkeley School of Information</li>
+    <br>
+    <br>
+    <li>Peter Brantley<br>
+                California Digital Library</li>
+    <br>
+    <br>
+    <li>DLF reprise</li>
+    <br>
+    <br>
+    <li>Brian Tingle</li>
+    <li>California Digital Library</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL2>Links:</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <br>
+   <li>http://recommend-dev.cdlib.org/</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0003.htm');" id=PPTL3>Background</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Fundamental changes in user needs and expectations</li>
+   <li>Library catalogs do not meet these needs</li>
+   <li>Exploratory project</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL4>Outline</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Text-based discovery system</li>
+   <li><span style='mso-spacerun:yes'> </span>User interface strategies</li>
+   <li><span style='mso-spacerun:yes'> </span>Spelling correction</li>
+   <li><span style='mso-spacerun:yes'> </span>Enhanced relevance ranking</li>
+   <li><span style='mso-spacerun:yes'> </span>Recommending</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0005.htm');" id=PPTL5>Text-Based Discovery</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>eXtensible TextFramework (XTF):<span style='mso-spacerun:yes'> 
+       </span>built on Lucene, Saxon</li>
+   <li>Open source, standards-based (XML, XSLT, Java servlets)</li>
+   <li>Very different from relational approach</li>
+   <li>Built-in ranking capability</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0006.htm');" id=PPTL6>Testbed</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Bibliographic records</li>
+   <ul>
+    <li>MARC export from Melvyl</li>
+    <li>~4.2 million UCLA records used in the current prototype</li>
+    <li>Experimented with using UCB records as well, for a total of 9 million</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL7>For Further Exploration</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Scalability and Performance</li>
+   <ul>
+    <li>Successfully indexed and searched up to 9 million records</li>
+    <li>How will it do with 35 or 40 million records?</li>
+   </ul>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL8>Outline</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Text-based discovery system</li>
+   <li><span style='mso-spacerun:yes'> </span>User interface strategies</li>
+   <li><span style='mso-spacerun:yes'> </span>Spelling correction</li>
+   <li><span style='mso-spacerun:yes'> </span>Enhanced relevance ranking</li>
+   <li><span style='mso-spacerun:yes'> </span>Recommending</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL9>AJAX</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Asynchronous JavaScript And XML</li>
+   <li>Using to call to additional services from outside the core system</li>
+   <li>Render the page, then update portions as data arrives</li>
+   <li>Adds flexibility while maintaining speed</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0010.htm');" id=PPTL10>FRBR</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Functional Requirements for Bibiliographic Records</li>
+   <ul>
+    <li>Work<span style='mso-spacerun:yes'>  </span>(Hamlet)</li>
+    <li>Expression (in French)</li>
+    <li>Manifestation (Presses universitaires de France, 1987)</li>
+    <li>Item (UCLA’s copy of it)</li>
+   </ul>
+   <li>Researching existing implementations</li>
+   <li>Analyzing how we would apply the concepts, and how we would implement</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL11>Faceted Browse</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL12>Faceted Browse</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Underlying mechanics in place</li>
+   <li>For effective browse, will require:</li>
+   <ul>
+    <li>substantial metadata enhancement</li>
+    <li>significant UI design work</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL13>Outline</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Text-based discovery system</li>
+   <li><span style='mso-spacerun:yes'> </span>User interface strategies</li>
+   <li><span style='mso-spacerun:yes'> </span>Spelling correction</li>
+   <li><span style='mso-spacerun:yes'> </span>Enhanced relevance ranking</li>
+   <li><span style='mso-spacerun:yes'> </span>Recommending</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0014.htm');" id=PPTL14>Spelling Correction</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Goal:<span style='mso-spacerun:yes'>  </span>90% correct on first try</li>
+   <li>Dictionary-based (aspell) vs. index-based</li>
+   <ul>
+    <li>Proper nouns</li>
+    <li>Multilingual environment</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0015.htm');" id=PPTL15>Spelling Correction</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Chose index-based strategy</li>
+   <ul>
+    <li>“N-gram” speller from Lucene:</li>
+    <ul>
+     <li>“primer” =&gt; pri prim rime imer mer</li>
+     <li>form query from n-grams</li>
+     <li>retain top 100, rank by closeness to original word</li>
+    </ul>
+    <li>Modified in several ways</li>
+    <ul>
+     <li>adjust for transpositions and insertions</li>
+     <li>use metaphones</li>
+     <li>boost on word frequencies</li>
+    </ul>
+   </ul>
+   <li>Tested successfully on Wikipedia and aspell datasets</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL16>Examples</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>“Mexaco” =&gt; “Did you mean...Mexico?”</li>
+   <li>“Javasript” =&gt; “Did you mean... Javascript”</li>
+   <li>“frehman” =&gt; “Did you mean...freeman”</li>
+   <li>“flod” =&gt; “Your search for flod in keywords returned 12 result(s).”</li>
+   <li>“Cailfornia” =&gt; “Your search for cailfornia in keywords returned 1
+       result(s).”</li>
+   <br>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0017.htm');" id=PPTL17>For Further Exploration</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Relative benefits of this approach:<span style='mso-spacerun:yes'> 
+       </span>increase in indexing time (construction of bi-grams)</li>
+   <li>Consider when to intervene...only on 0 results?</li>
+   <li>Multi-word correction</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL18>Outline</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Text-based discovery system</li>
+   <li><span style='mso-spacerun:yes'> </span>User interface strategies</li>
+   <li><span style='mso-spacerun:yes'> </span>Spelling correction</li>
+   <li><span style='mso-spacerun:yes'> </span>Enhanced relevance ranking</li>
+   <li><span style='mso-spacerun:yes'> </span>Recommending</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0019.htm');" id=PPTL19>Ranking</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Using built-in Lucene capability</li>
+   <li>“Boosted” with circulation data</li>
+   <ul>
+    <li>~9 million UCLA circulation transactions</li>
+    <li>September 1999 – May 2005</li>
+    <li>Data from two systems:<span style='mso-spacerun:yes'>  </span>Taos,
+        Voyager</li>
+   </ul>
+   <li>“Boosted” with holdings data</li>
+   <ul>
+    <li>For 10 UC campuses, provided by OCLC</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL20>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL21>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL22>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0023.htm');" id=PPTL23>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0024.htm');" id=PPTL24>Assessment</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Small-scale user test in March</li>
+   <li>Key questions:</li>
+   <ul>
+    <li>Which ranking method works best for our academic users?</li>
+    <li>How do academic users evaluate relevance?</li>
+    <li>Is there a difference based on subject matter expertise?</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0025.htm');" id=PPTL25>Assessment</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Task-based, facilitated and observed</li>
+   <li>Rotated through 4 ordering methods:</li>
+   <ul>
+    <li>Content ranking only</li>
+    <li>Content ranking boosted by circulation</li>
+    <li>Content ranking boosted by holdings</li>
+    <li>Unranked, sorted by system id</li>
+   </ul>
+   <li>Grouped by naive vs. expert</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL26>Assessment</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL27>Assessment</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0028.htm');" id=PPTL28>Preliminary Results</a></font></div>
+  <div id=PPTC28 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>In general, all 3 content ranking methods beat unranked in returning
+       “Very Useful” items</li>
+   <li>All 3 content ranking methods put more “Very Useful” items in top
+       quartiles</li>
+   <li>Preferences differed by expertise</li>
+   <li>No clear-cut advantage to a single ranked method</li>
+   <li>More queries per task using unranked method</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0029.htm');" id=PPTL29>Results</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Additional observations:</li>
+   <ul>
+    <li>All users place strong emphasis on title and publication date in
+        assessing relevance</li>
+    <li>Expert users rely heavily on author</li>
+    <li>Many commented that term highlighting helps them assess matches against
+        the query</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0030.htm');" id=PPTL30>For Further Exploration</a></font></div>
+  <div id=PPTC30 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Content-based ranking appears well worth pursuing, but consider....</li>
+   <ul>
+    <li>Adjustments to field weights, given observations?</li>
+    <li>Relative costs of incorporating boosts?</li>
+   </ul>
+   <li>Sources of expanded metadata, which helps users assess relevance.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0031.htm');" id=PPTL31>Outline</a></font></div>
+  <div id=PPTC31 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Text-based discovery system</li>
+   <li><span style='mso-spacerun:yes'> </span>User interface strategies</li>
+   <li><span style='mso-spacerun:yes'> </span>Spelling correction</li>
+   <li><span style='mso-spacerun:yes'> </span>Enhanced relevance ranking</li>
+   <li><span style='mso-spacerun:yes'> </span>Recommending</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0032.htm');" id=PPTL32>Recommending</a></font></div>
+  <div id=PPTC32 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Exploring multiple methods:</li>
+   <ul>
+    <li>Circulation-based</li>
+    <li>Similarity-based (more like this…)</li>
+    <li>Same author, subject, call number</li>
+   </ul>
+   <br>
+   <ul>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0033.htm');" id=PPTL33>Circulation-based</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>34</font></div>
+  </td>
+  <td>
+  <div id=PPTP34 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0034.htm');" id=PPTL34><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>35</font></div>
+  </td>
+  <td>
+  <div id=PPTP35 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0035.htm');" id=PPTL35><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>36</font></div>
+  </td>
+  <td>
+  <div id=PPTP36 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0036.htm');" id=PPTL36><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>37</font></div>
+  </td>
+  <td>
+  <div id=PPTP37 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0037.htm');" id=PPTL37><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>38</font></div>
+  </td>
+  <td>
+  <div id=PPTP38 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0038.htm');" id=PPTL38><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>39</font></div>
+  </td>
+  <td>
+  <div id=PPTP39 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0039.htm');" id=PPTL39><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>40</font></div>
+  </td>
+  <td>
+  <div id=PPTP40 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0040.htm');" id=PPTL40><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>41</font></div>
+  </td>
+  <td>
+  <div id=PPTP41 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0041.htm');" id=PPTL41><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>42</font></div>
+  </td>
+  <td>
+  <div id=PPTP42 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0042.htm');" id=PPTL42><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>43</font></div>
+  </td>
+  <td>
+  <div id=PPTP43 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0043.htm');" id=PPTL43>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>44</font></div>
+  </td>
+  <td>
+  <div id=PPTP44 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0044.htm');" id=PPTL44>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>45</font></div>
+  </td>
+  <td>
+  <div id=PPTP45 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0045.htm');" id=PPTL45>Does this method work?</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>46</font></div>
+  </td>
+  <td>
+  <div id=PPTP46 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0046.htm');" id=PPTL46>Similarity-based</a></font></div>
+  <div id=PPTC46 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Generated from content of the record.</li>
+   <li>“More like this...”</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>47</font></div>
+  </td>
+  <td>
+  <div id=PPTP47 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0047.htm');" id=PPTL47>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>48</font></div>
+  </td>
+  <td>
+  <div id=PPTP48 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0048.htm');" id=PPTL48>Examples</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>49</font></div>
+  </td>
+  <td>
+  <div id=PPTP49 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0049.htm');" id=PPTL49>For further exploration</a></font></div>
+  <div id=PPTC49 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Integrate several methods</li>
+   <ul>
+    <li>Author, subject linkages</li>
+    <li>Call number “shelf browse”</li>
+    <li>“More like this...”</li>
+    <li>Circulation-based recommendations</li>
+   </ul>
+   <li>Limitations of circulation-based method</li>
+   <li>Identify other data rich in human-generated linkages....citations,
+       reading lists...</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>50</font></div>
+  </td>
+  <td>
+  <div id=PPTP50 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0050.htm');" id=PPTL50>Timeline</a></font></div>
+  <div id=PPTC50 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Completing user tests on circulation-based recommendations this month.</li>
+   <li>Wrapping up in June.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>51</font></div>
+  </td>
+  <td>
+  <div id=PPTP51 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0051.htm');" id=PPTL51>Many thanks to...</a></font></div>
+  <div id=PPTC51 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Mellon Foundation</li>
+   <li>RLG</li>
+   <li>OCLC</li>
+   <li>UCLA Library</li>
+   <li>UC Berkeley Library</li>
+   <li>CDL Team<br>
+              (Peter Brantley, Lynne Cameron, Rebecca Doherty, Randy Lai, Jane
+       Lee, Martin Haye, Erik Hetzner, Kirk Hastings, Patricia Martin, Felicia
+       Poe, Michael Russell, Lisa Schiff, Roy Tennant, Brian Tingle, Steve
+       Toub...)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>52</font></div>
+  </td>
+  <td>
+  <div id=PPTP52 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0052.htm');" id=PPTL52>Links:</a></font></div>
+  <div id=PPTC52 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Project Home:</li>
+   <li>http://www.cdlib.org/inside/projects/melvyl_recommender/</li>
+   <br>
+   <br>
+   <li>Prototype:</li>
+   <li>http://recommend-dev.cdlib.org/melrec/</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>53</font></div>
+  </td>
+  <td>
+  <div id=PPTP53 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0053.htm');" id=PPTL53>Questions?</a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master03.htm></a><a href=master03.xml></a><a
+href="master03_image001.gif"></a><a href=pres.xml></a><a href=slide0001.htm></a><a
+href=slide0002.htm></a><a href=slide0003.htm></a><a href=slide0004.htm></a><a
+href=slide0005.htm></a><a href=slide0006.htm></a><a href=slide0007.htm></a><a
+href=slide0008.htm></a><a href=slide0009.htm></a><a href=slide0010.htm></a><a
+href=slide0011.htm></a><a href="slide0011_image002.png"></a><a
+href="slide0011_image003.gif"></a><a href=slide0012.htm></a><a
+href=slide0013.htm></a><a href=slide0014.htm></a><a href=slide0015.htm></a><a
+href=slide0016.htm></a><a href=slide0017.htm></a><a href=slide0018.htm></a><a
+href=slide0019.htm></a><a href=slide0020.htm></a><a
+href="slide0020_image004.png"></a><a href="slide0020_image005.gif"></a><a
+href="slide0020_image006.png"></a><a href="slide0020_image007.gif"></a><a
+href="slide0020_image008.gif"></a><a href="slide0020_image009.gif"></a><a
+href=slide0021.htm></a><a href="slide0021_image010.gif"></a><a
+href="slide0021_image011.png"></a><a href="slide0021_image012.gif"></a><a
+href="slide0021_image013.gif"></a><a href="slide0021_image014.gif"></a><a
+href=slide0022.htm></a><a href="slide0022_image015.png"></a><a
+href="slide0022_image016.gif"></a><a href="slide0022_image017.png"></a><a
+href="slide0022_image018.gif"></a><a href="slide0022_image019.gif"></a><a
+href="slide0022_image020.gif"></a><a href=slide0023.htm></a><a
+href="slide0023_image021.gif"></a><a href="slide0023_image022.png"></a><a
+href="slide0023_image023.gif"></a><a href="slide0023_image024.gif"></a><a
+href="slide0023_image025.gif"></a><a href=slide0024.htm></a><a
+href=slide0025.htm></a><a href=slide0026.htm></a><a
+href="slide0026_image026.png"></a><a href="slide0026_image027.gif"></a><a
+href=slide0027.htm></a><a href="slide0027_image028.png"></a><a
+href="slide0027_image029.gif"></a><a href=slide0028.htm></a><a
+href=slide0029.htm></a><a href=slide0030.htm></a><a href=slide0031.htm></a><a
+href=slide0032.htm></a><a href=slide0033.htm></a><a
+href="slide0033_image030.png"></a><a href="slide0033_image031.jpg"></a><a
+href=slide0034.htm></a><a href="slide0034_image032.png"></a><a
+href="slide0034_image033.jpg"></a><a href="slide0034_image034.png"></a><a
+href="slide0034_image035.png"></a><a href="slide0034_image036.gif"></a><a
+href="slide0034_image037.png"></a><a href="slide0034_image038.png"></a><a
+href="slide0034_image039.png"></a><a href="slide0034_image040.png"></a><a
+href="slide0034_image041.gif"></a><a href=slide0035.htm></a><a
+href="slide0035_image042.png"></a><a href="slide0035_image043.jpg"></a><a
+href="slide0035_image044.png"></a><a href="slide0035_image045.png"></a><a
+href="slide0035_image046.gif"></a><a href="slide0035_image047.gif"></a><a
+href=slide0036.htm></a><a href="slide0036_image048.gif"></a><a
+href="slide0036_image049.png"></a><a href="slide0036_image050.jpg"></a><a
+href="slide0036_image051.png"></a><a href="slide0036_image052.jpg"></a><a
+href="slide0036_image053.png"></a><a href="slide0036_image054.jpg"></a><a
+href="slide0036_image055.png"></a><a href="slide0036_image056.jpg"></a><a
+href="slide0036_image057.png"></a><a href="slide0036_image058.jpg"></a><a
+href="slide0036_image059.png"></a><a href="slide0036_image060.gif"></a><a
+href="slide0036_image061.gif"></a><a href="slide0036_image062.gif"></a><a
+href="slide0036_image063.gif"></a><a href="slide0036_image064.gif"></a><a
+href="slide0036_image065.gif"></a><a href="slide0036_image066.gif"></a><a
+href="slide0036_image067.gif"></a><a href="slide0036_image068.gif"></a><a
+href=slide0037.htm></a><a href="slide0037_image069.gif"></a><a
+href="slide0037_image070.jpg"></a><a href="slide0037_image071.jpg"></a><a
+href="slide0037_image072.jpg"></a><a href="slide0037_image073.png"></a><a
+href="slide0037_image074.jpg"></a><a href="slide0037_image075.jpg"></a><a
+href="slide0037_image076.jpg"></a><a href="slide0037_image077.png"></a><a
+href="slide0037_image078.jpg"></a><a href="slide0037_image079.png"></a><a
+href="slide0037_image080.gif"></a><a href="slide0037_image081.gif"></a><a
+href="slide0037_image082.gif"></a><a href="slide0037_image083.jpg"></a><a
+href="slide0037_image084.jpg"></a><a href="slide0037_image085.gif"></a><a
+href="slide0037_image086.jpg"></a><a href="slide0037_image087.gif"></a><a
+href="slide0037_image088.gif"></a><a href="slide0037_image089.gif"></a><a
+href="slide0037_image090.gif"></a><a href=slide0038.htm></a><a
+href="slide0038_image091.gif"></a><a href="slide0038_image092.jpg"></a><a
+href="slide0038_image093.jpg"></a><a href="slide0038_image094.jpg"></a><a
+href="slide0038_image095.jpg"></a><a href="slide0038_image096.jpg"></a><a
+href="slide0038_image097.jpg"></a><a href="slide0038_image098.jpg"></a><a
+href="slide0038_image099.png"></a><a href="slide0038_image100.gif"></a><a
+href="slide0038_image101.gif"></a><a href="slide0038_image102.gif"></a><a
+href="slide0038_image103.gif"></a><a href="slide0038_image104.gif"></a><a
+href="slide0038_image105.jpg"></a><a href="slide0038_image106.gif"></a><a
+href="slide0038_image107.jpg"></a><a href="slide0038_image108.gif"></a><a
+href="slide0038_image109.gif"></a><a href=slide0039.htm></a><a
+href="slide0039_image110.gif"></a><a href="slide0039_image111.png"></a><a
+href="slide0039_image112.jpg"></a><a href="slide0039_image113.png"></a><a
+href="slide0039_image114.jpg"></a><a href="slide0039_image115.png"></a><a
+href="slide0039_image116.jpg"></a><a href="slide0039_image117.png"></a><a
+href="slide0039_image118.jpg"></a><a href="slide0039_image119.png"></a><a
+href="slide0039_image120.jpg"></a><a href="slide0039_image121.png"></a><a
+href="slide0039_image122.jpg"></a><a href="slide0039_image123.png"></a><a
+href="slide0039_image124.jpg"></a><a href="slide0039_image125.jpg"></a><a
+href="slide0039_image126.jpg"></a><a href="slide0039_image127.jpg"></a><a
+href="slide0039_image128.jpg"></a><a href="slide0039_image129.jpg"></a><a
+href="slide0039_image130.jpg"></a><a href="slide0039_image131.gif"></a><a
+href="slide0039_image132.gif"></a><a href=slide0040.htm></a><a
+href="slide0040_image133.gif"></a><a href=slide0041.htm></a><a
+href="slide0041_image134.gif"></a><a href=slide0042.htm></a><a
+href="slide0042_image135.gif"></a><a href="slide0042_image136.gif"></a><a
+href="slide0042_image137.gif"></a><a href="slide0042_image138.gif"></a><a
+href="slide0042_image139.gif"></a><a href=slide0043.htm></a><a
+href="slide0043_image140.png"></a><a href="slide0043_image141.gif"></a><a
+href="slide0043_image142.png"></a><a href="slide0043_image143.gif"></a><a
+href="slide0043_image144.gif"></a><a href="slide0043_image145.gif"></a><a
+href="slide0043_image146.gif"></a><a href="slide0043_image147.gif"></a><a
+href=slide0044.htm></a><a href="slide0044_image148.png"></a><a
+href="slide0044_image149.gif"></a><a href="slide0044_image150.png"></a><a
+href="slide0044_image151.gif"></a><a href="slide0044_image152.gif"></a><a
+href=slide0045.htm></a><a href=slide0046.htm></a><a
+href="slide0046_image153.jpg"></a><a href="slide0046_image154.jpg"></a><a
+href="slide0046_image155.jpg"></a><a href="slide0046_image156.jpg"></a><a
+href="slide0046_image157.jpg"></a><a href=slide0047.htm></a><a
+href="slide0047_image158.gif"></a><a href="slide0047_image159.png"></a><a
+href="slide0047_image160.gif"></a><a href=slide0048.htm></a><a
+href="slide0048_image161.png"></a><a href="slide0048_image162.gif"></a><a
+href="slide0048_image163.gif"></a><a href=slide0049.htm></a><a
+href=slide0050.htm></a><a href=slide0051.htm></a><a href=slide0052.htm></a><a
+href=slide0053.htm></a><a href=master01.htm></a><a
+href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../tingle0406.htm"></a><a href=fullscreen.htm></a><a href="notes_flag.gif"></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

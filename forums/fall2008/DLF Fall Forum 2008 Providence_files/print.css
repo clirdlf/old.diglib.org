@@ -1,0 +1,60 @@
+BODY {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+P {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+TD {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+TH {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+UL {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+A {
+	FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman", Garamond, serif; BACKGROUND-COLOR: #fff
+}
+H1 {
+	FONT-SIZE: 24pt; FONT-FAMILY: "Times New Roman", Garamond, serif; TEXT-ALIGN: center
+}
+.maintitle {
+	FONT: 24pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead {
+	FONT: 24pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead1 {
+	FONT: 22pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead2 {
+	FONT: 18pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead3 {
+	FONT: 14pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.bodylarge {
+	FONT: 20pt "Times New Roman", Times, serif; TEXT-TRANSFORM: none; TEXT-DECORATION: none
+}
+H2 {
+	FONT-SIZE: 18pt
+}
+H3 {
+	FONT-SIZE: 14pt
+}
+.bodybold {
+	FONT-SIZE: 18pt
+}
+#content {
+	WIDTH: 100%; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #fff; BORDER-BOTTOM-STYLE: none
+}
+#navigation {
+	DISPLAY: none
+}
+#footer {
+	DISPLAY: none
+}
+.noprint {
+	DISPLAY: none
+}

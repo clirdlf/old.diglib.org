@@ -1,0 +1,51 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" effect="alphafade" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="37"/>
+ </o:shapelayout><p:colorscheme
+  colors="#ffffff,#000000,#996633,#000000,#cc9900,#ffe28f,#996633,#ff9900"/>
+ <v:background id="_x0000_s37889" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="master12_image002.png" o:title="dale_master_title" color2="#ffe28f [5]"
+   recolor="t" type="frame"/>
+ </v:background><p:shaperange id="_x0000_m37890">
+  <v:shapetype id="_x0000_m37890" style='position:absolute;left:54pt;top:90pt;
+   width:612pt;height:294pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#c90 [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#963 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="centerTitle"/>
+   <p:animation number="2" delay="0" type="object" effect="dissolve" flag="1028"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m37891">
+  <v:shapetype id="_x0000_m37891" style='position:absolute;left:96pt;top:396pt;
+   width:7in;height:1in' coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" fillcolor="#c90 [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#963 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="subTitle" position="1"/>
+   <p:animation number="3" delay="0" type="text" level="1" effect="dissolve"
+    flag="1028"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s37904">
+  <v:shapetype id="_x0000_s37904" style='position:absolute;left:270pt;top:486pt;
+   width:198pt;height:30pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#c90 [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#963 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+  </v:shapetype></p:shaperange>
+</xml>

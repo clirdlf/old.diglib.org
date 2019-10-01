@@ -1,0 +1,932 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../arms1004.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>NDIIPP Preservation
+  Architecture:<span style='mso-spacerun:yes'>  </span>Archive <br>
+    Ingest and Handling Test<br>
+    Interim Report<br>
+    <span style='mso-spacerun:yes'> </span><br>
+    Digital Library Federation <br>
+    October 2004, Baltimore, MD</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0069.htm');" id=PPTL2>National Digital
+  Information Infrastructure and Preservation Program Goals</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Develop a national digital collection and preservation strategy</li>
+   <li>Work with industry, concerned federal agencies, libraries, research
+       institutions and not-for-profit entities</li>
+   <li>Help identify and preserve at-risk digital content</li>
+   <li>Support development of improved tools, models, and methods for digital
+       preservation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0070.htm');" id=PPTL3>NDIIPP Focus Areas</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Network of preservation partners</li>
+   <li>Preservation architecture</li>
+   <li>Digital preservation research</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0071.htm');" id=PPTL4>What is the Preservation
+  Architecture?</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>A conceptual framework for supporting the technical functions and
+       developing tools required for cooperative, distributed preservation of
+       digital content</li>
+   <br>
+   <br>
+   <li>It must</li>
+   <ul>
+    <li>support relationships between institutions.</li>
+    <li>allow questions of preservation to be handled separately from questions
+        of public access.</li>
+    <li>be built modularly, using existing technology and efforts wherever
+        possible.</li>
+    <li>be able to be assembled over time.</li>
+    <li>be specified using broadly adoptable protocols.</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0092.htm');" id=PPTL5>Archive Ingest &amp;
+  Handling Test</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>AIHT is a first test of proposed preservation architecture.</li>
+   <li>The test is conducted with a common data set.</li>
+   <ul>
+    <li>George Mason University 9/11 Archive</li>
+   </ul>
+   <li>Phase I tests ingest and data handling in local systems.</li>
+   <li>Phase II tests export and import between institutions.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0093.htm');" id=PPTL6><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0095.htm');" id=PPTL7>Participants</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>Harvard University Library</li>
+   <br>
+   <br>
+   <li>The Johns Hopkins University, Sheridan Libraries</li>
+   <br>
+   <br>
+   <li>Old Dominion University, Department of Computer Science</li>
+   <li></li>
+   <li>Stanford University Libraries &amp; Academic Information Resources</li>
+   <br>
+   <br>
+   <li>The Library of Congress, Office of Strategic Initiatives</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0111.htm');" id=PPTL8>Harvard University</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Background</li>
+   <li>Current policy limits deposit</li>
+   <ul>
+    <li>approved workflows</li>
+    <li>small set of formats</li>
+    <li>accompanied by preservation metadata.</li>
+   </ul>
+   <li>Evolution towards that of an institutional repository</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'> </span>arbitrary content</li>
+    <li>unknown provenance</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0124.htm');" id=PPTL9>Harvard University</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Approach</li>
+   <li>Use JHOVE to provide enriched technical metadata</li>
+   <li>Build tools to generate SIP packages automatically</li>
+   <li>Enhance metadata model to record PREMIS-like provenance information</li>
+   <li>Add export functionality to repository API</li>
+   <li>Investigate TIFF-to-JPEG 2000 transformations</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0112.htm');" id=PPTL10>Harvard University</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Team</li>
+   <li>Dale Flecker – Principal investigator</li>
+   <li>Stephen Abrams – Project manager</li>
+   <li>Stephen Chapman – Reformatting analyst</li>
+   <li>Sue Kriegsman – Project administration and reporting</li>
+   <li>Gary McGath – Developer</li>
+   <li>Germain Seac – Operations</li>
+   <li>Robin Wendler – Metadata analyst</li>
+   <li>Technologies</li>
+   <li>Digital Repository Service (DRS) – Oracle (metadata), Java API, RAID
+       (content), Solaris, XML-based SIP package</li>
+   <li>JHOVE for extraction of encapsulated technical properties</li>
+   <li>Automated SIP creation tools</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0113.htm');" id=PPTL11>Harvard University</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Observations</li>
+   <ul>
+    <li>JHOVE can process 97% of the 57,000 files</li>
+    <ul>
+     <li>ASCII/UTF-8, HTML, JPEG, WAV, TIF, PDF, GIF, AIFF, XML</li>
+    </ul>
+    <li>The PREMIS event model is very flexible, but it is difficult to
+        determine the best way to capture provenance metadata</li>
+    <li>Data manipulation issues:</li>
+    <ul>
+     <li>You can FTP 13GB as one file in 3 hours; to FTP it as 57,000 files
+         takes 35+ hours</li>
+     <li>Some FTP clients do not like 0 length files</li>
+     <li>Some ZIP tools have a file size limitation</li>
+     <li>Some network appliance file servers have a file size limitation</li>
+    </ul>
+    <li>The data does not include any infected files!</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0114.htm');" id=PPTL12>The Johns Hopkins
+  University</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Background</li>
+   <li>Johns Hopkins University Sheridan Libraries has been investigating
+       multiple repositories. AIHT provides a digital preservation use case.</li>
+   <li>Project Approach</li>
+   <li>Large-scale ingestion with a repository-agnostic design</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0115.htm');" id=PPTL13>The Johns Hopkins
+  University</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Team</li>
+   <li>Mark Patton (developer)</li>
+   <li>Sayeed Choudhury (PI)</li>
+   <li>Tim DiLauro (tech lead)</li>
+   <li>Jacque Gourley (project manager)</li>
+   <li>Ying Gu (student)</li>
+   <li>David Reynolds (metadata)</li>
+   <li>Jason Riesa (student)</li>
+   <li>Technologies</li>
+   <li>Dspace, Fedora, METS, Java, OS X</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0116.htm');" id=PPTL14>The Johns Hopkins
+  University</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Observations:</li>
+   <li>Bulk ingestion of a complex archive is a good way to stress test
+       repository interfaces</li>
+   <li>Coordinate between provider and recipient as much as possible</li>
+   <li>Design metadata from established standards, instead of attempting to
+       shoehorn</li>
+   <li>No seamless way to ingest to multiple repositories</li>
+   <ul>
+    <li>Needs repository agnostic layer</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0117.htm');" id=PPTL15>Old Dominion University</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Background</li>
+   <ul>
+    <li>Experiment with alternate archive architectures</li>
+    <li>Create self-preserving digital objects</li>
+   </ul>
+   <li>Project Approach</li>
+   <ul>
+    <li>Build ingestion tool to test individual file validity</li>
+    <li>JHOVE, “file”, Fred, etc. to generate technical metadata</li>
+    <li>Create an MPEG-21 DIDL that contains:</li>
+    <ul>
+     <li>preservation analysis, technical metadata, original tar file, current
+         tar file, “deltas” (cf. diff/patch semantics) for intermediate
+         versions</li>
+    </ul>
+    <li>Store DIDLs in self-contained, mobile archivelets (“buckets”)</li>
+    <li>Compare archived version with versions available on open Internet</li>
+    <ul>
+     <li>original site, Google, Yahoo, IA, etc.</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0118.htm');" id=PPTL16>Old Dominion University</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Project Team</li>
+   <li>Professors</li>
+   <ul>
+    <li>Michael L. Nelson, Johan Bollen</li>
+   </ul>
+   <li>Graduate students</li>
+   <ul>
+    <li>Giridhar Manepalli, Rabia Haq</li>
+   </ul>
+   <li>Technologies</li>
+   <li>Bucket 3.0 Digital Objects</li>
+   <li>MPEG-21 DIDL</li>
+   <li>JHOVE, file, Fred</li>
+   <li>locally developed ingestion / conversion scripts</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0119.htm');" id=PPTL17>Old Dominion University</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Observations</li>
+   <ul>
+    <li>Significant learning curve for MPEG-21 DIDL</li>
+    <ul>
+     <li>Hoping to incorporate MPEG-21 Rights Expression Language (REL) in the
+         AIHT testbed</li>
+    </ul>
+    <li>Conversion utilities (e.g. ImageMagick) are assumed to:</li>
+    <ul>
+     <li>Exist outside of the archive</li>
+     <li>Be transient services</li>
+    </ul>
+    <li>Significant discrepancies between archived and live site:</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0120.htm');" id=PPTL18>Stanford University</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Background</li>
+   <li>Stanford Digital Repository originally focused on highly normative
+       bibliographic digital objects.</li>
+   <li>The AIHT provides an opportunity to develop capabilities for real-world,
+       non-normative collections.</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0125.htm');" id=PPTL19>Stanford University</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Approach</li>
+   <li>Develop or integrate tools</li>
+   <ul>
+    <li>Stanford Empirical Walker™</li>
+    <li>JHOVE</li>
+   </ul>
+   <li>Automate digital collection assessment</li>
+   <ul>
+    <li>technical metadata harvesting</li>
+    <li>structural description</li>
+    <li>preservation risk assessment</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0121.htm');" id=PPTL20>Stanford University</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Team:</li>
+   <li>Richard Anderson – Programming</li>
+   <li>Keith Johnson – Project Management</li>
+   <li>Hannah Frost – Preservation Methodologies</li>
+   <li>Nancy Hoebelheinrich – Metadata</li>
+   <li>Jerry Persons – Information Architecture</li>
+   <li>Cathy Aster – Reporting and Financial Management</li>
+   <li>Technologies:</li>
+   <ul>
+    <li>METS, Harvard METS Toolkit, JHOVE, PREMIS, Java, Solaris, Windows</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0122.htm');" id=PPTL21>Stanford University</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <ul>
+    <li>Observations</li>
+    <li>User-supplied metadata can be messy and difficult to transform to a
+        standard format</li>
+    <li>Expected preservability status:</li>
+    <ul>
+     <li>70% HIGH</li>
+     <li>27.5% ACCEPTABLE</li>
+     <li>2.5% MINIMAL</li>
+    </ul>
+    <li>Large file collection generates large METS file</li>
+    <ul>
+     <li>Requires lots of memory and processing power</li>
+    </ul>
+    <li>Parallel metadata hierarchy vs. single XML file</li>
+    <li>PREMIS data elements/model looks very promising for storing
+        preservation status and methodologies</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0123.htm');" id=PPTL22>Things We’ve Learned</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Great minds don't think alike</li>
+   <li>Metadata is worldview</li>
+   <li>Simple operations are harder than you think</li>
+   <li>Support for forensics is essential</li>
+   <li>1% times a big number is a big number</li>
+   <li>It's all triage</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0108.htm');" id=PPTL23>Next Steps</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Next revision of Transfer Metadata format</li>
+   <li>Work on inspection tools</li>
+   <ul>
+    <li>Empirical Walker™</li>
+   </ul>
+   <li>Explore format registry</li>
+   <ul>
+    <li>Fred</li>
+   </ul>
+   <li>Work on whole-archive export/ingest</li>
+   <li>Work on format conversion</li>
+   <ul>
+    <li>JPEG-&gt;TIFF</li>
+    <li>Web sites as complex objects</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0126.htm');" id=PPTL24>NDIIPP Preservation
+  Architecture:<span style='mso-spacerun:yes'>  </span>Archive <br>
+    Ingest and Handling Test<br>
+    Interim Report<br>
+    <span style='mso-spacerun:yes'> </span><br>
+    Digital Library Federation <br>
+    October 2004, Baltimore, MD</a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master06.htm></a><a href=master06.xml></a><a
+href=preview.wmf></a><a href="master06_image001.jpg"></a><a href=master07.htm></a><a
+href=master07.xml></a><a href="master07_image002.jpg"></a><a
+href="master07_image003.png"></a><a href=master02.htm></a><a href=pres.xml></a><a
+href=editdata.mso></a><a href=slide0001.htm></a><a
+href="master07_background.jpg"></a><a href="master07_image004.gif"></a><a
+href=slide0069.htm></a><a href="master06_background.jpg"></a><a
+href=slide0070.htm></a><a href=slide0071.htm></a><a href=slide0092.htm></a><a
+href=slide0093.htm></a><a href="slide0093_image005.png"></a><a
+href="slide0093_image006.gif"></a><a href="slide0093_image007.gif"></a><a
+href="slide0093_image008.gif"></a><a href="slide0093_image009.gif"></a><a
+href=slide0095.htm></a><a href=slide0111.htm></a><a href=slide0124.htm></a><a
+href=slide0112.htm></a><a href=slide0113.htm></a><a href=slide0114.htm></a><a
+href=slide0115.htm></a><a href=slide0116.htm></a><a href=slide0117.htm></a><a
+href=slide0118.htm></a><a href=slide0119.htm></a><a
+href="slide0119_image010.gif"></a><a href="slide0119_image011.gif"></a><a
+href=slide0120.htm></a><a href=slide0125.htm></a><a href=slide0121.htm></a><a
+href=slide0122.htm></a><a href=slide0123.htm></a><a href=slide0108.htm></a><a
+href=slide0126.htm></a><a href=master01.htm></a><a
+href="master06_stylesheet.css"></a><a href=script.js></a><a
+href="../arms1004.htm"></a><a href=fullscreen.htm></a><a href="notes_flag.gif"></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

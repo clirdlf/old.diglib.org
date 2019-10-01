@@ -1,0 +1,78 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <p:presentation notessizey="5737">
+  <p:master id="6" type="main" href="master06.htm" xmlhref="master06.xml"
+   template="crossref_white" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#00CC99,#3333CC,#CCCCFF,#B2B2B2"/>
+    <p:colorscheme
+     colors="#0000FF,#FFFFFF,#000000,#FFFF00,#FF9900,#00FFFF,#FF0000,#969696"/>
+    <p:colorscheme
+     colors="#FFFFCC,#000000,#666633,#808000,#339933,#800000,#0033CC,#FFCC66"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#333333,#000000,#DDDDDD,#808080,#4D4D4D,#EAEAEA"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#FFCC66,#0000FF,#CC00CC,#C0C0C0"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#C0C0C0,#0066FF,#FF0000,#009900"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#808080,#000000,#3399FF,#99FFCC,#CC00CC,#B2B2B2"/>
+    <p:colorscheme
+     colors="#FFFF99,#000000,#808080,#6600CC,#9933FF,#9900FF,#CCCCFF,#B2B2B2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" type="notes" href="master01.htm" layout="notes"
+   slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" type="handout" href="master02.htm" layout="handout"
+   slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="30" href="slide0030.htm" collapseoutline="t"/>
+  <p:slide id="146" href="slide0146.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="154" href="slide0154.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="148" href="slide0148.htm"/>
+  <p:slide id="114" href="slide0114.htm" layout="2_columns"
+   slots="title,body,body"/>
+  <p:slide id="144" href="slide0144.htm" collapseoutline="t"/>
+  <p:slide id="149" href="slide0149.htm"/>
+  <p:slide id="150" href="slide0150.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="112" href="slide0112.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="152" href="slide0152.htm"/>
+  <p:slide id="127" href="slide0127.htm"/>
+  <p:slide id="128" href="slide0128.htm"/>
+  <p:slide id="129" href="slide0129.htm"/>
+  <p:slide id="130" href="slide0130.htm"/>
+  <p:slide id="131" href="slide0131.htm"/>
+  <p:slide id="62" href="slide0062.htm"/>
+  <p:slide id="141" href="slide0141.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="65" href="slide0065.htm"/>
+  <p:slide id="132" href="slide0132.htm"/>
+  <p:slide id="145" href="slide0145.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="121" href="slide0121.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="40" href="slide0040.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="42" href="slide0042.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="138" href="slide0138.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="139" href="slide0139.htm"/>
+  <p:slide id="48" href="slide0048.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="155" href="slide0155.htm" collapseoutline="t"/>
+  <p:slide id="64" href="slide0064.htm"/>
+  <p:viewstate type="slideView" restoredleft="330" restoredtop="915"
+   vertbarstate="0" horizbarstate="2" manualadjustleft="t" manualadjusttop="t"/>
+  <p:slideshowsettings pencolor="schemeText" manualadvance="t"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:headersfooters noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"/>
+  <p:htmlpublishsettings browsersupport="dual"
+   href="D:\dlf\dlfweb\new\forums\fall2001\papers\crossref.htm"
+   noloadinbrowser="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="328706" style='mso-wrap-style:none;
+  v-text-anchor:middle' strokecolor="none [0]">
+  <v:stroke startarrow="block" startarrowwidth="wide" startarrowlength="long"
+   endarrow="block" endarrowwidth="wide" endarrowlength="long" color="none [0]"
+   weight="2pt"/>
+  <o:colormru v:ext="edit" colors="#6f9,#93f,#ff6,#9fc,#cfc,#c30,#ddd,#06f"/>
+ </o:shapedefaults></xml>

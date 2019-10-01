@@ -1,0 +1,23 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="6"/>
+ </o:shapelayout><p:colorscheme
+  colors="#000000,#ffffff,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+ <v:background id="_x0000_s6146" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="master03_image001.jpg" o:title="" type="frame"/>
+ </v:background><p:shaperange id="_x0000_s6145">
+  <v:shapetype id="_x0000_s6145" style='position:absolute;left:100pt;top:580pt;
+   width:824pt;height:134pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f" stroked="f"
+   strokeweight="1pt">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <v:textbox inset="4pt,4pt,4pt,4pt"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+</xml>

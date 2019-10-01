@@ -1,0 +1,120 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="overhead" notessizex="4404" notessizey="5847"
+  gridspacingx="49152" gridspacingy="49152" advisor="1024">
+  <p:master id="5" slidesn="0,0" type="main" href="master05.htm"
+   xmlhref="master05.xml" template="Contemporary Portrait" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#000000,#ffffcc,#5e574e,#ffcc00,#cc9900,#ff6600,#ff0000,#ffffcc"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#5e574e,#000000,#ff6600,#ffcc00,#996633,#808000"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#393939,#000000,#cbcbcb,#868686,#4d4d4d,#eaeaea"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#5e574e,#800000,#ff6600,#ffcc00,#ff0000,#ffffcc"/>
+    <p:colorscheme
+     colors="#ffffff,#000066,#000000,#0000ff,#0066ff,#33cccc,#ff00ff,#9933ff"/>
+    <p:colorscheme
+     colors="#000066,#ffffff,#000000,#ffcc00,#0066ff,#33cccc,#ff00ff,#9933ff"/>
+    <p:colorscheme
+     colors="#800000,#ffffcc,#5e574e,#ffcc00,#cc9900,#ff6600,#ff0000,#ffffcc"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="6" slidesn="0,0" type="title" href="master06.htm"
+   xmlhref="master06.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C4BB95,ADC53400" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C4BB95,B0A12AD0" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="78" slidesn="0,0" href="slide0078.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="153" slidesn="0,0" href="slide0153.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="154" slidesn="0,0" href="slide0154.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="170" slidesn="0,0" href="slide0170.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="136" slidesn="0,0" href="slide0136.htm" layout="title_body"
+   slots="title,body">
+   <p:headersfooters slidenumber="t"
+    footerstr="DGRC Evaluation Board Meeting 4/5/02" formatid="8" nouserdate="t"
+    nofooter="t" noheader="t" nodate="t" todaydate="t"/>
+  </p:slide>
+  <p:slide id="137" slidesn="0,0" href="slide0137.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="142" slidesn="0,0" href="slide0142.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="174" slidesn="0,0" href="slide0174.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="176" slidesn="0,0" href="slide0176.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="139" slidesn="0,0" href="slide0139.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="182" slidesn="0,0" href="slide0182.htm"/>
+  <p:slide id="155" slidesn="0,0" href="slide0155.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="198" slidesn="0,0" href="slide0198.htm"/>
+  <p:slide id="143" slidesn="0,0" href="slide0143.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="157" slidesn="0,0" href="slide0157.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="165" slidesn="0,0" href="slide0165.htm"/>
+  <p:slide id="166" slidesn="0,0" href="slide0166.htm"/>
+  <p:slide id="167" slidesn="0,0" href="slide0167.htm"/>
+  <p:slide id="168" slidesn="0,0" href="slide0168.htm"/>
+  <p:slide id="183" slidesn="0,0" href="slide0183.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="169" slidesn="0,0" href="slide0169.htm"/>
+  <p:slide id="184" slidesn="0,0" href="slide0184.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="185" slidesn="0,0" href="slide0185.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="186" slidesn="0,0" href="slide0186.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="194" slidesn="0,0" href="slide0194.htm"/>
+  <p:slide id="195" slidesn="0,0" href="slide0195.htm"/>
+  <p:slide id="178" slidesn="0,0" href="slide0178.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="196" slidesn="0,0" href="slide0196.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="197" slidesn="0,0" href="slide0197.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="191" slidesn="0,0" href="slide0191.htm" xmlhref="slide0191.xml"/>
+  <p:slide id="189" slidesn="0,0" href="slide0189.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="179" slidesn="0,0" href="slide0179.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="180" slidesn="0,0" href="slide0180.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="200" slidesn="0,0" href="slide0200.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="201" slidesn="0,0" href="slide0201.htm" layout="title_body"
+   slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="322" restoredtop="695"
+   vertbarstate="0" horizbarstate="2" manualadjustleft="t" manualadjusttop="t"/>
+  <p:slideshowsettings pencolor="schemeText" hidescrollbar="t"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Times New Roman" charset="0" type="4" family="18"/>
+  <p:font name="Arial Black" charset="0" type="4" family="34"/>
+  <p:font name="Tahoma" charset="0" type="4" family="34"/>
+  <p:font name="Monotype Sorts" charset="2" type="6" family="2"/>
+  <p:font name="Arial" charset="0" type="4" family="34"/>
+  <p:font name="Arial Unicode MS" charset="128" type="4" family="34"/>
+  <p:font name="Courier New" charset="0" type="4" family="49"/>
+  <p:font name="ＭＳ 明朝" charset="128" type="4"/>
+  <p:headersfooters slidenumber="t"
+   footerstr="DGRC Evaluation Board Meeting 4/5/02" formatid="8" nouserdate="t"
+   nofooter="t" noheader="t" nodate="t" todaydate="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0" nouserdate="t"
+   nofooter="t" noheader="t" todaydate="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="486402">
+  <o:colormru v:ext="edit" colors="#f96,#099,teal,#369,#039,yellow"/>
+ </o:shapedefaults></xml>

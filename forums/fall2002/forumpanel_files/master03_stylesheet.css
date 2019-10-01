@@ -1,0 +1,310 @@
+body
+	{width:755px;
+	height:566px;}
+.TB
+	{mso-special-format:nobullet€;}
+.T
+	{text-align:left;
+	font-family:Arial;
+	font-weight:bold;
+	layout-flow:vertical;
+	color:black;
+	font-size:213%;}
+.BB
+	{mso-special-format:bulletn;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:65%;}
+.B
+	{text-align:left;
+	font-family:Arial;
+	layout-flow:vertical;
+	color:white;
+	mso-color-index:1;
+	font-size:186%;}
+.B1B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.B1
+	{text-align:left;
+	font-family:Arial;
+	layout-flow:vertical;
+	color:white;
+	mso-color-index:1;
+	font-size:160%;}
+.B2B
+	{mso-special-format:bullet<;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:75%;}
+.B2
+	{text-align:left;
+	font-family:Arial;
+	layout-flow:vertical;
+	color:white;
+	mso-color-index:1;
+	font-size:133%;}
+.B3B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.B3
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:120%;}
+.B4B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.B4
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:106%;}
+.NB
+	{mso-special-format:nobullet€;}
+.N
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.N1B
+	{mso-special-format:nobullet€;}
+.N1
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.N2B
+	{mso-special-format:nobullet€;}
+.N2
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.N3B
+	{mso-special-format:nobullet€;}
+.N3
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.N4N
+	{mso-special-format:nobullet€;}
+.N4
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.OB
+	{mso-special-format:nobullet€;}
+.O
+	{text-align:left;
+	font-family:Arial;
+	layout-flow:vertical;
+	color:white;
+	mso-color-index:1;
+	font-size:160%;}
+.O1B
+	{mso-special-format:nobullet€;}
+.O1
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.O2B
+	{mso-special-format:nobullet€;}
+.O2
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.O3B
+	{mso-special-format:nobullet€;}
+.O3
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.O4B
+	{mso-special-format:nobullet€;}
+.O4
+	{font-family:"Times New Roman";
+	layout-flow:vertical;}
+.CBB
+	{mso-special-format:nobulletn;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:65%;}
+.CB
+	{text-align:left;
+	font-family:Arial;
+	layout-flow:vertical;
+	font-size:160%;}
+.CB1B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.CB1
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:160%;}
+.CB2B
+	{mso-special-format:nobullet<;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:75%;}
+.CB2
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:133%;}
+.CB3B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.CB3
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:120%;}
+.CB4B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.CB4
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:106%;}
+.CTB
+	{mso-special-format:nobullet€;}
+.CT
+	{text-align:left;
+	font-family:Arial;
+	font-weight:bold;
+	layout-flow:vertical;
+	color:black;
+	font-size:240%;}
+.HBB
+	{mso-special-format:bulletn;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:65%;}
+.HB
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:160%;}
+.HB1B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.HB1
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:133%;}
+.HB2B
+	{mso-special-format:bullet<;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:75%;}
+.HB2
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:120%;}
+.HB3B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.HB3
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:106%;}
+.HB4B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.HB4
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:93%;}
+.QBB
+	{mso-special-format:bulletn;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:65%;}
+.QB
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:133%;}
+.QB1B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.QB1
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:120%;}
+.QB2B
+	{mso-special-format:bullet<;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:75%;}
+.QB2
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:106%;}
+.QB3B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.QB3
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:93%;}
+.QB4B
+	{mso-special-format:bullet­;
+	color:#958A50;}
+.QB4
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:80%;}
+.TblB
+	{mso-special-format:nobulletn;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:65%;}
+.Tbl
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:160%;}
+.Tbl1B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.Tbl1
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:133%;}
+.Tbl2B
+	{mso-special-format:nobullet<;
+	color:#958A50;
+	font-family:"Monotype Sorts";
+	font-size:75%;}
+.Tbl2
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:120%;}
+.Tbl3B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.Tbl3
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:106%;}
+.Tbl4B
+	{mso-special-format:nobullet­;
+	color:#958A50;}
+.Tbl4
+	{font-family:Arial;
+	layout-flow:vertical;
+	font-size:93%;}
+.defaultB
+	{mso-special-format:nobullet€;}
+.default
+	{text-align:left;
+	font-family:Arial;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-shadow:none;
+	text-effect:none;
+	mso-fareast-hint:no;
+	layout-flow:vertical;
+	color:white;
+	mso-color-index:1;
+	font-size:160%;
+	mso-text-raise:0%;
+	mso-line-spacing:"100 0 0";
+	mso-margin-left-alt:0;
+	mso-text-indent-alt:0;
+	mso-char-wrap:0;
+	mso-kinsoku-overflow:0;
+	direction:ltr;
+	mso-word-wrap:1;
+	mso-ansi-language:1033;}
+a:link
+	{color:#FF9933 !important;}
+a:active
+	{color:#0099CC !important;}
+a:visited
+	{color:#009900 !important;}

@@ -1,0 +1,1636 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../RevDLFERMIFallForum2003.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>  </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0180.htm');" id=PPTL1><span
+  style='mso-spacerun:yes'> </span>The DLF <br>
+    E-Resource Management Initiative: <br>
+    Project Report</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>DLF Fall Forum</li>
+   <li>Albuquerque, NM</li>
+   <li>November 17, 2003</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0296.htm');" id=PPTL2>Talk Outline</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>1. Background and E-Resource Management Functions</li>
+   <li>2. The DLF E-Resource Management Initiative</li>
+   <li>3. Impact, Challenges, and Next Steps</li>
+   <li>4. Questions and Comments</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0291.htm');" id=PPTL3>Background and <br>
+    E-Resource Management Functions</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0292.htm');" id=PPTL4>Context for E-resource
+  Mgmt.</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>High demand for “24x7” access</li>
+   <li>E-resource budget shares continue to grow</li>
+   <ul>
+    <li>(mostly digital environment in 5 years?)</li>
+   </ul>
+   <li>Budget issues driving shift to e-only journal access</li>
+   <li>Dynamic marketplace &amp; business models</li>
+   <li>“Google-ization” (make it easy or forget it!)</li>
+   <li>E-resources are complex (to describe, fund, and support)</li>
+   <li>Impact of licensing</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0290.htm');" id=PPTL6>Some E-resource tasks
+  not supported by current library systems</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Generating and maintaining alpha and subject lists</li>
+   <li>Loading “aggregator” holdings information</li>
+   <li>License term negotiation, tracking, and communication processes</li>
+   <li>Wide staff involvement in selection &amp; support</li>
+   <li>Problem tracking</li>
+   <li>Escalation/ triage paths</li>
+   <li>Planned, cyclical product reviews</li>
+   <li>Systematic usage reporting</li>
+   <li>Result: creation of many separate documents and/or applications</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0294.htm');" id=PPTL7>Tracking Development
+  Work : <br>
+    the “Web Hub”</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Adam Chandler (Cornell) and Tim Jewell</li>
+   <li>Work begun for earlier DLF study</li>
+   <li>Project descriptions and contacts</li>
+   <li>Local documents</li>
+   <li>Listserv</li>
+   <li>(http://www.library.cornell.edu/cts/elicensestudy/)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0295.htm');" id=PPTL8>E-Resource Management
+  Systems and Initiatives</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>California Digital Library</li>
+   <li>Colorado Alliance (Gold Rush)</li>
+   <li>Columbia</li>
+   <li>Griffith University (Australia)</li>
+   <li>Harvard</li>
+   <li>Johns Hopkins (HERMES)</li>
+   <li>MIT (VERA)</li>
+   <li>Michigan</li>
+   <li>Minnesota</li>
+   <li>Notre Dame</li>
+   <li>Penn State (ERLIC)</li>
+   <br>
+   <br>
+   <li>Stanford</li>
+   <li>Texas (License Tracker)</li>
+   <li>Tri-College Consortium (Haverford, Bryn Mawr, Swarthmore)</li>
+   <li>UCLA</li>
+   <li>University of Georgia</li>
+   <li>University of Washington (w/III)</li>
+   <li>Virginia</li>
+   <li>Willamette University</li>
+   <li>Yale</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0297.htm');" id=PPTL9>The DLF <br>
+    E-Resource Management Initiative</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0209.htm');" id=PPTL10>DLF ERMI Steering
+  Group:</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <ul>
+    <li>Tim Jewell (University of Washington)</li>
+    <li>Ivy Anderson (Harvard)</li>
+    <li>Adam Chandler (Cornell)</li>
+    <li>Sharon Farb (UCLA)</li>
+    <li>Angela Riggio (UCLA)</li>
+    <li>Kimberly Parker (Yale)</li>
+    <li>Nathan D. M. Robertson (Johns Hopkins)</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0182.htm');" id=PPTL11>ERMI Goals</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Formal</li>
+   <ul>
+    <li>Describe architectures needed</li>
+    <li>Establish lists of elements and definitions</li>
+    <li>Write and publish XML Schemas/DTD’s</li>
+    <li>Promote best practices and standards for data interchange</li>
+    <br>
+    <br>
+   </ul>
+   <li>Informal</li>
+   <ul>
+    <li>Promote growth and development of vendor and local ERM systems and
+        services</li>
+    <br>
+    <br>
+   </ul>
+   <li>http://www.diglib.org/standards/dlf-erm02.htm</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0183.htm');" id=PPTL12>Original Project
+  “Deliverables”</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Problem Definition/Road Map</li>
+   <li>Workflow Diagram</li>
+   <li>Functional Specifications</li>
+   <li>Entity Relationship Diagram</li>
+   <li>Data Elements and Definitions</li>
+   <li>XML Schema</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0302.htm');" id=PPTL13>“Refined” Deliverables
+  Scenarios (1)</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Problem Definition/Road Map</li>
+   <ul>
+    <li>“System Survey”</li>
+    <ul>
+     <li>Help understand scope of need, options</li>
+    </ul>
+    <li>Final Project Report</li>
+    <ul>
+     <li>What did we do, how far did we get, and what’s unresolved?</li>
+     <li>Begin defining next steps</li>
+     <br>
+     <br>
+    </ul>
+   </ul>
+   <li>Workflow Diagram</li>
+   <ul>
+    <li>Internal analysis and planning</li>
+    <br>
+    <br>
+   </ul>
+   <li>Functional Requirements</li>
+   <ul>
+    <li>Define details of needed functionality for:</li>
+    <ul>
+     <li>Local and Vendor system planning</li>
+     <li>Source for RFP’s</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0311.htm');" id=PPTL14>“Refined” Deliverables
+  Scenarios (2)</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Entity Relationship Diagram (“Tree”)</li>
+   <ul>
+    <li>Aid to conceptualization</li>
+    <br>
+    <br>
+   </ul>
+   <li>Data Elements and Definitions</li>
+   <ul>
+    <li>Data Element Dictionary (“Leaves”)</li>
+    <li>Data Structure (“Where the Leaves Go”)</li>
+    <li>Accelerate development processes</li>
+    <br>
+    <br>
+   </ul>
+   <li>XML Investigation</li>
+   <ul>
+    <li>Foster data interchange for</li>
+    <ul>
+     <li>Future data migration</li>
+     <li>Vendor to Library data interchange</li>
+     <li>Library to Library data interchange?</li>
+    </ul>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0271.htm');" id=PPTL15>ERM Metadata Standards
+  Comparison</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0194.htm');" id=PPTL16>Librarian Reactor Panel
+  (17 members)</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Bob Alan (Penn State)</li>
+   <li>Angela Carreno (NYU)</li>
+   <li>Trisha Davis (Ohio State)</li>
+   <li>Ellen Duranceau (MIT)</li>
+   <li>Christa Easton (Stanford)</li>
+   <li>Laine Farley (CDL)</li>
+   <li>Diane Grover (Washington)</li>
+   <li>Nancy Hoebelheinreich (Stanford)</li>
+   <li>Norm Medeiros (Haverford)</li>
+   <li>Linda Miller (LC)</li>
+   <li>Jim Mouw (Chicago)</li>
+   <li>Andrew Pace (NCSU)</li>
+   <li>Carole Pilkinton (Notre Dame)</li>
+   <li>Ronda Rowe (Texas)</li>
+   <li>Jim Stemper (Minnesota)</li>
+   <li>Paula Watson (Illinois)</li>
+   <li>Robin Wendler (Harvard)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0195.htm');" id=PPTL17>Vendor Reactor Panel
+  (12 Members)</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Tina Feick (SWETS Blackwell)</li>
+   <li>Ted Fons (Innovative Interfaces)</li>
+   <li>David Fritsch (TDNet)</li>
+   <li>Kathy Klemperer (Harrassowitz)</li>
+   <li>George Machovec (Colorado Alliance)</li>
+   <li>Mark Needleman (SIRSI)</li>
+   <li>Oliver Pesch (EBSCO)</li>
+   <li>Chris Pierard (Serials Solutions)</li>
+   <li>Kathleen Quinton (OCLC)</li>
+   <li>Sara Randall (Endeavor)</li>
+   <li>Ed Riding (Dynix)</li>
+   <li>Jenny Walker (ExLibris)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0243.htm');" id=PPTL18>Workflow Flowchart
+  Overview</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Contemplating Product Selection</li>
+   <li>Initial Review (3 “parallel processes”)</li>
+   <ul>
+    <li>License</li>
+    <li>Technical Feasibility</li>
+    <li>Business Issues</li>
+   </ul>
+   <li>Implementation</li>
+   <li>Routine Maintenance/Renewal</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0244.htm');" id=PPTL19>Workflow Flowchart (1)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0245.htm');" id=PPTL20>Workflow Flowchart (2)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0246.htm');" id=PPTL21>Workflow Flowchart (3)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0247.htm');" id=PPTL22>Workflow Flowchart (4)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0275.htm');" id=PPTL23>Functional Requirements
+  Outline</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Based on specifications developed jointly by Harvard and MIT for
+       discussions with Ex Libris</li>
+   <li>Introduction and Goals</li>
+   <li>Guiding Principles</li>
+   <li>Functional Requirements (47 main points)</li>
+   <ul>
+    <li>General (4)</li>
+    <li>Resource Discovery (7)</li>
+    <li>Bibliographic Management (2)</li>
+    <li>Access Management (5)</li>
+    <li>Staff Requirements (29)</li>
+    <ul>
+     <li>General interface requirements (4)</li>
+     <li>Selection and evaluation processes (9)</li>
+     <li>Resource administration and management (11)</li>
+     <li>Business functions (5)</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0276.htm');" id=PPTL24>Functional
+  Requirements:<br>
+    Guiding Principles</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Integrated environment for management and access</li>
+   <li>Interoperation and/or exchange of data with existing services:<span
+       style='mso-spacerun:yes'>  </span>OPACs, web portals, library management
+       systems, link resolution services…</li>
+   <li>Single point of maintenance for each data element</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0277.htm');" id=PPTL25>Functional
+  Requirements: (Excerpt)</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>32. Store license rights and terms for reference, reporting, and control
+       of services</li>
+   <ul>
+    <li>32.1 For services including but not limited to ILL, reserves, distance
+        education, course web sites, and course packs:</li>
+    <ul>
+     <li>32.1.1 Identify whether a given title may be used for the service and
+         under what conditions</li>
+     <li>32.1.2 Generate reports of all materials that may or may not be used
+         for the service, with notes about conditions</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0278.htm');" id=PPTL26>Functional
+  Requirements: General</a></font></div>
+  <div id=PPTC26 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Represent relationships among individual e-resources, packages,
+       licenses, and online interfaces</li>
+   <li>Associate characteristics of a license, interface, or package with the
+       resources to which it applies</li>
+   <li>Provide robust reporting and data export capabilities</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0279.htm');" id=PPTL27>Core Requirements (1)</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Record license permissions and agreement metadata</li>
+   <ul>
+    <li>Authorized users</li>
+    <li>Permissions and restrictions</li>
+    <li>Obligations of the parties</li>
+    <li>Administrative metadata</li>
+    <li>Link to redacted license</li>
+   </ul>
+   <li>Support selection and acquisition workflows through customizable routing
+       and notification tools</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0280.htm');" id=PPTL28>Core Requirements (2)</a></font></div>
+  <div id=PPTC28 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Support integrated bibliographic access and management</li>
+   <ul>
+    <li>Provide relevant license information to the end user</li>
+    <li>Share and/or exchange bibliographic data with other local systems and
+        data exchange partners</li>
+   </ul>
+   <li>Store access-related information</li>
+   <ul>
+    <li>urls, IDs, passwords, ip addresses</li>
+   </ul>
+   <li>Store administrative information</li>
+   <ul>
+    <li>Administrative<span style='mso-spacerun:yes'>  </span>urls, IDs,
+        passwords</li>
+    <li>Configuration information (Z39.50, MARC records, OpenURL resolvers)</li>
+    <li>Usage statistics metadata</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0281.htm');" id=PPTL29>Core Requirements (3)</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Troubleshooting</li>
+   <ul>
+    <li>Incident log / call tracking</li>
+    <li>Ability to flag resources as unavailable</li>
+    <li>Incident history reports to monitor vendor performance</li>
+   </ul>
+   <li>Vendor contact information</li>
+   <li>Complex business information</li>
+   <ul>
+    <li>Pricing models</li>
+    <li>Cancellation restrictions</li>
+    <li>Cost-sharing and consortial arrangements</li>
+    <li>Archival rights</li>
+   </ul>
+   <li>Renewal actions and decisions</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0282.htm');" id=PPTL30>Functional
+  Requirements:<br>
+    Reactor Panel Themes</a></font></div>
+  <div id=PPTC30 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Minimizing duplicative data among systems</li>
+   <ul>
+    <li>Which is the system of record?</li>
+    <br>
+    <br>
+   </ul>
+   <li>‘Consistent information for the user regardless of the path taken’<span
+       style='mso-spacerun:yes'>  </span>--<span style='mso-spacerun:yes'> 
+       </span>is this realistic?</li>
+   <br>
+   <br>
+   <li>Appropriate locus of acquisitions functionality</li>
+   <ul>
+    <li>ERMS or LMS?</li>
+   </ul>
+   <li>Usage statistics</li>
+   <ul>
+    <li>Pointers vs. Containers</li>
+   </ul>
+   <li>Access management</li>
+   <ul>
+    <li>Optional support for persistent URIs</li>
+    <li>Functional integration with local access management environment (e.g.
+        proxy servers)</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0251.htm');" id=PPTL31>Entity-Relationship
+  Diagram</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0252.htm');" id=PPTL32>ERD: Major Entities and
+  Relationships</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0253.htm');" id=PPTL33>ERD: Major Entities and
+  Relationships</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP34 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0254.htm');" id=PPTL34>ERD: Major Entities and
+  Relationships</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>34</font></div>
+  </td>
+  <td>
+  <div id=PPTP35 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0255.htm');" id=PPTL35>ERD: Major Entities and
+  Relationships</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>35</font></div>
+  </td>
+  <td>
+  <div id=PPTP36 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0256.htm');" id=PPTL36>Entity-Relationship
+  Diagram</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>36</font></div>
+  </td>
+  <td>
+  <div id=PPTP37 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0272.htm');" id=PPTL37>Data Element
+  Dictionary: Overview</a></font></div>
+  <div id=PPTC37 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Brief history</li>
+   <li>Structural simplicity</li>
+   <ul>
+    <li>Data Element Name</li>
+    <li>Identifier</li>
+    <li>Definition</li>
+    <li>Comments</li>
+   </ul>
+   <li>Groundwork for Data Structure and ERD</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>37</font></div>
+  </td>
+  <td>
+  <div id=PPTP38 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0273.htm');" id=PPTL38>Data Element Dictionary</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>38</font></div>
+  </td>
+  <td>
+  <div id=PPTP39 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0274.htm');" id=PPTL39>Data Elements:
+  Considerations</a></font></div>
+  <div id=PPTC39 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Overlap/integration with existing metadata schema</li>
+   <li>ISO 11179</li>
+   <li>Element names</li>
+   <li>Defining complex concepts</li>
+   <li>Exhaustibility/flexibility</li>
+   <li>Recommending standards for element values</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>39</font></div>
+  </td>
+  <td>
+  <div id=PPTP40 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0249.htm');" id=PPTL40>Data Structure Overview</a></font></div>
+  <div id=PPTC40 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>ERD + DED --&gt; ???</li>
+   <li>Data Dictionary Elements</li>
+   <ul>
+    <li>plus entity identifiers</li>
+    <li>plus pointers between entities</li>
+   </ul>
+   <li>Data Dictionary Definitions</li>
+   <ul>
+    <li>plus data types</li>
+    <li>functionality</li>
+    <li>optionality &amp; cardinality</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>40</font></div>
+  </td>
+  <td>
+  <div id=PPTP41 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0250.htm');" id=PPTL41>ERMS Data Structure</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>41</font></div>
+  </td>
+  <td>
+  <div id=PPTP42 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0257.htm');" id=PPTL42>XML investigation
+  sub-group</a></font></div>
+  <div id=PPTC42 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Adam Chandler (Cornell University)</li>
+   <li>Nancy Hoebelheinrich (Stanford University)</li>
+   <li>Angela Riggio (UCLA)</li>
+   <li>Nathan Robertson (Johns Hopkins)</li>
+   <li>Robin Wendler (Harvard University)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>42</font></div>
+  </td>
+  <td>
+  <div id=PPTP43 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0258.htm');" id=PPTL43>XML Investigation Scope</a></font></div>
+  <div id=PPTC43 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>1. Possible use case examples</li>
+   <li>2. Focused special attention on problem of formatting coverage data</li>
+   <li>3. Feasibility of XML schema to represent elements and entities</li>
+   <li>4. Next steps</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>43</font></div>
+  </td>
+  <td>
+  <div id=PPTP44 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0259.htm');" id=PPTL44>Possible use case
+  examples (1)</a></font></div>
+  <div id=PPTC44 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Link resolver data exchange between vendor and library. Possible
+       elements: title, title level coverage, user group license terms</li>
+   <br>
+   <br>
+   <li>Publisher e-resource title list. Possible elements: title, package name,
+       title level coverage, discounts, issn</li>
+   <br>
+   <br>
+   <li>Possible exchange of data between the library ERMS and other campus
+       systems such as course web sites?</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>44</font></div>
+  </td>
+  <td>
+  <div id=PPTP45 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0260.htm');" id=PPTL45>Possible use case
+  examples (2)</a></font></div>
+  <div id=PPTC45 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>METS escrow. To preserve
+       resources in an archive, it is necessary to know the license terms that
+       apply to objects. It would also be helpful to point to an image of the
+       full text of the license.</li>
+   <br>
+   <br>
+   <li>Possible place for an XML schema to guide exchange of trial information
+       between vendors and libraries?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>45</font></div>
+  </td>
+  <td>
+  <div id=PPTP46 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0305.htm');" id=PPTL46>Possible use case
+  examples (3)</a></font></div>
+  <div id=PPTC46 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>Imagine a web service between
+       libraries and vendors for reporting and communicating support incidents.
+       Both parties would then have a self archiving record of all
+       troubleshooting.</li>
+   <li>Transmission of IP ranges to vendors and contact info to libraries</li>
+   <li>Exchange license data with a contracting partner</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>46</font></div>
+  </td>
+  <td>
+  <div id=PPTP47 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0262.htm');" id=PPTL47>Coverage data (1)</a></font></div>
+  <div id=PPTC47 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>ERM requires a holdings / coverage schema that is:</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'> </span>Rich enough to accommodate
+        &quot;routine&quot; irregularities (supplements, indexes, unusual
+        numbering and chronologies)</li>
+    <li><span style='mso-spacerun:yes'> </span>Simple enough to facilitate easy
+        production and common adoption by libraries and vendors</li>
+    <li>Interoperable with schemas in existing systems</li>
+    <br>
+    <br>
+    <li>Current standards and methods seem to be either rich or simple, but not
+        both</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>47</font></div>
+  </td>
+  <td>
+  <div id=PPTP48 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0310.htm');" id=PPTL48>Coverage data (2)</a></font></div>
+  <div id=PPTC48 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>NISO to begin work on abstract holdings schema and corresponding XML
+       schema in early 2004. (Based on the Z39.50 schema, emphasizing
+       functionality, clarity, simplicity)</li>
+   <br>
+   <br>
+   <li>Rather than develop yet another competing standard, we recommend
+       participation in the NISO development, and hope to adapt the resulting
+       XML schema to our needs</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>48</font></div>
+  </td>
+  <td>
+  <div id=PPTP49 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0263.htm');" id=PPTL49>Feasibility of XML
+  schema to represent elements and entities</a></font></div>
+  <div id=PPTC49 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>Robin has developed a
+       proof-of-concept schema that is available on the Web Hub.<span
+       style='mso-spacerun:yes'>  </span>It includes Dublin Core and MODS
+       namespace/schemas, with a slot for rights expression</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>49</font></div>
+  </td>
+  <td>
+  <div id=PPTP50 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0265.htm');" id=PPTL50>XML Next Steps</a></font></div>
+  <div id=PPTC50 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Continue recent conversation with Renato Iannella on how the Open
+       Digital Rights Language may be used to represent license terms</li>
+   <li><span style='mso-spacerun:yes'> </span>Create instance documents to
+       demonstrate possible use of the DLF ERMI base schema</li>
+   <li><span style='mso-spacerun:yes'> </span>Secondary product: further
+       refinement of our element set attributes</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>50</font></div>
+  </td>
+  <td>
+  <div id=PPTP51 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0205.htm');" id=PPTL51>Impact, Challenges, and
+  <br>
+    Next Steps</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>51</font></div>
+  </td>
+  <td>
+  <div id=PPTP52 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0298.htm');" id=PPTL52>Summary</a></font></div>
+  <div id=PPTC52 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Managing electronic resources over time creates unique challenges for
+       libraries of all types</li>
+   <li>What functionality and metadata are required to support persistent
+       e-resource management?</li>
+   <li>DLF project offers first comprehensive schema, data model and tools
+       specifically designed to address e-resources.</li>
+   <li>What further work is necessary to guide or maintain development in this
+       area?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>52</font></div>
+  </td>
+  <td>
+  <div id=PPTP53 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0299.htm');" id=PPTL53>Issues and Implications
+  (1)</a></font></div>
+  <div id=PPTC53 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Environment--highly dynamic, logarithmic growth, high cost,
+       multidimensional nature, complex relationships</li>
+   <li>Hard to predict the future--plethora of business models</li>
+   <li>Growing reliance and investment in e-resources with no guarantees re
+       digital archiving or persistent access</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>53</font></div>
+  </td>
+  <td>
+  <div id=PPTP54 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0300.htm');" id=PPTL54>Issues and Implications
+  (2)</a></font></div>
+  <div id=PPTC54 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>No single global identification system</li>
+   <li>No registry or authority list of identifiers, packages or providers</li>
+   <li>Vocabulary issues</li>
+   <li>Privacy and confidentiality re authentication</li>
+   <li>Usage data--COUNTER, ARL e-metrics?</li>
+   <li>Open v. proprietary standards</li>
+   <li>Customization and standardization</li>
+   <li>Interoperability of stand-alone ERM?</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>54</font></div>
+  </td>
+  <td>
+  <div id=PPTP55 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0301.htm');" id=PPTL55>Where to from here? (1)</a></font></div>
+  <div id=PPTC55 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Project wrap-up (by DLF Spring Forum)</li>
+   <ul>
+    <li>Project report</li>
+    <li>System survey</li>
+    <li>Cross-check existing documents</li>
+    <li>Round out draft schema</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>55</font></div>
+  </td>
+  <td>
+  <div id=PPTP56 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0312.htm');" id=PPTL56>Where to from here? (2)</a></font></div>
+  <div id=PPTC56 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Market</li>
+   <ul>
+    <li>Continue to encourage vendor development</li>
+    <li>III, ExLibris, Dynix, others at various stages of product development,
+        announcement, etc.</li>
+   </ul>
+   <li>Standards</li>
+   <ul>
+    <li>“Vet” parts of schema, etc. to different groups</li>
+    <li>Determine future of schema as a standard</li>
+    <ul>
+     <li>Need “Maintenance Agency”?</li>
+    </ul>
+   </ul>
+   <li>Other ideas--Come to BOF Tues. 4-6</li>
+   <br>
+   <br>
+   <li>http://www.library.cornell.edu/cts/elicensestudy/home.html</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>56</font></div>
+  </td>
+  <td>
+  <div id=PPTP57 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0208.htm');" id=PPTL57>Questions and Comments</a></font></div>
+  <div id=PPTC57 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://www.library.cornell.edu/cts/elicensestudy/home.html</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href="v3_document.htm"></a><a href=preview.wmf></a><a
+href="v3_next_active.gif"></a><a href="v3_next_disabled.gif"></a><a
+href="v3_prev_active.gif"></a><a href="v3_prev_disabled.gif"></a><a
+href="v3_outline_collapse.gif"></a><a href="v3_outline_expand.gif"></a><a
+href="v3_space.gif"></a><a href="v3_endshow.htm"></a><a
+href="v3_navigation_bar.htm"></a><a href="v3_outline_navigation_bar.htm"></a><a
+href="v3_outline_collapsed.htm"></a><a href="v3_outline_expanded.htm"></a><a
+href="v3_blank_notes.htm"></a><a href="v3_slide0243_notes_pane.htm"></a><a
+href="v3_slide0244_notes_pane.htm"></a><a href="v3_slide0245_notes_pane.htm"></a><a
+href="v3_slide0246_notes_pane.htm"></a><a href="v3_slide0247_notes_pane.htm"></a><a
+href="v3_slide0249_notes_pane.htm"></a><a href="v3_slide0250_notes_pane.htm"></a><a
+href=master04.htm></a><a href=master04.xml></a><a href="master04_image001.png"></a><a
+href=master05.htm></a><a href=master05.xml></a><a href=master02.htm></a><a
+href=pres.xml></a><a href="v3_slide0180.htm"></a><a
+href="v3_master04_background.gif"></a><a href="v3_slide0296.htm"></a><a
+href="v3_slide0291.htm"></a><a href="v3_master05_background.gif"></a><a
+href="v3_slide0292.htm"></a><a href="v3_slide0293.htm"></a><a
+href="v3_slide0290.htm"></a><a href="v3_slide0294.htm"></a><a
+href="v3_slide0295.htm"></a><a href="v3_slide0295_image002.gif"></a><a
+href="v3_slide0297.htm"></a><a href="v3_slide0209.htm"></a><a
+href="v3_slide0182.htm"></a><a href="v3_slide0183.htm"></a><a
+href="v3_slide0302.htm"></a><a href="v3_slide0311.htm"></a><a
+href="v3_slide0271.htm"></a><a href="v3_master04_background.gif"></a><a
+href="v3_slide0271_image003.jpg"></a><a href="v3_slide0194.htm"></a><a
+href="v3_slide0195.htm"></a><a href="v3_slide0243.htm"></a><a
+href="v3_slide0244.htm"></a><a href="v3_slide0244_image004.gif"></a><a
+href="v3_slide0245.htm"></a><a href="v3_slide0245_background.gif"></a><a
+href="v3_slide0246.htm"></a><a href="v3_slide0246_image005.gif"></a><a
+href="v3_slide0247.htm"></a><a href="v3_slide0247_background.gif"></a><a
+href="v3_slide0275.htm"></a><a href="v3_slide0275_background.gif"></a><a
+href="v3_slide0276.htm"></a><a href="v3_slide0276_background.gif"></a><a
+href="v3_slide0277.htm"></a><a href="v3_slide0277_background.gif"></a><a
+href="v3_slide0278.htm"></a><a href="v3_slide0278_background.gif"></a><a
+href="v3_slide0279.htm"></a><a href="v3_slide0279_background.gif"></a><a
+href="v3_slide0280.htm"></a><a href="v3_slide0280_image006.gif"></a><a
+href="v3_slide0281.htm"></a><a href="v3_slide0281_image007.gif"></a><a
+href="v3_slide0282.htm"></a><a href="v3_slide0251.htm"></a><a
+href="v3_slide0251_image008.gif"></a><a href="v3_slide0252.htm"></a><a
+href="v3_slide0252_image009.gif"></a><a href="v3_slide0253.htm"></a><a
+href="v3_slide0253_image010.gif"></a><a href="v3_slide0254.htm"></a><a
+href="v3_slide0254_image011.gif"></a><a href="v3_slide0255.htm"></a><a
+href="v3_slide0255_image012.gif"></a><a href="v3_slide0256.htm"></a><a
+href="v3_slide0256_image013.gif"></a><a href="v3_slide0272.htm"></a><a
+href="v3_slide0273.htm"></a><a href="v3_slide0273_image014.jpg"></a><a
+href="v3_slide0274.htm"></a><a href="v3_slide0249.htm"></a><a
+href="v3_slide0250.htm"></a><a href="v3_slide0250_background.gif"></a><a
+href="v3_slide0257.htm"></a><a href="v3_slide0258.htm"></a><a
+href="v3_slide0259.htm"></a><a href="v3_slide0260.htm"></a><a
+href="v3_slide0305.htm"></a><a href="v3_slide0262.htm"></a><a
+href="v3_slide0310.htm"></a><a href="v3_slide0263.htm"></a><a
+href="v3_slide0265.htm"></a><a href="v3_slide0205.htm"></a><a
+href="v3_slide0298.htm"></a><a href="v3_slide0299.htm"></a><a
+href="v3_slide0300.htm"></a><a href="v3_slide0301.htm"></a><a
+href="v3_slide0312.htm"></a><a href="v3_slide0208.htm"></a><a
+href="v3_slide0208_image015.gif"></a><a href="v3_slide0224.htm"></a><a
+href="v3_slide0225.htm"></a><a href="v3_slide0225_image016.gif"></a><a
+href="v3_slide0226.htm"></a><a href="v3_slide0226_image017.gif"></a><a
+href="v3_slide0227.htm"></a><a href="v3_slide0227_image018.gif"></a><a
+href="v3_slide0228.htm"></a><a href="v3_slide0228_image019.gif"></a><a
+href="v3_slide0229.htm"></a><a href="v3_slide0230.htm"></a><a
+href="v3_slide0230_image020.jpg"></a><a href="v3_slide0231.htm"></a><a
+href="v3_slide0231_image021.gif"></a><a href="v3_slide0232.htm"></a><a
+href="v3_slide0232_image022.gif"></a><a href="v3_slide0233.htm"></a><a
+href="v3_slide0233_image023.gif"></a><a href="v3_slide0234.htm"></a><a
+href="v3_slide0235.htm"></a><a href="v3_slide0236.htm"></a><a
+href="v3_slide0237.htm"></a><a href="v3_slide0237_image024.gif"></a><a
+href="v3_slide0238.htm"></a><a href="v3_slide0238_image025.gif"></a><a
+href="v3_slide0239.htm"></a><a href="v3_slide0239_image026.gif"></a><a
+href="v3_slide0240.htm"></a><a href="v3_slide0240_image027.gif"></a><a
+href="v3_slide0241.htm"></a><a href="v3_slide0241_image028.jpg"></a><a
+href=slide0180.htm></a><a href="master04_image029.gif"></a><a
+href="master04_image030.jpg"></a><a href=slide0296.htm></a><a
+href=slide0291.htm></a><a href="master05_background.gif"></a><a
+href="master05_image031.gif"></a><a href="master05_image032.jpg"></a><a
+href=slide0292.htm></a><a href=slide0293.htm></a><a href=slide0290.htm></a><a
+href=slide0294.htm></a><a href=slide0295.htm></a><a
+href="slide0295_image033.wmz"></a><a href=oledata.mso></a><a
+href="slide0295_image034.gif"></a><a href=slide0297.htm></a><a
+href=slide0209.htm></a><a href=slide0182.htm></a><a href=slide0183.htm></a><a
+href=slide0302.htm></a><a href=slide0311.htm></a><a href=slide0271.htm></a><a
+href="slide0271_image035.png"></a><a href="slide0271_image036.jpg"></a><a
+href=slide0194.htm></a><a href=slide0195.htm></a><a href=slide0243.htm></a><a
+href=slide0244.htm></a><a href="slide0244_image037.wmz"></a><a
+href="slide0244_image038.gif"></a><a href=slide0245.htm></a><a
+href="slide0245_image039.wmz"></a><a href="slide0245_image040.gif"></a><a
+href=slide0246.htm></a><a href="slide0246_image041.wmz"></a><a
+href="slide0246_image042.gif"></a><a href=slide0247.htm></a><a
+href="slide0247_image043.wmz"></a><a href="slide0247_image044.gif"></a><a
+href=slide0275.htm></a><a href="slide0275_background.gif"></a><a
+href="master04_image045.gif"></a><a href="master04_image046.jpg"></a><a
+href=slide0276.htm></a><a href="slide0276_background.gif"></a><a
+href="master04_image047.gif"></a><a href="master04_image048.jpg"></a><a
+href=slide0277.htm></a><a href="slide0277_background.gif"></a><a
+href="master04_image049.gif"></a><a href="master04_image050.jpg"></a><a
+href=slide0278.htm></a><a href="slide0278_background.gif"></a><a
+href="master04_image051.gif"></a><a href="master04_image052.jpg"></a><a
+href=slide0279.htm></a><a href="slide0279_background.gif"></a><a
+href="master04_image053.gif"></a><a href="master04_image054.jpg"></a><a
+href=slide0280.htm></a><a href=slide0281.htm></a><a href=slide0282.htm></a><a
+href=slide0251.htm></a><a href="slide0251_image055.gif"></a><a
+href="slide0251_image056.wmz"></a><a href="slide0251_image057.gif"></a><a
+href=slide0252.htm></a><a href="slide0252_image058.gif"></a><a
+href="slide0252_image059.emz"></a><a href="slide0252_image060.gif"></a><a
+href=slide0253.htm></a><a href="slide0253_image061.gif"></a><a
+href="slide0253_image062.emz"></a><a href="slide0253_image063.gif"></a><a
+href=slide0254.htm></a><a href="slide0254_image064.gif"></a><a
+href="slide0254_image065.emz"></a><a href="slide0254_image066.gif"></a><a
+href=slide0255.htm></a><a href="slide0255_image067.gif"></a><a
+href="slide0255_image068.emz"></a><a href="slide0255_image069.gif"></a><a
+href=slide0256.htm></a><a href="slide0256_image070.gif"></a><a
+href="slide0256_image071.gif"></a><a href=slide0272.htm></a><a
+href=slide0273.htm></a><a href="slide0273_image072.png"></a><a
+href="slide0273_image073.jpg"></a><a href=slide0274.htm></a><a
+href=slide0249.htm></a><a href=slide0250.htm></a><a
+href="slide0250_image074.wmz"></a><a href="slide0250_image075.gif"></a><a
+href=slide0257.htm></a><a href=slide0258.htm></a><a href=slide0259.htm></a><a
+href=slide0260.htm></a><a href=slide0305.htm></a><a href=slide0262.htm></a><a
+href=slide0310.htm></a><a href=slide0263.htm></a><a href=slide0265.htm></a><a
+href=slide0205.htm></a><a href=slide0298.htm></a><a href=slide0299.htm></a><a
+href=slide0300.htm></a><a href=slide0301.htm></a><a href=slide0312.htm></a><a
+href=slide0208.htm></a><a href=slide0224.htm></a><a href=slide0225.htm></a><a
+href="slide0225_image076.png"></a><a href="slide0225_image077.gif"></a><a
+href=slide0226.htm></a><a href="slide0226_image078.png"></a><a
+href="slide0226_image079.gif"></a><a href=slide0227.htm></a><a
+href="slide0227_image080.png"></a><a href="slide0227_image081.gif"></a><a
+href=slide0228.htm></a><a href="slide0228_image082.png"></a><a
+href="slide0228_image083.gif"></a><a href=slide0229.htm></a><a
+href=slide0230.htm></a><a href="slide0230_image084.png"></a><a
+href="slide0230_image085.jpg"></a><a href=slide0231.htm></a><a
+href="slide0231_image086.png"></a><a href="slide0231_image087.gif"></a><a
+href=slide0232.htm></a><a href="slide0232_image088.png"></a><a
+href="slide0232_image089.gif"></a><a href=slide0233.htm></a><a
+href="slide0233_image090.png"></a><a href="slide0233_image091.gif"></a><a
+href=slide0234.htm></a><a href=slide0235.htm></a><a href=slide0236.htm></a><a
+href=slide0237.htm></a><a href=slide0238.htm></a><a href=slide0239.htm></a><a
+href=slide0240.htm></a><a href=slide0241.htm></a><a
+href="slide0241_image092.png"></a><a href="slide0241_image093.jpg"></a><a
+href=master01.htm></a><a href="master04_stylesheet.css"></a><a href=script.js></a><a
+href="../RevDLFERMIFallForum2003.htm"></a><a href=fullscreen.htm></a><a
+href="notes_flag.gif"></a><a href=buttons.gif></a><a href=frame.htm></a><a
+href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

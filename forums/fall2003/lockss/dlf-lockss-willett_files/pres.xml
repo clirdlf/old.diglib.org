@@ -1,0 +1,68 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152">
+  <p:master id="4" slidesn="1C00DA0,D3DB0A90" type="main" href="master04.htm"
+   xmlhref="master04.xml" template="Edge" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#820000,#FFFFFF,#333333,#FFFFFF,#FF9900,#CC3300,#808080,#666633"/>
+    <p:colorscheme
+     colors="#0B0506,#CCCCFF,#333333,#FFFFFF,#3366CC,#3333CC,#808080,#666633"/>
+    <p:colorscheme
+     colors="#221013,#FFFFFF,#333333,#FFFFFF,#CC3300,#CC9900,#808080,#666633"/>
+    <p:colorscheme
+     colors="#0000CC,#FFFFFF,#11054B,#FFFFFF,#FF6600,#FF3300,#CC9900,#B2B2B2"/>
+    <p:colorscheme
+     colors="#002600,#F8F8F8,#9B8D65,#FAFACC,#CC9933,#8F9967,#336600,#808000"/>
+    <p:colorscheme
+     colors="#006699,#FFFFFF,#333333,#FFFFFF,#CC9900,#FF9900,#FFCC00,#706F37"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#5F5F5F,#006633,#CC9900,#3B812F,#996600,#AFBF39"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#666699,#CC0000,#808080,#999933,#4C6D80,#B2B2B2"/>
+    <p:colorscheme
+     colors="#FFFFFF,#000000,#666699,#003399,#009999,#4C6D4E,#4C6D80,#B2B2B2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" slidesn="1C00DA0,D3DB0A90" type="title" href="master05.htm"
+   xmlhref="master05.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C3AA12,69BBBB70" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C3AA12,7EB23F90" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="1C3AA10,45EA2F80" href="slide0001.htm"/>
+  <p:slide id="2" slidesn="1C3AA10,8B1147B0" href="slide0002.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="3" slidesn="1C3AA12,59F50930" href="slide0003.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="4" slidesn="1C3AA13,24F7B560" href="slide0004.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="5" slidesn="1C3AA13,618E92A0" href="slide0005.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="6" slidesn="1C3AA14,129AAB60" href="slide0006.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="7" slidesn="1C3AA14,6C76AAD0" href="slide0007.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="8" slidesn="1C3AA14,9AA83A90" href="slide0008.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="9" slidesn="1C3AA14,DCA14450" href="slide0009.htm"
+   layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" slidehref="slide0009.htm" restoredleft="156"
+   restoredtop="946" hideoutlineicons="t"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Garamond" charset="0" type="6" family="18"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Wingdings" charset="2" type="6" family="2"/>
+  <p:headersfooters slidenumber="t" userdatestr="Nov. 17, 2003"
+   footerstr="LOCKSS and the Arts &amp; Humanities" formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t" userdatestr="Nov. 17, 2003"
+   footerstr="LOCKSS and the Arts/Humanities" formatid="0" noheader="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="dual"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="16388"/>
+</xml>

@@ -1,0 +1,1216 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<base href="http://dli.grainger.uiuc.edu/Publications/TWCole/Newberry2004/">
+<link id=Main-File rel=Main-File
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406.htm">
+<link rel=Preview
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\preview.wmf">
+<meta name=Robots content=NoIndex>
+<script
+src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\script.js"></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif" id="nb_voice" title="Pause/Play
+Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif" id="nb_prev" title="Previous
+Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif" id="nb_next" title="Next
+Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif id="nb_otlTxt" title="Expand/Collapse
+Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0001.htm');"
+  id=PPTL1>DLF Forum 2006<br>
+    <span style='mso-spacerun:yes'> </span>Sharing resources by collection:
+  <br>
+    OAI sets and set descriptions</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Muriel Foulonneau (mfoulonn@uiuc.edu)</li>
+   <li>Caroline Arms (caar@loc.gov)</li>
+   <li>Sarah L. Shreeves (sshreeve@uiuc.edu)</li>
+   <br>
+   <br>
+   <br>
+   <li>Grainger Engineering Library, University of Illinois at Urbana-Champaign</li>
+   <li>Library of Congress</li>
+   <br>
+   <br>
+   <br>
+   <li><br>
+              April 2006 Austin</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0199.htm');"
+  id=PPTL2>&quot;An overview of&quot;</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <li>An overview of</li>
+   <li>existing practices</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0238.htm');"
+  id=PPTL3>What is an OAI set?</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Optional means to organize OAI repository</li>
+   <ul>
+    <li>Sets may be hierarchical and may overlap</li>
+    <li>Items may belong to multiple sets or no sets</li>
+    <br>
+    <br>
+   </ul>
+   <li>Used by service providers to selectively harvest data providers</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+   <li>Widely used (74% of repositories have sets)</li>
+   <br>
+   <br>
+   <li>Sets must have setSpec and setName and may have a setDescription</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0239.htm');"
+  id=PPTL4>Snapshot of Current Practice</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Highest number of sets: 4806*</li>
+   <li>Lowest number of sets: 1*</li>
+   <li>Median: 14*</li>
+   <li>Average number of sets: 102*</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0240.htm');"
+  id=PPTL5>What do sets represent?</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0241.htm');"
+  id=PPTL6>How should &lt;setDescription&gt; be used?</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>OAI Protocol implementation guidelines:</li>
+   <li>(http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#setDescription)</li>
+   <ul>
+    <li>“Set descriptions may be included in the setDescription of the ListSets
+        response. If sets correspond to some notion of &quot;collections&quot;
+        then this allows collection description. If the whole repository
+        represents one collection then it may be more appropriate to use the
+        description container in the Identify response to describe the
+        collection.”</li>
+   </ul>
+   <li>OAI Best Practices for Data Provider Implementations<br>
+              (http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?SetPractices)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0242.htm');"
+  id=PPTL7>Set Description – Current Practice</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0243.htm');"
+  id=PPTL8>Describing OAI Sets: A White Paper</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Premise:</li>
+   <li>There is a difference between the description of the OAI set as a
+       collection of metadata records and technical construct and the description
+       of the collection of resources represented by the metadata records in
+       the set?</li>
+   <br>
+   <br>
+   <li>Can you do both in the &lt;setDescription&gt;?</li>
+   <li>Do you want to do both in the &lt;setDescription&gt;?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0197.htm');"
+  id=PPTL9>&quot;Usage of OAI sets&quot;</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <li>Usage of OAI sets</li>
+   <li>Perspective of a Data Provider: the Library of Congress</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0201.htm');"
+  id=PPTL10>Library of Congress Digitized Historical Collections</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Most of the content digitized is in &quot;special&quot; formats, not
+       published, printed volumes.</li>
+   <li>Physical collections organized along varied lines:</li>
+   <ul>
+    <li>Provenance (creator, collector)</li>
+    <ul>
+     <li>William Brumfield; Hans &amp; Hanni Kraus,</li>
+    </ul>
+    <li>Category of content (type of resource, genre)</li>
+    <ul>
+     <li>Daguerreotypes; sheet music</li>
+    </ul>
+    <li>Theme of high user interest</li>
+    <ul>
+     <li>Pictures of presidents; civil war drawings</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0211.htm');"
+  id=PPTL11>Responsibility for digital &quot;collections&quot;</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>LC practice aligns responsibility for digitized collections with
+       curatorial responsibility for original content.</li>
+   <li>Responsibility for description also aligned with curatorial
+       responsibility</li>
+   <ul>
+    <li>Collection-level description is routinely done</li>
+   </ul>
+   <li>Aligning online collections with source collections has advantages</li>
+   <ul>
+    <li>Description responsibilities coincide</li>
+    <li>Domain expertise coincides</li>
+   </ul>
+   <li>More themed, virtual assemblies online, but description and curatorial
+       responsibilities still aligned for items</li>
+   <ul>
+    <li>Collection-level records are created for these online-only
+        &quot;collections&quot;</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0212.htm');"
+  id=PPTL12>Library of Congress: OAI sets</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Aligned with record sets that support online collections</li>
+   <ul>
+    <li>Tied to routine update process</li>
+    <li>Can take advantage of collection-level description</li>
+   </ul>
+   <li>Primarily by content category</li>
+   <ul>
+    <li>Seemed to correspond to the requests received for bulk access</li>
+   </ul>
+   <br>
+   <li>Provide finer set structure where feasible</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0213.htm');"
+  id=PPTL13><span style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0214.htm');"
+  id=PPTL14><span style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0215.htm');"
+  id=PPTL15>Sets vs. Collections</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>A set is a &quot;collection&quot; of records</li>
+   <li>Harvesters want information about the underlying content</li>
+   <ul>
+    <li>Scope (description), subject terms, coverage, type of resource, rights
+        for content, link to online presentation of collection</li>
+   </ul>
+   <li>and about the set of records</li>
+   <ul>
+    <li>What entity is responsible for the set?</li>
+    <li>Is the set being added to or updated routinely?</li>
+    <ul>
+     <li>E.g., because more is being described /digitized</li>
+    </ul>
+    <li>What quality of cataloging to expect?</li>
+    <li>What is the native format for the records?</li>
+    <li>How are non-native formats derived?</li>
+    <li>How does this set relate to other sets?</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0216.htm');"
+  id=PPTL16>Possible solutions</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>For unambiguous machine–parsable semantics</li>
+   <ul>
+    <li>Develop an XML Schema that allows embedding of collection description
+        inside a set description</li>
+   </ul>
+   <li>For simplicity and for human readers</li>
+   <ul>
+    <li>Use oai_dc schema</li>
+    <li>Add second Dublin Core &lt;description&gt; element</li>
+   </ul>
+   <li>Develop community conventions for using other schemas in predictable
+       ways</li>
+   <ul>
+    <li>e.g., MODS for DLF Aquifer</li>
+   </ul>
+   <li>Etc., …</li>
+   <li>Meanwhile, taking the easy approach ….</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0221.htm');"
+  id=PPTL17><span style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0222.htm');"
+  id=PPTL18>Two description elements</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>For content (underlying collection)</li>
+   <ul>
+    <li>&lt;dc:description&gt;</li>
+    <li>Transcribed text with illustrations of 186 works documenting the
+        formative era of California's history through eyewitness accounts. The
+        collection covers the dramatic decades between the Gold Rush and the
+        turn of the twentieth century. …</li>
+    <li>&lt;/dc:description&gt;</li>
+   </ul>
+   <br>
+   <li>For set (collection of records)</li>
+   <ul>
+    <li>&lt;dc:description&gt;</li>
+    <li>Set characteristics for calbkbib:<span style='mso-spacerun:yes'> 
+        </span>Source records are MARC (from LC catalog); MODS or oai_dc
+        records are dynamically generated using generic transformation when
+        harvested.<span style='mso-spacerun:yes'>   </span>dct:accrualPolicy:
+        Closed.<span style='mso-spacerun:yes'>  </span>Contains about 200
+        records.<span style='mso-spacerun:yes'>  </span>Records in set calbkbib
+        are also in set lcbooks.</li>
+    <li>&lt;/dc:description&gt;</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0223.htm');"
+  id=PPTL19>Dublin Core collection description elements</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li><span style='mso-spacerun:yes'>      </span>AccrualPeriodicity</li>
+   <li>Element Description: The frequency with which items are added to a
+       collection.</li>
+   <li></li>
+   <li>Guidelines for content creation:</li>
+   <li>Terms from controlled vocabularies may be developed for the use of a
+       particular project or in general use in a cultural materials context.</li>
+   <br>
+   <br>
+   <li>Examples:<span style='mso-spacerun:yes'>  </span>Annual, Irregular</li>
+   <br>
+   <br>
+   <li><span style='mso-spacerun:yes'>        </span>AccrualPolicy</li>
+   <li>Element Description: The policy governing the addition of items to a
+       collection.</li>
+   <br>
+   <br>
+   <li>Examples:<span style='mso-spacerun:yes'>  </span>Active, Closed</li>
+   <li></li>
+   <li>	Note:<span style='mso-spacerun:yes'>  </span>These can have different
+       values for set and source collection.<span style='mso-spacerun:yes'> 
+       </span>LC has many large image collections for which cataloging and
+       digitization are proceeding over years</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0191.htm');"
+  id=PPTL20>&quot;Usage of OAI sets&quot;</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <li>Usage of OAI sets</li>
+   <li>Perspective from a Service Provider: CIC Metadata Portal</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0182.htm');"
+  id=PPTL21>The CIC metadata portal and OAI sets</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Selective harvesting in some cases</li>
+   <ul>
+    <li>Because sets not part of collection development policy</li>
+    <li>Because harvest in multiple chunks</li>
+    <ul>
+     <li>E.g., when sets harvested in multiple formats</li>
+     <li>E.g., when large metadata collections</li>
+     <br>
+     <br>
+    </ul>
+   </ul>
+   <li>Including the concept of collections in the item level portal</li>
+   <ul>
+    <li>Every item in the CIC collection belongs to one “reference”<br>
+                collection such as defined by the data provider (either OAI
+        repository or OAI set)</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0190.htm');"
+  id=PPTL22>Filtering results, adding context, browsing</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0196.htm');"
+  id=PPTL23>Harvesting the set descriptions</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>&lt;set xmlns='http://www.openarchives.org/OAI/2.0/'&gt;</li>
+   <li><span style='mso-spacerun:yes'> </span>&lt;setSpec&gt;oaiall:ummubib&lt;/setSpec&gt;</li>
+   <li><span style='mso-spacerun:yes'> </span>&lt;setName&gt;Art, Architecture
+       and Engineering Library&lt;/setName&gt;</li>
+   <li><span style='mso-spacerun:yes'> </span>&lt;setDescription&gt;</li>
+   <li>&lt;oaidc:dc
+       xmlns:oaidc=&quot;http://www.openarchives.org/OAI/2.0/oai_dc/&quot;
+       xmlns=&quot;http://purl.org/dc/elements/1.1/&quot;
+       xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+       xsi:schemaLocation=&quot;http://www.openarchives.org/OAI/2.0/oai_dc/
+       http://www.openarchives.org/OAI/2.0/oai_dc.xsd&quot;&gt;</li>
+   <li>&lt;description&gt;Images from this collection are part of the Art,
+       Architecture and Engineering Library Visual Resources Collection which
+       is housed in the lower level of the Media Union Library at the
+       University of Michigan. The collection primarily serves the College of Architecture
+       and Urban Planning and the School of Art and Design. (Collection Access:
+       restricted; http://images.umdl.umich.edu/u/ummu/)&lt;/description&gt;</li>
+   <li>&lt;/oaidc:dc&gt;</li>
+   <li><span style='mso-spacerun:yes'> </span>&lt;/setDescription&gt;</li>
+   <li>&lt;/set&gt;</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0235.htm');"
+  id=PPTL24>The Dublin Core Collection</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>Several issues still under <br>
+              discussion</li>
+   <ul>
+    <li>Relation between collections <br>
+                and access services</li>
+    <li>Collection identifiers</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0138.htm');"
+  id=PPTL25>1 additional workflow for collections</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0187.htm');"
+  id=PPTL26>Some lessons the CIC experience</a></font></div>
+  <div id=PPTC26 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Splitting repositories into sub-collections to enrich an item-level
+       digital library is promising</li>
+   <ul>
+    <li>Data providers’ division of content is in many cases relevant</li>
+    <li>Data providers tend to define collections when they share content – it
+        is easier to ask for a collection level description at that moment of
+        the workflow</li>
+    <br>
+    <br>
+   </ul>
+   <li>Using sets to identify those collections is an easy and convenient
+       mechanism vs use of DC relation for eg.</li>
+   <br>
+   <br>
+   <li>Using set descriptions to convey CLD is potentially problematic</li>
+   <ul>
+    <li>They include information about the set for selective harvesting</li>
+    <li>Do not have mechanisms for metadata sharing (eg. datestamp)</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0237.htm');"
+  id=PPTL27>&quot;Conclusions on a distributed architecture...&quot;</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <br>
+   <li>Conclusions on a distributed architecture to share collections</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0236.htm');"
+  id=PPTL28>Concluding Thoughts</a></font></div>
+  <div id=PPTC28 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Conclusions</li>
+   <ul>
+    <li>Set descriptions are recommended</li>
+    <ul>
+     <li>DLF/NSDL best practices documents identify the information needs for
+         selective harvesting</li>
+    </ul>
+    <li>Set descriptions and collection descriptions are not the same</li>
+    <li>Some harvesters also want collection level descriptions to add context
+        to items, particularly in the cultural heritage arena.</li>
+   </ul>
+   <li>Using set descriptions to convey collection level descriptions may raise
+       difficulties in the long run</li>
+   <ul>
+    <li>No identification scheme for collections</li>
+    <li>Since set description records have no datestamp, there is no trigger
+        for automatic update</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0189.htm');"
+  id=PPTL29>An architectural challenge for the future</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>In registries networks : collections and services</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+   <li>Representing relationships in a distributed environment</li>
+   <ul>
+    <li>Items</li>
+    <li>Collections</li>
+    <li>Item descriptions and</li>
+    <li>Collection descriptions</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0234.htm');"
+  id=PPTL30>OAI framework for sharing collections?</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0231.htm');"
+  id=PPTL31>Questions and challenges</a></font></div>
+  <div id=PPTC31 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Encourage the development of collection registries for communities?</li>
+   <li>Encourage cultural heritage data providers to provide OAI sets of
+       collection descriptions?</li>
+   <ul>
+    <li>Future work to include descriptions from OAI registries</li>
+    <li>Relating different granularities of description</li>
+   </ul>
+   <br>
+   <li>Relating collection descriptions and set descriptions</li>
+   <ul>
+    <li>Without raising the barrier to entry too high for data providers?</li>
+   </ul>
+   <li>Potential areas for exploration by DLF-Aquifer?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('file:///C:\\Documents%20and%20Settings\\bhoward\\Desktop\\foulonneau0406_files\\slide0178.htm');"
+  id=PPTL32>References</a></font></div>
+  <div id=PPTC32 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>OAI implementation guidelines</li>
+   <li>http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#setDescription</li>
+   <br>
+   <br>
+   <li>DLF/NSDL best practices for shareable metadata</li>
+   <li>http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?PublicTOC</li>
+   <br>
+   <br>
+   <li>Describing OAI sets: a discussion paper</li>
+   <li>http://comm.nsdl.org/download.php/624/set-description_ver6.pdf</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10.xml"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\preview.wmf"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image001.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image002.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master11.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master11.xml"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master02.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\pres.xml"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0001.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master11_image003.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master11_image004.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master11_image005.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0199.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image006.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image007.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image008.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image009.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_image010.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0199_image011.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0238.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0238_image012.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0239.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0239_image013.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0240.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0240_image014.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0240_image015.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0241.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0241_image016.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0242.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0242_image017.emz"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\oledata.mso"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0242_image018.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0243.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0243_image019.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0197.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0197_image020.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0201.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0201_image021.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0211.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0211_image022.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0212.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0212_image023.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0213.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0213_image024.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0213_image025.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0214.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0214_image026.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0214_image027.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0215.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0215_image028.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0216.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0216_image029.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0221.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0222.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0222_image030.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0223.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0223_image031.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0191.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0191_image032.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0182.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0182_image033.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0190.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0190_image034.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0190_image035.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0196.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0196_image036.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0235.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0235_image037.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0235_image038.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0235_image039.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image040.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image041.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image042.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image043.png"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image044.jpg"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image045.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image046.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image047.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image048.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0138_image049.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0187.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0187_image050.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0237.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0237_image051.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0236.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0236_image052.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0189.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0189_image053.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234_image054.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234_image055.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234_image056.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234_image057.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0234_image058.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0231.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0231_image059.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0178.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\slide0178_image060.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master01.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\master10_stylesheet.css"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\script.js"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\fullscreen.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\buttons.gif"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\frame.htm"></a><a
+href="file:///C:\Documents%20and%20Settings\bhoward\Desktop\foulonneau0406_files\outline.htm"></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

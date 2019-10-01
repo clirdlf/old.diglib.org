@@ -1,0 +1,74 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" firstslidenumber="0" gridspacingx="46448"
+  gridspacingy="46448">
+  <p:master id="10" slidesn="0,0" type="main" href="master10.htm"
+   xmlhref="master10.xml" template="BLCorporateTemplate" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000ff,#ffffff,#000000,#ffff00,#ff9900,#00ffff,#ff0000,#969696"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#00cc99,#3333cc,#ccccff,#b2b2b2"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#333333,#000000,#dddddd,#808080,#4d4d4d,#eaeaea"/>
+    <p:colorscheme
+     colors="#ffffcc,#000000,#666633,#808000,#339933,#800000,#0033cc,#ffcc66"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#ffcc66,#0000ff,#cc00cc,#c0c0c0"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#c0c0c0,#0066ff,#ff0000,#009900"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#3399ff,#99ffcc,#cc00cc,#b2b2b2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="11" slidesn="0,0" type="title" href="master11.htm"
+   xmlhref="master11.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C616A9,2428DE20" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C58153,29FC5AC0" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" masterhref="master11.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle"/>
+  <p:slide id="7" slidesn="1C4BDA3,DC1EA010" href="slide0007.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="8" slidesn="1C5DBB2,D348EA80" href="slide0008.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="9" slidesn="1C4BDA3,EE82B980" href="slide0009.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="10" slidesn="1C5DE0A,2364E060" href="slide0010.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="11" slidesn="1C4BA9A,C8443660" href="slide0011.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="12" slidesn="1C4BA9B,14293A80" href="slide0012.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="13" slidesn="1C4BA9A,D5C2F470" href="slide0013.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="18" slidesn="1C4BA9B,A6D3EBA0" href="slide0018.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="14" slidesn="1C5CFEC,186EE740" href="slide0014.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="15" slidesn="1C4BA9B,988F4580" href="slide0015.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="16" slidesn="1C4BA9B,67FDA5B0" href="slide0016.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="17" slidesn="1C4BA9B,58BE9A00" href="slide0017.htm"
+   layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="92" restoredtop="983"
+   manualadjustleft="t" manualadjusttop="t" hideoutlineicons="t"/>
+  <p:font name="Times New Roman" charset="0" type="4" family="18"/>
+  <p:font name="Arial" charset="0" type="4" family="34"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:font name="Syntax" charset="0" type="6" family="2"/>
+  <p:headersfooters slidenumber="t" formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="51204">
+  <o:colormru v:ext="edit" colors="#9cd4f5,#d6f7b3,#080462,#ffe5ff,#080808,red,#fcf,#ccf"/>
+  <o:colormenu v:ext="edit" fillcolor="#9cd4f5" strokecolor="none"/>
+ </o:shapedefaults></xml>

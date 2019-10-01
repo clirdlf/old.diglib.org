@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^search.asp(.*) search.php$1 [L,QSA]

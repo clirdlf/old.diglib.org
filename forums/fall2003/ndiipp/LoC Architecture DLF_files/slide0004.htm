@@ -1,0 +1,193 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns:oa="urn:schemas-microsoft-com:office:activation"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../LoC%20Architecture%20DLF.htm">
+<link rel=Preview href=preview.wmf>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+p\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+v\:textbox {display:none;}
+</style>
+<![endif]-->
+<title>Preliminary Architectural Proposal for Long-term Digital Preservation</title>
+<meta name=Description content="11/19/2003: Design Principles II">
+<link rel=Stylesheet href="master03_stylesheet.css">
+<![if !ppt]>
+<style media=print>
+<!--.sld
+	{left:0px !important;
+	width:6.0in !important;
+	height:4.5in !important;
+	font-size:107% !important;}
+-->
+</style>
+<script src=script.js></script><script><!--
+if( !IsNts() ) Redirect( "PPTSld" );
+//--></script><!--[if vml]><script>g_vml = 1;
+</script><![endif]--><![endif]><o:shapelayout v:ext="edit">
+ <o:idmap v:ext="edit" data="6"/>
+</o:shapelayout>
+</head>
+
+<body lang=EN-US style='margin:0px;background-color:black'
+onclick="DocumentOnClick()" onresize="_RSW()" onload="LoadSld()"
+onkeypress="_KPH()">
+
+<div id=SlideObj class=sld style='position:absolute;top:0px;left:0px;
+width:534px;height:400px;font-size:16px;background-color:white;clip:rect(0%, 101%, 101%, 0%);
+visibility:hidden'><p:slide coordsize="720,540"
+ colors="#FFFFFF,#000000,#808080,#000000,#00CC99,#3333CC,#CCCCFF,#B2B2B2"
+ masterhref="master03.xml">
+ <p:shaperange href="master03.xml#_x0000_s1025"/><![if !ppt]><p:shaperange
+  href="master03.xml#_x0000_s1028"/><p:shaperange
+  href="master03.xml#_x0000_s1029"/><![endif]><p:shaperange
+  href="master03.xml#_x0000_m1026"/><v:shape id="_x0000_s6146" type="#_x0000_m1026"
+  style='position:absolute;left:54pt;top:48pt;width:612pt;height:90pt'>
+  <v:fill o:detectmouseclick="f"/>
+  <v:stroke o:forcedash="f"/>
+  <o:lock v:ext="edit" text="f"/>
+  <p:placeholder type="title"/></v:shape><p:shaperange
+  href="master03.xml#_x0000_m1027"/><v:shape id="_x0000_s6147" type="#_x0000_m1027"
+  style='position:absolute;left:54pt;top:156pt;width:612pt;height:324pt'>
+  <v:fill o:detectmouseclick="f"/>
+  <v:stroke o:forcedash="f"/>
+  <o:lock v:ext="edit" text="f"/>
+  <p:placeholder type="body" position="1"/></v:shape>
+ <div v:shape="_x0000_s6146" class=T style='position:absolute;top:12.75%;
+ left:8.42%;width:83.14%;height:9.25%'><span style='font-family:Arial'>Design
+ Principles II</span></div>
+ <div v:shape="_x0000_s6147">
+ <div class=B style='position:absolute;top:30.0%;left:8.42%;width:83.14%;
+ height:6.75%'><span style='position:absolute;top:0%;left:4.5%;width:95.49%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.71%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>Modular approach&#13;</span></span></div>
+ <div class=B style='position:absolute;top:38.5%;left:8.42%;width:86.14%;
+ height:6.75%'><span style='position:absolute;top:0%;left:4.34%;width:95.65%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.54%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>Minimal requirements at
+ each level&#13;</span></span></div>
+ <div class=B style='position:absolute;top:47.0%;left:8.42%;width:83.14%;
+ height:6.75%'><span style='position:absolute;top:0%;left:4.5%;width:95.49%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.71%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>Implementation-agnostic
+ &#13;</span></span></div>
+ <div class=B style='position:absolute;top:55.5%;left:8.42%;width:95.13%;
+ height:6.75%'><span style='position:absolute;top:0%;left:3.93%;width:96.06%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.09%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>The system should </span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'><i>never</i></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'> be optimized&#13;</span></span></div>
+ <div class=B style='position:absolute;top:64.0%;left:8.42%;width:83.14%;
+ height:6.75%'><span style='position:absolute;top:0%;left:4.5%;width:95.49%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.71%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>Survive the first
+ migration&#13;</span></span></div>
+ <div class=B style='position:absolute;top:72.5%;left:8.42%;width:83.14%;
+ height:6.75%'><span style='position:absolute;top:0%;left:4.5%;width:95.49%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=BB style='position:absolute;left:-4.71%'>•</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'>Piggyback on existing
+ work&#13;</span></span></div>
+ <div class=B1 style='position:absolute;top:80.75%;left:13.48%;width:78.08%;
+ height:6.0%'><span style='position:absolute;top:0%;left:4.07%;width:96.16%;
+ height:100.0%'><span style='font-family:Arial;color:#3333CC;mso-color-index:
+ 5'><span class=B1B style='position:absolute;left:-4.23%'>–</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";color:#3333CC;mso-color-index:5'><span
+ style='mso-spacerun:yes'>  </span>OAIS/W3C/IETF/Digital Libraries</span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman"'> &#13;</span></span></div>
+ <div class=B1 style='position:absolute;top:88.25%;left:13.48%;width:78.08%;
+ height:6.0%'><span style='position:absolute;top:0%;left:4.07%;width:96.16%;
+ height:100.0%'><span style='font-family:Arial;visibility:hidden'><span
+ class=B1B style='position:absolute;left:-4.23%'>–</span></span><span
+ style='font-family:Arial;mso-ascii-font-family:Arial;mso-bidi-font-family:
+ "Times New Roman";mso-special-format:lastCR;display:none'>&#13;</span></span></div>
+ </div>
+</p:slide></div>
+
+<![if !ppt]>
+
+<div id=NotesObj style='display:none'>
+
+<table style='color:white' border=0 width="100%">
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3>The system we outlined (in
+  very basic terms) is layered, with each layer providing services and controls
+  critical to various stakeholders. This layered control allows many different
+  conversations to happen between rights holders, patrons, and librarians. This
+  architecture creates an unbundling of the functions currently associated with
+  libraries (and other organizations such as business archives, museums, etc).
+  Instead, in this system, preservation is a process that involves many
+  stakeholders at various levels.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3>These conversations can have
+  many different outcomes, depending on the desires and requirements of the
+  participants, and the outcomes can change over time as those desires and
+  requirements change.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><br>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![endif]>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

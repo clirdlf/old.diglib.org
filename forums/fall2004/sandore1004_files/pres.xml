@@ -1,0 +1,65 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152">
+  <p:master id="4" slidesn="1C00DA2,6C33A1C0" type="main" href="master04.htm"
+   xmlhref="master04.xml" template="Layers" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#000000,#cccccc,#993300,#ffffff,#576f2b,#666699,#993300,#cc9900"/>
+    <p:colorscheme
+     colors="#330000,#cccccc,#993300,#ffffff,#996633,#ff0000,#ff3300,#cc9933"/>
+    <p:colorscheme
+     colors="#21203c,#ffffff,#79788a,#ffffcc,#476077,#676c5a,#666699,#8cb0a2"/>
+    <p:colorscheme
+     colors="#79a994,#ffffcc,#455b41,#ffffcc,#517087,#666699,#993300,#a4af6b"/>
+    <p:colorscheme
+     colors="#ff9900,#330000,#8b3111,#ffffff,#dd6d07,#cc9900,#cc3300,#cccc66"/>
+    <p:colorscheme
+     colors="#ffffe1,#000000,#330033,#330033,#cccc99,#ff0000,#990033,#b2b2b2"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#891411,#000000,#4f917e,#cc9900,#5a84d8,#a0c6ba"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#999966,#cc0000,#cccccc,#cccc66,#666699,#cccc99"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#009999,#ff0000,#c7b505,#ffff66,#5a84d8,#a0c6ba"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#666699,#660033,#95a3d1,#ffff66,#5a84d8,#cccc99"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" slidesn="1C00DA2,6C33A1C0" type="title" href="master05.htm"
+   xmlhref="master05.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="1C4B2FB,809FFAC0" href="slide0001.htm"
+   masterhref="master05.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle"/>
+  <p:slide id="2" slidesn="1C4B2FB,ABEFC750" href="slide0002.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="3" slidesn="1C4B2FC,281935A0" href="slide0003.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="4" slidesn="1C4B2FC,8A85BE20" href="slide0004.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="5" slidesn="1C4B614,9205C7B0" href="slide0005.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="10" slidesn="1C4BAC5,6B01F2F0" href="slide0010.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="9" slidesn="1C4BAB4,67596D10" href="slide0009.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="12" slidesn="1C4BAC5,BD830320" href="slide0012.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="11" slidesn="1C4BAC5,AA5CF940" href="slide0011.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="7" slidesn="1C4BA31,F80D46C0" href="slide0007.htm"
+   layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="156" restoredtop="946"
+   vertbarstate="0" horizbarstate="2" hideoutlineicons="t"/>
+  <p:font name="Arial" charset="0" type="4" family="34"/>
+  <p:font name="Times New Roman" charset="0" type="4" family="18"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="17412"/>
+</xml>

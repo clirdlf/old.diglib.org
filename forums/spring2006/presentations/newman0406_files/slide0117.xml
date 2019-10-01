@@ -1,0 +1,1422 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="398"/>
+ </o:shapelayout><p:shaperange id="_x0000_s398338">
+  <v:shape id="_x0000_s398338" type="#_x0000_m70659" style='position:absolute;
+   left:36pt;top:44.375pt;width:594pt;height:51.625pt' o:userdrawn="f">
+   <v:fill o:detectmouseclick="f"/>
+   <v:stroke o:forcedash="f"/>
+   <o:lock v:ext="edit" text="f"/>
+   <p:placeholder type="title"/>
+  </v:shape><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+   path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s398339" type="#_x0000_t202" style='position:absolute;
+   left:36pt;top:24pt;width:378pt;height:21.625pt' filled="f" fillcolor="#cc0 [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:shadow color="gray [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s398340" type="#_x0000_t202" style='position:absolute;
+   left:36pt;top:104.25pt;width:612pt;height:45.75pt' filled="f" fillcolor="#cc0 [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:shadow color="gray [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:roundrect id="_x0000_s398341" style='position:absolute;left:209.25pt;
+   top:5in;width:150.75pt;height:132pt;mso-wrap-style:none;v-text-anchor:middle'
+   arcsize="10923f" filled="f" fillcolor="#cc0 [4]" strokecolor="#cc0 [4]">
+   <v:shadow color="gray [2]"/>
+  </v:roundrect><v:roundrect id="_x0000_s398342" style='position:absolute;
+   left:69pt;top:236.25pt;width:147pt;height:134.25pt;mso-wrap-style:none;
+   v-text-anchor:middle' arcsize="10923f" filled="f" fillcolor="#cc0 [4]"
+   strokecolor="#cc0 [4]">
+   <v:shadow color="gray [2]"/>
+  </v:roundrect></p:shaperange>
+ <p:shaperange id="_x0000_s398744">
+  <v:group id="_x0000_s398744" style='position:absolute;left:48pt;top:156pt;
+   width:300pt;height:336pt' coordorigin="384,1248" coordsize="2400,2688"
+   o:tableproperties="3" o:tablelimits="78pt 20.125pt 20pt 20pt 20.125pt 20pt 20.125pt 20.125pt 20pt 20pt 20.125pt 20pt 20.125pt">
+   <o:lock v:ext="edit" rotation="t"/>
+   <v:rect id="_x0000_s398345" style='position:absolute;left:2629;top:2732;
+    width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398346" style='position:absolute;left:2493;
+    top:2732;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398347" style='position:absolute;left:2321;
+    top:2732;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398348" style='position:absolute;left:2168;
+    top:2732;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398349" style='position:absolute;left:2013;
+    top:2732;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398350" style='position:absolute;left:1859;
+    top:2732;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398351" style='position:absolute;left:1705;
+    top:2732;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398352" style='position:absolute;left:1550;
+    top:2732;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398353" style='position:absolute;left:1397;
+    top:2732;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398354" style='position:absolute;left:1242;
+    top:2732;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398355" style='position:absolute;left:1088;
+    top:2732;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398356" style='position:absolute;left:934;
+    top:2732;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398357" style='position:absolute;left:779;
+    top:2732;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398358" style='position:absolute;left:529;
+    top:2732;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398359" style='position:absolute;left:384;
+    top:2732;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398360" style='position:absolute;left:2629;
+    top:2904;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398361" style='position:absolute;left:2493;
+    top:2904;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398362" style='position:absolute;left:2321;
+    top:2904;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398363" style='position:absolute;left:2168;
+    top:2904;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398364" style='position:absolute;left:2013;
+    top:2904;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398365" style='position:absolute;left:1859;
+    top:2904;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398366" style='position:absolute;left:1705;
+    top:2904;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398367" style='position:absolute;left:1550;
+    top:2904;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398368" style='position:absolute;left:1397;
+    top:2904;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398369" style='position:absolute;left:1242;
+    top:2904;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398370" style='position:absolute;left:1088;
+    top:2904;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398371" style='position:absolute;left:934;
+    top:2904;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398372" style='position:absolute;left:779;
+    top:2904;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398373" style='position:absolute;left:529;
+    top:2904;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398374" style='position:absolute;left:384;
+    top:2904;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398375" style='position:absolute;left:2629;
+    top:3764;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398376" style='position:absolute;left:2493;
+    top:3764;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398377" style='position:absolute;left:2321;
+    top:3764;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398378" style='position:absolute;left:2168;
+    top:3764;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398379" style='position:absolute;left:2013;
+    top:3764;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398380" style='position:absolute;left:1859;
+    top:3764;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398381" style='position:absolute;left:1705;
+    top:3764;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398382" style='position:absolute;left:1550;
+    top:3764;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398383" style='position:absolute;left:1397;
+    top:3764;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398384" style='position:absolute;left:1242;
+    top:3764;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398385" style='position:absolute;left:1088;
+    top:3764;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398386" style='position:absolute;left:934;
+    top:3764;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398387" style='position:absolute;left:779;
+    top:3764;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398388" style='position:absolute;left:529;
+    top:3764;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398389" style='position:absolute;left:384;
+    top:3764;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398390" style='position:absolute;left:2629;
+    top:3592;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398391" style='position:absolute;left:2493;
+    top:3592;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398392" style='position:absolute;left:2321;
+    top:3592;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398393" style='position:absolute;left:2168;
+    top:3592;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398394" style='position:absolute;left:2013;
+    top:3592;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398395" style='position:absolute;left:1859;
+    top:3592;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398396" style='position:absolute;left:1705;
+    top:3592;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398397" style='position:absolute;left:1550;
+    top:3592;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398398" style='position:absolute;left:1397;
+    top:3592;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398399" style='position:absolute;left:1242;
+    top:3592;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398400" style='position:absolute;left:1088;
+    top:3592;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398401" style='position:absolute;left:934;
+    top:3592;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398402" style='position:absolute;left:779;
+    top:3592;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398403" style='position:absolute;left:529;
+    top:3592;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398404" style='position:absolute;left:384;
+    top:3592;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398405" style='position:absolute;left:2629;
+    top:3420;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398406" style='position:absolute;left:2493;
+    top:3420;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398407" style='position:absolute;left:2321;
+    top:3420;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398408" style='position:absolute;left:2168;
+    top:3420;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398409" style='position:absolute;left:2013;
+    top:3420;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398410" style='position:absolute;left:1859;
+    top:3420;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398411" style='position:absolute;left:1705;
+    top:3420;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398412" style='position:absolute;left:1550;
+    top:3420;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398413" style='position:absolute;left:1397;
+    top:3420;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398414" style='position:absolute;left:1242;
+    top:3420;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398415" style='position:absolute;left:1088;
+    top:3420;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398416" style='position:absolute;left:934;
+    top:3420;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398417" style='position:absolute;left:779;
+    top:3420;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398418" style='position:absolute;left:529;
+    top:3420;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398419" style='position:absolute;left:384;
+    top:3420;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398420" style='position:absolute;left:2629;
+    top:3248;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398421" style='position:absolute;left:2493;
+    top:3248;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398422" style='position:absolute;left:2321;
+    top:3248;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398423" style='position:absolute;left:2168;
+    top:3248;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398424" style='position:absolute;left:2013;
+    top:3248;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398425" style='position:absolute;left:1859;
+    top:3248;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398426" style='position:absolute;left:1705;
+    top:3248;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398427" style='position:absolute;left:1550;
+    top:3248;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398428" style='position:absolute;left:1397;
+    top:3248;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398429" style='position:absolute;left:1242;
+    top:3248;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398430" style='position:absolute;left:1088;
+    top:3248;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398431" style='position:absolute;left:934;
+    top:3248;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398432" style='position:absolute;left:779;
+    top:3248;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398433" style='position:absolute;left:529;
+    top:3248;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398434" style='position:absolute;left:384;
+    top:3248;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398435" style='position:absolute;left:2629;
+    top:3076;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398436" style='position:absolute;left:2493;
+    top:3076;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398437" style='position:absolute;left:2321;
+    top:3076;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398438" style='position:absolute;left:2168;
+    top:3076;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398439" style='position:absolute;left:2013;
+    top:3076;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398440" style='position:absolute;left:1859;
+    top:3076;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398441" style='position:absolute;left:1705;
+    top:3076;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398442" style='position:absolute;left:1550;
+    top:3076;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398443" style='position:absolute;left:1397;
+    top:3076;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398444" style='position:absolute;left:1242;
+    top:3076;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398445" style='position:absolute;left:1088;
+    top:3076;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398446" style='position:absolute;left:934;
+    top:3076;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398447" style='position:absolute;left:779;
+    top:3076;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398448" style='position:absolute;left:529;
+    top:3076;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398449" style='position:absolute;left:384;
+    top:3076;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398450" style='position:absolute;left:2629;
+    top:2560;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398451" style='position:absolute;left:2493;
+    top:2560;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398452" style='position:absolute;left:2321;
+    top:2560;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398453" style='position:absolute;left:2168;
+    top:2560;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398454" style='position:absolute;left:2013;
+    top:2560;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398455" style='position:absolute;left:1859;
+    top:2560;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398456" style='position:absolute;left:1705;
+    top:2560;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398457" style='position:absolute;left:1550;
+    top:2560;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398458" style='position:absolute;left:1397;
+    top:2560;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398459" style='position:absolute;left:1242;
+    top:2560;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398460" style='position:absolute;left:1088;
+    top:2560;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398461" style='position:absolute;left:934;
+    top:2560;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398462" style='position:absolute;left:779;
+    top:2560;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398463" style='position:absolute;left:529;
+    top:2560;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398464" style='position:absolute;left:384;
+    top:2560;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398465" style='position:absolute;left:2629;
+    top:2388;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398466" style='position:absolute;left:2493;
+    top:2388;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398467" style='position:absolute;left:2321;
+    top:2388;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398468" style='position:absolute;left:2168;
+    top:2388;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398469" style='position:absolute;left:2013;
+    top:2388;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398470" style='position:absolute;left:1859;
+    top:2388;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398471" style='position:absolute;left:1705;
+    top:2388;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398472" style='position:absolute;left:1550;
+    top:2388;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398473" style='position:absolute;left:1397;
+    top:2388;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398474" style='position:absolute;left:1242;
+    top:2388;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398475" style='position:absolute;left:1088;
+    top:2388;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398476" style='position:absolute;left:934;
+    top:2388;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398477" style='position:absolute;left:779;
+    top:2388;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398478" style='position:absolute;left:529;
+    top:2388;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398479" style='position:absolute;left:384;
+    top:2388;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398480" style='position:absolute;left:2629;
+    top:2216;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398481" style='position:absolute;left:2493;
+    top:2216;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398482" style='position:absolute;left:2321;
+    top:2216;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398483" style='position:absolute;left:2168;
+    top:2216;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398484" style='position:absolute;left:2013;
+    top:2216;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398485" style='position:absolute;left:1859;
+    top:2216;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398486" style='position:absolute;left:1705;
+    top:2216;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398487" style='position:absolute;left:1550;
+    top:2216;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398488" style='position:absolute;left:1397;
+    top:2216;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398489" style='position:absolute;left:1242;
+    top:2216;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398490" style='position:absolute;left:1088;
+    top:2216;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398491" style='position:absolute;left:934;
+    top:2216;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398492" style='position:absolute;left:779;
+    top:2216;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398493" style='position:absolute;left:529;
+    top:2216;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398494" style='position:absolute;left:384;
+    top:2216;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398495" style='position:absolute;left:2629;
+    top:2044;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398496" style='position:absolute;left:2493;
+    top:2044;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398497" style='position:absolute;left:2321;
+    top:2044;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398498" style='position:absolute;left:2168;
+    top:2044;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398499" style='position:absolute;left:2013;
+    top:2044;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398500" style='position:absolute;left:1859;
+    top:2044;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398501" style='position:absolute;left:1705;
+    top:2044;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398502" style='position:absolute;left:1550;
+    top:2044;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398503" style='position:absolute;left:1397;
+    top:2044;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398504" style='position:absolute;left:1242;
+    top:2044;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398505" style='position:absolute;left:1088;
+    top:2044;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398506" style='position:absolute;left:934;
+    top:2044;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398507" style='position:absolute;left:779;
+    top:2044;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398508" style='position:absolute;left:529;
+    top:2044;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398509" style='position:absolute;left:384;
+    top:2044;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398510" style='position:absolute;left:2629;
+    top:1872;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398511" style='position:absolute;left:2493;
+    top:1872;width:136;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398512" style='position:absolute;left:2321;
+    top:1872;width:172;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398513" style='position:absolute;left:2168;
+    top:1872;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398514" style='position:absolute;left:2013;
+    top:1872;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398515" style='position:absolute;left:1859;
+    top:1872;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398516" style='position:absolute;left:1705;
+    top:1872;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398517" style='position:absolute;left:1550;
+    top:1872;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398518" style='position:absolute;left:1397;
+    top:1872;width:153;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398519" style='position:absolute;left:1242;
+    top:1872;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398520" style='position:absolute;left:1088;
+    top:1872;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398521" style='position:absolute;left:934;
+    top:1872;width:154;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398522" style='position:absolute;left:779;
+    top:1872;width:155;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398523" style='position:absolute;left:529;
+    top:1872;width:250;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398524" style='position:absolute;left:384;
+    top:1872;width:145;height:172' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398525" style='position:absolute;left:2629;
+    top:1248;width:155;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398526" style='position:absolute;left:2493;
+    top:1248;width:136;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398527" style='position:absolute;left:2321;
+    top:1248;width:172;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398528" style='position:absolute;left:2168;
+    top:1248;width:153;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398529" style='position:absolute;left:2013;
+    top:1248;width:155;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398530" style='position:absolute;left:1859;
+    top:1248;width:154;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398531" style='position:absolute;left:1705;
+    top:1248;width:154;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398532" style='position:absolute;left:1550;
+    top:1248;width:155;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398533" style='position:absolute;left:1397;
+    top:1248;width:153;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398534" style='position:absolute;left:1242;
+    top:1248;width:155;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398535" style='position:absolute;left:1088;
+    top:1248;width:154;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398536" style='position:absolute;left:934;
+    top:1248;width:154;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398537" style='position:absolute;left:779;
+    top:1248;width:155;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398538" style='position:absolute;left:529;
+    top:1248;width:250;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:rect id="_x0000_s398539" style='position:absolute;left:384;
+    top:1248;width:145;height:624' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+    <v:textbox style='layout-flow:vertical-ideographic'/>
+   </v:rect><v:line id="_x0000_s398540" style='position:absolute' from="384,1248"
+    to="529,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398541" style='position:absolute' from="384,3936"
+    to="529,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398542" style='position:absolute' from="384,1248"
+    to="384,1872" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398543" style='position:absolute' from="2784,1248"
+    to="2784,1872" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398544" style='position:absolute' from="529,1248"
+    to="779,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398545" style='position:absolute' from="384,1872"
+    to="384,2044" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398546" style='position:absolute' from="779,1248"
+    to="934,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398547" style='position:absolute' from="934,1248"
+    to="1088,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398548" style='position:absolute' from="1088,1248"
+    to="1242,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398549" style='position:absolute' from="1242,1248"
+    to="1397,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398550" style='position:absolute' from="1397,1248"
+    to="1550,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398551" style='position:absolute' from="1550,1248"
+    to="1705,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398552" style='position:absolute' from="1705,1248"
+    to="1859,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398553" style='position:absolute' from="1859,1248"
+    to="2013,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398554" style='position:absolute' from="2013,1248"
+    to="2168,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398555" style='position:absolute' from="2168,1248"
+    to="2321,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398556" style='position:absolute' from="2321,1248"
+    to="2493,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398557" style='position:absolute' from="2493,1248"
+    to="2629,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398558" style='position:absolute' from="2629,1248"
+    to="2784,1248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398559" style='position:absolute' from="2784,1872"
+    to="2784,2044" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398560" style='position:absolute' from="384,2044"
+    to="384,2216" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398561" style='position:absolute' from="2784,2044"
+    to="2784,2216" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398562" style='position:absolute' from="384,2216"
+    to="384,2388" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398563" style='position:absolute' from="2784,2216"
+    to="2784,2388" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398564" style='position:absolute' from="384,2388"
+    to="384,2560" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398565" style='position:absolute' from="2784,2388"
+    to="2784,2560" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398566" style='position:absolute' from="384,2560"
+    to="384,2732" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398567" style='position:absolute' from="2784,2560"
+    to="2784,2732" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398568" style='position:absolute' from="384,2732"
+    to="384,2904" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398569" style='position:absolute' from="2784,2732"
+    to="2784,2904" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398570" style='position:absolute' from="384,3248"
+    to="384,3420" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398571" style='position:absolute' from="2784,3248"
+    to="2784,3420" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398572" style='position:absolute' from="384,3420"
+    to="384,3592" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398573" style='position:absolute' from="2784,3420"
+    to="2784,3592" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398574" style='position:absolute' from="384,3592"
+    to="384,3764" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398575" style='position:absolute' from="2784,3592"
+    to="2784,3764" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398576" style='position:absolute' from="384,3764"
+    to="384,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398577" style='position:absolute' from="2784,3764"
+    to="2784,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398578" style='position:absolute' from="529,3936"
+    to="779,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398579" style='position:absolute' from="779,3936"
+    to="934,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398580" style='position:absolute' from="934,3936"
+    to="1088,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398581" style='position:absolute' from="1088,3936"
+    to="1242,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398582" style='position:absolute' from="1242,3936"
+    to="1397,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398583" style='position:absolute' from="1397,3936"
+    to="1550,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398584" style='position:absolute' from="1550,3936"
+    to="1705,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398585" style='position:absolute' from="1705,3936"
+    to="1859,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398586" style='position:absolute' from="1859,3936"
+    to="2013,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398587" style='position:absolute' from="2013,3936"
+    to="2168,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398588" style='position:absolute' from="2168,3936"
+    to="2321,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398589" style='position:absolute' from="2321,3936"
+    to="2493,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398590" style='position:absolute' from="2493,3936"
+    to="2629,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398591" style='position:absolute' from="2629,3936"
+    to="2784,3936" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398592" style='position:absolute' from="384,1872"
+    to="2784,1872" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398593" style='position:absolute' from="529,1872"
+    to="529,3936" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398594" style='position:absolute' from="384,2044"
+    to="2784,2044" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398595" style='position:absolute' from="384,2216"
+    to="2784,2216" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398596" style='position:absolute' from="384,2388"
+    to="2784,2388" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398597" style='position:absolute' from="384,2560"
+    to="2784,2560" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398598" style='position:absolute' from="384,2732"
+    to="2784,2732" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398599" style='position:absolute' from="384,2904"
+    to="384,3076" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398600" style='position:absolute' from="2784,2904"
+    to="2784,3076" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398601" style='position:absolute' from="384,2904"
+    to="2784,2904" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398602" style='position:absolute' from="384,3076"
+    to="384,3248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398603" style='position:absolute' from="2784,3076"
+    to="2784,3248" stroked="f" strokecolor="black [1]" strokeweight="2.25pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398604" style='position:absolute' from="384,3076"
+    to="2784,3076" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398605" style='position:absolute' from="384,3248"
+    to="2784,3248" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398606" style='position:absolute' from="384,3420"
+    to="2784,3420" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398607" style='position:absolute' from="384,3592"
+    to="2784,3592" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398608" style='position:absolute' from="384,3764"
+    to="2784,3764" strokecolor="#d8d8ec [7]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><p:placeholder type="object" position="2" size="half"/>
+  </v:group></p:shaperange>
+ <p:shaperange id="_x0000_s398747">
+  <v:group id="_x0000_s398747" style='position:absolute;left:402pt;top:200.875pt;
+   width:294pt;height:273.125pt' coordorigin="3216,1607" coordsize="2352,2185"
+   o:tableproperties="1" o:tablelimits="14.25pt 47.5pt 47.5pt 47.5pt">
+   <o:lock v:ext="edit" rotation="t"/>
+   <v:rect id="_x0000_s398724" style='position:absolute;left:3984;top:1798;
+    width:1584;height:754' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398722" style='position:absolute;left:3216;
+    top:1798;width:768;height:754' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398653" style='position:absolute;left:3984;
+    top:3172;width:1584;height:620' fillcolor="white [0]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398652" style='position:absolute;left:3216;
+    top:3172;width:768;height:620' fillcolor="white [0]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398651" style='position:absolute;left:3984;
+    top:2552;width:1584;height:620' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398650" style='position:absolute;left:3216;
+    top:2552;width:768;height:620' filled="f" fillcolor="#cc0 [4]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill color2="white [0]" alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398649" style='position:absolute;left:3984;
+    top:1607;width:1584;height:191' fillcolor="#d8d8ec [7]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:rect id="_x0000_s398648" style='position:absolute;left:3216;
+    top:1607;width:768;height:191' fillcolor="#d8d8ec [7]" stroked="f"
+    strokecolor="black [1]">
+    <v:fill alignshape="f" o:detectmouseclick="t"/>
+    <v:shadow color="gray [2]"/>
+   </v:rect><v:line id="_x0000_s398656" style='position:absolute' from="3216,1607"
+    to="5568,1607" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398657" style='position:absolute' from="3216,1798"
+    to="5568,1798" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398658" style='position:absolute' from="3216,3172"
+    to="5568,3172" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398660" style='position:absolute' from="3216,3792"
+    to="5568,3792" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398661" style='position:absolute' from="3216,1607"
+    to="3216,3792" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398662" style='position:absolute' from="3984,1607"
+    to="3984,3792" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398663" style='position:absolute' from="5568,1607"
+    to="5568,3792" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke endcap="square" imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line><v:line id="_x0000_s398723" style='position:absolute' from="3216,2552"
+    to="5568,2552" strokecolor="black [1]" strokeweight="1pt">
+    <v:stroke imagealignshape="f"/>
+    <v:shadow color="gray [2]"/>
+   </v:line></v:group><v:shapetype id="_x0000_t5" coordsize="21600,21600"
+   o:spt="5" adj="10800" path="m@0,l,21600r21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="val #0"/>
+    <v:f eqn="prod #0 1 2"/>
+    <v:f eqn="sum @1 10800 0"/>
+   </v:formulas>
+   <v:path gradientshapeok="t" o:connecttype="custom" o:connectlocs="@0,0;@1,10800;0,21600;10800,21600;21600,21600;@2,10800"
+    textboxrect="0,10800,10800,18000;5400,10800,16200,18000;10800,10800,21600,18000;0,7200,7200,21600;7200,7200,14400,21600;14400,7200,21600,21600"/>
+   <v:handles>
+    <v:h position="#0,topLeft" xrange="0,21600"/>
+   </v:handles>
+  </v:shapetype><v:shape id="_x0000_s398729" type="#_x0000_t5" style='position:absolute;
+   left:336pt;top:330pt;width:90pt;height:18pt;rotation:90;mso-wrap-style:none;
+   v-text-anchor:middle' fillcolor="white [0]" strokecolor="black [1]">
+   <v:shadow color="gray [2]"/>
+  </v:shape><v:shape id="_x0000_s398745" type="#_x0000_t202" style='position:absolute;
+   left:168pt;top:247.125pt;width:115.5pt;height:28.875pt;mso-wrap-style:none;
+   v-text-anchor:top-baseline' filled="f" fillcolor="#cc0 [4]" stroked="f"
+   strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:shadow color="gray [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:shape id="_x0000_s398746" type="#_x0000_t202" style='position:absolute;
+   left:126pt;top:402pt;width:99.5pt;height:50.5pt;mso-wrap-style:none;
+   v-text-anchor:top-baseline' filled="f" fillcolor="#cc0 [4]" stroked="f"
+   strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:shadow color="gray [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape></p:shaperange>
+</xml>

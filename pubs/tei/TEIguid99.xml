@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="dlfbasic-pub.xsl" type="text/xsl"?>
+
+<!DOCTYPE TEI.2 SYSTEM 'http://etext.lib.virginia.edu/tei/teixlite.dtd'[
+<!NOTATION html SYSTEM "HTML">
+<!ENTITY htiumichmiscsspworkshopsteidlfindex SYSTEM "http://www.hti.umich.edu/misc/ssp/workshops/teidlf/index.html" NDATA html>
+<!ENTITY libumichlibhomeocuteiguide SYSTEM "http://www.lib.umich.edu/libhome/ocu/teiguide.html" NDATA html>
+<!ENTITY wwpbrown SYSTEM "http://www.wwp.brown.edu/" NDATA html>
+]>
+<TEI.2 id="TEIguid99">
+<teiHeader type="aacr2">
+<fileDesc>
+<titleStmt>
+<title type="245">TEI Text Encoding in Libraries Guidelines for Best Encoding Practices
+</title>
+<title type="gmd">[electronic resource]</title>
+<author>[committee]</author>
+<editor>
+</editor>
+<respStmt>
+<resp>
+</resp>
+<name>
+</name>
+<resp>Creation of machine-readable version:
+</resp>
+<name>Digital Library Federation
+</name>
+<resp>Conversion to TEI.2-conformant markup:
+</resp>
+<name>John Ivor Carlson, Digital Library Federation
+</name>
+</respStmt>
+</titleStmt>
+<extent>ca. 65 kilobytes
+</extent>
+<publicationStmt>
+<publisher>Digital Library Federation
+</publisher>
+<pubPlace>Washington, D.C.
+</pubPlace>
+<availability>
+<p>Publicly accessible
+</p>
+<p>copyright 2005, by the Digital Library Federation
+</p>
+</availability>
+<date>2005
+</date>
+</publicationStmt>
+<seriesStmt>
+<p>
+</p>
+</seriesStmt>
+<notesStmt>
+<note>
+</note>
+</notesStmt>
+<sourceDesc>
+<biblFull>
+<titleStmt>
+<title>TEI Text Encoding in Libraries Guidelines for Best Encoding Practices
+</title>
+<title type="parallel"></title>
+<title level="m"></title>
+<author>1999</author>
+<editor>
+</editor>
+<respStmt>
+<resp>
+</resp>
+<name>
+</name>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<p>
+</p>
+</editionStmt>
+<extent>
+</extent>
+<publicationStmt>
+<publisher>Digital Library Federation
+</publisher>
+<pubPlace>Digital Library Federation, Council on Library and Information Resources, 1755 Massachusetts Ave., NW, Suite 500, Washington, DC 20036.
+</pubPlace>
+<date>1999
+</date>
+<idno type="callNo">
+</idno>
+</publicationStmt>
+<seriesStmt>
+<p>
+</p>
+</seriesStmt>
+<notesStmt>
+<note>
+</note>
+</notesStmt>
+</biblFull>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>Prepared for the Digital Library Federation
+</p>
+</projectDesc>
+<editorialDecl>
+<p>
+</p>
+</editorialDecl>
+<refsDecl>
+<p>
+</p>
+</refsDecl>
+<classDecl>
+<taxonomy id="LCSH">
+<bibl>
+<title>Library of Congress Subject Headings
+</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<date>1999
+</date>
+</creation>
+<langUsage>
+<language id="eng">English
+</language>
+</langUsage>
+<textClass>
+<keywords>
+<term>nonfiction
+</term>
+<term>prose
+</term>
+<term>
+</term>
+</keywords>
+<keywords scheme="LCSH">
+<term type="Field650">LCSH
+</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>9/2005</date>
+<respStmt>
+<resp>corrector
+</resp>
+<name>John Ivor Carlson
+</name>
+</respStmt>
+<item>Converted XHTML to tei-compliant XML.
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+
+<front>
+
+<titlePage>
+<docTitle>
+<titlePart type="main">TEI Text Encoding in Libraries <lb/>Guidelines for Best Encoding Practices</titlePart>
+</docTitle>
+
+<docImprint>
+Version 1.0 (July 30, 1999) <lb/>Comments to Perry Willett, Indiana
+University (email: pwillett@indiana.edu)
+</docImprint>
+</titlePage>
+
+<div1 type="contents"><head>Contents</head>
+<list>
+<item><ref target="intro">Introduction</ref></item>
+<item><ref target="participants">Participants</ref></item>
+<item><ref target="recommendations">Recommendations</ref></item>
+<item><ref target="genrec">General Recommendations</ref></item>
+<item><ref target="levels">Encoding Levels</ref>
+<list>
+<item><ref target="level1">Level 1: Fully Automated Conversion and Encoding</ref></item>
+<item><ref target="level2">Level 2: Minimal Encoding</ref></item>
+<item><ref target="level3">Level 3: Simple Analysis</ref></item>
+<item><ref target="level4">Level 4: Basic Content Analysis</ref></item>
+<item><ref target="level5">Level 5: Scholarly Encoding Projects</ref></item>
+</list></item>
+<item><ref target="attributes">Attribute Values</ref></item>
+</list>
+</div1>
+
+</front>
+<body>
+
+<div1 type="section" n="01" id="intro"><head>I. Introduction</head>
+<p>At the <xref doc="htiumichmiscsspworkshopsteidlfindex">TEI and XML in Digital Libraries Workshop</xref> held at the Library of Congress on June 30-July 1, 1998, three working groups were formed. Group 2 was charged with developing a set of recommendations for libraries using the TEI Guidelines in electronic text encoding. Representatives from six libraries met at the Library of Congress on November 12-13, 1998. The Task Force met again at ALA mid-winter (January 1999) to incorporate comments and finalize the draft. The revised recommendations were circulated to the conference working group in May 1999 and presented at the joint annual meeting of the Association of Computers and the Humanities and Association of Literary and Linguistic Computing in June 1999. Version 1.0 was circulated for comments in August 1999.</p>
+</div1>
+
+<div1 type="section" n="02" id="participants"><head>II. Participants:</head>
+<list>
+<item>LeeEllen Friedland, Library of Congress</item>
+<item>Nancy Kushigian, University of California, Davis</item>
+<item>Christina Powell, University of Michigan</item>
+<item>David Seaman, University of Virginia</item>
+<item>Natalia Smith, University of North Carolina at Chapel Hill</item>
+<item>Perry Willett, Indiana University</item>
+</list>
+</div1>
+
+<div1 type="section" n="03" id="recommendations"><head>III. Background</head>
+<p>Our recommendations are for libraries using the TEILite DTD v1.6. There are many different library text digitization projects, for different purposes. With this in mind, the Task Force has attempted to make these recommendations as inclusive as possible by developing a series of encoding levels. These levels are meant to allow for a range of practice, from wholly automated text creation and encoding, to encoding that requires expert content knowledge, analysis, and editing.</p>
+<p>Encoding levels 1-4 require no expert knowledge of content. Level 5, in contrast, requires scholarly analysis. Levels 1-4 allow the conversion and encoding of texts to be performed without the assistance of content experts and can be enriched with more markup at any time. Recommendations for Levels 1-4 are intended for projects wishing to create encoded electronic text with structural markup, but minimal semantic or content markup. Also, the encoding levels are cumulative: encoding requirements at each level incorporate the requirements of lower levels.</p>
+<p>These recommendations are concerned with the text portion of a TEI-encoded document. While there are modest requirements for including certain information about encoding level in the TEI Header, a separate set of recommendations has been developed to address issues concerning TEI Header contents to MARC-format
+bibliographic data (see <xref doc="libumichlibhomeocuteiguide">TEI/MARC Best Practices</xref> Document from Working Group 1).</p>
+</div1>
+
+<div1 type="section" n="04" id="genrec"><head>IV. General Recommendations</head>
+<list>
+<item>The encoding level (as described in this document) should be recorded in the &lt;editorialDecl&gt;, along with an explanation of any deviation from the recommendations.</item>
+<item>Electronic text at all levels of encoding should begin with the transcription of the first word on the first leaf of the original work. It may be impractical or undesirable to transcribe and encode certain features of the text, such as publisher's advertisements or indexes, but if at all possible, they should be included as links to page images. Any omissions of material found in the original work should be noted in the &lt;editorialDecl&gt; in the TEI Header.</item>
+<item>File naming should follow ISO 9660 conventions: 8-character filenames, 3-character extensions, using A-Z, a-z, 0-9, underscores and hyphens.</item>
+<item>Numbered &lt;DIV&gt;s present advantages to search and indexing software by explicitly communicating the hierarchical level of the section described. One anomaly of the TEI Guidelines is that &lt;DIV0&gt; is not available in &lt;FRONT&gt; or &lt;BACK&gt; matter. Therefore, we recommend the use of numbered &lt;DIV&gt;s throughout the electronic text, always beginning with &lt;DIV1&gt;. Texts at all levels should include at least one &lt;DIV1&gt;.</item>
+<item>Page breaks &lt;PB&gt; should occur at the top of the page, and entirely within any DIV.</item>
+</list>
+</div1>
+
+<div1 type="section" n="05" id="levels"><head>V. Encoding Levels</head>
+<div2 type="subsection" n="01" id="level1"><head>V.1. LEVEL 1: Fully Automated Conversion and Encoding</head>
+<p><hi rend="bold">Purpose:</hi> To create electronic text with the primary purpose of keyword searching and linking to page images. The primary advantage in using the TEILite DTD at this level is that a TEI Header is attached to the text file.</p>
+<p><hi rend="bold">Rationale:</hi> That text is subordinate to the page image, and is not intended to stand alone as an electronic text (without page images).</p>
+<p>Texts at Level 1 can be created and encoded by fully automated means, using uncorrected OCR of page images ("dirty OCR"), or exporting from existing electronic text files. Only those tags that are necessary to divide the text from the header and facilitate linking to page images are used. Encoding is performed automatically based on artifacts of the OCR or other document creation process (page breaks, for example) and metadata collected during the imaging or preparation process. This encoding is both minimal and reliable, and does not typically require extensive review of each page of each text.</p>
+<p>Level 1 texts are not intended to be adequate for textual analysis; they are more likely to be suited to the goals of a preservation unit or mass digitization initiative. Though their encoding is minimal, Level 1 texts are fully valid SGML texts. In addition to taking advantage of the TEI Header, using the TEILite DTD allows Level 1 texts to be compatible with more richly encoded TEILite texts for searching, for example. Further encoding based on document structures or content analysis can be added to a Level 1 text at any time.</p>
+<p><hi rend="bold">Level 1 is most suitable for projects with the following characteristics:</hi></p>
+<list>
+<item>a large volume of material is to be made available online quickly</item>
+<item>a digital image of each page is desired</item>
+<item>no manual intervention will be performed in the text creation process</item>
+<item>the material is of interest to a large community of users who wish to read texts that allow keyword searching</item>
+<item>sophisticated search and display capabilities based on the structure of the text are not necessary</item>
+<item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a later date</item>
+</list>
+<p><table>
+<row><cell>&lt;div1&gt;</cell><cell>type="section" is the default attribute value.</cell></row>
+<row><cell>&lt;p&gt;</cell><cell>One "container" element per div is required.</cell></row>
+<row><cell>&lt;pb/&gt;</cell><cell>This is required in Level 1. Page images can be linked to the text using id/idref or entityref attributes. Using entityref has advantages for maintaining large numbers of image files, but would require modifying the TEILite DTD.</cell></row>
+<row><cell>&lt;figure&gt;</cell><cell>This element is optional at Level 1. The advantage of using &lt;figure&gt; is the ability to record metadata using &lt;figDesc&gt;.</cell></row>
+</table></p>
+</div2>
+
+<div2 type="subsection" n="02" id="level2"><head>V.2. LEVEL 2: Minimal Encoding</head>
+<p><hi rend="bold">Purpose:</hi> To create electronic text for keyword searching, linking to page images, and identifying simple structural hierarchy to improve navigation.</p>
+<p><hi rend="bold">Rationale</hi>: The text is subordinate to the page image, though navigational markers (textual divisions, heads) are captured. The text could stand alone as electronic text (without page images) if the accuracy of its contents is suitable to its intended use and it is not necessary to display low-level typographic or structural information. Level 2 requires a set of elements more granular than those of Level 1, including bibliographic or structural information below the monographic or volume level, but still does not require a specialist to identify.</p>
+<p>Though texts at Level 2 can be created and encoded by automated means, based on the typographic elements in the electronic file (for example, bold centered text at the top of the page surrounded by whitespace indicates a new chapter head, and thus a new division), it is not likely to be absolutely reliable across a large body of material. Level 2 encoding requires some human intervention to identify each textual division and heading. Level 2 texts do not require any specialist knowledge or manual intervention below the section level.</p>
+<p>Level 2 texts can be displayed separately from their page images. Even when displayed with page images, Level 2 encoding of sections and heads provides greater navigational possibilities than Level 1 encoding, and enables searching to be restricted within particular textual divisions (for example, searching for two phrases within the same chapter).</p>
+<p><hi rend="bold">Level 2 is most suitable for projects with the following characteristics:</hi></p>
+<list>
+<item>a large volume of material is to be made available online quickly</item>
+<item>a digital image of each page is desired</item>
+<item>the material is of interest to a large community of users who wish to read texts that allow keyword searching</item>
+<item>rudimentary search and display capabilities based on the large structures of the text are desired</item>
+<item>each text will be checked to ensure that divisions and headers are properly identified</item>
+<item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a later date</item>
+</list>
+<p>All elements specified in Level 1 plus the following:</p>
+<p><table>
+<row><cell>&lt;front&gt;, &lt;back&gt;</cell><cell>Optional</cell></row>
+<row><cell>&lt;head&gt;</cell><cell>Required if present</cell></row>
+<row><cell>&lt;div1&gt;</cell><cell>type="section" is the default attribute value. It is recommended that the n attribute be included to record the div sequence.</cell></row>
+<row><cell>&lt;p&gt;</cell><cell>One "container" element per div is required.</cell></row>
+</table></p>
+</div2>
+
+<div2 type="subsection" n="03" id="level3"><head>V.3. LEVEL 3: Simple Analysis</head>
+<p><hi rend="bold">Purpose:</hi> To create text that can stand alone as electronic text and identifies hierarchy and typography without content analysis being of primary importance.</p>
+<p><hi rend="bold">Rationale:</hi> Level 3 texts can be created from scratch or by the relatively easy conversion of existing HTML or word-processing documents. Encoding offers the advantage of the TEI Header, interoperability with other TEI collections, and extensibility to higher levels of encoding. Level 3 generally requires some human editing, but the features to be encoded are determined by the appearance of the text and not specialized content analysis.</p>
+<p>Level 3 texts identify front and back matter, and all paragraph breaks. The finer granularity of tagging these features, as well as figures, notes, and all changes of typography, allows a range of options for display, delivery, and searching. For example, one has the option of identifying and, therefore, specifying the display charactersitics of different typographic styles, and regularizing the display and placement of note text.</p>
+<p>Level 3 texts can stand alone as text without page images and, therefore, can be uploaded, downloaded and delivered quickly, and require less storage space than digital collections with page images. However, the simple level of structural anaylsis and absence of specialized content analysis reflected in Level 3 tagging may make it desirable for some, depending on project priorities, to include page images in order to provide users with a fuller set of resources.</p>
+<p><hi rend="bold">Level 3 is most suitable for projects with the following characteristics:</hi></p>
+<list>
+<item>the material is of interest to a large community if users who wish to read texts that allow keyword searching</item>
+<item>some sophistication of display, delivery, and searching based on structure of the text is desired</item>
+<item>each text will be checked to ensure that tagging decisions have been made appropriately</item>
+<item>the users of the texts may have limited storage or display capabilities</item>
+<item>the creator of the texts has limited or no ability to provide content specialists to analyze, tag, or review texts</item>
+<item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a later date</item>
+</list>
+<p>All elements specified in Levels 1 and 2, plus the following:</p>
+<p><table>
+<row><cell>&lt;front&gt;, &lt;back&gt;</cell><cell>Required if present.</cell></row>
+<row><cell>&lt;p&gt;</cell><cell>Required for paragraph breaks in prose; may be used for stanzas using &lt;lb/&gt; for line breaks in verse.</cell></row>
+<row><cell>&lt;figure&gt;</cell><cell>Required to indicate figures other than page images.</cell></row>
+<row><cell>&lt;hi&gt;</cell><cell>Required to indicate changes in typeface; rend attribute is optional.</cell></row>
+<row><cell>&lt;note&gt;</cell><cell>All notes must be encoded. It is also recommended that notes that extend beyond one page be combined into one &lt;note&gt; element. Marginal notes, without reference, should occur at the beginning of the paragraph to which they refer, with the value of the place attribute as "margin".</cell></row>
+</table></p>
+<p>NOTE ON &lt;note&gt;:</p>
+<p>For processing reasons, it may be desirable to move footnotes from their original location in the text. If left at the bottom of a page, a note may become included in another paragraph or section of the encoded text, and thus separated from its reference. There are options for placement of footnotes if they are moved:</p>
+<list>
+<item>Inline. The note is inserted at the point of reference. An n attribute is the value of the note. No &lt;ref&gt; element is needed with this option.</item>
+<item>End-of-Paragraph. &lt;ref&gt; with target attribute occurs at point of reference. &lt;note&gt; with id attribute occurs within, but at the end of the paragraph in which the reference occurs.</item>
+<item>End-of-Div. Notes moved to the end of the &lt;div&gt;</item>
+</list>
+</div2>
+
+<div2 type="subsection" n="04" id="level4"><head>V.4. LEVEL 4: Basic Content Analysis</head>
+<p><hi rend="bold">Purpose</hi>: To create text that can stand alone as electronic text, identifies hierarchy and typography, specifies function of textual and structural elements, and describes the nature of the content and not merely its appearance. This level is not meant to encode or identify all structural, semantic or bibliographic features of the text.</p>
+<p><hi rend="bold">Rationale</hi>: Greater description of function and content allows for:</p>
+<list>
+<item>flexibility of display and delivery</item>
+<item>sophisticated searching within specified textual and structural elements</item>
+<item>combining the broadest range of uses and audiences</item>
+</list>
+<p>Texts encoded at Level 4 are able to stand alone as part of a library collection, and do not require images in order for them to be read by students, scholars and general readers. This level of TEI encoding allows them to be displayed or printed in a variety of ways suitable for classroom or scholarly use.</p>
+<p>Level 4 texts contain tags and attributes that describe content. For example, lines of verse are tagged with &lt;l&gt;; the &lt;p&gt; tag is reserved for true paragraphs. Attributes of the text that contribute to meaning are preserved, such as indentation of lines of verse and typography. These are textual features that are not encoded at lower levels and that allow the text to be used and understood fully independent of images.</p>
+<p>The ability to stand alone as text means that Level 4 texts can be uploaded, downloaded, and delivered quickly, and require less storage space than collections with page images.</p>
+<p>Finally, functionally accurate tagging in Level 4 texts allows them to be searched or displayed in sophisticated ways. For example, a searcher could limit his or her search in a dramatic text to stage directions or to the speeches of a particular character. In a volume of poetry published by subscription, a search could be confined to names that appear in lists, thus limiting a search to names of people who subscribed to a particular volume. This ability to limit searches becomes more significant as textbases become larger, and thus is of great importance to the library community as it attempts to build into the initial design and implementation of textbases features needed to enhance interoperability.</p>
+<p><hi rend="bold">Level 4 is most suitable for projects with the following characteristics:</hi></p>
+<list>
+<item>the users of the texts may have limited storage or display capabilities</item>
+<item>sophisticated search and display capabilities are desired</item>
+<item>the collection is of interest to a currently existing, well defined community of users, such as that that would constitute a market for any published text or collection of texts</item>
+<item>the collection is rare and not available to users in print or other electronic formats</item>
+<item>the texts will be used for pedagogical or scholarly purposes, not just as reading copies</item>
+<item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added by the scholarly community at a later date</item>
+</list>
+<p>In considering such a level 4 TEI digitization project, an academic library should consult with faculty members and collection bibliographers, and ask the following question: Is this collection of texts one that the library should purchase if it were available commercially? If so, the benefits of a Level 4 project are many, for the result is a freely available collection of texts owned and administered by the library community, thus free of licensing restrictions and on-going access charges.</p>
+<div3 type="part" n="01"><head>General Level 4 Recommendations:</head>
+<list>
+<item>V.4.1. Emphasized text should be encoded as &lt;foreign&gt;, &lt;title&gt;, &lt;hi rend="emph"&gt;, as appropriate. Any ambiguous emphasized text should be encoded as &lt;hi&gt;.</item>
+<item>V.4.2. It is recommended that the &lt;sic&gt; element be used to indicate typographic errors, with corrections noted as the value of the corr attribute.</item>
+<item>V.4.3. &lt;titlepage&gt; should include the verso if present, divided with by &lt;pb n="verso"&gt;. Tables of contents, errata, subscription lists, "other titles by the same author" should be included in a separate numbered div, as a &lt;list&gt; with &lt;item&gt;s. Frontispieces should be encoded as a &lt;figure&gt;, within a separate numbered &lt;div&gt; and &lt;p&gt;.</item>
+</list>
+</div3>
+<div3 type="part" n="02"><head>Level 4 Prose:</head>
+<list>
+<item>V.4.4. Letters that occur within the text body provide some challenges. It is recommended that quoted letters that occur as part of a text (and not collections of letters themselves) be encoded within &lt;q&gt;&lt;text&gt;&lt;body&gt;&lt;div1 type="letter"&gt;, with &lt;opener&gt;, &lt;dateline&gt;, &lt;salute&gt;, &lt;signed&gt;, &lt;closer&gt; included as appropriate.</item>
+<item>V.4.5. Quotations that do not occur inline, but are set off typographically in some way, should be encoded as &lt;q&gt;.</item>
+<item>V.4.6. Notes are to be encoded as described in Level 3.</item>
+<item>V.4.7. &lt;argument&gt;, &lt;opener&gt;, &lt;epigraph&gt;, &lt;closer&gt;, &lt;trailer&gt;, &lt;add&gt;, &lt;del&gt;, &lt;unclear&gt; as appropriate.</item>
+</list>
+</div3>
+<div3 type="part" n="03"><head>Level 4 Drama:</head>
+<list>
+<item>V.4.8. Cast lists should be encoded as &lt;list&gt;s, with &lt;item&gt;s.</item>
+<item>V.4.9. Speeches are encoded as &lt;sp&gt;, with speakers identified within &lt;speaker&gt; elements.</item>
+</list>
+</div3>
+<div3 type="part" n="04"><head>Level 4 Verse:</head>
+<list>
+<item>V.4.10 All verse, even poems without separate stanzas or verse paragraphs, should be contained within a line group element &lt;lg&gt;. This will assist with automated processing and retrieval.</item>
+<item>V.4.11 It is common to see informal divisions within poems, noted by a string of asterisks or periods. These should be encoded as &lt;milestone/&gt;s with attribute values of unit="typography"and n= indicating the character used and its occurrence, &lt;milestone unit="typography" n="******"/&gt;.</item>
+<item>V.4.12 &lt;l&gt; It is strongly recommended that indentation is recorded using the rend attribute.</item>
+</list>
+</div3>
+<div3 type="part" n="05"><head>Level 4 Front and Back Matter:</head>
+<list>
+<item>V.4.13 It is recommended that all prefaces, tables of contents, afterwords, appendices, endnotes and apparatus be encoded. For publisher's advertisements, indexes, and glossaries or other front or back matter that isn't considered of primary importance to the text, there are three options:
+<list>
+<item>Fully transcribe and encode</item>
+<item>Link to page images (may include an unencoded transcription)</item>
+<item>Omit, noted in &lt;editorialDesc&gt;</item>
+</list></item>
+</list>
+</div3>
+</div2>
+
+<div2 type="subsection" n="05" id="level5"><head>V.5. LEVEL 5: Scholarly Encoding Projects</head>
+<p>Level 5 texts are those that require subject knowledge, and encode semantic, linguistic, prosodic or other elements beyond a basic structural level.</p>
+</div2>
+</div1>
+
+<div1 type="section" n="06" id="attributes"><head>VI. Attribute Values</head>
+<list>
+<item>type <lb/>Constructing a list of acceptable attribute values for type that could find wide agreement is impossible. Instead, it is recommended that projects describe the type attribute values used in their texts in the project documentation and that this list be made available to people using the texts. See <title>ABC for Book Collectors</title> by John Carter (7th edition, New Castle, DE:Oak Knoll Books, 1995) for a list of standard names and definitions of bibliographic features of printed books. For those elements where type is not required, such as &lt;head&gt; and &lt;title&gt;, use the attribute values for subtitles and additional titles, but not main titles.</item>
+<item>rend <lb/>Difficulty using rend attributes occurs when it is desirable to record more than one rendition feature. With this in mind, it is recommended that projects employ the following adaptation of "rendition ladders", a concept developed at the <xref doc="wwpbrown">Brown Women Writers Project</xref> &lt;http://www.wwp.brown.edu&gt;. This concept allows for strings of rendition features to be included as one rend value. Rendition ladders consist of categories of renditions, with further defined values included in parentheses. <lb/>
+rend should only be used to override a default value. For instance, if all text encoded as &lt;hi&gt; is defined as being rendered in italics, there is no reason to encode text as
+<q><p>&lt;hi rend="font(italics)"&gt;</p></q>
+Combining attributes would result in a tag with attributes such as this:
+<q><p>&lt;l rend="font(italics)align(right)"&gt;</p></q></item>
+<item>font <lb/>italics, bold, fsc (full and smallcaps), smallcap, underlined, gothic</item>
+<item>align <lb/>right, left, center, block</item>
+<item>ident <lb/>Values in parentheses should indicate the number of tabstops to be indented, e.g., &lt;l rend="indent(1)"&gt;</item>
+<item>lang <lb/>Use ISO639-2 three-character language codes.</item>
+</list>
+</div1>
+
+</body>
+</text>
+</TEI.2>

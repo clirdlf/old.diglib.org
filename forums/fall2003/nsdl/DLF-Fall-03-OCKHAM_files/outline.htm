@@ -1,0 +1,930 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../DLF-Fall-03-OCKHAM.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>  </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL1>NSDL Projects Update:
+  the OCKHAM Library Network</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Martin Halbert</li>
+   <li>DLF 2003 Fall Forum</li>
+   <li>Albuquerque, NM</li>
+   <li>Wednesday, 19-November-2003</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0036.htm');" id=PPTL2>Session Overview</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>NSDL</li>
+   <ul>
+    <li>Highlights 2000-2003</li>
+    <li>Sustainability Planning</li>
+   </ul>
+   <li>OCKHAM Initiative</li>
+   <ul>
+    <li>DLF Genesis &amp; Sponsorship</li>
+    <li>Problems addressed</li>
+    <li>OCKHAM NSDL Project</li>
+    <li>Invitation to participate</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0037.htm');" id=PPTL3>Before It’s Too Late
+  Report</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>	2000 Report of National Commission on Math &amp; Science Teaching for
+       21<sup>st</sup> Century:</li>
+   <li></li>
+   <li>	“… a dedicated Internet portal must be available to teachers so that
+       they can make use of and contribute to an ever-expanding knowledge base
+       about mathematics and science teaching.”</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0038.htm');" id=PPTL4>The National Science
+  Digital Library (NSDL)</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>The NSDL was established by the National Science Foundation (NSF) to
+       “catalyze and support continual improvement in the quality of science,
+       technology, engineering, and mathematics (STEM) education”</li>
+   <li>Envisioned as one of the most comprehensive digital educational networks
+       in the world</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0039.htm');" id=PPTL5>Four NSDL Focus Areas</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Core Integration</li>
+   <ul>
+    <li>	(Coordination of resources &amp; infrastructure)</li>
+   </ul>
+   <li>Collections</li>
+   <ul>
+    <li>	(Developing content in coherent themes)</li>
+   </ul>
+   <li>Services</li>
+   <ul>
+    <li>	(Enhance NSDL’s value for users)</li>
+   </ul>
+   <li>Targeted Research</li>
+   <ul>
+    <li>	(Original investigations of new digital learning applications)</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0047.htm');" id=PPTL6>NSDL Homepage</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0048.htm');" id=PPTL7>NSDL Browse</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0049.htm');" id=PPTL8>NSDL Search</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0050.htm');" id=PPTL9>NSDL Content</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0051.htm');" id=PPTL10>NSDL Growth</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Rapid collaborative build-out of the portal, involving educators,
+       scientists, and content providers</li>
+   <li>Core integration based on OAI metadata harvesting model, uPortal, and
+       other new technologies</li>
+   <li>NSDL Annual Meeting now a major event for information sharing and
+       coordination</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0040.htm');" id=PPTL11>Number of Collections
+  by Subject</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0041.htm');" id=PPTL12>NSDL Funding 00-02</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0042.htm');" id=PPTL13>Funding by Program Area
+  00-02</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0044.htm');" id=PPTL14>Sustainability Issues</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Current NSDL funding program is coming to an end</li>
+   <li>Major focus this year on planning to sustain the NSDL in coming years</li>
+   <li>Variety of business options under consideration</li>
+   <li>NSDL is consciously looking for leverage and connections with other
+       organizations and agencies</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0045.htm');" id=PPTL15>Summary of Business
+  Options for NSDL</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0052.htm');" id=PPTL16>NSDL &amp; Research
+  Libraries</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Noticeable lack of engagement between the established research library
+       community and NSDL</li>
+   <li>As part of sustainability exploration, the NSDL is looking for better
+       connections with librarians</li>
+   <li>The OCKHAM and CDL projects funded by NSDL this year reflect this</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0053.htm');" id=PPTL17>OCKHAM Background</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Grew out of a DLF meeting in October 2001 discussing open source
+       software standards</li>
+   <li>DLF subsequently sponsored a series of meetings by the OCKHAM working
+       group in 2002 and 2003 to analyze commonalities in digital library
+       architectures and possibilities for future interoperability between DL
+       systems</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL18>Core Problems Studied</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Interoperability</li>
+   <ul>
+    <li>-- Difficulty integrating monolithic systems</li>
+    <li>-- Need for modularity of DL services &amp; migratability of DL content</li>
+   </ul>
+   <li>Affordability</li>
+   <ul>
+    <li>-- How to achieve sustainability through group efforts</li>
+    <li>-- Cost of DL infrastructures, in terms of both purchase and
+        development costs</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0055.htm');" id=PPTL19>OCKHAM Discussions</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Meetings in Atlanta &amp; ECDL of: digital librarians, vendors, as well
+       as DL/CS researchers</li>
+   <li>Compared prominent DL architectures, standards/protocols, and reference
+       models</li>
+   <li>Cultivated idea of lightweight protocol reference models</li>
+   <li>Proposed catalytic project focused on NSDL</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL20>OCKHAM Principles</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Open Standards</li>
+   <li>Modular Components</li>
+   <li>Collaborative Development</li>
+   <li>Lightweight Protocol Reference Models</li>
+   <li>Federated Digital Library Frameworks</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0056.htm');" id=PPTL21>OCKHAM NSDL Project</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>NSDL has assembled an extraordinary set of resources</li>
+   <li>Yet, there has been limited integration and deployment of NSDL through
+       the existing library community</li>
+   <li>Opportunity exists to explore mechanisms to facilitate dissemination and
+       integration of NSDL resources through existing library service channels</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0057.htm');" id=PPTL22>OCKHAM Project Goals</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Reference Model Development</li>
+   <li>Middleware and Testbed Services Development</li>
+   <li>Evaluation</li>
+   <li>Dissemination and Networking</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0062.htm');" id=PPTL23>OCKHAM Partners</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Emory University</li>
+   <li>Virginia Tech</li>
+   <li>University of Arizona</li>
+   <li>Notre Dame</li>
+   <li>(Oregon State, soon)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0059.htm');" id=PPTL24>OCKHAM Schematic</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0063.htm');" id=PPTL25>Key Design Features</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>P2P network of interoperable web services using SOAP, WSDL, UDDI
+       protocols</li>
+   <li>Hope to create an extensible framework that will make it easy for other
+       institutions to both connect to the network and also contribute to it in
+       the future</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0060.htm');" id=PPTL26>Reference Model
+  Sections</a></font></div>
+  <div id=PPTC26 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>1. Purpose &amp; scope</li>
+   <li>2. Definitions &amp; vocabularies</li>
+   <li>3. Applicability &amp; scenarios for use (services)</li>
+   <li>4. Rational</li>
+   <li>5. Interoperability &amp; conformance</li>
+   <li>6. Relationships to other standards</li>
+   <li>7. Detailed schematic models</li>
+   <li>8. Road map for development of related standards</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0061.htm');" id=PPTL27>Middleware Testbed
+  Services</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Interoperation Service</li>
+   <li>OAI-PMH-to-Z39.50 Searching Service</li>
+   <li>Alerting Service</li>
+   <li>Browsing Service</li>
+   <li>Conversion Service</li>
+   <li>Cataloging Service</li>
+   <li>Pathfinding Service</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0064.htm');" id=PPTL28>OCKHAM Project Timeline</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0065.htm');" id=PPTL29>Next Steps</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Drafting the Reference Model, using WIKI for group edits</li>
+   <li>Specification of web services (in SOAP, WSDL, and UDDI), following
+       reference model</li>
+   <li>Initial development of testbed services</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0067.htm');" id=PPTL30>Invitation to
+  Participate</a></font></div>
+  <div id=PPTC30 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>	If you are interested in reviewing and/or contributing to the reference
+       model development, please contact me:</li>
+   <li><span style='mso-spacerun:yes'>      </span>Martin Halbert</li>
+   <li><span style='mso-spacerun:yes'>      </span>404-727-2204</li>
+   <li><span style='mso-spacerun:yes'>      </span>mhalber@emory.edu</li>
+   <li><span style='mso-spacerun:yes'>      </span>Emory University</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0066.htm');" id=PPTL31>For more information</a></font></div>
+  <div id=PPTC31 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Temporary Website:</li>
+   <li><span style='mso-spacerun:yes'>     </span>http://ockham.library.emory.edu</li>
+   <li></li>
+   <li>Starting next year:</li>
+   <li><span style='mso-spacerun:yes'>   </span>http://www.ockham.org</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href="v3_document.htm"></a><a href=preview.wmf></a><a
+href="v3_next_active.gif"></a><a href="v3_next_disabled.gif"></a><a
+href="v3_prev_active.gif"></a><a href="v3_prev_disabled.gif"></a><a
+href="v3_outline_collapse.gif"></a><a href="v3_outline_expand.gif"></a><a
+href="v3_space.gif"></a><a href="v3_endshow.htm"></a><a
+href="v3_navigation_bar.htm"></a><a href="v3_outline_navigation_bar.htm"></a><a
+href="v3_outline_collapsed.htm"></a><a href="v3_outline_expanded.htm"></a><a
+href="v3_blank_notes.htm"></a><a href=master03.htm></a><a href=master03.xml></a><a
+href="master03_image001.png"></a><a href=master04.htm></a><a href=master04.xml></a><a
+href=master02.htm></a><a href=pres.xml></a><a href="v3_slide0002.htm"></a><a
+href="v3_master04_background.gif"></a><a href="v3_slide0002_image002.jpg"></a><a
+href="v3_slide0036.htm"></a><a href="v3_master03_background.gif"></a><a
+href="v3_master03_image003.jpg"></a><a href="v3_master03_image004.gif"></a><a
+href="v3_master03_image005.gif"></a><a href="v3_slide0037.htm"></a><a
+href="v3_master03_image006.jpg"></a><a href="v3_master03_image007.gif"></a><a
+href="v3_master03_image008.gif"></a><a href="v3_slide0038.htm"></a><a
+href="v3_master03_image009.jpg"></a><a href="v3_master03_image010.gif"></a><a
+href="v3_master03_image011.gif"></a><a href="v3_slide0039.htm"></a><a
+href="v3_master03_image012.jpg"></a><a href="v3_master03_image013.gif"></a><a
+href="v3_master03_image014.gif"></a><a href="v3_slide0047.htm"></a><a
+href="v3_slide0047_background.jpg"></a><a href="v3_master03_image015.jpg"></a><a
+href="v3_slide0048.htm"></a><a href="v3_slide0048_background.gif"></a><a
+href="v3_master03_image016.gif"></a><a href="v3_slide0049.htm"></a><a
+href="v3_slide0049_background.gif"></a><a href="v3_master03_image017.gif"></a><a
+href="v3_slide0050.htm"></a><a href="v3_slide0050_background.gif"></a><a
+href="v3_master03_image018.gif"></a><a href="v3_slide0051.htm"></a><a
+href="v3_master03_image019.jpg"></a><a href="v3_master03_image020.gif"></a><a
+href="v3_master03_image021.gif"></a><a href="v3_slide0040.htm"></a><a
+href="v3_slide0040_background.gif"></a><a href="v3_master03_image022.jpg"></a><a
+href="v3_slide0041.htm"></a><a href="v3_slide0041_background.gif"></a><a
+href="v3_master03_image023.jpg"></a><a href="v3_slide0042.htm"></a><a
+href="v3_slide0042_background.gif"></a><a href="v3_master03_image024.jpg"></a><a
+href="v3_slide0044.htm"></a><a href="v3_master03_image025.jpg"></a><a
+href="v3_master03_image026.gif"></a><a href="v3_master03_image027.gif"></a><a
+href="v3_slide0045.htm"></a><a href="v3_slide0045_background.jpg"></a><a
+href="v3_master03_image028.jpg"></a><a href="v3_slide0052.htm"></a><a
+href="v3_master03_image029.jpg"></a><a href="v3_master03_image030.gif"></a><a
+href="v3_master03_image031.gif"></a><a href="v3_slide0053.htm"></a><a
+href="v3_master03_image032.jpg"></a><a href="v3_master03_image033.gif"></a><a
+href="v3_master03_image034.gif"></a><a href="v3_slide0026.htm"></a><a
+href="v3_master03_image035.jpg"></a><a href="v3_master03_image036.gif"></a><a
+href="v3_master03_image037.gif"></a><a href="v3_slide0055.htm"></a><a
+href="v3_master03_image038.jpg"></a><a href="v3_master03_image039.gif"></a><a
+href="v3_master03_image040.gif"></a><a href="v3_slide0021.htm"></a><a
+href="v3_master03_image041.jpg"></a><a href="v3_master03_image042.gif"></a><a
+href="v3_master03_image043.gif"></a><a href="v3_slide0056.htm"></a><a
+href="v3_master03_image044.jpg"></a><a href="v3_master03_image045.gif"></a><a
+href="v3_master03_image046.gif"></a><a href="v3_slide0057.htm"></a><a
+href="v3_master03_image047.jpg"></a><a href="v3_master03_image048.gif"></a><a
+href="v3_master03_image049.gif"></a><a href="v3_slide0062.htm"></a><a
+href="v3_master03_image050.jpg"></a><a href="v3_master03_image051.gif"></a><a
+href="v3_master03_image052.gif"></a><a href="v3_slide0059.htm"></a><a
+href="v3_slide0059_background.gif"></a><a href="v3_master03_image053.jpg"></a><a
+href="v3_slide0063.htm"></a><a href="v3_master03_image054.jpg"></a><a
+href="v3_master03_image055.gif"></a><a href="v3_master03_image056.gif"></a><a
+href="v3_slide0060.htm"></a><a href="v3_master03_image057.jpg"></a><a
+href="v3_master03_image058.gif"></a><a href="v3_master03_image059.gif"></a><a
+href="v3_slide0061.htm"></a><a href="v3_master03_image060.jpg"></a><a
+href="v3_master03_image061.gif"></a><a href="v3_master03_image062.gif"></a><a
+href="v3_slide0064.htm"></a><a href="v3_slide0064_image063.gif"></a><a
+href="v3_master03_image064.jpg"></a><a href="v3_master03_image065.gif"></a><a
+href="v3_master03_image066.gif"></a><a href="v3_slide0065.htm"></a><a
+href="v3_master03_image067.jpg"></a><a href="v3_master03_image068.gif"></a><a
+href="v3_master03_image069.gif"></a><a href="v3_slide0067.htm"></a><a
+href="v3_master03_image070.jpg"></a><a href="v3_master03_image071.gif"></a><a
+href="v3_master03_image072.gif"></a><a href="v3_slide0066.htm"></a><a
+href="v3_master03_image073.jpg"></a><a href="v3_master03_image074.gif"></a><a
+href="v3_master03_image075.gif"></a><a href=slide0002.htm></a><a
+href="master04_image076.gif"></a><a href="master04_image077.gif"></a><a
+href="slide0002_image078.jpg"></a><a href=slide0036.htm></a><a
+href="master03_image079.gif"></a><a href="master03_image080.gif"></a><a
+href="master03_image081.jpg"></a><a href=slide0037.htm></a><a
+href=slide0038.htm></a><a href=slide0039.htm></a><a href=slide0047.htm></a><a
+href="slide0047_image082.png"></a><a href="slide0047_image083.jpg"></a><a
+href=slide0048.htm></a><a href="slide0048_image084.png"></a><a
+href="slide0048_image085.jpg"></a><a href="slide0048_image086.gif"></a><a
+href=slide0049.htm></a><a href="slide0049_image087.png"></a><a
+href="slide0049_image088.jpg"></a><a href="slide0049_image089.gif"></a><a
+href=slide0050.htm></a><a href="slide0050_image090.png"></a><a
+href="slide0050_image091.jpg"></a><a href="slide0050_image092.gif"></a><a
+href=slide0051.htm></a><a href=slide0040.htm></a><a
+href="slide0040_image093.gif"></a><a href="slide0040_image094.wmz"></a><a
+href="slide0040_image095.gif"></a><a href=slide0041.htm></a><a
+href="slide0041_image096.gif"></a><a href="slide0041_image097.wmz"></a><a
+href="slide0041_image098.gif"></a><a href=slide0042.htm></a><a
+href="slide0042_image099.gif"></a><a href="slide0042_image100.wmz"></a><a
+href="slide0042_image101.gif"></a><a href=slide0044.htm></a><a
+href=slide0045.htm></a><a href="slide0045_image102.png"></a><a
+href="slide0045_image103.jpg"></a><a href=slide0052.htm></a><a
+href=slide0053.htm></a><a href=slide0026.htm></a><a href=slide0055.htm></a><a
+href=slide0021.htm></a><a href=slide0056.htm></a><a href=slide0057.htm></a><a
+href=slide0062.htm></a><a href=slide0059.htm></a><a
+href="slide0059_image104.gif"></a><a href="slide0059_image105.png"></a><a
+href="slide0059_image106.jpg"></a><a href=slide0063.htm></a><a
+href=slide0060.htm></a><a href=slide0061.htm></a><a href=slide0064.htm></a><a
+href="slide0064_image107.emz"></a><a href="slide0064_image108.gif"></a><a
+href=slide0065.htm></a><a href=slide0067.htm></a><a href=slide0066.htm></a><a
+href=master01.htm></a><a href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../DLF-Fall-03-OCKHAM.htm"></a><a href=fullscreen.htm></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

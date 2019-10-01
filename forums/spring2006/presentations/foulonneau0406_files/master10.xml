@@ -1,0 +1,119 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="79"/>
+ </o:shapelayout><p:colorscheme
+  colors="#ffffff,#000000,#1c1c1c,#cc6600,#ccecff,#cc6600,#ff0000,#333366"/>
+ <v:background id="_x0000_s80897" o:bwmode="white" fillcolor="white [0]"/>
+ <p:shaperange id="_x0000_s80937">
+  <v:rect id="_x0000_s80937" style='position:absolute;left:0;top:0;width:10in;
+   height:108pt;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#60c" stroked="f" strokecolor="black [1]">
+   <v:fill opacity="0" color2="#ccecff [4]" rotate="t" type="gradient"/>
+   <v:shadow color="#1c1c1c [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_m80905">
+  <v:shapetype id="_x0000_m80905" style='position:absolute;left:78pt;top:16.875pt;
+   width:626.25pt;height:79.125pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ccecff [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m80906">
+  <v:shapetype id="_x0000_m80906" style='position:absolute;left:54pt;top:126pt;
+   width:651.125pt;height:354pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#ccecff [4]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s80907">
+  <v:shapetype id="_x0000_s80907" style='position:absolute;left:456pt;top:492pt;
+   width:186pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ccecff [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s80908">
+  <v:shapetype id="_x0000_s80908" style='position:absolute;left:1in;top:492pt;
+   width:168pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ccecff [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s80929">
+  <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s80929" type="#_x0000_t202" style='position:absolute;
+   left:306pt;top:498pt;width:150pt;height:24pt' filled="f" fillcolor="#ccecff [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:shadow color="#1c1c1c [2]"/>
+   <v:textbox style='mso-fit-shape-to-text:t'/>
+  </v:shape><v:rect id="_x0000_s80933" style='position:absolute;left:36pt;
+   top:108pt;width:684pt;height:6pt;mso-wrap-style:none;v-text-anchor:middle'
+   fillcolor="#339" stroked="f" strokecolor="#c60 [5]">
+   <v:fill opacity="31457f" color2="#17172f" rotate="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s80934">
+  <v:rect id="_x0000_s80934" style='position:absolute;left:36pt;top:108pt;
+   width:6pt;height:372pt;mso-wrap-style:none;v-text-anchor:middle'
+   fillcolor="#339" stroked="f" strokecolor="#c60 [5]">
+   <v:fill opacity="31457f" color2="#5e2f00" o:opacity2="0" rotate="t"/>
+   <v:shadow color="#1c1c1c [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s80935">
+  <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75"
+   o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s80935" type="#_x0000_t75" style='position:absolute;
+   left:672pt;top:486pt;width:35.375pt;height:46.5pt' o:userdrawn="t">
+   <v:imagedata src="master10_image001.png" o:title="UILogoCLvsm"/>
+  </v:shape></p:shaperange>
+ <p:shaperange id="_x0000_s80936">
+  <v:shape id="_x0000_s80936" type="#_x0000_t75" style='position:absolute;
+   left:12pt;top:474pt;width:49.75pt;height:54.25pt' o:userdrawn="t"
+   fillcolor="#ccecff [4]" strokecolor="black [1]">
+   <v:fill color2="white [0]"/>
+   <v:imagedata src="master10_image002.jpg" o:title=""/>
+   <v:shadow color="#1c1c1c [2]"/>
+  </v:shape></p:shaperange>
+</xml>

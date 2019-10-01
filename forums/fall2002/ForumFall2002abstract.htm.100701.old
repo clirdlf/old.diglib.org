@@ -1,0 +1,1041 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Digital Library Federation. Spring Forum 2002</title>
+
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Provisional Schedule: DLF Fall 2002 Forum</title>
+<meta
+content="Provisional Schedule: DLF Fall 2002 Forum" name="dc.Title" />
+<meta content="Jerry George" name="dc.Creator" />
+<meta content="" name="dc.Subject" />
+<meta content="Summary of Fall 2002 Fall Forum"
+name="dc.Description" />
+<meta content="Digital Library Federation. Washington, DC"
+name="dc.Publisher" />
+<meta
+content="David Seaman. Converted from Word to xhtml and added DC metadata."
+ name="dc.Contributor" />
+<meta content="2002-09-11" name="dc.Date" />
+<meta content="text" name="dc.Type" />
+<meta content="text/html" name="dc.Format" />
+<meta content=".htm" name="DC.identifier" />
+<meta content="none" name="dc.Source" />
+<meta content="en-us" name="dc.Language" />
+<meta content="http://www.diglib.org/forum/"
+name="dc.Relation" />
+<meta content="none" name="dc.Coverage" />
+<meta
+content="Copyright 2002, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible."
+ name="dc.Rights" />
+
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('images/preserve_r.gif','images/use_r.gif','images/build_r.gif','images/logo_r.gif','images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+<a href="/search.html">Search</a>
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<ol class="newsbold">
+<li><a href="http://www.bl.uk/">British Library</a><br /><br /></li>
+<li><a href="http://www.cdlib.org/">California Digital Library</a><br /><br /></li><li>
+<a href="http://www.library.cmu.edu/">Carnegie Mellon University</a><br /><br /></li><li>
+<a href="http://www.columbia.edu/cu/libraries/digital/">Columbia University</a><br /><br /></li><li>
+<a href="http://campusgw.library.cornell.edu/">Cornell University</a><br /><br /></li><li>
+<a href="http://www.clir.org/">Council on Libraries and Information Resources</a><br /><br /></li><li>
+<a href="http://www.dartmouth.edu/libcomp/">Dartmouth College</a><br /><br /></li><li>
+<a href="http://www.emory.edu/LIBRARIES/">Emory University</a><br /><br /></li><li>
+<a href="http://hul.harvard.edu/ldi/">Harvard University </a><br /><br /></li><li>
+<a href="http://www.dlib.indiana.edu/">Indiana University</a><br /><br /></li><li>
+<a href="http://webapps.jhu.edu/jhuniverse/libraries/">Johns Hopkins University</a><br /><br /></li><li>
+<a href="http://memory.loc.gov/ammem/dli2/html/lcndlp.html">Library of Congress</a><br /><br /></li><li>
+<a href="http://libraries.mit.edu/">Massachusetts Institute of Technology</a><br /><br /></li><li>
+<a href="http://www.archives.gov/index.html">National Archives and Records Administration </a><br /><br /></li><li>
+<a href="http://digital.nypl.org/">New York Public Library </a><br /><br /></li><li>
+<a href="http://www.nyu.edu/library/">New York University </a><br /><br /></li><li>
+<a href="http://www.lib.ncsu.edu/">North Carolina State University </a><br /><br /></li><li>
+<a href="http://www.psu.edu/ur/libraries.html">Pennsylvania State University </a><br /><br /></li><li>
+<a href="http://artsdata.princeton.edu/">Princeton University </a><br /><br /></li><li>
+
+<a href="http://www.rice.edu/fondren/">Rice University </a><br /><br /></li><li>
+
+<a href="http://www-sul.stanford.edu/">Stanford University </a><br /><br /></li><li>
+<a href="http://sunsite.berkeley.edu/">University of California, Berkeley</a><br /><br /></li><li>
+<a href="http://www.lib.uchicago.edu/e/index.html">University of Chicago </a><br /><br /></li><li>
+<a href="http://gateway.library.uiuc.edu/index.html">University of Illinois at Urbana-Champaign </a><br /><br /></li><li>
+<a href="http://www.lib.umich.edu/lit/">University of Michigan </a><br /><br /></li><li>
+<a href="http://www.lib.umn.edu/">University of Minnesota </a><br /><br /></li><li>
+<a href="http://www.library.upenn.edu/">University of Pennsylvania </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Southern California </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Tennessee </a><br /><br /></li><li>
+<a href="http://www.lib.utexas.edu/">University of Texas at Austin </a><br /><br /></li><li>
+<a href="http://www.lib.virginia.edu/">University of Virginia </a><br /><br /></li><li>
+<a href="http://www.lib.washington.edu/">University of Washington</a>
+<br /><br /></li><li>
+<a href="http://www.library.yale.edu/">Yale University </a></li>
+</ol>
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+<ol class="newsbold">
+
+<li><a href="http://www.oclc.org/home/">Online Computer Library Center </a>
+<br /><br /></li>
+<li><a href="http://www.rlg.org/toc.html">Research Libraries Group </a>
+<br /><br /></li>
+<li><a href="http://www.cni.org">Coalition for Networked Information </a>
+<br /><br /></li>
+<li><a href="http://lib-www.lanl.gov/">Los Alamos National Laboratory Research Library </a></li>
+</ol>
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- Begin text here -->
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+<h1>Provisional Schedule<br />
+ DLF Fall Forum 2002</h1>
+</center>
+
+<p align="center"><b><font size="5">Pre-Forum</font></b></p>
+
+<p align="center"><b>Monday, November 4</b></p>
+
+<p><b><font color="#8B0000">9:00-1:00</font></b>: <b>Developers Forum</b></p>
+
+<hr width="75%" />
+<p align="center"><b><font size="5">Forum</font></b></p>
+<p align="center"><b>Monday, November 4</b></p>
+
+<p><b><font color="#8B0000">1:00-2:00</font></b>: Registration</p>
+<p><b><font color="#8B0000">2:00-3:30</font></b>:</p>
+
+<blockquote><b>Welcome and Introduction:</b> <b>David Seaman, Digital Library Federation</b></blockquote>
+<blockquote><b>General Session 1:</b> <b>Bill Hill, Microsoft Research: From Molecules to Bits: Reading in the 21st Century
+</b>
+
+<blockquote>
+Although eBooks have been slow to take off, reading on the screen is fast gathering momentum and is about to go mainstream. Microsoft has focused major efforts on making onscreen reading more like reading paper. TabletPC will launch on November 7 as the first PC designed as a reading surface. Bill Hill will talk about his vision of the future of reading on the screen.
+</blockquote></blockquote>
+
+
+<p><b><font color="#8B0000">3:30-4:00</font></b>: Break</p>
+
+<p><b><font color="#8B0000">4:00-5:30</font></b>: <b>Breakout 1: eLearning</b></p>
+
+<blockquote><b>Denise Troll Covey, Carnegie Mellon University: Filling the Gap Between Vendor and User Practice</b>
+
+<blockquote>
+ARL LIBQUAL+ results indicate that personal control is a 
+high priority for library users, but that users are not very 
+satisfied with the ease of remote access to library resources. 
+This gap between user priorities and preferences and the level of 
+service they perceive their library providing is exacerbated by the 
+gap between the way commercial vendors restrict access to library 
+resources and the way users access those resources.  Restricting 
+access by institutional IP address creates problems for the 
+increasing number of institution-affiliated users using computers 
+that do not have an institution-affiliated IP address.  The Council 
+on Library and Information Resources recently sponsored a survey of 
+how academic libraries are supporting remote access from 
+non-institution-affiliated IP addresses, the problems and costs 
+associated with this effort, and their level of satisfaction with 
+the technology they've implemented.  Preliminary results reveal 
+that libraries are using proxy servers and (to a lesser extent) 
+virtual private networks to fill the gap between vendor and user 
+practice, but that these solutions can be expensive and 
+unsatisfactory.  Proxy servers appear to be more problematic than 
+VPNs, but both technologies lower user satisfaction, service 
+quality, and staff morale, cause delays in other projects, and have 
+a detrimental impact on the allocation of resources.  Moving to a 
+new solution, however, will require time, money, proof of adoption 
+by many vendors, and sufficient confidence that the new technology 
+will be superior to the old and that the transition will be rapid 
+and transparent to users.
+
+</blockquote>
+</blockquote>
+<blockquote><b>Fred Beshears, University of California, Berkeley: 
+Learning Technology Application Infrastructure and Interoperability Standards
+</b>
+
+<blockquote>
+Interoperability among system software components and on-line learning 
+content is key to the successful implementation of a campus software 
+architecture, and several learning technology standards are being promoted 
+to help schools achieve this objective.
+
+The purpose of the first half of this presentation is to give the library 
+community a conceptual model of the different services educational 
+technologies provide and how they can be integrated into an overall campus 
+software architecture.
+
+The second half of the presentation will provide a basic understanding of 
+the main learning technology standards that pertain to higher education, 
+the key organizations involved in developing the standards, and the 
+objectives they seek to achieve.
+
+UC Berkeley has been an active participant in IMS, one of the major 
+learning technology standards setting efforts. Fred Beshears served as the 
+UC System's representative to the IMS technical board for two years 
+starting in 1998, and he has been UC Berkelely's representative to IMS 
+since the end of 1999. Fred is also Berkeley's liason with the Open 
+Knowledge Initiative.
+</blockquote>
+</blockquote>
+
+<p><b><font color="#8B0000">4:00-5:30</font></b>: <b>Breakout 2: National Digital Information Infrastructure and Preservation Program</b></p>
+
+<blockquote><b>Abby Smith, Council on Library and Information Resources: LC report to Congress</b>
+<blockquote>
+In December 2000, the United States Congress passed legislation establishing the National Digital Information Infrastructure and Preservation 
+Program (NDIIPP). It charges the Librarian of Congress to lead a nationwide planning effort for the long-term preservation of digital content. 
+The goal of the plan for digital preservation is to encourage shared responsibility for digital content and to seek national solutions for: <br>
+* the continuing collection, selection, and organization of the most historically significant cultural materials and of important information 
+resources, regardless of evolving formats <br>
+* the long-term storage, preservation, and authenticity of those collections<br>
+* persistent, rights-protected access for the public to the growing digital historical record and information resources of the American people<br>
+<br>
+The process began with a yearlong, nationwide, fact-finding effort and initial planning. Next, with Congressional approval, NDIIPP will invest 
+in a set of activities proposed under the plan that include: practical applications and modeling of key components of the infrastructure; 
+developing core capacities for the preservation network; building a digital preservation architecture; and conducting targeted basic research 
+needed for the management of digital content and of the systems that support it. These investments will both leverage the knowledge gained by 
+a range of preservation stakeholders and broaden their participation in network building.
+<br>
+<br>
+Abby Smith will report out on the results of the planning phase and the recommendations made to Congress this fall for implementation of the plan.<br>
+</blockquote>
+</blockquote>
+
+<p><b><font color="#8B0000">6:00-9:00</font></b>: Reception</p>
+
+<hr width="75%" />
+
+<p align="center"><b>Tuesday, November 5</b></p>
+
+<p><b><font color="#8B0000">8:00-9:00</font></b>: Continental Breakfast</p>
+<p><b>Open Archives/Cultural Archives</b></p>
+<p><b><font color="#8B0000">9:00-10:30</font></b>: <b>Breakout 3: </b>	</p>
+
+<blockquote><b>Martin Halbert, Emory University, et al: Major Findings from the Mellon Metadata Harvesting
+Initiative</b>
+
+<blockquote>
+Presentations and discussion on the various aspects and institutional projects 
+comprising this large and significant initiative. 
+<br>
+The Metadata Harvesting Initiative of the Mellon Foundation is a $1.5M effort to explore and test applications of the OAI PMH (for more background details see 
+http://www.arl.org/newsltr/217/waters.html).  The seven projects funded by the 
+Mellon Foundation have made significant progress in advancing the 
+understanding and use of the OAI PMH for harvesting and other associated 
+scholarly services.  
+<br>
+We will review the goals of the Mellon program, and feature discussions of 
+findings concerning core OAI technologies, such as best practices in creating 
+OAI metadata providers and harvesting tools created during the projects.  
+<br>
+We will discuss services built upon OAI metadata harvesting infrastructures, 
+such as portal  features that add value to aggregated metadata, user interfaces 
+to harvested metadata, issues in accommodating different metadata formats, 
+and future directions for research.  
+</blockquote>
+</blockquote>
+<p><b><font color="#8B0000">9:00-10:30</font></b>: <b>Breakout 4: </b></p>
+
+<blockquote><b>Panel discussion: Access to integrated cultural resources, moderated by Bob Wolven, Columbia University
+
+</b><blockquote>
+  
+ In the last few years many of the digitization projects in the community  
+have focused on capturing and bringing together surrogates of cultural  
+resources. These projects are at various stages of maturity and reflect  
+various approaches to the range of challenges inherent in the aggregation  
+of digitized materials. With this body of pooled collections, now may be a  
+good time to reflect on the benefits of the various approaches.  Some are  
+distributed; others are centralized; while others use a combined approach.  
+But in each case, the goal is to improve access to collections that are of  
+interest to researchers and educators.
+<br>                   
+ This session will provide an opportunity for demonstrations and discussion  
+on some of the persistent issues that continue to confront these effort,
+ such as:          
+ <br>                  
+ Promoting use --  What is being done to increase awareness of the  resource, 
+how can researchers access it, what is being done to enable use  of the content 
+with courseware or in classrooms and projects, are other
+ uses allowed?     
+     <br>              
+ Rights Management -- What materials are included, how are they protected,  
+what agreements are in place between the project and the content owners  and 
+between the project and the users?
+         <br>          
+ Technical Integration -- Is the content centralized or distributed, how  
+are metadata in a variety of formats and from a variety of sources made  
+meaningful to users, how are digital files that were created in a variety  
+of ways presented to users?
+             <br>      
+ Sustainability -- What will happen when project funding is discontinued,  
+how will the resource be kept alive and continue to grow, how are the  
+materials being preserved for the future?
+</blockquote></blockquote>             
+
+<p><b><font color="#8B0000">10:30-11:00</font></b>: Break</p>
+
+
+<p><b><font color="#8B0000">11:00-12:30</font></b>: <b>Breakout 5:</b></p>
+
+<blockquote><b>David Loy, California Digital Library: Acquiring and Ingesting Digital Content: Methods of the CDL's eScholarship Program
+</b><blockquote>
+This team presentation by the eScholarship project coordinator and the 
+eScholarship technical lead will discuss technical and programmatic issues 
+involved in the acquisition, conversion, and dissemination of digital content.
+<br>
+Three projects will be used as case studies: the 1500 University of California 
+Press titles that eScholarship is converting from netLibrary XHTML files into 
+XML ebooks; the eScholarship Repository, an institutionally based repository for 
+pre-publication scholarship in all disciplines; and the Handbook of Visual Optics, 
+a reference work that will appear in both digital and print forms from a 
+collaboration among CDL, UC Press, and the Optical Society of America.
+<br>
+Programmatic issues will include challenges of 2 and 3-way partnerships (across 
+libraries, university presses, and scientific societies); collections issues of 
+university-specific access vs. global access; and institutional vs. subject or 
+faculty-based repository arrangement. Technical issues will include the conversion 
+of incoming objects to METS, automatic conversion and merging of metadata from 
+MARC and a processing database to MODS and to DC and exposing results through 
+OAI; tools for authoring and publishing, and strategies for searching XML-encoded 
+texts.
+</blockquote>
+</blockquote>
+
+<blockquote><b>Thornton Staples, University of Virginia: Report on the "Supporting Digital Scholarship" Project</b>
+<blockquote>
+The Supporting Digital Scholarship project is a joint project between the Instititute for Advanced Technology in the Humanities and the University of Virginia Library to investigate the implications of collecting digital scholarly projects into a digital library. This porject, now in its third and final year, was funded by a grant from the Andrew W. Mellon Foundation. Our experience at the University of Virginia has been that scholars, given the resources and the support needed, are creating digital projects that are more like virtual museum exhibitions than like books. These projects usually include large collections of digital versions of primary resources with a network of complex interrelationships interwoven with original scholarly commentary. This report will discuss the technical problems that we have encountered in collecting the Rossetti Archive (http://jefferson.village.virginia.edu/rossetti/) and the Salisbury Project (http://www.iath.virginia.edu/salisbury/) into the Library's Feodora repository. It will also discuss policy implications for the Library in collecting such projects.
+</blockquote>
+</blockquote>
+
+<p><b><font color="#8B0000">11:00-12:30</font></b>: <b>Breakout 6:</b>	</p>
+
+<blockquote><b>Rebecca Guenther, Library of Congress; Kirk Hastings, University of California; 
+Mary Alice Ball, University of Chicago Press:  
+Metadata Object Description Schema (MODS): An overview of its uses, features, and current experimentation</b>
+</b>
+<blockquote>
+This session will consist of several presentations on MODS, a new bibliographic element set based on MARC and represented as an XML schema.  MODS has been developed by the Library of Congress with interested parties as a rich element set that is a subset of MARC, using XML with language based tags.  Potential uses include, among others, use as a specified format for Z39.50 Next Generation, as an extension schema to METS, to represent metadata for harvesting from databases, and as a simplified record in XML that is compatible with existing library data.
+<br>
+Part I. Development of DC-Lib Application Profile:
+As background to understanding the development of MODS,  there will be an introduction to the reasons for developing the Dublin Core-Library Application Profile, what it attempts to accomplish, and its current status. [Implementation for this profile may be touched on briefly, and simple Dublin Core will be addressed as discussed below.]
+<br>
+
+Part II. Introduction to MODS
+An overview of the reasons for developing MODS, an introduction to the element set, and a summary of potential uses.  The simple Dublin Core element set will be contrasted to MODS in terms of the details in the element sets, and some reasons for using MODS rather than simple Dublin Core.  (Speaker: Rebecca Guenther)
+<br>
+ Part III.  Descriptions of MODS experimentation, including:<br>
+ * University of California project using METS with MODS as  descriptive metadata to support a search/browse interface (Speaker: Kirk
+ Hastings)<br>
+  * University of Chicago Press project using MODS to enhance  electronic document searchability and distribution  (Speaker: Mary Alice
+ Ball)<br>
+  * Web archiving project at LC using MODS for creation of  minimal metadata to support search and retrieval of archived Web sites.  (Speaker: Rebecca
+Guenther)
+</blockquote></blockquote>
+
+
+<p><b><font color="#8B0000">12:30-1:15</font></b>: 	Lunch</p>
+
+<p><b><font color="#8B0000">1:15-2:00</font></b>: <b>General Session 2:</b> <b>David Levy, University of Washington: Scrolling Forward</b></p>
+
+
+<p><b><font color="#8B0000">2:00-3:30</font></b>: <b>Breakout 7:</b> 	</p>
+
+<blockquote><b>Morgan Cundiff, Library of Congress: MARCXML (descriptive metadata) and MIX (technical metadata for still images)</b>
+<blockquote>
+The METS (Metadata Encoding and Transmission Standard) Schema Version 1.1
+is now reasonably stable. One of the issue the community of METS
+implementers faces is which (if any) extension schemas to use for
+descriptive and administrative metadata to complete a METS information
+package. This panel presentation chaired by Jerome McDonough will provide
+information about several schemas which can be used as METS extension
+schemas including MARCXML and MODS (for descriptive metadata), MIX
+(technical metadata for digital images) and other schemas for text, audio,
+video, and rights. Participants include Jerome McDonough (NYU), Morgan
+Cundiff (Library of Congress), Rebecca Guenther (Library of Congress), and
+Robin Wendler (Harvard).
+</blockquote></blockquote>
+
+<p><b><font color="#8B0000">2:00-3:30</font></b>: <b>Breakout 8:</b> 	</p>
+
+<blockquote><b>Caroline Arms, Library of Congress: Implementing the OAI Protocol for Metadata Harvesting at the Library of Congress
+</b>
+<blockquote>The Library of Congress has participated in the development of the 
+Open Archives Initiative Protocol for Metadata Harvesting since the first meeting 
+in Santa Fe.  LC joined the technical discussions and tests before the release of 
+the first and second public versions.  Released this June, version 2 includes a 
+recommendation that harvesting of MARC record be based on a new, "slim" XML Schema 
+for MARC21 maintained by LC's Network Development and MARC Standards Office 
+(NDMSO).  Over 100,000 metadata records for items digitized for American Memory 
+are now available for harvesting.  Items represented include books, maps, photographs, early movies, sheet music, and printed ephemera.  Records for more 
+content that LC can share freely will be added steadily.  Several organizations 
+building union resources of cultural heritage materials, including DLF members 
+funded by the Mellon Foundation, have harvested the records.  The records are 
+available in MARC, unqualified Dublin Core, with MODS to be available soon.  
+Metadata crosswalks and character set mappings developed by NDMSO made it easy 
+to implement the straightforward protocol as an add-on to American Memory.  The 
+requirements for supporting the protocol have induced discipline and consistency 
+with long-term local benefits and provided test cases for handling special 
+characters in UNICODE.  Two specialist gateways in the planning stages, for 
+movies and sheet music, expect to harvest records for particular collections.  
+Other collaborations in which LC is involved also plan to make use of the 
+protocol.  LC has found it valuable to participate in the experimental phase 
+of this contribution to the toolkit for collaboration.
+</blockquote>
+</blockquote>
+
+
+
+
+<blockquote><b>John Walsh, Indiana University: Unicode Ate My Brain: The Trials and Tribulations of Implementing a Unicode-Dependent Digital Library Project
+</b><blockquote>
+I propose a presentation to discuss the various challenges and problems raised in 
+implementing a digital library project dependent upon Unicode data.  During the 
+past two years Indiana University's Digital Library Program has been working on a 
+project--funded by a grant from the Technological Innovation and Cooperation for 
+Foreign Information Access (TICFIA) program of the U.S. Department of Education--
+to digitize and make available on the Web a twenty-year run
+(1956-1975) of the Letopis Zhurnal'nykh Statei, a Russian/Soviet periodical 
+index covering virtually all disciplines.  The language of the index is Russian 
+and uses the Cyrillic alphabet but includes other languages and scripts as well, 
+including English, French, German, and Greek.  This combination of languages and 
+scripts necessitates the use of Unicode in the digitized version of the index.  
+A Web-based digital library project that is dependent upon Unicode poses a number 
+of challenges and requirements, including full Unicode support in the programming 
+languages and other technologies used to implement the project.  There are also 
+special considerations and problems regarding fonts, browsers, display of 
+right-to-left languages, and user input. Using the Letopis Zhurnal'nykh Statei 
+project and other Indiana University projects as examples, I will discuss these 
+and other challenges presented in working with Unicode data and some of the 
+solutions we have devised to address them.
+</blockquote>
+</blockquote>
+
+
+<p><b><font color="#8B0000">3:30-4:00</font></b>: Break</p>
+
+<p><b><font color="#8B0000">4:00</font></b>: <b>Birds of a Feather Sessions</b></p>
+
+<blockquote><b>a) METS implementation. Jerry McDonough</b>
+<blockquote>
+Digital libraries are beginning to employ the METS digital library object 
+schema for
+a variety of purposes.  This informal session will allow those working on 
+implementing
+software systems which use METS to present the work and ask for feedback 
+and guidance
+on future development work.  Possible topics for discussion include: 
+<br>
+*       Developing local extension schema<br>
+*       METS object viewing software<br>
+*       METS and XSLT<br>
+*       Using RDBMS systems for storing METS objects/metadata<br>
+
+</blockquote></blockquote>
+
+<blockquote><b>b) Libraries as publishers and/or collaborators in publishing. Maria Bonn</b>
+
+<blockquote>
+This will be an information-sharing session for insitutions who
+are developing or thinking about developing electronic publishing
+programs.  Time will be reserved to discuss tools for electronic 
+publication, particularly peer review and manuscript management systems.
+</blockquote>
+</blockquote>
+
+
+
+<blockquote><b>c) Developing a model and standards for agreements to
+establish and document the intellectual property rightsassociated with digital projects. Joyce L. Ogburn
+</b><blockquote>
+
+At the May 2002 DLF meeting a Birds of a Feather session addressed the 
+issue of standardizing agreements that will be needed to establish and 
+document the intellectual property rights associated with digital projects. 
+The initial proposal stated that we should cooperate in drafting model 
+licenses that support the rights for libraries to create or host digital 
+content in the same way that we banded together to understand terms and 
+build model licenses for licensing content from commercial suppliers. 
+The attendees agreed that the session was an invaluable start in exploring 
+the issues and identifying some concrete actions. This session will build 
+on the previous one and will go further in outlining steps for developing 
+a model and standards. It will also explore the possibility of linking 
+this effort with those focused on management systems and metadata for 
+electronic resources.
+</blockquote></blockquote>
+
+<blockquote><b>d) Humanities Computing Centers in Libraries. Jennifer Vinopal
+</b>
+<blockquote>
+More and more academic libraries are, either by themselves or collaboratively, creating services to encourage and support humanists' use of computing technology for scholarly purposes. These services may be offered within a dedicated Humanities Computing Center, or may be an outgrowth of pre-existing facilities (e.g. computer lab, e-text center, etc.). In this informal discussion, participants will share experiences and explore issues related to libraries' provision of humanities computing services in such facilities. Possible discussion topics include:
+<br>
+* staffing & staff training<br>
+* collaboration with other departments, units, or academic divisions<br>
+* marketing your service & building your clientele<br>
+* budgeting time & money<br>
+* growing the service along with user demand<br>
+* project support (staffing, funding, etc.)<br>
+<br>
+One possible outcome of this session may be to create a forum, either informal or formal, in which participants can continue sharing ideas after the conference.
+
+</blockquote>
+</blockquote>
+
+<blockquote><b>e) Multilingual data and DL. Eileen Llona</b>
+<blockquote>
+
+Abstract: Much of the information that academic libraries hold is multilingual 
+in format. Making these data available to digital library systems involves 
+several considerations, and often several systems. Digitizing text involves 
+OCR if the text is to be searchable, which often involves language support 
+issues for non-Roman languages. Storing digital data from scratch from non-Roman 
+languages requires specialized software. Combining the richness of mutlilingual 
+information into one system presents challenges for interface design and 
+back-end systems. The University of Washington has been actively creating new 
+digital resources involving non-Roman languages, and will lead the discussion of 
+multilingual access in a digital library. We hope to discuss:
+<br>
+ - Character encoding issues in an ILS<br>
+ - Integration of multilingual data into thesauri development<br>
+ - Character encoding and font issues for integrating multiple
+   systems involving multiple languages<br>
+<br>
+Related topics are welcome. The goal is to share experiences and solutions, and 
+discuss the potential for collaboration.
+</blockquote>
+</blockquote>
+
+
+
+<blockquote><b>f) The Digital Library Federation Electronic Resource Management
+Initiative. Tim Jewell</b>
+
+<blockquote>
+The DLF is sponsoring an initiative aimed at developing common
+specifications and tools for managing the license agreements, related
+administrative information, and internal processes associated with
+collections of licensed electronic resources. The project's goals are to
+describe the necessary architectures, establish lists of data elements
+anddefinitions, write and publish appropriate XML schemas, and identify and
+promote best practices and data standards. This session will describe
+theproject and work plan, summarize a preconference meeting of the
+project'sworking group, and solicit comments on the project plan and local
+development efforts from interested DLF members.
+</blockquote>
+</blockquote>
+
+<hr width="75%" />
+<p align="center"><b>Wednesday, November 6</b></p>
+
+<p><b><font color="#8B0000">8:00-9:00</font></b>: Continental Breakfast</p>
+
+<p><b><font color="#8B0000">9:00-10:30</font></b>: <b>Breakout 9:</b> <b>Music and Math</b></p>
+
+<blockquote><b>Jon Dunn, Indiana University: The Variations2 Digital Music Library System
+</b>
+<blockquote>
+The Variations2 digital library system is being developed by Indiana University, 
+with funding in part from a Digital Libraries Initiative - Phase 2 grant from the 
+National Science Foundation, to provide improved access to digital music 
+collections, enable the development of applications for music learning and 
+research, and support a program of digital library research in the areas of 
+instruction, usability, and intellectual property rights.
+<br>
+The basic goals of the Variations2 project were discussed in a presentation at the 
+Fall 2000 DLF Forum.  Since that time, much work has transpired, and version 
+1.0 of the Variations2 system was recently completed, offering integrated 
+access to sound recordings and musical score images through a Java-based client 
+application and back-end server, and utilizing a data model and metadata scheme 
+based in part on IFLA's Functional Requirements for Bibliographic Records (FRBR) 
+work to offer enhanced capabilities for finding and retrieving musical content.
+<br>
+In this presentation, Variations2 version 1.0 will be described and demonstrated, 
+including discussion of the technical architecture, data/metadata model, and user 
+interfaces for search and navigation.  The relationship between the Variations2 
+data model representation and METS (Multimedia Encoding and Transmission Standard) 
+will be discussed.  In addition, the status of current work on multi-format 
+synchronization, support for music notation file formats, and integration of 
+digital music collections and services into instructional applications will be 
+presented.
+
+
+</blockquote></blockquote>
+
+<blockquote><b>David Fielding, Cornell University: D-Pubs, Project Euclid, and OAI Compliance
+</b>
+<blockquote>The Digital Publishing System (D-PubS) is being developed at Cornell 
+University for Project Euclid (http://ProjectEuclid.org), with support from the 
+Andrew W. Mellon Foundation. Project Euclid strives to facilitate affordable 
+scholarly communications in the fields of mathematics and statistics.  D-PubS is 
+the modular software architecture developed for Project Euclid. We have extended 
+and generalized the original system developed for Project Euclid to support a 
+broad variety of digital collections, including the Cornell University Library 
+Technical Reports and Papers collection and the Historical Mathematics Book 
+collection. D-PubS consists of a set of configurable services that may vary 
+depending on the functionality desired for a specific collection. D-PubS services 
+include a repository service, an index and search service, user interface service, 
+pay-per-view service, subscription service, registry service, editorial workspace 
+service, and a moderated submission service. A peer-review service is planned. 
+In attempting to follow standards D-PubS currently supports the Open Archives 
+Initiative (OAI) metadata harvesting protocol and we are planning to adopt the 
+design guidelines of the Open Archival Information System (OAIS) reference model. 
+I will give an overview of the D-PubS system and discuss our experiences 
+implementing the open archives protocol along with our plans to develop and/or 
+integrate advanced OAI services into the D-Pubs system.
+</blockquote>
+
+
+
+
+
+</blockquote>
+
+<p><b><font color="#8B0000">9:00-10:30</font></b>: <b>Breakout 10:</b> <b>The Digital Library and the Classroom</b></p>
+
+<blockquote><b>Oya Y. Rieger, Integrating Digital Libraries with Virtual Learning Environments
+</b><blockquote>
+One of the challenges we are facing is the seamless integration of digital 
+libraries in learning management environments.  This presentation will focus 
+on Cornell University Library's approach in building a service infrastructure and 
+forging alliances with key stakeholders to ensure the incorporation of digital 
+library resources and services in virtual learning environments. 
+<br>
+As manifested by the increasing number of course Websites and online course 
+modules, faculty are making significant use of information technologies in support 
+of teaching, learning, and research.  The goal of the proposed presentation is to 
+share strategies developed by the Cornell University Library (CUL) to support 
+faculty initiatives in technology-rich environments.  These programs are 
+collaborative in nature and bring together several campus service providers to 
+create a seamless support framework for technology-mediated learning.  
+The presentation will highlight two tracks of the CUL's distributed learning 
+strategy:  the Unified Service Working Group and Digital Consulting and 
+Production Services.  
+<br>
+Co-managed by the CUL, the Unified Service Working Group is a campus-wide 
+initiative to coordinate service access for faculty interested in using 
+various distributed learning technologies.  As distributed learning services 
+proliferate, the faculty needs systematic assistance in identifying relevant 
+resources and services in support of their specific projects.  
+<br>
+The goal of the CUL's new Digital Consulting and Production Services (D-CAPS) 
+is to offer a suite of digital asset production and management services to the 
+campus community, including unit libraries, faculty, and administration.  It is 
+comprised of associated services necessary to ensure cost-effective planning, 
+creation, management, use, and preservation for digital collections.  D-CAPS 
+consults in the areas of digitization, copyright, metadata, technology, digital 
+preservation, and digital asset management. 
+<br>
+As illustrated by these examples, integrating digital libraries in learning 
+management environments requires the development of a collaborative service 
+infrastructure.  The presentation will focus on CUL's approaches in building 
+this framework. 
+
+</blockquote>
+</blockquote>
+<blockquote><b>Cathy Marshall, Microsoft Research: Reading in the Digital Library: Experiences with e-books in education   </b>
+<blockquote>
+Digital libraries are delivering on the promise of anytime, anywhere access to educational materials. But how will students read these materials? Are e-books the answer? In this talk, I will discuss implications of the results of several studies of reading, reading technologies, and the use of digital library materials both in and out of the classroom. 
+
+</blockquote></blockquote>
+<p><b><font color="#8B0000">10:30-11:00</font></b>: Break</p>
+
+<p><b>Enhancing the User Experience</b></p>
+
+<p><b><font color="#8B0000">11:00-12:30</font></b>: <b>Breakout 11:</b>	</p>
+
+<blockquote><b>Peter Brantley, Access management: Shibboleth introduction</b></blockquote>
+<blockquote><b>Scott Cantor (OSU) and EBSCO, Shibboleth implementation issues</b>
+
+<blockquote>
+The Internet2-backed Shibboleth middleware initiative has progressed
+rapidly in the last six months.  Initial production code is slated to
+be released in late October as part of the NMI Release2 package.
+Significant new vendor support has been announced, and exciting
+integration work is underway with leading content providers and
+learning management systems.<br>
+<br>
+
+The initial session will review the status of Shibboleth software and
+the organic development of enhancement proposals and vendor interest
+in Shibboleth compatability.  Following this introduction, Scott Cantor
+will technically review Shibboleth message flow and then talk about the
+implementation experience at his source site, Ohio State.  On the
+target side, Oliver Pesch will discuss EBSCO's basic authentication
+set-up, their incorporation of Shibboleth and its advantages to their
+user community, and the issues of mapping accounts to institutions.  
+</blockquote></blockquote>
+
+<p><b><font color="#8B0000">11:00-12:30</font></b>: <b>Breakout 12:</b></p> 
+
+<blockquote><b>Taylor Surface, OCLC: Digital Registry</b>
+
+<blockquote>
+The Digital Registry working group has completed a draft document providing guidelines for using MARC21 
+in the current OCLC cataloging system. The working group participants will review the guidelines and 
+provide examples of usage on actual digital master project materials. The working group will also be 
+reviewing project progress and soliciting broader participation in reviewing the guidelines through 
+hands-on use of the Digital Registry.
+</blockquote>
+</blockquote>
+
+<blockquote><b>Michele Kimpton, Internet Archive: The Internet Archive- Building a Digital Library 
+of creative human works-Progress and Prospects</b>
+<blockquote>
+
+The Internet Archive has been working in collaboration with numerous 
+partners to put together the most ambitious digital collection of works, including  
+websites, movies, animation, TV, music, and books, as a tool for providing universal  access to human knowledge.  The vision of IA is to improve access to all these materials by removing geographic, 
+physical and monetary barriers wherever possible. 
+
+Over the last year, IA has been working in partnership  with several 
+organizations to help them build, store and access such collections by providing digitizing services, unlimited disk storage and bandwidth, and online collecting that might otherwise be out of reach. 
+  
+Todays talk will provide an overview of current IA 
+projects and collections.  A more in depth discussion will be given on 
+a current project -Working in collaboration with the National Libraries 
+to archive the Web. 
+</blockquote>
+</blockquote>
+
+<p><b><font color="#8B0000">12:30-1:00</font></b>: <b>Closing remarks:</b> <b>David Seaman</b></p>
+
+<hr width="75%" />
+
+<p align="center"><b><font size="4">Post-Forum</font></b>:</p>
+
+<p align="center"><b>Thursday, November 7</b></p>
+
+<p><b><font color="#8B0000">10:00 - 4:00</font></b>: METS Board Meeting</p>
+
+<hr width="75%" />
+<!-- End text -->
+
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+
+</tr></table>
+
+<hr width="75%" />
+<p align="center" style='text-align:center'><i><span style=
+'font-size:10.0pt'>Copyright &copy; 2004 by the Digital Library
+Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152">
+  <p:master id="14" slidesn="0,0" type="main" href="master14.htm"
+   xmlhref="master14.xml" template="Bold Stripes" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#3e798e,#ffffff,#356677,#ffffcc,#7fa0b1,#3a7184,#ffbf0b,#cc9900"/>
+    <p:colorscheme
+     colors="#eaeaea,#000000,#eaeaea,#003366,#ffffff,#dddddd,#336699,#9a0000"/>
+    <p:colorscheme
+     colors="#eaeaea,#000000,#eaeaea,#000000,#ffffff,#dddddd,#777777,#969696"/>
+    <p:colorscheme
+     colors="#d4d5c3,#492417,#b9ba9c,#6e4900,#dbd8cf,#c7c8b0,#cc9900,#808080"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="15" slidesn="0,0" type="title" href="master15.htm"
+   xmlhref="master15.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C70604,E1187220" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:slide id="85" slidesn="0,0" href="slide0085.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="96" slidesn="0,0" href="slide0096.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="103" slidesn="0,0" href="slide0103.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="141" slidesn="0,0" href="slide0141.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="115" slidesn="0,0" href="slide0115.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="106" slidesn="0,0" href="slide0106.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="84" slidesn="0,0" href="slide0084.htm" layout="2_columns"
+   slots="title,body,body"/>
+  <p:slide id="128" slidesn="0,0" href="slide0128.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="99" slidesn="0,0" href="slide0099.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="109" slidesn="0,0" href="slide0109.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="119" slidesn="0,0" href="slide0119.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="111" slidesn="0,0" href="slide0111.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="135" slidesn="0,0" href="slide0135.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="110" slidesn="0,0" href="slide0110.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="136" slidesn="0,0" href="slide0136.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="120" slidesn="0,0" href="slide0120.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="137" slidesn="0,0" href="slide0137.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="123" slidesn="0,0" href="slide0123.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="124" slidesn="0,0" href="slide0124.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="138" slidesn="0,0" href="slide0138.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="98" slidesn="0,0" href="slide0098.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="142" slidesn="0,0" href="slide0142.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="143" slidesn="0,0" href="slide0143.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="144" slidesn="0,0" href="slide0144.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="145" slidesn="0,0" href="slide0145.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="146" slidesn="0,0" href="slide0146.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="147" slidesn="0,0" href="slide0147.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="148" slidesn="0,0" href="slide0148.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="149" slidesn="0,0" href="slide0149.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="107" slidesn="0,0" href="slide0107.htm" masterhref="master15.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="117" slidesn="0,0" href="slide0117.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="139" slidesn="0,0" href="slide0139.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="122" slidesn="0,0" href="slide0122.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="140" slidesn="0,0" href="slide0140.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="126" slidesn="0,0" href="slide0126.htm" layout="2_columns"
+   slots="title,body,body"/>
+  <p:viewstate type="slideView" restoredleft="156" restoredtop="946"
+   horizbarstate="2" manualadjustleft="t" manualadjusttop="t"
+   hideoutlineicons="t"/>
+  <p:tag name="___PPT2001" type="binary" datasize="68" dataoffset="0"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Times" charset="0" type="4" family="1"/>
+  <p:font name="Helvetica" charset="0" type="6" family="34"/>
+  <p:font name="Wingdings" charset="2" type="6" family="2"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Lucida Grande" charset="0" type="4" family="87"/>
+  <p:headersfooters formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="252930"/>
+</xml>

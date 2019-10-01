@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="dlftools.xsl" type="text/xsl"?>
+
+<record type="dlftools">
+
+<titleDesc>
+<title>Name of Tool</title>
+<idno>[Unique ID]</idno>
+</titleDesc>
+
+<projectDesc>
+<head>Project Description</head>
+
+<projectLink>Project homepage</projectLink>
+
+<description>Prose summary of type and scope of tool.</description>
+
+<creator mailto="">Name (with email in attribute) of creator</creator>
+
+<contacts>
+<head>Contact Information</head>
+<name mailto="">Name (with email in attribute) of contact person</name> 
+<address url="">Address (with url in attribute) of home institution for project</address>
+</contacts>
+
+<comments type="project">Any other comments go here.</comments>
+
+</projectDesc>
+
+<keywords>
+<head>Topics and Audiences</head>
+
+<topic>Control vocabulary preferable if found</topic>
+<audience>Control vocabulary preferable if found</audience>
+<toolType>Control vocabulary preferable if found</toolType>
+
+</keywords>
+
+<technicalDesc>
+<head>Technical Description</head>
+
+<status type="development">Planning|Pre-Alpha|Alpha|Beta|Production/Stable|Mature|Inactive
+</status>
+
+<language type="natural" scheme="iso639-2">Use ISO 639-2 three-digit language codes in id= attribute</language>
+
+<language type="programming">Use categories from Sourceforge at http://sourceforge.net/softwaremap/trove_list.php?form_cat=160 </language>
+
+<operatingSystem>Cocoa (MacOS X)|Win32 (MS Windows)| X11 | Applications Console (Text Based) | Handhelds/PDA's | Web | Other</operatingSystem>
+
+<license url="">Type</license>
+
+<opensource>yes|no</opensource>
+
+<requirements type="Technical"></requirements>
+
+<collaboration n="yes">Collaboration information or willingness to collaborate on future development</collaboration>
+
+<endDate>yyyy-mm-dd</endDate>
+
+<startDate>yyyy-mm-dd</startDate>
+
+<date type="registered">yyyy-mm-dd</date>
+
+<comments type="technical">Comments go here.</comments>
+
+</technicalDesc>
+
+<revisionDesc>
+<head>Revision Description</head>
+	<revdate>yyyy-mm-dd</revdate>
+	<reviser></reviser>
+	<revision></revision>
+</revisionDesc>
+
+</record>
+

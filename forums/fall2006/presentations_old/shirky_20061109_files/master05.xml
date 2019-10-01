@@ -1,0 +1,12 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="3"/>
+ </o:shapelayout><p:colorscheme
+  colors="#8d8d8d,#727272,#808080,#000000,#007ef8,#333399,#009999,#99cc00"/>
+ <v:background id="_x0000_s3073" o:bwmode="white" o:targetscreensize="800,600">
+  <v:fill src="master03_image001.png" o:title="" type="frame"/>
+ </v:background></xml>

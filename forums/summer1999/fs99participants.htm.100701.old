@@ -1,0 +1,1277 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="DLF Summer 1999 Forum on Digital Library Practices: Participants" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="DLF Forums" />
+<meta name="dc.Description" content="DLF Summer 1999 Forum" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="Barrie Howard. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2006-08-01" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004 - 2006, Digital Library Federation. Publicly-accessible." />
+<title>DLF Summer 1999 Forum on Digital Library Practices: Participants</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF FORUMS</p>
+
+<script src="../../forums.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Executive Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">DLF Summer 1999 Forum on Digital Library Practices: Participants</h1>
+
+
+
+July 1999, Washington, D.C.<br />
+<p>Participants</p>
+
+<table border="0" cellspacing="5" cellpadding="0" width="450">
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Sal Gurnani<br />
+Advanced Technology Group<br />
+California Digital Library<br />
+1111 Franklin, 7312G<br />
+Oakland, CA 94612<br />
+Phone: (510) 987-9501<br />
+Fax: (510) 763-2471<br />
+<a
+href="mailto:Sal.Gurnani@ucop.edu">Sal.Gurnani@ucop.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Brian
+Schottlaender<br />
+Senior Associate to the UL for Primary Source Collections<br />
+California Digital Library<br />
+Young Research Library, Rm. 11334<br />
+Box 951575<br />
+Los Angeles, CA 90095-1575<br />
+Phone (310) 825-1201<br />
+Fax (310) 206-4109<br />
+<a
+href="mailto:bschott@library.ucla.edu">bschott@library.ucla.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Gabrielle V.
+Michalek<br />
+Head of University Archives<br />
+Carnegie Mellon University<br />
+Hunt Library<br />
+4909 Frew Street<br />
+Pittsburgh, PA 15213-3890<br />
+Phone (412) 268-7268<br />
+Fax (412) 268-7148<br />
+<a
+href="mailto:gm1l@andrew.cmu.edu">gm1l@andrew.cmu.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Denise Troll<br />
+Assistant University Librarian<br />
+Carnegie Mellon University<br />
+Hunt Library<br />
+ 4909 Frew Street<br />
+Pittsburgh, PA 15213-3890<br />
+Phone (412) 268-8599<br />
+Fax (412) 268-7148<br />
+<a
+href="mailto:troll@andrew.cmu.edu">troll@andrew.cmu.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Chris Kellen<br />
+Head of Research and Development<br />
+Carnegie Mellon University Library<br />
+Hunt Library<br />
+4909 Frew St<br />
+Pittsburgh PA 15213-3820<br />
+Phone (412) 268-6404<br />
+Fax (412) 268-7148<br />
+<a
+href="mailto:ck05+@andrew.cmu.edu">ck05+@andrew.cmu.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Craig A.
+Summerhill<br />
+Systems Coordinator and Program Officer<br />
+Coalition for Networked Information<br />
+21 Dupont Circle, NW<br />
+Washington, DC 20036<br />
+Phone (202) 296-5098<br />
+Fax (202) 872-0884<br />
+<a href="mailto:Craig@cni.org">Craig@cni.org</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">David Millman<br />
+Manager, Academic Information Systems R&amp;D<br />
+Columbia University<br />
+612 W 115 Street<br />
+Mail Code 6001<br />
+New York, NY 10025<br />
+Phone (212) 854-4284<br />
+Fax (212) 662-6442<br />
+<a href="mailto:dsm@columbia.edu">dsm@columbia.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Stephen Davis<br />
+Director, Library Systems<br />
+Columbia University<br />
+612 Butler Library<br />
+535 West 114 Street<br />
+Mail Code 1114<br />
+New York, NY 10027<br />
+Phone (212) 854-8584<br />
+Fax (212) 854-9099<br />
+<a
+href="mailto:daviss@columbia.edu">daviss@columbia.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">H. Thomas
+Hickerson<br />
+AUL for Information Technologies and Special Collections<br />
+Cornell University<br />
+2B Carl A. Kroch Library<br />
+Ithaca, New York 14853<br />
+Phone (607) 255-3530<br />
+Fax (607) 255-9524<br />
+<a href="mailto:hth2@cornell.edu">hth2@cornell.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Peter Hirtle<br />
+Co-Director, Cornell Institute for Digital Collections<br />
+Division of Digital Library and Information Technologies<br />
+Cornell University<br />
+2B Carl A. Kroch Library<br />
+Ithaca, New York 14853<br />
+Phone (607) 255-3530<br />
+Fax (607) 255-9524<br />
+<a href="mailto:pbh6@cornell.edu">pbh6@cornell.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">David Ruddy<br />
+Electronic Publications Specialist<br />
+Cornell University<br />
+Carl A. Kroch Library<br />
+Ithaca, New York 14853<br />
+Phone (607) 255-3530<br />
+Fax (607) 255-9524<br />
+<a href="mailto:dwr4@cornell.edu">dwr4@cornell.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Deanna Marcum<br />
+President<br />
+Council on Library and Information Resources<br />
+1755 Massachusetts Ave NW, Suite 500<br />
+Washington, DC 20036-2124<br />
+Phone (202) 939-4767<br />
+Fax (202) 939-4765<br />
+<a href="mailto:dmarcum@clir.org">dmarcum@clir.org</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Rebecca A.
+Graham<br />
+Interim Director<br />
+Digital Library Federation<br />
+1755 Massachusetts Ave NW, Suite 500<br />
+Washington, DC 20036-2124<br />
+Phone: (202) 939-4757<br />
+Fax: (202) 939-4765<br />
+<a href="mailto:rgraham@clir.org">rgraham@clir.org</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Martin Halbert<br />
+Director, Library Systems<br />
+Emory University<br />
+Woodruff Library<br />
+ Atlanta, GA 30322<br />
+Phone (404) 727-2204<br />
+Fax (404) 727-0053<br />
+<a href="mailto:mhalber@emory.edu">mhalber@emory.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Betsey
+Patterson<br />
+ Coordinator, Virtual Library Project<br />
+Emory University<br />
+ Woodruff Library<br />
+Atlanta, GA 30322<br />
+ Phone (404) 727-0149<br />
+Fax (404) 727-5235<br />
+<a href="mailto:librbp@emory.edu">librbp@emory.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Naomi Nelson<br />
+SAGE Project Director<br />
+Modern Political Collection Archivist<br />
+Emory University<br />
+Woodruff Library<br />
+ Atlanta, GA 30322<br />
+ Phone (404) 727-6871<br />
+Fax (404) 727-0360<br />
+<a href="mailto:libnn@emory.edu">libnn@emory.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Chuck Spornick<br />
+Director, Beck Center for Electronic Collections &amp;
+Services<br />
+Emory University<br />
+Woodruff Library<br />
+ Atlanta, GA 30322<br />
+Phone (404) 727-6954<br />
+Fax (404) 727-0805<br />
+<a href="mailto:libcds@emory.edu">libcds@emory.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Selden Deemer<br />
+Director, Library Systems<br />
+Emory University<br />
+Woodruff Library<br />
+ Atlanta, GA 30322<br />
+Phone (404) 727-0271<br />
+Fax (404) 727-080<br />
+<a href="mailto:Libssd@emory.edu">Libssd@emory.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">MacKenzie Smith<br />
+Digital Library Projects Manager<br />
+Office for Information Systems<br />
+Harvard University Library<br />
+1280 Massachusetts Ave, Suite 404<br />
+Cambridge, MA 02138<br />
+Phone (617) 495-3724<br />
+Fax (617) 495-0491<br />
+<a
+href="mailto:mackenzie_smith@harvard.edu">mackenzie_smith@harvard.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Jim Coleman<br />
+Digital Library Projects Manager<br />
+Office for Information Systems<br />
+Harvard University Library<br />
+1280 Massachusetts Ave, Suite 404<br />
+Cambridge, MA 02138<br />
+Phone (617) 495-3724<br />
+Fax (617) 495-0491<br />
+<a
+href="mailto:jim_coleman@harvard.edu">jim_coleman@harvard.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Stephen Abrams<br />
+Programmer<br />
+Office for Information Systems<br />
+Harvard University Library<br />
+1280 Massachusetts Ave, Suite 404<br />
+Cambridge, MA 02138<br />
+Phone (617) 495-3724<br />
+Fax (617) 495-0491<br />
+<a
+href="mailto:Stephen_abrams@harvard.edu">Stephen_abrams@harvard.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Kristine
+Brancolini<br />
+Acting Director, Digital Library Program<br />
+Main Library W101A<br />
+10th and Jordan<br />
+Indiana University<br />
+Bloomington, IN 47405<br />
+Phone (812) 855-3710<br />
+Fax (812) 855-1649<br />
+<a
+href="mailto:brancoli@indiana.edu">brancoli@indiana.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Jon Dunn<br />
+Manager<br />
+Digital Library Operations and Development<br />
+Main Library E170<br />
+10th and Jordan<br />
+Indiana University<br />
+Bloomington, IN 47405<br />
+Phone (812) 855-0953<br />
+Fax (812) 855-1649<br />
+<a href="mailto:jwd@indiana.edu">jwd@indiana.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Dave Woodward<br />
+National Digital Library<br />
+Library of Congress<br />
+Washington, DC 20540<br />
+Phone (202) 707- 2663<br />
+Fax (202) 707-0955<br />
+<a href="mailto:dwoo@loc.gov">dwoo@loc.gov</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Ardith
+Bausenbach<br />
+Senior Automation Specialist<br />
+APLO<br />
+Library of Congress<br />
+Washington, DC 20003<br />
+Phone (202) 707-2551<br />
+Fax (202) 707-2756<br />
+<a href="mailto:abau@loc.gov">abau@loc.gov</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Sally McCallum<br />
+Chief, Network Development and MARC Standards Office<br />
+Library of Congress<br />
+101 Independence Avenue SE, LM639<br />
+Washington, DC 20540-4102<br />
+Phone (202) 707-5119<br />
+Fax (202) 707-0115<br />
+<a href="mailto:smcc@loc.gov">smcc@loc.gov</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Dan Jansen<br />
+Project Manager for Digital Projects<br />
+National Archives and Records Administration<br />
+8601 Adelphi Road<br />
+College Park, MD 20740-6001<br />
+Phone (301) 713-6730 ext 285<br />
+Fax (301) 713-6913<br />
+<a
+href="mailto:dan.jansen@arch2.nara.gov">dan.jansen@arch2.nara.gov</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Martha Morphy<br />
+Acting Director of Information Policy and Projects<br />
+National Archives and Records Administration<br />
+8601 Adelphi Road<br />
+College Park, MD 20740-6001<br />
+Phone (301) 713-6730 ext 221<br />
+Fax (301) 713-6913<br />
+<a
+href="mailto:martha.morphy@arch2.nara.gov">martha.morphy@arch2.nara.gov</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Mark Giguere<br />
+Project Manager for "Fast-Track" Electronic Records<br />
+ National Archives and Records Administration<br />
+8601 Adelphi Road<br />
+College Park, MD 20740-6001<br />
+Phone (301) 713-6730 ext 250<br />
+Fax (301) 713-6913<br />
+<a
+href="mailto:mark.giguere@arch2.nara.gov">mark.giguere@arch2.nara.gov</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Heike Kordish<br />
+Deputy Director, The Research Libraries<br />
+New York Public Library<br />
+42nd Street and Fifth Avenue, Room 213<br />
+New York, NY 10018-2788<br />
+Phone (212) 930-0711<br />
+Fax (212) 869-3567<br />
+<a href="mailto:hkordish@nypl.org">hkordish@nypl.org</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Robert
+DeCandido<br />
+Automation Specialist for Preservation<br />
+Preservation Division<br />
+New York Public Library<br />
+42nd Street and Fifth Avenue, Room 68<br />
+New York, NY 10018-2788<br />
+Phone (212) 930-0622<br />
+Fax (212) 302-5328<br />
+<a
+href="mailto:rdecandido@nypl.org">rdecandido@nypl.org</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Caroline Beebe<br />
+Head, Digital Library Initiatives<br />
+North Carolina State University Libraries<br />
+ Campus Box 7111<br />
+Raleigh, NC 27695-7111<br />
+Phone (919) 515-1361<br />
+Fax (919) 515-3628<br />
+<a
+href="mailto:caroline_beebe@ncsu.edu">caroline_beebe@ncsu.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Andrew Pace<br />
+Systems Librarian for Digital Projects and Databases<br />
+North Carolina State University Libraries<br />
+Systems Department<br />
+Campus Box 7111<br />
+Raleigh, NC 27695-7111<br />
+Phone (919) 515-9562<br />
+Fax (919) 515-3628<br />
+<a
+href="mailto:andrew_pace@ncsu.edu">andrew_pace@ncsu.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Eric Morgan<br />
+Network Services Librarian<br />
+North Carolina State University Libraries<br />
+Digital Library Initiatives<br />
+ Campus Box 7111<br />
+Raleigh, NC 27695-7111<br />
+Phone (919) 515-4221<br />
+Fax (919) 515-3628<br />
+<a
+href="mailto:eric_morgan@ncsu.edu">eric_morgan@ncsu.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Michelle Rago<br />
+Web Development Librarian<br />
+North Carolina State University Libraries<br />
+Digital Library Initiatives<br />
+ Campus Box 7111<br />
+Raleigh, NC 27695-7111<br />
+Phone (919) 515-4221<br />
+Fax (919) 515-3628<br />
+<a
+href="mailto:michelle_rago@ncsu.edu">michelle_rago@ncsu.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Brenda Bailey<br />
+Director, Distributed Systems<br />
+OCLC Online Computer Library Center, Inc<br />
+6565 Frantz Road<br />
+Dublin, OH 43017<br />
+Phone (614) 761-5056<br />
+Fax (614) 718-7173<br />
+<a
+href="mailto:brenda_bailey@oclc.org">brenda_bailey@oclc.org</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Eric G. Ferrin<br />
+Sr. Director, Library Computing Services<br />
+Pennsylvania State University<br />
+E003 Paterno Library<br />
+University Park, PA 16802<br />
+Phone (814) 865-1818<br />
+Fax (814) 863-3560<br />
+<a href="mailto:egf@psu.edu">egf@psu.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Susan Hamburger<br />
+Manuscripts Librarian, Special Collections Dept<br />
+Pennsylvania State University<br />
+W342 Paterno Library<br />
+University Park, PA 16802<br />
+Phone (814) 865-2067<br />
+Fax (814) 863-5775<br />
+<a
+href="mailto:sxh@psulias.psu.edu">sxh@psulias.psu.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Bonnie MacEwan<br />
+Assistant Dean for Collections<br />
+Pennsylvania State University, University Libraries<br />
+E510 Paterno Library<br />
+University Park, PA 16802<br />
+Phone (814) 865-0401<br />
+Fax (814) 865-3665<br />
+<a href="mailto:bjm13@psu.edu">bjm13@psu.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">G. Philipe
+Menos<br />
+Library Analyst/Administrator<br />
+Princeton University Library<br />
+Room 3-16-E<br />
+One Washington Road<br />
+Princeton, NJ 08544-2098<br />
+Phone (609) 258-5183<br />
+Fax (609) 258-0441<br />
+<a
+href="mailto:gpmenos@princeton.edu">gpmenos@princeton.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Ricky Erway<br />
+Product Manager<br />
+Integrated Information Services<br />
+Research Libraries Group<br />
+1200 Villa St.<br />
+Mountain View, CA 94041<br />
+Phone (650) 691-2228<br />
+Fax (650) 964-0943<br />
+<a href="mailto:rle@notes.rlg.org">rle@notes.rlg.org</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Lennie Stovel<br />
+Manager, Server Software Development<br />
+Research Libraries Group<br />
+1200 Villa St.<br />
+Mountain View, CA 94041<br />
+Phone (650) 691-2259<br />
+Fax (650) 964-0943<br />
+<a href="mailto:mds@notes.rlg.org">mds@notes.rlg.org</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Jerry Persons<br />
+Manager, Library Systems<br />
+Stanford University<br />
+Green Library<br />
+Mail Code 6004<br />
+Stanford, CA 94305-6004<br />
+Phone (650) 723-9724<br />
+Fax (650) 723-3038<br />
+<a
+href="mailto:jpersons@sulmail.stanford.edu">jpersons@sulmail.stanford.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Catherine M.
+Tierney<br />
+Assistant Director University Library &amp; Academic Information
+Resources<br />
+Stanford University<br />
+Green Library<br />
+Mail Code 6004<br />
+Stanford, CA 94305-6004<br />
+Phone (650) 723-2015<br />
+Fax (650) 725-4902<br />
+<a
+href="mailto:ctierney@sulmail.stanford.edu">ctierney@sulmail.stanford.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Bernie Hurley<br />
+Chief Scientist<br />
+University of California-Berkeley Library<br />
+245 Main Library<br />
+Berkeley, CA 94720-6000<br />
+Phone (510) 642-3773<br />
+Fax (510) 642-4759<br />
+<a
+href="mailto:bernie@library.berkeley.edu">bernie@library.berkeley.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Ralph Moon<br />
+Director, Library Systems Office<br />
+University of California-Berkeley Library<br />
+Library Systems Office<br />
+386 Doe Library<br />
+Berkeley, CA 94720<br />
+Phone (510) 642-5168<br />
+Fax (510) 642-4759<br />
+<a
+href="mailto:rmoon@library.berkeley.edu">rmoon@library.berkeley.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Rick Beaubien<br />
+Lead Software Engineer, Research and Development<br />
+University of California-Berkeley Library<br />
+Library Systems Office<br />
+386 Doe Library<br />
+Berkeley, CA 94720<br />
+Phone (510) 643-9776<br />
+Fax (510) 642-4759<br />
+<a
+href="mailto:rbeaubie@library.berkeley.edu">rbeaubie@library.berkeley.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Charles Blair<br />
+Manager, Digital Library Systems<br />
+The University of Chicago Library<br />
+1100 East 57th Street, Room 210<br />
+Chicago, IL 60637-1502<br />
+Phone (773) 702-8459<br />
+Fax (773) 702-6623<br />
+<a
+href="mailto:c-blair@uchicago.edu">c-blair@uchicago.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Keith Waclena<br />
+Senior Programmer/Analyst<br />
+The University of Chicago Library<br />
+1100 East 57th Street, Room 210<br />
+Chicago, IL 60637-1502<br />
+Phone (773) 702-8763<br />
+Fax (773) 702-6623<br />
+<a
+href="mailto:k-waclena@uchicago.edu">k-waclena@uchicago.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Sarah Burke<br />
+Programmer/Analyst<br />
+The University of Chicago Library<br />
+1100 East 57th Street, Room 210<br />
+Chicago, IL 60637-1502<br />
+Phone (773) 834-0452<br />
+Fax (773) 702-6623<br />
+<a
+href="mailto:sarah@lib.uchicago.edu">sarah@lib.uchicago.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Cory Snavely<br />
+Core Services Programmer<br />
+ Digital Library Production Service<br />
+University of Michigan<br />
+309 Hatcher Library, North<br />
+Ann Arbor, MI 48109-1205<br />
+Phone (734) 615-2887<br />
+Fax (734) 647-6897<br />
+<a href="mailto:Csnavely@umich.edu">Csnavely@umich.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Maria Bonn<br />
+Digital Library Development Librarian<br />
+University of Michigan<br />
+117 A Hatcher Library, North<br />
+Ann Arbor, MI 48109-1205<br />
+Phone (734) 763-3343<br />
+Fax (734) 647-6897<br />
+<a href="mailto:mbonn@umich.edu">mbonn@umich.edu</a><br />
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Charlene Mason<br />
+Deputy University Librarian for Automated Systems<br />
+499 Wilson<br />
+University of Minnesota<br />
+309 19th Ave North<br />
+Minneapolis, MN 55455<br />
+Phone (612) 624-4520<br />
+Fax (612) 626-9353<br />
+<a href="mailto:c-mason@tc.umn.edu">c-mason@tc.umn.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Roy Heinz<br />
+Director, Information Services<br />
+University of Pennsylvania Libraries<br />
+Van Pelt-Dietrich Bldg., Room 232<br />
+3420 Walnut Street<br />
+Philadelphia, Pa. 19104-6206<br />
+Phone (215) 898-7091<br />
+Fax (215) 898-0559<br />
+<a
+href="mailto:heinzr@pobox.upenn.edu">heinzr@pobox.upenn.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Philip Reese<br />
+Executive Director, Info Infrastructure Core<br />
+University of Southern California<br />
+JEF 124<br />
+Los Angeles, CA 90089-0251<br />
+Phone (213) 740-7824<br />
+Fax (213) 740-2837<br />
+<a href="mailto:preese@usc.edu">preese@usc.edu</a><br />
+</font></td>
+<td valign="top" width="50%"><font size="2">Fred Martz<br />
+Director, Library Systems Office<br />
+Yale University<br />
+115 Sterling Memorial Library<br />
+New Haven, CT 06520<br />
+Phone (203) 432-1856<br />
+Fax (203) 432-7231<br />
+<a
+href="mailto:frederick.martz@yale.edu">frederick.martz@yale.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Audrey Novak<br />
+Database Administrator<br />
+Systems Office<br />
+Yale University Library<br />
+PO Box 208240<br />
+New Haven, CT 06520-8240<br />
+Phone (203) 432-2365<br />
+Fax (203) 432-7231<br />
+<a
+href="mailto:audrey.novak@yale.edu">audrey.novak@yale.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Kimberly Parker<br />
+Electronic Publishing and Collections Librarian<br />
+Yale University Library<br />
+P.O. Box 208240<br />
+New Haven, CT 06520-8240<br />
+Phone (203) 432-0067<br />
+Fax (203) 432-8527<br />
+<a
+href="mailto:kimberly.parker@yale.edu">kimberly.parker@yale.edu</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Jeffrey Barnett<br />
+Senior Applications Specialist<br />
+Yale University Library<br />
+120 High Street<br />
+New Haven, CT 06520<br />
+Phone (203) 432-1752<br />
+Fax (203) 432-7231<br />
+<a
+href="mailto:jeffrey.barnett@yale.edu">jeffrey.barnett@yale.edu</a><br />
+
+</font></td>
+<td valign="top" width="50%"><font size="2">Dominique
+Maillet<br />
+Manager, Digitization Department<br />
+Bibliotheque Nationale de France, Quai Francois<br />
+Mauriac, 75006 Paris Cedex 13<br />
+Phone 01-53-79-45-92<br />
+Fax 01-53-79-47-37<br />
+<a
+href="mailto:dominique.maillet@bnf.fr">dominique.maillet@bnf.fr</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+
+<tr>
+<td valign="top" width="50%"><font size="2">Guy Jerram<br />
+U.S. State Department,<br />
+ Office of Language Services<br />
+P.O. Box 1262<br />
+Monterey, CA 93942-1262<br />
+Phone (831) 625-2323<br />
+<a
+href="mailto:agjerram@ix.netcom.com">agjerram@ix.netcom.com</a><br />
+
+</font></td>
+</tr>
+
+<tr valign="top">
+<td width="50%"> </td>
+<td width="50%"> </td>
+</tr>
+</table>
+
+<p>For further information, please consult the following
+pages:</p>
+
+<ul>
+<li><a href="fs99agenda.htm">Agenda of the Forum</a></li>
+
+<li><a href="fs99description.htm">Description of the
+Forum</a></li>
+
+<li><a href="fs99results.htm">Papers presented at the
+Forum</a></li>
+</ul>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="9"/>
+ </o:shapelayout><v:background id="_x0000_s9217" o:bwmode="white">
+  <v:fill color2="#33c [5]"/>
+ </v:background><p:shaperange id="Rectangle_x0020_1">
+  <v:shapetype id="Rectangle_x0020_1" o:spid="_x0000_s9218" style='position:absolute;
+   left:36pt;top:10.125pt;width:647.75pt;height:112.75pt;visibility:visible;
+   v-text-anchor:middle' coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" stroked="f">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="round" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox style='mso-rotate-with-shape:t' inset="2.5mm,1.3mm,2.5mm,1.3mm"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="Rectangle_x0020_2">
+  <v:shapetype id="Rectangle_x0020_2" o:spid="_x0000_s9219" style='position:absolute;
+   left:36pt;top:126pt;width:647.75pt;height:356.25pt;visibility:visible'
+   coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" stroked="f">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="round" o:forcedash="t"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox style='mso-rotate-with-shape:t' inset="2.5mm,1.3mm,2.5mm,1.3mm"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="Date_x0020_Placeholder_x0020_4">
+  <v:shapetype id="Date_x0020_Placeholder_x0020_4" o:spid="_x0000_s9220"
+   style='position:absolute;left:36pt;top:491.75pt;width:167.75pt;height:37.25pt;
+   visibility:visible' coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" stroked="f">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="round" o:forcedash="t"/>
+   <v:path arrowok="t" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox style='mso-rotate-with-shape:t' inset="2.5mm,1.3mm,2.5mm,1.3mm"/>
+   <p:placeholder type="dateTime" position="2"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="Footer_x0020_Placeholder_x0020_5">
+  <v:shapetype id="Footer_x0020_Placeholder_x0020_5" o:spid="_x0000_s9221"
+   style='position:absolute;left:246pt;top:491.75pt;width:227.75pt;height:37.25pt;
+   visibility:visible' coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" stroked="f">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="round" o:forcedash="t"/>
+   <v:path arrowok="t" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox style='mso-rotate-with-shape:t' inset="2.5mm,1.3mm,2.5mm,1.3mm"/>
+   <p:placeholder type="footer" position="3"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="Slide_x0020_Number_x0020_Placeholder_x0020_6">
+  <v:shapetype id="Slide_x0020_Number_x0020_Placeholder_x0020_6" o:spid="_x0000_s9222"
+   style='position:absolute;left:516pt;top:491.75pt;width:167.75pt;height:37.25pt;
+   visibility:visible' coordsize="21600,21600" o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe"
+   filled="f" stroked="f">
+   <v:fill o:detectmouseclick="t"/>
+   <v:stroke joinstyle="round" o:forcedash="t"/>
+   <v:path arrowok="t" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <v:textbox style='mso-rotate-with-shape:t' inset="2.5mm,1.3mm,2.5mm,1.3mm"/>
+   <p:placeholder type="slideNumber" position="4"/>
+  </v:shapetype></p:shaperange>
+</xml>

@@ -1,0 +1,81 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizey="5856" gridspacingx="49152"
+  gridspacingy="49152">
+  <p:master id="4" slidesn="1C00DA0,D3DB0A90" type="main" href="master04.htm"
+   xmlhref="master04.xml" template="Edge" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#820000,#ffffff,#333333,#ffffff,#ff9900,#cc3300,#808080,#666633"/>
+    <p:colorscheme
+     colors="#0b0506,#ccccff,#333333,#ffffff,#3366cc,#3333cc,#808080,#666633"/>
+    <p:colorscheme
+     colors="#221013,#ffffff,#333333,#ffffff,#cc3300,#cc9900,#808080,#666633"/>
+    <p:colorscheme
+     colors="#0000cc,#ffffff,#11054b,#ffffff,#ff6600,#ff3300,#cc9900,#b2b2b2"/>
+    <p:colorscheme
+     colors="#002600,#f8f8f8,#9b8d65,#fafacc,#cc9933,#8f9967,#336600,#808000"/>
+    <p:colorscheme
+     colors="#006699,#ffffff,#333333,#ffffff,#cc9900,#ff9900,#ffcc00,#706f37"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#5f5f5f,#006633,#cc9900,#3b812f,#996600,#afbf39"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#666699,#cc0000,#808080,#999933,#4c6d80,#b2b2b2"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#666699,#003399,#009999,#4c6d4e,#4c6d80,#b2b2b2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" slidesn="1C00DA0,D3DB0A90" type="title" href="master05.htm"
+   xmlhref="master05.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C65BCE,B5C33E60" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C65BCE,B5C33E60" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="4" slidesn="1C64A0D,E8B5D9E0" href="slide0004.htm"
+   layout="title_body" slots="title,body">
+   <p:headersfooters slidenumber="t" formatid="0" noheader="t"/>
+  </p:slide>
+  <p:slide id="5" slidesn="1C658CE,92814350" href="slide0005.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="8" slidesn="1C65AA2,8853FF0" href="slide0008.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="6" slidesn="1C658CE,DFCB7CC0" href="slide0006.htm"
+   layout="2_columns" slots="title,body,body"/>
+  <p:slide id="9" slidesn="1C65B54,9E557920" href="slide0009.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="12" slidesn="1C65BD0,170A8B50" href="slide0012.htm"
+   layout="2_columns" slots="title,body,body"/>
+  <p:slide id="13" slidesn="1C65BD1,BE4A2320" href="slide0013.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="11" slidesn="1C65B85,386292C0" href="slide0011.htm"
+   layout="2_columns" slots="title,body,body"/>
+  <p:slide id="14" slidesn="1C65BD2,DE05A710" href="slide0014.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="15" slidesn="1C65BD9,C8A95810" href="slide0015.htm"
+   masterhref="master05.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle"/>
+  <p:viewstate type="slideView" scale="75" restoredleft="155" restoredtop="846"
+   manualadjustleft="t" manualadjusttop="t" hideoutlineicons="t"/>
+  <p:tag name="___PPT2001" type="binary" datasize="68" dataoffset="0"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Times" charset="0" type="10" family="18"/>
+  <p:font name="Garamond" charset="0" type="6" family="18"/>
+  <p:font name="Times New Roman" charset="0" type="6" family="18"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Wingdings" charset="2" type="6" family="2"/>
+  <p:font name="Franklin Gothic Medium" charset="0" type="6" family="34"/>
+  <p:headersfooters slidenumber="t"
+   footerstr="Implementing the PREMIS Data Dictionary at Stanford" formatid="0"
+   noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="62470">
+  <o:colormru v:ext="edit" colors="#9cf,#69f,silver,#3cc,#099,#66f,#99f,#b2b2b2"/>
+  <o:colormenu v:ext="edit" fillcolor="silver"/>
+ </o:shapedefaults></xml>

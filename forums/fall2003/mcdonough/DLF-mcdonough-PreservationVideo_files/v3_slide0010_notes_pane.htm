@@ -1,0 +1,212 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../DLF-mcdonough-PreservationVideo.htm">
+<link rel=Preview href=preview.wmf>
+<script>
+<!--
+if( window.name != "PPTNts" )
+  parent.location.href = "../DLF-mcdonough-PreservationVideo.htm";
+//-->
+</script>
+</head>
+
+<body bgcolor=black text=white>
+
+<table border=0 width="100%">
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>1.</b></font><font
+  face=Arial size=3><b>NTSC Color Bars</b> - These colors were taken from Final
+  Cut Pro 3. In some of these codec results, NTSC really does mean &quot;Not
+  The Same Color&quot;. It's nice to see how well these codecs keep their color
+  integrity to the time old standard color bars. Also look between the color
+  bars and you'll notice edges combining and smearing colors together in some
+  codecs.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>2.</b></font><font
+  face=Arial size=3><b>Parking Meter</b> - This somewhat represents what a
+  true-life camera shot would look like. The top of the handle also makes for a
+  good shadow test. In some codecs, detail is lost in most of the parking meter
+  image.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>3.</b></font><font
+  face=Arial size=3><b>Chroma Text</b> - Under most situations, a compressed
+  color space of 4:2:2 will yield less than desirable results with a test like
+  this. The text simply can't hold up to the chroma value of the bluish
+  background color.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>4.</b></font><font
+  face=Arial size=3><b>Luma Text</b> - More often than not, a luminance test
+  like this will favor well. Only poor codecs will fail this test.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=center colspan=1><font face=Arial size=3><b>5.</b></font><font
+  face=Arial size=3><b>Color Filtering</b> - Ah, one of the best tests by far.
+  This shows how much the codec is color filtering the image. Some codecs lose
+  this test altogether by changing part of the red aliased line to gray. The
+  key is to enlarge the image after you render it so you can really see the
+  effect of color filtering. The dynamic image selection below shows the
+  different codec's color filtering side by side. Note that the image has been
+  enlarged <b>300%</b> using &quot;Nearest Neighbor&quot; instead of the
+  default &quot;Bicubic&quot; so Photoshop does not interpolate new, colored
+  pixels. Thanks to Matt Silverman for leading me on to this little, but
+  powerful test.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=center colspan=1><font face=Arial size=3><b>6.</b></font><font
+  face=Arial size=3><b>Gradient Banding</b> - This is where all of this
+  started! It was initially due to banding that made me first look into testing
+  different uncompressed codecs. Back in my Media 100 days, banding was
+  something you had to deal with. But with a new NLE purchase in mind, I wanted
+  to see which uncompressed NLE did away with this age-old problem. For this
+  test, I created a solid layer in Adobe After Effects. I added a Mandelbrot
+  color fractal and blurred it out with a value of 120. The colors slowly
+  change over time to give codecs like MPEG and Cinepak a tough time with
+  spatial interpolation. As for the gradient, some codecs just can't handle it
+  and banding is a result.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=center colspan=1><font face=Arial size=3><b>7.</b></font><font
+  face=Arial size=3><b>RGB Bars</b> - To get a good effect of color filtering
+  (or lack there of) combined with the color space limitation of YUV video,
+  pure red, green and blue colors are used and placed at a slant. If the bars
+  were perfectly straight, then the effect may not produce large enough
+  blocking. Some codecs have larger blocking in this area than others, even in
+  the same color space.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=center colspan=1><font face=Arial size=3><b>8.</b></font><font
+  face=Arial size=3><b>RGB Bull's Eye</b> - Pure RGB circles are stacked upon
+  each other to see how much the colors smear into each other. In most cases,
+  the blue and green circles stack up okay, but the red circle usually becomes
+  aliased.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>9.</b></font><font
+  face=Arial size=3><b>Single Pixel Lines</b> - A test to see how well a codec
+  can accurately encode single pixel lines of differing colors. Notice also
+  that the green line is slightly off the background green color. Makes for
+  interesting results. Compared to hair, these lines are thick.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>10.</b></font><font
+  face=Arial size=3><b>Color Grid</b> - Using a grid of lines that are both
+  1-pixel and 2-pixel in width, we can see how much color smear a codec may
+  produce. This test can also show the relationship between the grid's lines
+  and a codecs compression block structure (like a highly compressed Motion
+  JPEG render).</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>11.</b></font><font
+  face=Arial size=3><b>Random Noise</b> - The black and white noise test will
+  typically fair well (sometimes perfect) for the 4:2:2 uncompressed bunch. The
+  color noise test however can't replicate perfectly even by the best 4:2:2
+  uncompressed codec... the colors simply smear out due to the compressed color
+  space limitation.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>12.</b></font><font
+  face=Arial size=3><b>Interlace</b> - This test represents the effect of
+  compression interacting with interlaced fields. If there is a lot of
+  compression or color space artifacts, then this can result in messy interlace
+  lines, which could result in flickery playback.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>13.</b></font><font
+  face=Arial size=3><b>RGB Circles</b> - Much like the &quot;Bull's Eye&quot;
+  test, this test shows how color space blocking can affect an RGB area that is
+  not constant (unlike the RGB bars that <i>are</i> constant).</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>14.</b></font><font
+  face=Arial size=3><b>Simple Color Spectrum</b> - This spectrum is a little
+  like the other color spectrum, except that this spectrum has 30-pixel high
+  lines that should stay constant. If a codec contours, then what should be a
+  30-pixel high color will become many colors.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>15.</b></font><font
+  face=Arial size=3><b>Grayscale Ramp</b> - Exactly like the Simple Color
+  Spectrum, but with monochromatic values. A good codec will replicate all the
+  pixels in this ramp. Some codecs however, induce coloring in these pixels.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>16.</b></font><font
+  face=Arial size=3><b>HSL Spectrum</b> - Although there isn't enough area in
+  this image to display all the colors in an HSL spectrum, it does give us a
+  good idea of any color changes or contouring.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face=Arial size=3><b>17.</b></font><font
+  face=Arial size=3><b>16-bit Ramp</b> - This test is really only useful for
+  10-bit or higher codecs. To the far left of the red ramp is a 16-bit RGB
+  value of [32768,0,0] and to the far right of the ramp is a 16-bit RGB value
+  of [32768,257,257]. In 8-bit fashion, this is only a difference of a couple
+  RGB values, whereas in 16-bit mode, it's a difference of a few hundred RGB
+  values. Seeing how well a codec can represent these microscopic changes is a
+  true test to its replication accuracy.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><br>
+  </td>
+ </tr>
+</table>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

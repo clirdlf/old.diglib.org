@@ -1,0 +1,76 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="69"/>
+ </o:shapelayout><p:colorscheme
+  colors="#ffffff,#000000,#ffffff,#cc6600,#ffffcc,#b5e0e3,#e5d093,#ccb374"/>
+ <v:background id="_x0000_s70657" o:bwmode="white" fillcolor="white [0]"
+  o:targetscreensize="800,600">
+  <v:fill color2="white [2]" angle="-135" focus="50%" type="gradient"/>
+ </v:background><p:shaperange id="_x0000_m70658">
+  <v:shapetype id="_x0000_m70658" style='position:absolute;left:36pt;top:12pt;
+   width:630pt;height:54pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]" opacity=".5"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m70659">
+  <v:shapetype id="_x0000_m70659" style='position:absolute;left:42pt;top:84pt;
+   width:612pt;height:409.125pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#ffc [4]" stroked="f"
+   strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s70660">
+  <v:shapetype id="_x0000_s70660" style='position:absolute;left:54pt;top:498pt;
+   width:150pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="0"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s70661">
+  <v:shapetype id="_x0000_s70661" style='position:absolute;left:204pt;top:7in;
+   width:372pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s70662">
+  <v:shapetype id="_x0000_s70662" style='position:absolute;left:516pt;top:498pt;
+   width:150pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="slideNumber" position="4" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="2"/>
+  </v:shapetype></p:shaperange>
+</xml>

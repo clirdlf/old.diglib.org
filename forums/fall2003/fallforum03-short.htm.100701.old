@@ -1,0 +1,933 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Fall Forum 2003: Abbreviated Program</title>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body onload="MM_preloadImages('images/preserve_r.gif','images/use_r.gif','images/build_r.gif','images/logo_r.gif','images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+<a href="/search.html">Search</a>
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<ol class="newsbold">
+<li><a href="http://www.bl.uk/">British Library</a><br /><br /></li>
+<li><a href="http://www.cdlib.org/">California Digital Library</a><br /><br /></li><li>
+<a href="http://www.library.cmu.edu/">Carnegie Mellon University</a><br /><br /></li><li>
+<a href="http://www.columbia.edu/cu/libraries/digital/">Columbia University</a><br /><br /></li><li>
+<a href="http://campusgw.library.cornell.edu/">Cornell University</a><br /><br /></li><li>
+<a href="http://www.clir.org/">Council on Libraries and Information Resources</a><br /><br /></li><li>
+<a href="http://www.dartmouth.edu/libcomp/">Dartmouth College</a><br /><br /></li><li>
+<a href="http://www.emory.edu/LIBRARIES/">Emory University</a><br /><br /></li><li>
+<a href="http://hul.harvard.edu/ldi/">Harvard University </a><br /><br /></li><li>
+<a href="http://www.dlib.indiana.edu/">Indiana University</a><br /><br /></li><li>
+<a href="http://webapps.jhu.edu/jhuniverse/libraries/">Johns Hopkins University</a><br /><br /></li><li>
+<a href="http://memory.loc.gov/ammem/dli2/html/lcndlp.html">Library of Congress</a><br /><br /></li><li>
+<a href="http://libraries.mit.edu/">Massachusetts Institute of Technology</a><br /><br /></li><li>
+<a href="http://www.archives.gov/index.html">National Archives and Records Administration </a><br /><br /></li><li>
+<a href="http://digital.nypl.org/">New York Public Library </a><br /><br /></li><li>
+<a href="http://www.nyu.edu/library/">New York University </a><br /><br /></li><li>
+<a href="http://www.lib.ncsu.edu/">North Carolina State University </a><br /><br /></li><li>
+<a href="http://www.psu.edu/ur/libraries.html">Pennsylvania State University </a><br /><br /></li><li>
+<a href="http://artsdata.princeton.edu/">Princeton University </a><br /><br /></li><li>
+
+<a href="http://www.rice.edu/fondren/">Rice University </a><br /><br /></li><li>
+
+<a href="http://www-sul.stanford.edu/">Stanford University </a><br /><br /></li><li>
+<a href="http://sunsite.berkeley.edu/">University of California, Berkeley</a><br /><br /></li><li>
+<a href="http://www.lib.uchicago.edu/e/index.html">University of Chicago </a><br /><br /></li><li>
+<a href="http://gateway.library.uiuc.edu/index.html">University of Illinois at Urbana-Champaign </a><br /><br /></li><li>
+<a href="http://www.lib.umich.edu/lit/">University of Michigan </a><br /><br /></li><li>
+<a href="http://www.lib.umn.edu/">University of Minnesota </a><br /><br /></li><li>
+<a href="http://www.library.upenn.edu/">University of Pennsylvania </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Southern California </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Tennessee </a><br /><br /></li><li>
+<a href="http://www.lib.utexas.edu/">University of Texas at Austin </a><br /><br /></li><li>
+<a href="http://www.lib.virginia.edu/">University of Virginia </a><br /><br /></li><li>
+<a href="http://www.lib.washington.edu/">University of Washington</a>
+<br /><br /></li><li>
+<a href="http://www.library.yale.edu/">Yale University </a></li>
+</ol>
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+<ol class="newsbold">
+
+<li><a href="http://www.oclc.org/home/">Online Computer Library Center </a>
+<br /><br /></li>
+<li><a href="http://www.rlg.org/toc.html">Research Libraries Group </a>
+<br /><br /></li>
+<li><a href="http://www.cni.org">Coalition for Networked Information </a>
+<br /><br /></li>
+<li><a href="http://lib-www.lanl.gov/">Los Alamos National Laboratory Research Library </a></li>
+</ol>
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- <img src="images/books.gif" alt="photo of books" width="56" height="59" /> -->
+
+<!-- Begin text here -->
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt'>Fall Forum 2003 </span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:18.0pt'>Schedule <span class=GramE>At</span> A
+Glance </span></b></p>
+
+<br />
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt'>Monday 17 November</span> </b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="13" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>1:00-2:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'><span
+style='mso-tab-count:1'>         </span><b style='mso-bidi-font-weight:normal'>REGISTRATION.</b><span
+style='mso-spacerun:yes'>  </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'>Foyer to Alvarado Room.</i></b></span><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'> </i></b></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#993366'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><st1:time Hour="14" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>2:00-3:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>BREAKOUT SESSION 1: PRESERVATION.<span
+style='mso-spacerun:yes'>    </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i> </b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt;color:blue'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:blue'>Digital Formats: Factors for
+Sustainability, Functionality, and Quality.</span></b><span style='font-size:
+10.0pt'> <span class=GramE>Caroline Arms and Carl Fleischhauer.</span> <span
+class=GramE>Office of Strategic Initiatives, Library of Congress.</span> </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:blue'>Digital
+Object Format Validation</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>.</span></b></span><span style='font-size:10.0pt'>
+Stephen L. Abrams, Digital Library Program Manager, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Harvard</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> Library </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="14" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>2:00-3:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>BREAKOUT SESSION 2: RESOURCE MANAGEMENT.<span
+style='mso-spacerun:yes'>  </span><span class=GramE><i style='mso-bidi-font-style:
+normal'>Alvarado Room D.</i></span> </b></span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>The DLF E-Resource
+Management Initiative: Project Report</span></b><span style='font-size:10.0pt'>.
+Tim Jewell, University of Washington; Ivy Anderson, Harvard; Adam Chandler,
+Cornell; Sharon <span class=SpellE>Farb</span>, UCLA; Kimberly Parker,
+Yale;<span style='mso-spacerun:yes'>  </span>Angela <span class=SpellE>Riggio</span>,
+UCLA; Nathan Robertson, Johns Hopkins. </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="15" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>3:30-4:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <span
+style='mso-tab-count:1'>        </span><b style='mso-bidi-font-weight:normal'>Break:
+<i style='mso-bidi-font-style:normal'>Foyer to Alvarado Room.</i></b><i
+style='mso-bidi-font-style:normal'> </i></span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="16" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>4:00-5:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <span
+style='mso-tab-count:1'>        </span><b style='mso-bidi-font-weight:normal'>BREAKOUT
+SESSION 3: ARCHITECTURES. <i style='mso-bidi-font-style:normal'>Alvarado Room
+ABC</i></b><i style='mso-bidi-font-style:normal'> </i></span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:blue'>MPEG-21
+DIDL, the OAI-PMH, and the OpenURL as building blocks for representing, storing
+and disseminating complex digital objects</span></b><span style='font-size:
+10.0pt;color:blue'>.</span></span><span style='font-size:10.0pt;color:blue'><span
+style='mso-spacerun:yes'>  </span></span><span lang=NL-BE style='font-size:
+10.0pt;mso-ansi-language:NL-BE'>Jeroen Bekaert, Patrick Hochstenbach, Herbert
+Van de Sompel. </span><st1:place><span style='font-size:10.0pt'>Los Alamos</span></st1:place><span
+style='font-size:10.0pt'> National Laboratory, Research Library, Prototyping
+Team. <span style='color:blue'> </span></span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:blue'>Update on the Fedora
+Open-Source Project</span></b><span style='font-size:10.0pt;color:blue'>.<span
+style='mso-spacerun:yes'>  </span></span><span style='font-size:10.0pt'>Sandy
+Payette, </span><st1:place><st1:PlaceName><span style='font-size:10.0pt'>Cornell</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt;color:blue'> </span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><st1:time Hour="16" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='font-size:12.0pt;font-family:"Times New Roman";
+ color:#993366'>4:00-5:30</span></b></st1:time><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'>:</span></b><span
+style='font-family:"Times New Roman"'> <span style='mso-tab-count:1'>        </span><b
+style='mso-bidi-font-weight:normal'>BREAKOUT SESSION 4: PRESERVATION.<span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room D</i></b> </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>LOCKSS Implementation:
+technology, collections, and access.</span></b><span style='font-size:10.0pt'><span
+style='mso-spacerun:yes'>  </span>Tom Robertson, Technical Manager, LOCKSS
+Program, Stanford University;<span style='mso-spacerun:yes'>  </span>Perry
+Willett, Head, Library Electronic Text Resource Service, Indiana University;
+Martin Halbert, Director for Library Systems, Emory University. </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'><st1:time
+Hour="18" Minute="30"><b style='mso-bidi-font-weight:normal'><span
+ style='color:#993366'>6:30-9:00</span></b></st1:time><b style='mso-bidi-font-weight:
+normal'>:</b><span style='font-size:10.0pt'> <span style='mso-tab-count:1'>        </span><b
+style='mso-bidi-font-weight:normal'>Reception. <span class=GramE>The Franciscan
+Ballroom, </span></b></span><st1:place><st1:PlaceName><span class=GramE><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>Sheraton</span></b></span></st1:PlaceName><span
+ class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-size:
+ 10.0pt'> </span></b></span><st1:PlaceName><span class=GramE><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>Old</span></b></span></st1:PlaceName><span
+ class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-size:
+ 10.0pt'> </span></b></span><st1:PlaceType><span class=GramE><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>Town</span></b></span></st1:PlaceType></st1:place><span
+class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>.</span></b></span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'> </span></b></p>
+
+<br />
+
+<b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>Tuesday 18 November </b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="8" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>8:00-9:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <span
+style='mso-tab-count:1'>        </span><b style='mso-bidi-font-weight:normal'>Continental
+Breakfast.<span style='mso-spacerun:yes'>  </span><span class=GramE><i
+style='mso-bidi-font-style:normal'>Foyer to Alvarado Room.</i></span><i
+style='mso-bidi-font-style:normal'> </i></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><st1:time Hour="9" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <span
+style='mso-tab-count:1'>      </span><b style='mso-bidi-font-weight:normal'>BREAKOUT
+SESSION 5: TOOLS.<span style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:
+normal'>Alvarado Room ABC. </i></b></span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>Responding
+to Digital Data Needs:<span style='mso-spacerun:yes'>  </span>The DEWI System.</span></b></span><span
+style='font-size:10.0pt'> Ron Nakao and Chris Bourg, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Stanford</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> Libraries </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>Building
+Collections with Greenstone Digital Library Software.</span></b></span><span
+style='font-size:10.0pt'> <span class=SpellE>Tod</span> A. Olson,
+Programmer/Analyst Digital Library Development Center, </span><st1:place><st1:PlaceType><span
+  style='font-size:10.0pt'>University</span></st1:PlaceType><span
+ style='font-size:10.0pt'> of </span><st1:PlaceName><span style='font-size:
+  10.0pt'>Chicago</span></st1:PlaceName></st1:place><span style='font-size:
+10.0pt'> Library </span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:time Hour="9" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>BREAKOUT SESSION 6: METADATA AND
+PRODUCTION.<span style='mso-spacerun:yes'>  </span><span class=GramE><i
+style='mso-bidi-font-style:normal'>Alvarado Room D.</i></span> </b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>Metadata
+Tradeoffs in High-Production Digitization Environments.</span></b></span><span
+style='font-size:10.0pt'><span style='mso-spacerun:yes'>  </span>Nancy J.
+Hoebelheinrich.<span style='mso-spacerun:yes'>  </span>Metadata Coordinator, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Stanford</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> Libraries / Academic Information Resources (SUL/AIR) </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>The Union Catalog of Art
+Images (UCAI):<span style='mso-spacerun:yes'>  </span>Aggregating and
+Standardizing Diverse Legacy Metadata.</span></b><span style='font-size:10.0pt'>
+<span class=SpellE>Esme</span> Cowles (Database Developer) and Linda Barnhart
+(Project Coordinator), Union Catalog of Art Images </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="10" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>10:30-11:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>:</span></b><span
+style='font-size:10.0pt'> <b style='mso-bidi-font-weight:normal'>Break:<i
+style='mso-bidi-font-style:normal'> Foyer to Alvarado Room.</i></b><i
+style='mso-bidi-font-style:normal'> </i></span></p>
+
+<p class=MsoNormal style='tab-stops:96.0pt'><span style='font-size:10.0pt'><span
+style='mso-tab-count:1'>                                           </span><b
+style='mso-bidi-font-weight:normal'> </b></span></p>
+
+<p class=MsoNormal><st1:time Hour="11" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'> BREAKOUT SESSION 7:<span style='mso-spacerun:yes'> 
+</span>PRESERVATION.<span style='mso-spacerun:yes'>    </span><i
+style='mso-bidi-font-style:normal'>Alvarado Room ABC.</i> </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>Preservation-Worthy
+Digital Video; or, How to Drive your Library into Chapter 11</span></b><span
+style='font-size:10.0pt'>.</span></span><span style='font-size:10.0pt'><span
+style='mso-spacerun:yes'>  </span>Jerry McDonough.<span
+style='mso-spacerun:yes'>  </span></span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>New York</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><st1:State><st1:place><span
+  class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-size:
+  10.0pt;color:#3366FF'>California</span></b></span></st1:place></st1:State><span
+class=GramE><b style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;
+color:#3366FF'> Digital Library's Digital Preservation Program</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'>.</span></b></span><span
+style='font-size:10.0pt'> Patricia Cruse, Director, Digital Preservation
+Program, </span><st1:State><st1:place><span style='font-size:10.0pt'>California</span></st1:place></st1:State><span
+style='font-size:10.0pt'> Digital Library </span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:time Hour="11" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><span
+style='font-size:10.0pt'>: <b style='mso-bidi-font-weight:normal'>BREAKOUT
+SESSION 8: USER PERSPECTIVE AND ASSESSMENT.<span style='mso-spacerun:yes'> 
+</span><span class=GramE><i style='mso-bidi-font-style:normal'>Alvarado D.</i></span> </b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>Digital Scholarship in the
+Academy: What Scholars Need</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>.</span></b><span style='font-size:10.0pt'><span
+style='mso-spacerun:yes'>  </span>Ann Lally, Head, Digital Initiatives, </span><st1:place><st1:PlaceType><span
+  style='font-size:10.0pt'>University</span></st1:PlaceType><span
+ style='font-size:10.0pt'> of </span><st1:PlaceName><span style='font-size:
+  10.0pt'>Washington</span></st1:PlaceName></st1:place><span style='font-size:
+10.0pt'> Libraries </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>The Evolution of an
+Interface from the User Perspective: From End User Testing to a Usage Log
+Analysis</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>.</span></b><span style='font-size:10.0pt'><span
+style='mso-spacerun:yes'>  </span>Sarah Chandler, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Cornell</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> </span></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:time Hour="12" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>12:30-2:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>Lunch. <span class=GramE><i
+style='mso-bidi-font-style:normal'>Franciscan Ballroom.</i></span><i
+style='mso-bidi-font-style:normal'> </i></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class=MsoNormal><st1:time Hour="14" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>2:00-3:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <span
+style='mso-tab-count:1'>        </span><b style='mso-bidi-font-weight:normal'>PLENARY.</b>
+<b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC </i></b></span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:blue'>Introduction.</span></b></span><span
+style='font-size:10.0pt;color:blue'><span style='mso-spacerun:yes'>  </span></span><span
+style='font-size:10.0pt'><span style='mso-spacerun:yes'> </span>David Seaman,
+DLF </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:blue'>A rose is a rose by any other
+name; what's a DODL?</span></b><span style='font-size:10.0pt'> Michael Keller, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Stanford</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="15" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>3:30-4:00</span></b></st1:time>:<span
+style='font-size:10.0pt'> <b style='mso-bidi-font-weight:normal'>Break:<i
+style='mso-bidi-font-style:normal'> Foyer to Alvarado Room. </i></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class=MsoNormal><st1:time Hour="16" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>4:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'><span style='color:#993366'>-6.00</span>:</b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'> BIRDS OF A
+FEATHER SESSIONS </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'>a)
+Elizabeth A. S. Beaudin (Yale): <b style='mso-bidi-font-weight:normal'>UNICODE:
+The Right Tools, but how to use them?<span style='mso-spacerun:yes'>   </span></b><span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i><b style='mso-bidi-font-weight:normal'> </b></span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'>b)
+John Kunze (CDL): <b style='mso-bidi-font-weight:normal'>Persistent
+Identifiers:<span style='mso-spacerun:yes'>  </span>What's left to be done?</b><span
+style='mso-spacerun:yes'>  </span><span class=GramE><i style='mso-bidi-font-style:
+normal'>Alvarado Room D.</i></span> </span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:"Times New Roman"'>c)
+Jerry McDonough (NYU): <b style='mso-bidi-font-weight:normal'>METS Implementers</b>.<span
+style='mso-spacerun:yes'>  </span><span class=GramE><i style='mso-bidi-font-style:
+normal'>Potters Room.</i></span><i style='mso-bidi-font-style:normal'> </i></span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'>d) Perry
+Willett (</span><st1:State><st1:place><span style='font-size:10.0pt'>Indiana</span></st1:place></st1:State><span
+style='font-size:10.0pt'>): <b style='mso-bidi-font-weight:normal'>The Text
+Encoding Initiative and the revision of the DLF &quot;TEI in Libraries&quot;
+Guidelines</b><i style='mso-bidi-font-style:normal'>.<span
+style='mso-spacerun:yes'>  </span>Weavers Room </i></span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'>e)
+Mackenzie Smith (MIT): <b style='mso-bidi-font-weight:normal'>Global Digital
+Format Registry.<span style='mso-spacerun:yes'>  </span></b><span class=GramE><i
+style='mso-bidi-font-style:normal'>Fireplace Room.</i></span><i
+style='mso-bidi-font-style:normal'> </i></span></p>
+
+<b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal align=center style='text-align:center'><b style='mso-bidi-font-weight:
+normal'>Wednesday 19 November </b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="8" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>8:00-9:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>Continental Breakfast: <i style='mso-bidi-font-style:
+normal'>Foyer to Alvarado Room. </i></b></span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="9" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><span style='font-size:10.0pt'> <b
+style='mso-bidi-font-weight:normal'>BREAKOUT SESSION 9: PRESERVATION.<span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i> </b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>The
+National Digital Information Infrastructure and Preservation Program</span></b><span
+style='font-size:10.0pt'>.</span></span><span style='font-size:10.0pt'> Clay
+Shirky and Laura Campbell  </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="9" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time>:<span
+style='font-size:10.0pt'> <b style='mso-bidi-font-weight:normal'>BREAKOUT
+SESSION 10: RESOURCE MANAGEMENT.<span style='mso-spacerun:yes'>  </span><span
+class=GramE><i style='mso-bidi-font-style:normal'>Alvarado Room D.</i></span> </b></span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><span class=SpellE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>LibData</span></b></span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>:
+a library web management system</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>. </span></b><span style='font-size:10.0pt'>Paul F.
+Bramscher, Shane A, Nackerud, and John T. Butler, </span><st1:place><st1:PlaceType><span
+  style='font-size:10.0pt'>University</span></st1:PlaceType><span
+ style='font-size:10.0pt'> of </span><st1:PlaceName><span style='font-size:
+  10.0pt'>Minnesota</span></st1:PlaceName></st1:place><span style='font-size:
+10.0pt'>, </span><st1:place><st1:PlaceName><span style='font-size:10.0pt'>Twin</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>Cities</span></st1:PlaceType></st1:place><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'> </span></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>NAND: A New Tool for an
+Old Problem</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>. </span></b><span style='font-size:10.0pt'>Charles
+Blair, Elisabeth Long, and Keith Waclena, <span class=GramE>The</span> </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Digital</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceName><span style='font-size:10.0pt'>Library</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceName><span style='font-size:10.0pt'>Development</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>Center</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'>, The </span><st1:place><st1:PlaceType><span
+  style='font-size:10.0pt'>University</span></st1:PlaceType><span
+ style='font-size:10.0pt'> of </span><st1:PlaceName><span style='font-size:
+  10.0pt'>Chicago</span></st1:PlaceName></st1:place><span style='font-size:
+10.0pt'> Library </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:time Hour="10" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>10:30-11:00</span></b></st1:time>:<span
+style='font-size:10.0pt'> <b style='mso-bidi-font-weight:normal'>Break: <i
+style='mso-bidi-font-style:normal'>Foyer to Alvarado Room. </i></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><st1:time Hour="11" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'> BREAKOUT SESSION 11: NATIONAL SCIENCE DIGITAL
+LIBRARY.<span style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:
+normal'>Alvarado Room ABC.</i> </span></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>NSDL
+Projects Update</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>.</span></b></span><span style='font-size:10.0pt'><span
+style='mso-spacerun:yes'>  </span>Martin Halbert, Director for Library Systems,
+</span><st1:place><st1:PlaceName><span style='font-size:10.0pt'>Emory</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="11" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><span
+style='font-size:10.0pt'>: <b style='mso-bidi-font-weight:normal'>BREAKOUT
+SESSION 12.<span style='mso-spacerun:yes'>  </span><span class=GramE><i
+style='mso-bidi-font-style:normal'>Alvarado Room D.</i></span><i
+style='mso-bidi-font-style:normal'> </i></b></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>Data Mining Library
+Collection Silos: An </span></b><st1:place><b style='mso-bidi-font-weight:normal'><span
+ style='font-size:10.0pt;color:#3366FF'>Opportunity</span></b></st1:place><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>
+for Cooperative Collection Management of Print and Electronic Books.<span
+style='mso-spacerun:yes'>   </span></span></b><span style='font-size:10.0pt'>Lynn
+<span class=SpellE>Silipigni</span> Connaway.<span style='mso-spacerun:yes'> 
+</span><span class=GramE>OCLC Online </span></span><st1:place><st1:PlaceName><span
+  class=GramE><span style='font-size:10.0pt'>Computer</span></span></st1:PlaceName><span
+ class=GramE><span style='font-size:10.0pt'> </span></span><st1:PlaceName><span
+  class=GramE><span style='font-size:10.0pt'>Library</span></span></st1:PlaceName><span
+ class=GramE><span style='font-size:10.0pt'> </span></span><st1:PlaceType><span
+  class=GramE><span style='font-size:10.0pt'>Center</span></span></st1:PlaceType></st1:place><span
+class=GramE><span style='font-size:10.0pt'>, Office of Research.</span></span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt'> </span></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:10.0pt;color:#3366FF'>From aggregation to
+commerce: the next phase for the RLG Cultural Materials </span></b><st1:City><st1:place><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>Alliance</span></b></st1:place></st1:City><b
+style='mso-bidi-font-weight:normal'><span style='font-size:10.0pt;color:#3366FF'>.</span></b><span
+style='font-size:10.0pt'><span style='mso-spacerun:yes'>  </span>Ricky <span
+class=SpellE>Erway</span>, Digital Resources Manager, RLG </span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><st1:time Hour="12" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>12:30-1:00</span></b></st1:time><b
+style='mso-bidi-font-weight:normal'>:</b> <span style='mso-tab-count:1'>    </span></p>
+
+<br />
+
+<p class=MsoNormal><span style='font-size:10.0pt'><span style='mso-tab-count:
+1'>                </span><span class=GramE><b style='mso-bidi-font-weight:
+normal'><span style='color:blue'>Closing remarks.</span></b></span> David
+Seaman, DLF.<span style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:
+normal'>Alvarado Room ABC.</i> </span></p>
+
+<br />
+
+<br />
+
+</div>
+
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+
+</tr></table>
+
+<hr width="75%" />
+<p align="center" style='text-align:center'><i><span style=
+'font-size:10.0pt'>Copyright &copy; 2004 by the Digital Library
+Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+</p>
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

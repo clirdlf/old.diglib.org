@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+
+
+<head>
+
+
+
+<meta http-equiv="Content-Type"
+
+content="text/html; charset=iso-8859-1">
+
+
+
+
+<title>MOA2 revision. Framing document (December 2000)</title>
+
+</head>
+
+
+
+<body background="../img/DLFsidebar.gif" bgcolor="#FFFFFF"
+
+LINK="#006600" alink="#660000"vlink="#CC6600" text="#000000">
+
+
+
+<!-- Begin Table -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+
+
+<!-- DLF Graphic -->
+
+
+<tr>
+
+<td valign="bottom" align="left" colspan=3>
+
+<IMG SRC="../img/spacer.gif" WIDTH=12 HEIGHT=1 BORDER=0 ALIGN="bottom" ALT="">
+
+<img src="../img/dlflogosquare.gif" alt="DLF logo" align="bottom" width="56" height="50" hspace="0" vspace="15">
+
+<IMG SRC="../img/spacer.gif" WIDTH=20 HEIGHT=1 BORDER=0 ALIGN="bottom" ALT="">
+
+<img src="../img/dlflogotext.gif" alt="DLF logo" align="bottom" width="282" height="41" hspace="1" vspace="15">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td valign="top" align="left" colspan=3>
+
+<IMG SRC="../img/spacer.gif" WIDTH=100 HEIGHT=1 BORDER=0 ALIGN="bottom" ALT="">
+
+
+
+</td>
+
+
+</tr>
+
+
+<!-- Navigation column -->    <tr>
+
+ 	<TD valign="top" ALIGN="left" WIDTH=180>
+
+ 	<IMG SRC="../img/spacer.gif" WIDTH=180 HEIGHT=1 BORDER=0 ALIGN="LEFT" ALT="">
+
+	<BR CLEAR="ALL">
+
+
+<a href="../dlfhomepage.htm"><IMG SRC="../img/rdlfhome.gif" WIDTH="155" HEIGHT="16" ALT="DLF Home" BORDER=0></a>
+
+
+ 	    <P><a href="../about.htm"><IMG SRC="../img/rabout.gif" WIDTH="155" HEIGHT="16" ALT="About" BORDER=0></a>
+
+
+
+	    <P><a href="../architectures.htm"><IMG SRC="../img/rarch.gif" WIDTH="155" HEIGHT="16" ALT="Architectures, systems and tools" BORDER=0></a>
+
+
+
+     	<P><a href="../preserve.htm"><IMG  SRC="../img/rpresv.gif" WIDTH="155" HEIGHT="16" ALT="Digital preservation" BORDER=0></a>
+
+
+
+     	<P><a href="../collections.htm"><IMG SRC="../img/rcoll.gif" WIDTH="155" HEIGHT="16" ALT="Digital collections" BORDER=0></a>
+
+
+     	<P><a href="../standards.htm"><IMG SRC="../img/rsandp.gif" WIDTH="155" HEIGHT="16" ALT="Standards and practices" BORDER=0></a>
+
+     	<P><a href="../use.htm"><IMG SRC="../img/ruandu.gif" WIDTH="155" HEIGHT="16" ALT="Use and users" BORDER=0></a>
+
+
+
+     	<P><a href="../roles.htm"><IMG  SRC="../img/rrandr.gif" WIDTH="155" HEIGHT="16" ALT="Roles and responsibilities" BORDER=0></a>
+
+     	<P><a href="../forums.htm"><IMG  SRC="../img/rforum.gif" WIDTH="155" HEIGHT="16" ALT="DLF Forum" BORDER=0></a>
+
+
+     	<P><a href="../publications.htm"><IMG  SRC="../img/rpandr.gif" WIDTH="155" HEIGHT="16" ALT="Publications and resources" BORDER=0></a>
+        </td>
+
+
+
+
+<!-- Gutter column -->
+
+	<td valign="top">
+
+		<img src="../img/spacer.gif" alt="" align="top" width="25" height="1">
+
+		</td>
+
+
+
+<!-- Text column -->
+
+    <td valign="top" width="75%">
+
+
+
+<!-- Begin text here -->
+
+
+
+
+<H2>Structural, technical, and administrative metadata standards. A discussion document</H2>
+
+<P>December 2000
+
+<DIR>
+<P>This document is based on one that prepared by Jerome McDonough (New York University), Merrilee Proffitt, (University of California at Berkeley), and MacKenzie Smith (Harvard University Library) in order to initiate discussion at a workshop convened on 15 and 16 February 2001.
+</DIR>
+
+
+<P>Maintaining a library of digital objects of necessity requires maintaining metadata about those objects.  The metadata necessary for successful management and use of digital objects is both more extensive than and different from the metadata used for managing collections of printed works and other physical materials.  While a library may record descriptive metadata regarding a book in its collection, the book will not dissolve into a series of unconnected pages if the library fails to record structural metadata regarding the book's organization, nor will scholars be unable to evaluate the book's worth if the library fails to note that the book was produced using a Ryobi offset press.  The same cannot be said for a digital version of the same book.  Without structural metadata, the page image or text files comprising the digital work are of little use, and without technical metadata regarding the digitization process, scholars may be unsure of how accurate a reflection of the original the digital version provides.  For internal management purposes, a library must have access to appropriate technical metadata in order to periodically refresh and migrate the data, ensuring the durability of valuable resources.
+
+<P>Unfortunately, while the library community has agreed upon standard forms of description, controlled vocabularies and data formats for descriptive metadata for physical works in their collection (along with organizations and procedures for maintaining such standards), no such standardization exists for the structural, administrative and technical metadata needed for the successful management of digital objects.  Moreover, traditional forms of descriptive metadata are in some ways proving poorly suited to documenting digital works.  Few institutions would  contemplate trying to create MARC records for every slide in an image collection that they might be digitizing; however, the desire to provide item-level access through some form of description persists.  For libraries trying to manage digital objects, then, the entire realm of descriptive, structural, administrative and technical metadata is currently poorly defined.
+
+<P>The Making of America II Testbed Project attempted to address many of these issues surrounding metadata for digital library objects through the development of a well-documented set of metadata elements needed for digital object management.  This metadata set achieved its technological expression through an XML document type definition, the MOA2 DTD.  While providing an excellent starting point for discussions around digital object metadata, the MOA2 DTD was only designed to allow for the encoding of a limited range of digital objects, including diaries, still images, ledgers, and letterpress books.  As the DTD has been more widely applied, the limitations of its original design have become more apparent.  The DTD as it stands lacks adequate provisions for encoding of descriptive metadata, only supports technical metadata for a narrow range of text- and image-based resources, provides no support for audio, video, and other time dependent media, and provides only very minimal internal and external linking facilities.
+
+<P>Despite its shortcomings, the MOA2 DTD represents a significant step towards developing both a standard set of data elements for describing and managing digital library objects, and a technological mechanism for expressing that information.  This workshop will provide an opportunity to build on and extend the MOA2 DTD to allow it to support a wider range of digital library objects and operations, and to discuss what further steps might be taken to further develop and maintain the DTD in the future.
+
+<P>A meeting to be held at New York University on 15 and 16 February, 2001, to:
+
+<UL>
+<LI>hear reports about how has MOA2 worked/not worked for the original project team and others who have applied it in their own institutions;<P>
+<LI>consider a survey related standards work that might be incorporated into or influence a revised MOA2 DTD, including (Dublin Core, USMARC, Encoded Archival Description, Indecs Metadata Framework, VRA Core, NISO Technical Metadata for Digital Still Images,  Library of Congress audio/visual technical metadata, National Library of Australia Preservation Metadata for Digital Collections, Resource Description Framework, Synchronized Multimedia Integration Language, MPEG-7;<P>
+<LI>specify requirements for "MOA3" (e.g. what needs to be changed or added to the current DTD to make it more useful?  What should be removed? What does it do well at the moment that should not be changed?)<P>
+<LI>Consider next steps (e.g. how to implement proposed revisions to the DTD and to maintain the DTD on an ongoing basis, whether to pursue some more formal standards track)<P>
+</UL>
+<!-- End text -->
+
+
+
+
+
+
+<!-- Comments and credits -->
+
+        <p>
+
+		<img src="../img/spacer.gif" alt="" align="top" width="400" height="10"><br>
+
+        <font size="1">
+
+                <a href="mailto:dlf@clir.org">Please
+
+        send comments or suggestions</a>.<br>
+
+	Last updated: <!--#echo var="LAST_MODIFIED" --><br>
+
+        &copy; 2000 Council on Library and Information Resources
+
+		</font></p>
+
+<!-- Link to CLIR pages -->
+
+        <table border="0" cellpadding="0" cellspacing="0"
+
+        width="140">
+
+            <tr>
+
+                <td><img src="../img/clirlogo.gif" alt="CLIR" width="40"
+
+                height="40"></td>
+
+                <td><a href="http://www.clir.org"><font size="2">CLIR Home Page</font><br></a>
+
+</td>
+
+            </tr>
+
+        </table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>
+

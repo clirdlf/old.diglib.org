@@ -1,0 +1,1000 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../DLF-fedora-payette.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>  </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0078.htm');" id=PPTL1>The Fedora Project
+  <br>
+    <br>
+    DLF Forum<br>
+    Albuquerque, NM<br>
+    November 17, 2003</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0085.htm');" id=PPTL2>The Fedora Project</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Fedora Digital Object Repository System</li>
+   <ul>
+    <li>Extensible digital object model</li>
+    <li>Repository System exposed via Web service APIs</li>
+    <li>Scalable, persistent storage for content and metadata</li>
+    <li>Local and remote content</li>
+    <li>Associate services with objects</li>
+    <li>Content versioning</li>
+    <br>
+    <br>
+   </ul>
+   <li>Fedora Use cases</li>
+   <ul>
+    <li>Content Management (CMS)</li>
+    <li>Digital Library architecture</li>
+    <li>Digital Asset Management</li>
+    <li>Institutional Repository</li>
+    <li>Scholarly publishing</li>
+    <li>Preservation</li>
+    <br>
+    <br>
+   </ul>
+   <li>Open source software</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0079.htm');" id=PPTL3>Fedora History</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Research (1997-present) :</li>
+   <ul>
+    <li>DARPA and NSF-funded research project at Cornell</li>
+    <li>Reference implementation developed at Cornell</li>
+    <br>
+    <br>
+   </ul>
+   <li>First Application (1999-2001) :</li>
+   <ul>
+    <li>University of Virginia digital library prototype</li>
+    <li>Scale/stress testing for 10,000,000 objects</li>
+    <br>
+    <br>
+   </ul>
+   <li>Open Source Software (2002-present):</li>
+   <ul>
+    <li>Andrew W. Mellon Foundation granted Virginia and Cornell $1 million to
+        develop a production-quality Fedora system</li>
+    <li>Fedora 1.0 released in May 2003</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0081.htm');" id=PPTL4>Fedora Motivations</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Generic model to manage/access heterogeneous content</li>
+   <ul>
+    <li>Operations via the digital object abstraction; default disseminator</li>
+    <br>
+    <br>
+   </ul>
+   <li>Extensibility</li>
+   <ul>
+    <li>Add new functionality to objects via service associations</li>
+   </ul>
+   <br>
+   <li>Object Lifecycle and preservation</li>
+   <ul>
+    <li>Content versioning and event history</li>
+    <br>
+    <br>
+   </ul>
+   <li>Content repurposing</li>
+   <ul>
+    <li>Same content in different objects; dynamic transformations</li>
+    <br>
+    <br>
+   </ul>
+   <li>Easy integration with other applications and systems</li>
+   <ul>
+    <li>Web services with open APIs</li>
+    <li>Clear separation of server from clients/web user interfaces</li>
+    <li>Does not assume any one workflow or end-user application</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0109.htm');" id=PPTL5>Digital Object Model</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0030.htm');" id=PPTL6><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0088.htm');" id=PPTL7><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0102.htm');" id=PPTL8>Some Common Use Cases</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>[Simple Image]</li>
+   <li>Image Manip + DC graph</li>
+   <li>[Scholarly Publication]</li>
+   <li>Document Transformation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0108.htm');" id=PPTL9>Content Versioning</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>[Demo]</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0110.htm');" id=PPTL10>Repository System<br>
+    <br>
+    software distribution</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0072.htm');" id=PPTL11>Fedora 1.2<span
+  style='mso-spacerun:yes'>  </span>Software Feature Set</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Open Fedora APIs</li>
+   <ul>
+    <li>Repository as web services (REST and SOAP bindings); WSDL interface
+        defs</li>
+    <br>
+    <br>
+   </ul>
+   <li>Flexible Digital Object Model</li>
+   <ul>
+    <li>Content View: objects as bundle of items (content and metadata)</li>
+    <li>Service View: objects as a set of service methods (“behaviors”)</li>
+    <li>Extensible functionality by associating services with objects</li>
+    <br>
+    <br>
+   </ul>
+   <li>Repository System</li>
+   <ul>
+    <li>Core Services: Management, Access/Search, OAI-PMH</li>
+    <li>Storage:<span style='mso-spacerun:yes'>  </span>XML object store;
+        relational db object cache; relational db object registry</li>
+    <li>Mediation -<span style='mso-spacerun:yes'>  </span>auto-dispatching to
+        distributed web services for content transformation</li>
+    <li>Auto-Indexing – system metadata and DC record of each object</li>
+    <li>HTTP Basic Authentication and Access Control</li>
+    <li>Built-in disseminator services: XSLT x-form, image manipulation,
+        xml-to-PDF</li>
+    <br>
+    <br>
+   </ul>
+   <li>Content Versioning</li>
+   <ul>
+    <li>Automatic version control (saves version of content/metadata when
+        modified)</li>
+    <li>Enables date-time stamped API requests (see object as it looked at a
+        point in time)</li>
+    <br>
+    <br>
+   </ul>
+   <li>Clients</li>
+   <ul>
+    <li>Fedora Administrator: GUI client to create/maintain objects</li>
+    <li>Default Web browser interface: search; access objects via default
+        disseminator</li>
+    <li>Command line utilities (batch load, ingest, purge, others)</li>
+    <li>Migration Utility – mass export/ingest</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL12>Fedora Repository
+  <br>
+    Service Interfaces</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Management<span style='mso-spacerun:yes'>  </span>Service (API-M)</li>
+   <ul>
+    <li>Ingest - XML-encoded object submission</li>
+    <li>Create - interactive object creation via API requests</li>
+    <li>Maintain - interactive object modification via API requests</li>
+    <li>Validate – application of integrity rules to objects</li>
+    <li>Identify - generate unique object identifiers</li>
+    <li>Security - authentication and access control</li>
+    <li>Preserve - automatic content versioning and audit trail</li>
+    <li>Export - XML-encoded object formats</li>
+    <br>
+    <br>
+   </ul>
+   <li>Access Service (API-A and API-A-LITE)</li>
+   <ul>
+    <li>Search - search repository for objects</li>
+    <li>Object Reflection - what disseminations can the object provide?</li>
+    <li>Object Dissemination - request a view of the object’s content</li>
+    <br>
+    <br>
+   </ul>
+   <li>OAI-PMH Provider Service</li>
+   <ul>
+    <li>OAI-DC records</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0069.htm');" id=PPTL13>Client and Web Service
+  Interactions</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0103.htm');" id=PPTL14>Fedora Mapping to OAIS</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0074.htm');" id=PPTL15>Fedora<span
+  style='mso-spacerun:yes'>  </span>Software Distribution Package</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Open Source (Mozilla Public License)</li>
+   <li>100% Java (Sun Java J2SDK1.4)</li>
+   <li>Supporting Technologies</li>
+   <ul>
+    <li>Apache Tomcat 4.1 and Apache Axis (SOAP)</li>
+    <li>Xerces 2-2.0.2 for XML parsing and validation</li>
+    <li>Saxon 6.5 for XSLT transformation</li>
+    <li>Schematron 1.5 for validation</li>
+    <li>MySQL and Mckoi relational database</li>
+    <li>Oracle 9i support</li>
+   </ul>
+   <li>Deployment Platforms</li>
+   <ul>
+    <li>Windows 2000, NT, XP</li>
+    <li>Solaris</li>
+    <li>Linux</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0111.htm');" id=PPTL16>Fedora in Use</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0091.htm');" id=PPTL17>Projects using Fedora</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>University of Virginia: digital library (images, EAD, e-texts)</li>
+   <li>VTLS: basis for new commercial product (library system)</li>
+   <li>Indiana University: EVIA Digital Archive (video)</li>
+   <li>Northwestern: academic technologies (images, art, video, e-texts)</li>
+   <li>Rutgers University: digital library (e-journals, numeric data)</li>
+   <li>Tufts University: educational (VUE/concept maps); digital library</li>
+   <li>Yale University: Electronic Records Archive</li>
+   <li>New York University: Humanities Computing Group</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0090.htm');" id=PPTL18>Sampling of sites
+  using/evaluating Fedora:</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>JSTOR</li>
+   <li>American Geophysical Union</li>
+   <li>NSDL at Cornell</li>
+   <li>Cornell Information Technologies</li>
+   <li>British Library</li>
+   <li>National Library of Portugal</li>
+   <li>Society of Biblical Literature</li>
+   <li>National Archives of Australia</li>
+   <li>Office of Defense Resources, Thailand</li>
+   <li>Monash University, Australia</li>
+   <li>Oxford Digital Library</li>
+   <li>Harris Corporation (R&amp;D for digital archives)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0107.htm');" id=PPTL19>Fedora Downloads since
+  May 2003</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Total downloads:<span style='mso-spacerun:yes'>  </span>1427</li>
+   <li>Average downloads per day: 9</li>
+   <li># Countries: 32</li>
+   <li>Types of orgs:</li>
+   <ul>
+    <li>Universities: libraries, IT, departments</li>
+    <li>Software and technology companies</li>
+    <li>Defense/military</li>
+    <li>Banks</li>
+    <li>National libraries and archives</li>
+    <li>Publishers</li>
+    <li>Research labs</li>
+    <li>Library automation vendors</li>
+    <li>Scholarly societies</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0092.htm');" id=PPTL20><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0115.htm');" id=PPTL21><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0114.htm');" id=PPTL22><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0112.htm');" id=PPTL23><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0095.htm');" id=PPTL24><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0096.htm');" id=PPTL25><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0097.htm');" id=PPTL26><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0099.htm');" id=PPTL27><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0100.htm');" id=PPTL28><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0104.htm');" id=PPTL29><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0105.htm');" id=PPTL30><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0076.htm');" id=PPTL31>Future Software
+  Releases</a></font></div>
+  <div id=PPTC31 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Fedora Object XML (FOXML)</li>
+   <ul>
+    <li>Internal storage format; direct expression of Fedora object model</li>
+    <li>Better support for relationships (“kinship” metadata)</li>
+    <li>Better support for audit trail (event history)</li>
+    <li>Format identifiers for dynamic service binding</li>
+   </ul>
+   <li>Shibboleth authentication</li>
+   <li>Policy Enforcement</li>
+   <ul>
+    <li>XACML expression language</li>
+    <li>Fedora policy enforcement module</li>
+   </ul>
+   <li>Web interface for easy content submission</li>
+   <li>Batch object modification utility</li>
+   <li>Administrative Reporting</li>
+   <li>Object Event History (ABC/RDF disseminations)</li>
+   <li>Better support for “collections”</li>
+   <li>New ingest and export formats (METS1.3, DIDL)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0106.htm');" id=PPTL32>Future Development
+  Proposals</a></font></div>
+  <div id=PPTC32 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Digital Library in a Box</li>
+   <ul>
+    <li>Full-featured DL application with “Fedora inside”</li>
+    <li>Optimized for common set of content types</li>
+    <br>
+    <br>
+   </ul>
+   <li>Fedora Power Server</li>
+   <ul>
+    <li>Integrity Management Tools</li>
+    <li>Service and link liveness checker</li>
+    <li>Fault Tolerance</li>
+    <li>Mirroring and Replication</li>
+    <li>Peer-to-peer interoperability features</li>
+    <li>Repository clustering</li>
+    <li>Load balancing</li>
+    <br>
+    <br>
+   </ul>
+   <li>Object Creation Tools</li>
+   <ul>
+    <li>Workflow applications based on content models</li>
+    <li>Web interface for document/content submission</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0075.htm');" id=PPTL33>Questions</a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master04.htm></a><a href=master04.xml></a><a
+href=preview.wmf></a><a href="master04_image001.png"></a><a
+href="master04_image002.png"></a><a href=master05.htm></a><a href=master05.xml></a><a
+href="master05_image003.png"></a><a href=master02.htm></a><a href=pres.xml></a><a
+href=slide0078.htm></a><a href="master05_background.gif"></a><a
+href="master05_image004.gif"></a><a href=slide0085.htm></a><a
+href="master04_background.gif"></a><a href="master04_image005.gif"></a><a
+href=slide0079.htm></a><a href=slide0081.htm></a><a href=slide0109.htm></a><a
+href=slide0030.htm></a><a href="slide0030_image006.gif"></a><a
+href="slide0030_image007.gif"></a><a href="slide0030_image008.gif"></a><a
+href="slide0030_image009.gif"></a><a href="slide0030_image010.gif"></a><a
+href="slide0030_image011.gif"></a><a href=slide0088.htm></a><a
+href="slide0088_image012.gif"></a><a href="slide0088_image013.gif"></a><a
+href="slide0088_image014.gif"></a><a href="slide0088_image015.gif"></a><a
+href="slide0088_image016.gif"></a><a href=slide0102.htm></a><a
+href=slide0108.htm></a><a href=slide0110.htm></a><a href=slide0072.htm></a><a
+href=slide0027.htm></a><a href=slide0069.htm></a><a
+href="slide0069_image017.gif"></a><a href="slide0069_image018.gif"></a><a
+href="slide0069_image019.gif"></a><a href="slide0069_image020.gif"></a><a
+href="slide0069_image021.gif"></a><a href="slide0069_image022.gif"></a><a
+href="slide0069_image023.gif"></a><a href="slide0069_image024.gif"></a><a
+href="slide0069_image025.gif"></a><a href="slide0069_image026.gif"></a><a
+href="slide0069_image027.gif"></a><a href="slide0069_image028.gif"></a><a
+href="slide0069_image029.gif"></a><a href="slide0069_image030.gif"></a><a
+href=slide0103.htm></a><a href="slide0103_image031.gif"></a><a
+href="slide0103_image032.wmz"></a><a href=oledata.mso></a><a
+href="slide0103_image033.gif"></a><a href="slide0103_image034.gif"></a><a
+href=slide0074.htm></a><a href=slide0111.htm></a><a href=slide0091.htm></a><a
+href=slide0090.htm></a><a href=slide0107.htm></a><a href=slide0092.htm></a><a
+href="slide0092_image035.png"></a><a href="slide0092_image036.jpg"></a><a
+href=slide0115.htm></a><a href="slide0115_image037.png"></a><a
+href="slide0115_image038.jpg"></a><a href=slide0114.htm></a><a
+href="slide0114_image039.png"></a><a href="slide0114_image040.jpg"></a><a
+href="slide0114_image041.gif"></a><a href="slide0114_image042.gif"></a><a
+href="slide0114_image043.gif"></a><a href="slide0114_image044.gif"></a><a
+href="slide0114_image045.gif"></a><a href="slide0114_image046.gif"></a><a
+href="slide0114_image047.gif"></a><a href="slide0114_image048.gif"></a><a
+href=slide0112.htm></a><a href="slide0112_image049.gif"></a><a
+href=slide0095.htm></a><a href=slide0095.xml></a><a
+href="slide0095_image050.gif"></a><a href=slide0096.htm></a><a
+href="slide0096_image051.gif"></a><a href="slide0096_image052.png"></a><a
+href="slide0096_image053.jpg"></a><a href=slide0097.htm></a><a
+href="slide0097_image054.gif"></a><a href="slide0097_image055.png"></a><a
+href="slide0097_image056.jpg"></a><a href=slide0099.htm></a><a
+href=slide0099.xml></a><a href="slide0099_image057.gif"></a><a
+href=slide0100.htm></a><a href=slide0100.xml></a><a
+href="slide0100_image058.gif"></a><a href=slide0104.htm></a><a
+href="slide0104_image059.png"></a><a href="slide0104_image060.jpg"></a><a
+href=slide0105.htm></a><a href="slide0105_image061.png"></a><a
+href="slide0105_image062.jpg"></a><a href=slide0076.htm></a><a
+href=slide0106.htm></a><a href=slide0075.htm></a><a href=master01.htm></a><a
+href="master04_stylesheet.css"></a><a href=script.js></a><a
+href="../DLF-fedora-payette.htm"></a><a href=fullscreen.htm></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

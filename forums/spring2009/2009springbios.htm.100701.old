@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DLF Spring Forum 2009: Raleigh</title>
+<meta http-equiv="Content-Type"
+content="text/html; charset=windows-1252" />
+<meta content="DLF Forum : Raleigh : Spring 2009"
+name="dc.Title" />
+<meta content="Digital Library Federation" name="dc.Creator" />
+<meta content="Forum" name="dc.Subject" />
+<meta content="" name="dc.Description" />
+<meta content="Digital Library Federation. Washington, DC"
+name="dc.Publisher" />
+<meta content="Jaime Moore. Added DC metadata."
+name="dc.Contributor" />
+<meta content="2008-04-16" name="dc.Date" />
+<meta content="text" name="dc.Type" />
+<meta content="text/html" name="dc.Format" />
+<meta content="/forums/2009/" name="dc.Identifier" />
+<meta content="none" name="dc.Source" />
+
+<meta content="en-us" name="dc.Language" />
+<meta content="http://www.diglib.org/" name="dc.Relation" />
+<meta content="none" name="dc.Coverage" />
+<meta content="Copyright 2009, Digital Library Federation.  Publicly-accessible." name="dc.Rights" />
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('images/preserve_r.gif','images/use_r.gif','images/build_r.gif','images/logo_r.gif','images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<a href="/search.html">Search</a>
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="http://www.diglib.org/contact.htm">DLF Executive Director</a> 
+your comments or suggestions. </p></td>
+
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- Begin text here -->
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+<!-- Begin text here -->
+
+<div class="Section1">
+
+<p align="center" style='text-align:center'>
+<b> </b> <b><span style='font-size:14.0pt'>SPRING FORUM 2009 <br />
+Raleigh, North Carolina</span></b></p>
+
+<br />
+
+<p align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>BIOGRAPHIES</span></b></p>
+
+
+
+<p style='font-size:14.0pt' align="center">B</p>
+
+<br />
+
+<p style='text-align:justify'><a name="boyer"><b>Josh Boyer</b></a> is Associate Head of Research & Information Services at North Carolina State University Libraries, where he does virtual reference, works with distance learners, and dabbles in digital library projects. Josh holds a Masters Masters in Library Science of Science from the University of North Carolina at Chapel Hill.
+ </p>
+
+<p style='text-align:justify'><a name="buchman"><b>Melitte Buchman</b></a> New York University is the Digital Content Manager at NYU’s Division of Libraries.  Her responsibilities include preparing image and multimedia content for long-term preservation.  While her background has been in traditional image acquisition and archiving, she is increasingly interested in born digital media as it presents challenges for appropriate preservation.  She is currently active in NYU’s Afghanistan Digital Library, the Hemispheric Institute Digital Video Library and a variety of projects that provide access and digital preservation for  NYU Libraries' Special Collections materials. She is also studying at the Steinhardt School of Culture, Education and Human Development at NYU, which is providing exposure to the current climate of new media creation.
+</p>
+
+
+<p style='font-size:14.0pt' align="center">C</p>
+
+<br />
+
+<p style='text-align:justify'><a name="chao"><b>Zoe Chao</b></a> is the Portal Librarian of Illinois Harvest Portal at the University of Illinois at Urbana-Champaign (UIUC), where she is responsible for ingesting metadata into the portal and maintaining the webisite. She is also involved in digitization projects at UIUC, where she facilitates making digitized items discoverable. Zoe was previously the UIUC cooridnator for the IMLS Digital Libraries Education Program after she completed her MS in Library and Information Science at UIUC in December 2005. She also holds an MS in Fisheries and Wildlife from Michigan State University.</p>
+
+<p style='text-align:justify'><a name="chapman"><b>Suzanne Chapman</b></a> is the Interface and User Testing Specialist for the University of Michigan’s Digital Library Production Service (DLPS). She is primarily responsible for the interface design and user testing evaluation of the HathiTrust Digital Library. Suzanne’s undergraduate degree is in Fine Arts and she has a Master of Science in Information from the University of Michigan’s School of Information.
+</p>
+
+<p style='text-align:justify'><a name="christenson"><b>Heather Christenson </b></a> is Mass Digitization Project Manager at the California Digital Library (CDL) and Project Manager for the University of California’s HathiTrust collaborative work.  She is responsible for coordinating operations across the UC Libraries' mass digitization projects, and plays an integral role in planning for services surrounding mass digitized content.  Previously Heather led the UC Libraries' system-wide ERMS implementation team, and a NSDL-grant funded project to develop a prototype integrated search service.  She has also contributed to UC’s next generation catalog (WorldCat Local) project, and CDL’s early exploration of solutions for capture, curation and preservation of government information on the web.  For four years Heather led CDL's Resource Liaison Program, a UC-wide program involving over 100 librarians charged with monitoring licensed electronic resources for technical and content performance.   Prior to joining CDL, Heather worked on commercial web search tools, and was a news librarian, law librarian, and cataloger. She received her M.L.I.S. from the University of California, Berkeley.
+</p>
+
+<p style='font-size:14.0pt' align="center">D</p>
+
+<br />
+
+<p style='text-align:justify'><a name="dalmau"><b>Michelle Dalmau</b></a> is the Digital Projects and Usability Librarian for the Indiana University Digital Library Program (DLP), where she is responsible for coordinating and managing digital library projects with a particular focus on electronic text projects as well as coordinating and leading user studies for the DLP and the greater Indiana University Bloomington Libraries. Her research interests include the integration of complex metadata structures with discovery functionality of online collections as well as pedagogic use of digital resources.
+
+The many DLP projects Michelle has contributed to include: the Indiana Magazine of History (<a href="http://www.dlib.indiana.edu/collections/imh/">http://www.dlib.indiana.edu/collections/imh/</a>), IN Harmony: Sheet Music from Indiana (<a href="http://www.dlib.indiana.edu/collections/inharmony/">http://www.dlib.indiana.edu/collections/inharmony/</a>), Film Literature Index (<a href="http://www.dlib.indiana.edu/reference/fli/">http://www.dlib.indiana.edu/reference/fli/</a>), and Charles W. Cushman Photograph Collection (<a href="http://www.dlib.indiana.edu/collections/cushman/">http://www.dlib.indiana.edu/collections/cushman/</a>).  Her undergraduate background is in English and Art History, and she holds a Master of Library Science and a Master of Information Science from Indiana University.</p>
+
+<p style='text-align:justify'><a name="dunn"><b>Jon Dunn</b></a> is Associate Director for Technology in the Indiana University Digital Library Program, where he oversees the development and management of systems to support IU's digital library collections. He is currently co-director of the Sakaibrary project, a partnership with the University of Michigan that seeks to integrate access to licensed library resources into the Sakai community source collaboration and learning environment. He also directs IUÕs IMLS-funded Variations3 digital music library and learning system development project and is a participant in several other audio, video, and music digital library and digital preservation projects at IU. He currently serves as chair of the DLF Aquifer project’s Technology/Architecture Working Group.</p>
+
+
+
+<p style='font-size:14.0pt' align="center">F</p>
+<br/>
+
+<p style='text-align:justify'><a name="fennell"><b>Chad Fennell</b></a> is the Director of Web and New Media Strategy at the Smithsonian Institution. He has been involved in practically every aspect of technology and new media at the Smithsonian, including digitization, public access to collections, networking, place-of-business applications, programming, project management, multimedia design and production, mobile platforms, Web and data strategy, and citizen-created content. Michael was the founding director of the Smithsonian's first blog, Eye Level (<a href="eyelevel.si.edu">eyelevel.si.edu</a>).</p> 
+
+
+<p style='font-size:14.0pt' align="center">G</p>
+<br />
+
+<p style='text-align:justify'><a name="godby"><b>Carol Jean Godby</b></a> is a Research Scientist in the Office of Research at OCLC, where her primary responsibility is to develop formal models of metadata processing, including translation, normalization, and enhancement. She has also led projects involving automatic classification and terminology identification. Jean has a Ph.D. in linguistics from Ohio State University.
+ </p>
+
+
+
+<p style='font-size:14.0pt' align="center">H</p>
+<br />
+
+<p style='text-align:justify'><a name="habing"><b>Tom Habing</b></a> is a Research Programmer at the Grainger Engineering Library Information Center at the University of Illinois at Urbana-Champaign where for the past 10 years he has worked on various digital library projects. Tom currently spends half his time as a developer for the DLF Aquifer American Social History Online project. The remainder of his time is spent providing technical support for various ongoing projects at UIUC, including being the developer of the UIUC OAI Registry, providing technical leadership for the Library's NDIIPP ECHO DEPository grant project, and various internal projects. Tom's start in digital libraries was as lead developer on the Library's NSF funded Digital Library Initiative (DLI I) project, and the CNRI funded DLib Test Suite projects.
+ </p>
+
+<p style='text-align:justify'><a name="hagedorn"><b>Kat Hagedorn </b></a> is Metadata Harvesting Librarian at the University of Michigan Libraries. She is responsible for the OAIster project, a search gateway for OAI harvested records leading to digital objects, initially Mellon-funded in 2001-2002. As part of a collaborative agreement with OCLC, OAIster will be transferred to OCLC in 2009. Currently, she is also working collaboratively on an Institute of Museum and Library Services (IMLS) project grant with Yale University to research the difference between how users would describe images and full-text items vs. how statistical algorithms would do the same. She is also responsible for the University Libraries' OAI metadata provider which includes descriptive metadata of HathiTrust public domain texts and Digital Library Production Service (DLPS) image and text collections. In 2005, she was named a Library Journal Mover & Shaker. Her previous experience is in information architecture (with the Argus Associates firm) and ontology and taxonomy consulting (with the United Nations Food and Agriculture Organization in Rome).
+ </p>
+
+<p style='text-align:justify'><a name="han"><b>Myung-Ja ("MJ") Han </b></a> is Metadata Librarian and Assistant Professor of Library Administration at the University of Illinois at Urbana-Champaign. Her responsibilities include preparing metadata for digitization projects, creating application profiles for digital collections, and developing best practices for metadata creation. Her research interests are semantics and syntaxes of metadata schemes and the relationships between item and collection descriptions. Her recent papers on these issues are published in Journal of Library Metadata and Proceedings of the International Conference on Dublin Core and Metadata Applications.
+
+ </p>
+
+
+
+<p style='text-align:justify'><a name="harum"><b>Susan Harum</b></a> is the Project Coordinator for the sustainability of the Aquifer American Social History Online Project and is responsible for the harvesting of additional collections, continued assessment and interaction with scholars, and the redesign of the website for increased usability. Prior to her work with the development of the Aquifer American History Online project, she spent 9 years providing coordination and support activities for the National Science Foundation’s Digital Libraries Initiative.
+ </p>
+
+<p style='text-align:justify'><a name="hawkins"><b>Kevin Hawkins </b></a> is Electronic Publishing Librarian at the Scholarly Publishing Office of the University of Michigan University Library, overseeing conversion of content to XML. He and has worked at SPO since early 2004, except for a hiatus to accept a Fulbright grant to work with digital libraries in Russia. Kevin has BAs in Russian and linguistics from the University of Maryland and an MS in library and information science from the University of Illinois.
+ </p>
+
+<p style='text-align:justify'><a name="hoffman"><b>Brian Hoffman</b></a> is an analyst and developer focused on digital archiving and publication systems. Recent projects with which he has been involved include the Archivists Toolkit, NYU Libraries' collaboration with the Institute for the Future of the Book, and the implementation of NYU Libraries' image viewing and annotating service, powered by Djatoka.
+ </p>
+
+
+<p style='text-align:justify'><a name="hswe"><b>Patricia Hswe</b></a> is Project Manager for NDIIPP Partner Projects at the University of Illinois, Urbana-Champaign (UIUC). Her research interests focus primarily on digital libraries and digital collections: use and users of digital resources; metadata issues (standards, creation, semantics, usability, management); the challenges of digital preservation; data curation in the humanities; and user engagement with special collections and archives in the scholarly research process. In 2004-2006 she was a CLIR Postdoctoral Fellow at UIUC in the Slavic and East European Library. Hswe has an MSLIS from UIUC and a PhD in Slavic Languages and Literatures from Yale University.
+ </p>
+
+<p style='font-size:14.0pt' align="center">I</p>
+
+<br />
+
+<p style='text-align:justify'><a name="ingram"><b>Bill Ingram</b></a> is a Visiting Research Programmer for the University Library at the University of Illinois at Urbana Champaign, where he provides programming support for several of the library's grant-funded research projects. Recent projects include the NDIIPP-funded Hub and Spoke Tool Suite, the IMLS Digital Content Gateway, and a Mellon-funded experiment using OAI-ORE Resource Maps to support scholarly annotation of digitized books. He currently serves as one of the lead developers for the Bibapp project, as well as the backup service manager for IDEALS, the university’s institutional repository system. Ingram holds an MS from the Graduate School of Library and Information Science at UIUC.
+ </p>
+
+<p style='font-size:14.0pt' align="center">K</p>
+
+<p style='text-align:justify'><a name="karle-zenith"><b>Anne Karle-Zenith</b></a> currently manages a project at the University of Michigan Library to build a copyright review management system (CRMS), funded by a National Leadership Grant from the Institute of Museum and Library Services. Prior to focusing on the grant, she served as assistant to the Associate University Librarian for Library Information Technology and Technical Services, as well as project coordinator for the UM/Google partnership to digitize the Library¹s collections. From 2004-2006, Anne held the position of Metadata & Cataloging Librarian at the Michigan State University Libraries. She graduated in 2003 from the University of Michigan School of Information with a specialization in Library Services. Before becoming a librarian Anne lived for many years in New York City, where she worked in the music industry, licensing music as well as other copyrighted works for use in advertising, film, television and other media.
+ </p>
+ 
+ <p style='text-align:justify'><a name="klavans"><b>Judith Klavans</b></a> is a Research Professor in the University of Maryland Institute for Advanced Computer Studies (UMIACS).   She is the Principal Investigator on the IMLS-funded T3:  Tags, Terms and Trust, a cross-disciplinary research project to improve access to digital image collections in museums and libraries for art historians, museum professionals, and the general public.  T3 combines text mining, social tagging, and trust inferencing to enrich metadata and personalize retrieval.  In addition to leading this project, she is involved in developing analysis and filtering techniques for the extraction of metadata, particularly through thesaurus-driven disambiguation for the NDIIP Project Extracting Metadata for Preservation (EMP). Klavans is also currently a participant in the NSF i-Opener project on automatic summarization and visualization of technical text.</p>
+<p>Klavans holds a Ph.D in Linguistics, summa cum laude, from the University of London.  She was awarded a post-doctoral research fellowship from the Massachusetts Institute of Technology where she started working on computational applications of linguistic theory.  She spent ten years at the IBM TJ Watson Research Center where she developed techniques to extract structured information from machine-readable dictionaries for use in text understanding and machine translation systems.  Klavans was the founding Director of the Center for Research on Information Access (CRIA) at Columbia University, where she initiated interdisciplinary research projects in areas such as digital access in the humanities, the role of language in cross-database search, medical digital libraries, digital government and multilingual information summarization. Her research interests include linguistics, digital libraries, multilingual access, and natural language systems.  </p>
+<p>Klavans initiated the CLiMB (Computational Linguistics for Metadata Building) project at Columbia University in 2002. From the beginning, the goal of this project has been to explore ways to apply computational linguistic techniques over scholarly texts as a means of extracting metadata to populate image catalog records. She has completed user studies to demonstrate the effectiveness of these methods.  The paper at DLF is an application of the CLiMB approach to extracting and normalizing names for search, combined with UIUC tools for named entity labeling, and with OCLC resources and user groups.  Through these and other cutting edge approaches, she addresses the potential of natural language processing to enable and improve consistency and accessibility across digital collections. 
+
+ </p>
+
+<p style='text-align:justify'><a name="kott"><b>Katherine Kott</b></a> is the Manager of Strategic Digital Projects and Organizational Development for the Stanford University Libraries. She is currently working with the Stanford Digital Repository (SDR) Team on the next generation SDR. Until March 2009, Katherine led the Digital Library Federation’s Aquifer initiative, aimed at bringing distributed digital library collections together to support scholarship, teaching and learning. Her professional career has included a wide range of responsibilities in libraries and information services. Prior to beginning her work with the Digital Library Federation in 2005, Kott was the head of cataloging and metadata services at Stanford University. Before arriving at Stanford, she led the implementation services department at Innovative Interfaces, Inc., managing the installation of integrated library systems around the world. She has promoted the idea of leveraging resources through collaboration throughout her career, including work as a systems librarian at Bates College and in law library technical services at Duke University.
+ </p>
+
+
+<p style='font-size:14.0pt' align="center">M</p>
+
+<br />
+
+<p style='text-align:justify'><a name="manaster"><b>Robert Manaster</b></a> is a research programmer for the IT Infrastructure and Software Development Group at the University of Illinois Champaign-Urbana (UIUC).  He's been involved in various software development projects at UIUC; such as BeanCounter, A web-based, Library Reporting System, and digiTrak, A web-based, mass digitization tracking system. He customizes & integrates vendor software and is involved with database design and & consulting.  He's also involved with supporting and administering existing IT infrastructure. Manaster holds a Masters degree from the Graduate School of Library and Information Science at UIUC.
+
+ </p>
+
+<p style='text-align:justify'><a name="mccready"><b>Kate McCready</b></a> is currently the Project Director for EthicShare, a discovery and collaboration environment for practical ethics scholars and students. Before delving into the world of project and grant management, she was a reference and instruction librarian, heavily involved in the creation and management of information discovery tools. Building upon her role as a public services librarian, she began working in assessment of library use during her role as Library Project Coordinator of the Andrew W. Mellon Foundation funded grant to study research behaviors of humanities and social science scholars. The Council on Library and Information
+Resources and the Mellon Foundation renewed their support by awarding grants to plan for and pilot the EthicShare site. Kate's project director role in building this environment involves assessment, site development, design, collection development and management. She is interested in pairing assessment with tool and service development to make research practices efficient and effective.
+
+ </p>
+
+
+
+<p style='font-size:14.0pt' align="center">N</p>
+
+<br />
+
+<p style='text-align:justify'><a name="notess"><b>Mark Notess</b></a> is a development manager and usability specialist in Indiana University's Digital Library Program. His primary responsibility since joining IU in 2001 has been the Variations digital music library, as part of both the Variations2 and Variations3 projects.</p>
+
+<p>Before joining IU, Mark was a director of user experience at a higher-education startup and prior to that worked at Agilent Technologies and Hewlett-Packard on e-learning portals, user interface tools, and user-centered design. Mark speaks and consults on online learning and user experience topics. He holds a Ph.D. in Instructional Systems Technology as well as masters degrees in both computer science and education, and he has taught graduate courses in human-computer interaction. He writes regularly for ACM's eLearn Magazine, where he also serves on the editorial advisory board.</p>
+
+<p>Mark is also principal at Very There Consulting, a user research and experience design consultancy with a focus on technology in higher education.
+
+ </p>
+
+
+<p style='font-size:14.0pt' align="center">P</p>
+
+<br />
+
+<p style='text-align:justify'><a name="pawletko"><b>Joseph Pawletko </b></a> is a Software Systems Architect in New York University's Digital Library Technology Services group. He has worked on and led various projects at NYU including the Hemispheric Digital Video Library (HIDVL), NYU's Preservation Repository, the National Digital Information Infrastructure and Preservation Program (NDIIPP) "Preserving Digital Public Television" project, and Toward Interoperable Preservation Repositories (TIPR).  Mr. Pawletko holds a BS in Electrical Engineering from Duke University and an MS in Computer Science from New York University.
+ </p>
+
+
+<p style='font-size:14.0pt' align="center">R</p>
+
+<br />
+
+<p style='text-align:justify'><a name="redding"><b>Clay Redding</b></a> serves as a Digital Projects Coordinator at the Library of Congress within the Library Services Network Development and MARC Standards Office.  His work is centered on developing digital projects driven by native XML and Semantic Web technologies.  Additionally, he helps maintain standards promulgated by LC.  He obtained his MLS from the University of Pittsburgh with a focus on archival administration in 1999. 
+ </p>
+
+<p style='text-align:justify'><a name="reilly"><b>Mark Reilly</b></a> is a web designer and developer with the Digital Library Technology Services and Faculty Technology Services groups at New York  University. He redesigned and ported the Future of the Book's MediaCommons and In Media Res websites to the Drupal content management framework and is working on its ongoing development. He teaches classes in design and graphics at The New School and New York University's Continuing Education departments. He has an M.Phil in medieval history from Trinity College Dublin and a PH.D in media and communication from the European Graduate School in Switzerland.
+
+ </p>
+ 
+ <p style='text-align:justify'><a name="rhoten"><b>Diana Rhoten, PH.D.</b></a> is director of the Knowledge Institutions program and the Digital Media and Learning project at the Social Science Research Council. Diana also spent the last two years as the founding program director of the Virtual Organizations & the CyberLearning programs at the National Science Foundation. Prior to coming to the Council, Diana was co-founder and research director of the Hybrid Vigor Institute, an assistant professor at the Stanford University School of Education, and an education policy analyst and advisor for the Governor of Massachusetts. Diana's research focuses on the social and technical conditions as well as the individual and organizational implications of different approaches to knowledge production and dissemination. She is particularly interested in the implications that geographically distributed and intellectually diverse networks pose for traditional institutions -- particularly in light of the many emerging technologies. Recent publications can be found in Annual Review of Law and Social Science, Thesis Eleven, Science, Nature, Research Policy, Journal of Education Policy, and Comparative Education Research. She has also recently completed a co-edited volume entitled Knowledge Matters: The Transformation of Public Research University (with Craig Calhoun, Columbia University). In addition to publishing scholarly works on the topic, Diana works with various organizations on the design, implementation, and assessment of new organizational forms for research and training. She has a Ph.D. in social sciences and educational policy and an M.A. in sociology from Stanford University, as well as an M.Ed. from Harvard University and an A.B. from Brown University.
+
+ </p>
+ 
+  <p style='text-align:justify'><a name="ruddy"><b>David Ruddy</b></a> is Director of E-Publishing Technologies, a unit within the Division of Library Information Technologies, Cornell University Library. He is responsible for the technical infrastructure and production operations that support Cornell's electronic publishing services, primarily Project Euclid, an online resource that delivers over a million pages of current and historical scholarship in mathematics and statistics. He also coordinates library operations supporting eCommons, Cornell's institutional repository. He has worked with XML applications and systems for many years, both in the area of humanities text computing and metadata services, and frequently conducts workshops on XML, metadata, and digital library development. He holds an MA, MS, and PhD, all from the University of Michigan.
+
+ </p>
+ 
+  <p style='text-align:justify'><a name="ryan"><b>Joseph Ryan</b></a> is Digital Projects Librarian at North Carolina State University Libraries, where he works as a project manager for digital library projects and advocates for good user experience practices. Joseph holds a Master of Science in Library and Information Science from The School of Information Studies at Syracuse University.
+
+ </p>
+
+<p style='font-size:14.0pt' align="center">S</p>
+
+<br />
+
+<p style='text-align:justify'><a name="schlosser"><b>Melanie Schlosser </b></a> is currently a Metadata Librarian and Rights Management Specialist at the Ohio State University. She works with OSU's institutional repository, the Knowledge Bank, along with other digital projects, and provides copyright expertise to the OSU Libraries and the University community. She is also co-principal investigator on an NEH grant-funded project to develop a lifecycle model for digital humanities projects at Ohio State. Before coming to OSU she received an MLS from Indiana University, where she also worked for the IU Digital Library Program. Her work with TEI-encoded electronic text at IU and her experience with metadata led to an involvement in the TEI/DLF TEI in Libraries Best Practices group, working particularly with the TEI Header guidelines.</p>
+
+
+
+<p style='text-align:justify'><a name="shreeves"><b>Sarah Shreeves</b></a> is the Coordinator for the Illinois Digital Environment for Access to Learning and Scholarship (IDEALS), the institutional repository at the University of Illinois at Urbana-Champaign (UIUC). She has been active in the Open Archives Initiative (OAI) and Shareable Metadata Best Practices Working Group, a joint initiative between the Digital Library Federation (DLF) and the National Science Digital Library to establish best practices for 
+OAI data provider implementations and metadata interoperability. She also led the DLF Aquifer Metadata Working Group to establish a set of guidelines for shareable MODS records. Sarah’s last position was as the Project Coordinator for the National Leadership Grant funded IMLS Digital Collections and Content Project (DCC) based at the UIUC. Prior to coming to UIUC, Sarah worked for nine years in the MIT Libraries in Boston. She has a BA in Medieval Studies from Bryn Mawr College, an M.A. in Children’s Literature from Simmons College, and an M.S. in Library and Information Science from UIUC.
+
+
+ </p>
+
+<p style='text-align:justify'><a name="singh"><b>Deepak Singh </b></a> is a business development manager at Amazon Web Services where he spends a lot of time working with developers and organizations looking to leverage Amazon EC2 for a variety of applications, especially in the areas of scientific research and data analytics.  Prior to his time at Amazon Web Services Deepak spent time at a number of life science informatics and software companies, as a strategist at Rosetta Biosoftware, a product manager and consortium director at Accelrys, and a scientific programmer at GeneFormatics.  He has a PhD in physical chemistry from Syracuse University.  Deepak is also an active blogger and podcaster.  At business|bytes|genes|molecules (<a href="http://mndoci.com">http://mndoci.com</a>) and Coast to Coast Bio (<a href="http://c2cbio.com">http://c2cbio.com</a>) he writes and talks about a variety of topics at the interface of the biosciences and technology, with special interests in open data, computing, and the web as a platform for science.
+
+ </p>
+
+
+<p style='font-size:14.0pt' align="center">W</p>
+
+<br />
+
+<p style='text-align:justify'><a name="ward"><b>Jewel H. Ward </b></a> is a third year doctoral student in the School of Information and Library Science at the University of North Carolina at Chapel Hill. She is a research assistant on the National Archives and Records Administration's (NARA) Transcontinental Persistent Archive Prototype (TPAP). She worked at the University of Southern California (USC) as the Program Manager for the USC Digital Archive from 2004-2006. She was a post-master's Research Assistant in the Research Library at Los Alamos National Laboratory 2003-2004. Prior to obtaining her master's degree in Information Science in 2002, she worked in data communications for several years. Her research interests include the transfer, management, preservation, and curation of data and information using technologies such as the OAI-PMH and iRODS.
+ </p>
+
+<p style='text-align:justify'><a name="wilkin"><b>John P. Wilkin </b></a> is the Associate University Librarian for Library Information Technology (LIT) and is the Executive Director of HathiTrust. The Library Information Technology (LIT) Division supports the Library's online catalog and related technologies, provides the infrastructure to both digitize and access digital library collections, supports the Library's web presence, and provides frameworks and systems to coordinate Library technology activities (e.g., authentication and authorization). Reporting units include Core Services, Digital Library Production Service, Library Systems, and Web Services.</p>
+
+<p>Wilkin previously served as the Head of the Digital Library Production Service at the University of Michigan, a position he held from its inception in 1996. DLPS was originally conceived as a federated organization, drawing on resources from the University of Michigan's major information and technology organizations, including the University of Michigan Library. Although this particular aspect of DLPS has changed, now with all of the department's activities situated within the University Library, and nearly all of its funding on the Library's base budget, DLPS continues to have strong campus and national relations. Among the units in the DLPS is the University of Michigan's Humanities Text Initiative, an organization responsible for SGML document creation and online systems that Wilkin founded in 1994.</p>
+
+<p>Wilkin earned graduate degrees in English from the University of Virginia ('80) and Library Science from the University of Tennessee at Knoxville ('86). In 1988 he assumed responsibility for the University of Michigan's English and American language and literature collection development, as well as library research support for English faculty and graduate students. Soon after, he implemented a campus-wide service for the analysis of electronic text and encoding text in SGML. In 1992, he began work at the University of Virginia as the Systems Librarian for Information Services, where he shaped the Library's plan for establishing a group of electronic centers, led and provided technical support for those centers, and consulted for the University's Insitute for Advanced Technology in the Humanities (IATH) in textual issues.
+ </p>
+
+<p style='text-align:justify'><a name="wust"><b>Markus Wust</b></a> is Digital Collections and Preservation at North Carolina State University and a former NCSU Libraries Fellow. His current projects include the implementation of digital preservation policies as well as managing digital publishing projects. Originally from Germany, he holds an M.A. in German Literature from the University of Georgia and a dual master's degree in Library and Information Studies and Humanities Computing from the University of Alberta.
+
+ </p>
+</div>
+
+<!-- End text -->
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+
+</tr></table>
+
+<hr width="75%" />
+<p align="center" style='text-align:center'><i><span style='font-size:10.0pt'>Copyright &copy; 2005 by the Digital Library Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+

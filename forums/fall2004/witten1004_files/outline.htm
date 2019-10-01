@@ -1,0 +1,2097 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../witten1004.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0401.htm');" id=PPTL1>&quot;Ian H&quot;</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Ian H. Witten</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0402.htm');" id=PPTL2><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0403.htm');" id=PPTL3><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0404.htm');" id=PPTL4><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0518.htm');" id=PPTL5>Agenda:</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0236.htm');" id=PPTL6><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0237.htm');" id=PPTL7>What we wanted</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0238.htm');" id=PPTL8>What we got: Greenstone</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0368.htm');" id=PPTL9>Greenstone facts</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0369.htm');" id=PPTL10>Sample collections at
+  greenstone.org</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0519.htm');" id=PPTL11>Agenda:</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0406.htm');" id=PPTL12><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0410.htm');" id=PPTL15><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0411.htm');" id=PPTL16><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0412.htm');" id=PPTL17><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0413.htm');" id=PPTL18><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0415.htm');" id=PPTL19><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0416.htm');" id=PPTL20><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0520.htm');" id=PPTL21>Agenda:</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0388.htm');" id=PPTL22><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0356.htm');" id=PPTL23><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0370.htm');" id=PPTL24><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0379.htm');" id=PPTL25><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0380.htm');" id=PPTL26><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0371.htm');" id=PPTL27><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0378.htm');" id=PPTL28><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0372.htm');" id=PPTL29><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0373.htm');" id=PPTL30><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0374.htm');" id=PPTL31><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0375.htm');" id=PPTL32><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0376.htm');" id=PPTL33><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP34 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0377.htm');" id=PPTL34><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP35 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0381.htm');" id=PPTL35><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>34</font></div>
+  </td>
+  <td>
+  <div id=PPTP36 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0382.htm');" id=PPTL36><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>35</font></div>
+  </td>
+  <td>
+  <div id=PPTP37 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0383.htm');" id=PPTL37><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>36</font></div>
+  </td>
+  <td>
+  <div id=PPTP38 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0384.htm');" id=PPTL38><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>37</font></div>
+  </td>
+  <td>
+  <div id=PPTP39 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0385.htm');" id=PPTL39><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>38</font></div>
+  </td>
+  <td>
+  <div id=PPTP40 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0521.htm');" id=PPTL40>Agenda:</a></font></div>
+  <div id=PPTC40 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>39</font></div>
+  </td>
+  <td>
+  <div id=PPTP41 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0469.htm');" id=PPTL41><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>40</font></div>
+  </td>
+  <td>
+  <div id=PPTP42 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0479.htm');" id=PPTL42><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>41</font></div>
+  </td>
+  <td>
+  <div id=PPTP43 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0477.htm');" id=PPTL43><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>42</font></div>
+  </td>
+  <td>
+  <div id=PPTP44 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0478.htm');" id=PPTL44><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>43</font></div>
+  </td>
+  <td>
+  <div id=PPTP45 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0481.htm');" id=PPTL45><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>44</font></div>
+  </td>
+  <td>
+  <div id=PPTP46 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0491.htm');" id=PPTL46><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>45</font></div>
+  </td>
+  <td>
+  <div id=PPTP47 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0490.htm');" id=PPTL47><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>46</font></div>
+  </td>
+  <td>
+  <div id=PPTP48 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0489.htm');" id=PPTL48><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>47</font></div>
+  </td>
+  <td>
+  <div id=PPTP49 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0488.htm');" id=PPTL49><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>48</font></div>
+  </td>
+  <td>
+  <div id=PPTP55 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0473.htm');" id=PPTL55><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>49</font></div>
+  </td>
+  <td>
+  <div id=PPTP56 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0522.htm');" id=PPTL56>Agenda:</a></font></div>
+  <div id=PPTC56 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>50</font></div>
+  </td>
+  <td>
+  <div id=PPTP57 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0495.htm');" id=PPTL57><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>51</font></div>
+  </td>
+  <td>
+  <div id=PPTP60 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0527.htm');" id=PPTL60><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>52</font></div>
+  </td>
+  <td>
+  <div id=PPTP61 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0500.htm');" id=PPTL61><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>53</font></div>
+  </td>
+  <td>
+  <div id=PPTP62 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0502.htm');" id=PPTL62><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>54</font></div>
+  </td>
+  <td>
+  <div id=PPTP63 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0503.htm');" id=PPTL63><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>55</font></div>
+  </td>
+  <td>
+  <div id=PPTP64 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0504.htm');" id=PPTL64>Constructing the <br>
+    Chopin Early Editions collection</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>56</font></div>
+  </td>
+  <td>
+  <div id=PPTP66 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0523.htm');" id=PPTL66>Agenda:</a></font></div>
+  <div id=PPTC66 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>57</font></div>
+  </td>
+  <td>
+  <div id=PPTP67 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0526.htm');" id=PPTL67>Standards</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>58</font></div>
+  </td>
+  <td>
+  <div id=PPTP68 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0516.htm');" id=PPTL68>Greenstone 3</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>59</font></div>
+  </td>
+  <td>
+  <div id=PPTP69 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0420.htm');" id=PPTL69><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>60</font></div>
+  </td>
+  <td>
+  <div id=PPTP70 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0421.htm');" id=PPTL70>Collection1 home page</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>61</font></div>
+  </td>
+  <td>
+  <div id=PPTP71 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0422.htm');" id=PPTL71>Search form</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>62</font></div>
+  </td>
+  <td>
+  <div id=PPTP72 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0423.htm');" id=PPTL72><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>63</font></div>
+  </td>
+  <td>
+  <div id=PPTP73 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0424.htm');" id=PPTL73><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>64</font></div>
+  </td>
+  <td>
+  <div id=PPTP74 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0425.htm');" id=PPTL74><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>65</font></div>
+  </td>
+  <td>
+  <div id=PPTP75 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0426.htm');" id=PPTL75><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>66</font></div>
+  </td>
+  <td>
+  <div id=PPTP76 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0427.htm');" id=PPTL76>XML Request</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>67</font></div>
+  </td>
+  <td>
+  <div id=PPTP77 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0428.htm');" id=PPTL77><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>68</font></div>
+  </td>
+  <td>
+  <div id=PPTP78 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0429.htm');" id=PPTL78>XML Response</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>69</font></div>
+  </td>
+  <td>
+  <div id=PPTP79 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0430.htm');" id=PPTL79><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>70</font></div>
+  </td>
+  <td>
+  <div id=PPTP80 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0431.htm');" id=PPTL80>XML Response</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>71</font></div>
+  </td>
+  <td>
+  <div id=PPTP81 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0432.htm');" id=PPTL81>XML Response</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>72</font></div>
+  </td>
+  <td>
+  <div id=PPTP82 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0433.htm');" id=PPTL82>XML Response</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>73</font></div>
+  </td>
+  <td>
+  <div id=PPTP83 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0434.htm');" id=PPTL83>Search form</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>74</font></div>
+  </td>
+  <td>
+  <div id=PPTP84 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0435.htm');" id=PPTL84>Search results</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>75</font></div>
+  </td>
+  <td>
+  <div id=PPTP85 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0436.htm');" id=PPTL85><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>76</font></div>
+  </td>
+  <td>
+  <div id=PPTP86 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0437.htm');" id=PPTL86><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>77</font></div>
+  </td>
+  <td>
+  <div id=PPTP87 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0438.htm');" id=PPTL87><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>78</font></div>
+  </td>
+  <td>
+  <div id=PPTP88 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0439.htm');" id=PPTL88><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>79</font></div>
+  </td>
+  <td>
+  <div id=PPTP89 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0440.htm');" id=PPTL89><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>80</font></div>
+  </td>
+  <td>
+  <div id=PPTP90 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0441.htm');" id=PPTL90><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>81</font></div>
+  </td>
+  <td>
+  <div id=PPTP91 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0442.htm');" id=PPTL91>Search results</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>82</font></div>
+  </td>
+  <td>
+  <div id=PPTP92 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0443.htm');" id=PPTL92>Collection2 home page</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>83</font></div>
+  </td>
+  <td>
+  <div id=PPTP93 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0444.htm');" id=PPTL93><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>84</font></div>
+  </td>
+  <td>
+  <div id=PPTP94 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0525.htm');" id=PPTL94>Agenda:</a></font></div>
+  <div id=PPTC94 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>85</font></div>
+  </td>
+  <td>
+  <div id=PPTP95 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0446.htm');" id=PPTL95>Greenstone3 examples</a></font></div>
+  <div id=PPTC95 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Backwards compatibility</li>
+   <li>Map based query</li>
+   <li>Interactive clustering</li>
+   <li>Electronic Text Centre</li>
+   <li>Dynamic text enrichment</li>
+   <li>Distributed architecture</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>86</font></div>
+  </td>
+  <td>
+  <div id=PPTP96 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0447.htm');" id=PPTL96>Backwards compatibility</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>87</font></div>
+  </td>
+  <td>
+  <div id=PPTP97 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0448.htm');" id=PPTL97>Backwards compatibility</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>88</font></div>
+  </td>
+  <td>
+  <div id=PPTP98 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0449.htm');" id=PPTL98>Geographical services</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>89</font></div>
+  </td>
+  <td>
+  <div id=PPTP99 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0450.htm');" id=PPTL99>Geographical services</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>90</font></div>
+  </td>
+  <td>
+  <div id=PPTP100 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0451.htm');" id=PPTL100>Geographical services</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>91</font></div>
+  </td>
+  <td>
+  <div id=PPTP101 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0452.htm');" id=PPTL101>Geographical services</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>92</font></div>
+  </td>
+  <td>
+  <div id=PPTP102 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0453.htm');" id=PPTL102>Geographical services</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>93</font></div>
+  </td>
+  <td>
+  <div id=PPTP103 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0454.htm');" id=PPTL103><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>94</font></div>
+  </td>
+  <td>
+  <div id=PPTP104 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0455.htm');" id=PPTL104>Interactive clustering</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>95</font></div>
+  </td>
+  <td>
+  <div id=PPTP105 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0457.htm');" id=PPTL105>Interactive clustering</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>96</font></div>
+  </td>
+  <td>
+  <div id=PPTP106 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0458.htm');" id=PPTL106>Interactive clustering</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>97</font></div>
+  </td>
+  <td>
+  <div id=PPTP107 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0459.htm');" id=PPTL107><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>98</font></div>
+  </td>
+  <td>
+  <div id=PPTP108 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0460.htm');" id=PPTL108><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>99</font></div>
+  </td>
+  <td>
+  <div id=PPTP109 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0461.htm');" id=PPTL109>Electronic Text Centre</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>100</font></div>
+  </td>
+  <td>
+  <div id=PPTP110 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0462.htm');" id=PPTL110>Electronic Text Centre</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>101</font></div>
+  </td>
+  <td>
+  <div id=PPTP111 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0463.htm');" id=PPTL111>Electronic Text Centre</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>102</font></div>
+  </td>
+  <td>
+  <div id=PPTP112 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0528.htm');" id=PPTL112>Electronic Text Centre</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>103</font></div>
+  </td>
+  <td>
+  <div id=PPTP113 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0464.htm');" id=PPTL113>Electronic Text Centre</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>104</font></div>
+  </td>
+  <td>
+  <div id=PPTP114 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0465.htm');" id=PPTL114>Text enrichment</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>105</font></div>
+  </td>
+  <td>
+  <div id=PPTP115 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0466.htm');" id=PPTL115><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>106</font></div>
+  </td>
+  <td>
+  <div id=PPTP116 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0467.htm');" id=PPTL116><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>107</font></div>
+  </td>
+  <td>
+  <div id=PPTP117 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0468.htm');" id=PPTL117><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>108</font></div>
+  </td>
+  <td>
+  <div id=PPTP118 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0524.htm');" id=PPTL118>Summary</a></font></div>
+  <div id=PPTC118 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>About Greenstone</li>
+   <ul>
+    <li>What we wanted</li>
+    <li>Greenstone facts</li>
+   </ul>
+   <li>International orientation</li>
+   <ul>
+    <li>UNESCO</li>
+    <li>Some collections</li>
+   </ul>
+   <li>Building a collection</li>
+   <ul>
+    <li>Demo of Greenstone Librarian Interface</li>
+    <li>A multimedia collection</li>
+   </ul>
+   <li>Case studies</li>
+   <ul>
+    <li>Washington Research Library Consortium (Allison Zhang)</li>
+    <li>Chopin First Editions: University of Chicago (Tod Olson)</li>
+   </ul>
+   <li>Standards in Greenstone</li>
+   <br>
+   <br>
+   <li>Into the future: Greenstone3</li>
+   <ul>
+    <li>Design and implementation</li>
+    <li>Examples: default, classic, enhanced services</li>
+   </ul>
+   <br>
+   <li>Possible futures (advice sought!)</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>109</font></div>
+  </td>
+  <td>
+  <div id=PPTP119 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0529.htm');" id=PPTL119>Standards</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>110</font></div>
+  </td>
+  <td>
+  <div id=PPTP120 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0517.htm');" id=PPTL120>Possible futures: my
+  questions for you!</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>111</font></div>
+  </td>
+  <td>
+  <div id=PPTP122 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0392.htm');" id=PPTL122><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>112</font></div>
+  </td>
+  <td>
+  <div id=PPTP123 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0386.htm');" id=PPTL123><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master19.htm></a><a href=master19.xml></a><a
+href=preview.wmf></a><a href=master20.htm></a><a href=master20.xml></a><a
+href=master02.htm></a><a href=pres.xml></a><a href=editdata.mso></a><a
+href=slide0401.htm></a><a href="slide0401_image001.png"></a><a
+href="slide0401_image002.jpg"></a><a href=slide0402.htm></a><a
+href="slide0402_image003.png"></a><a href="slide0402_image004.gif"></a><a
+href="slide0402_image005.gif"></a><a href=slide0403.htm></a><a
+href="slide0403_image006.png"></a><a href=oledata.mso></a><a
+href="slide0403_image007.gif"></a><a href="slide0403_image008.gif"></a><a
+href=slide0404.htm></a><a href="slide0404_image009.gif"></a><a
+href="slide0404_image010.gif"></a><a href=slide0518.htm></a><a
+href="slide0518_image011.gif"></a><a href="slide0518_image012.wmz"></a><a
+href="slide0518_image013.pcz"></a><a href="slide0518_image014.pcz"></a><a
+href="slide0518_image015.pcz"></a><a href="slide0518_image016.pcz"></a><a
+href="slide0518_image017.pcz"></a><a href="slide0518_image018.png"></a><a
+href="slide0518_image019.gif"></a><a href=slide0236.htm></a><a
+href="slide0236_image020.wmz"></a><a href="slide0236_image021.pcz"></a><a
+href="slide0236_image022.gif"></a><a href="slide0236_image023.gif"></a><a
+href=slide0237.htm></a><a href=slide0238.htm></a><a href=slide0368.htm></a><a
+href="slide0368_image024.png"></a><a href="slide0368_image025.jpg"></a><a
+href=slide0369.htm></a><a href=slide0519.htm></a><a
+href="slide0519_image026.gif"></a><a href="slide0519_image027.pcz"></a><a
+href="slide0519_image028.pcz"></a><a href="slide0519_image029.pcz"></a><a
+href="slide0519_image030.pcz"></a><a href="slide0519_image031.pcz"></a><a
+href="slide0519_image032.gif"></a><a href=slide0406.htm></a><a
+href="slide0406_image033.png"></a><a href="slide0406_image034.gif"></a><a
+href=slide0407.htm></a><a href="slide0407_image035.jpg"></a><a
+href="slide0407_image036.jpg"></a><a href="slide0407_image037.jpg"></a><a
+href="slide0407_image038.jpg"></a><a href=slide0408.htm></a><a
+href="slide0408_image039.gif"></a><a href="slide0408_image040.gif"></a><a
+href=slide0410.htm></a><a href="slide0410_image041.png"></a><a
+href="slide0410_image042.jpg"></a><a href="slide0410_image043.gif"></a><a
+href="slide0410_image044.jpg"></a><a href="slide0410_image045.jpg"></a><a
+href=slide0411.htm></a><a href="slide0411_image046.gif"></a><a
+href="slide0411_image047.png"></a><a href="slide0411_image048.jpg"></a><a
+href="slide0411_image049.jpg"></a><a href="slide0411_image050.jpg"></a><a
+href=slide0412.htm></a><a href="slide0412_image051.jpg"></a><a
+href="slide0412_image052.jpg"></a><a href="slide0412_image053.gif"></a><a
+href=slide0413.htm></a><a href="slide0413_image054.png"></a><a
+href="slide0413_image055.jpg"></a><a href="slide0413_image056.png"></a><a
+href="slide0413_image057.jpg"></a><a href="slide0413_image058.gif"></a><a
+href=slide0415.htm></a><a href="slide0415_image059.png"></a><a
+href="slide0415_image060.jpg"></a><a href="slide0415_image061.png"></a><a
+href="slide0415_image062.jpg"></a><a href="slide0415_image063.gif"></a><a
+href=slide0416.htm></a><a href="slide0416_image064.gif"></a><a
+href="slide0416_image065.png"></a><a href="slide0416_image066.jpg"></a><a
+href="slide0416_image067.png"></a><a href="slide0416_image068.jpg"></a><a
+href="slide0416_image069.png"></a><a href="slide0416_image070.jpg"></a><a
+href="slide0416_image071.png"></a><a href="slide0416_image072.jpg"></a><a
+href="slide0416_image073.png"></a><a href="slide0416_image074.jpg"></a><a
+href="slide0416_image075.png"></a><a href="slide0416_image076.jpg"></a><a
+href="slide0416_image077.gif"></a><a href=slide0520.htm></a><a
+href="slide0520_image078.gif"></a><a href="slide0520_image079.pcz"></a><a
+href="slide0520_image080.pcz"></a><a href="slide0520_image081.pcz"></a><a
+href="slide0520_image082.pcz"></a><a href="slide0520_image083.pcz"></a><a
+href="slide0520_image084.gif"></a><a href=slide0388.htm></a><a
+href="slide0388_image085.png"></a><a href="slide0388_image086.jpg"></a><a
+href="slide0388_image087.gif"></a><a href=slide0356.htm></a><a
+href="slide0356_image088.png"></a><a href="slide0356_image089.jpg"></a><a
+href="slide0356_image090.gif"></a><a href=slide0370.htm></a><a
+href="slide0370_image091.png"></a><a href="slide0370_image092.jpg"></a><a
+href=slide0379.htm></a><a href="slide0379_image093.png"></a><a
+href="slide0379_image094.jpg"></a><a href=slide0380.htm></a><a
+href="slide0380_image095.png"></a><a href="slide0380_image096.jpg"></a><a
+href=slide0371.htm></a><a href="slide0371_image097.png"></a><a
+href="slide0371_image098.jpg"></a><a href=slide0378.htm></a><a
+href="slide0378_image099.png"></a><a href="slide0378_image100.jpg"></a><a
+href=slide0372.htm></a><a href="slide0372_image101.png"></a><a
+href="slide0372_image102.jpg"></a><a href=slide0373.htm></a><a
+href="slide0373_image103.png"></a><a href="slide0373_image104.jpg"></a><a
+href=slide0374.htm></a><a href="slide0374_image105.png"></a><a
+href="slide0374_image106.jpg"></a><a href=slide0375.htm></a><a
+href="slide0375_image107.png"></a><a href="slide0375_image108.jpg"></a><a
+href=slide0376.htm></a><a href="slide0376_image109.png"></a><a
+href="slide0376_image110.jpg"></a><a href=slide0377.htm></a><a
+href="slide0377_image111.png"></a><a href="slide0377_image112.jpg"></a><a
+href="slide0377_image113.gif"></a><a href=slide0381.htm></a><a
+href="slide0381_image114.png"></a><a href="slide0381_image115.jpg"></a><a
+href="slide0381_image116.gif"></a><a href=slide0382.htm></a><a
+href="slide0382_image117.png"></a><a href="slide0382_image118.jpg"></a><a
+href=slide0383.htm></a><a href="slide0383_image119.png"></a><a
+href="slide0383_image120.jpg"></a><a href=slide0384.htm></a><a
+href="slide0384_image121.jpg"></a><a href=slide0385.htm></a><a
+href="slide0385_image122.png"></a><a href="slide0385_image123.jpg"></a><a
+href=slide0521.htm></a><a href="slide0521_image124.gif"></a><a
+href="slide0521_image125.pcz"></a><a href="slide0521_image126.pcz"></a><a
+href="slide0521_image127.pcz"></a><a href="slide0521_image128.pcz"></a><a
+href="slide0521_image129.pcz"></a><a href="slide0521_image130.gif"></a><a
+href=slide0469.htm></a><a href=slide0469.xml></a><a
+href="slide0469_image131.gif"></a><a href="slide0469_image132.png"></a><a
+href="slide0469_image133.jpg"></a><a href="slide0469_image134.gif"></a><a
+href="slide0469_image135.gif"></a><a href="slide0469_image136.gif"></a><a
+href="slide0469_image137.gif"></a><a href="slide0469_image138.gif"></a><a
+href="slide0469_image139.gif"></a><a href=slide0479.htm></a><a
+href="slide0479_image140.gif"></a><a href="slide0479_image141.jpg"></a><a
+href=slide0477.htm></a><a href="slide0477_image142.png"></a><a
+href="slide0477_image143.jpg"></a><a href=slide0478.htm></a><a
+href="slide0478_image144.png"></a><a href="slide0478_image145.jpg"></a><a
+href=slide0481.htm></a><a href="slide0481_image146.gif"></a><a
+href="slide0481_image147.jpg"></a><a href=slide0491.htm></a><a
+href="slide0491_image148.png"></a><a href="slide0491_image149.jpg"></a><a
+href=slide0490.htm></a><a href="slide0490_image150.png"></a><a
+href="slide0490_image151.jpg"></a><a href=slide0489.htm></a><a
+href="slide0489_image152.png"></a><a href="slide0489_image153.jpg"></a><a
+href=slide0488.htm></a><a href="slide0488_image154.png"></a><a
+href="slide0488_image155.jpg"></a><a href=slide0487.htm></a><a
+href="slide0487_image156.png"></a><a href="slide0487_image157.jpg"></a><a
+href=slide0486.htm></a><a href="slide0486_image158.png"></a><a
+href="slide0486_image159.jpg"></a><a href=slide0485.htm></a><a
+href="slide0485_image160.png"></a><a href="slide0485_image161.jpg"></a><a
+href=slide0484.htm></a><a href="slide0484_image162.png"></a><a
+href="slide0484_image163.jpg"></a><a href=slide0483.htm></a><a
+href="slide0483_image164.png"></a><a href="slide0483_image165.jpg"></a><a
+href=slide0473.htm></a><a href="slide0473_image166.gif"></a><a
+href="slide0473_image167.jpg"></a><a href="slide0473_image168.png"></a><a
+href="slide0473_image169.jpg"></a><a href="slide0473_image170.png"></a><a
+href="slide0473_image171.jpg"></a><a href="slide0473_image172.png"></a><a
+href="slide0473_image173.jpg"></a><a href="slide0473_image174.png"></a><a
+href="slide0473_image175.jpg"></a><a href=slide0522.htm></a><a
+href="slide0522_image176.gif"></a><a href="slide0522_image177.pcz"></a><a
+href="slide0522_image178.pcz"></a><a href="slide0522_image179.pcz"></a><a
+href="slide0522_image180.pcz"></a><a href="slide0522_image181.pcz"></a><a
+href="slide0522_image182.gif"></a><a href=slide0495.htm></a><a
+href="slide0495_image183.png"></a><a href="slide0495_image184.jpg"></a><a
+href=slide0496.htm></a><a href="slide0496_image185.png"></a><a
+href="slide0496_image186.jpg"></a><a href=slide0497.htm></a><a
+href="slide0497_image187.png"></a><a href="slide0497_image188.jpg"></a><a
+href=slide0527.htm></a><a href="slide0527_image189.png"></a><a
+href="slide0527_image190.jpg"></a><a href=slide0500.htm></a><a
+href="slide0500_image191.png"></a><a href="slide0500_image192.jpg"></a><a
+href=slide0502.htm></a><a href="slide0502_image193.png"></a><a
+href="slide0502_image194.jpg"></a><a href=slide0503.htm></a><a
+href="slide0503_image195.png"></a><a href="slide0503_image196.jpg"></a><a
+href=slide0504.htm></a><a href="slide0504_image197.gif"></a><a
+href=slide0514.htm></a><a href=slide0523.htm></a><a
+href="slide0523_image198.gif"></a><a href="slide0523_image199.pcz"></a><a
+href="slide0523_image200.pcz"></a><a href="slide0523_image201.pcz"></a><a
+href="slide0523_image202.pcz"></a><a href="slide0523_image203.pcz"></a><a
+href="slide0523_image204.gif"></a><a href=slide0526.htm></a><a
+href="slide0526_image205.gif"></a><a href=slide0516.htm></a><a
+href="slide0516_image206.gif"></a><a href=slide0420.htm></a><a
+href=slide0420.xml></a><a href="slide0420_image207.gif"></a><a
+href="slide0420_image208.gif"></a><a href=slide0421.htm></a><a
+href="slide0421_image209.gif"></a><a href="slide0421_image210.gif"></a><a
+href="slide0421_image211.png"></a><a href="slide0421_image212.jpg"></a><a
+href=slide0422.htm></a><a href="slide0422_image213.gif"></a><a
+href="slide0422_image214.gif"></a><a href="slide0422_image215.png"></a><a
+href="slide0422_image216.jpg"></a><a href=slide0423.htm></a><a
+href=slide0423.xml></a><a href="slide0423_image217.gif"></a><a
+href="slide0423_image218.gif"></a><a href=slide0424.htm></a><a
+href=slide0424.xml></a><a href="slide0424_image219.gif"></a><a
+href="slide0424_image220.gif"></a><a href="slide0424_image221.gif"></a><a
+href="slide0424_image222.gif"></a><a href="slide0424_image223.gif"></a><a
+href="slide0424_image224.gif"></a><a href="slide0424_image225.gif"></a><a
+href="slide0424_image226.gif"></a><a href=slide0425.htm></a><a
+href=slide0425.xml></a><a href="slide0425_image227.gif"></a><a
+href="slide0425_image228.gif"></a><a href="slide0425_image229.gif"></a><a
+href="slide0425_image230.gif"></a><a href="slide0425_image231.gif"></a><a
+href="slide0425_image232.gif"></a><a href="slide0425_image233.gif"></a><a
+href="slide0425_image234.gif"></a><a href=slide0426.htm></a><a
+href=slide0426.xml></a><a href="slide0426_image235.gif"></a><a
+href="slide0426_image236.gif"></a><a href="slide0426_image237.gif"></a><a
+href="slide0426_image238.gif"></a><a href="slide0426_image239.gif"></a><a
+href="slide0426_image240.gif"></a><a href="slide0426_image241.gif"></a><a
+href="slide0426_image242.gif"></a><a href=slide0427.htm></a><a
+href="slide0427_image243.gif"></a><a href="slide0427_image244.gif"></a><a
+href=slide0428.htm></a><a href=slide0428.xml></a><a
+href="slide0428_image245.gif"></a><a href="slide0428_image246.gif"></a><a
+href="slide0428_image247.gif"></a><a href="slide0428_image248.gif"></a><a
+href="slide0428_image249.gif"></a><a href="slide0428_image250.gif"></a><a
+href="slide0428_image251.gif"></a><a href="slide0428_image252.gif"></a><a
+href=slide0429.htm></a><a href="slide0429_image253.gif"></a><a
+href=slide0430.htm></a><a href=slide0430.xml></a><a
+href="slide0430_image254.gif"></a><a href="slide0430_image255.gif"></a><a
+href="slide0430_image256.gif"></a><a href="slide0430_image257.gif"></a><a
+href="slide0430_image258.gif"></a><a href="slide0430_image259.gif"></a><a
+href="slide0430_image260.gif"></a><a href="slide0430_image261.gif"></a><a
+href=slide0431.htm></a><a href="slide0431_image262.gif"></a><a
+href=slide0432.htm></a><a href="slide0432_image263.gif"></a><a
+href=slide0433.htm></a><a href="slide0433_image264.gif"></a><a
+href=slide0434.htm></a><a href="slide0434_image265.gif"></a><a
+href="slide0434_image266.gif"></a><a href="slide0434_image267.png"></a><a
+href="slide0434_image268.jpg"></a><a href=slide0435.htm></a><a
+href="slide0435_image269.gif"></a><a href="slide0435_image270.gif"></a><a
+href="slide0435_image271.png"></a><a href="slide0435_image272.jpg"></a><a
+href=slide0436.htm></a><a href=slide0436.xml></a><a
+href="slide0436_image273.gif"></a><a href="slide0436_image274.gif"></a><a
+href=slide0437.htm></a><a href=slide0437.xml></a><a
+href="slide0437_image275.gif"></a><a href="slide0437_image276.gif"></a><a
+href="slide0437_image277.gif"></a><a href="slide0437_image278.gif"></a><a
+href="slide0437_image279.gif"></a><a href="slide0437_image280.gif"></a><a
+href="slide0437_image281.gif"></a><a href="slide0437_image282.gif"></a><a
+href=slide0438.htm></a><a href=slide0438.xml></a><a
+href="slide0438_image283.gif"></a><a href="slide0438_image284.gif"></a><a
+href="slide0438_image285.gif"></a><a href="slide0438_image286.gif"></a><a
+href="slide0438_image287.gif"></a><a href="slide0438_image288.gif"></a><a
+href="slide0438_image289.gif"></a><a href="slide0438_image290.gif"></a><a
+href=slide0439.htm></a><a href=slide0439.xml></a><a
+href="slide0439_image291.gif"></a><a href="slide0439_image292.gif"></a><a
+href="slide0439_image293.gif"></a><a href="slide0439_image294.gif"></a><a
+href="slide0439_image295.gif"></a><a href="slide0439_image296.gif"></a><a
+href="slide0439_image297.gif"></a><a href="slide0439_image298.gif"></a><a
+href=slide0440.htm></a><a href=slide0440.xml></a><a
+href="slide0440_image299.gif"></a><a href="slide0440_image300.gif"></a><a
+href="slide0440_image301.gif"></a><a href="slide0440_image302.gif"></a><a
+href="slide0440_image303.gif"></a><a href="slide0440_image304.gif"></a><a
+href="slide0440_image305.gif"></a><a href="slide0440_image306.gif"></a><a
+href=slide0441.htm></a><a href=slide0441.xml></a><a
+href="slide0441_image307.gif"></a><a href="slide0441_image308.gif"></a><a
+href="slide0441_image309.gif"></a><a href="slide0441_image310.gif"></a><a
+href="slide0441_image311.gif"></a><a href="slide0441_image312.gif"></a><a
+href="slide0441_image313.gif"></a><a href="slide0441_image314.gif"></a><a
+href=slide0442.htm></a><a href="slide0442_image315.gif"></a><a
+href="slide0442_image316.gif"></a><a href="slide0442_image317.jpg"></a><a
+href=slide0443.htm></a><a href="slide0443_image318.gif"></a><a
+href="slide0443_image319.gif"></a><a href="slide0443_image320.png"></a><a
+href="slide0443_image321.jpg"></a><a href="slide0443_image322.gif"></a><a
+href=slide0444.htm></a><a href=slide0444.xml></a><a
+href="slide0444_image323.gif"></a><a href="slide0444_image324.gif"></a><a
+href=slide0525.htm></a><a href="slide0525_image325.gif"></a><a
+href="slide0525_image326.pcz"></a><a href="slide0525_image327.pcz"></a><a
+href="slide0525_image328.pcz"></a><a href="slide0525_image329.pcz"></a><a
+href="slide0525_image330.pcz"></a><a href="slide0525_image331.gif"></a><a
+href=slide0446.htm></a><a href="slide0446_image332.gif"></a><a
+href=slide0447.htm></a><a href="slide0447_image333.gif"></a><a
+href="slide0447_image334.gif"></a><a href="slide0447_image335.png"></a><a
+href="slide0447_image336.jpg"></a><a href=slide0448.htm></a><a
+href="slide0448_image337.gif"></a><a href="slide0448_image338.gif"></a><a
+href="slide0448_image339.png"></a><a href="slide0448_image340.jpg"></a><a
+href=slide0449.htm></a><a href="slide0449_image341.gif"></a><a
+href="slide0449_image342.gif"></a><a href="slide0449_image343.png"></a><a
+href="slide0449_image344.jpg"></a><a href="slide0449_image345.gif"></a><a
+href=slide0450.htm></a><a href="slide0450_image346.gif"></a><a
+href="slide0450_image347.png"></a><a href="slide0450_image348.jpg"></a><a
+href="slide0450_image349.gif"></a><a href=slide0451.htm></a><a
+href="slide0451_image350.gif"></a><a href="slide0451_image351.png"></a><a
+href="slide0451_image352.jpg"></a><a href="slide0451_image353.gif"></a><a
+href="slide0451_image354.gif"></a><a href=slide0452.htm></a><a
+href="slide0452_image355.gif"></a><a href="slide0452_image356.png"></a><a
+href="slide0452_image357.jpg"></a><a href="slide0452_image358.gif"></a><a
+href=slide0453.htm></a><a href="slide0453_image359.gif"></a><a
+href="slide0453_image360.png"></a><a href="slide0453_image361.jpg"></a><a
+href="slide0453_image362.gif"></a><a href="slide0453_image363.gif"></a><a
+href=slide0454.htm></a><a href=slide0454.xml></a><a
+href="slide0454_image364.gif"></a><a href="slide0454_image365.gif"></a><a
+href=slide0455.htm></a><a href="slide0455_image366.gif"></a><a
+href="slide0455_image367.gif"></a><a href="slide0455_image368.png"></a><a
+href="slide0455_image369.jpg"></a><a href="slide0455_image370.gif"></a><a
+href=slide0457.htm></a><a href="slide0457_image371.gif"></a><a
+href="slide0457_image372.png"></a><a href="slide0457_image373.jpg"></a><a
+href="slide0457_image374.gif"></a><a href=slide0458.htm></a><a
+href="slide0458_image375.gif"></a><a href="slide0458_image376.png"></a><a
+href="slide0458_image377.jpg"></a><a href="slide0458_image378.gif"></a><a
+href=slide0459.htm></a><a href=slide0459.xml></a><a
+href="slide0459_image379.gif"></a><a href="slide0459_image380.gif"></a><a
+href=slide0460.htm></a><a href=slide0460.xml></a><a
+href="slide0460_image381.gif"></a><a href="slide0460_image382.gif"></a><a
+href=slide0461.htm></a><a href="slide0461_image383.gif"></a><a
+href="slide0461_image384.gif"></a><a href="slide0461_image385.png"></a><a
+href="slide0461_image386.jpg"></a><a href="slide0461_image387.gif"></a><a
+href=slide0462.htm></a><a href="slide0462_image388.gif"></a><a
+href="slide0462_image389.png"></a><a href="slide0462_image390.jpg"></a><a
+href="slide0462_image391.gif"></a><a href=slide0463.htm></a><a
+href="slide0463_image392.gif"></a><a href="slide0463_image393.png"></a><a
+href="slide0463_image394.jpg"></a><a href="slide0463_image395.gif"></a><a
+href=slide0528.htm></a><a href="slide0528_image396.gif"></a><a
+href="slide0528_image397.jpg"></a><a href="slide0528_image398.gif"></a><a
+href=slide0464.htm></a><a href="slide0464_image399.gif"></a><a
+href="slide0464_image400.png"></a><a href="slide0464_image401.jpg"></a><a
+href="slide0464_image402.gif"></a><a href=slide0465.htm></a><a
+href="slide0465_image403.png"></a><a href="slide0465_image404.gif"></a><a
+href="slide0465_image405.gif"></a><a href="slide0465_image406.gif"></a><a
+href=slide0466.htm></a><a href=slide0466.xml></a><a
+href="slide0466_image407.gif"></a><a href="slide0466_image408.gif"></a><a
+href=slide0467.htm></a><a href=slide0467.xml></a><a
+href="slide0467_image409.gif"></a><a href="slide0467_image410.gif"></a><a
+href=slide0468.htm></a><a href=slide0468.xml></a><a
+href="slide0468_image411.gif"></a><a href=slide0524.htm></a><a
+href="slide0524_image412.gif"></a><a href="slide0524_image413.pcz"></a><a
+href="slide0524_image414.pcz"></a><a href="slide0524_image415.pcz"></a><a
+href="slide0524_image416.pcz"></a><a href="slide0524_image417.pcz"></a><a
+href="slide0524_image418.gif"></a><a href="slide0524_image419.gif"></a><a
+href="slide0524_image420.gif"></a><a href="slide0524_image421.gif"></a><a
+href="slide0524_image422.gif"></a><a href="slide0524_image423.gif"></a><a
+href="slide0524_image424.gif"></a><a href=slide0529.htm></a><a
+href="slide0529_image425.gif"></a><a href=slide0517.htm></a><a
+href=slide0390.htm></a><a href="slide0390_image426.gif"></a><a
+href=slide0392.htm></a><a href="slide0392_image427.png"></a><a
+href="slide0392_image428.gif"></a><a href=slide0386.htm></a><a
+href=master01.htm></a><a href="master19_stylesheet.css"></a><a href=script.js></a><a
+href="../witten1004.htm"></a><a href=fullscreen.htm></a><a href="notes_flag.gif"></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

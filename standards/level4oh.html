@@ -1,0 +1,142 @@
+<html>
+<head><title>Level 4 Oral History</title>
+<style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif;}
+
+          p          { margin-top: .5em; margin-bottom: .25em;}
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+
+</style>
+
+</head>
+
+<body>
+
+<h3>Level 4 Oral History Examples</h3> 
+<p>Examples are from Documenting the American South at
+the University of North Carolina at Chapel Hill and from the California Digital Library</p>
+<p>Compiled by Natasha Smith and Merrilee Proffitt</p>
+<hr/>
+
+<h3>Example 1</h3>
+<h4>Participant List in the Header</h4>
+<pre>
+<span class="element">&lt;profileDesc&gt;</span>
+        <span class="element">&lt;particDesc default="NO"&gt;</span>
+            <span class="element">&lt;p&gt;</span>
+               <span class="element">&lt;list type="simple"&gt;</span>
+                  <span class="element">&lt;head&gt;</span>Participants to the interview include:<span class="element">&lt;/head&gt;</span>
+                  <span class="element">&lt;item&gt;</span>Interviewer/editor: <span class="element">&lt;name id="fry"&gt;</span>Amelia Fry<span class="element">&lt;/name&gt;</span>
+                  <span class="element">&lt;/item&gt;</span>
+                  <span class="element">&lt;item&gt;</span>Interviewee: <span class="element">&lt;name id="field"&gt;</span>Sara Bard Field<span class="element">&lt;/name&gt;</span>
+                  <span class="element">&lt;/item&gt;</span>
+                  <span class="element">&lt;item&gt;</span>Interviewer: <span class="element">&lt;name id="brophy"&gt;</span>Father Robert Brophy<span class="element">&lt;/name&gt;</span>
+                  <span class="element">&lt;/item&gt;</span>
+                  <span class="element">&lt;item&gt;</span>Interviewer: <span class="element">&lt;name id="gilb"&gt;</span>Corinne Gilb<span class="element">&lt;/name&gt;</span>
+                  <span class="element">&lt;/item&gt;</span>
+			...
+		<span class="element">&lt;/list&gt;</span>
+              <span class="element">&lt;/p&gt;</span>
+	<span class="element">&lt;/particDesc&gt;</span>
+			...
+<span class="element">&lt;/profileDesc&gt;</span>
+</pre>	                 
+
+Questions and answers from interviewees and interviewers are encoded as <span class="element">&lt;sp&gt;</span>, with speakers identified within 
+<span class="element">&lt;speaker&gt;</span> elements.
+
+<h4>Encoded Text Corresponding to Participant List IDS</h4>
+<pre>
+                  <span class="element">&lt;sp who="fry"&gt;</span>
+                     <span class="element">&lt;speaker&gt;</span>Fry<span class="element">&lt;/speaker&gt;</span>
+                     <span class="element">&lt;p&gt;</span>Are you talking about both the ERA and the suffrage?<span class="element">&lt;/p&gt;</span>
+                  <span class="element">&lt;/sp&gt;</span>
+                  <span class="element">&lt;sp who="paul"&gt;</span>
+                     <span class="element">&lt;speaker&gt;</span>Paul<span class="element">&lt;/speaker&gt;</span>
+                     <span class="element">&lt;p&gt;</span>Now, I am talking about the suffrage. That's the reason <span class="element">&lt;pb id="p304" n="304"/&gt;</span> 
+we were doing that, just <span class="element">&lt;hi rend="italic"&gt;</span>publicly <span class="element">&lt;/hi&gt;</span>. Like the time when we sent down two women from 
+each congressional district. It was no secret lobbying. It was just very publicly staged, while the paid lobbyist, the 
+professional lobbyist, it's more secret, you know. More hidden and concealed, people denying that they 
+<span class="element">&lt;hi rend="italic"&gt;</span>are <span class="element">&lt;/hi&gt;</span>lobbyists and all that sort of thing.<span class="element">&lt;/p&gt;</span>
+                  <span class="element">&lt;/sp&gt;</span>
+
+</pre>
+
+<p>Oral histories can be arranged so that the primary access to the intellectual content is reflected in chapter titles, 
+subheads, etc. or can be arranged so that the primary access to the content is given by interview dates, a tape guide, 
+etc.  The primary access to intellectual content should be reflected using DIVs.  If a table of contents is accompanied by 
+interview or tape change indications, these should be encoded as milestones.</p>
+
+<pre>		<span class="element">&lt;milestone n="Tape 1, Side B" unit="tape"/&gt;</span></pre>
+
+<h3>Example 2</h3>
+<h4>Participant List in the Header</h4>
+<pre>
+<span class="element">&lt;fileDesc&gt;</span>
+	<span class="element">&lt;titleStmt&gt;</span>
+	    	<span class="element">&lt;author&gt;</span>
+                	<span class="element">&lt;name id="cmb" reg="Cavenaugh, Mattie Bell" type="interviewee"&gt;</span>Cavenaugh, Mattie
+                        Bell (b. 1926)<span class="element">&lt;/name&gt;</span>, interviewee <span class="element">&lt;/author&gt;</span>
+                <span class="element">&lt;author&gt;</span>
+                    	<span class="element">&lt;name id="ce" reg="Cavenaugh, Earl" type="interviewee"&gt;</span>Cavenaugh, Earl (b.
+                    1919)<span class="element">&lt;/name&gt;</span>, interviewee <span class="element">&lt;/author&gt;</span>
+                <span class="element">&lt;author&gt;</span>
+                    	<span class="element">&lt;name id="ca" reg="Cavenaugh, Artis" type="interviewee"&gt;</span>Cavenaugh, Artis<span class="element">&lt;/name&gt;</span>,
+                    interviewee <span class="element">&lt;/author&gt;</span>
+                <span class="element">&lt;author&gt;</span>
+                    	<span class="element">&lt;name id="ct" reg="Cavenaugh, Thomas" type="interviewee"&gt;</span>Cavenaugh,
+                    Thomas<span class="element">&lt;/name&gt;</span>, interviewee <span class="element">&lt;/author&gt;</span>
+                <span class="element">&lt;author&gt;</span>
+                    	<span class="element">&lt;name id="eb" reg="Easter, Betsy" type="interviewee"&gt;</span>Easter, Betsy<span class="element">&lt;/name&gt;</span>,
+	                    interviewee <span class="element">&lt;/author&gt;</span>
+	<span class="element">&lt;/titleStmt&gt;</span>
+<span class="element">&lt;/fileDesc&gt;</span>
+</pre>
+
+<h4>Encoded Text Corresponding to Participant List IDS</h4>
+<pre>
+<span class="element">&lt;sp who="spk3"&gt;</span>
+     <span class="element">&lt;speaker n="3"&gt;</span>BETSY EASTER:<span class="element">&lt;/speaker&gt;</span>
+           <span class="element">&lt;p&gt;</span>So all of the Ladies Auxiliary papers are gone. 
+		<span class="element">&lt;note type="comment"&gt;</span><span class="element">&lt;p&gt;</span>[Phone conversation distruption]<span class="element">&lt;/p&gt;</span><span class="element">&lt;/note&gt;</span>
+           <span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;/sp&gt;</span>
+
+		or
+
+<span class="element">&lt;sp who="spk2"&gt;</span>
+       <span class="element">&lt;speaker n="2"&gt;</span>KATHLEEN BRATTEN:<span class="element">&lt;/speaker&gt;</span>
+           <span class="element">&lt;p&gt;</span> Well, actually, we finally graduated to a gas burner. 
+		<span class="element">&lt;note type="comment"&gt;</span><span class="element">&lt;p&gt;</span>[Laughs].<span class="element">&lt;/p&gt;</span><span class="element">&lt;/note&gt;</span>
+           <span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;/sp&gt;</span>
+</pre>
+ 
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

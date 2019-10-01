@@ -1,0 +1,222 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>DLF. Collections. Registry of digitized books and serials.
+Functional requirement</title>
+</head>
+<body>
+<!-- Begin text here -->
+<h2>Registry of Digital Reproductions of Paper-based Books and
+Serials</h2>
+
+<h2>Functional Requirements</h2>
+
+<p>July 24, 2001</p>
+
+<h3>Introduction</h3>
+
+<p>This document offers a functional specification for a registry
+that records information about digital reproductions of books and
+serials. It has been produced as part of the DLF's work to define
+requirements for and encourage the development of such a registry
+service. An introduction to that work and additional
+documentation on it is available from <a
+href=" http://www.diglib.org/collections/reg/reg.htm ">http://www.diglib.org/collections/reg/reg.htm</a>.</p>
+
+<h3>Data registered</h3>
+
+The Registry must have the ability to record (or, in some
+instances, to link to) the following information: 
+
+<div style="margin-left: 2em">
+<p><i>Bibliographic Description</i>. Reproductions should be
+described using MARC21 and contemporary cataloging rules. Given
+that the original materials are very likely already cataloged in
+traditional library format, this should be an easy and
+inexpensive process. Records should meet the standards for
+minimal content described in National Level Record -
+Bibliographic - Full Level &amp; Minimal Level (<a
+href="http://www.loc.gov/marc/bibliographic/nlr/">http://www.loc.gov/marc/bibliographic/nlr/</a>).</p>
+
+<p><i>Precise Holdings</i>. For multi-volume and "continuing"
+works such as journals, a description should be recorded in
+standard holdings notation of the precise issues and volumes that
+have been digitized. If forms of "compressed" holding statements
+are used, they MUST be understood to imply that every volume and
+issue of the encompassed run has been digitized.</p>
+
+<p><i>Information About Use Copy</i>. The following information
+should be recorded about the use copy (a network-accessible, but
+not necessarily free, copy of every registered object must be
+available as a condition for inclusion in the Registry):</p>
+
+<ul>
+<li>a URL or URN providing a persistent link to the use
+copy;</li>
+
+<li>a textual description of the terms and conditions for access
+to the use copy;</li>
+
+<li>the technical format, if the materials are not simply
+available through a standard web interface.</li>
+</ul>
+
+<p><i>Information About Archival Master Copy</i>. The following
+information should be recorded about the archival master copy
+(because persistence is an assumed responsibility of the
+registering agency, a Master Copy <u><i>must</i></u> be
+described):</p>
+
+<ul>
+<li>a persistent identifier for the master object (this does not
+need to be an "actionable" link such as an URL or URN -- just an
+unambiguous identifier that the owner will recognize);</li>
+
+<li>a textual description of the accessibility of the Master Copy
+(who can access it and under what terms and conditions);</li>
+
+<li>a description or a pointer (such as a URL or a standard
+identifier) to a description of the technical standards used in
+creating the Master Copy (note that this is a <u><i>key
+element</i></u> - it is expected that materials will be digitized
+following many differing practices. In order for other
+institutions to rely on a master, they need to be satisfied that
+is of sufficient quality. The expectation is that there will be
+standard best practice guidelines created by the digital library
+community that libraries can simply "point" to via identifier or
+URL when appropriate. When community standards or best practices
+are being followed, it is highly desirable that the name or
+identifier of such practices be recorded rather than a URL-based
+link.);</li>
+
+<li>the technical format of the Master copy (again, this is
+likely recorded as a pointer to a description of the format
+used).</li>
+
+<li>a description or a pointer to a description (such as a URL or
+a standard identifier) of the repository practices being followed
+in the storage and maintenance of the Master Copy (as noted
+efforts are currently underway to define best practices in this
+area.). 
+
+<p>If URLs are used to point to external descriptions of practice
+in any of the fields above, the recording institution must assume
+the responsibility of maintaining the validity of the link.</p>
+
+<p>(NOTE that if use and archival master copy are the same, the
+information should be repeated in both areas.)</p>
+</li>
+</ul>
+
+<p><i>Statement of intent to digitize</i>. In order to avoid
+unnecessary duplicate conversions, libraries are encouraged to
+record their intent to digitize an object as soon as the definite
+decision to do so is made. The statement should include the
+projected date on of completion. The MARC21 583 field can be used
+to record this information. A problem with the use of a queuing
+mechanism of this sort for microfilming activity has been that
+not everything queued has subsequent updates to indicate that the
+filming has actually taken place. In order to avoid this
+difficulty in the digital registry:</p>
+
+<ul>
+<li>a name and contact information should be recorded for each
+queued item;</li>
+
+<li>the registry system should send a tickler message for each
+item that remains queued more than 90 days after the expected
+date of digitization;</li>
+
+<li>the registry should delete any queuing information more than
+a year past the expected date of digitization.</li>
+</ul>
+</div>
+
+<h3>Information from Multiple Sources</h3>
+
+<p>There will be many cases in which more than one institution
+will need to register digital copies of the same bibliographic
+item. In particular, one can expect that for multi-part items
+such as journals, the entire bibliographic item may not be
+available from a single institution, and that the record in the
+Registry should show that one institution has digitized some
+volumes, and another institution other volumes. Likewise there
+may be instances in which two institutions digitize the same item
+in different formats or to different standards. The Registry
+should provide a unified and coherent view of all digital
+versions registered</p>
+
+<h3>Access</h3>
+
+<p>Registered information must be available to users in two
+ways:</p>
+
+<div style="margin-left: 2em">
+<p><i>Interactive search</i>. Records of registered materials
+must be interactively searchable through standard information
+retrieval queries based on normal MARC bibliographic elements.
+This search facility is primarily intended for use by library
+staff looking to see if a known item has been digitized If
+registered materials are integrated into a larger bibliographic
+file, searching must provide the ability to limit results to
+registered digital copies. Because searching is only intended to
+support library staff, a na&iuml;ve general user interface is not
+required.</p>
+
+<p><i>Harvesting</i>. Registered catalog data must be available
+for harvesting, supporting at a minimum the Open Archives
+initiative (OAi) protocols. Metadata formats supported should
+include both MARC21 and Dublin Core. There is no specific
+requirement that sub-setting of registered data during harvesting
+via the OAi "set" functions be supported.</p>
+</div>
+
+Easy accessibility should be provided to the entire international
+library community as well as to other institutions and companies
+(both commercial and non-commercial) engaged in digital
+conversion efforts. 
+
+<h3>Visibility as entity</h3>
+
+<p>It is important that the Registry be visible and have a
+recognized name to encourage contribution and use. While it is
+highly desirable that registered data be accessible as part of a
+larger bibliographic file, some means of identifying the Registry
+(including, but not limited to, the ability to access only
+registered materials in searching and harvesting as discussed
+above) and making its utility visible should be provided.</p>
+
+<h3>Input and Maintenance</h3>
+
+<p>Data input and maintenance should be available through both
+interactive on-line transactions for individual records, and in
+batch mode for groups of records. A "derive" function, allowing
+the majority of the bibliographic description of materials to be
+copied from existing records for paper originals, is highly
+desirable. It is expected that the original registering
+institution will need to be able to update information in the
+Registry after initial input, to record such things as a change
+in status from intended to actually digitized, additional volumes
+digitized, and changes in the format of master or use copies.
+Additionally, other institutions will need to be able to add
+information about other digital versions created. The ability to
+contribute and maintain data should be easily and readily
+available to the entire library community and to other
+institutions and companies (both commercial and non-commercial)
+engaged in digital conversion efforts. <!-- End text -->
+</p>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

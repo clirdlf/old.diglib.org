@@ -1,0 +1,748 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="Metadata harvesting testbed" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>Metadata harvesting testbed</title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+  if (Math.random) {
+    strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+    arrQuote = strQuote.split("^");
+    var num = Math.floor(Math.random() * arrQuote.length);
+    quote_rotate.src = "../images/"+arrQuote[num];
+  }
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type=
+"text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type=
+"text/css" />
+</head>
+<body onload=
+"MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src=
+"../images/logo.gif" alt="Digital Library Federation, Link: Home"
+name="dlf_logo" width="192" height="133" border="0" id=
+"dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../images/quote_hold.gif" name="quote_rotate" alt=
+"random quote" width="333" height="95" id="quote_rotate" /></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../publications.htm"><img src="../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><img src=
+"../images/forum.gif" alt="Forum" width="50" height="27" border=
+"0" /></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../about.htm"><img src="../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../news.htm"><img src="../images/news.gif" alt="Link: News"
+width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top"><a href=
+"http://www.diglib.org/search.html">Search</a> 
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> --></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);">
+<img src="../images/collect.gif" alt="Link: Digital Collections"
+name="collect" width="117" height="38" border="0" id=
+"collect" /></a></td>
+<td width="117" height="38" valign="top"><a href="../produce.htm"
+onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)">
+<img src="../images/produce.gif" alt="Link: Digital Production"
+name="produce" width="117" height="38" border="0" id=
+"produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)">
+<img src="../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()"
+onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)">
+<img src="../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)">
+<img src="../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top"><!-- Begin text here -->
+
+<h1 class="sectionhead">Metadata harvesting testbed. Call for expressions of
+interest</h1>
+
+
+
+<p>The Digital Library Federation<br />
+29 June 2000</p>
+
+<p><b><i>Please note, responses to this call are no longer being
+sought by the DLF.</i></b></p>
+
+<h3>I Executive summary</h3>
+
+<p>The Andrew W. Mellon Foundation has asked the DLF to propose a
+coherent set of projects that together can demonstrate how and to
+what extent emerging network technologies may make scholarly
+information resources more readily accessible via online gateway
+or portal services.</p>
+
+<p>I am therefore writing to solicit brief expressions of
+interests from DLF member institutions who are interested in
+participating in such projects. Collaborative projects are
+especially welcome and may certainly involve institutions that
+are not DLF members, including other universities, colleges,
+museums, archives, publishers, professional societies, authors,
+etc..</p>
+
+<h3>II. Introduction</h3>
+
+<p>With a planning grant from the Andrew W. Mellon Foundation,
+the DLF has developed a framework for disclosing the collective
+wealth of our educational and cultural collections. Built upon
+technical work conducted by the Open Archives Initiative, the
+framework promises to support the emergence of online portal or
+gateway services that integrate access to the item-level metadata
+managed by libraries, museums, cultural organizations publishers,
+authors, scholarly societies, etc. Significantly, it may help the
+DLF to take a substantial step forward in realizing its mission
+"to bring together -- from across the nation and beyond --
+digitized materials that will be made accessible to students,
+scholars, and citizens everywhere, and that document the building
+and dynamics of America's heritage and cultures."</p>
+
+<p>A next step is evaluating the framework through some
+co-ordinated testbed activities to be supported by the Mellon
+Foundation, the DLF, and potentially other agencies.</p>
+
+<p>I am accordingly looking for expressions of interest from
+members willing to participate in such activities by contributing
+metadata for some of their library's digital or paper-based
+collections. I am also looking for members who may be interested
+in building prototype gateway or portal services based on
+harvested subsets of the metadata that are contributed. It is
+hoped that a range of different harvesting services (for example,
+as organized by subject domain, information class, region, etc)
+will be proposed that can help to evaluate different aspects of
+the framework.</p>
+
+<p>Those interested in participating in any testbed should, by 4
+August 2000, send a brief expression of interest (400-600 words
+maximum) addressing the points raised in Section IV below.</p>
+
+<h3>III The framework</h3>
+
+<p>The framework accommodates both data providers and service
+providers. A data provider agrees to support a simple harvesting
+protocol and to provide extracts of item-level metadata in a
+common, minimal-level format in response to harvest requests from
+trusted service providers. It then records information about its
+metadata collections in a shared registry. A service provider
+uses this registry to locate potential data providers, and uses
+the harvest protocol to collect metadata from them possibly after
+reaching some kind of formal agreement on terms and conditions of
+use. The service provider is then able to build intellectually
+useful services, such as catalogs and portals to materials
+distributed across multiple sites. The framework applies to a
+wide range of information resources of academic and scholarly
+interest including printed and electronic texts, science and
+social science data sets, visual materials, archival collections,
+geographic information system (GIS) data, sound and music, video,
+and any other type of resource for which metadata is typically
+created.</p>
+
+<p>Theoretically, the framework could be used to expose the
+metadata in thousands of individual systems worldwide to central
+collection. For example, comprehensive collections of Americana
+or GIS data could be developed. This would make local
+repositories more generally known, and more generally useful,
+because researchers could search across previously unconnected
+materials. It would also illuminate the "dark matter" of the
+Internet-material that is hard or impossible to find if the user
+does not already know where it exists.</p>
+
+<p>Most important, the academic community could begin to ensure
+that services would be developed that express the values of that
+community-services that center on materials of research and
+educational interest, that provide honest and transparent ranking
+and retrieval, and that improve search quality by intelligently
+integrating metadata.</p>
+
+<p>The services that could be developed under the framework are
+limited only by need and ingenuity. The following list includes
+some that have been discussed but is not by any means
+exhaustive:</p>
+
+<ul>
+<li>A portal to digital Americana. Many universities, archives,
+historical societies, cultural institutions, and other
+organizations are creating Web-accessible collections of
+Americana, often with grant funds. Currently, these materials
+remain largely invisible to educators and scholars. A service
+focusing on harvested metadata for Americana might combine access
+to archival visual and textual collections, such as those
+included in American Memory, with citations to electronic journal
+articles from JSTOR, early American fiction from the Universities
+of Virginia and Indiana, H. H. Richardson architectural drawings
+from Harvard, the Hoagy Carmichael collection at Indiana
+University, Hawaiian language newspapers from the University of
+Hawaii, and audio, visual, textual, and multimedia materials from
+hundreds of relevant sites.</li>
+
+<li>A portal to environmental information. Environmental
+information is collected by hundreds of international, federal,
+state, and private agencies, and described using dozens of
+metadata formats. This information is used intensively by
+government and university researchers, despite the difficulty of
+finding data scattered among such a vast number of sites. A
+portal built upon harvested metadata could combine access to
+land, air, and space data from key government agencies with
+access to white papers, treaties, policy documents, journals,
+newsletters, and other relevant sources of environmental
+information. An even more ambitious service might combine search
+access to environmental information with geographic information
+resources such as those indexed by the Illinois Natural Resources
+Geospatial Data Clearinghouse, the University of Nevada
+Geospatial Data Clearinghouse, the New York State Spatial Data
+Clearinghouse, and other regional clearinghouses of geospatial
+information.</li>
+
+<li>The academic engine. Despite the availability of library
+catalogs, online journal search services, and departmental
+databases, many university students and researchers turn first to
+the major commercial Internet search engines for resource
+discovery. A comprehensive Internet search service oriented
+toward academic and research resources would be a more productive
+alternative. Such a service might include all the information
+covered in more specialized portals (e.g., Americana,
+environmental information, GIS), as well as metadata from
+academic catalogs and databases, Web pages in the ".edu" domain,
+and commercial resources aimed at the research community.</li>
+</ul>
+
+<p>Technically the framework adopts the Santa Fe Convention as
+developed by the Open Archives initiative, specifically the DTD
+that it recommends for item-level metadata and a subset of the
+Dienst protocol as the common protocol used to harvest metadata
+records. A registry will be established as part of the testbed
+using simple web forms for data entry. Documentation will be
+provided, and we anticipate that through the work undertaken by
+testbed projects we will accumulate a library of sharable
+routines for functions such as converting from common metadata
+formats to the minimal DTD. The DLF will be working closely with
+the Open Archives Initiative to ensure that the technical
+framework maintains the stability it will need to support the
+testbed activity presented in this document.</p>
+
+<p>Economically, we would use the testbed to explore economic
+relationships between metadata suppliers, service suppliers, and
+those responsible for the management of necessary standards (e.g.
+the DTD and Dienst protocol) and tools (e.g. the registry). It is
+hoped that registries pointing to metadata for high-quality
+educational information will attract and support a number of
+harvesting services each of which serves specific educational and
+other needs. Harvesting services, meanwhile, will theoretically
+encourage institutions to expose item level metadata, for
+example, as a means of enhancing use of locally managed
+collections. However, we need to understand what kinds of terms
+and conditions are necessary for data providers to entrust
+information with service providers and for service providers to
+sustain their services.</p>
+
+<h3>IV. The testbed</h3>
+
+<p>The test-bed seeks to address a range of related technical,
+functional, organizational and economic questions by:</p>
+
+<ul>
+<li>exposing a pool of item-level metadata via some light-weight
+registry service;</li>
+
+<li>supporting the development of some harvesting services built
+upon the metadata disclosed via the registry;</li>
+
+<li>supporting appropriate research and development work in tools
+and other infrastructure, including legal and economic
+agreements, that may be commonly required by those interested in
+exposing item-level metadata or developing harvesting
+services.</li>
+</ul>
+
+<p>Some key issues that work on the testbed may illuminate are
+indicated below:</p>
+
+<p>Technically the testbed will seek to evaluate the metadata DTD
+and the harvest protocol; appropriate search-engine and related
+technologies; generic tools appropriate for translating local
+metadata databases into a form suitable for exposure ; and
+mechanisms for managing item level metadata that offer different
+levels and types of access to the information objects to which
+they refer.</p>
+
+<p>Functionally it will determine whether harvest services meet
+scholars' information-seeking needs and how they can be developed
+or exploited by digital libraries, for example, in integrating
+access to distributed local collections.</p>
+
+<p>Organizationally and economically, the testbed will identify
+how harvesting services might support themselves; whether there
+is a natural market for them and business models attractive to
+both service suppliers and service users. Equally, it will
+identify incentives for encouraging institutions to expose item
+level metadata.</p>
+
+<h3>IV. Format for expressions of interest</h3>
+
+<p>Brief expressions of interests (not exceeding 400-600 words)
+should address one or both of the following points</p>
+
+<p>1. What metadata would you contribute to the testbed. <b><i>It
+is assumed that every participating institution will contribute
+at least some metadata.</i></b></p>
+
+ 
+
+<div style="margin-left: 2em">
+<p>Describe the source format (MARC, Dublin Core, etc) and
+coverage (number, format, and subject, chronological or other
+scope of underlying information objects) of metadata databases
+your institution would be prepared to disclose to such a testbed.
+Brief descriptions (even aggregated ones, where numerous metadata
+databases are concerned) are appropriate at this stage.</p>
+
+<p>There are no <i>a priori</i> assumptions about what metadata
+will be suitable to a harvesting service. Metadata comprised in
+OPACs, finding aids, and other indices as well as in databases of
+digital or digitized content are all undoubtedly of interest.
+Metadata records do not need to hotlink to some underlying
+digital information object, nor do metadata records need
+necessarily to refer to information objects that can be made
+publicly available without restriction. The only requirement is
+that participating institutions expose only those metadata which
+it has a right to expose and make publicly accessible.</p>
+</div>
+
+<p>2. What harvesting service would you be interested in
+developing? <b><i>Not all participating institutions would be
+expected to develop a harvesting service. Nor is it likely that
+available funding will support more than a small number of
+harvesting services.</i></b></p>
+
+<div style="margin-left: 2em">
+<p>2.1. Describe the harvesting service you would be interested
+in developing and the communities or organizations that would
+benefit most from its use.</p>
+
+<p>2.2. What item-level metadata would the service require for
+development through a prototype phase? Your answer to this
+question may help to match service needs with metadata
+offers.)</p>
+
+<p>2.3. What staff, expertise, or other resources would the
+institution be able to commit towards its participation in the
+metadata harvesting testbed? What specific expertise,
+infrastructure or related experience would the institution draw
+upon in contributing to the testbed?</p>
+</div>
+
+<h3>V. Next steps</h3>
+
+<p>Expressions of interest will identify the harvesting services
+that may be developed to prototype with access to appropriate
+item-level metadata.</p>
+
+<p>In the interest of gaining experience with a range of
+distinctive services possibilities, members interested in
+developing similar harvesting services may be encouraged to align
+their efforts.</p>
+
+<p>Depending on the level of interest in the testbed and the
+funding that becomes available for it, it may be necessary to go
+forward with only a subset of the metadata and harvesting
+services that are offered.</p>
+
+<p>Selectivity, where required, will be governed by
+considerations including:</p>
+
+<ul>
+<li>level and nature of appropriate metadata likely to be
+available to the harvesting service;</li>
+
+<li>aspects of the framework that the harvesting service promises
+to illuminate;</li>
+
+<li>costs involved in exposing appropriate metadata and
+developing the prototype harvesting service;</li>
+
+<li>possibility that the harvesting service may be able (a) to
+sustain itself after an initial grant-assisted period and (b)
+contribute common knowledge, tools, etc. to educational and
+library communities;</li>
+
+<li>specific interests of the sponsoring funding agency or
+agencies.</li>
+</ul>
+
+
+<!-- End text -->
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+<p align="center" class="copyright">Copyright &copy; 2004 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

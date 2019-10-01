@@ -1,0 +1,381 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>DLF Architectures. Report of the ZIG meeting held
+12/00</title>
+</head>
+<body>
+<!-- Begin text here -->
+<h2>Report to the DLF on the Z39.50 Implementers' Group</h2>
+
+<h3>Moving Towards the Future of Z39.50. Issues and Options Based
+on ZIG Meeting Discussions December 6-7, 2000</h3>
+
+Denise Troll and Bill Moen<br />
+February 8, 2001 
+
+<h3>Introduction</h3>
+
+<p>This document summarizes key issues, technical and perceptual
+problems, potential solutions and opportunities identified by
+presenters and participants at the December 2000 Z39.50
+Implementers Group (ZIG) meeting. The problems and their
+solutions affect both Z39.50 implementers and those who are
+outside of the Z39.50 community.</p>
+
+<p>The context in which Z39.50 operates today is much different
+from the context in which active Z39.50 implementation began in
+the early 1990s. In particular the networked environment has
+evolved in ways few could have imagined at the time of the 1992
+Z39.50 Interoperability Testbed, which placed the protocol on the
+radar of many developers in the library community. Today, Z39.50
+is one protocol among many that implementers must address.
+Unfortunately, and for a variety of reasons, Z39.50 is no longer
+even on the radar of key networked information retrieval
+application environments. While attempts to examine and explain
+how this happened would be informative, the more important
+challenge is figuring out how to harness two decades of
+intellectual and financial investment in Z39.50 to help solve
+current critical information retrieval problems. The problems and
+options explored at the December ZIG meeting suggest that Z39.50
+and the ZIG will change profoundly in the future.</p>
+
+<h3>Factors Motivating and Constraining Change</h3>
+
+<p>Pressure for change derives from technical concerns about the
+current Z39.50 standard and perception problems related to both
+the standard and the ZIG. Many of the technical and perceptual
+issues revolve around the role or place of Z39.50 in the context
+of the Web. The future of Z39.50 is definitely related to its
+potential roles on the Web. The Web, with its many tools and
+technologies, provides the application and application
+development environment in which Z39.50 must be considered. To a
+certain extent, Z39.50 and Web technologies have already been
+integrated, for example, through the implementation of Web-Z
+gateways, the use of XML as a record syntax, the incorporation of
+Dublin Core attributes for searching, etc. But though these
+actions are important, they do not address the perceived and
+actual barriers to integrating Z39.50 and the Web. In fact, such
+actions may highlight the awkward fit of the two, for example,
+statelessness vs. statefulness issues in gateways or getting an
+appropriate DTD/schema for an XML object.</p>
+
+<p>Perceptions of Z39.50 vary, but some of the common words used
+are: broken, heavy weight, difficult, complex, and old
+technology. Participants at the December 2000 ZIG meeting
+articulated the following problems:</p>
+
+<ul>
+<li>Z39.50 documentation is difficult to understand.</li>
+
+<li>Z39.50 is difficult to implement and lacks tools that could
+simplify development.</li>
+
+<li>Different developers implement Z39.50 differently, which
+leads to interoperability problems.</li>
+
+<li>Some of the functions of Z39.50 may be unnecessary today,
+unnecessarily complicating the standard.</li>
+
+<li>Z39.50 ties the application protocol to the transfer protocol
+(BER), which many developers do not accept.</li>
+
+<li>Z39.50 lacks APIs, which many developers want.</li>
+
+<li>Z39.50 is not Web friendly.</li>
+
+<li>Many developers today do not want to run anything but an http
+server.</li>
+
+<li>Some ZIG members are wedded to a single protocol and expect
+all implementations to interoperate.</li>
+
+<li>The standard and the ZIG are misunderstood and
+misrepresented, which creates communication problems or barriers
+among developers and implementers of different protocols.</li>
+</ul>
+
+<p>Although people can articulate actual or perceived
+shortcomings in the protocol and change is inevitable, the large
+installed base of Z39.50 applications will necessarily constrain
+radical changes to the technology. The Web appears to be the
+?disruptive technology? that is changing the way organizations do
+business. Even if Z39.50 remains a niche protocol within the
+library environment, its vitality may continue to wane. If the
+ZIG does not rise to the challenge, Z39.50 may be the ?sustaining
+technology? that leads to obsolescence.</p>
+
+<h3>Strengths of Z39.50</h3>
+
+<p>A number of people highlighted the strengths of Z39.50:
+abstract access points, ability to represent complex searches,
+ability to represent complex data, rich records with identifiable
+elements, and complex semantics for other information retrieval
+functions (like extended services and access control), and the
+fact that Z39.50 is available now. A concise description of
+Z39.50 strengths would be valuable to ensure that the good points
+of the standard are not lost as Z39.50 evolves.</p>
+
+<h3>The ZIG as Barrier or Enabler</h3>
+
+<p>The question of what should be done with Z39.50 cannot be
+divorced from who will do it. A more problematic question is who
+will decide what should be done. The ZIG has existed for ten
+years, officially serving as an advisory group to the
+Z39.50/23950 Maintenance Agency. In its first 5 or 6 years, the
+focus was on protocol development. From 1992-1996, a core group
+emerged to do the primary work, which resulted in the 1995
+standard. Since that time, the ZIG has struggled for focus and
+ZIG meeting attendance has been much more varied. The
+internationalization of the ZIG has been of major benefit, but
+the scheduling of meetings in Europe and North America has
+contributed to the more varied attendance.</p>
+
+<p>Presenters at the December 2000 ZIG meeting pointed out that
+the ZIG feels like a closed group. While there are interesting
+developments and initiatives using Z39.50, often the principal
+implementers of those activities do not attend the ZIG meetings.
+In the past two years, the focus and structure of ZIG meetings
+have changed, but lingering perceptions of the way the ZIG used
+to be may be a barrier hindering the participation of broader
+development and implementation communities. Focused activities
+such as the Bath Profile, the Z Species initiative, and the GILS
+effort may offer a better response to critical needs than the ZIG
+itself.</p>
+
+<p>In the context of this discussion, significant questions
+arose:</p>
+
+<ul>
+<li>Who or what is the ZIG?</li>
+
+<li>Are the attendees at any one ZIG meeting the people who can
+provide the mandate or make decisions about significant changes
+in the standard? Probably not. Is the list of registered Z39.50
+implementers the body that can make such decisions? If so, what
+is the decision making process?</li>
+
+<li>Has the ZIG outlived its usefulness?</li>
+
+<li>If the ZIG has outlived its usefulness, what organization
+will do the work?</li>
+</ul>
+
+<p>One alternative to the ZIG is a formal standards process such
+as NISO, with a standards committee charged with particular
+responsibilities. The ZIG process of the early 1990s provided a
+way to relatively rapid protocol development, but it may not be
+rapid enough when compared with the speed at which a consortium
+such as W3C produces working drafts and proposes
+recommendations.</p>
+
+<p>Attendees at the December 2000 ZIG meeting offered different
+solutions to the problems. The next section of this document
+summarizes the options explored at the meeting.</p>
+
+<h3>Options for Changes to the Protocol</h3>
+
+<p>A number of options for changing Z39.50 surfaced at the
+December meeting. The options are categorized below. The
+categories are not necessarily mutually exclusive and in some
+cases, starting on one option might lead to another option (for
+example, option 3 might lead to option 2). The problems must be
+carefully articulated and the impacts and benefits of potential
+solutions seriously evaluated before any option is chosen.</p>
+
+<ol>
+<li>Revision and Reaffirmation of the Standard for NISO 5-Year
+Review 
+
+<p>If nothing else is done with Z39.5, NISO requires a
+reaffirmation of its standards every five years. This is
+currently underway. According to Ray Denenberg, the forthcoming
+revisions will be primarily textual, for example, changing
+wording in the standard to remove unnecessary language from OSI,
+and removing or revising appendices. The basic protocol
+specifications will not change substantively. This approach
+essentially confirms that Z39.50 meets a critical set of
+requirements. It implies that the requirements themselves need
+not be questioned or explored.</p>
+
+<p>A more substantial revision of the standard could be
+envisioned to simplify the text by separating what is required
+for basic compliance from the additional services and
+functionality that Z39.50 offers. The challenge is to make the
+text more accessible without losing technical precision. To what
+extent can this be done and who would do it? Should a technical
+writer be hired to assist the Maintenance Agency in revising the
+standard?</p>
+</li>
+
+<li>Rewrite the Protocol from the Ground Up 
+
+<p>Several different approaches could be taken and the
+implications are far reaching. The basic assumption is that all
+existing Z39.50 implementations would be orphaned. The first step
+would be to identify and define requirements. How does the
+current networked information retrieval environment differ from
+the information retrieval environment that motivated the
+development of Z39.50? What functions are needed in a protocol
+for networked information retrieval? What are the problems to be
+solved by a networked information retrieval protocol?</p>
+
+<p>Certainly, a blank slate approach is appealing because it
+transcends the bounds of existing implementations and would
+enable the use of all available and emerging Web technologies and
+application development tools. But the impact on the installed
+base of Z39.50 applications would be monumental.</p>
+</li>
+
+<li>Rewrite the Protocol as an XML Protocol A somewhat less
+radical solution would be to jettison ASN.1/BER and rewrite
+Z39.50 as an XML protocol, separating the application protocol
+from the wire protocol. This approach could integrate the XML
+Query Language developments. Recasting ASN.1 in XML could spark
+discussion of protocol functionality, which would probably lead
+to option 2 above.</li>
+
+<li>Separate the Z39.50 Protocol from its Use of BER as a Wire
+Protocol 
+
+<p>This approach was presented in several ZIG meetings.
+Abandoning BER would likely lead to encoding (probably by XER)
+the ASN.1 messages into a character protocol such as SOAP or XP.
+This would safeguard the intellectual investment in the Z39.50
+protocol solutions to information retrieval, yet would offer more
+Web friendliness. The focus of this approach is to repackage
+Z39.50 strengths to make to make the standard more acceptable to
+broader development and implementation communities.</p>
+
+<p>This approach could include some protocol simplification (for
+example, the pruning or elimination of some services and
+features), but its primary intent is to separate the ASN.1
+protocol specification from the BER encoding. Any pruning would
+be in response to identified applications and requirements.</p>
+</li>
+
+<li>Simplify the Protocol Specifications to Focus on Core
+Features 
+
+<p>This option focuses on identifying the core 50% of
+functionality for information retrieval to simplify and
+facilitate rapid implementation. The organizational memory and
+collective wisdom of the ZIG and Z39.50 development would be used
+to revise the protocol specifications to solve 50% of the
+functional requirements in the current networked environment. The
+questions of who would decide what constituted the core 50%
+functionality and what criteria would be used to make the
+decision were not addressed.</p>
+
+<p>This approach resembles option 2, but it is not focused
+automatically on technologies such as XML and the XML Query
+Language.</p>
+</li>
+
+<li>Z39.50 as a Protocol Template 
+
+<p>This may be a separate option or an option subsumed by one or
+more of the options listed above.</p>
+</li>
+</ol>
+
+<h3>First Principles and Requirements</h3>
+
+<p>What are the first principles of design, implementation, etc.
+that will guide decisions to change Z39.50 in the future? Rapid
+development and simple implementation are essential, but the ZIG
+(or whatever body accepts the challenge) must articulate and
+agree on the principles. Consideration of first principles
+necessarily entails examining and specifying at least three types
+of requirements:</p>
+
+<ul>
+<li><b>Applications Requirements:</b> What applications need or
+could use a networked information retrieval protocol (e.g.,
+virtual catalogs, virtual library services, digital library and
+digital museums, etc.)? Identifying potential applications is
+necessary to articulate the second category of requirements, but
+it is likely that any applications using a networked information
+retrieval protocol will be using a range of other protocols as
+well. In general there is a need for Z39.50 to work with other
+protocols.</li>
+
+<li><b>Functional Requirements:</b> What are the various
+functional requirements that must be addressed for the
+applications? Are there core and auxiliary functions, and can we
+focus on the 50% functionality to move ahead quickly?</li>
+
+<li><b>Development Environment Requirements:</b> What are the
+development tools widely deployed that the protocol must use,
+including but not limited to Web technologies, programming
+languages, and API contexts?</li>
+</ul>
+
+<h3>Moving Forward</h3>
+
+<p>The networked world will not wait for the ZIG to make
+decisions or to create a "right way" protocol. How does the ZIG,
+the Maintenance Agency, NISO, or whoever, indicate that a
+strategic decision about Z39.50's future has been made? What is
+the timeline for making such a decision? How will such a decision
+be made? Who will make the decision? Finally, what is that
+decision?</p>
+
+<p>The ZIG must commit to a path that leads Z39.50 forward. That
+path may require the ZIG to meet more frequently than previously
+planned. Meetings must have a clear focus and identify clear
+deliverables, including what work will be done, how it will be
+done, who will do it, and when it will be completed. Perhaps the
+ZIG is not the appropriate body to make these decisions. If that
+is the case, what is the forum that can take such actions? A NISO
+task force? Something under the auspices of CNI? A group jointly
+sponsored by several North American and European organizations?
+Can funding sources be identified for such activity? IMLS? NSF?
+JISC? Others?</p>
+
+<p>The goal is to solve the problems articulated above so that
+Z39.50 continues to serve information retrieval without other
+groups having to redo the intellectual work that the ZIG has done
+well. To be successful, the ZIG and Z39.50 must interact with
+other development and implementation communities and standards.
+The scope of information retrieval issues and problems today is
+so broad that no one group or standard can hope to address or
+solve them all. ZIG members were encouraged to attend the OAI
+open meeting to learn more about the Open Archives Initiative of
+the Digital Library Federation and begin thinking about how a
+Z39.50 gateway (by exposing its metadata) can be a harvestable
+service for the OAI and how an OAI harvesting service can
+contribute metadata to Z39.50.</p>
+
+<p>The ZIG agreed that the standard documentation must be
+significantly revised to clarify the utility of Z39.50 and
+simplify implementation, but revising the document alone is
+insufficient to address the technical problems. The standard
+itself must be changed and better tools must be provided for
+application developers if Z39.50 is to reappear on the radar of
+key networked information retrieval application environments. The
+ZIG agreed that the first step in addressing the technical
+problems is to separate the application specification (the ASN.1
+semantics) from the transfer syntax (BER encoding). Z39.50
+implementers will begin experimenting with different approaches
+to accomplish this using XER, XP, SOAP or RFC 822.</p>
+
+<p>The questions of who decides what to change in the standard
+based on what criteria will be revisited at the next ZIG meeting,
+tentatively scheduled for October 2001. <!-- End text -->
+</p>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

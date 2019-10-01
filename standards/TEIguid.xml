@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<!--<?xml-stylesheet href="dlfbasic-pub.xsl" type="text/xsl"?>-->
+
+<!DOCTYPE TEI.2 SYSTEM 'http://www.tei-c.org/Lite/DTD/teixlite.dtd'[
+<!NOTATION html SYSTEM "HTML">
+<!ENTITY htiumichmiscsspworkshopsteidlfindex SYSTEM "http://www.hti.umich.edu/misc/ssp/workshops/teidlf/index.html" NDATA html>
+<!--<!ENTITY libumichlibhomeocuteiguide SYSTEM "http://www-personal.umich.edu/~jaheim/teiguide.html" NDATA html>-->
+<!ENTITY vacatman SYSTEM "http://www.lib.virginia.edu/cataloging/manual/chapters/chapxiib.html" NDATA html>
+<!ENTITY michcatman SYSTEM "http://dns.hti.umich.edu/htistaff/cataloging/" NDATA html>
+<!ENTITY teimarc SYSTEM "http://etext.lib.virginia.edu/tei/tei-usmarc.html" NDATA html>
+<!ENTITY wwpbrown SYSTEM "http://www.wwp.brown.edu/" NDATA html>
+<!ENTITY teiheaders SYSTEM "teiheaders.html" NDATA html>
+<!ENTITY level1example SYSTEM "level1example.html" NDATA html>
+<!ENTITY level2example SYSTEM "level2example.html" NDATA html>
+<!ENTITY level4genrec SYSTEM "level4genrec.html" NDATA html>
+<!ENTITY level4prose SYSTEM "level4prose.html" NDATA html>
+<!ENTITY level4drama SYSTEM "level4drama.html" NDATA html>
+<!ENTITY level4verse SYSTEM "level4verse.html" NDATA html>
+<!ENTITY level4fandb SYSTEM "level4fandb.html" NDATA html>
+<!ENTITY level4oh SYSTEM "level4oh.html" NDATA html>
+]>
+<TEI.2 id="TEIguid">
+ <teiHeader type="aacr2">
+  <fileDesc>
+   <titleStmt>
+    <title type="245">TEI Text Encoding in Libraries Guidelines for Best Encoding Practices</title>
+    <title type="gmd">[electronic resource]</title>
+    <author>[committee]</author>
+    <editor> </editor>
+    <respStmt>
+     <resp> </resp>
+     <name> </name>
+     <resp>Creation of machine-readable version:</resp>
+     <name>Digital Library Federation</name>
+     <resp>Conversion to TEI.2-conformant markup:</resp>
+     <name>John Ivor Carlson, Digital Library Federation</name>
+    </respStmt>
+   </titleStmt>
+   <extent>ca. 65 kilobytes</extent>
+   <publicationStmt>
+    <publisher>Digital Library Federation</publisher>
+    <pubPlace>Washington, D.C.</pubPlace>
+    <availability>
+     <p>Publicly accessible</p>
+     <p>Copyright 2006, by the Digital Library Federation</p>
+    </availability>
+    <date>2006</date>
+   </publicationStmt>
+   <seriesStmt>
+    <p> </p>
+   </seriesStmt>
+   <notesStmt>
+    <note> </note>
+   </notesStmt>
+
+   <sourceDesc>
+    <biblFull>
+     <titleStmt>
+      <title>TEI Text Encoding in Libraries Guidelines for Best Encoding Practices</title>
+      <title type="parallel"> </title>
+      <title level="m"> </title>
+      <author/>
+      <editor> </editor>
+      <respStmt>
+       <resp> </resp>
+       <name> </name>
+      </respStmt>
+     </titleStmt>
+     <editionStmt>
+      <p> </p>
+     </editionStmt>
+     <extent> </extent>
+     <publicationStmt>
+      <publisher>Digital Library Federation</publisher>
+      <pubPlace>Digital Library Federation, Council on Library and Information Resources, 1755 Massachusetts Ave., NW, Suite 500,
+       Washington, DC 20036.</pubPlace>
+      <date>2006</date>
+      <idno type="callNo"> </idno>
+     </publicationStmt>
+     <seriesStmt>
+      <p> </p>
+     </seriesStmt>
+     <notesStmt>
+      <note> </note>
+     </notesStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>Prepared for the Digital Library Federation</p>
+   </projectDesc>
+   <editorialDecl>
+    <p> </p>
+   </editorialDecl>
+   <refsDecl>
+    <p> </p>
+   </refsDecl>
+   <classDecl>
+    <taxonomy id="LCSH">
+     <bibl>
+      <title>Library of Congress Subject Headings</title>
+     </bibl>
+    </taxonomy>
+   </classDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date>2006</date>
+   </creation>
+   <langUsage>
+    <language id="eng">English</language>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term>nonfiction</term>
+     <term>prose</term>
+     <term> </term>
+    </keywords>
+    <keywords scheme="LCSH">
+     <term type="Field650">LCSH</term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>9/2005</date>
+    <respStmt>
+     <resp>corrector</resp>
+     <name>John Ivor Carlson</name>
+    </respStmt>
+    <item>Converted XHTML for version 1.0 to tei-compliant XML.</item>
+   </change>
+   <change>
+    <date>2/2006</date>
+    <respStmt>
+     <resp>corrector</resp>
+     <name>Matthew Gibson</name>
+    </respStmt>
+    <item>Added XML examples and content reflecting the renewal of the TEI in Libraries Task Force's commitment to updating these
+     guidelines.</item>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+
+  <front>
+
+   <titlePage>
+    <docTitle>
+     <titlePart type="main">TEI Text Encoding in Libraries <lb/>Guidelines for Best Encoding Practices</titlePart>
+    </docTitle>
+    <docImprint> Version 2.1 (March 27, 2006) <lb/>Comments to Matthew Gibson, University of Virginia (email:
+    msg2d@virginia.edu)</docImprint>
+   </titlePage>
+
+   <div1 type="contents">
+    <head>Contents</head>
+    <list>
+     <item>
+      <ref target="intro">I. Introduction and History</ref>
+     </item>
+     <item>
+      <ref target="background">II. General Overview and Comments</ref>
+     </item>
+     <item>
+      <ref target="genrec">III. General Recommendations</ref>
+     </item>
+     <item>
+      <ref target="teiheader">IV. The TEI Header</ref>
+      <list>
+       <item>
+        <ref target="teihead1">Introduction</ref>
+       </item>
+       <item>
+        <ref target="teihead2">Working Assumptions</ref>
+       </item>
+       <item>
+        <ref target="teihead3">Element Recommendations for the TEI Header</ref>
+       </item>
+       <item>
+        <ref target="teihead4">Minimal Level Header Recommendations</ref>
+       </item>
+       <item>
+        <ref target="teihead5">Recommended Additions to the teixlite DTD</ref>
+       </item>
+       <item>
+        <ref target="teihead6">Acknowledgments and Bibliography</ref>
+       </item>
+      </list>
+     </item>
+     <item>
+      <ref target="levels">V. Encoding Levels</ref>
+      <list>
+       <item>
+        <ref target="level1">Level 1: Fully Automated Conversion and Encoding</ref>
+       </item>
+       <item>
+        <ref target="level2">Level 2: Minimal Encoding</ref>
+       </item>
+       <item>
+        <ref target="level3">Level 3: Simple Analysis</ref>
+       </item>
+       <item>
+        <ref target="level4">Level 4: Basic Content Analysis</ref>
+       </item>
+       <item>
+        <ref target="level5">Level 5: Scholarly Encoding Projects</ref>
+       </item>
+      </list>
+     </item>
+     <item>
+      <ref target="attributes">VI. General Guidelines for Attribute Usage</ref>
+     </item>
+    </list>
+   </div1>
+
+  </front>
+  <body>
+
+   <div1 type="section" id="intro" n="01">
+    <head>I. Introduction and History</head>
+    <p>The Text Encoding Initiative Guidelines for Electronic Text Encoding and Interchange (referred to as the <hi rend="italics"
+      >TEI Guidelines</hi>) were first published in 1994 and represent a tremendous achievement in electronic text standards by
+     providing a highly sophisticated structure for encoding electronic text. Digital librarians have benefited greatly from the
+     standardization provided by these guidelines, and the potential for interoperability and long-term preservation of digital
+     collections facilitated by their wide adoption.</p>
+
+    <p>In 1998, the Digital Library Federation (DLF) sponsored the <xref doc="htiumichmiscsspworkshopsteidlfindex">TEI and XML in
+      Digital Libraries Workshop</xref> at the Library of Congress to discuss the use of the <hi>TEI Guidelines</hi> in libraries
+     for electronic text, and to create a set of best practices for librarians implementing them. From this workshop, three
+     working groups were formed the members of which represented some of the largest and most mature digital library programs in
+     the U.S. Group 2 was charged with developing a set of recommendations for libraries using the TEI Guidelines in electronic
+     text encoding. This group included the following representatives from six libraries:<list>
+      <item>Perry Willett, Indiana University (chair)</item>
+      <item>LeeEllen Friedland, Library of Congress</item>
+      <item>Nancy Kushigian, University of California, Davis</item>
+      <item>Christina Powell, University of Michigan</item>
+      <item>David Seaman, University of Virginia</item>
+      <item>Natalia Smith, University of North Carolina at Chapel Hill</item>
+     </list>
+    </p>
+
+    <p>At the ALA mid-winter (January 1999), the DLF task force revised a draft set of best practices, called TEI Text Encoding in
+     Libraries: Guidelines for Best Practices (referred to as <hi>TEI in Libraries Guidelines</hi>). The revised recommendations
+     were circulated to the conference working group in May 1999 and presented at the joint annual meeting of the Association of
+     Computers and the Humanities and Association of Literary and Linguistic Computing in June 1999. Version 1.0 was circulated
+     for comments in August 1999. These guidelines were endorsed by the DLF, and have been used by many digital libraries,
+     including those of the task force members, as a model for their own local best practices. Libraries, museums and end-users
+     have benefitted from a set of best practices for electronic text in a number of ways, including better interoperability
+     between electronic text collections, better documented practices among digital libraries, and a starting point for discussion
+     of best practices with commercial publishers regarding electronic text creation.</p>
+
+    <p>Written in 1998, this first iteration of <hi>TEI in Libraries Guidelines</hi> made no mention of XML, XSLT, or any of the
+     other powerful tools that have now become common parlance and practice in creating digital documents and collections. Based
+     on these important changes in markup technology, it came to the attention of the DLF and members of the original Task Force
+     that the <hi>TEI in Libraries Guidelines</hi> required substantial revision. In 2002, the TEI Consortium published a new
+     edition of the complete <hi>TEI Guidelines</hi> that conformed to XML specifications. In order to remain useful, the <hi>TEI
+      in Libraries Guidelines</hi> had to be updated to reflect these developments.</p>
+
+    <p>Furthermore, librarians need more guidance than the original <hi>TEI in Libraries Guidelines</hi> provided. There are many
+     library-specific encoding issues which need to be addressed and documented to ensure consistency. The intention of this
+     document is to provide recommended paths of encoding for these issues.</p>
+
+    <p>In addition, these library guidelines have the potential to be much more useful if they can serve as a training document
+     from which librarians can learn about text encoding and addressing particular encoding challenges. To fulfill this role, the
+     guidelines require more examples and detailed explanations, giving documentation of the use of TEI in a library context.
+     Librarians also need a set of standards and best practices for vendors and publishers who create electronic text for digital
+     libraries, so that these collections adhere to the same archival standards as locally-created electronic text collections.
+     With detailed guidelines that could serve as an encoding specification, librarians might encourage vendors to follow the
+     principles in these standards, to facilitate the long-term preservation of commercially published electronic text
+     collections, and more readily allow for cross-collection searching.</p>
+
+    <p>In order to facilitate the evolution of this document, another DLF-sponsored Task Force&#8212;some of the
+     representatives of which were on the original Task Force&#8212;met on October 24-25, 2003 at the Cosmos Club in
+     Washington, D.C.: <list>
+      <item>Richard Gartner, Oxford University Library</item>
+      <item>Matthew Gibson, University of Virginia Library</item>
+      <item>Kirk Hastings, California Digital Library</item>
+      <item>Christina Powell, University of Michigan</item>
+      <item>Merrilee Proffitt, RLG</item>
+      <item>David Seaman, Digital Library Federation</item>
+      <item>Natalia Smith, University of North Carolina at Chapel Hill</item>
+      <item>Perry Willett, Indiana University (chair)</item>
+     </list> These representatives met to revise the original <hi>TEI in Libraries Guidelines</hi> in order that they: <list>
+      <item n="1">reflect changes occuring within the text encoding world generally and within the TEI community specifically</item>
+      <item n="2">further illuminate the different levels of encoding by offering clearer and more robust examples.</item>
+     </list>
+    </p>
+
+    <p>After producing version 2.0 of the Guidelines, this group (with some changes in membership) met again at the Cosmos Club on
+     February 13-14, 2006. Those in attendance were: <list>
+      <item>Syd Bauman, The TEI Consortium</item>
+      <item>Richard Gartner, Oxford University Library (by phone)</item>
+      <item>Matthew Gibson, Virginia Foundation for the Humanities (chair)</item>
+      <item>Merrilee Proffitt, RLG</item>
+      <item>Chris Powell, The University of Michigan</item>
+      <item>David Seaman, Digital Library Federation</item>
+      <item>Natasha Smith, University of North Carolina at Chapel Hill</item>
+      <item>Perry Willett, The University of Michigan</item>
+     </list>
+    </p>
+    <p>This group of continues to meet and based upon their discussions and resolutions, the following guidelines will continue to
+     be updated and enhanced.</p>
+   </div1>
+
+
+   <div1 type="section" id="background" n="02">
+    <head>II. General Overview and Comments</head>
+    <p>These recommendations are for libraries using the XML version of the TEILite DTD (teixlite). There are many different
+     library text digitization projects, for different purposes. With this in mind, the Task Force has attempted to make these
+     recommendations as inclusive as possible by developing a series of encoding levels. These levels are meant to allow for a
+     range of practice, from wholly automated text creation and encoding, to encoding that requires expert content knowledge,
+     analysis, and editing.</p>
+
+    <p>Recommendations for Levels 1-4 are intended for projects wishing to create encoded electronic text with structural markup,
+     but minimal semantic or content markup. Also, the encoding levels are cumulative: encoding requirements at each level
+     incorporate the requirements of lower levels. Levels 1-4 allow the conversion and encoding of texts to be performed without
+     the assistance of deep content knowledge and can be enriched with more markup at any time. Level 5, in contrast, requires
+     scholarly analysis. </p>
+
+    <p>These recommendations are concerned with the text portion of a TEI-encoded document. While there are modest requirements
+     for including certain information about encoding level in the TEI Header, a separate set of recommendations, now integrated
+     into this document, was developed to address issues concerning TEI Header contents to MARC-format bibliographic data (see the
+      <ref target="teiheader">&lt;teiHeader&gt;</ref> Document from Working Group 1).</p>
+   </div1>
+
+   <div1 type="section" id="genrec" n="03">
+    <head>III. General Recommendations</head>
+    <p>Note: all recommendations that follow are based on P4:2004.</p>
+    <list>
+     <item>The encoding level (as described in this document) should be recorded in the &lt;editorialDecl&gt; in the TEI
+      Header, along with an explanation of any deviation from the recommendations.</item>
+     <item>Electronic text at all levels of encoding should begin with the transcription of the first word on the first leaf of
+      the original work. It may be impractical or undesirable to transcribe and encode certain features of the text, such as
+      publisher's advertisements or indexes, but if at all possible, they should be included as links to page images. Any
+      omissions of material found in the original work should be noted in the &lt;editorialDecl&gt; in the TEI Header.</item>
+     <item>File naming should follow ISO 9660 conventions: 8-character filenames, 3-character extensions, using A-Z, a-z, 0-9,
+      underscores and hyphens. The rationale behind this suggestion is that when moving texts across different platforms (DOS for
+      instance), some systems will truncate beyond the eighth character.</item>
+     <item>We recommend the use of numbered divisions throughout the electronic text, always beginning with &lt;div1&gt;
+      (we prefer that &lt;div0&gt; not be used since the TEI Guidelines does not make it available in
+      &lt;front&gt; or &lt;back&gt; matter). Numbered divisions present advantages to search and indexing software
+      by explicitly communicating the hierarchical level of the section described. Texts at all levels should include at least one
+      &lt;div1&gt;.</item>
+     <item>Page breaks should be encoded using the &lt;pb/&gt; element, should demark the top of a page (i.e. after
+      &lt;pb n="7"&gt; should follow the text of page seven), and should always be contained within a division.</item>
+    </list>
+   </div1>
+
+   <div1 type="section" id="teiheader" n="04">
+    <head>IV. The TEI Header (based on June 16, 2001 Draft)</head>
+    <div2 type="subsection" id="teihead1" n="01">
+     <head>Introduction</head>
+     <p>At the TEI and XML in Digital Libraries Workshop that was held at the Library of Congress in July 1998, several working
+      groups were formed to consider various aspects of the Text Encoding Initiative. Group 1 was charged to recommend some best
+      practices for TEI Header content and to review the relationship between the Text Encoding Initiative header and MARC. To
+      this end, representatives of the University of Virginia Library and the University of Michigan Library gathered in Ann Arbor
+      in early October 1998 to develop a recommended practice guide. This work was assisted by similar efforts that had taken
+      place in the United Kingdom under the auspices of the Oxford Text Archive the previous year. The following document
+      represents a draft of those recommended practices. It has been submitted to various constituencies for
+      comment.<!-- Please send comments to <xref href=mailto:"teimarc@umich.edu">teimarc@umich.edu</a>--></p>
+    </div2>
+
+    <div2 type="subsection" id="teihead2" n="02">
+     <head>Working Assumptions</head>
+     <p>A TEI Header can serve many publics. Headers can be created in a text center and reflect the center's standards, or they
+      can serve as the basis for other types of metadata system records produced by other agencies. Headers can function in
+      detached form as records in a catalog, as a title page inherent to the document, or as a source for index displays.</p>
+
+     <p>In addition, a header may describe a collection of documents, a single item, or a portion of an item. Variances in TEI
+      Header content can result from making different choices of what is being described.</p>
+
+     <p>A TEI Header may not have a one to one correspondence with a MARC record. One TEI Header may have multiple MARC analytic
+      records, or one MARC record may be used to describe a collection of TEI documents with individual headers.</p>
+
+     <p>A TEI Header serves several purposes. It may contain an historical background on how the file has been treated. It can
+      extend the information of a classic catalog record. The Text Center and/or cataloging agency can act as the gatekeeper for
+      creators by providing standards for content.</p>
+
+     <p>Does the TEI Header act as the electronic title page or as a catalog record? Is it integral to the document it describes
+      or independent? Depending on the community being served, the TEI elements will reflect the interest of that community.
+      Nonetheless, it is possible to describe a set of "best practices" that will produce compatible content while accommodating
+      this variety of purposes. Compatibility of content encourages a more understandable set of results when information about
+      assorted items is displayed as a set of search results, a contents list, or an index, and it allows for more reasonable
+      conversion of content information from TEI tags to elements of other metadata sets when this action seems advisable.</p>
+
+     <p>It is a traditional practice of librarianship to agree upon where in a document and in what order of preference one should
+      look to identify the title, author, etc., of that document. This permits a certain consistency in terminology and allows for
+      a certain amount of authentication of content. We recommend the following preferences to those who create headers and to
+      those who attempt to use headers to create traditional catalog records that are compliant with AACR2 and ISBD(ER) rules.</p>
+
+     <p>As a member of the academic community, the header creator/editor has a responsibility to verify, whenever humanly
+      possible, the intellectual source for an electronic document that presents itself without any information regarding its
+      source or authorship.</p>
+
+     <list>
+      <head>Chief Sources of Information for Several Types of Electronic Resources Are:</head>
+      <item>1. For an electronic document with a digitized title page (without a header), prefer <list>
+        <item>a) Chief source of information = information coded as title page</item>
+        <item>b) Use added information from an originating paper document if absolutely certain it is the source</item>
+       </list>
+      </item>
+      <item>2. Electronic document with header (without a title page) <list>
+        <item>a) Chief source of information = supplied and verified header<note target="n1">*</note></item>
+        <item>b) Use information from paper document if absolutely certain it is the source</item>
+       </list>
+      </item>
+      <item>3. Electronic document with header and title page <list>
+        <item>a) Chief source of information = supplied header (if verified)<note target="teihead1">*</note></item>
+        <item>b) If header is not verified, use title page as chief source</item>
+        <item>c) Use information from paper document if absolutely certain it is the source</item>
+       </list>
+      </item>
+      <item>4. If neither header nor title page is present and there is no evidence of a source document, the header creator <list>
+        <item>a) May assign a title and author if appropriate</item>
+        <item>b) Enclose the information in brackets, using the standard English language convention for editorial
+        interjections</item>
+       </list>
+      </item>
+      <item>5. If neither header nor title page is present but the header creator has satisfactory evidence of an originating
+       source, that document should be used as the chief source of information for the title and author of the header. If the
+       source cannot be fully verified as to edition, authorship, etc., this fact should be clearly indicated in a note in the
+       &lt;fileDesc&gt;. </item>
+     </list>
+     <note id="n1">
+      <p> *Verified means that the cataloger/editor has established for him/herself that the information represented as title
+       information is an accurate representation of content. </p>
+     </note>
+    </div2>
+
+    <div2 type="subsection" id="teihead3" n="03">
+     <head>Element Recommendations for the teiHeader</head>
+     <p>
+      <table>
+       <row>
+        <cell>&lt;teiHeader type=&quot;____&quot;&gt;</cell>
+        <cell> Standards which apply to the header, e.g., &lt;teiHeader type=&quot;ISBD(ER)&quot;&gt;,
+         &lt;teiHeader type=&quot;AACR2&quot;&gt; </cell>
+       </row>
+      </table>
+
+      <table>
+       <head>&lt;fileDesc&gt;</head>
+       <row>
+        <cell> &lt;title type=&quot;____&quot;&gt;</cell>
+        <cell> Only uniform title and main title should be entered here, e.g.,
+         &lt;titleType=&quot;uniform&quot;&gt; or &lt;titleType=&quot;main&quot;&gt;. See
+         &lt;sourceDesc&gt; for other title forms for documents where a user might seek the documents under titles other
+         than those assigned. Where a title is provided by the header creator rather than the document creator, the title should
+         be enclosed in square brackets using standard English language conventions for editorial insertion.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;author&gt;</cell>
+        <cell> Author of original source (electronic or print) should be entered into the &lt;author&gt; element before
+         the &lt;respStmt&gt;. Use discrete elements within &lt;author&gt; element for &quot;last
+         name&quot;, &quot;first name&quot;, &quot;middle name&quot;, &quot;date&quot;,
+         &quot;position title&quot; to allow future flexibility in display, indexing, and in transferring to MARC.
+         Whenever possible, establish or use nationally established forms of names. The name should be inverted and entered in the
+         established form. </cell>
+       </row>
+
+       <row>
+        <cell> &lt;editor&gt;</cell>
+        <cell> Editor of original source (electronic or print) should be entered into the &lt;editor&gt; element
+          <emph>before</emph> the &lt;respStmt&gt;.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;respStmt&gt;</cell>
+        <cell> The editor (also compiler, illustrator) of an electronic version should be entered into the appropriate element in
+         the &lt;respStmt&gt;. The name should be inverted and entered in the established form.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;editionStmt&gt;</cell>
+        <cell> Caution: Remind users that the edition statement here refers to the electronic piece--not the original item. This
+         field should be used sparingly as there are currently no standards as to when versions become editions. Users should
+         refer to the instructions in the TEI manual.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;extent&gt;</cell>
+        <cell> Use the standard text &quot;ca.**** kilobytes&quot;.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;publicationStmt&gt;</cell>
+        <cell> Caution: This statement describes the electronic file.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;publisher&gt;</cell>
+        <cell> The publisher is whoever has collected the electronic text and has made decisions concerning it.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;distributor&gt;</cell>
+        <cell> The distributor is whoever makes the electronic text available.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;idno&gt;</cell>
+        <cell> Any unique identification number determined by the publisher.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;availability&gt;</cell>
+        <cell> Use specialized elements when anticipating sharing of the header or free text if only local usage is expected.
+         Caution: Know your audience.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;date&gt;</cell>
+        <cell> Refers to the date of the publication of the electronic document. <emph> For most purposes, the year date (yyyy)
+          will be adequate. If greater detail is required, enter dates as yyyymmdd.</emph></cell>
+       </row>
+
+       <row>
+        <cell> &lt;seriesStmt&gt;</cell>
+
+        <cell> Whenever possible, establish the national authority file authorized form for the electronic locally created series.
+        </cell>
+       </row>
+
+       <row>
+        <cell> &lt;notesStmt&gt;</cell>
+        <cell> Optional, depending on display decisions. Should be used for indicating questionable attributions for title,
+         author, etc.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;sourceDesc&gt;</cell>
+        <cell> In order to effectively represent the source(s) when many documents are represented by the TEI Header, we see the
+         need for structured elements that minimally allow us to identify parent-child and component relationships. In the absence
+         of these structures, we suggest that multiple source descriptions be employed with relationships described in free text.
+         Relationships also could be useful in other portions of the TEI Header. Cataloger may need to do research to establish
+         the original source.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;bibl&gt; or &lt;biblStruct&gt; or &lt;biblFull&gt;</cell>
+        <cell> Prefer &lt;biblFull&gt; to allow searching on parts of the description. </cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;title&gt;</cell>
+        <cell> It is possible to have multiple &lt;title&gt; fields in &lt;biblFull&gt;. Alternative titles
+         (cover, running, spine titles) should be entered in separate &lt;title&gt; fields in the &lt;biblFull&gt;
+         field in the &lt;sourceDesc&gt; where they are searchable.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;author&gt;</cell>
+        <cell> If the name of the author(s) in the originating source differs from the established form, include here the form
+         from the source tagged &lt;author type=&quot;alternate&quot;&gt;.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;editionStmt&gt;</cell>
+        <cell> Enter edition statement as found on the original source.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;extent&gt;</cell>
+
+        <cell> Enter physical description for the original source.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;publicationStmt&gt; &lt;publisher&gt;</cell>
+        <cell> Don't repeat field. Enter multiple publishers divided by semicolons.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;pubPlace&gt;</cell>
+        <cell> Don't repeat field. Enter multiple publishers divided by semicolons.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;date&gt;</cell>
+
+        <cell> Imprint date for the original source. <emph> For most purposes, the year date (yyyy) will be adequate. If greater
+          detail is required, enter dates as yyyymmdd.</emph></cell>
+       </row>
+
+       <row>
+        <cell> &lt;idno&gt;</cell>
+        <cell> In this location, &lt;idno&gt; refers to identification numbers for the source document. They can be used
+         to indicate the source's location in an individual institution's collection. If a formal standard location system is
+         being used, indicate the nature of the system, e.g., &lt;idno type=&quot;LC call number&quot;&gt;.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;seriesStmt&gt;</cell>
+        <cell> Establish via national authority file the series statement of original document.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;notes&gt;</cell>
+
+        <cell> Caution: Notes made here should refer to the original source.</cell>
+       </row>
+      </table>
+
+      <table>
+       <head> &lt;encodingDesc&gt;</head>
+       <row>
+        <cell> &lt;projectDesc&gt;</cell>
+        <cell>Enter a description of the purpose for which the electronic file was encoded.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;editorialDecl&gt;</cell>
+        <cell> Enter general and specific statements about how the electronic file has been treated. Record here editorial
+         decisions made during encoding.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;refsDecl&gt;</cell>
+        <cell> &lt;refsDecl&gt; seems a possibility for adminis- trative metadata, e.g., pagination and page
+        sequencing.</cell>
+       </row>
+
+       <row>
+
+        <cell> &lt;classDecl&gt; &lt;taxonomy id=&quot;____&quot;&gt;</cell>
+        <cell> If used, identify the appropriate taxonomy definitions or descriptive sources in the &lt;taxonomy&gt;
+         element followed by id, e.g., &lt;taxonomy id=&quot;LCSH&quot;&gt;, &lt;taxonomy
+         id=&quot;AAT&quot;&gt;.</cell>
+       </row>
+      </table>
+      <table>
+       <head> &lt;profileDesc&gt;</head>
+       <row>
+        <cell> &lt;creation&gt; &#160;&#160;&#160;&#160;&#160;&lt;date&gt;</cell>
+        <cell> Use the date as it comes from the creator. <emph>For most purposes, the year date (yyyy) will be adequate. If
+          greater detail is required, enter dates as yyymmdd.</emph></cell>
+       </row>
+
+       <row>
+        <cell> &lt;langUsage&gt;</cell>
+        <cell> Language usage is specified by document creators. Use standard language names.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;language id=&quot;____&quot;&gt;</cell>
+        <cell> Use the ISO 639-2 standard (which is the same as the MARC language codes).</cell>
+       </row>
+
+
+       <row>
+        <cell> &lt;textClass&gt;</cell>
+        <cell> True classification numbers as opposed to call numbers can be entered here.</cell>
+
+       </row>
+
+       <row>
+        <cell> &lt;keywords&gt;<lb/> &lt;term&gt; </cell>
+        <cell> Use for uncontrolled terms.</cell>
+       </row>
+
+       <row>
+        <cell> &lt;keywords scheme=&quot;____&quot;&gt;<lb/> &lt;term&gt; </cell>
+        <cell> Use for controlled vocabulary as specified in &lt;encodingDesc&gt; taxonomy id. Example:
+        scheme="LCSH"</cell>
+       </row>
+      </table>
+
+      <table>
+       <head>&lt;revisionDesc&gt;</head>
+       <row>
+        <cell> &lt;change&gt; &lt;resp&gt; &lt;item&gt;</cell>
+        <cell> Use the specific codes to note revisions rather than free text description. Include the entire date (e.g.,
+         19991101).</cell>
+
+       </row>
+      </table>
+     </p>
+
+    </div2>
+
+    <div2 type="subsection" id="teihead4" n="04">
+     <head>Minimal TEI Header Recommendation</head>
+     <lg type="model">
+      <l rend="indent">&lt;teiHeader&gt;</l>
+      <l rend="indent1">&lt;fileDesc&gt;</l>
+      <l rend="indent2">&lt;titleStmt&gt;</l>
+      <l rend="indent3">&lt;title&gt;&lt;/title&gt;</l>
+      <l rend="indent3">&lt;author&gt;&lt;/author&gt;</l>
+      <l rend="indent2">&lt;/titleStmt&gt; </l>
+      <l rend="indent2">&lt;publicationStmt&gt; </l>
+      <l rend="indent3">&lt;publisher&gt;&lt;/publisher&gt; </l>
+      <l rend="indent3">&lt;pubPlace&gt;&lt;/pubPlace&gt; </l>
+      <l rend="indent3">&lt;idno&gt;&lt;/idno&gt; </l>
+      <l rend="indent3">&lt;availability&gt;&lt;p&gt;&lt;/p&gt;&lt;/availability&gt; </l>
+      <l rend="indent3">&lt;date&gt;&lt;/date&gt; </l>
+      <l rend="indent2">&lt;/publicationStmt&gt; </l>
+      <l rend="indent2">&lt;sourceDesc&gt; </l>
+      <l rend="indent3">&lt;biblFull&gt; </l>
+      <l rend="indent4">&lt;titleStmt&gt; </l>
+      <l rend="indent5">&lt;title&gt;&lt;/title&gt; </l>
+      <l rend="indent5">&lt;author&gt;&lt;/author&gt; </l>
+      <l rend="indent4">&lt;/titleStmt&gt; </l>
+      <l rend="indent4">&lt;publicationStmt&gt; </l>
+      <l rend="indent5">&lt;publisher&gt;&lt;/publisher&gt; </l>
+      <l rend="indent5">&lt;pubPlace&gt;&lt;/pubPlace&gt; </l>
+      <l rend="indent5">&lt;date&gt;&lt;/date&gt; </l>
+      <l rend="indent4">&lt;/publicationStmt&gt; </l>
+      <l rend="indent3">&lt;/biblFull&gt; </l>
+      <l rend="indent2">&lt;/sourceDesc&gt; </l>
+      <l rend="indent1">&lt;/fileDesc&gt; </l>
+      <l rend="indent">&lt;/teiHeader&gt; </l>
+     </lg>
+     <p> Repeat the &lt;biblFull&gt; field, as appropriate, if there is more than one source for the electronic item.
+       <xref doc="teiheaders">See some examples in context ...</xref>
+     </p>
+    </div2>
+
+    <div2 type="subsection" id="teihead5" n="05">
+     <head>Recommended Additions to the teixlite DTD</head>
+     <p>
+      <list>
+       <item>Add elements under &lt;name&gt; to allow for the variable ordering and alphabetization of names:
+        &lt;forename&gt;, &lt;surname&gt;, &lt;birthdate&gt;, &lt;deathdate&gt;,
+        &lt;title&gt;, etc.</item>
+       <item>In order to effectively represent the source(s) when many documents are represented by the TEI Header, we see the
+        need for structured elements that, minimally, allow us to identify parent-child and component relationships.</item>
+      </list>
+     </p>
+    </div2>
+    <div2 type="subsection" id="teihead6" n="06">
+     <head>Acknowledgments and Bibliography</head>
+     <list>
+      <item> This guide was prepared by Judy Ahronheim, Thomas Champagne, Lynn Marko, Kelly Webster, and Chris Wilcox of the
+       University of Michigan Library and Jackie Shieh of the University of Virginia Library in October 1998. The source documents
+       were the cataloging guides prepared by those two institutions (<xref doc="vacatman">Virginia</xref> and <xref
+        doc="michcatman">Michigan</xref>). In addition, documentation from the Oxford Text Archive, Arts and Humanities Data
+       Service of the United Kingdom also was made available to assist in this effort. </item>
+      <item> For a description of TEI Header elements and correstponding USMARC fields, see Appendix A at <xref doc="teimarc"
+        >http://etext.lib.virginia.edu/tei/tei-usmarc.html</xref>. </item>
+     </list>
+    </div2>
+   </div1>
+
+   <div1 type="section" id="levels" n="05">
+    <head>V. Encoding Levels</head>
+    <div2 type="subsection" id="level1" n="01">
+     <head>V.1. LEVEL 1: Fully Automated Conversion and Encoding</head>
+
+     <p><hi rend="bold">Purpose:</hi> To create electronic text with the primary purpose of keyword searching and linking to page
+      images. The primary advantage in using the teixlite DTD at this level is that a TEI Header is attached to the text file.</p>
+
+     <p><hi rend="bold">Rationale:</hi> The text is subordinate to the page image, and is not intended to stand alone as an
+      electronic text (without page images).</p>
+
+     <p>Texts at Level 1 can be created and encoded by fully automated means, using uncorrected OCR of page images ("dirty OCR"),
+      exporting from existing electronic text files, or actually not including any text at all. Only those elements that are
+      necessary to divide the text from the header and facilitate linking to page images are used. Encoding is performed
+      automatically based on artifacts of the OCR or other document creation process (page breaks, for example) and metadata
+      collected during the imaging or preparation process. This encoding is both minimal and reliable, and does not typically
+      require extensive review of each page of each text.</p>
+
+     <p>Level 1 texts are not intended to be adequate for textual analysis; they are more likely to be suited to the goals of a
+      preservation unit or mass digitization initiative. Though their encoding is minimal, Level 1 texts are fully valid XML
+      texts. In addition to taking advantage of the TEI Header, using the teixlite DTD--with the consistency suggested by these
+      guidelines--allows Level 1 texts to be compatible with more richly encoded teixlite texts (that also follow these
+      guidelines) for searching, for example. Further encoding based on document structures or content analysis can be added to a
+      Level 1 text at any time.</p>
+
+     <p>
+      <hi rend="bold">Level 1 is most suitable for projects with the following characteristics:</hi>
+     </p>
+
+     <list>
+      <item>a large volume of material is to be made available online quickly</item>
+      <item>a digital image of each page is desired</item>
+      <item>no manual intervention will be performed in the text creation process</item>
+      <item>the material is of interest to a large community of users who wish to read texts that allow keyword searching</item>
+      <item>sophisticated search and display capabilities based on the structure of the text are not necessary</item>
+      <item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a
+       later date</item>
+     </list>
+
+     <p>
+      <table>
+       <row>
+        <cell>&lt;div1&gt;</cell>
+        <cell>If no type= attribute is specified, a type= of "section" should be presumed (type="section").</cell>
+       </row>
+       <row>
+        <cell>&lt;p&gt;</cell>
+        <cell>At least one "container" element per div is required (while &lt;ab&gt; is another option for this case, the
+         Task Force suggests using &lt;p&gt; in order that the document be open to being extended to other encoding
+         levels).</cell>
+       </row>
+       <row>
+        <cell>&lt;pb/&gt;</cell>
+        <cell>Required in Level 1. Page images can be linked to the text using the value of id=. Because IDs are unique, using
+         them on pagebreak elements makes it easier to ensure correct linkages to page image filenames. Page numbers can be
+         supplied with the n= attribute to record the number that is on the page. The Task Force sees the use of METS here as
+         having a tremendous advantage. METS/TEI page turning documentation will be included in the near future.</cell>
+       </row>
+      </table>
+     </p>
+
+
+
+     <lg type="example">
+      <head>Basic Structural Example:</head>
+      <l>&lt;TEI.2 id="someid"&gt;</l>
+      <l rend="indent1">&lt;teiHeader&gt;</l>
+      <l rend="indent2">[Source and processing information goes here]</l>
+      <l rend="indent1">&lt;/teiHeader&gt;<lb/></l>
+      <l rend="indent1">&lt;text&gt;</l>
+      <l rend="indent2">&lt;body&gt;</l>
+      <l rend="indent3">&lt;div1&gt;</l>
+      <l rend="indent4">&lt;p&gt;</l>
+      <l rend="indent5">&lt;pb id="p00000001" n="1"/&gt;</l>
+      <l rend="indent6">[main body of the unmarked up plain text begins here]</l>
+      <l rend="indent5">&lt;pb id="p00000002" n="2"/&gt;</l>
+      <l rend="indent6">[more plain text goes here with appropriate page breaks interspersed] ...</l>
+      <l rend="indent5">&lt;pb id="p00000145" n="145"/&gt;</l>
+      <l rend="indent6">[more plain text]</l>
+      <l rend="indent5">&lt;pb id="p00000146" n="146"/&gt;</l>
+      <l rend="indent6">[text ends here]</l>
+      <l rend="indent4">&lt;/p&gt;</l>
+      <l rend="indent3">&lt;/div1&gt;</l>
+      <l rend="indent2">&lt;/body&gt;</l>
+      <l rend="indent1">&lt;/text&gt;</l>
+      <l>&lt;/TEI.2&gt;</l>
+     </lg>
+
+     <p>
+      <xref doc="level1example">See an example in context...</xref>
+     </p>
+    </div2>
+
+    <div2 type="subsection" id="level2" n="02">
+     <head>V.2. LEVEL 2: Minimal Encoding</head>
+
+     <p><hi rend="bold">Purpose:</hi> To create electronic text for full-text searching, linking to page images, and identifying
+      simple structural hierarchy to improve navigation.</p>
+
+     <p><hi rend="bold">Rationale</hi>: The text is subordinate to the page image, though navigational markers (textual divisions,
+      heads) are captured. The text could stand alone as electronic text (without page images) if the accuracy of its contents is
+      suitable to its intended use and it is not necessary to display low-level typographic or structural information. Level 2
+      requires a set of elements more granular than those of Level 1, including bibliographic or structural information below the
+      monographic or volume level.</p>
+
+     <p>Though texts at Level 2 can be created and encoded by automated means, based on the typographic elements in the electronic
+      file (for example, bold centered text at the top of the page surrounded by whitespace indicates a new chapter head, and thus
+      a new division), it is not likely to be absolutely reliable across a large body of material. Level 2 encoding requires some
+      human intervention to identify each textual division and heading. Level 2 texts do not require any specialist knowledge or
+      manual intervention below the section level.</p>
+
+     <p>Level 2 texts are not intended to be displayed separately from their page images. Level 2 encoding of sections and heads
+      provides greater navigational possibilities than Level 1 encoding, and enables searching to be restricted within particular
+      textual divisions (for example, searching for two phrases within the same chapter).</p>
+
+     <p>
+      <hi rend="bold">Level 2 is most suitable for projects with the following characteristics:</hi>
+     </p>
+
+     <list>
+      <item>a large volume of material is to be made available online quickly</item>
+      <item>a digital image of each page is desired</item>
+      <item>the material is of interest to a large community of users who wish to read texts that allow keyword searching</item>
+      <item>rudimentary search and display capabilities based on the large structures of the text are desired</item>
+      <item>each text will be checked to ensure that divisions and headers are properly identified</item>
+      <item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a
+       later date</item>
+     </list>
+
+     <p>All elements specified in Level 1 plus the following:</p>
+
+     <p>
+      <table>
+       <row>
+        <cell>&lt;front&gt;, &lt;back&gt;</cell>
+        <cell>Optional</cell>
+       </row>
+       <row>
+        <cell>&lt;div1&gt;</cell>
+        <cell>type="section" is the default attribute value. It is recommended that the n= attribute be included to record the
+         sequence of divisions.</cell>
+       </row>
+       <row>
+        <cell>&lt;head&gt;</cell>
+        <cell>Required if present</cell>
+       </row>
+       <row>
+        <cell>&lt;p&gt;</cell>
+        <cell>One "container" element per div is required.</cell>
+       </row>
+      </table>
+     </p>
+
+
+
+     <lg type="example">
+      <head>Basic Structural Example:</head>
+      <l>&lt;TEI.2 id="someid"&gt;</l>
+      <l rend="indent1">&lt;teiHeader&gt;</l>
+      <l rend="indent12">[Source and processing information goes here]</l>
+      <l rend="indent1">&lt;/teiHeader&gt;</l>
+      <l rend="indent1">&lt;text id="someotherid"&gt;</l>
+      <l rend="indent2">&lt;front&gt;</l>
+      <l rend="indent3">[titlepage information, table of contents, prefaces, etc.]</l>
+      <l rend="indent2">&lt;/front&gt;</l>
+      <l rend="indent2">&lt;body&gt;</l>
+      <l rend="indent3">&lt;div1 type="chapter" n="1"&gt;</l>
+      <l rend="indent4">&lt;head&gt;Chapter 1&lt;/head&gt;</l>
+      <l rend="indent4">&lt;p&gt;[text of Chapter 1 goes here interspersed with &lt;pb/&gt; elements pointing to
+       page images]&lt;/p&gt;</l>
+      <l rend="indent3">&lt;/div1&gt;</l>
+
+      <l rend="indent3">&lt;div1 type="chapter" n="2"&gt;</l>
+      <l rend="indent4">&lt;head&gt;Chapter 2&lt;/head&gt;</l>
+      <l rend="indent4">&lt;p&gt;[text of Chapter 2 goes here interspersed with &lt;pb/&gt; elements pointing to
+       page images]&lt;/p&gt;</l>
+      <l rend="indent3">&lt;/div1&gt;</l>
+
+      <l rend="indent3">&lt;div1 type="chapter" n="3"&gt;</l>
+      <l rend="indent4">&lt;head&gt;Chapter 3&lt;/head&gt;</l>
+      <l rend="indent4">[text of Chapter 3 goes here interspersed with &lt;pb/&gt; elements pointing to page images]</l>
+      <l rend="indent3">&lt;/div1&gt;</l>
+
+      <l rend="indent3">&lt;div1 type="chapter" n="4"&gt;</l>
+      <l rend="indent4">&lt;head&gt;Chapter 4&lt;/head&gt;</l>
+      <l rend="indent4">[text of Chapter 4 goes here interspersed with &lt;pb/&gt; elements pointing to page images]</l>
+      <l rend="indent3">&lt;/div1&gt;</l>
+
+      <l rend="indent2">&lt;/body&gt;</l>
+      <l rend="indent2">&lt;back&gt;</l>
+      <l rend="indent3">[optional text of backmatter, appendices, etc.]</l>
+      <l rend="indent2">&lt;/back&gt;</l>
+      <l rend="indent1">&lt;/text&gt;</l>
+      <l>&lt;/TEI.2&gt;</l>
+
+     </lg>
+
+     <p>
+      <xref doc="level2example">See an example in context...</xref>
+     </p>
+    </div2>
+
+    <div2 type="subsection" id="level3" n="03">
+     <head>V.3. LEVEL 3: Simple Analysis</head>
+
+     <p><hi rend="bold">Purpose:</hi> To create text that can stand alone as electronic text and identifies hierarchy and
+      typography without content analysis being of primary importance.</p>
+
+     <p><hi rend="bold">Rationale:</hi> Level 3 texts can be created from scratch or by the relatively easy conversion of existing
+      HTML or word-processing documents. Encoding offers the advantage of the TEI Header, interoperability with other TEI
+      collections, and extensibility to higher levels of encoding. Level 3 generally requires some human editing, but the features
+      to be encoded are determined by the appearance of the text and not specialized content analysis.</p>
+
+     <p>Level 3 texts identify front and back matter, and all paragraph breaks. The finer granularity of tagging these features,
+      as well as figures, notes, and all changes of typography, allows a range of options for display, delivery, and searching.
+      For example, one has the option of identifying and, therefore, specifying the display charactersitics of different
+      typographic styles, and regularizing the display and placement of note text.</p>
+
+     <p>Level 3 texts can stand alone as text without page images and, therefore, can be uploaded, downloaded and delivered
+      quickly, and require less storage space than digital collections with page images. However, the simple level of structural
+      anaylsis and absence of specialized content analysis reflected in Level 3 tagging may make it desirable for some, depending
+      on project priorities, to include page images in order to provide users with a fuller set of resources.</p>
+
+     <p>
+      <hi rend="bold">Level 3 is most suitable for projects with the following characteristics:</hi>
+     </p>
+
+     <list>
+      <item>the material is of interest to a large community of users who wish to read texts that allow keyword searching</item>
+      <item>some sophistication of display, delivery, and searching based on structure of the text is desired</item>
+      <item>each text will be checked to ensure that tagging decisions have been made appropriately</item>
+      <item>the users of the texts may have limited storage or display capabilities</item>
+      <item>the creator of the texts has limited or no ability to provide content specialists to analyze, tag, or review texts</item>
+      <item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added at a
+       later date</item>
+     </list>
+
+     <p>All elements specified in Levels 1 and 2, plus the following:</p>
+
+     <p>
+      <table>
+       <row>
+        <cell>&lt;front&gt;, &lt;back&gt;</cell>
+        <cell>Required if present.</cell>
+       </row>
+       <row>
+        <cell>&lt;p&gt;</cell>
+        <cell>Required for paragraph breaks in prose; may be used for stanzas using &lt;lb/&gt; for line breaks in
+        verse.</cell>
+       </row>
+       <row>
+        <cell>&lt;list&gt; and &lt;item&gt;</cell>
+        <cell>May be used in this level to indicate ordered and unordered list structures.</cell>
+       </row>
+       <row>
+        <cell>&lt;table&gt;, &lt;row&gt;, and &lt;cell&gt;</cell>
+        <cell>May be used to indicate table structures.</cell>
+       </row>
+       <row>
+        <cell>&lt;figure&gt;</cell>
+        <cell>Required to indicate figures other than page images.</cell>
+       </row>
+       <row>
+        <cell>&lt;hi&gt;</cell>
+        <cell>Required to indicate changes in typeface; rend attribute is optional.</cell>
+       </row>
+       <row>
+        <cell>&lt;note&gt;</cell>
+        <cell>All notes must be encoded. It is also recommended that notes that extend beyond one page be combined into one
+         &lt;note&gt; element. Marginal notes, without reference, should occur at the beginning of the paragraph to which
+         they refer, with the value of the place attribute as "margin".</cell>
+       </row>
+       <row>
+        <cell>&lt;lb&gt;</cell>
+        <cell>May be used to force line breaks.</cell>
+       </row>
+      </table>
+     </p>
+
+     <p>NOTE ON &lt;note&gt;:</p>
+
+     <p>It may be desirable to move footnotes from their original location in the text. If left at the bottom of a page, a note
+      may become included in another paragraph or section of the encoded text, and thus separated from its reference. There are
+      options for placement of footnotes if they are moved:</p>
+
+     <list>
+      <item>Inline. The note is inserted at the point of reference. An n attribute records the value of the note reference if
+       there is one.</item>
+      <item>End-of-Division. Notes moved to the end of the division</item>
+     </list>
+
+     <p>
+      <hi rend="bold">Basic Structural Example forthcoming ...</hi>
+     </p>
+    </div2>
+
+    <div2 type="subsection" id="level4" n="04">
+     <head>V.4. LEVEL 4: Basic Content Analysis</head>
+
+     <p><hi rend="bold">Purpose</hi>: To create text that can stand alone as electronic text, identifies hierarchy and typography,
+      specifies function of textual and structural elements, and describes the nature of the content and not merely its
+      appearance. This level is not meant to encode or identify all structural, semantic or bibliographic features of the text.</p>
+
+     <p><hi rend="bold">Rationale</hi>: Greater description of function and content allows for:</p>
+
+     <list>
+      <item>flexibility of display and delivery</item>
+      <item>sophisticated searching within specified textual and structural elements</item>
+      <item>combining the broadest range of uses and audiences</item>
+     </list>
+
+     <p>Texts encoded at Level 4 are able to stand alone as part of a library collection, and do not require page images in order
+      for them to be read by students, scholars and general readers. This level of TEI encoding allows them to be displayed or
+      printed in a variety of ways suitable for classroom or scholarly use.</p>
+
+     <p>Level 4 texts contain elements and attributes that describe content. For example, lines of verse are tagged with
+      &lt;l&gt;; the &lt;p&gt; element is reserved for true paragraphs. Features of the text that may contribute
+      to meaning, such as indentation of verse lines and typographic change, are preserved. These are textual features that are
+      not encoded at lower levels and that allow the text to be used and understood fully independent of images.</p>
+
+     <p>The ability to stand alone as text means that Level 4 texts are more nimble and robust for exercises such as format
+      repurposing and textual analysis.</p>
+
+     <p>Finally, functionally accurate tagging in Level 4 texts allows them to be searched or displayed in sophisticated ways. For
+      example, a searcher could limit his or her search in a dramatic text to stage directions or to the speeches of a particular
+      character. In a volume of poetry published by subscription, a search could be confined to names that appear in lists, thus
+      limiting a search to names of people who subscribed to a particular volume. This ability to limit searches becomes more
+      significant as textbases become larger, and thus is of great importance to the library community as it attempts to build
+      into the initial design and implementation of textbases features needed to enhance interoperability.</p>
+
+     <p>
+      <hi rend="bold">Level 4 is most suitable for projects with the following characteristics:</hi>
+     </p>
+
+     <list>
+      <item>sophisticated search and retrieval capabilities are desired</item>
+      <item>the texts will be used for textual analysis</item>
+      <item>extensibility is desired; that is, one desires to keep open the option for a higher level of tagging to be added by
+       the scholarly community at a later date</item>
+      <item>the users of the texts may have limited storage or display capabilities</item>
+     </list>
+
+     <div3 type="part" n="01">
+      <head>General Level 4 Recommendations:</head>
+      <list>
+       <item>Typographically distinct text should be encoded as &lt;foreign&gt;, &lt;title&gt;, or
+        &lt;emph&gt; as appropriate. Any ambiguous emphasized text should be encoded as &lt;hi&gt; (e.g.
+        &lt;hi rend="bold"&gt;).</item>
+       <item>It is recommended that the &lt;sic&gt; element be used to indicate typographic errors, with corrections noted
+        as the value of the corr attribute.</item>
+       <item>&lt;titlePage&gt; should include the verso if present, divided by &lt;pb n="verso"/&gt;. Tables of
+        contents, errata, subscription lists, "other titles by the same author" should be included in a separate numbered
+        division, as a &lt;list&gt; with &lt;item&gt;s. Frontispieces should be encoded as a
+        &lt;figure&gt;, within a separate numbered division and &lt;p&gt;.</item>
+      </list>
+      <p>
+       <xref doc="level4genrec">See some examples in context...</xref>
+      </p>
+     </div3>
+     <div3 type="part" n="02">
+      <head>Level 4 Prose:</head>
+      <list>
+       <item>Letters that occur within the text body provide some challenges. It is recommended that quoted letters that occur as
+        part of a text (and not collections of letters themselves) be encoded within
+        &lt;q&gt;&lt;text&gt;&lt;body&gt;&lt;div1 type="letter"&gt;, with &lt;opener&gt;,
+        &lt;dateline&gt;, &lt;salute&gt;, &lt;signed&gt;, &lt;closer&gt; included as appropriate.</item>
+       <item>Quotations that do not occur inline, but are set off typographically in some way, should be encoded as
+        &lt;q&gt;.</item>
+       <item>Notes are to be encoded as described in Level 3.</item>
+       <item>&lt;argument&gt;, &lt;opener&gt;, &lt;epigraph&gt;, &lt;closer&gt;,
+        &lt;trailer&gt;, &lt;add&gt;, &lt;del&gt;, &lt;unclear&gt; as appropriate.</item>
+      </list>
+      <p>
+       <xref doc="level4prose">See an example in context...</xref>
+      </p>
+     </div3>
+
+     <div3 type="part" n="03">
+      <head>Level 4 Drama:</head>
+      <list>
+       <item>Cast lists should be encoded as &lt;list&gt;s, with &lt;item&gt;s.</item>
+       <item>Speeches are encoded as &lt;sp&gt;, with speakers identified within &lt;speaker&gt; elements; stage
+        directions are encoded as &lt;stage&gt; and enclose block level content describing scenery, etc.</item>
+      </list>
+      <p>
+       <xref doc="level4drama">See an example in context...</xref>
+      </p>
+     </div3>
+
+     <div3 type="part" n="04">
+      <head>Level 4 Oral History:</head>
+      <list>
+       <item>Speakers in interviews can be identified in the &lt;teiHeader&gt; in several ways. <list>
+         <item>In the &lt;profileDesc&gt;, in the &lt;particDesc&gt; in a &lt;list&gt;, with
+          &lt;name&gt; inside of &lt;item&gt;s.</item>
+         <item>As a list of author &lt;name&gt;s within &lt;fileDesc&gt;&lt;titleStmt&gt;</item>
+        </list>
+       </item>
+       <item>In either method, use an id= on the &lt;name&gt; element to uniquely identify the individual participant</item>
+       <item>Questions and answers from interviewees and interviewers are encoded as &lt;sp&gt;, with speakers identified
+        within &lt;speaker&gt; elements with a who= attribute the value of which corresponds to the id= in the list of
+        interview participants.</item>
+      </list>
+      <p>
+       <xref doc="level4oh">See an example in context...</xref>
+      </p>
+     </div3>
+
+
+     <div3 type="part" n="05">
+      <head>Level 4 Verse:</head>
+      <list>
+       <item>All verse, even poems without separate stanzas or verse paragraphs, should be contained within a line group element
+        &lt;lg&gt;. This will assist with automated processing and retrieval.</item>
+       <item>It is common to see informal divisions within poems, noted by a string of asterisks or periods. These should be
+        encoded as &lt;milestone/&gt;s with attribute values of unit="typography" and n="()" indicating the character used
+        and its occurrence, &lt;milestone unit="typography" n="******"/&gt;.</item>
+       <item>&lt;l&gt; It is recommended that indentation be recorded and that the rend attribute be used to do
+       this.</item>
+      </list>
+      <p>
+       <xref doc="level4verse">See an example in context...</xref>
+      </p>
+     </div3>
+
+     <div3 type="part" n="06">
+      <head>Level 4 Front and Back Matter:</head>
+      <list>
+       <item>It is recommended that all prefaces, tables of contents, afterwords, appendices, endnotes and apparatus be encoded.
+        For publisher's advertisements, indexes, and glossaries or other front or back matter that isn't considered of primary
+        importance to the text, there are three options:<list>
+         <item>Fully transcribe and encode</item>
+         <item>Link to page images (may include an unencoded transcription)</item>
+         <item>Omit, noted in &lt;editorialDesc&gt;</item>
+        </list></item>
+      </list>
+      <p>
+       <xref doc="level4fandb">See an example in context...</xref>
+      </p>
+     </div3>
+    </div2>
+
+    <div2 type="subsection" id="level5" n="05">
+     <head>V.5. LEVEL 5: Scholarly Encoding Projects</head>
+     <p>Level 5 texts are those that require subject knowledge, and encode semantic, linguistic, prosodic or other elements beyond
+      a basic structural level.</p>
+    </div2>
+   </div1>
+
+   <div1 type="section" id="attributes" n="06">
+    <head>VI. General Guidelines for Attribute Usage</head>
+    <p>Like divisional markers, attributes should be specified in a hierarchy of order. The rationale for this hierarchy of order
+     is that if you are using procedural scripting languages to transform or manipulate text, it is much easier to have consitent
+     and predictable attribute sequences than not. The basic rule is that broader and more global information be defined before
+     those attributes that further qualify or constrict that information:<lb/>
+     <list>
+      <item>Attributes should always be specified in the following order, when present: type=, id=, target=, n=, followed by all
+       other attributes in alphabetical order, except that rend= is always last.</item>
+
+      <item>"type": If you are in a situation that requires you to define the "type" of structure you are using, the "type"
+       attribute must always be specified first. The logic behind this follows some basic and yet existential thinking such that a
+       thing cannot really be given an age or individual identity without our first knowing what kind of thing we're talking
+       about. Constructing a list of acceptable attribute values for type that could find wide agreement is impossible. Instead,
+       it is recommended that projects describe the type attribute values used in their texts in the project documentation and
+       that this list be made available to people using the texts. See <title>ABC for Book Collectors</title> by John Carter (7th
+       edition, New Castle, DE:Oak Knoll Books, 1995) for a list of standard names and definitions of bibliographic features of
+       printed books. For those elements where type is not required, such as &lt;head&gt; and &lt;title&gt;, use
+       the attribute values for subtitles and additional titles, but not main titles.<lb/> Example: &lt;div1
+       type="volume"&gt;</item>
+
+      <item>"n": Sometimes a "n" (number) attribute can be used by itself. For instance in the case of pagebreaks:<lb/> Example:
+       &lt;pb n="456"&gt;</item>
+
+      <item>"id": If you are in a situation that requires you to uniquely identify an element that will be used to reference
+       another specific location in one or more texts<lb/> Example: &lt;note id="n5" n="5"&gt;</item>
+
+      <item>"target": follows the same rules and dictates as the "id" attribute descriptor. In fact, "target" and "id" are often
+       used in conjunction with one another as in the case of footnotes where the &lt;note target="n5" n="5"&gt; points
+       from a specific place in the text to the &lt;note id="n5" n="5"&gt; which contains the actual information of the
+       footnote itself.</item>
+
+      <item>"entity": The "entity" attribute is simply the way a figure points or refers to its target name<lb/> Example:
+       &lt;figure entity="TwaFifrn"&gt; points to an image with a name and format such as TwaFifrn.jpg.</item>
+
+      <item>"rend": While rend is mostly used by itself to describe typographical rendering, there are some cases where it can be
+       listed with other attribute descriptors. And in those cases, "rend" will be listed last in hierarchic order. Difficulty
+       using rend attributes occurs when it is desirable to record more than one rendition feature. With this in mind, it is
+       recommended that projects employ the following adaptation of "rendition ladders", a concept developed at the <xref
+        doc="wwpbrown">Brown University Women Writers Project</xref> &lt;http://www.wwp.brown.edu&gt;. This system allows
+       for sets of multiple renditional features to be included in one rend= value. Rendition ladders consist of categories of
+       renditional features with values of each of those features enclosed in parentheses.<lb/> rend should only be used to
+       override a default value. For instance, if all text encoded as &lt;hi&gt; is defined as being rendered in italics,
+       there is no reason to encode text as <q>
+        <p>&lt;hi rend="font(italics)"&gt;</p>
+       </q> Combining renditional features would result in an element with attributes such as <q>
+        <p>&lt;l rend="font(italics)align(right)"&gt;</p>
+       </q></item>
+      <item>font <lb/>italics, bold, fsc (full and smallcaps), smallcap, underlined, gothic</item>
+      <item>align <lb/>right, left, center, block</item>
+      <item>indent <lb/>Values in parentheses should indicate the number of tabstops to be indented, e.g., &lt;l
+       rend="indent(1)"&gt;</item>
+      <item>lang <lb/>Use ISO639-2 three-character language codes.</item>
+     </list></p>
+   </div1>
+
+  </body>
+ </text>
+</TEI.2>

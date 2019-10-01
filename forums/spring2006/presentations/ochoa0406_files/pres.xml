@@ -1,0 +1,196 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" slidesizex="8192" slidesizey="6144"
+  gridspacingx="49152" gridspacingy="49152">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Title &amp; Subtitle" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="4" slidesn="0,0" type="main" href="master04.htm"
+   xmlhref="master04.xml" template="Photo - Horizontal" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="5" slidesn="0,0" type="main" href="master05.htm"
+   xmlhref="master05.xml" template="Title &amp; Bullets" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="6" slidesn="0,0" type="main" href="master06.htm"
+   xmlhref="master06.xml" template="Photo - Vertical" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="7" slidesn="0,0" type="main" href="master07.htm"
+   xmlhref="master07.xml" template="Blank" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="8" slidesn="0,0" type="main" href="master08.htm"
+   xmlhref="master08.xml" template="Photo - Horizontal Reflection"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="9" slidesn="0,0" type="main" href="master09.htm"
+   xmlhref="master09.xml" template="Bullets" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="10" slidesn="0,0" type="main" href="master10.htm"
+   xmlhref="master10.xml" template="Photo - Vertical Reflection"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="11" slidesn="0,0" type="main" href="master11.htm"
+   xmlhref="master11.xml" template="Title - Top" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="12" slidesn="0,0" type="main" href="master12.htm"
+   xmlhref="master12.xml" template="Title - Center" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="13" slidesn="0,0" type="main" href="master13.htm"
+   xmlhref="master13.xml" template="Title &amp; Bullets - Left"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="14" slidesn="0,0" type="main" href="master14.htm"
+   xmlhref="master14.xml" template="Title &amp; Bullets - 2 Column"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="15" slidesn="0,0" type="main" href="master15.htm"
+   xmlhref="master15.xml" template="Title &amp; Bullets - Right"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="16" slidesn="0,0" type="main" href="master16.htm"
+   xmlhref="master16.xml" template="Title, Bullets &amp; Photo"
+   layout="title_body" slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#bbe0e3,#333399,#009999,#99cc00"/>
+   </p:schemes>
+  </p:master>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="2" slidesn="0,0" href="slide0002.htm" masterhref="master04.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="3" slidesn="0,0" href="slide0003.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="4" slidesn="0,0" href="slide0004.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="5" slidesn="0,0" href="slide0005.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="6" slidesn="0,0" href="slide0006.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="7" slidesn="0,0" href="slide0007.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="10" slidesn="0,0" href="slide0010.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="30" slidesn="0,0" href="slide0030.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="11" slidesn="0,0" href="slide0011.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="12" slidesn="0,0" href="slide0012.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="13" slidesn="0,0" href="slide0013.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="14" slidesn="0,0" href="slide0014.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="16" slidesn="0,0" href="slide0016.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="17" slidesn="0,0" href="slide0017.htm" masterhref="master06.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="18" slidesn="0,0" href="slide0018.htm" masterhref="master06.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="19" slidesn="0,0" href="slide0019.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="20" slidesn="0,0" href="slide0020.htm" masterhref="master07.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="31" slidesn="0,0" href="slide0031.htm" masterhref="master07.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="21" slidesn="0,0" href="slide0021.htm" masterhref="master07.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="22" slidesn="0,0" href="slide0022.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="23" slidesn="0,0" href="slide0023.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="26" slidesn="0,0" href="slide0026.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="32" slidesn="0,0" href="slide0032.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="24" slidesn="0,0" href="slide0024.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="25" slidesn="0,0" href="slide0025.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="15" slidesn="0,0" href="slide0015.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="27" slidesn="0,0" href="slide0027.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="28" slidesn="0,0" href="slide0028.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="29" slidesn="0,0" href="slide0029.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="33" slidesn="0,0" href="slide0033.htm" masterhref="master05.htm"
+   layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="156" restoredtop="946"
+   hideoutlineicons="t"/>
+  <p:tag name="___PPTMac11" type="binary" datasize="26972" dataoffset="0"/>
+  <p:kinsoku language="Japanese" level="levelOne"/>
+  <p:font name="Gill Sans" charset="0" type="4"/>
+  <p:font name="ヒラギノ角ゴ Pro W3" charset="0" type="4"/>
+  <p:font name="Lucida Grande" charset="0" type="4"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Marker Felt" charset="0" type="4"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="46083" stroke="f">
+  <v:fill src="master03_image002.jpg" o:title="" type="tile"/>
+  <v:stroke weight="2pt" on="f"/>
+ </o:shapedefaults></xml>

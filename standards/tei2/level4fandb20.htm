@@ -1,0 +1,65 @@
+<html>
+<head><title>Level 4 Front and Back Matter Examples</title>
+<style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif;}
+
+          p          { margin-top: .5em; margin-bottom: .25em;}
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+
+</style>
+
+</head>
+
+<body>
+
+<h3>Level 4 Front and Back Matter Examples</h3> 
+<p>Examples are from Documenting the American South at
+the University of North Carolina at Chapel Hill</p>
+<p>Compiled by Natasha Smith</p>
+<hr/>
+<p>It is recommended that all prefaces, tables of contents, afterwords, appendices, 
+endnotes and apparatus be encoded. For publisher's advertisements, indexes, and 
+glossaries or other front or back matter that isn't considered of primary importance 
+to the text, there are three options:</p> 
+
+<ol><li><b>Fully transcribe and encode</b><br/>
+<p>FROM: No Author<br/>
+Slavery Illustrated, in the Histories of Zangara and Maquama, Two<br/> Negroes Stolen 
+From Africa and Sold Into Slavery. Related by<br/> Themselves.<br/> 
+Manchester: Wm. Irwin, London: Simpkin, Marshall, and Co., 1849.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/neh/slaveryillus/menu.html">HTML</a> or the entire 
+<a href="http://docsouth.unc.edu/neh/slaveryillus/slaveryillus.xml">XML</a> file)</p>
+<div class="example">
+<p><pre><span class="element">&lt;back&gt;</span>
+      <span class="element">&lt;div1 type="advertisement"&gt;</span>
+        <span class="element">&lt;pb id="p38" n="38"/&gt;</span>
+        <span class="element">&lt;head&gt;</span>LIST OF NEW WORKS.<span class="element">&lt;/head&gt;</span>
+        <span class="element">&lt;p&gt;</span>Recently Published, A TRIBUTE FOR THE NEGRO: being a Vindication of the Intellectual, 
+and Religious Capabilities of the Coloured portion of Man with particular reference to the African 
+Race. Illustrated by numerous graphical Sketches, Facts, Anecdotes, &amp;c., and many superior P
+ortrait Engravings. By WILSON ARMISTEAD. Bound in cloth, with appr<span class="element">&lt;gap reason="edge of page cut off" extent="unknown"/&gt;</span> 
+Devices on back and side, price 12s.; elegantly bound in Morocco, with <span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> on back 
+and side, gilt edges, and extra Engravings, 21s. Single Copies <span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span>above 
+Work forwarded, carriage free, to any part of the United Ki<span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> on receipt 
+of post order for the amount.<span class="element">&lt;/p&gt;</span> [snip]
+     <span class="element">&lt;/div1&gt;</span>
+<span class="element">&lt;/back&gt;</span>
+</pre></p></div>
+</li>
+<li><b>Link to page images (may include an unencoded transcription)</b></li>
+<li><b>Omit, noted in <span class="element">&lt;EditorialDesc&gt;</span></b></li>
+</ol>

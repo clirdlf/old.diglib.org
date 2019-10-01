@@ -1,0 +1,2180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2005-01-21" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2005, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title></title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet"
+type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type=
+"text/css" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii" />
+<meta name="Generator" content="Microsoft Word 11 (filtered)" />
+<title>Intro Issues</title>
+</head>
+<body onload=
+"MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"
+onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)">
+<img src="../../images/logo.gif" alt=
+"Digital Library Federation, Link: Home" name="dlf_logo" width=
+"192" height="133" border="0" id="dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../../quotations.htm"><img src=
+"../../images/quote_hold.gif" name="quote_rotate" alt=
+"random library quotation" width="333" height="95" border="0" id=
+"quote_rotate" /></a></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../../publications.htm"><img src="../../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><a href=
+"../../forums.htm"><img src="../../images/forum.gif" alt="Forum"
+width="50" height="27" border="0" /></a></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../../about.htm"><img src="../../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../../news.htm"><img src="../../images/news.gif" alt=
+"Link: News" width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top">
+<form action="search.asp" method="get" name="searchform" id=
+"search"><label for="textfield"><span class=
+"news">Search </span></label> <input name="qu" id="textfield"
+type="text" value="" size="10" />   <a href=
+"javascript:document.searchform.submit();"><img src=
+"../../images/go.gif" alt="Link: go search" width="20" height=
+"20" border="0" align="middle" /></a>  <a href=
+"../../sitemap.htm"><img src="../../images/sitemap.gif" alt=
+"Link: Sitemap" width="47" height="20" border="0" align=
+"middle" /></a> <script language="JavaScript" type=
+"text/javascript">
+</script></form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);">
+<img src="../../images/collect.gif" alt=
+"Link: Digital Collections" name="collect" width="117" height=
+"38" border="0" id="collect" /></a></td>
+<td width="117" height="38" valign="top"><a href=
+"../../produce.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)">
+<img src="../../images/produce.gif" alt=
+"Link: Digital Production" name="produce" width="117" height="38"
+border="0" id="produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)">
+<img src="../../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../../use.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)">
+<img src="../../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top"><!-- Begin text here -->
+<div class="Section1">
+<p><b>NOT FOR WIDER DISTRIBUTION</b></p>
+<p><b>DRAFT of May 11, 2005</b></p>
+<p><b>Martha L. Brogan</b></p>
+<p><b>A KALEIDOSCOPE OF AMERICAN LITERATURE</b></p>
+<p style='margin-left:.5in'><b>. .</b> . this rainbow looked like
+Hope&mdash;</p>
+<p style='margin-left:.5in'>Quite a celestial Kaleidoscope.</p>
+<p style='margin-left:.5in'><span style='font-size:10.0pt'>Lord
+Byron, <i>Don Juan</i>, II, XCIII</span></p>
+<p>About the Authors</p>
+<p>Acknowledgments</p>
+<h2><u><span style='font-style:normal'>TABLE OF
+CONTENTS</span></u></h2>
+<p>Introduction</p>
+<p>Scope and Methodology</p>
+<p><b>Part 1 SUMMARY OF FINDINGS</b></p>
+<p>&ldquo;A Revolution Led from Above&rdquo;</p>
+<p>Creating a Culture of Innovation</p>
+<p>Building the Cyberinfrastructure for the Humanities &amp;
+Social Sciences</p>
+<p>Shaping the Future</p>
+<p>Communities of Practice</p>
+<p>Tools to the Rescue?</p>
+<p>What&rsquo;s Not to Like?</p>
+<p>Conclusion: Toward a &ldquo;Celestial Kaleidoscope&rdquo;</p>
+<p><b>Part 2 REVIEW OF RESOURCES</b></p>
+<p><b>Etc.</b></p>
+<b><span style=
+'font-size:14.0pt;font-family:"Times New Roman"'><br clear="all"
+style='page-break-before:always' /></span></b>
+<p><b><span style='font-size:14.0pt'>SUMMARY OF
+FINDINGS</span></b></p>
+<p><b>&ldquo;A REVOLUTION LED FROM ABOVE&rdquo;</b></p>
+<p>Lest anyone forget the extent to which the academy now relies
+on digital media, Edward L Ayers, dean of the College and
+Graduate School of Arts and Sciences at the University of
+Virginia&mdash;in a series of hopeful talks delivered around the
+country on &ldquo;scholarship in the digital
+age&rdquo;&mdash;emphatically reminds everyone of the
+transformation that has taken place in the past decade.<a id=
+"_ftnref1" href="#_ftn1" name="_ftnref1" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[1]</span></span></span></a>
+Citing technological advances in networking, mass storage,
+digital conversion, and speed, Ayers notes that millions of
+objects&mdash;scanned, transcribed, and cataloged&mdash;including
+(as borne out in this report) books, articles, diaries, letters,
+newspapers, films, artifacts, oral histories, and
+images&mdash;are now available to millions of people. He recalls
+those days, not very long ago, when scholars denounced the
+disappearing library card catalog and its conversion to an online
+environment. Creating digital copies of journal articles (enter
+<i>JSTOR</i>) likewise met with initial disapprobation. Now, a
+few short years later, scholars realize the power of linking from
+the library&rsquo;s online catalog, and a host of specialized
+databases, directly to digital objects of all types. And, as
+Ayers remarks, scholars are now &ldquo;demanding&rdquo; online
+access (24/7) not only from their offices but also from their
+lakeside cabins, and, librarians would add, from their sabbatical
+and fellowship posts around the globe.</p>
+<p>Nonetheless, while the texts of their trade are rapidly
+becoming available anywhere, anytime, humanities scholars, who
+might have much to gain from digital media&rsquo;s potential to
+spread their scholarship, remain firmly committed to traditional
+forms. Why is it, Ayers wonders, that humanities scholarship is
+dedicated to constant change and innovation, &ldquo;yet the
+institutions in which it is embedded, maybe especially the
+monograph and the scholarly article, have been remarkably, even
+stubbornly, stable?&rdquo; He argues that scholarship should be
+able to take any form as long as it adheres to the fundamental
+principles of &ldquo;documented research and rigorous, anonymous
+peer review.&rdquo; But humanities scholars, in large part, have
+resisted change, viewing digital media as &ldquo;a dissolution,
+distraction, a diversion&rdquo; from their &ldquo;real
+work.&rdquo; Recent Ph.D.s interviewed for this report bear
+witness to even harsher judgments by established faculty in
+English departments about the value of digital media (ranging
+from proprietary databases to multimedia author archives): it is
+irrelevant to scholarship, a matter of indifference to them, or
+not even in their consciousness.</p>
+<p>It is, then, no wonder that Ayers credits visionary
+librarians, professional societies and their supporters in the
+philanthropic world with spearheading the transformation. It is
+&ldquo;a revolution led from above,&rdquo; he asserts, by
+powerful and prestigious agencies such as the American Historical
+Association, the American Council on Learned Societies, the
+Council on Library &amp; Information Resources, the Digital
+Library Federation and The Andrew W. Mellon Foundation. These
+national organizations have &ldquo;sponsored ambitious efforts to
+create electronic monograph series and to foster new kinds of
+scholarship,&rdquo; as also made evident by the review of
+resources in this report. Deploying multi-faceted approaches,
+they have sponsored initiatives to encourage a new cadre of
+specialists who can, in the words of Ayers, both &ldquo;walk the
+walk of a discipline and talk the talk of the digital
+world.&rdquo; These national leaders, however, mindful of trends
+in society at large and concerned that the humanities keep pace,
+&ldquo;are not waiting for scholars to build new things&rdquo;
+before taking further action. To the contrary, rather than risk
+being left behind, they hope to build the requisite
+infrastructure by first trying to create a digital
+&ldquo;vacuum&rdquo; that scholarship will rush to fill. While
+most of the scholars and practitioners interviewed in this report
+applaud these efforts&mdash;in fact many of them are directly
+involved&mdash;they are renegades. Shifting the campus culture in
+the humanities, and perhaps especially in English departments, is
+a slow proposition. To paraphrase one senior campus
+administrator, you have to let people come to accept digital
+media on their own; you can&rsquo;t force it on them. His
+institution encourages experimentation and adoption by offering
+training and professional development support, but is moving
+&ldquo;incrementally&rdquo; while waiting for the next generation
+of faculty to accelerate the process.</p>
+<p><b>CREATING A CULTURE OF INNOVATION</b></p>
+<p>The University of Virginia repeatedly emerges as <i>the</i>
+place where digital innovation happens in the humanities.
+Ayers&rsquo; trajectory of scholarship is a case study of how
+this paradigm shift occurred, giving his observations
+considerable weight. A decade ago, his <i>Valley of the Shadow:
+Two Communities in the American Civil War</i>, along with <i>The
+Complete Writings and Pictures</i></p>
+<p><i>of Dante Gabriel Rossetti: A Hypermedia Research
+Archive,</i> developed by his English department colleague,
+Jerome McGann, formed the cornerstones of the newly created
+Institute for Advanced Technology in the Humanities (IATH) at the
+University of Virginia. Today, they are both award-winning,
+nationally recognized &ldquo;digital scholars.&rdquo; When they
+embarked on these projects in 1993, however, they were charting
+new territory. The Web had just presented itself as a new medium
+for the production and dissemination of scholarship, and because
+there were few standards, best practices, or computing tools to
+facilitate their work, Ayers and McGann had to invent them.</p>
+<p>John Unsworth, the prescient former director of IATH and now
+dean and professor of the Graduate School of Library and
+Information Science at the University of Illinois, attributes
+IATH&rsquo;s success to two innovations. First, senior computing
+administrators insisted that all of its projects focus on
+research, envisioning IATH as a fulcrum to leverage change in the
+institutional culture. By targeting research, rather than
+teaching with technology&mdash;which has a shorter developmental
+lifecycle&mdash;it set the stage for serious long-term
+investigations. Moreover, Unsworth understood that teaching would
+be strengthened as a natural outcome of research because
+&ldquo;the curriculum rests on scholarship&rdquo; (Unsworth
+2005). Secondly, and in direct support of the first principle,
+IATH fellows were given generous two-year appointments &ldquo;in
+residence&rdquo; with half-year teaching release time.
+&ldquo;Forbidden from grant-writing during the first year,&rdquo;
+they were forced to delve into their work before going out in
+search of external funds.<a id="_ftnref2" href="#_ftn2" name=
+"_ftnref2" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[2]</span></span></span></a></p>
+<p>In his award-winning book, <i>Radiant Textuality: Literature
+After the World Wide Web</i>, McGann explains how IATH&rsquo;s
+commitment to the World Wide Web caused a fundamental shift in
+the essential character of his project:</p>
+<p style='margin-left:.5in'>On the technical side, a major
+challenge for the institute and its fellows was to pursue
+long-term, large-scale humanities computing research projects
+with an almost ascetic rejection of the surface effects and
+short-term gains offered by proprietary software and proprietary
+data standards. In an apparently paradoxical way, IATH&rsquo;s W3
+commitment drove its projects to make rigorous logical design a
+fundamental goal. This pursuit reflected a dedication to
+portability and the abstraction that enables it&mdash;even if it
+also entailed doing without good tools for creating or
+disseminating the scholarly work in the short run. As it
+happened, that commitment was to induce a profound shift in the
+principal focus and goals of <i>The Rossetti
+Archive</i>&mdash;moving it, in fact, from an editorial project
+per se to a machine for exploring the nature of textuality in
+more general and theoretical ways. (McGann 2001, 10-11)</p>
+<p><br />
+By bringing fellows together in a central, shared
+&ldquo;intentional&rdquo; space, IATH fosters a sense of
+community and enables networking among scholars long after their
+residency end<b>s</b>. Time and again in this report, the
+premiere examples emanate from IATH, although their influence now
+extends beyond the University of Virginia: <i>The William Blake
+Archive, The Rossetti Archive, The Dickinson Electronic Archives,
+The Walt Whitman Archive, Uncle Tom&rsquo;s Cabin &amp; American
+Culture: A Multi-Media Archive, The Salem Witch Trails</i>, among
+others. Unsworth calls these &ldquo;thematic research
+collections,&rdquo; and while their specific research agendas
+vary, he has identified the characteristics they have in common.
+They are, he says:</p>
+<p style='margin-left:.75in;text-indent:-.25in'>1.    Necessarily
+electronic (because of the cost of 2, 3, 8)</p>
+<p style='margin-left:.75in;text-indent:-.25in'>2.    Constituted
+of heterogeneous data types (multimedia)</p>
+<p style='margin-left:.75in;text-indent:-.25in'>3.    Extensive
+but thematically coherent</p>
+<p style='margin-left:.75in;text-indent:-.25in'>4.    Structured
+but open-ended</p>
+<p style='margin-left:.75in;text-indent:-.25in'>5.    Designed to
+support research</p>
+<p style='margin-left:.75in;text-indent:-.25in'>6.    Authored
+(and usually multi-authored)</p>
+<p style='margin-left:.75in;text-indent:-.25in'>7.   
+Interdisciplinary</p>
+<p style='margin-left:.75in;text-indent:-.25in'>8.    Collections
+of <i>digital primary resources</i> (and they themselves are
+second-generation digital resources). (Unsworth 2000)</p>
+<p>Unsworth&rsquo;s colleague, Carole L. Palmer, reworks and
+enhances this list of attributes in an effort to separate content
+and function as reproduced in Figure 1 below:</p>
+<p><i>Figure 1 Features of thematic research collections</i></p>
+<p>__________________________________________________</p>
+<p>Content Function</p>
+<p>
+&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;&shy;__________________________________________________</p>
+<p>Basic elements</p>
+<p>Digital</p>
+<p>Thematic Research support</p>
+<p>Variable characteristics</p>
+<p>Coherent Scholarly contribution</p>
+<p>Heterogeneous Contextual mass</p>
+<p>Structured Interdisciplinary platform</p>
+<p>Open-ended Activity support</p>
+<p>___________________________________________________</p>
+<p>(Palmer 2004, 350; Reproduced with permission of xxx)</p>
+<p>While &ldquo;thematic research collections&rdquo; emerged as
+IATH&rsquo;s signature contribution to scholarship, they helped
+to spawn parallel innovations in teaching and library
+services&mdash;often working in tandem with the University
+Library&rsquo;s Electronic Text Center. The net result is an
+impressive array of digital multimedia archives; easy-to-use
+teaching tools and interpretative Web sites; experimentation with
+hybrid public-commercial publishing; prodigious digital
+conversion projects; advanced humanities computing tools; and an
+emerging infrastructure in the form of a digital object
+repository (<i>Fedora</i>) with a commitment to long-term data
+preservation, migration, and access.<a id="_ftnref3" href=
+"#_ftn3" name="_ftnref3" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[3]</span></span></span></a></p>
+<p><b>BUILDING CYBERINFRASTRUCTURE FOR THE HUMANITIES AND SOCIAL
+SCIENCES<a id="_ftnref4" href="#_ftn4" name="_ftnref4" title=
+""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[4]</span></b></span></span></a></b></p>
+<p>Apart from experts like those interviewed for this report, it
+is safe to assume that most scholars of American literature could
+not begin to articulate, let alone imagine, what constitutes a
+&ldquo;cyberinfrastructure&rdquo; or why they would ever need it.
+Unsworth, who serves as Chair of the ACLS Commission on
+Cyberinfrastructure for the Humanities and Social Sciences, has
+quipped that the term itself has been the biggest obstacle to
+explaining the goals of the Commission. Coined by the National
+Science Foundation (NSF) &ldquo;to describe the new research
+environments in which capabilities of the highest level of
+computing tools are available to researchers in an interoperable
+network,&rdquo; cyberinfrastructure, according to Unsworth,
+refers to any shared resource that &ldquo;has utility beyond a
+particular project or institution,&rdquo; e.g. people, tools,
+standards or collections.<a id="_ftnref5" href="#_ftn5" name=
+"_ftnref5" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[5]</span></span></span></a></p>
+<p>The investigations of the ACLS Commission, formed in 2004, go
+much deeper into critical issues that are only touched upon in
+this report. Readers are encouraged to review the papers of
+prominent constituents delivered in a series of public hearings
+held by the Commission. The observations of noted classicist and
+digital innovator, James J. O&rsquo;Donnell, provost of
+Georgetown University and Martin Mueller, professor of classics
+and English at Northwestern University echo the concerns
+respectively of forward-looking campus administrators and
+literary scholars interviewed for this report. After a period of
+public commentary, says Unsworth,</p>
+<p>the Commission&rsquo;s final report will be released later in
+2005 with recommendations, outcomes, and next steps. Because the
+humanities and social sciences do not have any agency that is
+equivalent to the National Science Foundation to coordinate their
+research agenda, the Commission will look to a coalition of
+private and public agencies, including the ACLS and other
+scholarly societies, private foundations, and government agencies
+to fill the void.</p>
+<p><b>SHAPING THE FUTURE</b></p>
+<p>When seeking innovative models relevant to American
+literature, the author repeatedly came upon ways in which the
+history profession has been actively engaged in an open, highly
+visible dialogue about the application of digital resources
+toward a transformation of their discipline. In contrast to their
+counterparts in literature, the American Historical Association
+(AHA) and the Organization of American Historians (OAH) have
+played leading roles in fostering innovation through large-scale
+partnerships such as the following:</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> the <i>History
+Cooperative</i>, &ldquo;a pioneering nonprofit humanities
+resource offering top-level online history scholarship,&rdquo;
+including full-text access to 18 premiere journals in the
+discipline;</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>Gutenberg-e</i>, an
+experimental program of the AHA and Columbia University Press to
+publish, upon &ldquo;rigorous academic review,&rdquo; electronic
+monographs by recent Ph.D.s whose work represents &ldquo;the most
+distinguished and innovative scholarship delivered with creative
+and thoughtful use of digital technology&rdquo;;</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The <i>ACLS History
+e-Book</i> project&mdash;a collaboration with eight learned
+societies (including AHA and OAH) and 60 university presses
+&ldquo;to assist scholars in the electronic publishing of
+high-quality works in history, to explore the intellectual
+possibilities of new technologies, and to help assure the
+continued viability of history writing in today's changing
+publishing environment&rdquo;;</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>History Matters</i>, a
+nationally-recognized sophisticated gateway to original essays
+and peer-reviewed Web sites designed for high school and college
+teachers of U.S. history courses, sponsored by the Center for
+History and New Media, George Mason University and the Center for
+Media and Learning, City University of New York, Graduate
+Center.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>Recent Scholarship
+Online</i>, a searchable, cumulative database of history-related
+citations available to members of the OAH that offers
+personalized e-mail updates and the ability to save, edit and
+e-mail bibliographies;</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> A freely accessible Web site
+that serves as a companion to the "Textbooks and Teaching"
+section published each year by the <i>Journal of American
+History</i> with syllabi and other supplemental material from the
+authors as well as the full text of the print articles; and</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>Echo: exploring &amp;
+collecting history online</i> developed by the Center for History
+and New Media (George Mason University) with funding from the
+Alfred P. Sloan Foundation, this Web site has four components: it
+catalogues, annotates, and reviews more than 5,000 sites on the
+history of science, technology, and industry; maintains a
+directory of Web sites that emphasize the online collection of
+historical materials; provides a &ldquo;Tools Center&rdquo; of
+any and all tools applicable to the practice of digital history;
+and through a &ldquo;Resource Center&rdquo; offers a practical
+guide to the best practices for doing digital history.</p>
+<p>A sampling of recent issues of core journals in American
+literature turned up very few articles testing the concept of
+digital scholarship (comparable to Thomas and Ayers 2003),
+frankly assessing experimental programs (cf. Manning 2004),
+reviewing Web resources (as has the <i>Journal of American
+History</i> since 2000), debating digital media&rsquo;s
+&ldquo;transformative&rdquo; impact on teaching (cf. Brown and
+others 2004, in a Forum on &ldquo;History and the Web,&rdquo; in
+<i>Rethinking History;</i> and Kornblith and Lasser 2003, in a
+collection of essays in the <i>Journal of American History</i>)
+or probing open access issues (cf. Rosenzweig 2005).</p>
+<p>Martha Nell Smith&rsquo;s &ldquo;Computing: What&rsquo;s
+American Literary Study Got to Do with IT?&rdquo; in the December
+2002 issue of <i>American Literature</i> stands out as a rare
+contribution from a practicing &ldquo;digital scholar,&rdquo;
+attempting to explain to her colleagues the advantages of digital
+media, based on her considerable experience as editor of the
+<i>Dickinson Electronic Archives</i> and director of the Maryland
+Institute for Technology in the Humanities (MITH). Also singular
+is Joanna Brooks&rsquo; &ldquo;New Media&rsquo;s Prospect: A
+Review of Web Resources in Early American Studies,&rdquo;
+appearing in <i>Early American Literature</i> in 2004. It is in
+keeping with this slow acceptance of digital technology by
+scholars in the field that Jerome McGann&rsquo;s 2001 book,
+<i>Radiant Textuality: Literature after the World Wide Web</i>,
+which garnered MLA&rsquo;s James Russell Lowell Prize in 2002,
+was only reviewed in <i>American Literature</i> in 2004. More
+importantly, these are only isolated achievements, in no way
+related to programmatic initiatives by the profession as a whole
+such as those now routinely emerging in American history.</p>
+<p><b>--The Modern Language Association of America</b></p>
+<p>It is only natural to turn to the powerful Modern Language
+Association, (which represents the interest of scholars in
+American literature within ACLS), to inquire about its leadership
+role in advancing digital scholarship. According to Executive
+Director, Rosemary Feal, the MLA has three primary functions: (1)
+It promotes and protects the scholarship of its members; (2) It
+continually adapts and evolves as a publisher to make
+publications that are useful for the research community; and (3)
+In collaboration with librarians, publishers, the ACLS, and other
+groups, it grapples with the changing environment and charts
+directions for the future. In support of these goals, Feal cites
+the following activities:</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The MLA&rsquo;s Task Force on
+Evaluating Scholarship for Tenure and Promotion&mdash;working in
+2004 and 2005&mdash;will examine the criteria and procedures used
+to assess the scholarly work of faculty members being reviewed
+for tenure or promotion, will consider the effects of the wildly
+discussed crisis in scholarly publishing on the review process,
+and will recommend evaluation guidelines for discussion and
+possible adoption by the field. It is conducting a representative
+survey of 500 departments to inventory their P&amp;T practices
+and ascertain if standards are shifting. It hopes to discover how
+departments evaluate contributions other than print media for
+promotion and tenure. The results of the survey are anticipated
+in spring 2005. (The MLA Executive Council approved a
+&ldquo;Statement on Publication in Electronic Journals&rdquo; at
+its 24-25 October 2003 meeting).</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Since Stephen Greenblatt,
+writing on behalf of the MLA&rsquo;s Executive Council, issued a
+special letter, &ldquo;Call for Action on Problems in Scholarly
+Book Publishing,&rdquo; to members in May 2002, and the ensuing
+report of Ad Hoc Committee on the Future of Scholarly Publishing
+(available at MLA&rsquo;s Web site), the MLA has continued to
+seek ways to support the mission of university presses. The 2004
+issue of <i>Profession</i>, (MLA&rsquo;s annual journal of
+opinion) features a forum on the publishing and tenure
+crises.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Through its revised
+&ldquo;Guidelines for Editors of Scholarly Editions&rdquo; (March
+30, 2005), including the series of &ldquo;Guiding Questions for
+Vetters of Scholarly Editions&rdquo; pertaining specifically to
+electronic editions, the MLA&rsquo;s Committee on Scholarly
+Editions (CSE) helps set standards for evaluation of electronic
+scholarly publications so they receive the same treatment as
+their print counterparts. It co-sponsored publication with the
+TEI (Text Encoding Initiative) Consortium, <i>Electronic Textual
+Editing</i> (Burnard et al. 2005&mdash;currently accessible from
+the TEI&rsquo;s Web site), a collection of essays that
+incorporate these guidelines. The MLA&rsquo;s Committee on
+Scholarly Editions is now poised to give its approval to
+electronic scholarly editions.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The <i>MLA International
+Bibliography</i> indexes peer-reviewed electronic publications
+including eBooks, e-journals (95 titles) and online
+bibliographies; where possible, as with <i>JSTOR,</i> they link
+directly to full-text content.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The MLA&rsquo;s
+<i>Newsletter</i> is available online for members. <i>PMLA</i>
+and <i>Profession</i> are available by electronic subscription
+through <i>Ingenta</i> (a comprehensive collection of academic
+and professional publications). <i>PMLA</i> back files are
+accessible from <i>JSTOR</i>.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The MLA&rsquo;s American
+Literature section sponsors, <i>American Literature: A Journal of
+Literary History, Criticism, and Bibliography</i>.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The next edition of James
+Harner&rsquo;s <i>Literary Research Guide: An Annotated Listing
+of Reference Sources in English Literary Studies</i>, published
+by the MLA, will eventually have an electronic version or
+electronic updates, and may be developed as a
+&ldquo;portal&rdquo; to research in the field. More generally,
+the MLA is thinking about how technology can facilitate rapid
+updating so publications are not frozen in time; making it
+possible for example to turn bibliographies into e-resources for
+easy updating.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Within five years, some
+version of the <i>MLA Handbook for Writers of Research
+Papers</i>, edited by Joseph Gibaldi will become available in an
+electronic format. The MLA is consulting with librarians and
+reviewing which sections of the handbook are best suited to this
+change.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> The Committee on Information
+Technology issues the MLA&rsquo;s <i>Minimal Guidelines for
+Authors of Web Pages,</i> is involved with instructional
+technology, and sponsors poster sessions about teaching with
+technology at MLA conventions.</p>
+<p>Finally, Feal notes that the MLA tries to be responsive when
+approached by its members regarding what it might do to influence
+peer review processes, especially for those who develop
+e-resources of high quality.</p>
+<p>This summary of the MLA&rsquo;s involvement is praiseworthy;
+and to this list should be added the prizes awarded by the
+organization to McGann&rsquo;s <i>Radiant Textuality</i>, and to
+Morris Eaves (University of Rochester), Robert N. Essick
+(University of California, Riverside) and Joseph Viscomi
+(University of North Carolina, Chapel Hill) for <i>The William
+Blake Archive</i> in 2001-02&mdash;the first electronic edition
+to win the Distinguished Scholarly Edition award. Nevertheless,
+if the consensus of scholars interviewed in this report reflects
+the sentiments of the MLA&rsquo;s wider membership, its digital
+accomplishments are minor compared to what remains to be
+done&mdash;pointing at the very least to a public relations
+issue. One specialist, while noting numerous obstacles to more
+widespread adoption of digital scholarship, refers to the lack of
+engagement by scholarly societies in general, as the most serious
+problem of all. In reference to the MLA&rsquo;s leadership role
+in testing new forms of scholarly publication, another scholar
+asserts that it is &ldquo;not even on the radar screen.&rdquo;
+Yet another calls the MLA Executive Council&rsquo;s stance on the
+crisis in scholarly publishing and tenure &ldquo;hardly worth
+reading . . .completely misguided,&rdquo; concluding that they
+&ldquo;do <i>not</i> understand.&rdquo; Two others speak of utter
+&ldquo;frustration&rdquo; when trying to accomplish their work
+through MLA committees, having achieved their ultimate goal
+&ldquo;despite&rdquo; the parent organization. Finally, one
+disaffected member explains that the MLA has in recent decades
+become a &ldquo;political organization not a scholarly one&rdquo;
+in which &ldquo;literature is just a tool, not the true
+subject.&rdquo; The most charitable observer notes that the MLA
+is trying harder, though its enormous size is a considerable
+hindrance. There is &ldquo;more and more activity,&rdquo; he
+acknowledges, but the organization is slow and lumbering like
+&ldquo;a big elephant.&rdquo;</p>
+<p><b>--The American Studies Association</b></p>
+<p>While many interviewees believe that the MLA is curiously
+missing in action, they note substantial participation from
+another ACLS member, the American Studies Association (ASA). ASA
+has been a major sponsor of <i>The Visible Knowledge Project
+(VKP)</i> a large-scale, five-year collaboration (discussed more
+fully in the &ldquo;Teaching&rdquo; section of this report) that
+&ldquo;aims to improve the quality of college and university
+teaching by focusing on both student learning and faculty
+development in technology-enhanced environments.&rdquo;
+ASA&rsquo;s Web site features communities based around the
+curriculum, technology and learning, and reference and research.
+Its flagship journal, <i>American Quarterly (AQ)</i>, has
+recently launched a new Web site, providing online access to its
+contents. Under a heading labeled &ldquo;New Forms of
+Writing,&rdquo; the <i>AQ</i> openly solicits &ldquo;proposals
+for and submissions of visual essays and essays that include
+hyperlink and online supplements, such as video and audio clips,
+additional images, links to online sources for key archival
+information.&rdquo; &ldquo;As we continue to build our Web
+site,&rdquo; it continues<b>,</b> &ldquo;we are interested in
+proposals for essays and reviews that can be published
+online.&rdquo; Finally, in addition to regular reviews of
+exhibitions, &ldquo;the <i>American Quarterly</i> is open to
+proposals for reviews of other cultural forms that are of
+interest to American studies scholars, including reviews of
+films, television shows, web sites, and CDs.&rdquo; Recently, the
+<i>AQ</i> has called for papers to be published in a special
+issue (September 2006) entitled &ldquo;Rewiring the Nation: The
+Place of Technology in American Studies.&rdquo;</p>
+<p><b>--The American Literature Association</b></p>
+<p>The American Literature Association (ALA), according to its
+founder and Executive Board member, James Nagel (University of
+Georgia), is a &ldquo;no-budget operation&rdquo; that charges no
+dues and wants none. It serves its 10,000 members as an umbrella
+organization for almost 150 author societies and coordinates the
+meeting space for the annual conferences of these societies,
+which are held simultaneously to secure optimal pricing. ALA does
+not publish its own scholarly journal hence it does not meet one
+of the key criteria for membership in the American Council of
+Learned Societies. As discussed more fully in &ldquo;Author
+Studies,&rdquo; many, if not most, of the individual author
+societies, while low-budget operations, do publish journals and
+maintain Web sites that are a rich source of information about
+American writers. ALA&rsquo;s Web site features a directory of
+affiliated societies (in need of updating) and a directory of
+scholars.</p>
+<p>Nagel figures among the most vociferous of those interviewed
+in denouncing the quality of many online books, calling some
+efforts a &ldquo;terrible waste of resources because the books
+placed online are from corrupt editions rather than from first
+editions,&rdquo; rendering them unsuitable for scholarship.
+Attributing the problem to the &ldquo;ignorance of the technical
+people,&rdquo; he is not alone in decrying the absence of textual
+integrity or accurate bibliographical information about editions
+placed online.<a id="_ftnref6" href="#_ftn6" name="_ftnref6"
+title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[6]</span></span></span></a>
+As one example, Nagel notes that Hemingway&rsquo;s novel, <i>The
+Sun Also Rises,</i> first published in 1926 was changed in 1934
+to expunge anti-Semitic remarks. He also recognizes the huge
+problem of keeping up with single-author publications, estimating
+that some 3,500 journals produce some 60,000 articles about
+American authors annually&mdash;and an unknown number of books.
+Keeping up with Hemingway alone is a full-time job with some 600
+articles and scores of books published about him annually. Nagel
+acknowledges that even the projects that he criticizes are
+exploring the right concepts by making materials more widely
+accessible<b>.</b> His primary concern is the lack of quality
+control and the need to coordinate &ldquo;technical people and
+scholars.&rdquo; In fact, he has suggested that ALA could help do
+this in areas like text selection by identifying a member of each
+constituent author society to serve as a digital project liaison.
+Singling out <i>Nines</i> (described more fully below) as a
+worthwhile effort, ALA has recently joined this initiative as an
+affiliated group.<a id="_ftnref7" href="#_ftn7" name="_ftnref7"
+title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[7]</span></span></span></a></p>
+<p><b>--Other Professional Organizations</b></p>
+<p>Of course, there are many other disciplinary and specialized
+professional associations, with their own journals and
+conferences, serving the needs of the primary cohort discussed in
+this report. They include scholarly societies organized by
+period, movement or constituent group such as the Society of
+Early Americanists, the North American Society for the Study of
+Romanticism, and the Society for the Study of American Women
+Writers. It also embraces various organizations at the
+intersection of humanities computing and literary studies: the
+Society for Textual Scholarship, the Association for Literary and
+Linguistic Computing, the Association for Computers and the
+Humanities, the TEI Consortium, the Association for Documentary
+Editing, and the Electronic Literature Organization (described
+more fully below).</p>
+<p><b>COMMUNITIES OF PRACTICE</b></p>
+<p>The most frequent refrain heard from interviewees is the call
+for the development of a common agenda&mdash;a coming together of
+scholars, practitioners, publishers and funding agencies to agree
+upon priorities, standards, best practices, and next steps. One
+scholar cries out for a &ldquo;larger sense of community,&rdquo;
+along with the &ldquo;critical space&rdquo; to see what
+developments are taking place across a variety of fronts&mdash;by
+different people in different fields: a
+&ldquo;clearinghouse&rdquo; of projects under development would
+be a start. Another asserts the need for &ldquo;a more integrated
+approach by developers and grant agencies.&rdquo;
+&ldquo;Developers,&rdquo; he continues &ldquo;must have the goal
+to integrate [their technical work] into a national site.&rdquo;
+There is a need for &ldquo;strategic planning&rdquo; and
+developing &ldquo;paths of evolution&rdquo; among practitioners,
+scholars, and major granting agencies, he concludes. This theme
+is echoed by a librarian, frustrated with overlapping and
+redundant projects, who regrets the lack of coordination. We need
+to find ways to make the field less fragmentary<b>,</b> he
+recommends, adding that &ldquo;throwing money&rdquo; at the
+problem is no way to fix it. New models are called for, but what
+would be most useful: &ldquo;Why not bring people together to
+ask?&rdquo; he wonders. There are communities of practice
+developing in related fields, for example the <i>Digital
+Medievalist Project</i>, established in 2003 &ldquo;to help
+scholars meet the increasingly sophisticated demands faced by
+designers of contemporary digital projects.&rdquo;</p>
+<p>In direct support of scholars in 19<sup>th</sup>-century
+British and American literature, Jerome McGann created <i>NINES:
+A Networked Interface for Nineteenth-Century Electronic
+Scholarship</i>, a multi-faceted project &ldquo;to found a
+publishing environment for integrated, peer-reviewed online
+scholarship.&rdquo; <i>NINES</i> is rapidly garnering support
+from a growing group of affiliates (including the ASA, ALA, and
+other specialized scholarly societies noted above). In addition
+to formulating processes for peer-reviewed digital scholarship
+and creating a publishing environment, <i>NINES</i> is developing
+analytical tools to support the work of its constituents. The
+effort as a whole, discussed in several places in this report,
+might be construed as an attempt to build a
+&ldquo;cyberinfrastructure&rdquo; for scholars in
+19<sup>th</sup>-century British and American literature. American
+literary scholars working outside the 19<sup>th</sup>-century
+believe that there is a need for other communities of practice
+like <i>NINES</i>.</p>
+<p><b>TOOLS TO THE RESCUE?</b></p>
+<p>An alarming number of digital projects aimed at the
+&ldquo;discovery&rdquo; of American literature are maintained by
+professionals as a &ldquo;labor of love.&rdquo; In particular,
+those devotees creating gateways and access to online
+books&mdash;<i>Voice of the Shuttle, Literary Resources, Alex:
+Catalogue of Electronic Texts, the Online Books Page, A
+Celebration of Women Writers</i>&mdash;continue their work as
+&ldquo;a service to the profession,&rdquo; assuredly not because
+it will lead to fame, fortune, promotion or tenure. Rather than
+&ldquo;expert enthusiast,&rdquo; one practitioner preferred to
+characterize himself as &ldquo;a lucky person because my vocation
+is also my avocation.&rdquo; While that may be the case, without
+secure funding and full integration to a campus, let alone
+national, framework, these efforts will last only until the
+goodwill of their progenitors runs out. Their task was already
+<i>Sisyphean</i> before Google Print announced its partnership
+with five prominent research institutions to digitize more than
+30 million volumes<b>.</b> Now it seems truly impossible.</p>
+<p>Alan Liu&rsquo;s experience with the award-winning (now
+desperately behind) <i>Voice of the Shuttle</i> is typical.
+Initially <i>VoS</i> (created when directory-type access to the
+Web was the norm) offered features unavailable even through
+commercial service: browsable access to annotated scholarly
+Internet resources situated in a disciplinary and historical
+framework. However, without a full-fledged technical support
+staff, <i>VoS</i> suffered a hack attack. The site had to be shut
+down and it took three months &ldquo;to recode the dynamic pages
+in the background.&rdquo; If the project is to continue, Liu
+suggests that it is time to redesign it on a national scale,
+taking advantage of open source architecture, and having it
+properly set up with a team of developers across the country. At
+the same time, he acknowledges that it might be more productive
+to concentrate instead on developing the &ldquo;tools&rdquo; to
+search and find scholarly information.</p>
+<p>In the preliminary version of this report, based on interviews
+with 16 specialists, the term &ldquo;tools&rdquo; rarely came up
+(aside from Liu) except to acknowledge the need for &ldquo;better
+search engines&rdquo; to find out &ldquo;how to get to these
+things.&rdquo; Not surprisingly therefore, when an expert group
+of faculty, convened by the Digital Library Federation in June
+2004, avowed the &ldquo;severe need for tools customized for a
+range of scholarly inquiry needs,&rdquo; the Federation
+discovered that &ldquo;so unfamiliar is this area that we heard
+from several individuals that they had a hard time articulating
+precisely what they required from such tools, or what level of
+software creation skills or consultancy is available to them, and
+where.&rdquo; Concluding that &ldquo;we are still in a stage
+where it is easier to react to an example of an existing tool
+than to dream them up,&rdquo; the DLF decided instead to discuss
+and demonstrate a variety of software packages (Digital Library
+Federation 2004).</p>
+<p>Leading theoreticians like Unsworth and McGann, who traverse
+the boundaries of humanities computing and literary scholarship,
+believe that a real breakthrough in digital scholarship hinges on
+building open, modular, extensible, and reusable tools.<a id=
+"_ftnref8" href="#_ftn8" name="_ftnref8" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[8]</span></span></span></a>
+These must be readily accessible and relatively easy to use and,
+above all, enable important work, such as literary analysis and
+interpretation. In reviewing progress over the past ten years in
+humanities computing and articulating what would be required to
+make the necessary leap forward, Unsworth states:</p>
+<p style='margin-left:.5in'>Building these tools will answer or
+moot many of the questions we&rsquo;ve been discussing . . ., and
+will shift the burden of proof, in effect, from the new modes of
+scholarship to traditional ones: if we build tools that <i>do</i>
+allow us to ask new questions and answer old ones, then it will
+be clear why we have built our digital libraries, and in the
+disciplines, we will worry about what hasn&rsquo;t changed in
+scholarly methodology, and not about what has. (Unsworth
+2003)</p>
+<p>What purposes would these tools serve for literary scholars?
+Unsworth (2000) identifies the following &ldquo;basic functions
+common to scholarly activity across disciplines, over time, and
+independent of theoretical orientation.&rdquo; He refers to them
+as &ldquo;scholarly primitives&rdquo;:</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Discovering</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Annotating</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Comparing</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Referring</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Sampling</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> Illustrating</p>
+<p><b>--Tool Projects Underway<a id="_ftnref9" href="#_ftn9"
+name="_ftnref9" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[9]</span></b></span></span></a></b></p>
+<p>Unfortunately there is no &ldquo;Tools Center&rdquo; to serve
+literary scholars as does the <i>Echo</i> site for digital
+history maintained by the Center for New Media and History at
+George Mason University. A few of the more notable projects
+(externally-supported national collaboratives), geared towards
+literature, are offered as a starting point for further
+exploration:</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>NINES</i> tools are
+designed to support six basic scholarly tasks, while opening rich
+digital archives and research collections to the interpretive
+interests of teachers and students. The six tasks (arranging,
+comparing, transforming, discussing, commenting on, and
+collecting texts and images) are addressed in a variety of ways
+by the toolset and by the markup schemes and interfaces
+<i>NINES</i> supports. These data models and tools are in various
+stages of development:<a id="_ftnref10" href="#_ftn10" name=
+"_ftnref10" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[10]</span></span></span></a></p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> JUXTA allows a scholar to
+locate for comparison equivalent textual passages, to display
+both the equivalent image files as well as the transcriptions. It
+also allows comparisons between comparable pictorial objects or
+comparable textual and pictorial objects. All such comparisons
+can also be annotated. The tool will also collate equivalent
+textual strings (both marked and unmarked) and output a schedule
+of the differences.</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> IVANHOE allows multiple
+"players" or research students to undertake a collective
+investigation of a given text or field of texts by manipulating
+and transforming the material in order to expose features and
+meanings that the original text or field of texts ignores,
+suppresses, or puts at the margin. The playspace licenses
+imaginative acts of re-interpretation. It is a tool ideally
+suited both for pedagogical and classroom work, and for
+high-order investigations of difficult literary questions.</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> THE 'PATACRITICAL DEMON (now
+at an early design stage) is projected to release a beta version
+later in 2005. It will allow the formalization of acts of
+subjective interpretation (such as those developed through the
+protocols of New Criticism or "Close Reading"). As such it will
+track and visualize (in various ways) an individual's immediate
+"readerly" engagement with an individual text or document.</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> COLLEX will allow users of
+digital resources to assemble and share virtual "collections" and
+to present annotated "exhibits" and re-arrangements of online
+materials. These critical rearrangements can of course bring
+together materials that are variously diverse &mdash; materially,
+formally, historically. This toolset aims to reveal the
+interpretive possibilities embedded in any digital archive by
+making the manipulation and annotation of archived resources open
+to all users.</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>NORA</i> will produce
+software for discovering, visualizing, and exploring significant
+patterns across large collections of full-text humanities
+resources in existing digital libraries and
+collections.<span class="MsoFootnoteReference"><i><a id=
+"_ftnref11" href="#_ftn11" name="_ftnref11" title=""><span class=
+"MsoFootnoteReference"><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[11]</span></b></span></a></i></span>
+&ldquo;In search-and-retrieval,&rdquo; Unsworth says, &ldquo;we
+pose specific queries and get back answers to those queries; by
+contrast, the goal of data-mining is to produce new knowledge by
+exposing unanticipated patterns. Over the last decade, many
+millions of dollars have been invested in creating digital
+library collections: the software tools we'll produce in this
+project will make those collections significantly more useful for
+research and teaching.&rdquo;</p>
+<p style='margin-left:.25in'> </p>
+<p style='margin-left:.5in'><i>NORA&rsquo;s</i> initial content
+domain consists of about 5 GB of 18<sup>th</sup> and
+19<sup>th</sup> century British and American literature,
+including:</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> over 1,000 texts (mostly
+19<sup>th</sup> century) from the <i>Library of Southern
+Literature</i>, University of North Carolina-Chapel Hill;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 600 to 12,00 texts from the
+<i>Early American Fiction</i> collection at the University of
+Virginia;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 6,000 texts from <i>IATH
+projects</i> at the University of Virginia;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 120 texts of
+19<sup>th</sup>-century <i>British women poets</i> from the
+University of California-Davis;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 175 volumes plus literary
+materials from other collections such as relevant journals from
+the <i>Making of America</i>;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 1,100 literary texts from
+the <i>Wright American Fiction</i> collection, the <i>Victorian
+Women Writers Project,</i> and <i>The Swineburne Project</i> at
+Indiana University;</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 40 19<sup>th</sup>-century
+literary texts from Brown University&rsquo;s <i>Women Writers
+Project</i>; and</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> 19<sup>th</sup>-century
+literary texts, including several works by Charles Dickens from
+the <i>Perseus</i> project at Tufts University. (Kirschenbaum
+2004)</p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>NITLE Semantic Engine
+(NSE)</i> is designed to address the universal problem of
+accessing and organizing large amounts of unstructured digital
+text. Using mathematical algorithms to index the latent semantic
+content of documents, the prototype engine has been demonstrated
+to reduce drastically, if not eliminate, the need for expensive
+and time-consuming metadata tagging, and to produce results
+superior to keyword searches in limited test domains.<a id=
+"_ftnref12" href="#_ftn12" name="_ftnref12" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[12]</span></span></span></a></p>
+<p style='margin-left:.5in;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> <i>DLF Aquifer</i>, discussed
+more fully in later sections of this report, is a collaborative
+effort among a dozen DLF members to develop a test-bed of library
+tools &amp; services for the scholar. Intended to realize the
+potential of a distributed online digital library, it will
+initially focus on American culture and life drawing on quality
+content from such projects as the <i>American South,</i> the
+<i>American West, American Memory, Making of America,</i> and
+<i>Wright American Fiction</i>. <i>DLF Aquifer</i> will provide
+tools and services for pooling and piping content by
+inter-operating with:</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> Repositories that
+preserve</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> Content management systems
+that provide structure</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> E-learning systems that
+support the teaching and learning process</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> Personal content management
+systems that support the scholar</p>
+<p style='margin-left:1.0in;text-indent:-.25in'><span style=
+'font-family:"Courier New"'>o</span> DLF Aquifer will siphon
+content from mass digitization projects<a id="_ftnref13" href=
+"#_ftn13" name="_ftnref13" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[13]</span></span></span></a></p>
+<p style='margin-left:.5in'>Participating institutions are
+expected to adhere to consensually developed standards,
+information architectures, and development agendas that emphasize
+interoperability and deep resource-sharing.</p>
+<p><b>WHAT&rsquo;S NOT TO LIKE?</b></p>
+<p>Scholars of American literature readily recognize certain
+benefits that digital resources offer. Few would argue about
+their democratizing impact, making widely available, high quality
+(&ldquo;vetted, not random&rdquo;) digital surrogates on the Web
+which give them and their students immediate access to primary
+sources worldwide. All revel in the way online access facilitates
+and accelerates searching so they can identify research patterns
+with &ldquo;blinding speed.&rdquo; &ldquo;Searchability of
+primary source material has been fun,&rdquo; as one scholar put
+it. It facilitates reading that is (in a positive way)
+&ldquo;broad and shallow&rdquo;&mdash;covering vast amounts of
+digital text and making intellectual connections that were
+previously impractical, if not impossible. They acknowledge the
+advantages of online access to peer-reviewed journals through
+reliable aggregators such as <i>JSTOR</i>. Scholars also
+appreciate the ability of Internet-accessible resources &ldquo;to
+foreground&rdquo; scholarly work. The Web is a starting point
+that helps to situate literary texts in their cultural,
+socio-political, and historical contexts. But here the consensus
+comes to a halt. Few are willing to use digital texts (outside
+e-journal articles) as the &ldquo;text of record for a scholarly
+article&rdquo;&mdash;even those digital resources (texts and
+archives) produced by their peers, by university libraries, or by
+otherwise credible publishers.</p>
+<p>The particular obstacles to more rapid deployment of digital
+resources in American literature are peppered throughout this
+report. Three have been highlighted: the absence of a prominent
+scholarly organization to &ldquo;lead from above&rdquo; and
+advocate a shared agenda among stakeholders; the need for more
+communities of practice; and the present state of
+(not-quite-ready-for-primetime) analytical and interpretative
+tools. In addition, five more barriers stand clearly
+visible<b>:</b></p>
+<p style='margin-left:39.0pt;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> insufficient peer review
+processes for digital scholarship</p>
+<p style='margin-left:39.0pt;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> absence of trusted mechanisms
+to sustain and preserve digital work</p>
+<p style='margin-left:39.0pt;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> thorny issues of copyright
+and permissions</p>
+<p style='margin-left:39.0pt;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> paucity of sustainable
+business models</p>
+<p style='margin-left:39.0pt;text-indent:-.25in'><span style=
+'font-family:Wingdings'>v   </span> dearth of specialists</p>
+<p style='margin-left:21.0pt'> </p>
+<p><b>--Insufficient Peer Review Processes</b></p>
+<p>Many others report on the plight of the research
+monograph&mdash;dying with or without cause&mdash;and its
+traditional centrality to the promotion and tenure (P&amp;T)
+process (Greenblatt 2002, Davidson 2003, Estabrook and Warner
+2003, Unsworth 2005). Meanwhile<b>,</b> in a recent survey of
+P&amp;T practices in humanities departments, Cronin and LaBarre
+(2004) report coming &ldquo;away from the data with the clear
+sense that granting of tenure in humanities departments still
+requires the production of a research monograph published by a
+reputable press. Sole authorship is expected,&rdquo; they
+continue, &ldquo;and the documents we examined are virtually
+silent on the issue of collaboration and co-authorship, . .
+.&rdquo; (a frequent feature of serious digital work). Cronin and
+LaBarre further note that</p>
+<p style='margin-left:.5in'>A few institutions acknowledged the
+acceptability of online, electronic, and digital forms of
+scholarly production, but most were content to stress the
+importance of a candidate&rsquo;s work being subjected to peer
+review while remaining silent on the matter of medium. Overall,
+new modes of scholarly production and distribution received
+hardly any direct attention. (Cronin and LaBarre 2004, 97)</p>
+<p>It will be interesting to learn if the MLA&rsquo;s P&amp;T
+survey reveals more nuanced or refined norms to accommodate new
+sorts of scholarship. Faculty members interviewed for this report
+observe that some forms of digital peer review already occur, but
+there is no public record of these scholarly transactions. These
+specialists are asked to assess the digital work of their
+colleagues going up for promotion and tenure, serve as references
+for new digital scholars in the job market, and evaluate grant
+proposals in support of digital projects (e.g. by NEH). In the
+field of history, there is evidence that digital work
+&ldquo;counts&rdquo;&mdash;Ayers tells the
+&ldquo;bittersweet&rdquo; story of William Thomas&rsquo;s success
+in gaining tenure at the University of Virginia based on his
+digital scholarly work, only to be snapped up the University of
+Nebraska. Freshly minted Ph.D.s in history whose work is featured
+in <i>Gutenberg-e</i> have secured tenure-track positions across
+the country. And in the opinion of more than one senior scholar,
+the P&amp;T issue is grossly exaggerated&mdash;digital
+scholarship may be ignored by the 25 top-tier research
+institutions, he contends, but every place else sees it as a
+definite advantage.</p>
+<p>It is worth noting that many electronic resources are already
+peer reviewed, including articles in leading journals indexed by
+MLA&rsquo;s international bibliography such as <i>Postmodern
+Culture, Americana: The Journal of American Popular Culture,</i>
+and <i>Early Modern Literary Studies</i>. Other formal peer
+review mechanisms are starting to emerge. MLA&rsquo;s adoption of
+new guidelines for vetting electronic scholarly editions paves
+the way for digital editions to receive the imprimatur of
+&ldquo;CSE Approved Editions.&rdquo; The <i>NINES</i> project
+also sets out an ambitious agenda that includes creating peer
+review processes. Finally, as more university presses initiate
+electronic imprints, such as the University of Virginia&rsquo;s
+<i>Rotunda</i> collections, peer review will become more
+widespread.</p>
+<p>These are not quick fixes, but they will also per-force
+address the concerns of scholars who remain skeptical about the
+quality of the digital text or the scholar&rsquo;s contribution
+to knowledge. One critic, who recognizes the &ldquo;labor of
+editorial selection or annotating a text as
+scholarship,&rdquo;</p>
+<p>stresses the importance of peer review &ldquo;if a digital
+work is to be recognized as the archive of record.&rdquo;
+Encoding digital texts, on the other hand, is not scholarship,
+she says, but rather a way &ldquo;to outsource the crisis in
+scholarly publishing to faculty and <i>call</i> it
+scholarship.&rdquo; Peer review provides the means to bring these
+debates to the forefront&mdash;and eventually to help delineate
+what does or does not constitute <i>bona fide</i> scholarship in
+the digital world.</p>
+<p><b>--Absence of Trusted Mechanisms to Sustain and Preserve
+Digital Work</b></p>
+<p>When discussing the absence of citations to digital work in
+the annual review of <i>American Literary Scholarship</i>, one
+contributor (after noting that these resources are not subject to
+peer review) stated that there was no official editorial policy
+to prevent their inclusion but suggested that with a limited
+amount of space to cover traditional scholarship (peer-reviewed
+journal articles) most are reluctant to discuss a &ldquo;resource
+that may go away.&rdquo; This concern&mdash;the ephemeral nature
+of the digital products&mdash;resonates with many scholars, who
+are reluctant, even as they appreciate its advantages, to invest
+their life&rsquo;s labor into unstable media.</p>
+<p>The Council on Library and Information Resources&rsquo;
+report, &ldquo;New-Model Scholarship: How Will It Survive?&rdquo;
+addresses these issues more fully (Smith 2003). Carpenter (2005)
+and Beagrie (2005) discuss digital preservation activities
+supported by the DLF&rsquo;s UK member, Joint Information Systems
+Committee (JISC). Within the framework of this report, however,
+it is worth highlighting several initiatives closely tied to
+scholars of American literature.</p>
+<p><i>PAD (Preservation, Archiving and Dissemination) Project,
+Electronic Literature Organization (ELO)</i></p>
+<p>In &ldquo;Acid-Free Bits: Recommendations for Long-Lasting
+Electronic Literature,&rdquo; the Electronic Literature
+Organization&rsquo;s PAD project is a &ldquo;plea&rdquo; to
+writers of born-digital literature &ldquo;to work proactively in
+archiving their own creations, and to bear these issues in mind
+even in the act of composition,&rdquo; in the hope that the
+&ldquo;creative component does not separate out from the
+curatorial&rdquo; (Monfort and Wardrip-Fruin 2004). ELO&rsquo;s
+thirteen principles for creating long-lasting work deserve
+widespread distribution:</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>1.    Prefer
+open systems to closed systems</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>2.    Prefer
+community-directed systems to corporate-driven systems</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>3.   
+Consolidate code, supply comments</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>4.    Validate
+code</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>5.    Prefer
+plain-text formats to binary formats</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>6.    Prefer
+cross-platform options to single-system options</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>7.    Keep the
+whole system in mind</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>8.    Document
+early, document often</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>9.    Retain
+source files</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>10. Use common
+tools and documented capabilities</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>11. Maintain
+metadata and bibliographic information</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>12. Allow and
+encourage duplication and republication</p>
+<p style='margin-left:75.0pt;text-indent:-.25in'>13. Keep copies
+on different, durable media</p>
+<p>In a forthcoming report, &ldquo;Born-Again Bits: A Framework
+for Migrating Electronic Literature,&rdquo; the ELO
+&ldquo;continues the argument&rdquo; made in the initial report
+&ldquo;by envisioning a technical framework that can not just
+keep e-lit alive but allow it to come back to life in new forms
+adapted to evolving technologies and social needs.&rdquo; More
+technical in nature, this second report is intended to give
+stakeholders (broadly defined as &ldquo;authors, publishers,
+archivists, academics, programmers, grant officers, and
+others&rdquo;) &ldquo;just enough of a glimpse of each
+other&rsquo;s expertise to see how an overall system for
+maintaining and reviving the life of electronic literature might
+be possible&rdquo; (Liu et al. beta version, v1.13 September
+2004).</p>
+<p><i>The University of Virginia Library&rsquo;s Model for
+Sustaining Digital Scholarship</i></p>
+<p>With several &ldquo;mature&rdquo; projects to consider as
+models, including <i>NINES</i>, the University of Virginia
+Libraries, in consultation with faculty, is developing an
+institutional framework to support a full array of digital
+scholarship services. Their &ldquo;Model for Sustaining Digital
+Scholarship&rdquo; currently under discussion describes the
+workflow for projects &ldquo;selected&rdquo; by the library once
+they are &ldquo;camera-ready.&rdquo; As the document
+explains:</p>
+<p style='margin-left:.5in'>. . . &ldquo;camera-ready&rdquo;
+means that digital projects must meet (or be made to meet) all
+technical standards set by the Library. Production, peer review,
+editing, and rights management are assumed to be the
+responsibility of the scholar. The project(s) must have been
+vetted by a credible peer review group or organization and edited
+by a credible source. (SDS Library Model 4.1, November 9,
+2004)</p>
+<p>Although still under development, the components described by
+the University Library represent the types of policy decisions
+that all academic libraries will soon confront:</p>
+<p style='margin-left:.5in'><u>Selection and Collection</u></p>
+<p style='margin-left:.5in'>Selection of born-digital projects
+for the Library&rsquo;s collections will more closely resemble
+selection of content for Special Collections. In general, we will
+favor projects that are open access and can be delivered for free
+to the public. Projects that have copyright or rights management
+issues will be considered on a case by case basis.</p>
+<p style='margin-left:.5in'><u>Technical Assessment</u></p>
+<p style='margin-left:.5in'>Technical assessment will be
+conducted to insure that technical standards have been met and to
+identify any technical impediments to delivery. In addition, the
+Library will work with scholars to find solutions to problems
+created by dependencies within projects caused when selection and
+collection does not include the entire project.</p>
+<p style='margin-left:.5in'> </p>
+<p style='margin-left:.5in'><u>Access and Delivery</u></p>
+<p style='margin-left:.5in'>The Library will maintain and deliver
+collected digital projects via its established digital library
+infrastructure. Server and storage/archival space will be
+provided as part of an institutional infrastructure for
+supporting digital projects.</p>
+<p style='margin-left:.5in'>The Library may publicize collected
+projects but will not provide advertising and marketing services
+for them.</p>
+<p style='margin-left:.5in'><u>Preservation</u></p>
+<p style='margin-left:.5in'>The Library will commit to maintain
+collected projects for as long as it possibly can. Projects will
+be migrated to new technologies and infrastructure as long as
+resources allow it and if it is technologically possible to do
+the migration. It is important to recognize that evolving
+technologies and infrastructure may impede the ability to
+preserve a project in its original state. A minimally acceptable
+preservation method will be determined for digital scholarly
+projects and will be stated in the project agreement for the
+project.</p>
+<p style='margin-left:.5in'><u>Updates and New Editions</u></p>
+<p style='margin-left:.5in'>The Library will provide clear
+methods for scholars to update existing collected projects and
+will include versioning as part of its model. New editions will
+be expected to follow the same steps for acceptance as the
+original project.</p>
+<p>Going a step further, the University of Virginia Library is
+also fleshing out seven levels of collecting, represented by
+associated technical standards for metadata, files, content
+relationships and original delivery formats. All seven levels
+must have fully compliant metadata. However, to qualify for the
+&ldquo;level one,&rdquo; (the most stringent category)
+collections must also have fully compliant files,
+&ldquo;exact&rdquo; content relationships and &ldquo;exact&rdquo;
+original delivery formats.</p>
+<p><i>Digital Object Repositories and the DLF Registry of Digital
+Masters</i></p>
+<p>Only by working through this complex set of issues will
+libraries be able to assure scholars that they have the policies
+and procedures in place to acquire, organize, make accessible,
+and sustain their digital output. Digital object repositories
+(made possible by <i>Fedora</i>, <i>DSpace</i> and other
+software) are an essential component. It is noteworthy that the
+last question in MLA&rsquo;s revised &ldquo;Guiding Questions for
+Vetters of Scholarly Editions&rdquo; asks:</p>
+<p style='margin-left:.5in'>Has a copy of the edition and its
+images, software, style sheets, and documentation been deposited
+with a library or other long-term digital object repository? (MLA
+2005, Part 2 V. 27.4)</p>
+<p>Although most academic libraries have a long way to go before
+they can demonstrate to MLA, ELO and other constituents that they
+have a trustworthy &ldquo;destination&rdquo; for electronic media
+of all types, digital repositories like the California Digital
+Library&rsquo;s <i>eScholarship</i> and the University of
+Virginia&rsquo;s <i>Fedora</i> infrastructure demonstrate what
+can be done.</p>
+<p>The <i>DLF Registry of Digital Masters</i>, maintained by
+OCLC, is a first coordinated step for institutions to signal
+their intention of preserving and maintaining the accessible of
+registered resources over an extended timeframe. According to the
+&ldquo;Record Creation Guidelines&rdquo;:</p>
+<p style='margin-left:.5in'>This implies that materials are
+digitized, complying with established standards and best
+practices, and that they are stored in professionally managed
+systems. When registered, materials should already be digitized,
+or be in an active queue for digitization. A use copy (a
+network-accessible, but not necessarily free, copy) of any
+material registered must be available on-line to the general
+public. Where digitally reformatted materials are concerned,
+reproductions should be of meaningful bibliographic entities.
+(DLF Registry of Digital Masters Working Group, version 1.0, July
+2004)</p>
+<p><b>--Thorny Issues of Copyright and Permissions</b></p>
+<p>More than one scholar identified copyright as the biggest
+obstacle to advancing digital scholarship in American
+literature&mdash;certainly outstripping issues of technology.
+Copyright restrictions are especially troublesome to
+20<sup>th</sup>-century projects, where much academic interest
+lies. MLA&rsquo;s &ldquo;Guiding Questions for Vetters of
+Scholarly Editions&rdquo; specifically poses two
+copyright-related questions:</p>
+<p style='margin-left:.5in'>Has the editor obtained all necessary
+permissions--for example, to republish any materials protected by
+copyright? (Matters of Production IV. 17. Available from <a href=
+"http://www.mla.org/cse_guidelines#d0e354">http://www.mla.org/cse_guidelines#d0e354</a>
+)</p>
+<p style='margin-left:.5in'>Does the edition carry a clear
+statement of the appropriate reuse of its constituent elements,
+especially those protected by copyright or used by permission?
+(Electronic Editions V. 22.2. Available from <a href=
+"http://www.mla.org/cse_guidelines#d0e354">http://www.mla.org/cse_guidelines#d0e354</a>
+)</p>
+<p>Case and Green (2005) provide an excellent overview of the
+issues as they affect electronic editions, giving editors clues
+about how to investigate copyright and permissions. When
+institutions do not own the intellectual property rights, authors
+bear the burden of obtaining permissions. Special collections
+librarians report that many libraries refuse to make a single
+copy for authors without proof&mdash;in writing&mdash;that
+permission is granted by the owner, agent or estate executor of
+literary property. Obtaining such approvals can prove
+time-consuming and sometimes the results are inconclusive. In
+such situations, scholars may either omit the problematic content
+or shy away for (riskier) open access publishing models to
+protect themselves.</p>
+<p>Who owns and controls the digitized texts is of paramount
+importance to digital scholarship as Unsworth noted five years
+ago (Unsworth 2000). And the issues are only becoming more acute
+as the number of different players&mdash;scholars, libraries,
+publishers, indexers&mdash;flourish, accelerating the production
+of bodies of digital source materials. While the <i>DLF
+Registry</i> records a &ldquo;use copy,&rdquo; and may deter
+other libraries from creating a preservation-quality digital
+master, it does not signal permission for scholars to access or
+re-use original digital source files. The <i>Million Book
+Project</i> is a source of expertise in the copyright issues
+surrounding mass digitization projects and in devising practical
+workflow issues to address them. Although <i>MBP</i> incorporates
+&ldquo;in-copyright&rdquo; materials, and permits online viewing
+reading, it limits printing and saving to one page at a time.
+It&rsquo;s too soon to know what practices will emerge among the
+&ldquo;Google 5&rdquo; partners that do include copyrighted
+books, but if it follows the practices of Google Print, public
+users will only gain access to a few pages. It is also too soon
+to know whether or not individual participating institutions will
+share their Googlized digital source files for scholarly reuse
+within cooperative frameworks.</p>
+<p>As discussed later in this report, there is no U.S.-based
+shared repository, similar to the <i>Oxford Text Archive</i>,
+where it is possible to request source files. Further, interviews
+with some librarians reveal that such a model may be unlikely to
+succeed in the United States. &ldquo;Why should we give away our
+digital source files to other scholars?&rdquo;&mdash;a prominent
+librarian asks&mdash;arguing that they do not want other scholars
+to manipulate or repurpose texts owned by the library and created
+through its labor. There are no accepted norms&mdash;even in the
+special collections world which enjoys a long history of dealing
+with primary source materials&mdash;in providing digital copies
+(or master images) derived from library collections or in the
+fees charged.</p>
+<p>Again, as discussed later in this report, the metadata
+associated with the digital resource may embody this rights
+information. Meanwhile, if the New York Public Library (NYPL)
+serves as a model, there is a complicated set of questions for
+authors to consider when using digital images. NYPL
+&ldquo;provides free and open access to its Digital Gallery and
+images may be freely downloaded for personal, research and study
+purposes only.&rdquo; However, &ldquo;if images are to be used in
+any nonprofit or commercial publication, broadcast, web site,
+exhibition, promotional material, etc.&rdquo; the Library charges
+a usage fee&mdash;as the physical rights holder of this material
+even though most of the images are in the public domain for
+copyright purposes. The use of images in governed by a licensing
+agreement:</p>
+<p style='margin-left:.5in'>Images are not to be used in any
+manner without the expressed written permission from NYPL. All
+images are licensed under the terms and conditions as specified
+in this Agreement and in the written Permissions statement you
+will receive. No image licenses are valid until NYPL has received
+payment in full. Image usage without prior payment and NYPL's
+expressed written permission is strictly prohibited. (NYPL
+Photographic Services and Permissions, &ldquo;Terms and
+Conditions&rdquo; available from <a href=
+"http://www.nypl.org/permissions/terms.html">http://www.nypl.org/permissions/terms.html</a>
+)</p>
+<p>The &ldquo;usage fee,&rdquo; NYPL explains, &ldquo;is not a
+copyright fee,&rdquo; but helps to &ldquo;ensure that the Library
+is able to continue to acquire, preserve and provide access to
+the accumulated knowledge of the world.&rdquo; It further advises
+inquirers that they are free to obtain a copy of the requested
+images from another source, should they so chose. The
+NYPL&rsquo;s Photographic Services and Permissions
+&ldquo;FAQ&rdquo; answers a host of other questions including: on
+what the fees are based, if the Library will reproduce images
+still in copyright, if the Library&rsquo;s fee still applies when
+the author also pays a fee to the third party copyright holder,
+if the fees posted on the &ldquo;Use Fee Schedule&rdquo; apply
+when the author has already paid for a reproduction or downloaded
+a low-resolution image directly from the web site, if a user may
+link directly to the NYLP Digital Gallery, and so forth.<a id=
+"_ftnref14" href="#_ftn14" name="_ftnref14" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[14]</span></span></span></a></p>
+<p>Given the current state of flux&mdash;and the specter of
+complicated, expensive, or frozen access&mdash;the Text Creation
+Partnership, headquartered at the University of Michigan
+University Library, stands out as the only wide-scale initiative
+aimed at releasing digital master files from proprietary control
+to unfettered use by its members&mdash;and by extension, quite
+possibly to the public at large. Scholars of stature, like Martin
+Mueller (professor of classics and English, Northwestern
+University) recognize &ldquo;how important it is to maintain a
+conversation about how to create and manage sharable sets of our
+primary textual materials&rdquo; and urges his colleagues in
+English departments to take a lesson from scientists and
+&ldquo;make the creation of such data sets a partial but integral
+part of our scholarly lives&rdquo; (Mueller 2004). The University
+of Michigan is already granting partner institutions the
+non-exclusive, non-transferable right to use content subject to
+terms and conditions set forth in a formal TCP Local Management
+Agreement.</p>
+<p><b>--Paucity of Sustainable Business Models</b></p>
+<p>Virtually everyone interviewed in this report raised concerns
+about the high cost of large-scale digital efforts. Publishers
+and librarians alike look to models such as the Text Creation
+Partnership (TCP) as the only economically viable way to produce
+high quality, thoroughly edited and encoded texts. But even this
+public-private cooperative, which hinges on purchasing the
+corpora first, is beyond the reach of most academic libraries.
+What will become of graduate students, their faculty mentors
+wonder, when they leave well-endowed research institutions to
+teach at places that do not have access to a full spectrum of
+electronic resources? Is the digital world&mdash;with its
+laudable &ldquo;democratizing&rdquo; potential&mdash;really
+ushering in a new era of &ldquo;haves&rdquo; and
+&ldquo;have-nots&rdquo;? What can be done to assure more
+equitable access? This report offers no easy answers; it only
+calls for further investigation into this question. Constituents
+look to the Digital Library Federation to advocate for new models
+and support TCP-like efforts.</p>
+<p>Most of the quality projects under review here initially rely
+on grant funding, and if fortunate, the host institution may bear
+the continuing cost or developers devise alternative means to
+gain revenue, including licensing their product. The costs of
+major digital projects are not insignificant. Two cite two
+examples: The <i>Wright American Fiction</i> project<i>,</i>
+which is not the beneficiary of external funds, will cost
+participating CIC (Committee on Institutional Cooperation)
+members more than $500,000 for about 3,000 fully-encoded books.
+Meanwhile, the production costs for the 30 books expected to be
+published as part of the grant-funded <i>Gutenberg-e</i> project
+are estimated at an astonishing $60,000 per book (Manning 2004,
+footnotes 30 and 31). It is no wonder then that the number of
+hybrid access sites is growing, where the general public is
+provided access to a subset of materials with full service
+restricted to constituent communities paying the freight.</p>
+<p>The shift from ownership of content to &ldquo;rental&rdquo; or
+licensing by contract, which is now affecting all disciplines not
+just the sciences, is one of the key strategic issues in digital
+asset management according to Donald Waters, scholarly
+communications program officer at The Andrew W. Mellon
+Foundation. He states: &ldquo;The shift to electronic publication
+in its current form represents a dramatic, jump-off-the-cliff
+shift in the academy from owning scholarly output to renting
+it.&rdquo; He continues:</p>
+<p style='margin-left:.5in'>A growing number of senior officers
+of our colleges and universities&mdash;presidents, provosts, and
+chief financial officers&mdash;are beginning to question the huge
+risk to the future of their institution&rsquo;s core operations
+because of the growing dependence on the record of scholarship
+for which the institution is paying substantial sums but on which
+it has no real claim. (Waters 2004)</p>
+<p>Institutional digital repositories are envisioned as one
+component in regaining control and ownership of faculty output,
+but they, too, are created at considerable expense. Moreover the
+concept is a hard sell to many faculty whose disciplinary
+allegiance is national not local. From the perspective of one
+disgruntled scholar&mdash;who undoubtedly reflects the opinion of
+many others&mdash;the very notion that &ldquo;every department
+would publish itself&rdquo; is a flawed concept. No one is
+interested in a particular institution&rsquo;s production
+&ldquo;outside the context of a discipline,&rdquo; she asserts.
+Calling it a &ldquo;nightmare&rdquo; and &ldquo;dumb to spend
+$300,000 to put everything on the Web,&rdquo; this humanist asks:
+&ldquo;Why put preliminary work on the Web? Doesn&rsquo;t a
+published article reflect well upon the institution?&rdquo; This
+and other questions show the need in the field of American
+literature for coordinated strategic planning among professional
+organizations, scholars, librarians, publishers, and funding
+agencies.</p>
+<p><b>--Dearth of Specialists</b></p>
+<p>Finally, many of the faculty interviewed for this report
+affirmed the need for more specialists who have grounding in the
+discipline along with knowledge of new technologies. The
+Association for Literary and Linguistic Computing&rsquo;s (ALLC)
+regularly updated taxonomy of &ldquo;Institutional Models for
+Humanities Computing,&rdquo; edited by Willard McCarty
+(King&rsquo;s College, London) and Matthew Kirschenbaum
+(University of Maryland), gives readers an idea of the types of
+teaching, research, and technology support structures available
+to humanists at institutions in the United States and western
+Europe. Scholars like Alan Liu expressed concern about the
+concentration of expertise in text-encoding and markup-based
+humanities computing work (starting with the creation of digital
+text archives but now encompassing other kinds of projects, such
+as McGann&rsquo;s NINES initiative) along the northeast corridor
+(IATH, MITH, CETH, Brown&rsquo;s Scholarly Technology Group) with
+only a smattering of significant participation in the Midwest and
+on the west coast.<a id="_ftnref15" href="#_ftn15" name=
+"_ftnref15" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[15]</span></span></span></a>
+As scholarly resources are increasingly developed for
+presentation on the Web, Liu&mdash;and he is not alone&mdash;is
+concerned that too few institutions, including research
+libraries, have specialists with the requisite knowledge of
+technical standards and encoding protocols. Increasingly, all
+humanists will need a basic understanding of how technical
+decisions inform the presentation and longevity of digital
+content. Stakeholders must formulate strategic plans now and
+encourage humanities graduate programs around the nation to
+integrate the tools of technology into pedagogy and research
+(Rockwell 2003, Liu 2003). If not, who will replace the
+&ldquo;next generation of Jerry McGann&rsquo;s,&rdquo; Liu asks
+emphatically, noting (as yet another problem) that most of
+today&rsquo;s scholars came to the Web &ldquo;with tenure in
+hand.&rdquo;</p>
+<p>CLIR&rsquo;s Postdoctoral Fellowships in Scholarly Information
+Resources, launched in 2004 in conjunction with a consortium of
+academic research institutions, are designed precisely to meet
+the needs outlined above. Intended &ldquo;to establish a new kind
+of scholarly information professional,&rdquo; the fellowships
+&ldquo;will educate new scholars about the challenges and
+opportunities created by new forms of scholarly research and the
+information resources that support them, both traditional and
+digital.&rdquo;<a id="_ftnref16" href="#_ftn16" name="_ftnref16"
+title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[16]</span></span></span></a>
+While some of the faculty members interviewed for this report
+were unaware of CLIR&rsquo;s program, others were its direct
+beneficiary. Many applaud the pilot program, but some would like
+to see a variety of models developed, including programs lodged
+directly in English departments. A national competition among
+graduate English programs might stimulate alternative ways to
+integrate technology within the discipline.</p>
+<p>Two other professional development opportunities warrant
+mentioning. Recognizing the importance of supporting scholars
+with digital project development, <i>NINES</i> is offering its
+first intensive summer workshop for faculty in the summer of
+2005. And for the fourth year (2005), the University of
+Victoria's Faculty of Humanities and its Humanities Computing and
+Media Centre, in collaboration with a host of sponsors including
+the Association for Computers and the Humanities, is convening
+its Humanities Computing Summer Institute in &ldquo;The Digital
+Humanities.&rdquo; According to its Web site, the Institute
+&ldquo;provides an environment ideal to discuss, to learn about,
+and to advance skills in the new computing technologies that
+influence the way in which those in the Arts and Humanities carry
+out their teaching and research today.&rdquo;</p>
+<p>In the mind of the current cadre of specialists, there is an
+immediate need for many more graduate fellowships, postdoctoral
+training programs and early-career faculty institutes like
+these.</p>
+<p><b>CONCLUSION: TOWARD A &ldquo;CELESTIAL
+KALIEDOSCOPE&rdquo;</b></p>
+<p>Until quite recently, the work of American literary scholars
+engaged in applying new media to their teaching and research has
+been viewed by their peers with a combination of skepticism and
+bemusement, tinged by awe, if only at their colleagues&rsquo;
+quixotic daring. Laboring on the outskirts of the profession,
+such work has been launched in the distant harbor of humanities
+computing, etext centers and digital libraries, in isolation from
+their peers and their home departments. They have been accorded
+cult-like status as technically savvy mavericks, taking
+professional risks of considerable consequence because their work
+largely falls outside the safety net of traditional peer review.
+As a result, it has rarely been discussed in the core journals of
+the discipline unless one of its proponents is inspired to write
+about his or her experience.</p>
+<p>Such was the case in December 2002 when Martha Nell Smith in
+the pages of <i>American Literature</i> asked what information
+technology had to do with the study of literature<b>.</b> Based
+on her experience with the <i>Dickinson Electronic Archives</i>,
+MITH and IATH, Smith argued that &ldquo;digital resources are
+more than advantages<b>, . .</b> they are necessities, driven in
+large part by the dual crises of diminishing funds for scholarly
+publishing and declining interest in humanities education in an
+&ldquo;increasingly corporatized university&rdquo; (Smith 2002,
+836)</p>
+<p>This report bears witness to a rich array of digital resources
+in support of American literature and to dedicated stakeholders
+developing them. Looking toward the horizon, these digital
+scholars now see &lsquo;a rainbow that looks like hope.&rsquo;
+The ACLS Commission on Cyberinfrastructure for the Humanities
+&amp; Social Sciences, <i>NINES,</i> and the publication of
+<i>Electronic Textual Editing</i> along with the new guidelines
+adopted by MLA&rsquo;s Committee on Scholarly Editions, are
+bringing more than a decade of hard work and accomplishment in
+digital humanities to national visibility.</p>
+<p>After being &ldquo;mightily preoccupied with the great
+stacking of the virtual shelves since the WWW hit,&rdquo; as
+Willard McCarty said, those engaged in digital practice are
+taking stock of their achievements, making their concerns more
+visible, and enlarging the circle of debate.<a id="_ftnref17"
+href="#_ftn17" name="_ftnref17" title=""><span class=
+"MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[17]</span></span></span></a>
+How does computing affect &ldquo;analysis in the humanities
+beyond simply fetching, counting and formatting data?&rdquo;
+McCarty asks (2005). That is, how does it affect &ldquo;analysis
+itself rather than its scope, speed or convenience?&rdquo; he
+continues. &ldquo;What is new about reading in the age of the
+network?&rdquo; conveners of the 2005 Transliteracies Conference
+(University of California, Santa Barbara) inquire of
+participants. What are the new genres and forms of publication
+appropriate to the digital age? What benefits do new editorial
+praxes and technologies bring to electronic scholarly editing?
+Smith and others prompt their peers. In their efforts to answer
+tough questions, these seasoned digital leaders are
+substantiating the ways in which new media are transforming the
+study of literature. &ldquo;To change scholarship we need
+scholarship,&rdquo; Ayers advises, urging his colleagues to move
+forward and do good work with the tools and resources already
+available. Calling for more models of success, he concludes:
+&ldquo;There is no substitute for the passion of scholars and the
+excitement and credibility of the work those scholars
+produce.&rdquo;<a id="_ftnref18" href="#_ftn18" name="_ftnref18"
+title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>[18]</span></span></span></a></p>
+<p>Will these various efforts coalesce into recognizable
+patterns, creating a &ldquo;celestial kaleidoscope?&rdquo; It is
+too early to give definitive answers, but as readers of these
+pages will see, there is cause for optimism.</p>
+</div>
+<div><br clear="all" />
+<hr align="left" size="1" width="33%" />
+<div id="ftn1">
+<p class="MsoFootnoteText"><a id="_ftn1" href="#_ftnref1" name=
+"_ftn1" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[1]</span></span></span></a>
+Unless noted otherwise, this summary and quotes are from the
+Webcast Archive of Ayers&rsquo; presentation, &ldquo;Scholarship
+the Digital Age,&rdquo; delivered at the University of Minnesota
+on April 19, 2005 available until June 19, 2005 from <a href=
+"http://www.lib.umn.edu/ppp/ppp-03-a.phtml">http://www.lib.umn.edu/ppp/ppp-03-a.phtml</a>
+and from notes Ayers&rsquo; provided the author from his talk,
+&ldquo;Revolution in the Archives,&rdquo; presented at the
+Library of Congress on March 14, 2005. The audio archive of this
+talk is available from C-SPAN: <a href=
+"http://www.c-span.org/congress/digitalfuture.asp">http://www.c-span.org/congress/digitalfuture.asp</a></p>
+</div>
+<div id="ftn2">
+<p class="MsoFootnoteText"><a id="_ftn2" href="#_ftnref2" name=
+"_ftn2" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[2]</span></span></span></a>
+Unless cited otherwise, Unsworth&rsquo;s quotes are from a
+telephone interview conducted on March 10, 2005.</p>
+</div>
+<div id="ftn3">
+<p class="MsoFootnoteText"><a id="_ftn3" href="#_ftnref3" name=
+"_ftn3" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[3]</span></span></span></a>
+For a critical evaluation of this genre and scholarly electronic
+editions refer to Karlsson and Malm 2004 in
+&lsquo;References.&rdquo; Available from <a href=
+"http://www.hb.se/bhs/ith/1-7/lklm.pdf">http://www.hb.se/bhs/ith/1-7/lklm.pdf</a></p>
+</div>
+<div id="ftn4">
+<p class="MsoFootnoteText"><a id="_ftn4" href="#_ftnref4" name=
+"_ftn4" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[4]</span></span></span></a>
+For background information see Goldberg-Hart (2004) in
+&ldquo;References.&rdquo;</p>
+</div>
+<div id="ftn5">
+<p class="MsoFootnoteText"><a id="_ftn5" href="#_ftnref5" name=
+"_ftn5" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[5]</span></span></span></a>
+ACLS Commission Web site available from <a href=
+"http://www.acls.org/cyberinfrastructure/cyber_what_is.htm">http://www.acls.org/cyberinfrastructure/cyber_what_is.htm</a></p>
+</div>
+<div id="ftn6">
+<p class="MsoFootnoteText"><a id="_ftn6" href="#_ftnref6" name=
+"_ftn6" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[6]</span></span></span></a>
+For an elaboration of the importance of textual scholarship in
+the digital environment refer to McGann&rsquo;s October 3, 2002
+lecture, &ldquo;Textonics: Literary and Cultural Studies in a
+Quantum World,&rdquo; delivered in conjunction with the Richard
+W. Lyman Award (presented by the National Humanities Center). He
+calls &ldquo;restoring intimate relations between literarians and
+librarians, a pressing current need&rdquo; in service to
+electronic scholarship.</p>
+</div>
+<div id="ftn7">
+<p class="MsoFootnoteText"><a id="_ftn7" href="#_ftnref7" name=
+"_ftn7" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[7]</span></span></span></a>
+Based on telephone interview with Nagel conducted on August 11,
+2004 and e-mail correspondence of May 12, 2005.</p>
+</div>
+<div id="ftn8">
+<p class="MsoFootnoteText"><a id="_ftn8" href="#_ftnref8" name=
+"_ftn8" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[8]</span></span></span></a>
+See also Ramsay (2004) in &ldquo;References.&rdquo;</p>
+</div>
+<div id="ftn9">
+<p class="MsoFootnoteText"><a id="_ftn9" href="#_ftnref9" name=
+"_ftn9" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[9]</span></span></span></a>
+For a discussion about visualization tools and their application
+to libraries, refer to Luther and Beagle (2005).</p>
+</div>
+<div id="ftn10">
+<p class="MsoFootnoteText"><a id="_ftn10" href="#_ftnref10" name=
+"_ftn10" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[10]</span></span></span></a>
+These descriptions are abridged versions of the text appearing at
+the NINES&rsquo; Web site:</p>
+<p class="MsoFootnoteText">NINES: <a href=
+"http://www.nines.org/tools/tools.html">http://www.nines.org/tools/tools.html</a></p>
+</div>
+<div id="ftn11">
+<p class="MsoFootnoteText"><a id="_ftn11" href="#_ftnref11" name=
+"_ftn11" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[11]</span></span></span></a>
+This description and quote are extracted from the press release
+about NORA located at its Web site:</p>
+<p class="MsoFootnoteText">NORA: <a href=
+"http://noraproject.org/">http://noraproject.org</a></p>
+</div>
+<div id="ftn12">
+<p><a id="_ftn12" href="#_ftnref12" name="_ftn12" title=
+""><span class="MsoFootnoteReference"><span style=
+'font-size:10.0pt'><span class=
+"MsoFootnoteReference"><span style='font-size:10.0pt;font-family:"Times New Roman"'>
+[12]</span></span></span></span></a> <span style=
+'font-size:10.0pt'>Quoted from the NITLE project Web site:
+<a href=
+"http://www.nitle.org/tools/semantic.htm">http://www.nitle.org/tools/semantic.htm</a></span></p>
+</div>
+<div id="ftn13">
+<p class="MsoFootnoteText"><a id="_ftn13" href="#_ftnref13" name=
+"_ftn13" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[13]</span></span></span></a>
+Extracted from Aquifer Director, Katherine Kott&rsquo;s
+presentation at the DLF Forum, April 13, 2005:<br />
+<cite><a href=
+"http://www.diglib.org/forums/spring2005/presentations/kott0504.ppt">
+<span style=
+'font-style:normal'>http://www.diglib.org/forums/spring2005/presentations/kott0504.ppt</span></a></cite></p>
+</div>
+<div id="ftn14">
+<p class="MsoFootnoteText"><a id="_ftn14" href="#_ftnref14" name=
+"_ftn14" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[14]</span></span></span></a>
+NYPL Photographic Services and Permissions &ldquo;FAQ&rdquo; is
+available from <a href=
+"http://www.nypl.org/permissions/faq.html">http://www.nypl.org/permissions/faq.html</a></p>
+<p class="MsoFootnoteText">The &ldquo;Use Fee Schedule&rdquo; is
+available as a PDF file from: <a href=
+"http://www.nypl.org/permissions/UseFeeSchedule8_1.PDF">http://www.nypl.org/permissions/UseFeeSchedule8_1.PDF</a></p>
+</div>
+<div id="ftn15">
+<p class="MsoFootnoteText"><a id="_ftn15" href="#_ftnref15" name=
+"_ftn15" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[15]</span></span></span></a>
+Refer to the section of this report on &ldquo;Teaching
+Applications&rdquo; for a model program among six liberal arts
+colleges to introduce TEI-encoding into the undergraduate
+curriculum (Ebert-Zawasky and Tomasek, n.d.)</p>
+</div>
+<div id="ftn16">
+<p class="MsoFootnoteText"><a id="_ftn16" href="#_ftnref16" name=
+"_ftn16" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[16]</span></span></span></a>
+CLIR Postdoctoral Fellowship in Scholarly Information Resources
+information available from <a href=
+"http://www.clir.org/fellowships/postdoc/postdoc.html">http://www.clir.org/fellowships/postdoc/postdoc.html</a></p>
+</div>
+<div id="ftn17">
+<p class="MsoFootnoteText"><a id="_ftn17" href="#_ftnref17" name=
+"_ftn17" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[17]</span></span></span></a>
+E-mail correspondence with McCarty on January 23, 2005.</p>
+</div>
+<div id="ftn18">
+<p class="MsoFootnoteText"><a id="_ftn18" href="#_ftnref18" name=
+"_ftn18" title=""><span class="MsoFootnoteReference"><span class=
+"MsoFootnoteReference"><span style=
+'font-size:10.0pt;font-family:"Times New Roman"'>[18]</span></span></span></a>E-mail
+correspondence with Ayers on May 12, 2005.</p>
+</div>
+</div>
+<!-- End text -->
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+<p> </p>
+<p align="center" class="copyright">Copyright &copy; 2005 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

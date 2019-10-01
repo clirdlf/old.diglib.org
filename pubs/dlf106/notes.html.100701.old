@@ -1,0 +1,1298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xml:lang="en">
+<head>
+<meta name="dc.Title" content="Contexts and Contributions: Building the Distributed Library" />
+<meta name="dc.Creator" content="Martha L. Brogan" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher"
+content="Digital Library Federation: Washington, D.C." />
+<meta name="dc.Contributor"
+content="Barrie Howard" />
+<meta name="dc.Date" content="2006-09-13" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="DC.identifier" content="http://purl.oclc.org/DLF/dlf106" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Contexts and Contributions: Building the Distributed Library</title>
+
+
+<style type="text/css">
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; }
+
+	  .nobullet { list-style-type: none; }
+
+        </style>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+</script>
+
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<!-- <form action="search.asp" method="get" name="searchform" id="search">
+<label for="textfield"><span class="news">Search&nbsp;</span></label>
+<input name="qu" id="textfield" type="text" value="" size="10" />&nbsp;
+<a href="javascript:document.searchform.submit();">
+
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp;
+<a href="../../sitemap.htm"><img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+</form>
+ -->
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="187" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="187" height="38" border="0" id="collect" /></a></td>
+       <td width="187" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="187" height="38" border="0" id="produce" /></a></td>
+
+    <td width="187" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="187" height="38" border="0" /></a></td>
+    <td width="187" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="187" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+
+<!-- Begin text here -->
+
+<p>
+<a name="n1"></a>1 An invitational meeting convened by The Andrew W. Mellon Foundation in April 2006 aimed to reach agreement "on the nature and characteristics of a limited set of core, protocol-based repository interfaces (REST-full and/or SOAP-based Web services) that allow downstream applications to interact with heterogeneous repositories in an efficient and consistent manner" (Hey et al. 2006). Documentation about the meeting and follow-up activities are available from <a href="http://msc.mellon.org/Meetings/Interop/follow-up/jcdlpanel_abstract.pdf">http://msc.mellon.org/Meetings/Interop/follow-up/jcdlpanel_abstract.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n2"></a>2 Documents, presentations, and a timeline of milestones are available from the DLF's Web site, <a href="/architectures/oai/imls2004/">http://www.diglib.org/architectures/oai/imls2004/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n3"></a>3 Purdue University provides an excellent example of how librarians are actively contributing to e-research initiatives. Refer to the CNI Spring 2006 Task Force report by Mullins and Brandt available from <a href="http://www.cni.org/tfms/2006a.spring/abstracts/PB-mullins-building.html">http://www.cni.org/tfms/2006a.spring/abstracts/PB-mullins-building.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n4"></a>4 It is beyond the scope of this report to explore the international dimensions of cyberinfrastructure but as one example refer to the ChinaGrid Overview (Hai Jin, [2004]).<br />
+<br />
+</p>
+<p>
+<a name="n5"></a>5 See also the National Institute of Health's large-scale, data intensive project, caBIG: cancer BioInformatics Grid, <a href="https://cabig.nci.nih.gov/">https://cabig.nci.nih.gov/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n6"></a>6 eBank project description from search at PSIgate at <a href="http://www.psigate.ac.uk/newsite/">http://www.psigate.ac.uk/newsite/</a>. Refer to Lyon and Coles 2004 for more details and graphic images of the architecture.<br />
+<br />
+</p>
+<p>
+<a name="n7"></a>7 For information about the Digital Library Federation's parallel conceptualization refer to the "DLF Service Framework for Digital Libraries," a progress report for the DLF Steering Committee, prepared by Lorcan Dempsey and Brian Lavoie, May 17, 2005. Available from <a href="/architectures/serviceframe/dlfserviceframe1.htm">http://www.diglib.org/architectures/serviceframe/dlfserviceframe1.htm</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n8"></a>8 For an extensive survey about disciplinary differences refer to the "JISC Disciplinary Differences Report" (Sparks 2005), available from JISC's Committee for the Information Environment, Scholarly Communications Group, <a href="http://www.jisc.ac.uk/index.cfm?name=schol_comms_reports">http://www.jisc.ac.uk/index.cfm?name=schol_comms_reports</a>.<br />
+<br />
+</p>
+<p>
+<a name="n9"></a>9 Those new to the concept of Open Access should refer to Suber's "Open Access Overview" <a href="http://www.earlham.edu/~peters/fos/overview.htm">http://www.earlham.edu/~peters/fos/overview.htm</a>. Bailey (2006) examines three core definitions of open access; notes key OA statements; discusses self-archiving strategies and practices. For a more extensive consideration, refer to <i>The Access Principle: The Case of Open Access to Research and Scholarship</i> (Willinsky 2006).<br />
+<br />
+</p>
+<p>
+<a name="n10"></a>10 Sampling compiled from Peter Suber's "Timeline of the Open Access Movement" (last revised May 7, 2006). Available from <a href="http://www.earlham.edu/~peters/fos/timeline.htm">http://www.earlham.edu/~peters/fos/timeline.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n11"></a>11 Although IR adoptions are emphasized here, it is worth noting that most of these software systems are used to manage a range of services, for example learning object repositories, e-theses, electronic records management, e-publishing, and digital preservation. See EPrints.org examples of different types of deployments: <a href="http://www.eprints.org/software/examples/">http://www.eprints.org/software/examples/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n12"></a>12 The Appendices to <i>Institutional Repositories</i> (Jones et al. 2006) have basic descriptions of each of these software projects.<br />
+<br />
+</p>
+<p>
+<a name="n13"></a>13 See "Types of Service Offered" available from <a href="http://www.eprints.org/services/">http://www.eprints.org/services/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n14"></a>14 The RAE submission guidelines for Research outputs are available from <a href="http://www.rae.ac.uk/datacoll/subs/">http://www.rae.ac.uk/datacoll/subs/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n15"></a>15 See DLF's "Tools document," prepared as part of the DLF OAI curriculum and training materials, discussed in section 3.1.1, for more examples of digital content management systems and vendors.<br />
+<br />
+</p>
+<p>
+<a name="n16"></a>16 Full report available from <a href="http://libraries.universityofcalifornia.edu/sopag/BSTF/Final.pdf">http://libraries.universityofcalifornia.edu/sopag/BSTF/Final.pdf</a>. Executive summary from CNI presentation available from <a href="http://www.cni.org/tfms/2006a.spring/abstracts/PB-whitney-melvyl.html">http://www.cni.org/tfms/2006a.spring/abstracts/PB-whitney-melvyl.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n17"></a>17 The specification is available from <a href="http://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm">http://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n18"></a>18 Email communication distribution to the JISC-Repositories listserv on February 21, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n19"></a>19 <a href="http://www.ukoln.ac.uk/repositories/digirep/index/FAQs">http://www.ukoln.ac.uk/repositories/digirep/index/FAQs</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n20"></a>20 The Library of Congress Web site about MODS is available from <a href="http://www.loc.gov/standards/mods/">http://www.loc.gov/standards/mods/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n21"></a>21 Discussed in Lorcan Dempsey's Web blog, "From Metasearch to Distributed Information Environments," reporting on presentations given at the NISO OpenURL and Metasearch meeting. Posted on October 9, 2005; available from <a href=" http://orweblog.oclc.org/archives/000827.html"> http://orweblog.oclc.org/archives/000827.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n22"></a>22 Refer to the workshop Web site and the report prepared thereafter, available from <a href="http://wiki.library.oregonstate.edu/confluence/display/DLSRW/Home">http://wiki.library.oregonstate.edu/confluence/display/DLSRW/Home</a>. Presentations are located at <a href="http://wiki.library.oregonstate.edu/confluence/display/DLSRW/WorkshopPresentations">http://wiki.library.oregonstate.edu/confluence/display/DLSRW/WorkshopPresentations</a>.<br />
+<br />
+</p>
+<p>
+<a name="n23"></a>23 Available from <a href="http://www.oclc.org/americalatina/en/research/projects/openurl/registry.htm">http://www.oclc.org/americalatina/en/research/projects/openurl/registry.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n24"></a>24 Information about recent work underway is taken from the DLF's Interim Report (October 2005-April 2006) submitted to IMLS in support of its National Leadership Grant.<br />
+<br />
+</p>
+<p>
+<a name="n25"></a>25 SHERPA stands for Securing a Hybrid Environment for Research Preservation and Access. The initiative embraces various projects including OpenDOAR (described below), led by the University of Nottingham with funding from JISC and CURL. Additional information is available from <a href="http://www.sherpa.ac.uk/index.html">http://www.sherpa.ac.uk/index.html</a>. It builds on the work of Project RoMEO (Rights Metadata for Open Archiving): <a href="http://www.lboro.ac.uk/departments/ls/disresearch/romeo/">http://www.lboro.ac.uk/departments/ls/disresearch/romeo/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n26"></a>26 Available from <a href="http://www.ecs.soton.ac.uk/~harnad/Temp/Romeo/romeosum.html">http://www.ecs.soton.ac.uk/~harnad/Temp/Romeo/romeosum.html</a> .<br />
+<br />
+</p>
+<p>
+<a name="n27"></a>27 As cited in the FAQ available from <a href="http://trac.eprints.org/projects/iar/wiki/FAQ">http://trac.eprints.org/projects/iar/wiki/FAQ</a> .<br />
+<br />
+</p>
+<p>
+<a name="n28"></a>28 In an announcement about ROAR posted by Stevan Harnad to the AmSci Forum, he states that "archives that do not provide *any* full-text content at all (only metadata), or that provided only content of other kinds (internal documents, courseware, library records, audio video, software) are not covered-though archives of *mixed* content (both OA and non-OA) are covered." As of mid-May, this level of editorial control has not been applied to ROAR.<br />
+<br />
+</p>
+<p>
+<a name="n29"></a>29 On review, it appears that many of them do, in fact, adhere more appropriately to an existing category.<br />
+<br />
+</p>
+<p>
+<a name="n30"></a>30 Software URLs, country of origin, and number of instantiations added by the author (March 12, 2006).<br />
+<br />
+</p>
+<p>
+<a name="n31"></a>31 <a href="http://www.doar.org/">http://www.doar.org/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n32"></a>32 In mid-May 2006, OpenDOAR covers 380 (as opposed to 353) repositories.<br />
+<br />
+</p>
+<p>
+<a name="n33"></a>33 CDL Date Normalization Utility (DNU) Documentation, Landis and Loy, last updated August 24, 2005, available from <a href="http://www.cdlib.org/inside/diglib/datenorm/datenorm_documentation.doc">http://www.cdlib.org/inside/diglib/datenorm/datenorm_documentation.doc</a>.<br />
+<br />
+</p>
+<p>
+<a name="n34"></a>34 MetaCombine Project (Emory University) is available from <a href="http://www.metacombine.org">http://www.metacombine.org</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n35"></a>35 For information about Yahoo! Search refer to <a href="http://search.yahoo.com/">http://search.yahoo.com/</a>. Peter Suber has written a guide, "How to facilitate Google crawling: Notes for open-access repository maintainers," available from <a href="http://www.earlham.edu/~peters/fos/googlecrawling.htm">http://www.earlham.edu/~peters/fos/googlecrawling.htm</a> .<br />
+<br />
+</p>
+<p>
+<a name="n36"></a>36 Email correspondence with Jeff Riedel on December 8, 2005 and phone interview on December 13, 2005.<br />
+<br />
+</p>
+<p>
+<a name="n37"></a>37 The University of Minho is one of few institutions to mandate self-archiving: <a href="http://www.eprints.org/openaccess/policysignup/">http://www.eprints.org/openaccess/policysignup/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n38"></a>38 Muriel Foulonneau, CIC metadata portal: Project status, Powerpoint presentation at the Big Ten Center, Chicago, December 12, 2005.<br />
+<br />
+</p>
+<p>
+<a name="n39"></a>39 Information about the automated generation of thumbnails is also available at the project Web site: <a href="http://cicharvest.grainger.uiuc.edu/thumb.asp">http://cicharvest.grainger.uiuc.edu/thumb.asp</a>.<br />
+<br />
+</p>
+<p>
+<a name="n40"></a>40 A list of DLF partners and affiliates is available from <a href="/about.htm">http://www.diglib.org/about.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n41"></a>41 See DLF Digital Collections Registry, browse by Institution, available from <a href="http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/GEMHostInst.asp">http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/GEMHostInst.asp</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n42"></a>42 Information about the Vascoda project available from <a href="http://www.bibliothek.uni-regensburg.de/projekte/vascoda/vascoda.htm">http://www.bibliothek.uni-regensburg.de/projekte/vascoda/vascoda.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n43"></a>43 More information about this project is available from <a href="http://aar.vascoda.de/">http://aar.vascoda.de/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n44"></a>44 The Center for History and New Media, George Mason University, is building a scholar's Web browser, Firefox Scholar (aka SmartFox) with a late summer 2006 beta release http://echo.gmu.edu/toolcenter-wiki/index.php?title=Firefox_Scholar_%28aka_SmartFox%29. OASes is a toolbar for Internet Explorer designed for students and scholars that searches six OA resources (OAIster, DOAJ, PubMed Central, Creative Commons, Project Gutenburg, and FindArticles) and four general search engines (Google, Yahoo, MSN, and Clusty). Created by Dr. Shahul Ameen (M.D. and Senior Resident at the Central Institute of Psychiatry, Ranchi, India), it also offers a pull-down menu of links to Open Access News, BOAI, SPARC, PLoS, and NASA ADS. OASes is free to download and use without registration. Available at <a href="http://www.psyplexus.com/oases/">http://www.psyplexus.com/oases/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n45"></a>45 Refer to Peter Suber's "Timeline of the Open Access Movement" for a chronology of milestones, available from: <a href="http://www.earlham.edu/~peters/fos/timeline.htm">http://www.earlham.edu/~peters/fos/timeline.htm</a> and to his annual summaries and predictions in <i>SPARC Open Access Newsletter</i> (January issues 2003 to present), available from: <a href="http://www.earlham.edu/~peters/fos/newsletter/archive.htm">http://www.earlham.edu/~peters/fos/newsletter/archive.htm</a> .<br />
+<br />
+</p>
+<p>
+<a name="n46"></a>46 OAIster began to harvest OSTI metadata in March 2006. As of late May 2006, OSTI's OAI repository had more than 125,000 items.<br />
+<br />
+</p>
+<p>
+<a name="n47"></a>47 Information available from HAL's Welcome page: <a href="http://hal.ccsd.cnrs.fr/index.php?langue=en">http://hal.ccsd.cnrs.fr/index.php?langue=en</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n48"></a>48 "Each step in the information flow is shown as a numbered arrow." (Van de Sompel et al. 2004)<br />
+<br />
+</p>
+<p>
+<a name="n49"></a>49 A listing of more than 9,000 NASA-related acronyms is available from the NASA STI home page (<a href="http://www.sti.nasa.gov/STI-public-homepage.html">http://www.sti.nasa.gov/STI-public-homepage.html</a>: see "Tools/Products/Services," or directly from <a href="http://www.sti.nasa.gov/acronym/main.html">http://www.sti.nasa.gov/acronym/main.html</a>).<br />
+<br />
+</p>
+<p>
+<a name="n50"></a>50 Nelson et al. (2004, 1).<br />
+<br />
+</p>
+<p>
+<a name="n51"></a>51 More than 2,000 GISS research reports are available from <a href="http://pubs.giss.nasa.gov/">http://pubs.giss.nasa.gov/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n52"></a>52 Email correspondence on February 10, 2006 with Michael L. Nelson, who is no longer under contract with NASA but oversaw these Web crawls in 2004.<br />
+<br />
+</p>
+<p>
+<a name="n53"></a>53 The sources for the data are as follows: # of records 2006, gathered from the NTRS "About the Collections" on February 8, 2006; # of records 2003, from Brogan (2003, 21); % full text, # of downloads and download rank, from Nelson and Bollen (2005, 393); most recent harvest or update from NTRS "About the Collections" on February 8, 2006. In respect to NASA Arc which has 354 metadata records none of which are full text, the authors explain that at the time of their study, it had some content that has since been removed.<br />
+<br />
+</p>
+<p>
+<a name="n54"></a>54 At the time the study was conducted NASA Arc (and several other agencies) had a little bit of full content according to email correspondence from Michael L. Nelson on February 10, 2006. Some full-text publications were identified through Web crawls, but these reports were removed as a precaution when NASA personnel discovered that not all appropriate document availability authorization (DAA) forms were on record.<br />
+<br />
+</p>
+<p>
+<a name="n55"></a>55 At the time the study was conducted CASI had about 5% full content. According to email correspondence with Calvin E. Mackey on February 8, 2006, it now has 90,507 full-text documents (or 23 percent).<br />
+<br />
+</p>
+<p>
+<a name="n56"></a>56 The Aeronautical Research Council (Arc), the principal agency in the UK producing technical reports on aeronautics, existed from 1909-1979 and published reports until 1980. The AERADE (aerospace and defense) Reports Archive at Cranfield University (UK) offers unified searching of the 10,000 historical digitized reports from Arc and NACA. (The National Advisory Committee for Aeronautics (NACA) was chartered in 1915 and operated as a precursor to NASA from 1917 to 1958.) The digitized report collection is available from <a href="http://aerade.cranfield.ac.uk/reports.html">http://aerade.cranfield.ac.uk/reports.html</a>. AERADE reports that there are many more Arc documents in its collection but lack of funding has prevented their digitization. Currently they offer a scan-on-demand service with a charge of $40. For information about reports available in printed format, consult the Library Catalog available from <a href="http://unicorn.central.cranfield.ac.uk/uhtbin/webcat/">http://unicorn.central.cranfield.ac.uk/uhtbin/webcat/</a>. Information based on email correspondence with John Harrington on February 10, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n57"></a>57 Hypotheses put forward by Michael L. Nelson in email correspondence on February 10, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n58"></a>58 The author gratefully acknowledges Brian Lavoie et al. for the concept of "shedding data" (Lavoie et al. 2006).<br />
+<br />
+</p>
+<p>
+<a name="n59"></a>59 See footnote above regarding unified access to UK Arc and US NACA historical documents.<br />
+<br />
+</p>
+<p>
+<a name="n60"></a>60 Information about the Digital Object Identifier System is available from <a href="www.doi.org">www.doi.org</a> . About Handle Systems refer to <a href="http://www.handle.net/">http://www.handle.net/</a> .<br />
+<br />
+</p>
+<p>
+<a name="n61"></a>61 Refer to the user study about the recommendation service (Nelson et al. 2004). According to follow-up email correspondence with Michael L. Nelson on February 10, 2006, the early results of the recommendation service were encouraging and their article outlined plans to improve it (e.g., by eliminating the "cold start" problem,) but the contractor responsible for running NTRS lacked the technical capacity to maintain it. Nelson confirmed that the recommendation service has been terminated.<br />
+<br />
+</p>
+<p>
+<a name="n62"></a>62 Email correspondence from Calvin E. Mackay on February 10, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n63"></a>63 NSDL's experiences in harvesting OAI metadata data from heterogeneous sources are described more fully in Section 4.3.1 and chronicled by Lagoze et al. (2006a).<br />
+<br />
+</p>
+<p>
+<a name="n64"></a>64 FAQ from NIH about its public access policy is available from: <a href="http://publicaccess.nih.gov/publicaccess_QandA.htm">http://publicaccess.nih.gov/publicaccess_QandA.htm</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n65"></a>65 According to Peter Suber's calculations NIH grants resulted in 5,500 publications per month or 250 per workday over the two year period form May 2003 to March 2005. In its first two months of operation, the compliance rate was 340 submissions or 3 percent of the expected total. Available from: <a href="http://www.earlham.edu/~peters/fos/newsletter/08-02-05.htm">http://www.earlham.edu/~peters/fos/newsletter/08-02-05.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n66"></a>66 ARL, Federal Relations E-News, Winter 2006. Available from: <a href="http://www.arl.org/info/frn/frnmon.html">http://www.arl.org/info/frn/frnmon.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n67"></a>67 In <i>SPARC Open Access Newsletter</i>, issue 93 (January 2, 2006), Peter Suber provides background information about the U.S. CURES Act, including ways in which it goes beyond the current NIH public access policy. Available from: <a href="http://www.earlham.edu/~peters/fos/newsletter/01-02-06.htm">http://www.earlham.edu/~peters/fos/newsletter/01-02-06.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n68"></a>68NIHPA data for December 2005 and February 2006 was provided in email communication with Ed Squeira on February 15, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n69"></a>69 Refer to The Wellcome Trust's Web page on "Open and Unrestricted Access to the Outputs of Public Research" available from: <a href="http://www.wellcome.ac.uk/node3302.html">http://www.wellcome.ac.uk/node3302.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n70"></a>70 Article by Kate Worlock as cited by Peter Suber in <i>Open Access News</i> on December 23, 2005. Available from: <a href="http://www.earlham.edu/~peters/fos/2005_12_18_fosblogarchive.html">http://www.earlham.edu/~peters/fos/2005_12_18_fosblogarchive.html</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n71"></a>71 For these and other enhancements refer to Brooke Dine's PowerPoint presentation to the Medical Library Association on "PubMed Central," May 2004. Available from <a href="http://www.nlm.nih.gov/pubs/techbull/ja04/theater_ppt/pmc.ppt">http://www.nlm.nih.gov/pubs/techbull/ja04/theater_ppt/pmc.ppt</a>.<br />
+<br />
+</p>
+<p>
+<a name="n72"></a>72 NLM <i>Technical Bulletin</i>, 348 (January-February 2006), posted on January 27, 2006. Available from: <a href="http://www.nlm.nih.gov/pubs/techbull/jf06/jf06_technote.html#note">http://www.nlm.nih.gov/pubs/techbull/jf06/jf06_technote.html#note</a> . Explanatory annotations about all of PubMed's citation status tags are available from: http://www.nlm.nih.gov/bsd/pm_cit_status.html. For background information refer to Sequeira (2005).<br />
+<br />
+</p>
+<p>
+<a name="n73"></a>73 See Yeomans (2006) for details about their efforts to obtain CERN-authored documents from varied sources.<br />
+<br />
+</p>
+<p>
+<a name="n74"></a>74 CERN Action on Open Access identifies milestones and links to major policy documents. Available from <a href="http://open-access.web.cern.ch/Open-Access/pp.html">http://open-access.web.cern.ch/Open-Access/pp.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n75"></a>75 "Continuing CERN action on Open Access," issued by the Scientific Information Policy Board, summarizes CERN open access policy development up to March 2005. Available from <a href="http://www.ecs.soton.ac.uk/~harnad/Temp/cern.pdf">http://www.ecs.soton.ac.uk/~harnad/Temp/cern.pdf</a> . An Electronic Publishing Policy for CERN (November 2003) is available from <a href="http://library.cern.ch/cern_publications/SIPBPubPol.17.11.03.htm">http://library.cern.ch/cern_publications/SIPBPubPol.17.11.03.htm</a> .<br />
+<br />
+</p>
+<p>
+<a name="n76"></a>76 The first, "Open Meeting on the Changing Publishing Model," was held at CERN on September 16, 2005. Video streaming and minutes are available from <a href="http://open-access.web.cern.ch/Open-Access/20050916.html">http://open-access.web.cern.ch/Open-Access/20050916.html</a>. The second meeting is referenced in the next footnote.<br />
+<br />
+</p>
+<p>
+<a name="n77"></a>77 "Colloquium on Open Access Publishing in Particle Physics" held at CERN on December 7-8, 2005. Summary is available from <a href="http://indico.cern.ch/conferenceDisplay.py?confId=482">http://indico.cern.ch/conferenceDisplay.py?confId=482</a>. Minutes of the meeting, including presentations, are available from <a href="http://indico.cern.ch/getFile.py/access?resId=0&amp;amp;materialId=minutes&amp;amp;confId=482">http://indico.cern.ch/getFile.py/access?resId=0&amp;amp;materialId=minutes&amp;amp;confId=482</a>  <br />
+<br />
+</p>
+<p>
+<a name="n78"></a>78 European Organization for Nuclear Research. Press Release, December 14, 2005, "A Step Forward for Open Access Publishing." Available from <a href="http://press.web.cern.ch/press/PressReleases/Releases2005/PR18.05E.html">http://press.web.cern.ch/press/PressReleases/Releases2005/PR18.05E.html</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n79"></a>79 See "Innovations in Scholarly Communication" (OAI4) held at CERN in October 2005, available from: <a href="http://indico.cern.ch/conferenceDisplay.py?confId=0514">http://indico.cern.ch/conferenceDisplay.py?confId=0514</a> . Information about the Nordic conferences held at Lund University are available from: <a href="http://www.lub.lu.se/ncsc2006/">http://www.lub.lu.se/ncsc2006/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n80"></a>80 See for example, Gary Simons' tutorial, The Open Language Archives Community: Building a Worldwide Library of Digital Language Resources, (January 2006) available from <a href="http://www.language-archives.org/events/olac05/">http://www.language-archives.org/events/olac05/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n81"></a>81 E-MELD School of Best Practices in Digital Language Documentation is available from <a href="http://emeld.org/school/index.html">http://emeld.org/school/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n82"></a>82 EMELD Toolroom is available from <a href="http://emeld.org/school/toolroom/index.html">http://emeld.org/school/toolroom/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n83"></a>83 Information about the summit is available from <a href="http://www.ku.edu/pri/DTSL/">http://www.ku.edu/pri/DTSL/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n84"></a>84 Participating Archives are listed at <a href="http://www.language-archives.org/archives.php4">http://www.language-archives.org/archives.php4</a>.<br />
+<br />
+</p>
+<p>
+<a name="n85"></a>85 OLAC Metadata explanation is available from <a href="http://www.language-archives.org/OLAC/metadata.html">http://www.language-archives.org/OLAC/metadata.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n86"></a>86 OLAC metadata report system is available from <a href="http://www.language-archives.org/tools/reports/ExplainReport.html">http://www.language-archives.org/tools/reports/ExplainReport.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n87"></a>87 The composite OLAC Archive Report is available from <a href="http://www.language-archives.org/tools/reports/archiveReportCard.php?archive=all">http://www.language-archives.org/tools/reports/archiveReportCard.php?archive=all</a>.<br />
+<br />
+</p>
+<p>
+<a name="n88"></a>88 OLAC Metadata Survey is available from <a href="http://www.language-archives.org/tools/survey.php4">http://www.language-archives.org/tools/survey.php4</a> .<br />
+<br />
+</p>
+<p>
+<a name="n89"></a>89 The Linguist List is available from <a href="http://linguistlist.org/olac/">http://linguistlist.org/olac/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n90"></a>90 The structure of dues is outlined at NDLTD's Web site: <a href="http://www.ndltd.org/join/dues">http://www.ndltd.org/join/dues</a>.<br />
+<br />
+</p>
+<p>
+<a name="n91"></a>91 NDLTD's Membership Directory available from <a href="http://www.ndltd.org/membership/dir.html">http://www.ndltd.org/membership/dir.html</a> is not actively maintained.<br />
+<br />
+</p>
+<p>
+<a name="n92"></a>92 Information available from <a href="http://tennessee.cc.vt.edu/~lming/cgi-bin/ODL/nm-ui/members/">http://tennessee.cc.vt.edu/~lming/cgi-bin/ODL/nm-ui/members/</a>. Links to university sites not functioning at the time this site was consulted. Break-out figures about ARL members, etc. are also out of date.<br />
+<br />
+</p>
+<p>
+<a name="n93"></a>93 The UNESCO Guide (420 pages in length) is intended to be a "living document" with regular updates; however, it does not appear to have been refreshed recently. It is available from <a href="http://www.ndltd.org/etdguide/ETDGuide.pdf">http://www.ndltd.org/etdguide/ETDGuide.pdf</a> and <a href="http://www.etdguide.org/">http://www.etdguide.org/</a>. The ETD Tutorial is available from <a href="http://etd.vt.edu/etdtutorials/">http://etd.vt.edu/etdtutorials/</a> and http://www.adobe.com/education/etd/tutorials.html.<br />
+<br />
+</p>
+<p>
+<a name="n94"></a>94 The ETD search page is available from <a href="http://amicus.collectionscanada.ca/s4-bin/Main/BasicSearch?coll=18&amp;l=0&amp;v=1">http://amicus.collectionscanada.ca/s4-bin/Main/BasicSearch?coll=18&amp;l=0&amp;v=1</a>.<br />
+<br />
+</p>
+<p>
+<a name="n95"></a>95 Information about ADT's redeployments is available from <a href="http://adt.caul.edu.au/newsprojects/adtariic/">http://adt.caul.edu.au/newsprojects/adtariic/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n96"></a>96 All presentations are available from <a href="http://www.surf.nl/bijeenkomsten/index6.php?oid=203">http://www.surf.nl/bijeenkomsten/index6.php?oid=203</a>. See in particular Neil Jacobs' "Overview of all countries," <a href="http://www.surf.nl/download/Overview%20of%20all%20countries.pdf">http://www.surf.nl/download/Overview%20of%20all%20countries.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n97"></a>97 OCLC maintains its harvesting statistics for the NDLTD Union Catalog at <a href="http://alcme.oclc.org/ndltd/servlet/OAIHandler?verb=ListSets">http://alcme.oclc.org/ndltd/servlet/OAIHandler?verb=ListSets</a>.<br />
+<br />
+</p>
+<p>
+<a name="n98"></a>98 OCLC also runs an OAI viewer service against the NDLTD Union Catalog that enables filtering of sets and formats: http://errol.oclc.org/ndltd.oclc.org.html.<br />
+<br />
+</p>
+<p>
+<a name="n99"></a>99 The VTLS site contains no statistical information. Figures were provided in email correspondence with Vinod Chachra on March 6, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n100"></a>100 Information provided by Thomas Dowling in email correspondence of February 24, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n101"></a>101 All repositories are incrementally harvested twice a month starting every other day (to allow longer jobs to run to completion). In addition all repositories are scheduled to be fully harvested once every three months. Regular harvesting resumed on April 15, 2006 so the repositories that have not been re-harvested since January 2006 should be re-harvested by May 15, 2006. Official harvesting schedule provided in email correspondence with Thomas Habing, UIUC, on May 9, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n102"></a>102 Refer to the press release at Penn State Live, "Penn State IST researchers to enhance search engine" (August 29, 2005) available from <a href="http://live.psu.edu/story/13209">http://live.psu.edu/story/13209</a>.<br />
+<br />
+</p>
+<p>
+<a name="n103"></a>103 DLF Online Survey response, Fall 2005.<br />
+<br />
+</p>
+<p>
+<a name="n104"></a>104 See announcement available from <a href="http://citeseer.ist.psu.edu/announcements.html">http://citeseer.ist.psu.edu/announcements.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n105"></a>105 Petricek and his colleagues investigated the differences and similarities between DBLP and CiteSeer, which rely on different methods of acquiring computer science literature. DBLP entries are entered manually whereas CiteSeer's are obtained by autonomous Web crawls and automatic processing of user submissions. Their research revealed that CiteSeer contains considerably fewer single author papers and is also biased against low-cited papers. Nevertheless, both databases presented similar citation distribution patterns. In comparing Computer Science citation patterns to Physics, the authors found that "highly cited papers in Computer Science receive a larger citation share than in Physics" (Petricek et al. 2005, 448).<br />
+<br />
+</p>
+<p>
+<a name="n106"></a>106 July 2005 statistics are from Hardy et al. (2005, 55, 56).<br />
+<br />
+</p>
+<p>
+<a name="n107"></a>107 Available from HELP: http://www.citebase.org/help/.<br />
+<br />
+</p>
+<p>
+<a name="n108"></a>108 These are respectively available from <a href="http://www.citebase.org/analysis/correlation.php">http://www.citebase.org/analysis/correlation.php</a> and <a href="http://www.citebase.org/analysis/correlation.php?database=ads">http://www.citebase.org/analysis/correlation.php?database=ads</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n109"></a>109 'The Effect of Open Access and Downloads ("hits") on Citation Impact: A Bibliography" maintained by Steve Hitchcock is available from <a href="http://opcit.eprints.org/oacitation-biblio.html">http://opcit.eprints.org/oacitation-biblio.html</a> .<br />
+<br />
+</p>
+<p>
+<a name="n110"></a>110 Self-archiving policies and mandates are recorded at the EPrints.org Web site: <a href="http://www.eprints.org/events/berlin3/outcomes.html">http://www.eprints.org/events/berlin3/outcomes.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n111"></a>111 Institutional policy commitments are recorded by EPrints.org as noted above. In addition the Berlin Declaration's Web site tracks hem: <a href="http://www.eprints.org/events/berlin3/outcomes.html">http://www.eprints.org/events/berlin3/outcomes.html</a>. See also Suber's Open Access News entry of May 23, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n112"></a>112 <i>COUNTER (Counting Online Usage of NeTworked Electronic Resources) is a multi-agency initiative whose objective is to develop a set of internationally accepted, extendible Codes of Practice that will allow the usage of online information products and services to be measured more consistently. Release 2 of the COUNTER Code of Practice for journals and databases was published in April 2005 and is now widely implemented. COUNTER is actively supported by the international community of librarians and publishers, and by their professional organizations</i>. (Cited from http://www.niso.org/news/releases/pr-Stats-COUNTER-5-06.html).<br />
+<br />
+</p>
+<p>
+<a name="n113"></a>113 For information about SUSHI's Web service harvesting protocol refer to <a href="http://www.niso.org/committees/SUSHI/SUSHI_story.html">http://www.niso.org/committees/SUSHI/SUSHI_story.html</a> ,.<br />
+<br />
+</p>
+<p>
+<a name="n114"></a>114 This is a highly contested issue and well-beyond the scope of this report. For a recent summary of influential studies and different interpretations of economic implications of OA journal publishing, refer to the June 2006 issue of SPARC Open Access News (SOAN) written by Peter Suber, "Good Facts, Bad Predictions" (http://www.earlham.edu/~peters/fos/newsletter/06-02-06.htm#facts). For opposing views refer to the Liblicense-L (Phil Davis). For other studies refer to the Association for Learned and Professional Society Publishers (ALPSP), <a href="http://www.alpsp.org/default.htm">http://www.alpsp.org/default.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n115"></a>115 Trying to compile accurate cumulative data about NSF's NSDL funding is surprisingly difficult. The basic sources of data include Lee Zia's annual reports in <i>D-Lib Magazine</i> (typically appearing in March) and NSDL annual reports. Although there is award information at the NSDL Web site, it is not kept up-to-date nor does it readily provide dollar-award amounts. To complete FY05 data, the author had to rely directly on the NSF Awards database. The budget data typically reflect the number of awards as opposed to the number of funded projects (awards may be given to different institutions to work on a single project). In addition, Core Integration has numerous sub-contracts but these are not included in award numbers. <br />
+<br />
+</p>
+<p>
+<a name="n116"></a>116 Mick Rhoo's NSDL-CI Evaluation Survey (2006) gives the following figures for the number of awards: Collections, 91; Pathways, 13; Service, 68; Research 27; Core Integration 13-arriving at a total of 212 projects. Report noted in <i>NSDL's Whiteboard Report</i>, April 2006, issue 93, available from <a href="http://content.nsdl.org/wbr/Issue.php?issue=93">http://content.nsdl.org/wbr/Issue.php?issue=93</a>.<br />
+<br />
+</p>
+<p>
+<a name="n117"></a>117 Descriptions of NSDL Pathways are available from <a href="http://nsdl.org/about/?pager=pathways">http://nsdl.org/about/?pager=pathways</a>.<br />
+<br />
+</p>
+<p>
+<a name="n118"></a>118 Proposal solicitation available from <a href="http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5487&amp;org=DUE&amp;from=home">http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5487&amp;org=DUE&amp;from=home</a> <br />
+<br />
+</p>
+<p>
+<a name="n119"></a>119 NSDL's annual reports are available from http://nsdl.org/publications/index.php?pager=ar .<br />
+<br />
+</p>
+<p>
+<a name="n120"></a>120 NSDL's Collection Policy is available from <a href="http://nsdl.org/about/index.php?pager=collection_policy">http://nsdl.org/about/index.php?pager=collection_policy</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n121"></a>121 This represents over 1.2 million resource URLs and 29 registered resource selectors as noted in the <i>NSDL Whiteboard Report</i>, issue 93, April 4, 2006, Available from <a href="http://content.nsdl.org/wbr/Issue.php?Issue.php?issue=93">http://content.nsdl.org/wbr/Issue.php?Issue.php?issue=93</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n122"></a>122 Data about the NSDL collection size obtained in email correspondence with NSDL Director of Collection Development, John Saylor on February 8, 9, 10, and 17, 2006. NSDL's "Collection Registration System" lists accepted and pending collections; it can be filtered by those with or without OAI items: <a href="http://crs.nsdl.org/index.php">http://crs.nsdl.org/index.php</a>.<br />
+<br />
+</p>
+<p>
+<a name="n123"></a>123 This text was contributed directly by NSDL's Core Integration team in May, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n124"></a>124 McCown et al. (2005) recommended that NSDL provide an advanced search capability and the ability to target by grade level. It would be useful to conduct a more thorough study now that NSDL has addressed many of these recommendations and has implemented a new search service. The McGown study was conducted before NSDL began to use the Cornell-based search service in mid-2005. The original study evaluated search results for pedagogical resources in NSDL and Google, finding that a significant portion of NSDL's resources had inaccessible content (for a variety of reasons), that in four of six subject areas Google significantly outperformed the NSDL, and that Google's precision was superior to NSDL's.<br />
+<br />
+</p>
+<p>
+<a name="n125"></a>125 An Overview of the NSDL Library Architecture (dated 11/10/05) is available from <a href="http://nsdl.comm.nsdl.org/docs/nsdl_arch_overview.pdf">http://nsdl.comm.nsdl.org/docs/nsdl_arch_overview.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n126"></a>126 Lagoze et al. (2006b, 5) refer to the Content Alignment Tool; whereas the project Web site calls it a Content Assignment Tool.<br />
+<br />
+</p>
+<p>
+<a name="n127"></a>127 Five vignettes are accessible via the NSDL's Community Portal for the Sustainability Standing Committee <a href="http://sustain.comm.nsdl.org/">http://sustain.comm.nsdl.org/</a>. Or to retrieve all six reports, search the <i>Whiteboard Report</i> &lt;sustainability vignette&gt; from <a href="http://nsdl.org/publications/index.php?pager=wbr">http://nsdl.org/publications/index.php?pager=wbr</a>.<br />
+<br />
+</p>
+<p>
+<a name="n128"></a>128 <i>NSDL Whiteboard Report</i>, May 2006, issue 95 available from <a href="http://content.nsdl.org/wbr/Issue.php?issue=95">http://content.nsdl.org/wbr/Issue.php?issue=95</a>.<br />
+<br />
+</p>
+<p>
+<a name="n129"></a>129 See NSF grant #TPC 055440, 2006-09 for details.<br />
+<br />
+</p>
+<p>
+<a name="n130"></a>130 Project abstract is available from <a href="http://www.cdlib.org/inside/projects/metasearch/nsdl">http://www.cdlib.org/inside/projects/metasearch/nsdl</a>.<br />
+<br />
+</p>
+<p>
+<a name="n131"></a>131 See section 4.5.4 of this report for a discussion of CDL's report on resource integration (Christenson and Tennant 2005).<br />
+<br />
+</p>
+<p>
+<a name="n132"></a>132 For additional details refer to the final NSF aware report, Agogino, A.M. 2004. Enhancing Interoperability of Collections and Services. Final Report, December 2004. NSF Award DUE-0127580. Available from <a href="http://best.me.berkeley.edu/%7Eaagogino/papers/Final_Report_SMETE.pdf">http://best.me.berkeley.edu/%7Eaagogino/papers/Final_Report_SMETE.pdf</a> .<br />
+<br />
+</p>
+<p>
+<a name="n133"></a>133 A bibliography of publications and presentations about SMETE/NEEDS is available from <a href="http://www.needs.org/needs/public/about_needs/publications/">http://www.needs.org/needs/public/about_needs/publications/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n134"></a>134 Engineering Pathway blog posting of November 17, 2005. Available from <a href="http://dev.needs.org:9006/blojsom/blog/default/">http://dev.needs.org:9006/blojsom/blog/default/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n135"></a>135 Information about the Biological Sciences Pathway is complied from documents from the new collaborator's meeting, February 1-3, 2006 available at BEN: <a href="http://www.biosciednet.org/project_site/ben_collaborator_meeting_feb06.php">http://www.biosciednet.org/project_site/ben_collaborator_meeting_feb06.php</a>. <br />
+<br />
+</p>
+<p>
+<a name="n136"></a>136 BEN Partners list with links to services available from <a href="http://www.biosciednet.org/portal/about/partners.php">http://www.biosciednet.org/portal/about/partners.php</a>.<br />
+<br />
+</p>
+<p>
+<a name="n137"></a>137 Peer Review Process of BEN Partners available from <a href="http://www.biosciednet.org/project_site/PeerReviewProcessOfBENPartners.pdf">http://www.biosciednet.org/project_site/PeerReviewProcessOfBENPartners.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n138"></a>138 Information from Yolanda George's presentation at the new collaborator's meeting, February 1-3, 2006: <a href="http://www.biosciednet.org/docs/BEN_New_Collaborators_Feb06/George%20BEN%20February%202006.pdf">http://www.biosciednet.org/docs/BEN_New_Collaborators_Feb06/George%20BEN%20February%202006.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n139"></a>139 BEN User Study, (Chang et al.) September 2004, available from <a href="http://www.biosciednet.org/project_site/BEN_Survey_Article_October_2004.pdf">http://www.biosciednet.org/project_site/BEN_Survey_Article_October_2004.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n140"></a>140 As articulated in "About DLESE: Overview," available from <a href="http://www.dlese.org/about/">http://www.dlese.org/about/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n141"></a>141<a href="http://www.dlese.org/cms/evalservices/recent_developments/recent">http://www.dlese.org/cms/evalservices/recent_developments/recent</a> provides an overview of the final set of data. Number of respondents =524<br />
+<br />
+</p>
+<p>
+<a name="n142"></a>142 From Overview report available from: <a href="http://cybele.colorado.edu/docs/DLESE_User_Survey_Overview_1_19_04.pdf">http://cybele.colorado.edu/docs/DLESE_User_Survey_Overview_1_19_04.pdf</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n143"></a>143 DLESE Community Collection Scope Statement is available from <a href="http://www.dlese.org/Metadata/collections/scopes/dcc-scope.htm">http://www.dlese.org/Metadata/collections/scopes/dcc-scope.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n144"></a>144 DLESE Reviewed Collection Scope Statement is available from <a href="http://www.dlese.org/documents/policy/CollectionsScope_final.html">http://www.dlese.org/documents/policy/CollectionsScope_final.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n145"></a>145Earth Exploration Toolkit proposal abstract available from <a href="http://nsdl.org/resources_for/library_builders/projects.php?pager=projects&amp;this_sort=start_date&amp;keyword=&amp;project_id=0532881">http://nsdl.org/resources_for/library_builders/projects.php?pager=projects&amp;this_sort=start_date&amp;keyword=&amp;project_id=0532881</a>.<br />
+<br />
+</p>
+<p>
+<a name="n146"></a>146 Information available from Press Release of December 9, 2005: <a href="http://www.eotepic.org/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=584">http://www.eotepic.org/modules.php?op=modload&amp;name=News&amp;file=article&amp;sid=584</a>.<br />
+<br />
+</p>
+<p>
+<a name="n147"></a>147 <i>The Introductory Geoscience Virtual Textbook</i> by Christopher DiLeonardo (September 2004) is available from <a href="http://crs.dlese.org/testbed/Textbook/index.html">http://crs.dlese.org/testbed/Textbook/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n148"></a>148 See the Community Review System annotations and reports available from <a href="http://crs.dlese.org/annotations/">http://crs.dlese.org/annotations/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n149"></a>149 An overview of the ADN Metadata Framework is available from <a href="http://www.dlese.org/Metadata/adn-item/history.htm">http://www.dlese.org/Metadata/adn-item/history.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n150"></a>150 For more information refer to <a href="http://geon01.dlese.org/projects/strandmap.html">http://geon01.dlese.org/projects/strandmap.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n151"></a>151 The DLESE bibliography is available from <a href="http://www.dlese.org/documents/bibliographies/DLESE_bibliography.html">http://www.dlese.org/documents/bibliographies/DLESE_bibliography.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n152"></a>152 According to the CSHE study, "MERLOT does not normally report usage statistics by month. From January 1 to November 30, 2005, MERLOT reported a total of 30,232 registered users and 758,754 visits (an average of 2,273 visits per day, with an average of 10 pages per visit)" (Harley et al. 2006, 144).<br />
+<br />
+</p>
+<p>
+<a name="n153"></a>153 MERLOT's Tasting Room provides access to the video presentations. Available from <a href="http://taste.merlot.org/">http://taste.merlot.org/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n154"></a>154 An Overview of MERLOT's Partnerships is available from <a href="http://taste.merlot.org/participating/partner/partner_sum05-06.pdf">http://taste.merlot.org/participating/partner/partner_sum05-06.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n155"></a>155 MERLOT's Partnership Comparison Chart is available from <a href="http://taste.merlot.org/participating/partner/partner_compare05-06.pdf">http://taste.merlot.org/participating/partner/partner_compare05-06.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n156"></a>156 Federated Search pages available from Globe <a href="http://globe.edna.edu.au/globe/go/pid/2">http://globe.edna.edu.au/globe/go/pid/2</a> <br />MERLOT <a href="http://fedsearch.merlot.org/search.jsp">http://fedsearch.merlot.org/search.jsp</a> <br />EdNA <a href="http://www.edna.edu.au/edna/search?SearchMode=Advancemode">http://www.edna.edu.au/edna/search?SearchMode=Advancemode</a> <br />Ariadne requires user registration and log-in (free) to search <a href="http://ariadne.cs.kuleuven.be/silo2006/Welcome.do">http://ariadne.cs.kuleuven.be/silo2006/Welcome.do</a>.<br />
+<br />
+</p>
+<p>
+<a name="n157"></a>157 Information about GLOBE is available from <a href="http://globe.edna.edu.au/globe/go/pid/2">http://globe.edna.edu.au/globe/go/pid/2</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n158"></a>158 Information about MERLOT's collaborations with Learning Management Systems is available from <a href="http://taste.merlot.org/initiatives/lms.htm">http://taste.merlot.org/initiatives/lms.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n159"></a>159 For more information about the ability to search MERLOT within ANGEL refer to <a href="http://www.angellearning.com/products/lms/lor/">http://www.angellearning.com/products/lms/lor/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n160"></a>160 Email correspondence of April 4, 2006 from Martin J. Koning Bastiaan, Director of Technology, MERLOT.<br />
+<br />
+</p>
+<p>
+<a name="n161"></a>161 As mentioned elsewhere in this earlier in this report, Alan Wolf and Flora McMartin are using CSHE's research design to study comparable issues of use in STEM disciplines. See NSF project ID 435398, awarded January 1, 2005, "Faculty Participation in NSDL-Lowering the Barriers."<br />
+<br />
+</p>
+<p>
+<a name="n162"></a>162 Information about the RSLP CLD Schema and an online tutorial are available from <a href="http://www.ukoln.ac.uk/cd-focus/">http://www.ukoln.ac.uk/cd-focus/</a> and <a href="http://ukoln.ac.uk/metadata/rslp/schema">http://ukoln.ac.uk/metadata/rslp/schema</a>. Healey's studies about analytical models for collections and their catalogs are available from <a href="http://www.ukoln.ac.uk/cd-focus/model-ext/intro.html">http://www.ukoln.ac.uk/cd-focus/model-ext/intro.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n163"></a>163 Respectively available from <a href="http://www.niso.org/framework/Framework2.html">http://www.niso.org/framework/Framework2.html</a> and <a href="http://www.niso.org/committees/MS_initiative.html">http://www.niso.org/committees/MS_initiative.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="addn01"></a>163b Series of six Cornucopia Phase 2 reports co-authored by Ann Chapman and Rosemary Russell provided to the author by Chapman via e-mail of April 25, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n164"></a>164 For information about Curriculum Online refer to <a href="http://www.curriculumonline.gov.uk/">http://www.curriculumonline.gov.uk/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n165"></a>165 See footnote above about the RSLP Schema. Information about the Dublin Core Metadata Initiative is available from <a href="http://dublincore.org/groups/collections/">http://dublincore.org/groups/collections/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n166"></a>166 The DCC project Web site provides access to the very useful series of background readings that inform this service's development. Available from, Metadata Roundtable: <a href="http://dublincore.org/groups/collections/">http://dublincore.org/groups/collections/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n168"></a>168 OAI harvesting information is available from <a href="http://memory.loc.gov/ammem/oamh/index.html">http://memory.loc.gov/ammem/oamh/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n169"></a>169 Announced by Arms in 2003, an update is anticipated in summer 2006. For background refer to: <a href="http://memory.loc.gov/ammem/techdocs/libht2003.html#exploit">http://memory.loc.gov/ammem/techdocs/libht2003.html#exploit</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n170"></a>170 Information provided in email correspondence with Curtis Fornadley, Digital Library Architect, SMC (UCLA) on April 14, 2006. The figures at the Web site are out-of-date and incomplete. Some of the April stats are lower than those provided at the native sites. For example, the Maine Music Box reports more than 18,000 OAI-compliant records and the National Library of Australia, more than 9,000.<br />
+<br />
+</p>
+<p>
+<a name="n171"></a>171 Email correspondence with Marilyn Lutz, Maine Music Box, April 19, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n172"></a>172 A series of valuable user assessment reports is available from the project Web site <a href="http://www.cdlib.org/inside/projects/amwest/">http://www.cdlib.org/inside/projects/amwest/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n173"></a>173 A list of deliverables is also available at the URL above.<br />
+<br />
+</p>
+<p>
+<a name="n174"></a>174 The experimental deployment of asset action packages at UIUC is available from <a href="http://rama.grainger.uiuc.edu/assetactions/index.asp">http://rama.grainger.uiuc.edu/assetactions/index.asp</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n175"></a>175 <i>Southern Spaces</i> is available from <a href="http://www.southernspaces.org">http://www.southernspaces.org</a>.<br />
+<br />
+</p>
+<p>
+<a name="n176"></a>176 Metadata Migrator is available from <a href="http://metascholar.org/sw/mm/">http://metascholar.org/sw/mm/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n177"></a>177 For more discussion of MetaArchive, an NDIIPP project, see the project Web site: <a href="http://metaarchive.org/">http://metaarchive.org/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n178"></a>178 The remaining description of SouthComb is a slightly edited version of text provided to the author directly from Elizabeth Milewicz, Emory University, in May 2006.<br />
+<br />
+</p>
+<p>
+<a name="n179"></a>179 Copies of the final reports for the first MetaArchive project and the AmericanSouth project are posted on the MetaScholar Initiative Web site: <a href="http://www.metascholar.org/documents.html">http://www.metascholar.org/documents.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n180"></a>180 Findings from the MetaCombine project are summarized in reports and articles on the project Web site, <a href="http://www.metacombine.org/">http://www.metacombine.org/</a>. <br />
+<br />
+</p>
+<p>
+<a name="n181"></a>181 Available at <a href="http://southconspectus.library.emory.edu/">http://southconspectus.library.emory.edu/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n182"></a>182 Information obtained from the "about" page: <a href="http://www.perseus.tufts.edu/hopper/about">http://www.perseus.tufts.edu/hopper/about</a>.<br />
+<br />
+</p>
+<p>
+<a name="n183"></a>183 Information obtained from the "about" page: <a href="http://www.perseus.tufts.edu/hopper/about">http://www.perseus.tufts.edu/hopper/about</a>.<br />
+<br />
+</p>
+<p>
+<a name="n184"></a>184 Information available from <a href="http://www.perseus.tufts.edu/PR/perseus4.0.ann.full.html">http://www.perseus.tufts.edu/PR/perseus4.0.ann.full.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n185"></a>185 Original PDL: http://www.perseus.tufts.edu/ and New PDL: http://www.perseus.tufts.edu/hopper/collections<br />
+<br />
+</p>
+<p>
+<a name="n186"></a>186 For a full description of COLLEX see Nowviskie 2005; available from <a href="http://www.nines.org/about/Nowviskie-Collex.pdf">http://www.nines.org/about/Nowviskie-Collex.pdf</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n187"></a>187 More information about IVANHOE is available from <a href="http://www.patacriticism.org/ivanhoe/index.html">http://www.patacriticism.org/ivanhoe/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n188"></a>188 This description concentrates on changes to Scirus occurring since the 2003 report. It makes no attempt to cover all of Scirus's features. Readers seeking a more thorough description of features should read the Scirus White Paper (see footnote below) or Gerry McKiernan's E-profile of Scirus (2005).<br />
+<br />
+</p>
+<p>
+<a name="n189"></a>189 Scirus received the "Best Directory or Search Engine Website" Web Award from the Web Marketing Association for the second consecutive year in 2005. It was awarded the "Best Specialty Search Engine" by Search Engine Watch in 2001 and 2002, and received an honorable mention in 2005 for this category. See September 2005 press release available from <a href="http://www.scirus.com/press/pdf/webaward.pdf">http://www.scirus.com/press/pdf/webaward.pdf</a> .<br />
+<br />
+</p>
+<p>
+<a name="n190"></a>190 Scirus White Paper, "How Scirus Works," updated August 2004; available from <a href="http://www.scirus.com/press/pdf/WhitePaper_Scirus.pdf">http://www.scirus.com/press/pdf/WhitePaper_Scirus.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n191"></a>191 The constituent contents of "Digital Archive" do not appear on the Scirus advanced search or "about" page. Information obtained in email communication from Clive Clarke on February 22, 2006. He noted that more sources may be added in the future.<br />
+<br />
+</p>
+<p>
+<a name="n192"></a>192 Email correspondence with Sharon Mombru on March 17, 2006.<br />
+<br />
+</p>
+<p>
+<a name="n193"></a>193 See <a href="http://www.diva-portal.org/scirus.xsql?lang=en">http://www.diva-portal.org/scirus.xsql?lang=en</a>.<br />
+<br />
+</p>
+<p>
+<a name="n194"></a>194 A statistical table of Expert Created Content broken down by subject and type of resources is available from <a href="http://infomine.ucr.edu/about/content.shtml">http://infomine.ucr.edu/about/content.shtml</a>.<br />
+<br />
+</p>
+<p>
+<a name="n195"></a>195 As described on INFOMINE's Research &amp; Development pages, available from <a href="http://infomine.ucr.edu/projects/integration/">http://infomine.ucr.edu/projects/integration/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n196"></a>196 <i>NSDL Whiteboard</i> report, issue 61, October 2004, available from <a href="http://content.nsdl.org/wbr/Issue.php?issue=61">http://content.nsdl.org/wbr/Issue.php?issue=61</a>.<br />
+<br />
+</p>
+<p>
+<a name="n197"></a>197 Information cited from Intute development and FAQ: <a href="http://www.intute.ac.uk/development/">http://www.intute.ac.uk/development/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n198"></a>198 PerX is available from <a href="http://www.icbl.hw.ac.uk/perx/">http://www.icbl.hw.ac.uk/perx/</a>. See the Project Deliverables for future plans to embed PerX in VLEs and other strategies. <br />The ePrints UK Project is available from <a href="http://www.rdn.ac.uk/projects/eprints-uk/">http://www.rdn.ac.uk/projects/eprints-uk/</a>.<br />
+<br />
+</p>
+<p>
+<a name="n199"></a>199 See Annex A: Services Provided by RDN. RDN Service Level Definitions, 1<sup>st</sup> August 2005 to 31<sup>st</sup> July 2006. Available from <a href="http://www.mu.jisc.ac.uk/slas/rdn/rdnsld2005-06.html">http://www.mu.jisc.ac.uk/slas/rdn/rdnsld2005-06.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n200"></a>200 RDN service trend data is available from <a href="http://wiki.library.oregonstate.edu/confluence/display/DLSRW/WorkshopResources">http://wiki.library.oregonstate.edu/confluence/display/DLSRW/WorkshopResources</a>.<br />
+<br />
+</p>
+<p>
+<a name="n201"></a>201 Intute had not yet launched when this report was submitted so the author was unable to test out its functionality.<br />
+<br />
+</p>
+<p>
+<a name="n202"></a>202 For more information about CDL's Common Framework refer to <a href="http://www.cdlib.org/inside/projects/common_framework/index.html">http://www.cdlib.org/inside/projects/common_framework/index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n203"></a>203 See Projects in progress at <a href="http://www.cdlib.org/inside/projects/metasearch/portals.html">http://www.cdlib.org/inside/projects/metasearch/portals.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n204"></a>204 Refer to UCLA European Integration Report: Metasearch Assessment (June 2005). Available from <a href="http://www.cdlib.org/inside/assess/evaluation_activities/docs/2005/uclaMetasearchReport_june2005.pdf">http://www.cdlib.org/inside/assess/evaluation_activities/docs/2005/uclaMetasearchReport_june2005.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n205"></a>205 For more information refer to Roy Tennant's Webcast, "Metasearching: Librarians like searching, users like finding" (February 8, 2005), available from <a href="http://infopeople.org/training/webcasts/02-08-05_metasearch.html">http://infopeople.org/training/webcasts/02-08-05_metasearch.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n206"></a>206 The Scholars Box, under development as part of UC Berkeley's Interactive University Project, <i>is conceived and designed to address important interoperability issues at the intersection of four key information technology domains: digital libraries and repositories; educational technologies and learning management systems; web syndication and portal technologies; and desktop applications and structured content authoring tools.</i> Refer to: <a href="http://interactiveu.berkeley.edu:8000/IU/July2003News#sb">http://interactiveu.berkeley.edu:8000/IU/July2003News#sb</a>.<br />
+<br />
+</p>
+<p>
+<a name="n207"></a>207 Raymond Yee, Scholars Box wiki: <a href="http://raymondyee.net/wiki/ScholarsBox">http://raymondyee.net/wiki/ScholarsBox</a>.<br />
+<br />
+</p>
+<p>
+<a name="n208"></a>208 Information about Ex Libris's MetaLib is available from <a href="http://www.exlibrisgroup.com/metalib.htm">http://www.exlibrisgroup.com/metalib.htm</a>. It is possible to register to listen to the 60-minute archived "Webinar" about this product.<br />
+<br />
+</p>
+<p>
+<a name="n209"></a>209 Available from <a href="http://www.niso.org/standards/resources/Z39-92-DSFTU.pdf">http://www.niso.org/standards/resources/Z39-92-DSFTU.pdf</a>.<br />
+<br />
+</p>
+<p>
+<a name="n210"></a>210 Refer to Lorcan Dempsey's Weblog, "From Metasearch to Distributed Information Environments," October 9, 2005 where he reports on the fall 2004 NISO OpenURL and Metasearch meeting: <a href="http://orweblog.oclc.org/archives/000827.html">http://orweblog.oclc.org/archives/000827.html</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n211"></a>211 See respective project sites: Digital Library Service Registries, Use Studies: <a href="http://wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases/">http://wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases/</a> <br />A Technology Analysis of Repositories and Services: <a href="https://wiki.library.jhu.edu/display/RepoAnalysis/ProjectRepository/">https://wiki.library.jhu.edu/display/RepoAnalysis/ProjectRepository/</a> <br />American West, see persona scenarios: <a href="http://www.cdlib.org/inside/projects/amwest/">http://www.cdlib.org/inside/projects/amwest/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n212"></a>212 For background about Digital Rights Management (DRM) in its much broader context, refer to <a href="http://en.wikipedia.org/wiki/Digital_rights_management/">http://en.wikipedia.org/wiki/Digital_rights_management/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n213"></a>213 Available from <a href="http://www.openarchives.org/OAI/2.0/guidelines-rights.htm">http://www.openarchives.org/OAI/2.0/guidelines-rights.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n214"></a>214 The tutorial is available from <a href="http://www.library.cornell.edu/iris/tutorial/dpm/eng_index.html">http://www.library.cornell.edu/iris/tutorial/dpm/eng_index.html</a>.<br />
+<br />
+</p>
+<p>
+<a name="n215"></a>215 Available from <a href="http://www.freepint.com/issues/160306.htm">http://www.freepint.com/issues/160306.htm</a>.<br />
+<br />
+</p>
+<p>
+<a name="n216"></a>216 Information about the CRL's Certification of Digital Archives program is available from <a href="http://www.crl.edu/content.asp?l1=13&amp;l2=58&amp;l3=142">http://www.crl.edu/content.asp?l1=13&amp;l2=58&amp;l3=142</a>.<br />
+<br />
+</p>
+<p>
+<a name="n217"></a>217 Although it makes no mention of OAI per se, P&eacute;ter Jacs&oacute;'s April 2006 review of the Oxford Journal Collection ("P&eacute;ter's Digital Reference Shelf" GaleNet) provides extensive analysis of the extent of its OA content as well as its accessibility via HighWire Press. Available from <a href="http://www2.hawaii.edu/~jacso/">http://www2.hawaii.edu/~jacso/</a>
+<br />
+<br />
+</p>
+<p>
+<a name="n218"></a>218 As this report goes to press, a study commissioned by JISC has been released that investigates various business models to support "Linking UK Repositories" (Swan and Awre, 2006).<br />
+<br />
+</p>
+<p>
+<a name="n219"></a>219 For a recent articulation of what "The Open Research Web" will offer, refer to Shadbolt et al. in Jacobs, forthcoming 2006.<br />
+<br />
+</p>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a>&nbsp;&nbsp;<a href="appendices.html" class="link">&lt;&lt; previous</a></p>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

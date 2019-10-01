@@ -1,0 +1,667 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../jewell_20061109.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0142.htm');" id=PPTL1>SUSHI as a Model for
+  Library/Vendor Collaboration</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>DLF Fall Forum</li>
+   <li>November 9, 2006</li>
+   <br>
+   <br>
+   <li>Adam Chandler, Cornell</li>
+   <li>Tim Jewell, University of Washington</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0073.htm');" id=PPTL2>The DLF Electronic
+  Resource Management Initiative, Phase I</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0144.htm');" id=PPTL3>Characteristics of ERMI
+  (Phase 1)</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Practical, comprehensive approach to large, important problem</li>
+   <li>Standards-focused</li>
+   <li>Highly collaborative</li>
+   <ul>
+    <li>7-member Steering Group</li>
+    <li>Separate librarian and vendor advisory groups</li>
+   </ul>
+   <li>Well-publicized</li>
+   <li>Rapid, extensive uptake (300+ ERM systems sales/installations)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0165.htm');" id=PPTL4><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0122.htm');" id=PPTL8>The DLF Electronic
+  Resource Management Initiative, Phase II</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Interoperability and Data Standards</li>
+   <ul>
+    <li>(forthcoming white paper)</li>
+   </ul>
+   <li>License Expression</li>
+   <ul>
+    <li>Training in License Term Mapping (ARL/DLF collaboration)</li>
+    <li>License Expression (NISO/EDItEUR License Expression Working Group,
+        etc.)</li>
+   </ul>
+   <li>E-Resource Usage Statistics</li>
+   <ul>
+    <li>Protocol for automated delivery</li>
+    <ul>
+     <li>SUSHI: Standardized Usage Statistics Harvesting Initiative, immediate
+         focus on COUNTER-compliant usage reports</li>
+    </ul>
+    <li>Statement of functional requirements</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0148.htm');" id=PPTL9>Standards Focus: COUNTER</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Formed 2003, member supported</li>
+   <ul>
+    <li>(libraries; publishers; aggregators)</li>
+   </ul>
+   <li>Goal:</li>
+   <ul>
+    <li>Allow credible and consistent usage measurement between vendors</li>
+   </ul>
+   <li>Codes of practice: terminology, report layout and delivery, formats</li>
+   <li>Auditing requirement (by June 2007)</li>
+   <br>
+   <br>
+   <ul>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0150.htm');" id=PPTL10>COUNTER Usage Reports</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Journal Report 1:</li>
+   <ul>
+    <li>Full Text Article Requests by Month and Journal</li>
+   </ul>
+   <li>Journal Report 2:</li>
+   <ul>
+    <li>Turnaways by Month and Journal</li>
+   </ul>
+   <li>Database Report 1:</li>
+   <ul>
+    <li>Total Searches and Sessions by Month and Database</li>
+   </ul>
+   <li>Database Report 2:</li>
+   <ul>
+    <li>Turnaways by Month and Database</li>
+   </ul>
+   <li>Database Report 3:</li>
+   <ul>
+    <li>Searches and Sessions by Month and Service</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0151.htm');" id=PPTL11>Journal Report 1:<br>
+    Number of Successful Full-Text Article Requests by Month and Journal</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0169.htm');" id=PPTL12>What’s the problem?</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0168.htm');" id=PPTL13>ABC-CLIO</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Logon to the Stats interface at: http://serials.abc-clio.com/reports/</li>
+   <li>ID: &lt;xxx&gt;@ufl.edu<span style='mso-spacerun:yes'>  </span>PW:
+       &lt;nnnn&gt;</li>
+   <li>http://serials.abc-clio.com/reports/start&amp;_formname=loginfo&amp;appname=reports&amp;loginname=&lt;xxx&gt;@ufl.edu&amp;password=&lt;nnnn&gt;&amp;forgotten_password=0</li>
+   <li>Choose “Select All” for Institutions</li>
+   <li>Choose a reporting period (one or multiple months)</li>
+   <li>Choose an Output Type (I choose “Excel Friendly HTML”)</li>
+   <li>Click “Run Report”</li>
+   <li>http://serials.abc-clio.com/reports/go/ABC-Clio-Serials-Reports&amp;_appname=reports&amp;_operation=DoReport&amp;addlcid=I00271&amp;addlcid=I00267&amp;addlcid=I00268&amp;addlcid=I00269&amp;addlcid=I00270&amp;addlcid=I00637&amp;addlcid=I00725&amp;addlcid=I00652&amp;addlcid=I00697&amp;addlcid=I00764&amp;startmonth=20051001&amp;stopmonth=20051101&amp;outputtype=C</li>
+   <ul>
+    <li>outputtype=C for CSV, E for Excel friendly html, H for HTML</li>
+    <li>start,stop month in YYYYMMDD</li>
+   </ul>
+   <li>Save Page As HTML file – “FCLAReportMMYY.html”, i.e. –
+       FCLAReport0905.html.</li>
+   <li>Upload to FCLA website and transcribe total annual searches into the
+       master spreadsheet.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0135.htm');" id=PPTL14>BePress</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>BePress stats are VERY complicated to gather. Go to the admin URL: http://www.bepress.com/cgi/myaccount.cgi</li>
+   <li>Login with the user ID and Password for each school.</li>
+   <li>Copy the URL for each school’s report and paste into the browser to get
+       an “Open” or “Save As…” popup window.</li>
+   <li>Open the file in Excel, and make the following modifications:</li>
+   <ul>
+    <li>Add a line above line one that says: BePress Usage Report (Arial, 14
+        point)</li>
+    <li>Bold &amp; Italicize &amp; color purple the next line (Full-Text
+        Downloads….)</li>
+    <li>Delete the usage data for each title up to January of the current year
+        (these reports keep data from the creation of any given university’s
+        account), and then move the data for the current year to the left so
+        that the January data is in Column B.</li>
+    <li>Resize Column A so that the full title of each Journal is viewable</li>
+    <li>Merge &amp; Center these two header lines over the width of the report</li>
+   </ul>
+   <li>Once finished, “Save As Web Page” naming by school &amp; year, i.e.
+       “famu_2005.html”</li>
+   <li>Repeat for each school.</li>
+   <li>Upload to FCLA website and transcribe total annual searches into the
+       master spreadsheet.</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0128.htm');" id=PPTL15>Need to refocus on
+  reports and comparisons we want to make</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Database use by title</li>
+   <li>Journal use by title</li>
+   <li>Use by package or platform</li>
+   <li>Journal use by title, subject comparisons</li>
+   <li>Journal use, subscribed vs. unsubscribed</li>
+   <li>Cost per use, title by title</li>
+   <li>Cost per use, subject by subject</li>
+   <li>Cost per use, package to package</li>
+   <li>Cost per use trend lines</li>
+   <li>Comparisons with peers and consortial partners</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0158.htm');" id=PPTL16>SUSHI Objectives</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Solve the problem of harvesting and managing usage<span
+       style='mso-spacerun:yes'>  </span>data from a growing number of
+       providers.</li>
+   <ul>
+    <li>Promote consistency in usage formatting (XML)</li>
+    <li>Automate the “gathering” process</li>
+   </ul>
+   <li>Enable development of local repositories that can be queried flexibly</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master18.htm></a><a href=master18.xml></a><a
+href=preview.wmf></a><a href=master19.htm></a><a href=master19.xml></a><a
+href=master22.htm></a><a href=master22.xml></a><a href=master02.htm></a><a
+href=pres.xml></a><a href=slide0142.htm></a><a href="master19_image001.gif"></a><a
+href=slide0073.htm></a><a href="master18_image002.gif"></a><a
+href="master18_image003.gif"></a><a href="master18_image004.gif"></a><a
+href="master18_image005.gif"></a><a href="slide0073_image006.png"></a><a
+href="slide0073_image007.gif"></a><a href=slide0144.htm></a><a
+href=slide0165.htm></a><a href="slide0165_image008.gif"></a><a
+href="slide0165_image009.gif"></a><a href="slide0165_image010.gif"></a><a
+href="slide0165_image011.gif"></a><a href="slide0165_image012.gif"></a><a
+href="slide0165_image013.gif"></a><a href="slide0165_image014.gif"></a><a
+href="slide0165_image015.gif"></a><a href="slide0165_image016.gif"></a><a
+href="slide0165_image017.gif"></a><a href="slide0165_image018.gif"></a><a
+href="slide0165_image019.gif"></a><a href=slide0164.htm></a><a
+href="slide0164_image020.gif"></a><a href="slide0164_image021.gif"></a><a
+href="slide0164_image022.gif"></a><a href="slide0164_image023.gif"></a><a
+href="slide0164_image024.gif"></a><a href="slide0164_image025.gif"></a><a
+href="slide0164_image026.gif"></a><a href="slide0164_image027.gif"></a><a
+href="slide0164_image028.gif"></a><a href="slide0164_image029.gif"></a><a
+href="slide0164_image030.gif"></a><a href="slide0164_image031.gif"></a><a
+href="slide0164_image032.gif"></a><a href="slide0164_image033.gif"></a><a
+href=slide0167.htm></a><a href="slide0167_image034.gif"></a><a
+href="slide0167_image035.gif"></a><a href="slide0167_image036.gif"></a><a
+href="slide0167_image037.gif"></a><a href="slide0167_image038.gif"></a><a
+href="slide0167_image039.gif"></a><a href="slide0167_image040.gif"></a><a
+href="slide0167_image041.gif"></a><a href="slide0167_image042.gif"></a><a
+href="slide0167_image043.gif"></a><a href="slide0167_image044.gif"></a><a
+href="slide0167_image045.gif"></a><a href="slide0167_image046.gif"></a><a
+href="slide0167_image047.gif"></a><a href=slide0075.htm></a><a
+href="slide0075_image048.gif"></a><a href="slide0075_image049.gif"></a><a
+href="slide0075_image050.gif"></a><a href="slide0075_image051.gif"></a><a
+href="slide0075_image052.gif"></a><a href="slide0075_image053.gif"></a><a
+href="slide0075_image054.gif"></a><a href="slide0075_image055.gif"></a><a
+href="slide0075_image056.gif"></a><a href="slide0075_image057.gif"></a><a
+href="slide0075_image058.gif"></a><a href="slide0075_image059.gif"></a><a
+href="slide0075_image060.gif"></a><a href="slide0075_image061.gif"></a><a
+href=slide0122.htm></a><a href=slide0148.htm></a><a href=slide0150.htm></a><a
+href=slide0151.htm></a><a href="slide0151_image062.png"></a><a
+href="slide0151_image063.gif"></a><a href=slide0169.htm></a><a
+href=slide0168.htm></a><a href="slide0168_image064.gif"></a><a
+href=slide0135.htm></a><a href="slide0135_image065.gif"></a><a
+href=slide0128.htm></a><a href=slide0158.htm></a><a href=master01.htm></a><a
+href="master18_stylesheet.css"></a><a href="master22_stylesheet.css"></a><a
+href=script.js></a><a href="../jewell_20061109.htm"></a><a href=fullscreen.htm></a><a
+href="notes_flag.gif"></a><a href=buttons.gif></a><a href=frame.htm></a><a
+href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

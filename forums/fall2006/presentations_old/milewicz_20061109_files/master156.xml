@@ -1,0 +1,108 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="249"/>
+ </o:shapelayout><p:colorscheme
+  colors="#f3f6e9,#000000,#666699,#000000,#9bb0cb,#d1e0ce,#8ea642,#cccc00"/>
+ <v:background id="_x0000_s254977" o:bwmode="white" fillcolor="#f3f6e9 [0]">
+  <v:fill color2="#d1e0ce [5]"/>
+ </v:background><p:shaperange id="_x0000_s254978">
+  <v:group id="_x0000_s254978" style='position:absolute;left:84.375pt;top:24pt;
+   width:599.625pt;height:87.125pt' coordorigin="675,192" coordsize="4797,697">
+   <v:oval id="_x0000_s254979" style='position:absolute;left:3067;top:192;
+    width:696;height:696;flip:x;mso-wrap-style:none;v-text-anchor:middle'
+    o:bwmode="undrawn" fillcolor="#d1e0ce [5]" stroked="f" strokecolor="#d1e0ce [5]"
+    strokeweight="2.25pt">
+    <v:shadow color="#669 [2]"/>
+    <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="28"/>
+   </v:oval><v:oval id="_x0000_s254980" style='position:absolute;left:4777;
+    top:192;width:695;height:696;flip:x;mso-wrap-style:none;v-text-anchor:middle'
+    o:bwmode="undrawn" fillcolor="#d1e0ce [5]" stroked="f" strokecolor="#d1e0ce [5]"
+    strokeweight="2.25pt">
+    <v:shadow color="#669 [2]"/>
+    <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="29"/>
+   </v:oval><v:oval id="_x0000_s254981" style='position:absolute;left:675;
+    top:193;width:695;height:696;flip:x;mso-wrap-style:none;v-text-anchor:middle'
+    o:bwmode="undrawn" fillcolor="#d1e0ce [5]" stroked="f" strokecolor="#d1e0ce [5]"
+    strokeweight="2.25pt">
+    <v:shadow color="#669 [2]"/>
+    <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="30"/>
+   </v:oval><v:oval id="_x0000_s254982" style='position:absolute;left:3984;
+    top:192;width:695;height:696;flip:x;mso-wrap-style:none;v-text-anchor:middle'
+    o:bwmode="undrawn" filled="f" fillcolor="#e0e0f0" strokecolor="#d1e0ce [5]"
+    strokeweight="2.25pt">
+    <v:shadow color="#669 [2]"/>
+    <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="31"/>
+   </v:oval><v:oval id="_x0000_s254983" style='position:absolute;left:1486;
+    top:192;width:695;height:696;flip:x;mso-wrap-style:none;v-text-anchor:middle'
+    o:bwmode="undrawn" filled="f" fillcolor="#d1e0ce [5]" strokecolor="#d1e0ce [5]"
+    strokeweight="2.25pt">
+    <v:shadow color="#669 [2]"/>
+    <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="32"/>
+   </v:oval></v:group></p:shaperange>
+ <p:shaperange id="_x0000_m254984">
+  <v:shapetype id="_x0000_m254984" style='position:absolute;left:36pt;top:126pt;
+   width:9in;height:356.75pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#9bb0cb [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="#f3f6e9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#669 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s254985">
+  <v:shapetype id="_x0000_s254985" style='position:absolute;left:36pt;top:492pt;
+   width:168pt;height:36pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#9bb0cb [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="#f3f6e9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#669 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="33"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s254986">
+  <v:shapetype id="_x0000_s254986" style='position:absolute;left:246pt;top:492pt;
+   width:228pt;height:36pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#9bb0cb [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="#f3f6e9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#669 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="34"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s254987">
+  <v:shapetype id="_x0000_s254987" style='position:absolute;left:516pt;top:492pt;
+   width:168pt;height:36pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#9bb0cb [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="#f3f6e9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#669 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="slideNumber" position="4" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="35"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m254988">
+  <v:shapetype id="_x0000_m254988" style='position:absolute;left:36pt;top:21.625pt;
+   width:9in;height:90pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#9bb0cb [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="#f3f6e9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#669 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+</xml>

@@ -1,0 +1,106 @@
+/* general presentation stuff */
+
+body, p, td, th, ul, a {
+	background-color: #fff;	
+	font-family: "Times New Roman", Garamond, serif;
+	font-size: 12pt;
+}
+
+h1 {
+	font-family: "Times New Roman", Garamond, serif;
+	font-size: 24pt; text-align: center; 
+}
+
+.maintitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.sectionhead {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.sectionhead1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.sectionhead2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.sectionhead3 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+}
+.bodylarge {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+h3 {
+	font-size: 14pt;
+}
+.bodybold {
+	font-size: 18pt;
+}
+
+/* control of block-level elements.  */
+
+#content {
+	background-color: #fff;
+	width: 100%;
+	border: none;
+}
+
+#navigation, #footer, .noprint {
+	display: none;
+}

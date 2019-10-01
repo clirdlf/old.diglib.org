@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xml:lang="en">
+<head>
+<meta name="dc.Title" content="Contexts and Contributions: Building the Distributed Library" />
+<meta name="dc.Creator" content="Martha L. Brogan" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher"
+content="Digital Library Federation: Washington, D.C." />
+<meta name="dc.Contributor"
+content="Barrie Howard" />
+<meta name="dc.Date" content="2006-09-13" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="DC.identifier" content="http://purl.oclc.org/DLF/dlf106" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Contexts and Contributions: Building the Distributed Library</title>
+
+
+<style type="text/css">
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; }
+
+	  .nobullet { list-style-type: none; }
+
+        </style>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+if (Math.random) {
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif";
+arrQuote = strQuote.split("^");
+var num = Math.floor(Math.random() * arrQuote.length);
+document.quote_rotate.src = "../../images/"+arrQuote[num];
+}
+}
+//-->
+</script>
+
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="/wrap/wrap.css" /><script type="text/javascript" src="/wrap/wrap.js"></script></head>
+<body onload="wrapoldcontent();MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint">
+          <td valign="top">
+
+ <form action="search.asp" method="get" name="searchform" id="search">
+<label for="textfield"><span class="news">Search&nbsp;</span></label>
+<input name="qu" id="textfield" type="text" value="" size="10" />&nbsp;
+<a href="javascript:document.searchform.submit();">
+
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp;
+<a href="../../sitemap.htm"><img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a>
+<script language="JavaScript" type="text/javascript"></script>
+</form> 
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="157" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="157" height="38" border="0" id="collect" /></a></td>
+       <td width="157" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="157" height="38" border="0" id="produce" /></a></td>
+
+    <td width="157" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="157" height="38" border="0" /></a></td>
+    <td width="157" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="157" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr>
+       <td align="left" valign="top">
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" />
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script>
+
+
+</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr>
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script>
+
+        </td>
+        </tr>
+
+      <tr>
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Executive Director</a>
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr>
+          <td align="left" valign="top">
+
+
+
+<!-- Begin text here -->
+
+<hr width="75%" />
+<center>
+<h2>PART III: CONTRIBUTIONS</h2>
+</center>
+
+<a name="s3"></a>
+<hr width="75%" />
+<center>
+<h3>3.0 Next Generation OAI</h3>
+</center>
+<p>As hoped, OAI's flexibility and relatively low common denominator of required elements has helped to foster adoption by a wide range of domains and institutions. The specification for OAI Static Repositories and Gateways, released in October 2004, fosters growth among smaller, resource-challenged repositories in cases where OAI implementation would otherwise have proven beyond their capacity (Habing 2005).  The specification provides a simple means for small collections (fewer than 5,000 records) that do not change frequently (less often than monthly) to expose metadata in a single XML file (10-20 MB) for harvesting through intermediation of an OAI Static Gateway.<a href="notes.html#n17"> [[17]]</a> In February 2006, JISC (UK) announced the STARGATE project, Static Repository Gateway Toolkit: Enabling small publishers to participate in OAI-PMH-based services. According to the press release:
+<blockquote>The project is implementing a series of static repositories of publisher metadata, and will demonstrate the interoperability of the exposed metadata through harvesting and cross-searching via a static repository gateway, and conduct a critical evaluation of the static repository approach with publishers and service providers.<a href="notes.html#n18"> [[18]]</a>
+</blockquote>
+Initially the project will concentrate on four library and information science journals and PerX, Pilot Engineering Repository Xsearch (see 2.1.2 and 4.2.8).</p>
+<p>Meanwhile, OAI-PMH's simplicity may translate into myriad problems for harvesters, especially in cases where data providers do not implement some of the "optional features" that are most helpful to building aggregations. Consequently, service providers are often confronted by inconsistent, insufficient, or incompatible data that limit their ability to build meaningful aggregations for end-users. DLF members and affiliated partners have been at the forefront in articulating these problems and promoting solutions (Cole and Shreeves 2004, Tennant 2004a, Hagedorn 2005b, Shreeves et al. 2005, Lagoze et al. 2006a,b). Their efforts attempt to strike a balance between the demands placed on data providers and the expectations of service providers. To the extent practicable, they seek ways to automate procedures through machine-to-machine interaction, while recognizing that some degree of expert human intervention will always be required. </p>
+
+
+<a name="s3ss1"></a>
+<hr width="75%" />
+<center>
+<h3>3.1 Building the Distributed Library</h3>
+</center>
+<p>While continuing to apply the lessons learned from adopting the protocol, the DLF received a two-year grant from the Institute of Museum and Library Services (IMLS) in October 2004 to help achieve its vision of "the distributed library," using OAI for digital library aggregation. More concretely, the grant addresses challenges identified by early OAI adopters through promulgating best practices and facilitating communication among data and service providers about such issues as metadata variation, metadata formats, and implementation practices (Shreeves et al. 2005). The proposal states:
+<blockquote>The Open Archives Initiative (OAI) has proven itself as a protocol that allows basic metadata records to be created by many providers and then gathered up by harvesters who use those records to create library services (e.g. <a href="http://www.oaister.org/">http://www.oaister.org/</a>). In the act of using it over several years in library settings, however, a range of issues have come to light that need research and development if OAI is going to mature into its full potential: <b>collections as well as item records need further development</b>, and we <b>need richer mechanisms of creating dialog between harvesters and providers</b>; the hurdles to adoption need careful study, particularly how to embed the very idea of creating public, harvestable metadata as a <b>routine step in our digitizing workflows</b>, and how to <b>speed up the feedback loop from a harvester to a community of providers</b> such as exists in the library world, who typically respond positively to such <b>"good practice" guidance</b>.<br />
+(DLF <a href="/architectures/oai/imls2004/">http://www.diglib.org/architectures/oai/imls2004/</a>, emphasis added)</blockquote>
+This is a multi-faceted endeavor, enabling DLF to solidify best practices for the creation of metadata about its dispersed collections, which then inform the development of new DLF services, such as the following:
+<ul>
+<li>1. Promotion of the <b>University of Illinois OAI-PMH Data Provider Registry</b>, a comprehensive technical resource intended principally for use by builders of OAI services. With nearly 1,050 active repositories, the registry is browsable via a Web interface or as XML. Described more fully in section 4.1.1, the registry is available from <a href="http://gita.grainger.uiuc.edu/registry">http://gita.grainger.uiuc.edu/registry</a>.</li>
+<li>2. <b>A DLF Portal</b> that allows users to access all items from DLF-member institutions that are publicized through the Open Archives Initiative. Described more fully in section 4.1.8, as of May 2006, the portal contained more than one million records: <a href="http://hti.umich.edu/i/imls/">http://hti.umich.edu/i/imls/</a>.</li>
+<li>3. <b>A DLF MODS Portal</b> that represents a subset of the full Portal, gathering together those records that have the richer MODS metadata that support much better subject, date, and geographic navigation. Currently comprising more than 250,000 records, the MODS Portal is also described in section 4.1.8: <a href="http://www.hti.umich.edu/m/mods">http://www.hti.umich.edu/m/mods</a>.</li>
+<li>4. A new <b>DLF Collections Registry</b> that describes nearly 800 publicly accessible digital collections from which the item-level records in the Portal are derived. Described more fully in section 4.4.3, the Registry is available from: <a href="http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/">http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/</a>.</li>
+</ul> Overall, these efforts are informed by advice from DLF's Scholars' Advisory Panel and Panel of Technical Experts. As a result, Seaman notes that they reflect some of the following improvements:
+<ul>
+<li>A simpler (Google-like) initial interface;</li>
+<li>The inclusion of thumbnail images of graphical collections into the metadata;</li>
+<li>The closing linking of an item to its immediate collection (rather than to its institution);</li>
+<li>More fields for limiting searches;</li>
+<li>A book bag for saving and emailing records;</li>
+<li>Inclusion in A9.com to facilitate simultaneous searching with Amazon, Wikipedia, RedLightGreen, The British Library catalog, and many other OpenSearch services; and</li>
+<li>Persistent URLs.</li>
+</ul>
+</p>
+
+<a name="s3ss1p1"></a>
+<h4>3.1.1 Components of DLF's Grant-related Work</h4>
+<p>The DLF grant's principal partners at Emory University, the University of Michigan and the University of Illinois at Urbana-Champaign (UIUC) are focusing on three broad areas of activity:
+<ul>
+<li>1. Understanding and improving workflow practices and training so that the creation of item-level metadata is integrated into daily workflow routines of DLF-member institutions. This will increase and regularize the creation and exposure of metadata for harvesting, which serves as the foundation of a reliable and well-populated finding system for DLF's distributed content. Over time, this addresses a chief concern identified in the 2003 survey, namely making the creation and exposure of item-level metadata a priority so more meaningful content is readily accessible to the end-user.<a href="notes.html#n19"> [[19]]</a>
+</li>
+<li>2. Developing more nuanced and prescriptive "Best Practices" for the creation of metadata with provisions for richer metadata than the unqualified Dublin Core mandated by OAI. Agreed upon best practices will help to overcome the inordinate amount of time that harvesters (OAI service providers) need to spend normalizing and completing records before they can build new services. This is essential if the proposed finding system is going to scale and flourish. It also addresses concerns of granularity and context raised in the 2003 survey.</li>
+<li>3. Coordinating information exchange between service and metadata providers for better discovery by developers as well as by the end-user. This will help digital library developers identify content for new services and will promote wider access by end-users. It responds to the need for a user-friendly registry or discovery tool geared towards the end-user noted in the 2003 survey.</li>
+</ul>
+Emory University has created a series of curriculum materials for use in OAI best practices training. This curriculum series includes eight separate documents that together provide a concise set of materials for training institutional teams in best practices for OAI implementation. Emory University is currently developing an online system that would allow searching and collaborative updating of the OAI Best Practices, and controlled output of selected information into formatted training materials. Briefly annotated below, the series is current available at DLF's Web site, <a href="/architectures/oai/imls2004/training/">http://www.diglib.org/architectures/oai/imls2004/training/</a>:
+<ul>
+<li>
+<b>DLF OAI Implementers Workshop: Agenda</b>
+<ul>
+<li>An example of a typical workshop structure, in which instruction in OAI implementation is paired with a clinical focus on participants' unique circumstances and challenges. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/OAI-workshopagendaFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/OAI-workshopagendaFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>The <b>Project Abstract</b>: outlines the purpose and goals of the IMLS project.
+<ul>
+<li>
+<a href="www.diglib.org/architectures/oai/imls2004/training/ProjectAbstractFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/ProjectAbstractFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>The Case for OAI</b>
+<ul>
+<li>A synopsis of the background and development of the protocol, motivations for its use (needs and demand), and benefits of increasing the quantity and quality of shared metadata through OAI implementation. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/CaseforOAIFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/CaseforOAIFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>OAI Implementation: Administrative Planning</b>
+<ul>
+<li>A guide to resource-allocation and planning issues that outlines a six-step implementation scheme and provides the estimated timeline, budget, personnel, and technology. <a href="www.diglib.org/architectures/oai/imls2004/training/ImplementationFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/ImplementationFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>OAI "Cheat Sheet": A Taxonomy of Rapid OAI Deployment Strategies</b>
+<ul>
+<li>Provides easy solutions for implementing OAI with current formats and systems and the pros and cons of each strategy. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/TaxonomyFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/TaxonomyFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>OAI Tools</b>
+<ul>
+<li>An overview of OAI-implementation tools, grouped into three areas according to their role in the OAI-implementation process: (1) Data Provider Tools &amp; Scripts, (2) Digital Library Systems, and (3) Validation &amp; Harvesting Systems. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/OAIToolsFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/OAIToolsFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>Summary of OAI Metadata Best Practices</b>
+<ul>
+<li>Introduces (1) the "best practices" for increasing the quality of shareable metadata, (2) the quality issues that currently limit its usability, and (3) the range of metadata formats that may be used with OAI. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/MetadataFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/MetadataFinal.pdf</a>
+</li>
+</ul>
+</li>
+<li>
+<b>Summary of the DLF Aquifer MODS Profile</b>
+<ul>
+<li>Introduces the requirements and recommendations for use with digital cultural heritage materials and humanities-based scholarly resources. <br />
+<a href="www.diglib.org/architectures/oai/imls2004/training/MODSFinal.pdf">www.diglib.org/architectures/oai/imls2004/training/MODSFinal.pdf</a>
+</li>
+</ul>
+</li>
+</ul>
+Most major digital library systems now offer OAI data provider (and increasingly harvesting) capability. The DLF's "OAI Tools" handout annotates seven of them: ContentDM, CWIS (Collection Workflow Integration System), DLXS, DSpace, Ex Libris' DigiTool, Fedora, and Greenstone. While this list concentrates primarily on open source and non-commercial systems, DLF recognizes that many library vendors and software developers are building OAI data provider functionality into their overall digital content management systems. Among major library vendors offering turnkey solutions are: Endeavor's EnCompass; ProQuest's Digital Commons; IndexData's Keystone, Fretwell Downing Informatics' CPORTAL; VTLS' Vortex; and SirsiDynix's 3.0 release of the Hyperion system.</p>
+
+<a name="s3ss1p2"></a>
+<h4>3.1.2 The Case for Sharing Metadata and Improving Its Quality</h4>
+<p>"Marketing with Metadata - How Metadata Can Increase Exposure and Visibility of Online Content" (Moffat 2006) makes a succinct and persuasive case for exposing metadata by outlining its benefits:
+<ul>
+<li>Allow your content to be found from a large number of locations (e.g. portals, aggregators, search engines).</li>
+<li>Allow aggregators to expose and thereby help to promote your materials in novel ways.</li>
+<li>Enhance the visibility and awareness of your available resources.</li>
+<li>Be a useful way to expose materials to new markets.</li>
+<li>Allow potential users to determine the relevance of resources without having to access them first.</li>
+<li>Facilitate the production of interoperable services.</li>
+<li>Improve the visibility of your content in search engines such as Google, Google Scholar and Yahoo.</li>
+<li>Drive traffic and business to websites.</li>
+</ul> (Source: Version 1.0 8<sup>th</sup> March 2006 <a href="http://www.icbl.hw.ac.uk/perx/advocacy/exposingmetadata.htm">http://www.icbl.hw.ac.uk/perx/advocacy/exposingmetadata.htm</a>)</p>
+<p>This advocacy document provides case studies for three ways of exposing metadata: harvesting metadata via OAI, exposing metadata via distributed searching (e.g., Z39.50, SRU/SRW), and exposing content for syndication (e.g., RSS). It also provides answers to common questions, such as:
+<ul>
+<li>
+<b>"If it's all about sharing content why can't we just provide you with a link to our content?"</b>
+<ul>
+<li>Simply providing a link to your content does not allow it to be shared and re-purposed easily and in a standard way. The beauty of exposing metadata in a standard way is that little effort is required for third parties to reuse your metadata and make it available to their visitors.</li>
+</ul>
+</li>
+<li>
+<b>"I don't like the thought of giving away our content for others to use."</b>
+<ul>
+<li>Exposed metadata usually only contains a brief description of the actual content - just enough to generate interest in potential users. These users will be directed back to your site by links in the metadata in order to access the full content in the normal way (i.e. freely available, subscription based, pay-per-view, etc).</li>
+</ul>
+</li>
+<li>
+<b>"Will exposing my metadata mean that it is indexed by search engines such as Google or Google Scholar?"</b>
+<ul>
+<li>This depends on how your metadata is exposed and the indexing approaches taken by individual search engines. Exposing metadata via OAI certainly can improve ranking in search engines. "A normal Google or Google Scholar search favours OAI-repository material and normally ranks it higher than an individual's own website." Recent developments such as 'search engine-OAI bridges' are improving search engines indexing of OAI compliant repositories. Many OAI repositories are now indexed by a number of search engines, e.g. Cogprints, a repository for cognitive sciences, is indexed by Google, Google Scholar, Yahoo, Scirus and Citebase.</li>
+</ul>
+</li>
+<li>
+<b>"Why can't I simply make my content available to Google and let people find my stuff that way?"</b>
+<ul>
+<li>You can, and in many cases this will be a perfectly appropriate thing to do. This is particularly true for freely available full text resources. However, in some cases, for example where most of your resources are not text-based, exposing them to Google may not help much. In other cases, you may not want to make the full content freely available. In these situations, exposing metadata may be more appropriate. By making your metadata freely available, you can allow people to discover your resources more readily.</li>
+</ul>
+</li>
+</ul> The case made, it is no surprise given their extensive experience in building services based on OAI harvesting, that the DLF in partnership with the National Science Digital Library (NSDL) is developing "Best Practices for Shareable Metadata." They point out that the attributes of high-quality metadata in a local context do not necessarily equate with the best metadata in a shared environment. The guidelines identify the following additional desirable characteristics for shareable metadata:
+<ul>
+<li>
+<b>Proper context</b>. <i>In a shared environment, metadata records will become separated from any high-level context applying to all records in a group, and from other records presented together in a local environment. It is therefore essential that each record contain the context necessary for understanding the resource the record describes, without relying on outside information.</i>
+</li>
+<li>
+<b>Content coherence</b>. <i>Metadata records for a shared environment need to contain enough information such that the record makes sense standing on its own, yet exclude information that only makes sense in a local environment. This can be described as sharing a 'view' of the native metadata.</i>
+</li>
+<li>
+<b>Use of standard vocabularies</b>. <i>The use of standard vocabularies enables the better integration of metadata records from one source with records from other sources.</i>
+</li>
+<li>
+<b>Consistency</b>. <i>Even high-quality metadata will vary somewhat among metadata creators. All decisions made about application of elements, syntax of metadata values, and usage of controlled vocabularies, should be consistent within an identifiable set of metadata records so those using this metadata can apply any necessary transformation steps without having to process inconsistencies within such a set.</i>
+</li>
+<li>
+<b>Technical conformance</b>. <i>Metadata should conform to the specified XML schemas and should be properly encoded.</i> (DLF and NSDL 2005)</li>
+</ul>
+</p>
+<p>Since August 2005, a working draft of the "Best Practices" has been available at the project's wiki located at the NSDL's community portal. DLF and NSDL are working with their respective communities and library vendors alike to raise awareness of why these guidelines are important. Publication of the document is anticipated later in 2006.</p>
+<p>A key recommendation emanating from this collaboration is to endorse MODS (Metadata Object Description Schema) as the preferred metadata schema, particularly for use in describing cultural heritage and humanities digital resources.<a href="notes.html#n20"> [[20]]</a> In December 2005, the DLF released for public comment, "MODS Implementation Guidelines for Cultural Heritage Materials." Among other features, the guidelines help to address the particular difficulties inherent in describing digital objects that have analog originals by distinguishing between "the intellectual content and genre of a resource and its digital format and location." The richer MODS descriptive schema helps to pave the way for enhanced service features, such as those identified by DLF's Scholars' Advisory Panel.</p>
+
+<p>
+<br />
+<table border="1">MODS high-level elements include:
+<tr>
+<td colspan="1">Title Information <br />Name <br />Type of resource <br />Genre <br />Origin Information <br />Language <br />Physical description <br />Abstract <br />Table of contents <br />Target audience</td><td colspan="1">Note <br />Subject <br />Classification <br />Related item <br />Identifier <br />Location <br />Access conditions <br />Extension <br />Record Information <br />(Guenther 2005)</td>
+</tr>
+</table>
+<br />
+</p>
+<p>Institutions currently creating MODS records include: the Library of Congress, Indiana University, OCLC, and the University of Chicago (refer to section 4.1.8 for sample records).</p>
+
+<a name="s3ss1p3"></a>
+<h4>3.1.3 DLF 2006 Survey Responses about Metadata</h4>
+<p>The DLF survey respondents represent primarily OAI service providers so it comes as no surprise that most are eagerly anticipating promulgation of the "best practices" to improve the quality of metadata they harvest. Indeed representatives from a number of these services are members of the DLF Best Practices Task Force. When asked if they expected to change their metadata creation practices in light of the forthcoming DLF/NSDL OAI best practice guidelines, the two respondents below reflect the hopes of most service providers:
+<blockquote>
+<p>We expect the uncertainly of metadata normalization and enhancement that we have to do to lessen as better standards/guidelines are promulgated for mapping native content management metadata into OAI records for harvesting.</p>
+<p>We would like to incorporate alternate metadata formats, besides oai_dc, whenever possible. We would also like to incorporate collection descriptions into the search interface when feasible. However, as an aggregator we are pretty much stuck with whatever metadata is available from our sources. We do some date normalization and will follow best practices as applicable; however, our hope is that the best practices will influence the repositories from which we harvest so that we can take advantage of the improved metadata to provide better search and browse services.</p>
+</blockquote>
+Although they are at the forefront of devising tools that help to migrate, remediate, and enhance metadata, these service providers also join other survey respondents calling for more automatic metadata tools.</p>
+<p>Respondents noted some of the following accomplishments relative to metadata:
+<ul>
+<li>Emory University created The Metadata Migrator software package, funded by the Institute of Museum and Library Services. It allows institutions such as museums, archives, research centers, and small libraries to make their locally stored records available for online searching using the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH), <a href="http://www.metascholar.org/sw/mm/">http://www.metascholar.org/sw/mm/</a>.</li>
+<li>The California Digital Library drafted "Specifications for Metadata Processing Tools" (Tennant, n.d.), <a href="http://www.cdlib.org/inside/projects/harvesting/metadata_tools.htm">http://www.cdlib.org/inside/projects/harvesting/metadata_tools.htm</a>, and created a Date Normalization Tool. This Java utility takes non-machine readable Common Era dates as input and outputs machine-readable dates in order to enhance digital collections to support date range queries, <a href="http://www.cdlib.org/inside/diglib/datenorm/">http://www.cdlib.org/inside/diglib/datenorm/</a>. Through its Metasearch Initiative, CDL established an SRU-compliant gateway to OAI-harvested metadata. These initiatives are described at <a href="http://www.cdlib.org/inside/projects/harvesting/">http://www.cdlib.org/inside/projects/harvesting/</a>.</li>
+<li>The CIC launched a new consortial metadata portal under the leadership of the University of Illinois; drafted "CIC-OAI Project Recommendations for Dublin Core Metadata Providers," Version 1.0 06/18/2004, edited by Muriel Foulonneau and Timothy W. Cole, <a href="http://cicharvest.grainger.uiuc.edu/dcguidelines.asp">http://cicharvest.grainger.uiuc.edu/dcguidelines.asp</a>; and refined its workflow and filtering processes for metadata as described at <a href="http://cicharvest.grainger.uiuc.edu/aggregation.asp">http://cicharvest.grainger.uiuc.edu/aggregation.asp</a>. It enriched and normalized the metadata to support various browse and search interfaces. Recently it developed a new enhanced OAI data provider for the registry to allow not only simple Dublin Core records that describe each repository harvested, but also the much richer collections that created manually along with the repository descriptions imported from OAIster. Because each of these sets and subsets has rich collection-level metadata derived from the registry, it allows harvesters to associate collection-level metadata to individually harvested items more easily.</li>
+<li>OAIster provided UI with additional metadata about all of its OAI repositories (e.g., title, description, home page, and historical record counts) and now it refers new data providers to UI for registration and validation before harvesting their metadata. In March 2006, OAIster announced the availability of its metadata for use by federated search engines via SRU and created a Web page with instructions about how it use its metadata outside OAIster's interface (<a href="http://oaister.umdl.umich.edu/o/oaister/sru.html">http://oaister.umdl.umich.edu/o/oaister/sru.html</a>).</li>
+<li>The DLF launched a new portal based on MODS (as 4.1.8), <a href="http://www.hti.umich.edu/m/mods">http://www.hti.umich.edu/m/mods</a>.</li>
+<li>The Directory of Open Access Journals (DOAJ) began to make article-level metadata available in addition to journal metadata, <a href="http://www.doaj.org/articles/questions#metadataA">http://www.doaj.org/articles/questions#metadataA</a>.</li>
+<li>The Open Language Archives Community (OLAC) developed a metadata quality, report system and implemented an interactive survey of OLAC metadata implementations that permits users to see how any attribute or field of OLAC metadata is used by other OLAC archives. Its new search engine includes in the results a metadata quality-centric sorting algorithm.</li>
+<li>SMETE resources are cataloged to meet the requirements of the IEEE Learning Object Metadata Standard and SMETE has developed tools to transform local application profiles to normalized application profiles, <a href="http://smete.org/smete/">http://smete.org/smete/</a> (see Technology).</li>
+<li>BEN has created metadata validation software tools for contributors to its portal, <a href="http://www.biosciednet.org/project_site/">http://www.biosciednet.org/project_site/</a>.</li>
+<li>DLESE developed a distributed Web-based cataloging tool to support multiple collections and multiple metadata frameworks. With other entities created the ADN Metadata Framework, <a href="http://www.dlese.org/Metadata/adn-item/history.htm">http://www.dlese.org/Metadata/adn-item/history.htm</a>.</li>
+<li>MERLOT developed a Metadata Services Agreement for use with participating external vendors.</li>
+<li>Cornucopia migrated to a new software system and realigned almost all of its data structure to conform to the RSLP (Research Support Libraries Programme) Collection Level Description Metadata Schema, <a href="http://www.ukoln.ac.uk/metadata/rslp/">http://www.ukoln.ac.uk/metadata/rslp/</a>.</li>
+<li>In creating the collection registry model, the IMLS Digital Collections &amp; Content (DCC) gateway draws on research about how to define and describe collections, ultimately opting to adapt the RSLP Collection Description Schema and the Dublin Core Collection Description Application Profile (Cole and Shreeves 2004, 312). The DCC arrived at a collection description metadata schema with four classes of entities</li>
+<li>The Collaborative Digitization Program (e.g., Heritage West) revised and updated its CDP Dublin Core Metadata Best Practices, <a href="http://www.cdpheritage.org/cdp/documents/CDPDCMBP.pdf">http://www.cdpheritage.org/cdp/documents/CDPDCMBP.pdf</a>.</li>
+<li>The American West carried out preliminary work on metadata enhancement to support topical clustering and faceted browsing.</li>
+<li>DLF Aquifer developed a descriptive metadata (MODS) profile (as described above), <a href="/aquifer/DLF_MODS_ImpGuidelines_ver4.pdf">http://www.diglib.org/aquifer/DLF_MODS_ImpGuidelines_ver4.pdf</a>. Next steps will be developing middleware tools that support metadata management activities such as migration, taxonomy assignment, and metadata enrichment.</li>
+<li>The INFOMINE database has been populated with robot records, mostly created from the iVia virtual library crawler and machine-generated metadata (using iVia classifiers). The iVia software supports automated metadata generation to assign Library of Congress Subject Headings and LC Classifications to resources. The iVia software also enabled NSDL to harvest item-level metadata from iVia's server for selected NSDL collections that did not include detailed metadata.</li>
+</ul>
+</p>
+<p>Among the challenges, respondents noted:
+<ul>
+<li>the willingness (or not) to make harvestable metadata a local priority (DLF Portal);</li>
+<li>lack of a good metadata editor and metadata cleansing tools (OLAC);</li>
+<li>quality control of metadata and learning objects (NEEDS);</li>
+<li>incompatible metadata standards (Sheet Music Consortium);</li>
+<li>automatic metadata creation tools (Intute); and</li>
+<li>the need for robust, flexible, open source tools for metadata normalization and enrichment (CDL).</li>
+</ul>
+</p>
+<p>Finally, turning to the goals of "next generation" services, the Sheet Music Consortium seeks enriched metadata to provide better retrieval services and INFOMINE looks forward to harvesting and sharing metadata with other digital libraries. Meanwhile, NSDL's conversion to a Fedora repository marks a major transition from a metadata-centric to a resource-centric data model and search service; and DLF Aquifer anticipates experimentation with methods of aggregation other than metadata harvesting, namely the ability to move digital objects from domain to domain, perhaps modifying and re-depositing them in a different location in the process.</p>
+
+
+
+<a name="s3ss2"></a>
+<hr width="75%" />
+<center>
+<h3>3.2 Digital Library Services Registries (DLSR)</h3>
+</center>
+<p>The "service registry" is central to enabling digital libraries to interoperate in distributed information environments with service-oriented architectures based on common standards and protocols. Dempsey refers to the service registry's collective data as the equivalent of the "systemwide 'intelligence'" within a network to run distributed applications.<a href="notes.html#n21"> [[21]]</a> At a March 2006 workshop, participants wrote a draft definition of the concept: "A digital library service registry allows a machine or human to discover available digital library services, locate those services, and obtain configuration information to services for the purpose of interfacing."<a href="notes.html#n22"> [[22]]</a>
+</p>
+<p>While there are numerous examples of application-specific registries like those for OAI-PMH (described in the next section) or the OpenURL Registry, maintained by OCLC, two efforts underway in the UK and US respectively share the goal of creating "service agnostic" registries to facilitate resource discovery and use by a multitude of applications (e.g., Z39.50, SRW/U, OAI-PMH, OpenURL).<a href="notes.html#n23"> [[23]]</a> The Information Environment Service Registry (IESR, <a href="http://www.iesr.ac.uk/">http://www.iesr.ac.uk/</a>) sponsored by JISC (described in section 2.1.1 above) uses a centralized approach (depicted as part of the "shared infrastructure" in Figure 06), whereas the Ockham DLSR (<a href="http://www.ockham.org">http://www.ockham.org</a>/) sponsored by the NSF's National Digital Science Library (NSDL) relies on a distributed model.</p>
+<p>The DLSR serves three primary functions:
+<ul>
+<li>
+<i>Discovery</i> - allowing a user or a machine to discover available, relevant services;</li>
+<li>
+<i>Resolution</i> - providing the ability for a person or a machine to locate, or resolve to, a</li>
+<li>
+<i>Configuration</i> - provide information necessary for a client to access a particular service. (Frumkin 2006a, 24)</li>
+</ul>
+</p>
+<p>As part of the DLSR Workshop noted above, Frumkin devised a series of "use cases" that demonstrate how DLSR fits into different scenarios. In the two examples below, the first depicts how the DLSR would help a user through personalized metasearching and the second, illustrates how the DLSR would facilitate development of OAI aggregations.</p>
+<blockquote>
+<p>
+<b>Personalized Metasearching:</b>
+<br /> Bernie the researcher is exploring the history of science for a book he is working on. He uses his library's metasearch tool to search through history-related databases and collections. He also searches the web for collections and resources that do not reside within the context of his library's collections and services. During his web searching, he discovers the Linus Pauling papers at Oregon State University. Bernie would like to add the Linus Pauling collection to his default metasearch, so he goes into the metasearch tool, clicks the 'customize this search' button, and then searches for the Linus Pauling collection to see if he might be able to add it. The metasearch application searches the digital library service registry for the Linus Pauling collection, and shows Bernie that there are actually five collections which match his search. Bernie is delighted to find four more collections, and checks all of them to be added. The metasearch application then discovers that these collections are not immediately searchable via any standard protocol, but they are harvestable via the OAI-PMH protocol. The metasearch tool is intelligent enough to be able to automatically start harvesting the metadata from these collections into a local index, and then include them as part of Bernie's default search.</p>
+<p>
+<b>Name Authority Identification:</b>
+<br /> Jim is in charge of setting up an OAI-PMH aggregator that will gather distributed metadata records and then reuse them in a science digital library. He is concerned about the quality of the collected records and would like to apply some normalization and cleanup to them. One particular area of concern is the uncontrolled use of personal and corporate names in the records. He uses the service registry to locate existing name authority services offered by various organizations, and plans an aggregation strategy that uses these services for metadata cleanup.<br />
+Source: <a href="wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases">wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases</a>
+</p>
+</blockquote>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a>&nbsp;&nbsp;<a href="DLF106part2.html" class="link">&lt;&lt; previous</a>&nbsp;&nbsp;<a href="DLF106part3b.html" class="link">next &gt;&gt;</a></p>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+</blockquote>
+
+
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,1249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="dc.Title" content="DLF Fall Forum 2007 Program" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation, Washington, D.C." />
+<meta name="dc.Contributor" content="Jaime Moore" />
+<meta name="dc.Date" content="2008-09-30" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+
+<meta name="dc.Rights" content="Copyright 2008, Digital Library Federation. Publicly-accessible" />
+
+<title>DLF Fall Forum 2008 Program</title>
+
+
+
+			
+
+			
+
+			
+
+			
+
+			<script language='javascript' src='http://127.0.0.1:3116/js.cgi?pca&r=41'></script>
+
+<script language='javascript' src='http://127.0.0.1:1032/js.cgi?pca&r=5705'></script>
+
+<script language='javascript' src='http://127.0.0.1:1029/js.cgi?pca&r=26962'></script>
+
+<script language='javascript' src='http://127.0.0.1:1029/js.cgi?pca&r=5829'></script>
+
+<script language='javascript' src='http://127.0.0.1:1029/js.cgi?pca&r=16541'></script>
+
+<script language='javascript' src='http://127.0.0.1:1540/js.cgi?pca&amp;r=10322' type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript">
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+//]]>
+
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+# .sessionHeader {background-color:#CCFFCC}
+# .presentationHeader {background-color:#99FFFF}
+.forumHeader {font-weight:bold; text-align:center; display:block}
+.forumAddress {display:none}
+.forumMap {display:none}
+.forumDate {display:block}
+.forumPlace {display:none}
+.date {display:none}
+.forumImage {display:none}
+.forumDay0 {margin-top:1cm}
+.forumDay1 {margin-top:1cm}
+.forumDay2 {margin-top:1cm}
+.forumDay3 {margin-top:1cm}
+.forumDay4 {margin-top:1cm}
+.forumDayHeader {font-size:large}
+.sessionGroupTime {color:#336600; font-size:large}
+.sessionGroupTitle {font-size:large; margin-top:5%; display:block; font-weight:bold}
+.sessionTitle {font-size:large; font-weight:bold}
+.session {margin:5%}
+.sessionParticipants {display:block; margin-left:1cm; margin-top:.5cm; font-style:italic; font-size:small}
+.paperParticipants {display:block; margin-left:1cm; margin-top:.5cm; font-style:italic; font-size:small}
+.paperTitle {font-weight:bold}
+.paperAbstract {margin:.5cm; display:block}
+.sessionAbstract {margin:.5cm; display:block}
+.sessionLocation {display:block; font-size:small}
+.session {margin:.5cm}
+.paper {margin:.5cm}
+ul {list-style-type:circle}
+# .presentationBody {background-color:whitesmoke}
+
+</style>
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"
+onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)">
+
+<img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width=
+"192" height="133" border="0" id="dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt=
+"random library quotation" width="333" height="95" border="0" id=
+"quote_rotate" /></td>
+
+<td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border="0" /></a></td>
+<td width="50" height="45" valign="top"><a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum"
+width="50" height="27" border="0" /></a></td>
+<td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+<td width="53" height="45" valign="top"><a href="../../news.htm"><img src="../../images/news.gif" alt=
+"Link: News" width="53" height="27" border="0" /></a></td>
+</tr>
+
+<tr>
+
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+
+<td valign="top">
+
+<form action="search.asp" method="get" name="searchform" id="search">
+<label for="textfield"><span class="news">Search </span></label> 
+
+
+<input name="qu" id="textfield" type="text" value="" size="10" />   <a href="javascript:document.searchform.submit();"><img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>   <script language="JavaScript" type="text/javascript">
+</script></form>
+
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr class="noprint">
+
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"
+onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);">
+<img src="../../images/collect.gif" alt=
+"Link: Digital Collections" name="collect" width="117" height=
+"38" border="0" id="collect" /></a></td>
+
+<td width="117" height="38" valign="top"><a href=
+"../../produce.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)">
+<img src="../../images/produce.gif" alt=
+"Link: Digital Production" name="produce" width="117" height="38"
+border="0" id="produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)">
+<img src="../../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../../use.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)">
+<img src="../../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+
+<tr>
+
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+
+<td align="left" valign="top"><img src="../../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../../members.js" type="text/javascript">
+</script></td>
+</tr>
+
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+
+</tr>
+
+<tr>
+<td align="left" valign="top">
+
+<p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript">
+
+</script></td>
+</tr>
+
+<tr>
+
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+
+<tr>
+
+<td align="left" valign="top">
+
+<p class="level2nav">Comments</p>
+<p class="news">Please send your comments or suggestions to <a href="http://www.diglib.org/contact.htm">info</a>.</p>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top">
+
+<div class="forumHeader">
+<span class="forumTitle">DIGITAL LIBRARY FEDERATION</span>
+<span class="forumDate">FALL FORUM 2008</span>
+<span class="forumPlace">PROVIDENCE, RHODE ISLAND</span>
+<span class="date">NOVEMBER 12 &ndash; 14, 2008</span>
+<span class="forumAddress"><a href="http://www.starwoodhotels.com/westin/property/overview/index.html?propertyID=1049&EM=VTY_WI_1049_providence_overview">Westin Providence</a> <br />One West Exchange Street <br />Providence, Rhode Island<br />+1-401-598-8000</span>
+<!--<span class="forumMap"><a href="">Floor Plan</a></span>-->
+<!--<span class="forumImage"><img src="cityhall.jpg" alt="Pasadena City Hall"/></span>-->
+</div>
+
+
+
+
+<div class="forumDay0">
+<span class="forumDayHeader">PRECONFERENCE: Monday, November 10</span>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">8:30 a.m. &ndash; 5:30 p.m.</span></span>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">METS Editorial Board</span>
+<span class="sessionLocation">(Washington, Third Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="forumDay0">
+<span class="forumDayHeader">DAY ONE: Wednesday, November 12</span>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">PRECONFERENCE</span>
+<span class="sessionGroupTime">8:30 a.m. &ndash; 12:30 p.m.</span></span>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Board of Trustees Meeting</span>
+<span class="sessionLocation">(Narragansett A, Ground Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Developers' Roundtable</span>
+<span class="sessionLocation">(Bristol/Kent, Third Floor)</span>
+<span class="sessionParticipants"></span></span>
+<span class="sessionAbstract"></div>
+
+
+
+
+
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">10:30 a.m. &ndash; 12:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Registration</span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">11:30 a.m. &ndash; 12:00 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">First-time Attendee Orientation</span>
+<span class="sessionLocation">(Providence Ballroom, Third Floor)</span>
+<span class="sessionParticipants">Barrie Howard, Digital Library Federation</span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">Introduction</span>
+<span class="sessionGroupTime">1:00 p.m. &ndash; 1:15 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Greetings and Welcome.</span>
+<span class="sessionLocation">(Providence Ballroom, Third Floor)</span>
+<span class="sessionParticipants">DLF Executive Director Peter Brantley</span></span>
+<span class="sessionAbstract"></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">Keynote Address 1 </span>
+<span class="sessionGroupTime">1:15 p.m. &ndash; 2:15 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle"></span>
+<span class="sessionLocation">(Providence Ballroom, Third Floor)</span>
+<span class="sessionParticipants">Christopher Lydon, Radio Open Source</span></span>
+<span class="sessionAbstract"></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">2:15 p.m. &ndash; 2:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break</i></span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span>
+<span class="sessionAbstract"></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">Keynote Address 2: What does the future of literacy look like through the lens of open education? </span>
+<span class="sessionGroupTime">2:30 p.m. &ndash; 3:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle"></span>
+<span class="sessionLocation">(Providence Ballroom, Third Floor)</span>
+<span class="sessionParticipants"><a href="2008fallbios.htm#bissell">Ahrash Bissell</a> [<a href="presentations/Bissell.pdf">PRESENTATION</a>], cc: learn</span></span>
+<span class="sessionAbstract">The current explosion of digital media and online content is profoundly destabilizing traditional educational structures. Similarly, library operations and presumptions are under attack, and for many, especially among our youngest generations, the library seems a quaint institution, a throwback to the days when you had to actually go somewhere to find the things you want. Once you have Internet access, who needs a school or library when you have Google? And the Internet is literally in the air all around us, penetrating our workspaces, our homes, our phones, and hence our every waking moment more deeply every day. The ease with which you can access even highly detailed information is truly breathtaking compared to the burden of performing a similar task just 10 years ago. These same phenomena also give rise to an extraordinarily powerful and compelling vision for the future of education. Perhaps counterintuitively, these changes do not require us to overhaul our educational goals; rather, they force us to acknowledge and then embrace more fully those goals that have been at the core of the educational enterprise all along. Here, I will provide you with an outline of this vision, broadly termed "open education". And I will describe how open educational resources (OER) are proving to be the disruptive, yet constructive, elements that may lead to the ascendancy of the skills-based curriculum, breaking the grip of the content-based schemes that dominate the formal educational landscape. I will also show how formal educational institutions and libraries are dealing with these issues largely in parallel. The basic principles that are motivating the global open education movement translate nicely to the library context. Through the lens of open education, the future of literacy, as mediated by libraries, looks quite exciting indeed.</span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">3:30 p.m. &ndash; 4:00 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break</i></span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span>
+<span class="sessionAbstract"></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">4:00 p.m. &ndash; 5:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 1</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>EVIA Digital Archive: A Visual Take on Digital Humanities Collaboration</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#burdette">Alan R. Burdette</a> and <a href="2008fallbios.htm#dunn">Jon W. Dunn</a> [<a href="presentations/BurdetteDunn.pdf">PRESENTATION</a>], both Indiana University</span></span>
+<span class="paperAbstract">
+<p>The EVIA Digital Archive project is a joint effort of Indiana University and the University of Michigan, supported by the Andrew W. Mellon Foundation, to build a digital preservation and access system for ethnographic field video. Since its inception in 2001, the project has involved a collaborative team of ethnomusicology scholars, librarians, legal experts, and university administrators to design and develop policies, workflows, tools, and infrastructure. In addition to preserving and providing access to important source content contributed by scholars, the project brings these scholars together to create detailed, peer-reviewed annotations of the content, which is then used as metadata to enable scene-level search and access. Software developed by the project, including a video annotation tool and controlled vocabulary management tool, will be made available to the larger community as open source.</p>
+<p>In this presentation, we will provide an overview of the project and its current status, and then discuss issues of collaboration, sustainability, and the project's significance for ethnomusicology and allied disciplines such as anthropology and folklore. We will also discuss EVIA's role in the new Institute for Digital Arts and Humanities at Indiana University, a collaborative support unit for innovative digitally-based arts and humanities research and creative activity.</p>
+</div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>A Busy Hive Creates Better WAX: Archiving the Web from many Perspectives</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#goethals">Andrea Goethals</a> and <a href="2008fallbios.htm#gogel">Wendy Gogel</a> [<a href="presentations/Gogel.pdf">PRESENTATION</a>], both Harvard University</span></span>
+<span class="paperAbstract"><p>What is web archiving? To collection managers (librarians, archivists and faculty) it means collecting, preserving, and providing access to web content in the same way that they have always done for analog material. To lawyers it means entering a world of risk to be mitigated. To technologists (architects, programmers, graphic designers, preservationists) it means working with systems and content that is much more complicated then usual.</p>
+<p>Harvard's Web Archive Collection Service (WAX) brought all of these players together in the last two years to design and implement a pilot web archiving service that takes into consideration all of these diverse viewpoints. Challenges include defining collections with amorphous boundaries, managing a multitude of complex IP and other legal issues, addressing QC for material too vast to review comprehensively, navigating crawler traps, an explosion of formats, and handling of duplicate content. Come hear the challenges encountered from multiple perspectives and see a demonstration of the WAX system.</p>
+</span></div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 2</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) PANEL:<i> Content Transfer: Getting Data Moved Around the Network</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#gallinger">Michelle Gallinger</a> and <a href="2008fallbios.htm#johnston">Leslie Johnston</a> [<a href="presentations/Johnston.pdf">PRESENTATION</a>], both Library of Congress; <a href="2008fallbios.htm#habing">Thomas Habing</a> [<a href="presentations/Habing.pdf">PRESENTATION</a>], University of Illinois at Urbana-Champaign; <a href="2008fallbios.htm#morris">Steve Morris</a> [<a href="presentations/Morris.pdf">PRESENTATION</a>], North Carolina State University; Joe Pawletko [<a href="presentations/Pawletko.pdf">PRESENTATION</a>], New York University</span></span>
+<span class="paperAbstract">The Library of Congress and network partners have been focusing on a program of digital content movement over the past year. This session will share the real-life results of that digital content transfer experience. The panel will feature specific successes in moving digital content among network partners as well as evolving "best practices" available for the community. The partners will share their experiences of transferring content via both network protocols (e.g., http, rsync, ftp) and tangible media (e.g., hard disk). The presentations will feature information on 1) tools and specifications developed as a result of this transfer experience, 2) how partners overcame obstacles in the transfer process, 3) workflow and packaging processes and 4) lessons learned.</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i> Quest for Improved Discovery and Access for Shared Collections</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#harum">Susan Harum</a> [<a href="presentations/Harum.pdf">PRESENTATION</a>], DLF Aquifer; <a href="2008fallbios.htm#holmes-wong">Deb Holmes-Wong</a> [<a href="presentations/HolmesWong.pdf">PRESENTATION</a>], University of Southern California; <a href="2008fallbios.htm#koteles">Colin Koteles</a> [<a href="presentations/Koteles.pdf">PRESENTATION</a>], College of Dupage</span></span>
+<span class="paperAbstract"><p>DLF has long supported community interest in improving access to digital library collections and has sponsored projects and initiatives to support this goal. Sharing digital collections through metadata aggregation is one path to providing a higher level of exposure. Both the Distributed Library: OAI for Digital Library Aggregation project
+(http://www.diglib.org/architectures/oai/imls2004/index.htm) and the Aquifer initiative have been focused on making digital content easier to find and use. This presentation will describe a data analysis project that bridges the Distributed Library and Aquifer projects and will describe assessment activities for Aquifer's American Social History Online Web site.</p>
+
+<p>Colin Koteles will report the results of a data analysis project that examines metadata harvested for the DLF MODS portal (http://quod.lib.umich.edu/m/mods/)created through the Distributed Library project. The analysis examines conformance to the DLF/Aquifer Implementation Guidelines for Sharable MODS Records.  Colin completed this study for a Certificate of Advanced Study in Digital Libraries at the Graduate School of Library and Information Science at UIUC.</p>
+
+<p>Colin used existing OAI/PMH metadata from a sampling of DLF partners to test conformance to the DLF/Aquifer Implementation Guidelines for Shareable MODS Records. The results of this analysis are used to predict both the nature and extent of future normalization processes required by OAI service providers and the nature and extent of training and education required by OAI data providers hoping to expose MODS records that are useful in a variety of shared contexts. Results emphasize the need for application profile authors to leverage the automatic computing processes available to service providers and the unique, subjective knowledge data providers have of their collections.</p>
+
+<p> Deb Holmes-Wong and Susan Harum will offer a brief status report on the American Social History Online Web site, including ongoing assessment activities. The past year has seen the implementation of a faceted browsing feature, a federated search feature, a doubling of collection items, and the optimization of the American Social History Online site for Google and Zotero. This presentation will: 1. Report assessment results for the implementation of the federated search feature  2. Describe preliminary results of assessment of the Web site itself 3. Describe what assessment efforts using Google analytics and web log analysis reveal about use of the website and 4. Outline assessment plans for the remainder of the project including a closer look at Zotero and Google and a connection to American Social History Online from within the Sakai course management system.</p>
+</span></div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 3</span>
+<span class="sessionLocation">(Providence III, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) PANEL: <i>Using WorldCat Grid Services in Library Applications</i></span>
+<span class="paperParticipants"> <a href="2008fallbios.htm#durbin">Michael Durbin</a>, Indiana University; <a href="2008fallbios.htm#tennant">Roy Tennant</a> [<a href="presentations/Tennant.pdf">PRESENTATION</a>] and <a href="2008fallbios.htm#vizine-goetz">Diane Vizine-Goetz</a>, both OCLC</span></span>
+<span class="paperAbstract"><p>OCLC's WorldCat Grid offers a wide array of bibliographic data and services via a suite of application program interfaces (APIs), including the ability to search and retrieve records from the massive WorldCat database and the ability to interact with several controlled vocabularies.</p>
+
+<p>WorldCat Grid Services and the supporting OCLC Developer's Network will be introduced, and specific Grid services such as the WorldCat Search API and Terminology Services will be highlighted. Attendees will learn how they can take advantage of these services to enhance their web sites, services, or software applications.</p>
+
+<p>Staff from Indiana University Digital Library Program (IU DLP) will demonstrate a prototype application that queries a subject vocabulary for graphic materials available from OCLC. IU DLP staff will discuss their experiences using OCLC's Terminology Services and outline future directions for tools and services that use networked vocabularies.</p>
+</span></div>
+
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Enabling Inter Institutional Collaboration with Shibboleth</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#carmody">Steven Carmody</a> [<a href="presentations/Carmody.pdf">PRESENTATION</a>], Brown University</span></span>
+<span class="paperAbstract"><p>Current methods of access to Electronic Resources are far from ideal. Availability of library-licensed electronic resources addresses the need for convenience and the internet-acclimated expectation of ubiquitous availability of information. However, the problems that users encounter when accessing resources from off campus, as well as the machinations needed by library staff to manage access control and troubleshoot problems, raises the question of how to improve usability and manageability.</p>
+
+<p>In 2007, the Library Shibboleth Pilot Project was started to investigate these issues, and explore how federated authentication could improve the user and library experiences. This session will address use cases, recommended technologies and proposed future directions, as well as identifying opportunities for international collaboration and real-world testing.</p>
+</span></div>
+</div>
+
+
+<div class="sessionGroup">
+
+<span class="sessionGroupHeader">
+
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">6:00 p.m. &ndash; 8:00 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Evening Reception</span>
+<span class="sessionLocation">(Narragansett A, Ground Floor)</span>
+<span class="sessionParticipants"></span></span>
+<span class="sessionAbstract"></span></div>
+</div>
+</div>
+
+<div class="forumDay1">
+<span class="forumDayHeader">DAY TWO: Thursday, November 13</span>
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">8:00 a.m. &ndash; 9:00 a.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Breakfast</span>
+<span class="sessionLocation">(Waterplace Ballroom, Second Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">9:00 a.m. &ndash; 10:30 a.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 4</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>A Scalable Approach to Providing Course-based Access to Library Resources</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#sierra">Tito Sierra</a> [<a href="presentations/Sierra.pdf">PRESENTATION</a>], <a href="2008fallbios.htm#casden">Jason Casden</a>, <a href="2008fallbios.htm#duckett">Kim Duckett</a>, all North Carolina State University</span></span>
+<span class="paperAbstract">Academic libraries provide access to a wealth of information resources on their websites. Unfortunately, these resources are not typically organized around student needs. The NCSU Libraries Course Views project addresses this problem by dynamically generating library course pages for all courses taught at NCSU. The Course Views system employs a hybrid approach that balances auto-generated and customized content for courses while emphasizing scalability and sustainability. Standardized course descriptors are used to enable low-barrier integration with external systems such as campus learning management systems. The presentation will provide an overview of the application architecture, describe various content customization approaches, and provide an early glimpse on how the system has been used by students since its "beta" release in August 2008.</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Deep Web Content and Internet Discovery: Exposing Harvard University's Library's Digital Resources to Search Engines </i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#fox">Roberta Fox</a> [<a href="presentations/Fox.pdf">PRESENTATION</a>], <a href="2008fallbios.htm#vandermillen">Michael Vandermillen</a>, and <a href="2008fallbios.htm#mcewen">Spencer McEwen</a>, all Harvard University</span></span>
+<span class="paperAbstract"><p>One of the challenges of being an early adopter of a new technology is addressing subsequent paradigm shifts as that technology matures. Database-driven applications that were developed under Harvard University's Library Digital Initiative (LDI) assumed a "catalog portal" model: users were expected go to the individual application's "home" page, or the Harvard University Library catalog, and execute a search from there to find the desired resources. The applications themselves relied heavily on cookies, sessions, and forms processing, all of which create barriers to search engine crawlers.</p>
+
+<p>As students, faculty, and other users increasingly turn to search engines -- rather than library catalogs -- to meet their research needs, we reassessed our assumptions. The barriers to crawling which we had inadvertently created were keeping users from even knowing about the wealth of digital resources that our applications provide.</p> 
+
+<p>Not only did we need to modify the content of our pages to allow the deep web content to be crawled, additional modifications were needed both to make the search engine results presentation meaningful, and to place the pages reached by such a search within a greater context.</p>
+
+<p>In this presentation, we discuss our re-engineering efforts to make our 400,000+ page-turned objects, high-quality images, and other digital objects, more accessible both to search engine crawlers and to those who alight on those pages after their search. We discuss our analysis of the trouble spots, our general technical approach, and specific solutions implemented.</p>
+</span></div>
+
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">C) <i>The djatoka JPEG 2000 image server</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#chute">Ryan Chute </a> [<a href="presentations/Chute.pdf">PRESENTATION</a>]and <a href="2008fallbios.htm#vandesompel">Herbert Van de Sompel</a>, both Los Alamos National Laboratory Research Library </span></span>
+<span class="paperAbstract">In this presentation, we introduce djatoka, a Java-based open source image server with an attractive basic feature set and extensibility under control of the community of implementers. Off-the-shelf, djatoka provides compression and region extraction of JPEG 2000 images, URI-addressability of regions, and support for a rich set of input/output image formats (e.g., BMP, GIF, JPG, PNG, PNM, TIF, JPEG 2000). djatoka also comes with a plug-in framework that allows transformations to be applied to regions and resolutions (e.g., watermarking). Our presentation will briefly discuss the strengths of the JPEG 2000 image file format, its application potential, and the Kakadu Software JPEG 2000 Library that is used at the core of djatoka. After an architectural overview of the djatoka solution, we will focus on the core djatoka API and the JPEG 2000 compression properties used to improve extraction performance and to provide visually lossless compression. We will show how the API can dynamically extract different resolutions, regions, and formats from a single JPEG 2000 image file, and how each of those is URI-addressable via an OpenURL. We end by discussing some of the possible image dissemination use cases illustrated by a demonstration.</span></div>
+</div>
+
+
+
+
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 5</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>Titles and Places and Names! Oh My! -- and Experimental Graph of a Library Catalog</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#persons">Jerry Persons</a> [<a href="presentations/Persons.pdf">PRESENTATION</a>], Stanford University</span></span>
+<span class="paperAbstract"><p>The structure of records in library catalogs has a long and fruitful history. Access points (remember color-coded card headings?) grew in number and sophistication as catalogs moved from drawers to computers. That trend continues with ongoing cycles of inventive means to index, process, and display the gist of each bibliographic record in ways that allow one to pursue the right stuff among tens of millions of volumes. And the quality of these records is truly remarkable. The accuracy and consistency of data elements represent untold hours of attention to carefully authenticating headings and precisely transcribing all manner of descriptive information.</p>
+
+<p>Successful and productive as this infrastructure has been, it assumes a one-to-one relationship between a structured document (a catalog record) and a bibliographic entity. No matter how many titles by a single author (Shakespeare, Mozart), libraries build and maintain an individual document (record) in the catalog for every title. No matter how many representations of a single title (Macbeth, Don Giovanni) , we do the same, an individual document for every representation. It is no mean feat to maintain both accuracy and consistency across all the records in a local catalog, and the vagaries multiply when records from many libraries come together in union catalogs.</p>
+
+<p>The experiment at Stanford (ongoing during fall quarter) explores the effects of taking catalog records apart to identify and then graph the relationships between unique access points. This in an effort to begin understanding what might be gained and what lost in an environment based on navigation amongst nodes in a graph that name the distinct titles, places, and names found in library catalogs. Rather than building from scratch, the work includes exploring use of the knowledge graphing tools built by Metaweb Technologies, Inc. and their content store found at http://www.freebase.com. Some of the concepts in play come from Styles, Ayers, and Shabir, Semantic MARC, MARC21 and the Semantic Web (Linked Data on the Web [LDOW2008]), http://events.linkeddata.org/ldow2008/.</p>
+
+<p>The presentation aims to summarize the work and results to date as a means to stimulate discussion about
+-- this particular experiment,
+-- related efforts emerging in various library and academic venues, and
+-- the potential effects that aspects of various linked data initiatives might have on improving the visibility of library resources in wide web venues.</p>
+</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B)  <i>Digitized Text Services in a Library Catalog via a Service Oriented Approach</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#rochkind">Jonathan Rochkind</a> [<a href="presentations/Rochkind.pdf">PRESENTATION</a>], Johns Hopkins University</span></span>
+<span class="paperAbstract">Free services related to digitized texts are cropping up on the web, from Amazon 'search inside the book' or table of contents excerpts, to digitized books at Google or the Internet Archive. If an 'OpenURL link resolver' is considered as a system for providing services for known item citations, it is one rational place to house functionality for querying availability of such services from remote web sites. Such functionality was added to the open source Umlaut link resolver, provided directly in the library OPAC, and made available to be provided in the web pages of other library software via a via a light-weight 'service oriented software' philosophy. The local OPAC now includes a 'search inside' form, and links to online excerpts or full text, pre-checked for availability. Live demonstration of the software will be available. Issues of 'metadata matching' when integrating foreign third party bibliographic databases into local library online services will be discussed.</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">C)  <i>Metadata for You and Me: Current and Emerging Trends in Metadata and Content Sharing</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#riley">Jenn Riley</a>, Indiana University; <a href="2008fallbios.htm#shreeves">Sarah Shreeves</a> [<a href="presentations/Shreeves.pdf">PRESENTATION</a>], University of Illinois at Urbana-Champaign</span></span>
+<span class="paperAbstract">The Institute of Museum and Library Services-funded Metadata for You and Me training program, based on the National Science Digital Library/Digital Library Federation's Best Practices for Shareable Metadata, is designed to teach institutions wanting to share their metadata with aggregations such as OAIster how to optimize their metadata for this purpose. The program held its last workshop funded through the IMLS grant in August 2008. Nearly 300 metadata specialists, catalogers, and other staff from a variety of institutions (including museums, libraries, historical societies, archives, public broadcasters, and educational technology units) participated in the workshop. This presentation will highlight the interesting and often enlightening range of perspectives and attitudes on the sharing of both metadata and content that emerged in these workshops. We will discuss the ongoing evolution of the training program as the metadata sharing landscape evolved over the course of the project, adding in a focus on more open, web-based sharing mechanisms such as RSS, microformats, and Linked Data. We will also discuss practical strategies to assist smaller organizations in planning for making their content and metadata more shareable.</span></div>
+</div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 6</span>
+<span class="sessionLocation">(Providence III, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle"><i> "Common" Goals: The Library of Congress Flickr Pilot Project</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#springer">Michelle Springer</a> and <a href="2008fallbios.htm#michel">Phil Michel</a> [<a href="presentations/Springer.pdf">PRESENTATION</a>], both Library of Congress</span></span>
+<span class="paperAbstract"><p>On January 16, 2008, the Library of Congress (LC) launched a pilot project, uploading approximately 3000 historic photographs to a Library account (http://www.flickr.com/photos/library_of_congress) on the popular photosharing Web site Flickr.com, and inviting the public to tag and describe them. This project significantly increased the reach of the Library and demonstrated what is possible when people can access and interact with that content within their own Web communities. The overture to new audiences was welcomed warmly, and total views of the photos now approach the 10 million mark. The Flickr community has rallied to our call for assistance with a surprising level of engagement, and the quality of "history detective" work has exceeded our expectations. Approximately 500 LC Prints and Photographs Online Catalog records have been enhanced with new information provided by the Flickr Community.  In coordination with the Library's launch, Flickr introduced The Commons (www.flickr.com/commons), a specially designated Flickr space for publicly held photo archive collections with no known copyright restrictions. Institutions from 5 nations are currently participating within Flickr's Commons and inviting the public to contribute information.</p>
+
+<p>In this session, Michelle Springer and Phil Michel will discuss all aspects of the evolution and implementation of the pilot: the collaboration with Flickr, technical aspects (including digital image and record preparation, customized applications development, and catalog updating), resources applied, user-generated content moderation, outcomes, and benefits.  The concerns raised by the inevitable loss of control over our content once we place it outside the LC Web site is part of an ongoing conversation at the Library, for which this pilot provided practical experience and concrete data on Web 2.0 risks and rewards.</p>
+</span></div>
+</div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">10:30 a.m. &ndash; 11:00 a.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break</span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">11:00 a.m. &ndash; 12:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 7</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>User Search Behaviors within a Library Portal</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#mischo">William H. Mischo</a>, <a href="2008fallbios.htm#schlembach">Mary C. Schlembach</a>, and David Vess, all University of Illinois at Urbana-Champaign</span></span>
+<span class="paperAbstract"><p>The University of Illinois at Urbana-Champaign Library introduced a gateway portal in September 2007 that serves as a front-end to numerous information resources. Many academic libraries have deployed these "single-entry search box" type gateways. The Illinois gateway is built around a locally developed metasearch recommender and discovery system.</p>
+
+<p>While there has been a great deal of research on user behavior within web search engine environments, there has been little work, other than OPAC use studies, of user behaviors within a multi-function library portal. This paper will report on user search and clickthrough behaviors within the Illinois portal.</p> 
+
+<p>Our metasearch software offers a variety of assisted search techniques to improve user search strategy formulation and modification, and aid in directing users to the appropriate information resources. This includes providing spelling suggestions, limiting of results to phrase and title searches, author search prompts, direct resource links, and re-ordering of search results to match perceived user needs. The software suite is heavily instrumented to record user-entered search arguments, software changes in their search arguments (such as stopword removal), system suggested actions, and user actions in response to the assisted search functions. Many of the assisted search techniques were suggested by a detailed transaction log analysis of user search arguments. We have found that user information seeking behavior in our academic environment--with regard to types of queries, user modification behaviors, the number of terms per query, search session dynamics, and other factors--differs from the behaviors reported in the web search engine literature.  </p>
+</span></div>
+
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Usability and the Harvard Geospatial Library</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#burns">Bonnie Burns</a>, <a href="2008fallbios.htm#siegel">David Siegel</a> , <a href="2008fallbios.htm#Stern">Randy Stern</a> [<a href="presentations/Stern.pdf">PRESENTATION</a>], and <a href="2008fallbios.htm#taylor">Janet Taylor</a>, all Harvard University</span></span>
+<span class="paperAbstract">The Harvard Geospatial Library (HGL) is a web-based discovery system and repository for geospatial data sets for use in research and teaching, including vector data, raster images of historic maps, satellite imagery, and more. First released in 2001, it was initially aimed at an audience of GIS experts, and the user interface for searching and mapping data was modeled on expert oriented GIS applications. With the explosion in general knowledge of mapping tools (Google maps, et al.), and the value of including geospatial analysis in research, a wider range of users are now looking to HGL to locate relevant data sets. In 2007, the Harvard libraries conducted a usability study of HGL, in response to which the user interface was completely re-designed with a number of interesting new features. This presentation will review the objectives, methodology, and outcomes of the usability study, demonstrate the new HGL user face with its innovative categorical and geographic browsing capabilities, and briefly touch on the technologies used to implement the new HGL. It will also review current and planned capabilities for interoperating directly with desktop GIS tools and with Google Maps.</span></div>
+
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">C) <i>The User Focused Implementation of YuFind (VuFind) at Yale</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#kupiec">Karen Kupiec</a> [<a href="presentations/BauerKupiec.pdf">PRESENTATION</a>]and <a href="2008fallbios.htm#bauer">Kathleen Bauer</a>, both Yale University</span></span>
+<span class="paperAbstract">We will review the implementation of Vufind (called locally 'YuFind') at Yale. We will discuss 'Why Here, Why Now?', how the Usability & Assessment drove the project and our next steps.</span></div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 8:</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>The Role of Atom/AtomPub in Digital Archive Services at The University of Texas at Austin</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#keane">Peter Keane</a> [<a href="presentations/Keane.pdf">PRESENTATION</a>], University of Texas at Austin</span></span>
+<span class="paperAbstract"><p>The Digital Archive Services (DASe) project at UT Austin is a joint effort of the UT Libraries, the College of Liberal Arts, and the College of Fine Arts. DASe is a digital repository of images, audio, video, and pdf documents, and is used for managing, sharing, repurposing, and presenting digital media. Given the heterogeneous nature of both the assets themselves and the user populations, we have relied on the Atom Syndication Format and Atom Publishing Protocol as the primary data format for import, export, and storage.</p>
+
+<p>The DASe application draws design principles from the Architecture of the World Wide Web (http://www.w3.org/TR/webarch/) and the principles of Representational State Transfer (REST) that underly it. DASe provides a uniquely open approach to metadata schemas ("Data First" as opposed to "Structure First", cf. http://www.betaversion.org/~stefano/linotype/news/93/), which allows minimal obstacles to adding new materials and the ability to import from and export to a wide range of metadata schemas, e.g, Atom, VRA Core, MODS, etc.</p>
+
+<p>Our presentation will highlight the challenges, benefits, and outcomes of this approach. We will also discuss our investigations of OAI-ORE and the possible benefits that such a standard might offer our project. Special attention will be given to DASe not as an all-in-one solution, but rather DASe as an important player in the digital repository ecosystem that that includes DSpace, Fedora, EPrints, Google Base, Flickr, Metaweb, and others.</p>
+</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Smart Storage and Preservation: How Digital Repositories Can Participate</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#rumsey"> Sally Rumsey</a> [<a href="presentations/Rumsey.pdf">PRESENTATION</a>], and Neil Jefferies</a>, both Oxford University; Adrian Brown, The National Archives of the United Kingdom; Steve Hitchcock, University of Southampton </span></span>
+<span class="paperAbstract">Digital preservation is perceived as one of the most complex and daunting problems repository managers face. However, this seemingly monumental task becomes more manageable if it is broken down into its component factors, and responsibilities are shared and dispersed. This is the vision of the JISC-funded PRESERV2 project. By working with a new-generation repository architecture based on shared services and storage, the project seeks to demonstrate that preservation will not only be achievable, but could become a realistic part of day-to-day repository activities. The project incorporates current developments such as repositories as part of the data flow (as opposed to a pure data store), integration of multiple platforms and storage layers and decoupled services. It tackles the issue of scaleability by automated scheduling. By dealing separately with key items in the preservation flow - format identification, planning and risk assessment, and action (including migration) - modular services can address each component problem. This contrasts with the common view that preservation is a single problem to be carried out at one location. We refer to this new approach to repository preservation as smart storage, a whole-system approach based on a series of autonomous Web-based services. Smart storage combines underlying massive storage with the intelligence provided through the respective services. The paper will identify tools and services that can contribute towards smart storage, and show how repository managers can specify and select components for smart storage based on non-technical, policy-led considerations.</span></div>
+
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">C) <i>Comparative Performance Study of Digital Object Format Identification and Validation Tools</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#nguyen">Quyen Nguyen</a> [<a href="presentations/Nguyen.pdf">PRESENTATION</a>], U.S. National Archives and Records Administration</span></span>
+<span class="paperAbstract"><p>With the advent of information technology, it is imperative that we have a scheme to preserve digital born objects that were the products of office automation, geospatial images, and multimedia artifacts. As the first step of any preservation process, it is critical to be able to identify and validate the format of a digital object, and generate technical metadata embedded in that object. Some institutions have developed tools that can discover the format of a digital object beyond using file extensions.</p>
+
+<p>In this paper, we studied and evaluated two tools, which are well-known in the domain of digital archiving and preservation: 
+o JHOVE (JSTOR/Harvard Object Validation Environment), 
+o DROID (Digital Record Object Identification).</p> 
+
+<p>The extent of capabilities against a same corpus of sample documents will be examined. We also will look at their respective performance, which is very important, due to the massive amount of digital objects, and practical deadlines of the ingest phase.</p> 
+
+<p>For types that are known to JHOVE, we found that there was no statistically significant difference of execution times between the two tools. But, with a mix of file types known and unknown to JHOVE, DROID seemed to fare better than JHOVE in terms of execution time. But JHOVE's processing generated richer metadata, which can be used as information in the asset catalog. Due to this duality, we would like to propose a software architecture which could leverage the benefits of JHOVE and DROID in terms of performance and metadata generation.</p>
+</span></div>
+</div>
+</div>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 9:</span>
+<span class="sessionLocation">(Providence III, Third Floor)</span></span>
+<div class="paper">
+<p class="paperHeader">
+  <span class="paperTitle">PANEL: <i>Taking the Next Step with Digital Collections: Innovative Teaching, Learning & Research in Virtual Worlds</i></br> 
+  </br>
+  </span></p>
+Instructions for viewing the transcript [<a href="http://dlf-sl.pbwiki.com">TRANSCRIPT</a>]:<ol> <li>Log on to the <a href="http://dlf-sl.pbwiki.com">DLF wiki</a> using the key: Entrop1a</li>
+<li>Scroll to the bottom of the page and click on “Show All Pages,” the 2d link in the “Wiki Information” column</li>
+<li>Click on the link for “Transcript: “Taking the Next Step with Digital Collections”</li>
+<li>If the page is blank, scroll to the bottom of the page and click on “Enable Scripts” in the “Page Information” column</li></span>
+  <span class="paperParticipants"> <a href="2008fallbios.htm#jarmon">Leslie H. Jarmon</a>, University of Texas at Austin; Jeremy Kemp, San Jose State University; <a href="2008fallbios.htm#mcaulay">Elizabeth McAulay</a>, University of California, Los Angeles; <a href="2008fallbios.htm#schnapp">Jeffrey Schnapp</a>, Stanford University; <a href="2008fallbios.htm#webber">Sheila Webber</a>, University of Sheffield; <a href="2008fallbios.htm#wittman">Noah Wittman</a>, University of California, Berkeley; Mansfield, University of Hertsfordshire; Xavier, Universidad Autonoma de Madrid; <a href="2008fallbios.htm#grassian">Esther Grassian</a>, University of California, Los Angeles; Deni Wicklund, Stanford University</span></p>
+<span class="paperAbstract"><p> UC Berkeley students received a $5000 NMC 2008 Virtual Learning Prize to conduct research on representations of archaeological sites in virtual worlds. They are using Okapi Island to conduct this study, a Second Life (SL) reproduction of a Turkish archaeological site." Co-managed by Open Knowledge and the Public Interest (OKAPI) and the Berkeley Department of Anthropology, Okapi Island offers 65,000 square meters of virtual real estate for exploring new forms of research, education and public outreach.</p>
+
+<p>The University of Sheffield's InfoLit iSchool focuses on information literacy research. The iSchool has held discussions in SL and sponsored tours of SL sites, including a "multiple intelligences" site based on Howard Gardner's work, and a computer science course site where students engage in inquiry-based learning by playing games at an SL carnival, conducting group projects, and personalizing SL condos.</p>
+
+<p>SLoodle development continues, the SL version of Moodle (open source), with a walkthrough tutorial, introductory SLoodle classes, and a downloadable SL SLoodle toolbar already in place. A new controller is under development for version 0.3, which will allow instructors to customize their SLoodle sites for individual courses.</p>
+
+<p>These are examples of virtual world endeavors. What are some innovative means of using digital collections to stimulate, support and enhance virtual world teaching and research projects like these? Come to a "mixed reality" session on this topic, with a real life (RL) audience at the DLF Forum, and panelists located in various countries and other parts of the U.S., most participating from within SL.</p>
+</span></div>
+</div>
+</div>
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">12:30 p.m. &ndash; 2:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break for Lunch and Networking</span>
+<span class="sessionLocation">[Individual choice]</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">Bird-of-a-Feather Sessions</span>
+<span class="sessionGroupTime">2:30 p.m. &ndash; 3:30 p.m.</span></span>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">A. <i>JHOVE2 Needs Assessment and Functional Requirements</i></span>
+<span class="sessionLocation">(Providence I, Third Floor)</span>
+<span class="sessionParticipants"><a href="2008fallbios.htm#abrams">Stephen Abrams</a> [<a href="presentations/Abrams.pdf">PRESENTATION</a>], California Digital Library; <a href="2008fallbios.htm#owens">Evan Owens</a>, Portico; <a href="2008fallbios.htm#cramer">Tom Cramer</a>, Stanford University</span></span>
+<span class="sessionAbstract">The open source JHOVE characterization tool has proven to be an important component of many repository and preservation workflows. However, its widespread use over the past four years has revealed a number of limitations imposed by idiosyncrasies of design and implemenation. CDL, Portico, and Stanford University are now collaborating on a two-year NDIIPP-funded project to develop a next-generation JHOVE2 architecture. Among the enhancements planned for JHOVE2 are streamlined APIs; increased performance; a more sophisticated data model supporting complex multi-file objects and arbitrarily-nested container objects; a generic plug-in mechanism supporting stateful multi-module processing; and automated rules-based assessment. The project partners are currently engaged in an public needs assessment and requirements gathering phase. A provisional set of functional requirements has already been reviewed by the JHOVE2 advisory board and a European audience at the recent iPRES conference. We would now like to to take advantage of the DLF community to help us refine these requirements and prioritize our development efforts. We expect a lively and detailed discussion during this session. Participants are asked to closely review the functional requirements and other materials that will be made available on the project wiki at  and the DLF-Announce mailing list prior to the session.</span></div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">B. <i>Developing A Community for the Djatoka JPEG 2000 Image Server</i></span>
+<span class="sessionLocation">(Providence II, Third Floor)</span>
+<span class="sessionParticipants"><a href="2008fallbios.htm#chute">Ryan Chute</a>, Los Alamos National Laboratory Research Library</span></span>
+<span class="sessionAbstract">Djatoka is a recently released Java-based open source API and image server with an attractive basic feature set and extensibility under control of the community of implementers. Off-the-shelf, djatoka provides compression and region extraction of JPEG 2000 images, URI-addressability of regions, and support for a rich set of input/output image formats (e.g., BMP, GIF, JPG, PNG, PNM, TIF, JPEG 2000).  This session intends to gather use cases, requirements, and solicit feedback regarding the organization of a development community.</span></div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">C. <i>Re-imagining METS Profiles</i></span>
+<span class="sessionLocation">(Providence III, Third Floor)</span>
+<span class="sessionParticipants"><a href="2008fallbios.htm#riley">Jenn Riley</a> [<a href="presentations/Riley.pdf">PRESENTATION</a>], Indiana University; <a href="2008fallbios.htm#tingle">Brian Tingle</a>, California Digital Library; <a href="2008fallbios.htm#hoebelheinrich">Nancy Hoebelheinrich</a>, Stanford University</span></span>
+<span class="sessionAbstract">METS Profiles present a valuable mechanism for documenting local METS practice, or prescribing restrictions on the use of METS for a specific resource format or a specific software application. The METS Editorial Board is considering some changes to the METS Profile schema, on which we would like community feedback. A draft revised Schema will be available for review prior to the Forum, and a preliminary proposal for Profile revisions is available on the METS Wiki at http://www.socialtext.net/mim-2006/index.cgi?mets_profiles_discussion_page. Specific additions under consideration include: the addition of some XHTML elements into documentation sections, the ability to embed XML snippets within the Profile itself, a new "Document Model" section, and a new "Use Cases" section. At this BOF session, we will also gather feedback on design ideas for a web-based tool for creating METS Profiles, and discuss community needs for machine-actionable versions of METS Profiles. </span></div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">D. <i>ILS-Discovery Interface Implementations	</i></span>
+<span class="sessionLocation">(Providence IV, Third Floor)</span>
+<span class="sessionParticipants"><a href="2008fallbios.htm#markockerbloom">John Mark Ockerbloom</a>, University of Pennsylvania</span></span>
+<span class="sessionAbstract">This session is an opportunity for developers of interfaces implementing the DLF's ILS-Discovery interface recommendations to present their work to others, ask and answer questions about the recommendations and their implementations, and discuss further development initiatives and coordination.</span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">3:30 p.m. &ndash; 4:00 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break</span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">4:00 p.m. &ndash; 5:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 10</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) PANEL: <i>Fedora Commons and DSpace Foundation collaboration</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#kimpton">Michele Kimpton</a>, DSpace Foundation; <a href="2008fallbios.htm#payette">Sandy Payette</a>, Fedora Commons</span></span>
+<span class="paperAbstract"><p>During the summer of 2008 a number of discussions were held between Fedora Commons and DSpace Foundation about the possibilities for collaboration between the two non-profit organizations in ways that could best serve both communities and add value. Both communities were invited to participate and give input during the course of several virtual and face to face meetings.</p>
+
+<p>Several short term projects have been defined and are actively being worked on to enable the two platforms to interoperate more seamlessly, to allow for joint web services to be built on top of either platform by defining common standards, and to work collaboratively with outside partners to define new services and solutions the community at large is interested in.</p>
+
+<p>In the longer term, the Executive Directors (Payette and Kimpton) agreed that both organizations would benefit by looking beyond their existing systems to new joint opportunities that would create light weight, web based services and solutions. Payette and Kimpton realized that together they have an asset in the form of a sizable community of committed open source developers and users that can not only keep the existing open source products alive, but can be leveraged to produce new value in the competitive terrain in which we exist.</p>
+
+<p>Both Payette and Kimpton will present in detail the projects and progress to date, and outline future activities to further the collaboration.</p>
+</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Defining "Noncommercial Use"</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#rutledge">Virginia Rutledge</a>, Creative Commons</span></span>
+<span class="paperAbstract"><p>This presentation will report on a research study designed to explore differences between commercial and noncommercial uses of content, as those uses are understood among various communities and in connection with a wide variety of content. The study is being undertaken by the nonprofit organization Creative Commons, with the generous support of the Andrew W. Mellon Foundation.</p>
+
+<p>Creative Commons provides free copyright licenses to creators who want to give the public certain permissions to use their works, in advance and without the need for one-to-one contact between the creator and the user. Since the licenses were introduced in 2002, they have been translated into 47 legal jurisdictions and adopted by content creators around the globe, from remix musicians to educator consortia, bloggers to book publishers. At present over 130 million works are available on the Internet under Creative Commons licenses, each work tagged with metadata expressing the rights and permissions associated with it. Almost 2/3 of all works CC-licensed works today include the "Noncommercial" or "NC" term. These works may be used by anyone for any purpose that is not "primarily intended for or directed toward commercial advantage or private monetary compensation", provided the use also complies with the other terms of the license.</p>
+
+<p>As adoption of Creative Commons licenses spreads exponentially, the organization is undertaking this study as part of its efforts to provide information to creators about the contexts in which the NC term may further or impede their intentions with respect to the works they choose to share, and to make sure that users clearly understand those intentions. The study findings, which will be publicly released in 2009, are expected to help improve the licenses where possible, but also to contribute generally to better understanding of the complexities of digital distribution of content.</p></span></div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 11</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>Access to Individual Harvested Sites in a Web Archive</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#meehleib">Tracy Meehleib</a> [<a href="presentations/Meehleib.pdf">PRESENTATION</a>], Library of Congress</span></span>
+<span class="paperAbstract"><p>As libraries assume responsibility for web archiving as part of their collection development, there is increasing pressure placed on them to capture, store, and provide access to this born-digital content. For the past four years the Library of Congress has been experimenting with and developing tools and methodologies to make website capture and access more efficient, while at the same time striving to ensure that these new resources are searchable and indexable along with other library collections.</p>
+
+<p>The Library of Congress' workflow for creating resource descriptions of archived, combines automated techniques (metadata extraction from archived files) and human techniques (increased subject access enrichment by catalogers) to provide site-level access, facilitating searching and browsing within and across web archives. In addition, the intellectual/historical context is embodied within the archive itself and described in collection-level records and descriptive background to the content written by curators and subject specialists.</p>
+
+<p>As a result, the Library of Congress Web Archive project has made significant progress towards creating a sustainable infrastructure for making web archives available for digital scholarship.</p>
+</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) PANEL: <i>Preserving Public Government Information: The 2008 End of Term Crawl Project</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#grotke">Abbie Grotke</a> [<a href="presentations/GrotkeCarpenter.pdf">PRESENTATION</a>], Library of Congress; <a href="2008fallbios.htm#carpenter">Kris Carpenter</a>, Internet Archive</span></span>
+<span class="paperAbstract">The Library of Congress, the California Digital Library, the University of North Texas Libraries, the Internet Archive and the U.S. Government Printing Office have joined together for a collaborative project to preserve public United States Government web sites at the end of the current presidential administration ending January 19, 2009. The panel will describe how the collaboration came about and the scope of the project, and will discuss how the partners and volunteer nominators -- government information specialists including librarians, political and social science researchers, and academics -- are working together to document federal agencies' presence on the World Wide Web during the transition of government. The panelists will also describe how this effort is enhancing the existing collections of the five partner institutions.</span></div>
+</div>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 12</span>
+<span class="sessionLocation">(Providence III, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>Digital Performance Institute </i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#dissette">Alyce Dissette</a> and <a href="2008fallbios.htm#dreyer">Liz Dreyer</a>, both Digital Performance Institute</span></span>
+<span class="paperAbstract">The Digital Performance Institute (DPI) is developing a comprehensive multi-disciplinary performing arts production database (PADb) on the Internet. The goal is to establish a central and user friendly online "hub" as a source of information about specific productions including theater, dance, opera, interdisciplinary, experimental works and the artists involved in making them. The PADb site is targeted for general reference primarily for professionals, but will be useful to academics, and audiences. </span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Listen Up! Australian Oral History and Folklore Recordings Online</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#finnane">Ingrid Finnane</a>, National Library of Australia</span></span>
+<span class="paperAbstract"><p>The National Library of Australia has an ongoing digitization program for preservation of its sound recording collection.  Currently 50% of the oral history and folklore collection is digitized and stored on our Digital Object Storage System.  However, researchers who want access to the material have had to visit the Library in Canberra or request a copy sent on physical media.</p>
+
+<p>This year we released the first stage of a delivery system that includes time-point links from summaries and full text transcripts to audio.  Researchers now have immediate online access to selected content with open access conditions.</p>
+
+<p>This presentation will describe how we used METS and the TEI text encoding standard to build the new delivery system, challenges encountered during the project, and the current workflow from digitization to online delivery.</p>
+</span></div>
+</div>
+</div>
+
+<div class="forumDay2">
+<span class="forumDayHeader">DAY THREE: Friday, November 14</span>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">8:00 a.m. &ndash; 9:00 a.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Breakfast</span>
+<span class="sessionLocation">(Waterplace Ballroom, Second Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">9:00 a.m. &ndash; 10:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 13</span>
+<span class="sessionLocation">(Providence III, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">PANEL: <i>Asserting Fair Uses </i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#band">Jonathan Band</a>, policybandwidth; <a href="2008fallbios.htm#harper">Georgia Harper</a> [<a href="presentations/Harper.pdf">PRESENTATION</a>], University of Texas at Austin; <a href="2008fallbios.htm#kleinman">Molly Kleinman</a>, University of Michigan; <a href="2008fallbios.htm#rutledge">Virginia Rutledge</a>, Creative Commons; <a href="2008fallbios.htm#wagner">Gretchen Wagner</a>, ARTstor</span></span>
+<span class="paperAbstract">This panel will address the state of fair use. Panelists will discuss strategies for asserting fair use effectively, and will candidly expose some of their fair use fears and fantasies in the process. The panel will include perspectives from Jonathan Band who helps shape the laws governing intellectual property and the Internet through a combination of legislative and appellate advocacy; Georgia Harper, Scholarly Communications Adviser for the University of Texas at Austin; Molly Kleinman, Copyright Specialist and Special Projects Librarian at the University of Michigan Library; Virginia Rutledge, Special Counsel to Creative Commons; and Gretchen Wagner, General Counsel of ARTstor.</span></div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 14</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>Preserving Brand-new Buildings: Digitally Archiving 3D CAD and Related Architectural Materials </i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#reilly">William Reilly</a> [<a href="presentations/Reilly.pdf">PRESENTATION</a>], [<a
+href="http://facade.mit.edu/presentations/REILLY_DLFFall2008_MIT_FACADE.ppt.htm">PRESENTATION
+as WEB PAGE</a>], MacKenzie Smith (Associate Director for Technology), Ann Whiteside (Head, Rotch Library of Art and Architecture), all Massachusetts Institute of Technology</span></span>
+<span class="paperAbstract"><p>Architectural collections within libraries, archives, and museums are increasingly faced with acquiring and preserving the artifacts of Computer-Aided Design (CAD) development, yet have few tools or approaches with which to address this today. This paper reviews the relevant issues faced to date with the FACADE ("Future-Proofing Architectural Computer-Aided Design") two-year IMLS funded research project, being conducted by the MIT Libraries, along with the School of Architecture and Planning. FACADE is charged with investigating how best to archive the highly proprietary, internally complex, and potentially short-lived digital artifacts of contemporary 3D CAD modelling tools, along with related files and materials as generated in real world datasets for building construction projects, as received from prominent architects. With an overall goal of developing production-quality open source software to permit collections to capture, describe, manage, preserve, and make available these digital CAD models, the project has engaged with a number of areas of interest. The ACE domain (architecture, construction, engineering) has its own set of data exchange formats in various stages of maturity and gestation (STEP, IFC, IGES, etc.); these form the basis for our explorations in data preservation formats for preservation strategy. Format registry entries for the native CAD tools into GDFR and/or PRONOM, and code to integrate DSpace with those registries, is another area of investigation. An ontology for the kinds of materials received has been designed, and some prototypical tools developed, to permit the creation of metadata (RDF) on a large set of materials almost always otherwise lacking in meta-information.</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>Watching Our Backs: Community Verification of Digital Preservation Systems</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#markockerbloom">John Mark Ockerbloom</a> [<a href="presentations/Ockerbloom.pdf">PRESENTATION</a>], University of Pennsylvania</span></span>
+<span class="paperAbstract"><p>Librarians and faculty agree that information preservation is one of the essential roles of libraries. Yet, as the information we manage increasingly becomes digital, we have to rely on new methods of preserving this information that have not been fully tested. While developing and auditing for best practices is important, we must also verify that preservation systems actually perform as we hope they will, preferably long before we have to fall back on them.</p>
+
+<p>In this talk, I will show ways in which this verification can be done now, by the community, with reasonable cost and demonstrable efficacy. Specifically, I will describe Penn's failure recovery tests of LOCKSS, which uncovered issues with the system's performance and reliability, and helped lead to improvements addressing these issues. I will also discuss initiatives being organized through CRL to assess distributed auditing and community knowledge sharing to test and improve LOCKSS, Portico, and other shared preservation systems.</p>
+</span></div>
+</div>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 15</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle"> <i>Optimizing Your Metadata and Digital Content for Sharing with MODS and Asset Actions</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#dunn">Jon Dunn</a> and <a href="2008fallbios.htm#riley">Jenn Riley</a>, both Indiana University</span></span>
+<span class="paperAbstract"><p>The DLF Aquifer Metadata Working Group has created guidelines for using the Metadata Object Description Schema (MODS) effectively when preparing metadata for use in aggregations. The Technology Working Group has been a primary force behind the development of Asset Actions, a standardized, easy-to-implement mechanism for exposing behaviors across a class of digital objects. Both developments enhance a digital library user's ability to find, identify, use, and re-use digital objects.</p>
+
+<p>This 90 minute hands-on workshop will assist participants in preparing Asset Actions for items in their collections, help participants improve the shareability and conformance to the Aquifer MODS Guidelines of their MODS records, and/or effectively map metadata from other formats into MODS optimized for aggregation. Members of the DLF Aquifer working groups that developed the standards will demonstrate and be on hand to assist participants. Bring a laptop with an XML editor of your choice, the knowledge and capability to transform XML documents using XSLT, and records for items from your repository that you want to experiment with.</p> 
+
+<p>At the end of the session, participants should better understand what a best practice-based implementation of Asset Actions or MODS for their collections should look like, and be able to plan for implementing this understanding in their repository.</p>
+</span></div>
+</div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">10:30 a.m. &ndash; 11:00 a.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Break</span>
+<span class="sessionLocation">(Pre-function Area, Third Floor)</span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">11:00 a.m. &ndash; 12:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 16</span>
+<span class="sessionLocation">(Providence I, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">A) <i>Massachusetts Institute of Technology (MIT) GeoWeb Expands Access to GIS data through Open Source Tools</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#sweeney">Lisa Sweeney</a> [<a href="presentations/Sweeney.pdf">PRESENTATION</a>], Massachusetts Institute of Technology</span>
+<span class="paperAbstract"><p>MIT GeoWeb, a new interface to the MIT Geodata Repository, enables MIT community users to access Geographic Information Systems (GIS) data through a standard web browser. The web interface allows users to search, view, and download GIS data and metadata from the MIT Geodata Repository, a collection of international GIS data maintained by MIT GIS Services. Users will find data in the MIT system not freely available on the web and can view or download the data, and manipulate and analyze it in whatever system they choose. GeoWeb combines a multiplicity of search types that is geographically and visually based, in combination with more traditional text based searching.</p>
+
+<p>GeoWeb was built in Spring 2008, using GeoServer, ArcSDE, TileCache, and PHP on the server side, and with the OpenLayers and jQuery JavaScript libraries on the client side. Development tools included text editors and Firebug. We have experienced various challenges and learned a lot from merging proprietary and open source systems.</p>
+
+<p>Enabling searching through a web browser eliminates the barrier of having specialized software to discover and access GIS data. It also creates the potential for endless possibilities for connecting different systems within the MIT libraries as well as with other institutions, for instance exploring MARC map records searchable through GeoWeb, with all digital GIS materials, as well as connecting with GIS systems beyond MIT.</p>
+</span></div>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle">B) <i>OpenMIC Project and the MIC Registry</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#otto">Jane Otto</a> [<a href="presentations/Otto.pdf">PRESENTATION</a>], Library of Congress</span></span>
+<span class="paperAbstract"><p>OpenMIC is an open source, web-based cataloging tool that can be used as a standalone application or integrated with other repository architectures by a range of organizations.  It provides a complete metadata creation system for analog and digital materials, with services to export these metadata in standard formats.</p>
+	<ul>
+  <li>Full METS support</li>
+  <li>Low overhead and infrastructure requirements</li>
+  <li>Events-based data model for management and rights documentation</li>
+  <li>Customization capabilities</li>
+  <li>Mapping from both standard and local in-house schema</li>
+  <li>Import and export utilities</li>
+  <li>Unicode and CJK vernacular character support</li>
+</ul>
+
+<p>The OpenMIC cataloging utility is one component of the MIC portal for moving images.  MIC (Moving Image Collections) is a preservation, access, and education initiative co-sponsored by the Library of Congress and the Association of Moving Image Archivists (AMIA), in partnership with Rutgers University Libraries, the technology lead.  MIC (pronounced 'Mike') integrates a union catalog, directories, and the cataloging utility with informational resources in a portal structure delivering customized information on moving images, their preservation, and the images themselves to archivists, researchers, educators, and the general public.  MIC's mandate is both to document the national moving image collections environment and to serve as a coordinator and catalyst for the preservation of the nation's moving image heritage.  MIC's mission is to immerse moving images into the education mainstream, recognizing that what society uses, it values, and what it values, it preserves. </p>
+</span></div>
+</div>
+
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Session 17</span>
+<span class="sessionLocation">(Providence II, Third Floor)</span></span>
+<div class="paper">
+<span class="paperHeader">
+<span class="paperTitle"> <i>Google Book Search: An Update</i></span>
+<span class="paperParticipants"><a href="2008fallbios.htm#clancy">Dan Clancy </a>and <a href="2008fallbios.htm#orwant">Jon Orwant</a>, both Google</span></span>
+<span class="paperAbstract">As part of its mission to organize the world's information, Google is scanning the world's books to make them discoverable, searchable, and -- where rights permit -- readable.  In this talk, we'll describe the current state of the effort, focusing on the challenges involved in determining copyright status.</span></div>
+</div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle"></span>
+<span class="sessionGroupTime">12:30 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Adjourn</span>
+<span class="sessionLocation"></span>
+<span class="sessionParticipants"></span></span></div>
+</div>
+
+<div class="sessionGroup">
+<span class="sessionGroupHeader">
+<span class="sessionGroupTitle">POST-CONFERENCE</span>
+<span class="sessionGroupTime">1:00 p.m. &ndash; 5:00 p.m.</span></span>
+<div class="session">
+<span class="sessionHeader">
+<span class="sessionTitle">Project Manager's Group Meeting</span>
+<span class="sessionLocation">(South County, Third Floor)</span>
+<span class="sessionParticipants">[<a href="presentations/Vinopal.pdf">VINOPAL PRESENTATION</a>]<p>
+[<a href="presentations/Stedfeld.pdf">STEDFELD PRESENTATION</a>]</span></span>
+
+<span class="sessionAbstract">
+<p></p></span></div>
+</div>
+</div>
+
+
+
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</div></div></div></div></td>
+</tr>
+</table>
+
+
+<p align="center" class="copyright">Copyright &copy; 2008 Digital
+Library Federation. All rights reserved.</p>
+
+<p align="center" class="copyright">Last updated:
+
+
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+
+</script></p>
+
+</td>
+
+</tr>
+
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+
+<td width="99" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="99" height="1" /></td>
+
+<td width="18" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="18" height="1" /></td>
+
+<td width="59" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="63" height="1" /></td>
+
+<td width="53" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+
+</table>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+<!-- <script language='javascript'>postamble();</script> -->
+<script language='javascript'>postamble();</script>
+
+<script language='javascript'>postamble();</script>
+
+<script language='javascript'>postamble();</script>
+
+<script language='javascript'>postamble();</script>
+
+<script language='javascript'>postamble();</script>
+
+

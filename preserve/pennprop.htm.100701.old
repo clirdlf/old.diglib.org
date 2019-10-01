@@ -1,0 +1,954 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="University of Pennsylvania-PROPOSAL FOR A PLANNING GRANT FOR ARCHIVING AND PRESERVATION OF ELECTRONIC
+JOURNALS" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>University of Pennsylvania-PROPOSAL FOR A PLANNING GRANT FOR ARCHIVING AND PRESERVATION OF ELECTRONIC
+JOURNALS</title>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src="../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../publications.htm"><img src="../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<img src="../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../about.htm"><img src="../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../news.htm"><img src="../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> 
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"><img src="../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"><img src="../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"><img src="../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"><img src="../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"><img src="../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">UNIVERSITY OF PENNSYLVANIA</h1>
+
+
+<h3>PROPOSAL FOR A PLANNING GRANT FOR ARCHIVING AND PRESERVATION OF ELECTRONIC
+JOURNALS</h3> 
+<h3>The problem</h3> 
+<p>Like many research libraries, the
+University of Pennsylvania Library subscribes to an increasing number of
+journals in electronic form.  The digital form of journals offers some
+significant benefits compared to the print form, including enhanced
+accessibility, search facilities, linking services, and the ability to include
+and extract new kinds of content (such as data sets) in scholarly publications. 
+However, subscribing to publications in electronic form also carries substantial
+risks.  When we obtain print journals, we can be reasonably sure that we will
+continue to have full access to them in the years to come, at little cost to us,
+because the technology of print preservation is well understood and because
+access and preservation of our print journals is not constrained by legal
+restrictions or the continuing fortunes or policy of a publisher.  On the other
+hand, technology for the preservation of digital information is unproven for
+long-term preservation.  Furthermore, the legal and economic environment of
+electronic journal subscriptions is also in flux, making our ability to maintain
+control over our copies of electronic journals uncertain.  These risks have made
+libraries hesitant to take full advantage of the benefits electronic journals
+can provide.  They also threaten the long-term viability of the record of
+scholarship. </p>
+<p>Reliable, persistent electronic journal archives solve many of
+these problems.  Such archives benefit the libraries that subscribe to
+electronic journals, by ensuring that they will continue to have access to
+journal content, and be able to use it effectively for scholarly activity, over
+the long term.  Such archives also benefit the publishers of  electronic
+journals: They make it more attractive for libraries to buy subscriptions, since
+they know they will have long-term access to current and past issues of the
+journals.  Archives also benefit the authors of journal content, by ensuring
+that their scholarship remains in public view. </p>
+<p>Since the Penn Library started
+acquiring and creating digital content, we have recognized the need to preserve
+it for decades, or even centuries. All of our digital collections need to have
+preservation support: not just our electronic journals, but also our digitized
+images, our on-line books, our catalogs and finding aids, our databases, and our
+multimedia content.  Journal literature, as the primary record of progress in
+scholarly research, is especially important to preserve over the long term.
+Moreover, we expect to use techniques and tools for archiving and preserving
+electronic journals to archive and preserve other types of digital information
+as well. </p>
+<h3>The proposal</h3> 
+<p>Therefore, the Penn Library proposes to
+establish a long-term digital archive for electronic journals, as part of the
+Mellon Electronic Journal Archiving Program.   We intend to make arrangements
+with selected publishers of electronic journals to archive their publications.
+We intend to set up a system that can ensure their long-term accessibility.  We
+intend to study how such systems can be set up to effectively archive electronic
+journals at low cost.  We intend to share our findings, and (where permitted by
+applicable licenses) our archival systems and content, with the broader library
+community. </p>
+<p>Paul Mosher, the Director of Penn Libraries and Vice-Provost of
+the University of Pennsylvania, is very interested in moving this project
+forward.  He will be visiting with publishers later this month to start
+partnerships with them in creating such an archive. 
+</p>
+
+<p>We propose to start with
+a one-year phase to design and plan the archive, to start archiving selected
+journals on an experimental basis, and to study the costs and benefits, and
+optimal strategies, for maintaining such an archive.  We expect that this phase
+would produce several important contributions: 
+</p>
+<ul> 
+<li>Agreements with
+publishers to provide electronic journal content for perpetual use and
+archiving, and models for agreements on the rights and responsibilities of
+electronic journal archives. </li>
+<li>A design, and the beginnings of a first
+implementation, for sustainable, distributed archives for electronic journal
+content. </li>
+<li>A framework (both technical and procedural) for working with peer
+institutions to share information and responsibilities concerning archived
+electronic journals, including a consensus on minimum criteria for trustworthy
+electronic archives. </li>
+<li>An experience report and evaluation on best practices
+for starting and maintaining journal archives. </li>
+</ul> 
+<h3>Advantages of Penn as a pilot site </h3> 
+<p>Penn's digital library program has several features that make
+it especially well-equipped to act as a pilot site for this program: </p>
+<ul> 
+<li>We
+have in place, or are working on developing, many of the pieces of the digital
+architecture that would be needed to support an electronic journal archive.  In
+particular: </li>
+
+<li><ol> 
+<li>We have acquired a terabyte-scale networked disk storage
+unit for on-line access to our digital holdings, which should provide reliable
+access and backup.  While this unit is largely already allocated to other
+projects, we can expand the existing structure for archiving electronic journal
+issues. </li>
+
+<li>We have implemented, and now maintain, a database containing
+information about the electronic journals to which we subscribe.  We are now
+developing tools for librarians to input new information into this database, and
+for patrons to browse and search the database to gain access to full-text
+journal content.  The database, and accompanying tools, could be extended to
+manage metadata about journals we archive, and provide access to them. </li>
+
+<li>We
+have installed a Handle server, and are implementing tools for maintaining
+Handle databases, that should provide persistent identification and location of
+digital content, including electronic journal content, that is not dependent on
+the location of the content or the technology used to manage or serve it. </li>
+</ol></li>
+
+<li>We are participating in collaborative programs organized by RLG and the DLF
+to provide metadata about our digital collections to peer institutions using
+standard formats and protocols.  We hope to use similar mechanisms to give
+libraries information about our electronic journal holdings, and share content
+where licenses permit it. </li>
+<li>We have been working with Oxford University Press,
+a major publisher of scholarly books and journals, for over a year to make their
+current book releases in history available to our local community.  We have
+gained experience in working with publishers to receive their digital content,
+convert it to a form suitable for on-line use, maintain it, and make it
+available under terms mutually beneficial to the publisher and our scholarly
+community.   Our OUP book project has included tools to browse and search the
+content of books.  It aims to study how electronic books can be used most
+effectively in a university environment.  We hope to reuse infrastructure,
+findings, and experience from this project in our journal-archiving efforts.</li>
+
+<li>We have a large body of professionals who are experienced and knowledgeable
+in applying digital library technology to meet the needs of library users.  All
+major branches of the library, from public services to cataloging to special
+collections, have integrated digital technology into their operations for
+several years.  In addition, we have specialized staff, with library, computer
+science, and information technology experience, whose primary job is to research
+and develop digital library technology.  They work with the rest of the library
+staff to deploy it in effective ways. </li>
+</ul> 
+<p>In the past year, our digital
+library group has gained substantial experience in migrating digital data and
+metadata into new forms suitable for long-term use.  Projects we have worked on
+have included converting digital image data and metadata from low-resolution and
+proprietary formats to high-resolution, standard formats; conversion of static
+web pages and scripts into database forms that can be presented and browsed in a
+variety of forms; and conversion of a Yiddish database built on 1980s-era dBase
+programs and private character encodings into a database searchable and
+browsable on the Web that uses standard Unicode representations for non-Roman
+characters. 
+</p>
+
+<ul> 
+<li>We can use, and make available to other institutions, a
+distributed software architecture for managing data formats, and for supporting
+operations that extract information from these formats and migrate data from old
+to new data formats while controlling information loss.  This architecture,
+known as the Typed Object Model (TOM), has been developed by a computer
+scientist now on our library staff, has been used for several years as the basis
+for a web-based conversion service, and has open-source software implementations
+available through the Penn library.  TOM should be an important tool in keeping
+electronic journals usable even if the data formats in which they were
+originally published become obsolete. 
+</li></ul> 
+<h3>Planned Activities</h3> 
+
+
+<p>Here is what we plan to do during the planning phase of the project: 
+</p>
+<h4>1.
+Select a set of electronic journals to start archiving, and make arrangements
+with their publishers to archive them. 
+</h4> 
+
+<p>We intend to concentrate on
+academic publishers, and to archive as many of each publisher's journals as
+feasible.  For the initial phase of the project, we hope to set up archiving for
+at least 80 journals from at least two publishers.  Although we do not yet have
+confirmed journal archiving partners, we plan to initially approach Oxford
+University Press (with whom we already have an arrangement to store and provide
+on-line books), and Cambridge University Press, with whom we also have working
+ties.  Our library director, Paul Mosher, will be visiting both publishers in
+late October.  We already subscribe to about 120 electronic journals provided by
+Oxford and Cambridge, which would be a sufficient base for the initial phase of
+this project.  If our needs and scale warrant, we would also approach other
+publishers. 
+</p> 
+<p>For the planning phase, we would start by archiving issues
+that are already in electronic format, and issues that appear in the future.
+However, we would design the archive so that newly digitized past issues could
+also be included.  (Retrospective conversion may play more of a role in the
+second phase of the program, but some initial experimentation, to assess how the
+archive could accommodate different production workflows and formats, may also
+be conducted during the planning phase.) 
+</p> 
+<p>
+<b>Milestones:</b> </p>
+<ul>
+
+<li>By 3 months from the start of the grant period, we expect to have made
+initial arrangements with at least two publishers to work with us in setting up
+an archive for their journals. </li>
+<li>By 6 months, we plan to start collecting
+journal content from these publishers, either harvested from the Web, or sent to
+us by special arrangement with the publishers. </li>
+</ul> 
+ 
+<h4>2. Negotiate
+agreements (licenses) of archival rights and responsibilities with our publisher
+partners.
+</h4> 
+
+<p>When we started to make Oxford University Press books
+available to our users, a simple "gentleman's agreement" was sufficient for the
+first phase of our collaboration.  In the longer term, however, archives must
+negotiate more explicit licensing agreements that clearly spell out the rights
+and responsibilities of the publishers and archivers of electronic journals, and
+guarantee them into the future.  Otherwise, an archive may find itself unable to
+keep the promises that it has made to preserve archived issues and provide them
+to the scholarly community. 
+</p><p>We will need to negotiate licenses with the
+publishers sufficient to enable us to maintain the utility of the archived
+issues and provide them to the scholarly community.  In some respects, the terms
+of these licenses can simply guarantee the same legal rights and abilities that
+libraries already have for archiving their print journals.  In particular, we
+would seek </p>
+<ul> 
+<li>the right to store the electronic copies, and provide access
+to our campus users, in perpetuity. </li>
+<li>othe right to provide access to other
+institutions and mirror sites (based on their subscriptions, parallel or
+consortial arrangements with publishers, and/or the passage of time since the
+original publication of the journal). </li>
+<li>the right to create derivative works
+based on the originally licensed material, for the purpose of maintaining
+useful, high-quality access to the journal content as technology changes.
+</li>
+<li>the right to create and supply metadata on the journal content to the public
+at large. </li>
+<li>the right to transfer the electronic content, rights, and
+responsibilities, to another archiving institution. </li>
+</ul> 
+
+<p>At the same
+time, we would prepare and publish statements of the archival responsibilities
+assumed for each journal or set of journals.  Because the exact form of an
+electronic journal may need to change as technology changes, these statements
+would need to make clear exactly what functions of the journal would be
+preserved.  For example, the commitments made for one journal might include
+preserving the text, charts, and other illustrations of the editorial matter of
+the journal, and its table of contents, but not include preserving the exact
+pagination and layout, or advertising matter.  (A journal of more historical
+interest than direct scholarly interest, though, might have its page images
+preserved, in contrast.)  Other commitments may relate to the metadata preserved
+for journals, the policy for corrections and errata, supplementary data sets, or
+value-added services like full-text indexing or reference linking.  Because no
+institution is guaranteed to go on forever, we would also need to account for
+the possibility of transferring responsibility for these commitments to other
+parties, both in our licensing agreements and in our statements of
+responsibility. 
+</p> 
+<p>We intend to seek guidance from our university counsel,
+and possibly from our law school and library, in crafting such agreements.  Even
+more importantly, we intend to collaborate with other partner libraries in the
+journal archiving project to produce a set of model licenses and statements of
+responsibility. We believe the most effective journal archiving system will
+involve many different publishers, with archival responsibilities shared by
+multiple institutions.  Standard licenses and statements of responsibilities,
+developed through the collaboration of several active archives and publishers,
+can greatly smooth the operation of a distributed archival system. 
+</p>
+
+<p>
+<b>Milestones:
+</b> 
+</p>
+
+<ul> 
+<li>By 3 months from the start of the grant period,
+we will have locally prepared an initial draft of rights and responsibilities we
+expect our archive to have. </li>
+<li>By 6 months, we expect to have made initial
+legal agreements with the publishers we  started working with, of at least
+limited duration.  At this point, we would provide the details of these
+agreements to partners in the archiving project, for discussion and
+consultation. </li>
+<li>By 12 months, we expect to have "permanent" agreements with
+these publishers (that is, with archival rights for materials collected to date
+granted in perpetuity). </li>
+</ul> 
+ 
+<h4>3. Determine the necessary metadata and
+workflow needed to receive, validate, archive, and provide access to electronic
+journals.  Make necessary arrangements with publishers, and within the library,
+to support this workflow and maintain this metadata.   Decide on standard
+initial formats and protocols to use to communicate our electronic journal data
+and metadata.
+</h4> 
+
+<p>Our agreements with journal publishers would include
+specifications of the content formats and metadata we expect them to provide.
+We would also create our own metadata for descriptive and administrative
+purposes, and for supporting value-added services.  We would plan to share non-
+administrative metadata with the public at large, so that others can see what we
+hold, what we're committed to providing, and how we keep track of our holdings.
+</p> 
+<p>
+<b>Milestones:</b> 
+</p>
+
+<ul> 
+<li>By 4 months into the grant period, we
+intend to have detailed descriptions of the metadata we intend to use in the
+project, and the initial workflow we plan to follow. </li>
+<li>By 7 months, we plan to
+have provided the details of the metadata and workflow actually used to partner
+institutions. </li>
+<li>By 12 months, we plan to have at least some of this metadata
+publicly viewable. </li>
+</ul> 
+<h4>4. Design, and begin installing, an
+information base (consisting of databases and filesystems) for storing and
+accessing archived journal content and related metadata.
+</h4> 
+
+<p>This would
+include installing tools for checking the integrity of this data, and for
+backing it up (both within the organization, and with mirror sites).  We would
+also install (and implement, where needed) required client and server software
+for communicating e-journal data and metadata, under appropriate access control.
+</p> 
+<p>Unlike the archival commitments specified earlier, the exact choices of
+formats, protocols, and software used in the information base can change over
+time as needed.  However, it is still important to make initial choices that
+will support our archival commitments, that will be compatible with the
+practices of our content suppliers, archiving partners, and readers, and that
+can be transferred or translated for new technology when needed. 
+</p>
+
+<p>
+<b> Milestones:
+</b> 
+</p>
+
+<ul> 
+<li>By 6 months into the grant period, we expect to
+have an initial information base set up to store journal content and metadata.
+</li>
+<li>By 12 months, we intend to have made initial agreements with institutional
+partners to mirror material. 
+</li></ul> 
+ 
+<h4>5. Plan, and begin to install,
+documentation and support for the data formats and protocols used by the
+archive. </h4> 
+
+<p>Support should include, where feasible, translation of
+data to alternative formats, and/or services to provide access to information
+managed using formats and protocols not directly supported by clients.   (That
+is to say, we should set up migration and emulation services for our data.) 
+</p>
+
+<p>Even if there is no immediate need for migration and emulation services, due
+to the exclusive use of widely-used formats and protocols, such services will
+eventually be necessary as technology changes.   By setting up support for
+migration and emulation from the start, we hope to reduce costs incurred later
+on, by building on the support and knowledge base already built for our old
+systems.  Furthermore, the startup costs for this form of data format support
+give us some empirical basis for estimating, and amortizing, the costs of
+keeping up with technology change over the long term. 
+</p>
+
+<p>
+<b>Milestones:
+</b> 
+</p>
+
+<ul> 
+<li>By 9 months, we will have available
+documentation (written by ourselves or by third parties) of the standard formats
+and protocols used in our information base. </li>
+<li>By 11 months, the standard data
+formats used in our archive will be registered with our type brokers (see 
+<a href="http://tom.library.upenn.edu">http://tom.library.upenn.edu/
+</a>) with
+converters or data extraction services available. 
+</li></ul> 
+ 
+<h4>6. Start
+acquiring and archiving journals, indexing them, providing metadata, and
+providing content to authorized parties, on an experimental basis.
+</h4> 
+
+<p>From the start, measure computing resources and labor required to enter and
+maintain the journals.  Measure their usage as well.  Using this data, evaluate
+the costs and benefits of running the archive, and consider possibilities for
+ongoing funding sources (such as internal funding, shared costs in a consortium,
+and/or revenue from subscriptions).  Our experience and analysis would also
+permit us to make well-informed plans for ongoing staffing, acquisitions, and
+access policies for the archive. 
+</p> 
+<p>
+<b> Milestones:
+</b> 
+</p>
+
+<ul> 
+<li>By 6
+months, we will have decided on measurement and assessment practices for our
+initial phase.  Measurement will begin on incoming content.  Also at this point,
+initial proposals for sustaining the archive will be made, and publicized to
+partners. </li>
+<li>By 9 months, local users will be able to examine content in our
+information base under appropriate access control and usage logging. 
+</li></ul>
+
+
+<h4>7. Produce a report, at the end of the year, describing our experience and
+findings from the planning year.  Assuming our findings are reasonably positive,
+produce a plan for continuing, and growing, the archive on a permanent basis.
+</h4> 
+
+<p>We would work with fellow archiving and journal-using sites to
+reach agreement on suitable protocols, practices, and architecture for long-
+term, distributed journal archives.  We would also distribute any software and
+metadata that we develop for managing the electronic journal archives.    (For
+example, this could include TOM servers and associated access and translation
+scripts for data formats used in the archive.) 
+</p> 
+<p>
+<b> Milestones:
+</b>
+</p>
+<ul> 
+<li>By 12 months, an experience report will be published, and a plan for
+continuing the archive will be submitted to Mellon.  Software developed by us,
+and not subject to licensing constraints, would also be made available when in a
+reasonably stable state. 
+</li></ul>
+ 
+<h3>Schedule
+</h3>
+<p>Here is a summary of the milestones described above, arranged
+chronologically.  (Note that these are dates of expected completions.  Work on
+these items will start considerably earlier.  In particular, work towards the
+milestones of the first 6 months would start as soon as possible.) 
+</p>
+<table> 
+<tr>
+
+<td>
+<b>3 months:
+</b>
+</td> 
+<td>Initial archiving arrangements made with
+publishers. Draft licenses/statements of rights and responsibilities written.
+
+</td>
+</tr> 
+<tr> 
+<td>
+<b>4 months: 
+</b>
+</td>
+<td>Detailed descriptions of metadata
+and workflow created. 
+</td>
+</tr>
+<tr> 
+<td>
+<b>6 months: 
+</b>
+</td>
+<td>Initial
+journal archive information base created. Initial licenses/statements of rights
+and responsibilities agreed to and distributed for comment. Collection of
+journal content and metadata begins. Initial plans for sustainability proposed.
+
+</td>
+</tr>
+<tr> 
+<td>
+<b>7 months: 
+</b>
+</td>
+<td>Details of metadata and workflow
+provided to partner institutions. 
+</td>
+</tr>
+<tr> 
+<td>
+<b>9 months:
+
+</b>
+</td>
+<td>Journal archive content available to local users Standard formats
+and protocols publicly documented. 
+</td>
+</tr> 
+<tr> 
+<td>
+<b>11 months:
+
+</b>
+</td>
+<td>Broker services available for standard archive data formats.
+
+</td>
+</tr> 
+<tr> 
+<td>
+<b>12 months: 
+</b>
+</td>
+<td>Initial mirroring arrangements
+made. "Permanent" licenses/statements of rights and responsibilities agreed to.
+Journal metadata publicly viewable. Experience report and plan for continuation.
+Software depot set up for locally developed tools.
+</td>
+</tr> 
+</table>
+
+<h3>Staffing
+</h3> 
+ 
+<p>The following staff members will be working on this
+project: 
+</p> 
+<p>
+<b>John Mark Ockerbloom (project lead)
+</b> is digital library
+architect and planner at the University of Pennsylvania library.  He joined the
+Penn Library in 1999, coming from Carnegie Mellon University, where he earned a
+Ph.D. in computer science in 1998.  He has been involved in digital library-
+related projects since 1993.   His thesis work, for instance, included the
+design and implementation of a distributed architecture for managing diverse
+data formats, which has applications in digital library interoperability and
+preservation.  He was a consultant for the Universal Library project at Carnegie
+Mellon, and has presented his work to the Coalition for Networked Information,
+the ACM Digital Libraries Conference, and the Mid-Atlantic Regional Archives
+Conference.  At Penn, his achievements in migrating old technology to new uses
+have included the successful adaptation of a multilingual Yiddish song database
+from 1980s dBase technology and private character sets to a Web-accessible
+searchable form using Unicode and standard HTML. He also edits The On-Line Books
+Page, the Internet's longest-running site indexing and supporting freely
+available on-line books. 
+</p> 
+<p>
+<b>Delphine Khanna
+</b> is a digital projects
+librarian at Penn.  She joined the Penn Library in 1999.  She came to Penn from
+Rutgers, where she worked on several digital-library projects of the Center for
+Electronic Text in the Humanities.  At Penn, she has led several digital library
+projects, including an ongoing, project to archive and provide access to
+hundreds of thousands of digital images from our Fine Arts library.  She has
+experience and expertise implementing projects with many formats and programs
+used in digital libraries, including SGML and XML, EAD, TEI, Cold Fusion,
+Verity, and DLXS.  She holds a Masters of Library Science from Syracuse
+University, and a Masters of Linguistics and Computer Science from the
+University of Paris, France. Michael Winkler is the Web manager at the Penn
+Library.  He joined the Penn library in 1999, after working in a similar role at
+North Carolina State University.  At Penn, he has defined both data structures
+and workflows for changing our electronic journals, databases, and new materials
+information from ad-hoc, hand-maintained web pages to structured, low-overhead
+databases which are being integrated with our Franklin library catalog, and
+delivered to the public through new, powerful search tools.  (Some of these
+tools can now be found at http://www.library.upenn.edu/prototypes/public.html)
+Roy Heinz is the director of Library Computing at Penn Library, which supports
+all aspects of digital library use and development at Penn.  He is also the
+project lead for our Oxford University Press on-line books project, funded by
+the Mellon Foundation. Grover McKenzie is senior systems programmer and Unix
+system administrator at the Penn Library.  He has worked for Library Computing
+for the past nine years, and has installed, maintained, and upgraded our Unix-
+based servers (including those for our Oracle database, and our new terabyte-
+scale networked storage unit), and our networking and backup infrastructure.
+</p><p>
+We plan to expand our staff, using funds from various sources (including this
+grant), to include at least one more person providing programming and database
+support for our digital library projects.  This person, once hired, may (among
+other duties) build the tools and database we would use for this project.
+Before then, John Ockerbloom, Delphine Khanna, and Michael Winkler would be
+developing or installing any necessary tools for this phase of the project. John
+Ockerbloom would be in charge of planning, designing, and reporting on the
+project, and maintain liasons with our external partners. Grover McKenzie would
+provide support for the basic network and storage infrastructure.  Roy Heinz,
+along with other high-level library management staff, would oversee the progress
+of the project, and facilitate relations with our external partners. the
+project, and helping to build a robust infrastructure and community for
+electronic journal archiving. 
+
+</p> 
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2004 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

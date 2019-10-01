@@ -1,0 +1,4805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="The Cornell University Library's Proposal to The Andrew W. Mellon Foundation to Develop a Repository for E-Journals" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>The Cornell University Library's Proposal to The Andrew W. Mellon Foundation to Develop a Repository for E-Journals</title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+  if (Math.random) {
+    strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+    arrQuote = strQuote.split("^");
+    var num = Math.floor(Math.random() * arrQuote.length);
+    quote_rotate.src = "../images/"+arrQuote[num];
+  }
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type=
+"text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type=
+"text/css" />
+</head>
+<body onload=
+"MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src=
+"../images/logo.gif" alt="Digital Library Federation, Link: Home"
+name="dlf_logo" width="192" height="133" border="0" id=
+"dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../images/quote_hold.gif" name="quote_rotate" alt=
+"random quote" width="333" height="95" id="quote_rotate" /></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../publications.htm"><img src="../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><img src=
+"../images/forum.gif" alt="Forum" width="50" height="27" border=
+"0" /></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../about.htm"><img src="../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../news.htm"><img src="../images/news.gif" alt="Link: News"
+width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top">
+ <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);">
+<img src="../images/collect.gif" alt="Link: Digital Collections"
+name="collect" width="117" height="38" border="0" id=
+"collect" /></a></td>
+<td width="117" height="38" valign="top"><a href="../produce.htm"
+onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)">
+<img src="../images/produce.gif" alt="Link: Digital Production"
+name="produce" width="117" height="38" border="0" id=
+"produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)">
+<img src="../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()"
+onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)">
+<img src="../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)">
+<img src="../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+ <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+
+
+<!-- Begin text here -->
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top">
+
+
+<div class="Section1">
+<h1 class="sectionhead">Project Harvest</h1>
+
+<p align="center">
+The Cornell University Library's Proposal to<br />
+The Andrew W. Mellon Foundation<br />
+To Develop a Repository for E-Journals<br />
+<br />
+Submitted by<br />
+Sarah E. Thomas<br />
+Principal Investigator<br />
+Carl A. Kroch University Librarian<br />
+Cornell University<br />
+
+<br />
+15 October 2000</p>
+
+</div>
+<div class="Section2">
+<p><b>TABLE OF CONTENTS</b></p>
+<p><a href="#_Toc496071308">Overall Objectives for the
+Project</a></p>
+<p><a href="#_Toc496071309">Importance to Cornell</a></p>
+<p><a href="#_Toc496071310">Cornell's leadership in digital
+preservation</a></p>
+<p><a href="#_Toc496071311">Cornell's interest in electronic
+publication.</a></p>
+<p><a href="#_Toc496071312">Cornell's leadership in the
+preservation of agricultural literature</a></p>
+<p><a href="#_Toc496071313">The appeal of a subject-based
+approach</a></p>
+<p><a href="#_Toc496071314">Planning year focus</a></p>
+<p><a href="#_Toc496071315">Detailed work plan and budget</a></p>
+<p><a href="#_Toc496071316">Work with publishers to develop an
+archiving policy</a></p>
+<p><a href="#_Toc496071317">Investigate how to ensure scholarly
+acceptance of the repository</a></p>
+<p><a href="#_Toc496071318">Develop a technical model for the
+repository</a></p>
+<p><a href="#_Toc496071319">Develop acquisition and growth
+plans</a></p>
+<p><a href="#_Toc496071320">Identify an organizational and
+staffing model</a></p>
+<p><a href="#_Toc496071321">Negotiate access policies for the
+prototype repository</a></p>
+<p><a href="#_Toc496071322">Develop a plan for the long-term
+funding of an e-journal repository</a></p>
+<p><a href="#_Toc496071323">Project Staff</a></p>
+<p><a href="#_Toc496071328">Citations</a></p>
+<p><a href="#_Toc496071329">Appendix A: Chronological
+Workplan</a></p>
+<p><a href="#_Toc496071330">Appendix B: The Core Agricultural
+Journals</a></p>
+</div>
+<div class="Section3">
+<h1 class="sectionhead"><a name="_Toc496071308" id="_Toc496071308">Overall Objectives
+for the Project</a></h1>
+<p>In response to the call from the Mellon Foundation in a letter
+of 14 August 2000 from Don Waters, Scholarly Communications
+Project Officer, the Cornell University Library proposes to
+develop a plan for a repository of electronic journals in the
+field of agriculture. <i>Project Harvest</i>, as the project will
+be known, would build on Cornell's historic excellence in
+preservation in general and the preservation of agricultural
+literature in particular. We propose to initiate a dialogue with
+a number of agriculture publishers with whom we have successfully
+cooperated on other projects. During these discussions, we will
+identify the elements of a compelling preservation strategy and
+negotiate a mutually acceptable approach that Cornell could
+implement and which the publishers could accept. As a product of
+the negotiations, we will develop a model agreement that could be
+used as the basis for negotiations with other publishers in
+agriculture as well as publishers in other disciplines.</p>
+<p>In parallel with the negotiations with the publishers, we will
+also be at work on the considerable technical design issues
+associated with an e-journal repository. We will develop a design
+that addresses the various functions needed in an e-journal
+repository, including ingest, storage, management, migration, and
+access.</p>
+<p>At the end of the planning year, we will have negotiated with
+a number of publishers over the inclusion of their materials in a
+library-based repository. We hope that the negotiations will lead
+to the development of a model agreement that other publishers
+could readily accept. In addition, we will have modeled the
+architecture for a long-term repository based on the best
+thinking in the digital preservation community tempered by the
+realities of what our publisher/partners are willing to accept.
+We will have developed an RFP for the purchase of equipment and
+services needed for the implementation of the repository that we
+will distribute to vendors when further funding is secured.
+Finally we will have planned how to address other issues
+associated with the successful implementation of a long-term
+e-journal repository, including how to gain community support for
+the project, how it might grow, what organizational model we
+would need to follow to develop the e-journal archive, and what
+our long-term budget plan might be.</p>
+<h1 class="sectionhead"><a name="_Toc496071309" id="_Toc496071309">Importance to
+Cornell</a></h1>
+<p>There are a number of reasons why Cornell University wishes to
+undertake the difficult task of organizing, designing, and
+implementing a digital e-journal repository. First, it is a
+natural outgrowth of our long-standing interest in preservation
+of research library materials. In addition, the proposal builds
+on our interest in issues surrounding electronic publication.
+Finally, the subject matter of the proposal - the preservation of
+electronic agricultural literature - has special importance to
+us. The Mann Library at Cornell has spearheaded several national
+initiatives to ensure that essential agricultural literature is
+preserved; <i>Project Harvest</i> would extend this interest to
+the realm of electronic publication. Fortunately, our past
+experience in all three areas (preservation, electronic
+publishing, and agricultural subject areas) has equipped us well
+to undertake <i>Project Harvest.</i></p>
+<h2><a name="_Toc496071310" id="_Toc496071310">Cornell's
+leadership in digital preservation</a></h2>
+<p>For over a decade the Cornell University Library has been a
+leader in the preservation field in general, and in the
+application of digital technologies to library preservation in
+particular. Through a series of research grants and award-winning
+publications, Anne Kenney and the other staff of the Library's
+Preservation Department have developed much of the conceptual
+basis for our understanding of the place of digital technologies
+in the conversion of analog material. Over the last several
+years, she and Oya Y. Rieger have collaborated on a number of
+research projects to advance Cornell's understanding of digital
+preservation requirements. One of these projects, funded by the
+Institute for Museum and Library Services, has resulted in the
+development of a preservation strategy for Cornell's digital
+image collections, including requirements for the establishment
+of a central depository. A second research project, conducted in
+collaboration with Mann Library staff and funded by the Council
+on Library and Information Resources, assessed risks associated
+with file format migration (Lawrence, 2000). Currently Kenney,
+Rieger and other members of the Department of Preservation are
+collaborating with colleagues in the Computer Science Department
+on Project PRISM, a Digital Library Initiative, Phase Two project
+funded by the National Science Foundation and other interested
+funding agencies. Project PRISM is exploring issues around
+information integrity in the development and growth of digital
+libraries, with particular emphasis on preservation and security
+requirements. Cornell's growing expertise in digital preservation
+is evidenced by staff appointments to important initiatives. Anne
+Kenney, for example, has been named to the RLG/OCLC Working Group
+on Attributes of a Digital Archive. Oya Rieger serves on the
+Preservation Metadata Working Group of the RLG/DLF Task Force on
+Policies and Practice for the Long-Term Retention of Digital
+Materials and is co-chairing the NISO Technical Committee on
+Metadata for Digital Still Images. Another library staff member,
+Peter Hirtle, was a member of the seminal CPA/RLG Task Force on
+Digital Archiving (Task Force, 1996) and is serving on the
+Institutional Records Working Group of the RLG/DLF Task
+Force.</p>
+<p>In short, Cornell University has had extensive interest in and
+commitment to the preservation of research library materials. The
+preservation of "born digital" material is the next logical area
+for Cornell to address. Our previous experience has uniquely
+positioned Cornell to explore and implement an archival
+repository for electronic journals.</p>
+<h2><a name="_Toc496071311" id="_Toc496071311">Cornell's interest
+in electronic publication</a></h2>
+<p>Cornell University has also developed a strong interest in
+electronic publication. During the past two years, and with the
+support of The Andrew W. Mellon Foundation, the Cornell
+University Library has planned and undertaken a project in the
+electronic publication of mathematical journals. Project Euclid
+is intended to serve the needs of both mathematics publishers and
+mathematician end-users. We intend to develop Euclid into a
+primary channel for the publication and exchange of mathematical
+scholarship.</p>
+<p>Project Euclid demonstrates Cornell University's interest in
+issues surrounding electronic publication. Project Euclid,
+however, is intended to be an experiment in publication, not
+archiving. Nevertheless, the policies, practices, and procedures
+that are developed as part of <i>Project Harvest</i> may benefit
+the journals included in Project Euclid. Because a long-term
+repository is a key component of the scholarly exchange process
+in the online environment, such a repository, specifically
+tailored to the requirements of mathematics publications, would
+be a further service that we would like to offer those publishers
+who make use of Euclid to publish their journals.</p>
+<p>It is in Cornell's interest, therefore, to support the
+creation of a protocol for the creation and maintenance of an
+e-journal archive. Such a protocol could be adapted for
+mathematics and other disciplines. It would attract other
+mathematics publishers to the project who are not publishing
+their journals through Euclid, and foster the support of the
+Euclid project. In this manner, our currently-funded
+investigation of new models for scholarly communication and the
+proposed new investigation into methods by which we can provide
+long-term access to electronic scholarly information can support
+each other.</p>
+<h2><a name="_Toc496071312" id="_Toc496071312">Cornell's
+leadership in the preservation of agricultural
+literature</a></h2>
+<p>The literature of agriculture is a natural body of materials
+for a test of the preservation of electronic literature. For over
+a decade the Cornell University Library, the land grant library
+for the state of New York, has taken a leadership role in the
+preservation of the literature of agriculture. Librarians at
+Cornell's Mann Library, specializing in agricultural and life
+sciences, have worked with other land grant university libraries
+and the National Agricultural Library to establish a national
+preservation plan for agriculture (Gwinn 1993). As part of the
+preservation plan, the information components of the agricultural
+sciences were identified and primary responsibilities for the
+coordination of preservation activities were assigned to
+different institutions, as indicated in Figure 1. Cornell
+currently coordinates several parts of this ongoing preservation
+work. Mary Ochs and Joy Paulson at Cornell University's Mann
+Library manage on behalf of USAIN (United States Agricultural
+Information Network) the NEH-funded cooperative microfilming
+project to preserve state and county agricultural documents.
+Cornell also continues to develop the Core Historical Literature
+of Agriculture digital library. In September 2000, Cornell
+University received an IMLS National Leadership Grant to digitize
+the core historical literature of the related field of home
+economics. As part of the project, Mann Library will implement
+the guidelines established in the IMLS-funded preservation
+strategy project mentioned above. Part of the project will
+experiment with the Endeavor Encompass software to increase the
+interoperability of the home economics digital library with other
+digital repositories at Cornell, such as Making of America.
+Finally, the project will define a set of model workflows for
+capturing metadata for access and preservation of digital
+materials.</p>
+
+<p>
+<img src="./Project%20Harvest%20(distribution%20copy)_files/image002.jpg" alt="x" />
+
+<br />
+
+<img src="./ProjectHarvest(distributioncopy)_files/image003.gif" align="left" hspace="12" alt="Text Box: Figure 1: The National Agricultural Literature Preservation Plan as of 1993" />
+</p>
+
+<br />
+<br />
+</div>
+
+<div class="Section4">
+
+<p>Agricultural literature is well-served by a carefully
+developed and coordinated program, the National Preservation
+Program for Agricultural Literature. The USAIN National
+Preservation Special Project Committee oversees the plan, and
+Mary Ochs of Mann Library serves as a member of that committee.
+As indicated in figure 1, preservation of electronic publications
+in agriculture was not a significant component of the plan when
+it was developed. To address one part of the changing landscape
+of publishing, Cornell University co-sponsored with the National
+Agricultural Library in March 1997 a meeting on government
+electronic publications in agriculture. A product of that meeting
+was the publication by Paul Uhlir, Project Consultant for the
+National Research Council, of the "Framework for the Preservation
+of and Permanent Public Access to USDA Digital Publications."
+This framework was later adopted by the National Agricultural
+Library in conjunction with the USDA Office of the Chief
+Information Officer. No similar meeting for electronic journals
+in agriculture has yet been held. The growing importance of
+e-journals in the field of agriculture makes the secure archiving
+and long-term access to these "born digital" files of central
+importance to the evolving preservation plan. As Cornell's
+representative on the USAIN special projects committee, Mary Ochs
+will inform the committee about the work on this planning project
+and seek input from them. Connections with USAIN and the
+agricultural library community offer links for building trust
+within the user community.</p>
+<h2><a name="_Toc496071313" id="_Toc496071313">The appeal of a
+subject-based approach</a></h2>
+<p>While the absence of e-journals as an area of concern in the
+National Agricultural Preservation Plan cries out as an area that
+needs to be addressed, we are proposing to study the e-journals
+in agriculture also because of the tactical advantages it
+provides us. An agricultural subject-based archive would include
+journals from a wide variety of publishers, with a wide variety
+of file formats and multiple contractual agreements required.
+Appendix B contains a list of the core journals in agriculture
+and represents a starting point in the search for journals for
+possible inclusion in the archive. This list of journals is based
+on the seven-volume bibliography, <i>The Literature of the
+Agricultural Sciences,</i> edited by Wallace Olsen of Cornell
+University's Mann Library, which identifies the core journals in
+the seven sub-disciplines of agriculture (Olsen, 1991-1996).
+Preliminary investigations (which will be expanded during the
+planning year) suggest that as many as 75% of the journals are
+now available in electronic form. As Appendix B indicates, many
+publishers are represented, and a number of the journals already
+have in place arrangements with nominal archival repositories
+such as JSTOR, OCLC's ECO (Electronic Collections Online)
+project, or HighWire Press. It is unclear, however, whether any
+of these repositories meet the requirements outlined in the
+"Minimum criteria for an archival repository of digital scholarly
+journals" developed by CLIR, DLF, and CNI.</p>
+<p>In sum, there are a large number of agricultural journals that
+are available in electronic form; these journals represent a high
+percentage of the core serial literature in agriculture; they are
+produced by a number of different publishers and publishing
+arrangements; and some of the journals have a quasi-archival
+arrangement in place. Taken together, the agricultural publishing
+arena offers the real potential in the second phase of the
+project for the creation of a large, varied, and robust e-journal
+repository that reflects much of the diversity found in scholarly
+communication.</p>
+</div>
+<div class="Section5">
+<h1 class="sectionhead"><a name="_Toc496071314" id="_Toc496071314">Planning year
+focus</a></h1>
+<p>We heartily endorse the assertion in the "Minimum Criteria for
+an Archival Repository of Digital Scholarly Journals" that an
+archival repository that acts to preserve digital scholarly
+publications must be a trusted party that conforms to certain
+minimum requirements agreed to by both scholarly publishers and
+libraries. The most serious challenges and impediments to the
+creation of an e-journal repository are political: they have to
+do not with how the technology is designed, but rather with how
+the essential stakeholders (publishers, libraries, the scientific
+societies that support both, and the user) relate and work with
+each other. Indeed, how they relate will to no small extent
+determine how the technology evolves. What precisely is stored in
+such a repository, how access to it is guaranteed, who owns it,
+how and under what circumstances it is accessed, who authorizes
+such access, how the entire operation is securely and regularly
+funded--these and similar questions must be answered jointly by
+the stakeholders before the building of a fail-safe repository
+can commence. During the planning year, we will work with our
+target publishers to formulate and develop provisional answers to
+these basic business and technical questions. Negotiations with
+publishers over the design, organization, and operation of the
+digital repository will therefore be the primary activity during
+the planning year.</p>
+<p>While political issues may be the greatest challenge to the
+successful implementation of an e-journal repository, serious
+technical challenges also confront us. There are a number of
+technical issues that must be identified and addressed in
+conjunction with the negotiation with publishers. Some concern
+the nature of the e-journal archive itself. Is it to be, for
+example, a fail-safe repository of last resort whose contents are
+shaped by a desire to ensure the longest possible lifespan, or
+should it try to offer the full range of functionality found in
+the e-journal itself? Can the repository be built so that both
+options are possible? Once the nature of the archive is defined,
+what systems are to be used for the ingest, organization,
+maintenance, migration, and delivery of the e-journal files? What
+is the place of redundancy in the system? The development of a
+technical model for the e-journal repository will be the second
+focus of the planning year.</p>
+<p>In addition to our negotiations with publishers and the
+development of a technical work plan, we will also use the
+planning year to develop mechanisms for convincing the scholarly
+community of the validity of the repository, explore
+organizational and staffing models for any implemented
+repository, and explore long-term funding options and growth
+plans for the repository.</p>
+<h1 class="sectionhead"><a name="_Toc496071315" id="_Toc496071315">Detailed work plan
+and budget</a></h1>
+<p>The planning year will be divided into seven separate but
+related activities.</p>
+<h2><a name="_Toc496071316" id="_Toc496071316">Work with
+publishers to develop an archiving policy.</a></h2>
+<p>It is our belief that effective archiving of electronic
+journals can only be accomplished through a publisher/librarian
+partnership. The Mellon planning grant would allow us to work
+with publishers to establish a set of responsibilities for both
+Cornell, as the archiving institution, and the publishers, as
+archival depositors. Along with those responsibilities, we must
+establish conditions for inclusion, including copyright
+clearance, that are broadly acceptable to the publishers, but
+allow Cornell, as the archiving institution, the flexibility to
+establish technical specifications and access policies that serve
+users well. To be successful, these negotiations must identify
+the benefits and drawbacks of the different configurations of an
+e-journal archive and find an acceptable common ground for all
+parties. This will then form the basis of the contracts with
+publishers depositing files in the archive.</p>
+<p>The first step in the acquisitions plan would be to develop
+selection criteria that will allow us to prioritize from the list
+of journals in Appendix B which of the publishers we wish to ask
+to be part of Project Harvest. Twelve publishers are obvious
+candidates with which to work. These publishers issue a large
+number of the core titles; they are prominent in the field (and
+hence likely to serve as models for others); and they represent a
+wide variety of publishing models, including both profit and
+non-profit. They include:</p>
+<ul type="disc">
+<li>Elsevier, with 16 journals on the list</li>
+<li>Either the Tri-Societies (American Society of Agronomy, Crop
+Science Society of America, and Soil Science Society of America)
+or Springer, which produces the journals</li>
+<li>The National Research Council of Canada. At one point, their
+archiving policy was to maintain material "until they ran out of
+room on their server"</li>
+<li>Annual reviews. This is available via Highwire, and offer a
+way of working with another university</li>
+<li>University of Chicago Press. Titles include <i>Economic
+Development and Cultural Change</i>, <i>International Journal of
+Plant Sciences,</i> and <i>American Naturalist;</i></li>
+<li>American Agricultural Economics Association</li>
+<li>Federation of American Societies for Experimental
+Biology</li>
+<li>Cambridge University Press, with 7 journals on our list</li>
+<li>Entomological Society of America. We have already negotiated
+permission with them to include several titles in the online Core
+Historical Literature of Agriculture</li>
+<li>Kluwer, with 5 titles on list</li>
+<li>Oxford University Press, with 3 titles on list</li>
+<li>Blackwell Science, with 9 titles on list</li>
+</ul>
+<p>After identifying the potential publisher partners, we will
+then ask a pilot group to participate in Cornell's Project
+Harvest. From those publishers expressing interest in
+participating, we would gather a small development team to
+consider the issues outlined above. The goal for the development
+team would be to create, through an iterative process, a standard
+agreement for archival deposit. Topics that would be identified
+in the agreement include:</p>
+<ul type="disc">
+<li>The general responsibilities of the publishers and
+Cornell</li>
+<li>Characteristics of the data, accompanying metadata, and any
+additional documentation that are to be deposited</li>
+<li>Guidelines on transmission methods and media for deposit</li>
+<li>Procedures for the deposit</li>
+<li>Procedures and protocols Cornell will use to verify the
+arrival and completeness of the data</li>
+<li>Rights of the depositing organizations to audit the
+repository</li>
+<li>The respective roles, responsibilities, and rights of the
+Cornell and the data producers with regard to the data</li>
+<li>Articulation of Cornell's responsibilities and capabilities
+with regard to the accessioning, description, management, and
+even transformation of the deposited data</li>
+<li>Access policies for users of the repository, and how they may
+vary over time</li>
+<li>Conditions on the use of the data, and again how they may
+vary over time</li>
+<li>Fees (if any) associated with the deposit</li>
+<li>Cornell's ability to share the data with partners to create
+an agreed-upon level of redundancy</li>
+<li>Clarification of issues surrounding copyright retained by
+authors</li>
+</ul>
+<p>Other key issues defined by the development team</p>
+<p>Assuming the implementation phase of the project is funded, we
+anticipate contacting all the publishers from the list in
+Appendix B to assess their interest in participating in the
+project. Through the planning process, we would need to determine
+the number of titles we can handle in the first years of the
+project.</p>
+<p>Cornell has had experience with this type of negotiations. We
+worked with 68 publishers, including Elsevier, Kluwer, and
+others, to secure rights to use material in TEEAL (The Essential
+Electronic Agricultural Library) and The Core Historical
+Literature of Agriculture. In the process of negotiations, staff
+members developed a standard agreement similar in function (if
+not in content) to the agreement we are proposing to develop for
+Project Harvest. In Project TEEAL, once one major publisher
+agreed to the TEEAL basic agreement many other publishers
+followed. We anticipate a similar development with Project
+Harvest. Project Euclid, like TEEAL, has been built on a
+partnership of publishers and librarians. In the case of Project
+Euclid, many of the publishers are scientific societies,
+providing us with experience in learning and understanding the
+concerns of a different group of publishers. We would use the
+lessons we have learned from developing Euclid in shaping the
+discussions for Project Harvest.</p>
+<p>We would also draw on the lessons others have learned in
+negotiating with publishers. The CLIR/DLF draft model license
+found on the LIBLICENSE web site at Yale University
+&lt;http://www.library.yale.edu/~llicense/&gt;, for example, is a
+natural model on which to draw for our similar effort to develop
+a model archiving agreement. The data depository program of the
+Arts and Humanities Data Service
+&lt;http://ahds.ac.uk/deposit/depintro.html&gt; will also provide
+information on what is needed for a digital archive and what
+creators are likely to be willing to deposit</p>
+<h2><a name="_Toc496071317" id="_Toc496071317">Investigate how to
+ensure scholarly acceptance of the repository</a></h2>
+<p>The Cornell repository will only be successful if the
+scholarly community is convinced that the journals deposited at
+Cornell will remain accessible and readable over time. An
+important component of the planning year therefore will be
+assessing how scholars feel about e-journals and identifying
+methods to build trust in the community.</p>
+<p>In the matter of trust, Project Harvest is in a favored
+position. Mann Library within the Cornell library system has had
+a long history of preserving and making available to the
+scholarly community the core literature of agriculture. An
+ongoing and significant electronic initiative is the USDA
+Economics and Statistics System with its statistical and textual
+reports from the Agriculture Department's Economic Research
+Service, National Agricultural Statistics Service, and World
+Agricultural Outlook Board. Scholars know that Cornell has a
+vested interest in the preservation of the literature of
+agriculture, making this project mission-driven, rather than
+external to the overall goals of the institution.</p>
+<p>Given the confidence that the university already enjoys with
+publishers, librarians, and scholars, some in the scholarly
+community may be willing to accept whatever the university
+proposes to do just because it comes from Cornell. However, it
+will also be important to develop formal methods of representing
+the organizational and technical competencies Cornell plans to
+build during the course of Project Harvest. To meet this need,
+the project team will develop a plan to outline the
+organizational and technical components of the repository. We
+assume that the success of the journal deposit system developed
+during the course of the project will be heavily dependent on the
+reliability and credibility of the organizational and technical
+work plan. We will convince the repository's customers that
+materials in the repository are in good hands by articulating for
+them our plans for the building, maintenance, and management of
+the repository.</p>
+<p>One component part of our information campaign will be to
+develop a mission statement for Project Harvest that can be
+shared with the appropriate scholarly communities. The mission
+statement will include the information recommended by the
+"Minimum criteria for an archival repository of digital scholarly
+journals," including the scope and nature of the materials to be
+included in the repository, the strategy and methods we will
+adopt to attract materials, and the user community we hope to
+serve.</p>
+<p>A second means of building scholarly acceptance of Project
+Harvest will be to ensure that the archive conforms to generally
+accepted standards for digital repositories. One of the
+recommendations of the highly influential report of the Task
+Force on Archiving of Digital Information was that standards and
+criteria for the certification of digital information
+repositories be developed. Several national and international
+projects are exploring the process and methodology in defining
+the requirements for a certified repository. Among the key
+initiatives are:</p>
+<ul type="disc">
+<li>During the October 1999 ISO Archiving Workshop Series,
+certification of archives (specifically within the framework of
+the "Reference Model for an Open Archival Information System"
+(OAIS)) was one of the key areas for workshop focus and possible
+standardization efforts.<a href="#_ftn1" name="_ftnref1" id=
+"_ftnref1">[1]</a></li>
+<li>The upcoming Preservation 2000 conference, which is sponsored
+by the UK's Cedars Project, RLG, and OCLC, will provide a
+platform to continue the discussion of criteria for certification
+at an international level.<a href="#_ftn2" name="_ftnref2" id=
+"_ftnref2">[2]</a></li>
+</ul>
+<p>In March 2000 the Research Libraries Group (RLG) and the
+Online Computer Library Center (OCLC) announced that they will
+cooperate to create infrastructures for digital archiving. One of
+their goals is to establish best practices and document the
+attributes of digital archives for research repositories.</p>
+<p>The Library's Digital Imaging and Preservation Research Unit
+is an active participant in all of these initiatives. During the
+planning phase of Project Harvest, the staff will closely monitor
+this and related work in the certification of repositories and
+will actively contribute to them by sharing Cornell's empirical
+experience. As certification standards emerge, Cornell will
+publicize our adherence to the standards as one more way of
+ensuring trust in the user community.</p>
+<h2><a name="_Toc496071318" id="_Toc496071318">Develop a
+technical model for the repository</a></h2>
+<p>Cornell will invest in a five-pronged effort that will focus
+on: 1) establishing a baseline of e-journal software and file
+format needs; 2) specifying the archival repository; 3)
+specifying monitoring tools that will flag documents within the
+repository that require migration; 4) specifying a baseline
+hardware and software infrastructure to house the repository; and
+5) exploring the need and implementation models for redundancy in
+the repository.</p>
+<p><b>1) Establish a baseline of formats and related
+software.</b></p>
+<p>Cornell will inventory file formats and software in use today
+to store and manage e-journals in agriculture. We will collect
+conversion routines that permit modifying these formats. We will
+explore whether there is one "least common denominator" format
+that has minimum software dependencies, and that can be used to
+create one parallel copy of each journal in that format. Whether
+or not there is such a format, we will also look at how we might
+maintain the formats in use in the current live system. One area
+we want to explore in particular is whether we can maintain both
+systems: a system with high functionality based on current
+software as well as one based on a more limited, but likely more
+enduring, format.</p>
+<p><b>2) Specify the archival repository.</b></p>
+<p>Cornell will investigate potential architectures and design
+criteria for the archive repository, and will choose an approach
+that is the essence of simplicity. The repository will be based
+on the OAIS reference model and compliant with Open Archives
+Initiative protocols and other initiatives in the subject domain
+of agriculture. (Cornell is already planning to implement OAI
+protocols in Project Euclid.) The repository model will provide
+for redundancy of instances. The repository architecture needs to
+support establishing relationships among the e-journal components
+without depending on specialized software that is itself subject
+to technological obsolescence. An example of a possible
+architecture would be one that relates internal components based
+on sequence and naming conventions. The repository files will
+contain metadata for each journal complying with contemporary
+standards and files in multiple formats. It will include at least
+the file format in common use for that journal today and an
+additional "least common denominator" version, as well as
+associated conversion software.</p>
+<p><b>3) Specify a monitoring system.</b></p>
+<p>Cornell will specify a software application to manage the
+status of each member of the repository. It will be a tool that
+includes a record for each member of the repository with
+information needed to establish its age, migration status, and
+technological dependencies (standards, software, etc). This
+system will be used as a prediction tool. Criteria will be fed to
+the system to identify changes in standards or versions of
+software. The system will present specific e-journals in the
+repository related to that criteria. These e-journals will then
+require review to determine whether they need migration.</p>
+<p>In investigating and developing the specification of such a
+monitoring system, Cornell will build upon its previous and
+current digital preservation investigations. For example, the
+Risk Management of Digital Information project, which was
+sponsored by CLIR, equipped the library with a better
+understanding of the organizational and technical threats that
+need to be monitored and controlled to ensure the longevity of
+digital resources (report available at
+&lt;http://www.clir.org/pubs/abstract/pub93abst.html&gt;). The
+library's current DLI2 project focuses on digital preservation.
+Particularly relevant to this proposal is a Web profiling tool
+that is being developed by the library's Digital Imaging and
+Preservation Unit and the Cornell Computer Science Department.
+This web profiling software will attempt to gather information on
+various characteristics of digital resources to support digital
+preservation monitoring and decision-making. This tool provides a
+technical background for the development of the proposed
+assessment tool. Another library project, sponsored by an IMLS
+grant, helped the library to develop a better understanding of
+the role of preservation metadata in supporting the long-term
+management of digital collections. The library is developing
+guidelines for preservation procedures and metadata for digital
+image collections that are to be deposited in a central digital
+repository.</p>
+<p><b>4) Establish baseline hardware infrastructure.</b></p>
+<p>Cornell will specify hardware with modular storage components
+to accommodate massive growth in the amount of material stored
+and identify an architecture for data and system backup that is
+automatic and self-reporting. Reliability and redundancy of
+internal hardware components, combined with growth and migration
+potential, will be priority attributes in the hardware plan.
+Cornell will develop an RFI to distribute to hardware vendors for
+their comment before the end of the planning year.</p>
+<p><b>5) Investigate need for and approach to redundancy.</b></p>
+<p>Along with the addition of new journals to the repository,
+there is the possibility of mirroring and/or distributing some of
+the repository functions to library collaborators. The land grant
+community has strong ties and a history of cooperative
+preservation efforts. Other institutions within the land grant
+community could provide redundancy for the system Cornell
+develops, or they might duplicate the procedures followed by
+Cornell with other publishers and subjects. In either event, the
+workload would be shared among other committed partners. During
+the planning year, we would want to explore further the need for
+redundancy in the repository, and begin to work with potential
+partners. Cornell is a partner in the LOCKSS program from
+Stanford University and Highwire Press. LOCKSS - Lots of Copies
+Keeps Stuff Safe - is intended to be a revolutionary, distributed
+archiving model. We will want to see if any of the lessons
+learned from the LOCKSS project can be applied to Project
+HARVEST.</p>
+<h2><a name="_Toc496071319" id="_Toc496071319">Develop
+acquisition and growth plans</a></h2>
+<p>During the planning year, we will develop a two-phased
+acquisition and growth plan. The first phase will focus on the
+addition of journals to the pilot agricultural repository. This
+work will continue during the implementation phase. As new
+journals are published in the field of agriculture, or as older
+journals become more important, publishers could request to have
+a journal included in Project Harvest. Journals could also be
+nominated, possibly by an advisory board of agricultural scholars
+who would recommend whether to seek out that journal for Project
+Harvest. We may also wish to work with the agricultural library
+community to ensure that at least one print copy of all
+e-journals that also have a printed manifestation is retained.
+This process would be explored fully during the planning
+process.</p>
+<p>More importantly, the implementation phase would give us hard
+data on how the pilot could be expanded to other disciplines
+and/or publishers in a second phase. Our experience may indicate
+that future repositories should be developed around a subject
+discipline, as with Project Harvest. We may also find that while
+the subject approach proves useful in the pilot phase when the
+primary task is negotiating a general agreement with publishers
+(and Cornell's good relationship with agricultural publishers
+makes this task possible), future repositories would be better
+organized around publishers and their specific publishing systems
+than by subject. One of the elements we will want to assess
+during the planning year (and possibly after) is whether a
+subject-based approach is appropriate for a repository, or
+whether we should use the agreements we have developed with our
+agricultural publishing partners as the basis for a general
+agreement regarding the deposit of all of our partner's
+publications, regardless of subject matter.</p>
+<h2><a name="_Toc496071320" id="_Toc496071320">Identify an
+organizational and staffing model</a></h2>
+<p>We can already see that the project will require collaboration
+across normal institutional boundaries. We are structuring the
+planning phase so that it will be a cooperative project drawing
+on the expertise found in Mann Library, the Preservation and
+Digital Libraries and Information Technologies (DLIT)
+departments, and the Library's Institute for Digital Collections
+(CIDC). Project Harvest will be overseen in the planning phase by
+a steering committee consisting of representatives from the Mann
+Library, DLIT, and the Preservation Department, with the
+inclusion of a faculty member to represent the interest of
+users.</p>
+<p>The staffing model of the planning phase is based on the
+functional activities suggested in the OAIS reference model.
+Staff will be assigned to work in each of these four areas:</p>
+<p><b><u>Submission</u></b></p>
+<p>identify and contact publishers seeking collaboration</p>
+<p>negotiate terms for submission, access, updates, and other
+conditions</p>
+<p>plan future growth and acquisitions</p>
+<p>coordinate the role of Cornell in agricultural cooperative
+preservation efforts</p>
+<p>The submission activities of the planning phase will be the
+primary responsibility of the Collection Development unit in Mann
+Library. They will be assisted by a working group drawn from the
+staff from the Preservation Department and license librarians in
+Mann Library and CUL Central Technical Services. Legal advice
+from the university's General Counsel's office will be sought as
+appropriate when working out the details of the contract.</p>
+<p><b><u>Ingestion</u></b></p>
+<p>prepare data for archiving</p>
+<p>profile resources - identify characteristics</p>
+<p>chose standards, develop procedures</p>
+<p>Planning for ingest will be a collaborative effort between the
+Mann Library's Information Technology Section and the Digital
+Library and Information Technology division in the Cornell
+University Library system. A minimum of one half FTE will work in
+this area and the subsequent area. The work will be informed by
+the findings of the Submission group and the preservation
+requirements identified by Preservation Department staff,
+particularly in the area of standards.</p>
+<p><b><u>Data Management, Archival Storage, and
+Access</u></b></p>
+<p>determine hardware and software needs</p>
+<p>conduct requirements analysis to determine system
+infrastructure</p>
+<p>design the archival system (both ingest and access
+components)</p>
+<p>Again, Mann Library's Information Technology Section and the
+Digital Library and Information Technology division in the
+Cornell University Library system will collaborate on the design
+of this aspect of the system.</p>
+<p><b><u>Policy Development</u></b></p>
+<p>facilitate the interaction of the different groups within the
+library</p>
+<p>contribute to the development of criteria for the
+certification of archival repositories</p>
+<p>develop economic models to ensure the long-term sustainability
+of the repository</p>
+<p>work closely with the technology team and the collection
+development team to develop strategies for standards, file
+formats used, preservation metadata, preservation strategies,
+etc.</p>
+<p>Staff of the Preservation Department will take the lead in
+identifying the policy framework for the project. Their
+investigations will be tempered by the work of the Submission
+group and the technical requirements identified by the Ingest and
+Data Administration groups.</p>
+<p>Overall policy will be approved by a Steering Committee for
+the project. The Steering committee will be composed of senior
+administrators in the library (the directors of Mann Library and
+the Digital Library and Information Technology division, the
+Associate Director of the Preservation Department, and the
+University Librarian serving as PI) and one faculty member,
+representing the interests of some of the users.</p>
+<p>A key question to explore during the planning year will be
+whether digital repository functions can be absorbed within our
+existing organizational model, or whether a new organizational
+unit that cuts across current administrative, subject, and
+functional lines is needed.</p>
+<h2><a name="_Toc496071321" id="_Toc496071321">Negotiate access
+policies for the prototype repository</a></h2>
+<p>Publishers have been unwilling in the past to maintain large
+print archives of back issues of their journals. Often libraries
+hold the only complete back-run of print titles. E-journals,
+while they do not require large warehouses or library shelves for
+storage, do require electronic storage space and maintenance that
+assures the integrity of the digital content. It is unclear
+whether publishers intend to maintain archives their own
+archives, but libraries are requiring this assurance when they
+sign e-journal contracts. Many e-journal publishers are relying
+on OCLC ECO (Electronic Collections Online) for archiving, but
+OCLC cannot do it all, nor is the reliance on one sole archive
+sound practice. Research libraries are, not surprisingly,
+unwilling to discard print issues without long term guarantees
+that e-journal files will be available.</p>
+<p>This planning grant would allow us to explore two major
+scenarios for an e-journal archive, the "dark archive" and the
+"living archive." The "dark archive" model creates an archive
+where stored files would only be used in an emergency. This model
+is similar to the model of storing microfilm in the National
+Underground Storage facility. In order to minimize the cost of
+maintaining a "dark archive," e-journal content might be
+converted on ingest to some common, stable, minimal format
+(albeit with a concomitant loss of functionality). A "living
+archive" of agricultural scholarship, in contrast, would be
+modeled after JSTOR or OCLC and would provide access to back
+files of e-journals that publishers no longer wished to maintain
+or to which publishers are willing to provide additional access.
+The publishers would of course still be able to provide access to
+recent issues if they desired. As part of the planning process,
+the development team would need to investigate the staffing,
+contractual, economic and technical implications of both
+options.</p>
+<p>The living archive presents the greater challenge in that
+publishers may be less willing to allow open access to their
+material. The development team would have to carefully evaluate
+the implications of the various access policies on the publishers
+and the users. Issues such as when files would be made available,
+mechanisms for allowing access, and comparability with the
+original files, among other issues, must be addressed.</p>
+<h2><a name="_Toc496071322" id="_Toc496071322">Develop a plan for
+the long-term funding of an e-journal repository</a></h2>
+<p>Libraries have traditionally assumed the cost of storing and
+preserving paper copies of agricultural journals. While libraries
+may be willing to absorb the cost of preserving electronic copies
+of the same publications, it is more likely that a business model
+that can make the preservation of e-journals self-sustaining must
+be found. During the planning year, we will investigate several
+approaches for making the repository economically self-sufficient
+over the long-term. This requires that we account for the capital
+costs associated with building and expanding the repository
+infrastructure over time. We must also account for the operating
+costs associated with maintaining and providing access to the
+repository. [Guthrie, 2000]</p>
+<p>There are several possible sources of funds that could be used
+to maintain and grow the repository over time. They include:</p>
+<p>agencies and foundations supportive of the need to preserve
+the agricultural literature</p>
+<p>publishers, who may be willing to pay on a per-journal basis
+the cost for archiving the journal (perhaps by including an
+archival surcharge with the electronic access surcharge common
+among major publishers)</p>
+<p>acquiring free or reduced subscriptions from publishers in
+exchange for archiving their journals</p>
+<p>charging fees for access to the archival repository</p>
+<p>The last three options require the agreement and cooperation
+of the publishers. Based on the results of the negotiations with
+them, we anticipate being able to develop a business model that
+will indicate how much, if anything, archiving agricultural
+literature will cost Cornell University.</p>
+<h1 class="sectionhead"><a name="_Toc496071323" id="_Toc496071323">Project
+Staff</a></h1>
+<p><i>Project Harvest</i> will be a Library-wide effort. The
+following individuals will play key roles in its
+implementation.</p>
+<p><b>Sarah Thomas</b>, University Librarian, will serve as
+Principal Investigator of Project Harvest.</p>
+<p><b>Peter B. Hirtle</b>, Co-Director, Cornell Institute for
+Digital Collections, will serve as Project Coordinator.</p>
+<p>Three working groups will work directly with the Coordinator.
+Each will be chair by a senior library staff member. <b>Mary
+Ochs</b>, Head, Collection Development and Preservation at Mann
+Library, will chair the Publisher Relations Group. <b>Tim
+Lynch</b>, Head, Information Technology Section at Mann Library,
+will chair the Technical Design Group. <b>Oya Y. Rieger</b>,
+Acting Assistant Director of Preservation for Digital Imaging and
+Preservation Research, will chair the Preservation Policy
+Group.</p>
+<p>A Publisher Relations Specialist, Preservation Policy Advisor,
+and Administrative Assistant will be hired to work with Cornell
+staff on Project Harvest.</p>
+<p>A Steering Committee will be established to provide general
+oversight. <b>Anne R. Kenney</b>, Co-Director, CIDC and Associate
+Director of the Department of Preservation, will chair the
+Steering Committee. Other members will include: <b>Sarah
+Thomas</b>, University Librarian, <b>Janet McCue</b>, Director of
+Mann Library, and <b>H. Thomas Hickerson</b>, Associate
+University Librarian for Digital Libraries, Information
+Technology and Special Collections.</p>
+<h1 class="sectionhead"><a name="_Toc496071328" id="_Toc496071328">Citations</a></h1>
+<p>Guthrie, Kevin. 2000. "Developing a Digital Preservation
+Strategy for JSTOR, an interview with Kevin Guthrie." RLG
+DigiNews 4:4 (15 August 2000)
+&lt;http://www.rlg.org/preserv/diginews/diginews4-4.html#feature1&gt;</p>
+<p>Gwinn, Nancy E. 1993. A national preservation program for
+agricultural literature. S.l. : s.n.</p>
+<p>Lawrence, Gregory W., William R. Kehoe, Oya Y. Rieger, William
+H. Walters, and Anne R. Kenney. 2000. Risk Management of Digital
+Information: A File Format Investigation. Washington, D.C. :
+Council on Library and Information Resources.</p>
+<p>Olsen, Wallace C., editor. 1991-1996. The Literature of the
+Agricultural Sciences. Ithaca, N.Y. : Cornell University
+Press.</p>
+<p>Task Force on Archiving of Digital Information. 1996.
+Preserving digital information: Report of the Task Force on
+Archiving of Digital Information. Washington, D.C. : Commission
+on Preservation and Access.</p>
+<p>Uhlir, Paul. 1997. Framework for the preservation of and
+permanent public access to USDA digital publications. S.l. :
+s.n.</p>
+<h1 class="sectionhead"><a name="_Toc496071329" id="_Toc496071329">Appendix A:
+Chronological Workplan</a></h1>
+<p>Note: lead participants are identified in <i>italics</i> after
+each task.</p>
+<p>(Prior to start of project)</p>
+<p>Advertise and interview for project-funded positions:
+Publisher relations specialist; Administrative support person
+(<i>Project coordinator, administrative staff</i>)</p>
+<p>Identify space and equipment for new <b>Project Harvest</b>
+staff (<i>Project coordinator, Library administration</i>)</p>
+<p>Jan. 2001 - March 2001</p>
+<p>Hold <b>Project Harvest</b> organization meeting. Bring
+together <b>Project Harvest</b> Team, Advisory Committee. Create
+mission statement for the <b>Project Harvest</b> plan (<i>Project
+leader, Project Harvest team</i>)</p>
+<p>Develop selection criteria to allow prioritization of possible
+partners (<i>Publisher relations specialist, collection
+development staff</i>)</p>
+<p>Contact an initial group of potential partners to identify
+partners interested in the problem (<i>Publisher relations
+specialist, collection development staff</i>)</p>
+<p>Establish, based on the OAIS model and the "Minimum criteria"
+what we feel are the ideal component parts of an e-journal
+preservation system (<i>Preservation policy advisor</i>)</p>
+<p>Establish a baseline of formats and software used in pilot
+e-journals (<i>Publisher relations specialist, Technology design
+group)</i></p>
+<p>Advisory Committee will meet to review progress (<i>Project
+coordinator)</i></p>
+<p>April 2001 - May 2001</p>
+<p>Hold negotiations with the pilot group of publishers on the
+issues we have identified as core to a successful e-journal
+archival policy (<i>Publisher relations specialist, Preservation
+policy advisor)</i></p>
+<p>Investigate potential architectures for e-journal repository
+that are both open and compatible with the needs identified in
+the negotiations with the publishers (<i>Technology Design
+Group)</i></p>
+<p>Identify the organizational and staffing model the Library
+would follow in implementing <b>Project Harvest</b> (<i>Project
+leader, Project Harvest team</i>)</p>
+<p>Advisory Committee will meet to review progress (<i>Project
+coordinator)</i></p>
+<p>June 2001 - July 2001</p>
+<p>Develop a model license agreement based on the results of the
+negotiations with the pilot group of publishers (<i>Project
+coordinator, Publisher relations specialist, Preservation policy
+advisor, Legal counsel)</i></p>
+<p>Contact additional publishers lower on the priority the list
+in order to field test the license agreement. (<i>Publisher
+relations specialist)</i></p>
+<p>Specify a software application to manage the status of each
+member of the repository (<i>Technology Design Group)</i></p>
+<p>Advisory Committee will meet to review progress (<i>Project
+coordinator)</i></p>
+<p>August - October 2001</p>
+<p>Contact remainder of the publishers of the core journals in
+agriculture to solicit interest in possible participation in the
+project (<i>Publisher relations specialist)</i></p>
+<p>Establish the baseline hardware needed to implement <b>Project
+Harvest</b> (<i>Technology Design Group)</i></p>
+<p>Investigate the place of redundancy in the archiving system
+(<i>Technology Design Group, Preservation policy advisor,
+Publisher relationsspecialist)</i></p>
+<p>Given the needed technological and organizational environment,
+develop a business model that can make <b>Project</b>
+<b>Harvest</b> financially acceptable to the Library (<i>Project
+Coordinator, Preservation policy advisor, Publisher relations
+specialist)</i></p>
+<p>Advisory Committee will meet to review progress (<i>Project
+coordinator)</i></p>
+<p>November - December 2001</p>
+<p>Assuming a sustainable business model can be identified,
+prepare a grant application for the implementation of
+<b>Project</b> <b>Harvest</b> based on the findings of the
+previous year (<i>Project Coordinator)</i></p>
+<p>Develop an RFP for the hardware and software needed to
+implement Project Harvest in a manageable, scalable, fashion. The
+RFP will be ready to distribute as soon as implementation funding
+is received (<i>Technology Design Group)</i></p>
+<p>Develop methods for representing the organizational and
+technology competencies developed during the design of Project
+Harvest to the scholarly and user communities (<i>Preservation
+policy advisor, Publisher relations specialist)</i></p>
+<p>Develop formal acquisition and growth plans to guide the
+implementation of Project Harvest. The plan will determine how
+new journals are to be added to the implementation (<i>Publisher
+relations specialist, Project Coordinator)</i></p>
+<p>Advisory Committee will meet to review progress (<i>Project
+coordinator)</i></p>
+<p>Throughout the course of the project:</p>
+<p>Share information about the design and implementation of
+Project Harvest with relevant preservation and agricultural
+information communities (<i>Entire project team)</i></p>
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+
+
+<div class="Section6">
+
+<h1 class="sectionhead"><a name="_Toc496071330" id="_Toc496071330">Appendix B: The
+Core Agricultural Journals</a></h1>
+
+<table border="1">
+<tr>
+<td width="152" valign="top">
+<p>Title</p>
+</td>
+<td width="184" valign="top">
+<p>Publisher</p>
+</td>
+<td width="53" valign="top">
+<p>ECO</p>
+</td>
+<td width="66" valign="top">
+<p>JSTOR</p>
+</td>
+<td width="80" valign="top">
+<p>Highwire</p>
+</td>
+<td width="86" valign="top">
+<p>Other</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Acta Agriculturae Scandinavica</p>
+</td>
+<td width="184" valign="top">
+<p>Munsgaard Press for the Scand. Assn. Ag. Scients. &amp; Royal
+Swedish Acad. Ag. &amp; Forestry</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Acta Horticulturae</p>
+</td>
+<td width="184" valign="top">
+<p>International Society for Horticultural Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Advances in Agronomy</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (San Diego)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agrarwirtschaft</p>
+</td>
+<td width="184" valign="top">
+<p>Alfred Strothe for the Institut f&uuml;r Landwirtschaftliche
+Marktforschung</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a?</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agribusiness: An International Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Wiley</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agricultural and Forest Meteorology</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier BV (Netherlands)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agricultural Finance Review</p>
+</td>
+<td width="184" valign="top">
+<p>"Dept. of Agricultural Economics, Cornell University "</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Agricultural Mechanization in Asia, Africa and Latin America
+(AMA) "</p>
+</td>
+<td width="184" valign="top">
+<p>Farm Machinery Industrial Research Corporation Shin Morinsha
+Co(Business Center for Academic Societies)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a?</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agricultural Situation in India</p>
+</td>
+<td width="184" valign="top">
+<p>"Ministry of Agriculture, Directorate of Economics and
+Statistics"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agricultural Systems</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agricultural Water Management</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier BV (Netherlands)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agri-Finance</p>
+</td>
+<td width="184" valign="top">
+<p>Century Communications</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agri-Marketing</p>
+</td>
+<td width="184" valign="top">
+<p>Century Communications</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agronomie</p>
+</td>
+<td width="184" valign="top">
+<p>Editions Scientifiques et Medicales Elsevier for l'Institut
+National de la Recherche Agronomique</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a?</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Agronomy Journal</p>
+</td>
+<td width="184" valign="top">
+<p>American Society of Agronomy</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Springer</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Economic Review</p>
+</td>
+<td width="184" valign="top">
+<p>American Economic Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Journal of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>American Agricultural Economics Association</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Journal of Botany</p>
+</td>
+<td width="184" valign="top">
+<p>Botanical Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Journal of Clinical Nutrition</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Clinical Nutrition</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Journal of Physiology</p>
+</td>
+<td width="184" valign="top">
+<p>American Physiological Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Naturalist</p>
+</td>
+<td width="184" valign="top">
+<p>University of Chicago Press for American Society of
+Naturalists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Potato Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Potato Association of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>American Sociological Review</p>
+</td>
+<td width="184" valign="top">
+<p>American Sociological Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Analytical Chemistry</p>
+</td>
+<td width="184" valign="top">
+<p>American Chemical Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Animal Feed Science and Technology</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier (BV Neth)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Animal Production</p>
+</td>
+<td width="184" valign="top">
+<p>Durrant for the British Society of Animal Production</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annals of Applied Biology</p>
+</td>
+<td width="184" valign="top">
+<p>Association of Applied Biologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annals of Botany</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (London)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annals of Internal Medicine</p>
+</td>
+<td width="184" valign="top">
+<p>American College of Physicians</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annals of the Entomological Society of America</p>
+</td>
+<td width="184" valign="top">
+<p>Entomological Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annual Review of Ecology and Systematics</p>
+</td>
+<td width="184" valign="top">
+<p>Annual Reviews</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annual Review of Phytopathology</p>
+</td>
+<td width="184" valign="top">
+<p>Annual Reviews</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Annual Review of Plant Physiology and Plant Molecular
+Biology</p>
+</td>
+<td width="184" valign="top">
+<p>Annual Reviews</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Applied and Environmental Microbiology</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Microbiology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Applied Engineering in Agriculture</p>
+</td>
+<td width="184" valign="top">
+<p>American Society of Agricultural Engineers</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Aquacultural Engineering</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Archives of Animal Nutrition = Archiv f&uuml;r
+Tierern&auml;hrung</p>
+</td>
+<td width="184" valign="top">
+<p>Harwood Academic Publishers</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Archives of Biochemistry and Biophysics</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (San Diego)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Australian Journal of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Australian Agricultural Economics Society</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Australian Journal of Agricultural Research</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Scientific and Industrial Research
+Organization</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Australian Journal of Botany</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Scientific and Industrial Research
+Organization</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Australian Journal of Plant Physiology</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Scientific and Industrial Research
+Organization</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Australian Journal of Soil Research</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Scientific &amp; Indstrial Research
+Organization</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Avian Diseases</p>
+</td>
+<td width="184" valign="top">
+<p>American Association of Avian Pathologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Biochemical Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Biochemical Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Biological Reviews of the Cambridge Philosophical Society</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Biology of Reproduction</p>
+</td>
+<td width="184" valign="top">
+<p>Society for the Study of Reproduction</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Bioresource Technology</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>BioScience</p>
+</td>
+<td width="184" valign="top">
+<p>American Institute of Biological Sciences</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Catchwood</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Bioscience, Biotechnology, and Biochemistry "</p>
+</td>
+<td width="184" valign="top">
+<p>"Japan Society for Bioscience, Biotechnology and
+Agrochemistry"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Botanical Review</p>
+</td>
+<td width="184" valign="top">
+<p>New York Botanical Garden</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>British Journal of Nutrition</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press for the Nutrition Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>British Poultry Science</p>
+</td>
+<td width="184" valign="top">
+<p>Carfax Publishing Co.</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Bulletin of Entomological Research</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Agricultural Bureaux International</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Agricultural Engineering</p>
+</td>
+<td width="184" valign="top">
+<p>Canadian Society of Agricultural Engineering</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Entomologist</p>
+</td>
+<td width="184" valign="top">
+<p>Entomological Society of Canada</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Canadian Agricultural Economics and Farm Management
+Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (NRC)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Animal Science</p>
+</td>
+<td width="184" valign="top">
+<p>Agricultural Institute of Canada for the Canadian Society of
+Animal Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (NRC)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Botany</p>
+</td>
+<td width="184" valign="top">
+<p>National Research Council of Canada</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Forest Research = Journal Canadien de la
+Recherche</p>
+</td>
+<td width="184" valign="top">
+<p>National Research Council of Canada</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Microbiology</p>
+</td>
+<td width="184" valign="top">
+<p>National Research Council of Canada</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Plant Science</p>
+</td>
+<td width="184" valign="top">
+<p>Agricultural Institute of Canada with the Canadian Society of
+Agronomy and the Canadian Society for Horticultural Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (NRC)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Canadian Journal of Soil Science</p>
+</td>
+<td width="184" valign="top">
+<p>Agricultural Institute of Canada with the Canadian Society of
+Soil Science and the Canadian Society of Agrometeorology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (NRC)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Cereal Chemistry</p>
+</td>
+<td width="184" valign="top">
+<p>American Association of Cereal Chemists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Cereal Foods World</p>
+</td>
+<td width="184" valign="top">
+<p>American Association of Cereal Chemists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Choices</p>
+</td>
+<td width="184" valign="top">
+<p>American Agricultural Economics Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Commonwealth Forestry Review</p>
+</td>
+<td width="184" valign="top">
+<p>Commonwealth Forestry Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--this one was tricky since title change &amp;
+publishers</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Communications in Soil Science and Plant Analysis</p>
+</td>
+<td width="184" valign="top">
+<p>M. Dekker</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--Not Yet</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Critical Reviews in Food Science and Nutrition</p>
+</td>
+<td width="184" valign="top">
+<p>CRC Press</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Crop Science</p>
+</td>
+<td width="184" valign="top">
+<p>Crop Science Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Springer</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Current Science</p>
+</td>
+<td width="184" valign="top">
+<p>Current Science Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Diabetes</p>
+</td>
+<td width="184" valign="top">
+<p>American Diabetes Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Die Landtechnik</p>
+</td>
+<td width="184" valign="top">
+<p>Landwirtschaftsverlag M&uuml;nster-Hiltrup</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Ecological Monographs</p>
+</td>
+<td width="184" valign="top">
+<p>Ecological Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Ecology</p>
+</td>
+<td width="184" valign="top">
+<p>Ecological Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Economic Botany</p>
+</td>
+<td width="184" valign="top">
+<p>New York Botanical Garden for the Society for Economic
+Botany</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Economic Development and Cultural Change</p>
+</td>
+<td width="184" valign="top">
+<p>University of Chicago Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Not yet (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Endocrinology</p>
+</td>
+<td width="184" valign="top">
+<p>Endocrine Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Entomologia, Experimentalis et Applicata "</p>
+</td>
+<td width="184" valign="top">
+<p>Kluwer Academic for Nederlandse Entomologische Verenigung</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Entomophaga</p>
+</td>
+<td width="184" valign="top">
+<p>Lavoisier Abon</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Environmental Entomology</p>
+</td>
+<td width="184" valign="top">
+<p>Entomological Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Environmental Pollution</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Euphytica</p>
+</td>
+<td width="184" valign="top">
+<p>Kluwer Academic Publishers</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Eurasian Soil Science</p>
+</td>
+<td width="184" valign="top">
+<p>Scripta Technica</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>European Journal of Biochemistry</p>
+</td>
+<td width="184" valign="top">
+<p>Springer International (Berlin) for Federation of European
+Biochemical Societies</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>European Journal of Soil Science</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>European Molecular (EMBO)</p>
+</td>
+<td width="184" valign="top">
+<p>EMBO and Oxford University Press (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>European Review of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Walter de Gruyter</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--Not Yet</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Experimental Agriculture</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>FAO Quarterly Bulletin of Statistics</p>
+</td>
+<td width="184" valign="top">
+<p>Food and Agricultural Organization of the United Nations</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>FASEB Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Federation of American Societies for Experimental Biology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>FEBS Letters</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Scientific for FEBS (Neth)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Food Chemistry</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Food Policy</p>
+</td>
+<td width="184" valign="top">
+<p>Butterworth-Heinemann</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Food Technology</p>
+</td>
+<td width="184" valign="top">
+<p>Institute of Food Technologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Foreign Agricultural Trade of the United States (FATUS)</p>
+</td>
+<td width="184" valign="top">
+<p>USDA Economic Research Service</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--data is available through ERS</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Forest Ecology and Management</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Forest Science</p>
+</td>
+<td width="184" valign="top">
+<p>Society of American Foresters</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Forestry</p>
+</td>
+<td width="184" valign="top">
+<p>Oxford University Press</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Forestry Chronicle</p>
+</td>
+<td width="184" valign="top">
+<p>Canadian Institute of Forestry</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Gastroenterology</p>
+</td>
+<td width="184" valign="top">
+<p>W.B. Saunders for the American Gastroenterology
+Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>General &amp; Comparative Endocrinology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (San Diego)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Genetics</p>
+</td>
+<td width="184" valign="top">
+<p>Genetics Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Geoderma</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Scientific (Netherlands)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Heredity; An International Journal of Genetics</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science for The Genetics Society of Great Britain
+(Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>HortScience</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Horticultural Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>IDS Bulletin</p>
+</td>
+<td width="184" valign="top">
+<p>Institute of Development Studies</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Indian Journal of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Indian Society of Agricultural Economics</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>International Journal of Food Science and Technology</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science for the Institute of Food Science and
+Technology (UK)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>International Journal of Plant Sciences</p>
+</td>
+<td width="184" valign="top">
+<p>University of Chicago Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Irrigation and Drainage Systems</p>
+</td>
+<td width="184" valign="top">
+<p>Kluwer Academic</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Irrigation Science</p>
+</td>
+<td width="184" valign="top">
+<p>Springer-Verlag (Berlin)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>JAOCS; Journal of the American Oil Chemists' Society</p>
+</td>
+<td width="184" valign="top">
+<p>American Oil Chemists' Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>JASA</p>
+</td>
+<td width="184" valign="top">
+<p>American Statistical Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural and Applied Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Southern Agricultural Economics Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural and Food Chemistry</p>
+</td>
+<td width="184" valign="top">
+<p>American Chemical Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural and Resource Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Western Agricultural Economics Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>"Agricultural Economics Society, UK (Editors @ Dept. of
+Agriculture &amp; Food Economics, University of Reading"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural Economics Research</p>
+</td>
+<td width="184" valign="top">
+<p>USDA Economics Research Service</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural Engineering Research</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press for the Silsoe Research Institute (London)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Agricultural Science</p>
+</td>
+<td width="184" valign="top">
+<p>Agricultural University of Norway</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Animal Science</p>
+</td>
+<td width="184" valign="top">
+<p>American Society of Animal Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Applied Bacteriology</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science for the Society for Applied Bacteriology
+(Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Applied Ecology</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Bacteriology</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Microbiology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Biological Chemistry</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Biochemistry &amp; Molecular Biology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Clinical Investigation</p>
+</td>
+<td width="184" valign="top">
+<p>Rockefeller University Press for American Society for
+Microbiology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Dairy Research</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Dairy Science</p>
+</td>
+<td width="184" valign="top">
+<p>American Dairy Science Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Developing Areas</p>
+</td>
+<td width="184" valign="top">
+<p>Western Illinois University</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Development Studies</p>
+</td>
+<td width="184" valign="top">
+<p>F. Cass</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Ecology</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Economic Entomology</p>
+</td>
+<td width="184" valign="top">
+<p>Entomological Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Economic Literature</p>
+</td>
+<td width="184" valign="top">
+<p>American Economic Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Endocrinology</p>
+</td>
+<td width="184" valign="top">
+<p>Society for Endocrinology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Environmental Quality</p>
+</td>
+<td width="184" valign="top">
+<p>"American Society of Agronomy, Crop Science Society of
+America, and Soil Science Society of America "</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top"></td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Experimental Botany</p>
+</td>
+<td width="184" valign="top">
+<p>Clarendon Press for the Society of Experimental Botany</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Food Processing and Preservation</p>
+</td>
+<td width="184" valign="top">
+<p>Food &amp; Nutrition Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Food Protection</p>
+</td>
+<td width="184" valign="top">
+<p>"International Association of Milk, Food, and Environmental
+Sanitarians"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Food Science</p>
+</td>
+<td width="184" valign="top">
+<p>Institute of Food Technologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Forestry</p>
+</td>
+<td width="184" valign="top">
+<p>Society of American Foresters</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Genetics and Breeding</p>
+</td>
+<td width="184" valign="top">
+<p>Instituto Sperimentale per la Cerealicoltura</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Heredity</p>
+</td>
+<td width="184" valign="top">
+<p>Oxford University Press for the American Genetics
+Association</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Horticultural Science</p>
+</td>
+<td width="184" valign="top">
+<p>Headley Brothers</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a?</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Invertebrate Pathology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (San Diego)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Molecular Biology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (London)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Nematology</p>
+</td>
+<td width="184" valign="top">
+<p>Society of Nematologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Nutrition</p>
+</td>
+<td width="184" valign="top">
+<p>American Institute of Nutrition</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Pediatrics</p>
+</td>
+<td width="184" valign="top">
+<p>C.V. Mosby</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Journal of Reproduction and Fertility, and its Supplement
+"</p>
+</td>
+<td width="184" valign="top">
+<p>"Journals of Reproduction and Fertility, Ltd."</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Rural Studies</p>
+</td>
+<td width="184" valign="top">
+<p>Pergamon Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Elsevier</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Soil and Water Conservation</p>
+</td>
+<td width="184" valign="top">
+<p>Soil and Water Conservation Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Stored Products Research</p>
+</td>
+<td width="184" valign="top">
+<p>Pergamon Press &amp; Elsevier Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Elsevier</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Texture Studies</p>
+</td>
+<td width="184" valign="top">
+<p>Food &amp; Nutrition Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the American Dietetic Association</p>
+</td>
+<td width="184" valign="top">
+<p>American Dietetic Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the American Medical Association (JAMA)</p>
+</td>
+<td width="184" valign="top">
+<p>American Medical Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the American Society for Horticultural Science</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Horticultural Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the Association of Official Analytical Chemists
+International</p>
+</td>
+<td width="184" valign="top">
+<p>Association of Official Analytical Chemists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the National Cancer Institute (JNCI)</p>
+</td>
+<td width="184" valign="top">
+<p>National Cancer Institute/U.S. Government Printing Office</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of the Science of Food and Agriculture</p>
+</td>
+<td width="184" valign="top">
+<p>J. Wiley for Society of Chemical Industry</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (Wiley)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Journal of Wildlife Management (and monographs)</p>
+</td>
+<td width="184" valign="top">
+<p>Wildlife Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Lancet</p>
+</td>
+<td width="184" valign="top">
+<p>"Lancet Limited and Little, Brown"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Land Economics</p>
+</td>
+<td width="184" valign="top">
+<p>University of Wisconsin Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Lebensmittel-Wissenschaft &amp; Technologie = Food Science
+&amp; Technology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press for Swiss Society of Food Science &amp;
+Technology (London)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Lipids</p>
+</td>
+<td width="184" valign="top">
+<p>American Oil Chemists' Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Livestock Production Science</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Scientific (BV Neth)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Meat Science</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Applied Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Metabolism; Clinical and Experimental</p>
+</td>
+<td width="184" valign="top">
+<p>W.B. Saunders</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--Not Yet</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Microbiological Reviews</p>
+</td>
+<td width="184" valign="top">
+<p>American Society for Microbiology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Microbiology</p>
+</td>
+<td width="184" valign="top">
+<p>Society for General Microbiology</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Molecular and General Genetics</p>
+</td>
+<td width="184" valign="top">
+<p>Springer-Verlag (Berlin)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Mycological Research</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press for the British Mycological
+Society</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Nature</p>
+</td>
+<td width="184" valign="top">
+<p>Macmillan Magazines</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Netherlands Journal of Agricultural Science</p>
+</td>
+<td width="184" valign="top">
+<p>Royal Netherlands Society for Agricultural Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>New England Journal of Medicine</p>
+</td>
+<td width="184" valign="top">
+<p>Massachusetts Medical Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Norsk Landbruksforsking = Norwegian Agricultural Research</p>
+</td>
+<td width="184" valign="top">
+<p>Statens Fagtjeneste for Landbruket = Norwegian Agricultural
+Advisory Centre</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub? www.dffe.dk/publikationer/</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Nucleic Acids Research</p>
+</td>
+<td width="184" valign="top">
+<p>Oxford University Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Nutrition Reviews (&amp; Supplement)</p>
+</td>
+<td width="184" valign="top">
+<p>International Life Sciences Institute</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Oecologia</p>
+</td>
+<td width="184" valign="top">
+<p>Springer-Verlag (Berlin)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Outlook on Agriculture</p>
+</td>
+<td width="184" valign="top">
+<p>Centre for Agricultural and Biosciences International</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Pediatrics</p>
+</td>
+<td width="184" valign="top">
+<p>American Academy of Pediatrics</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Pedobiologia</p>
+</td>
+<td width="184" valign="top">
+<p>Gustav Fischer</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Pesticide Biochemistry and Physiology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (San Diego)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Pesticide Science</p>
+</td>
+<td width="184" valign="top">
+<p>John Wiley for the Society of Chemical Industry</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (Wiley)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Physiologia Plantarum</p>
+</td>
+<td width="184" valign="top">
+<p>Munksgaard</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Physiological and Molecular Plant Pathology</p>
+</td>
+<td width="184" valign="top">
+<p>Academic Press (London)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>IDEAL</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Phytochemistry</p>
+</td>
+<td width="184" valign="top">
+<p>Pergamon Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Elsevier</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Phytopathology</p>
+</td>
+<td width="184" valign="top">
+<p>American Phytopathological Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Plant and Soil</p>
+</td>
+<td width="184" valign="top">
+<p>Kluwer</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Plant Breeding = Zeitschrift f&uuml;r
+Pflanzenz&uuml;chtung</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Wissenschafts-Verlag</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Plant Disease</p>
+</td>
+<td width="184" valign="top">
+<p>American Phytopathological Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Plant Pathology</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Plant Physiology</p>
+</td>
+<td width="184" valign="top">
+<p>American Society of Plant Physiologists</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Plant, Cell and Environment"</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Planta; Archiv f&uuml;r Wissenschaftliche Botanik</p>
+</td>
+<td width="184" valign="top">
+<p>Springer-Verlag (Berlin)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Population and Development Review</p>
+</td>
+<td width="184" valign="top">
+<p>Population Council</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Poultry Science</p>
+</td>
+<td width="184" valign="top">
+<p>Poultry Science Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Proceedings of the National Academy of Sciences (U.S.)</p>
+</td>
+<td width="184" valign="top">
+<p>National Academy of Sciences</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Proceedings of the Nutrition Society</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press for the Nutrition Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub (CABWeb)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Proceedings of the Royal Society of London. Series B</p>
+</td>
+<td width="184" valign="top">
+<p>The Royal Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Proceedings of the Society for Experimental Biology and
+Medicine</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell Science (Cambridge)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Review of Marketing and Agricultural Economics</p>
+</td>
+<td width="184" valign="top">
+<p>Australian Agricultural Economics Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Rural Sociology</p>
+</td>
+<td width="184" valign="top">
+<p>Institute for Environmental Studies--University of Illinois
+for the Rural Sociological Society</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a (ProQuest)</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Science</p>
+</td>
+<td width="184" valign="top">
+<p>American Association for the Advancement of Science</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">
+<p>X</p>
+</td>
+<td width="80" valign="top">
+<p>X</p>
+</td>
+<td width="86" valign="top">
+<p>X</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Scientia Horticulturae</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier for the International Society for Horticultural
+Science (Netherlands)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Silvae Genetica</p>
+</td>
+<td width="184" valign="top">
+<p>J.D. Sauerlander's Verlag</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Sociologia Ruralis</p>
+</td>
+<td width="184" valign="top">
+<p>Blackwell (Oxford)</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Soil &amp; Tillage Research</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier Scientific BV (Netherlands)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Soil Biology and Biochemistry</p>
+</td>
+<td width="184" valign="top">
+<p>Pergamon Press; Elsevier-Oxford</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Elsevier</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Soil Science</p>
+</td>
+<td width="184" valign="top">
+<p>Williams &amp; Wilkins Co.</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a--Not Yet</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Soil Science and Plant Nutrition</p>
+</td>
+<td width="184" valign="top">
+<p>Japanese Society of Soil Science and Plant Nutrition</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Soil Science Society of America Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Soil Science Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Springer</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>The New Phytologist</p>
+</td>
+<td width="184" valign="top">
+<p>Cambridge University Press</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Theoretical and Applied Genetics</p>
+</td>
+<td width="184" valign="top">
+<p>Springer-Verlag (Berlin)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Transactions of the ASAE</p>
+</td>
+<td width="184" valign="top">
+<p>American Society of Agricultural Engineers</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Water Resources Research</p>
+</td>
+<td width="184" valign="top">
+<p>American Geophysical Union</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>"Water, Air, and Soil Pollution "</p>
+</td>
+<td width="184" valign="top">
+<p>Kluwer Academic</p>
+</td>
+<td width="53" valign="top">
+<p>X</p>
+</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Weed Science</p>
+</td>
+<td width="184" valign="top">
+<p>Weed Science Society of America</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>World Bank Economic Review</p>
+</td>
+<td width="184" valign="top">
+<p>World Bank</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>World Development</p>
+</td>
+<td width="184" valign="top">
+<p>Elsevier/Pergamon Press (Oxford)</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Pub</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>World's Poultry Science Journal</p>
+</td>
+<td width="184" valign="top">
+<p>Butterworth for the World's Poultry Science Association</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>n/a</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Zeitschrift f&uuml;r Pflanzenern&auml;hrung und Bodenkunde =
+Journal of Plant Nutrition and Soil Science</p>
+</td>
+<td width="184" valign="top">
+<p>VCH Verlagsgesellschaft</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">
+<p>Wiley</p>
+</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>KEY:</p>
+</td>
+<td width="184" valign="top">
+<p>n/a = not available</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">&nbsp;</td>
+<td width="184" valign="top">
+<p>Pub = publisher</p>
+</td>
+<td width="53" valign="top"></td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">&nbsp;</td>
+<td width="184" valign="top">
+<p>Not yet = publisher does offer some e-journals but this title
+is not yet available</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">
+<p>Searching Steps:</p>
+</td>
+<td width="184" valign="top">
+<p>1. Library catalog</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">&nbsp;</td>
+<td width="184" valign="top">
+<p>2. Google</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">&nbsp;</td>
+<td width="184" valign="top">
+<p>3. 2nd publisher (like Elsevier) if needed</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td width="152" valign="top">&nbsp;</td>
+<td width="184" valign="top">
+<p>"4. Verified titles on ECO, JSTOR, Highwire"</p>
+</td>
+<td width="53" valign="top">&nbsp;</td>
+<td width="66" valign="top">&nbsp;</td>
+<td width="80" valign="top">&nbsp;</td>
+<td width="86" valign="top">&nbsp;</td>
+</tr>
+</table>
+</div>
+
+
+<div style='mso-element:footnote-list'><br clear="all" />
+<hr align="left" size="1" width="33%" />
+<div style='mso-element:footnote' id="ftn1">
+<p><a href="#_ftnref1" name="_ftn1" id="_ftn1">[1]</a> Archival
+Workshop on Ingest, Identification, and Certification Standards
+(AWIICS), 13-15 October 1999
+&lt;http://ssdoo.fsfc.nasa.gov/nost/isoas/awiics/ws.html&gt;</p>
+</div>
+<div style='mso-element:footnote' id="ftn2">
+<p><a style='mso-footnote-id:ftn2' href="#_ftnref2" name="_ftn2"
+id="_ftn2">[2]</a>
+&lt;http://www.ukoln.ac.uk/events/cedars-2000/&gt;</p>
+</div>
+</div>
+
+
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+
+<!-- End text -->
+
+<p> </p>
+<p class="copyright">Copyright &copy; 2004 Digital Library Federation. All rights reserved.</p>
+<p class="copyright">Last updated: <script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

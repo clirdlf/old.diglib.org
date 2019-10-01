@@ -1,0 +1,65 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <p:presentation notessizex="4474" notessizey="5664">
+  <p:master id="3" type="main" href="master03.htm" xmlhref="master03.xml"
+   template="Puzzle" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000FF,#FFFFFF,#000000,#FFFF00,#FF9900,#00FFFF,#FF0000,#969696"/>
+    <p:colorscheme
+     colors="#CCCCFF,#000066,#CCFF99,#000099,#6666FF,#FF9933,#33CC33,#00CC66"/>
+    <p:colorscheme
+     colors="#CCCCFF,#000066,#CCFF99,#000099,#6666FF,#FF9933,#000066,#000099"/>
+    <p:colorscheme
+     colors="#CCCCFF,#000066,#0066FF,#000066,#99FF66,#FF3399,#000066,#000099"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="4" type="title" href="master04.htm" xmlhref="master04.xml"
+   layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" type="notes" href="master01.htm" layout="notes"
+   slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" type="handout" href="master02.htm" layout="handout"
+   slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="4" href="slide0004.htm" masterhref="master04.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle"/>
+  <p:slide id="184" href="slide0184.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="157" href="slide0157.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="185" href="slide0185.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="189" href="slide0189.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="188" href="slide0188.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="204" href="slide0204.htm" layout="title_only" slots="title"/>
+  <p:slide id="198" href="slide0198.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="176" href="slide0176.htm"/>
+  <p:slide id="192" href="slide0192.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="193" href="slide0193.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="195" href="slide0195.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="196" href="slide0196.htm" layout="title_body" slots="title,graph"/>
+  <p:slide id="197" href="slide0197.htm" layout="title_body" slots="title,graph"/>
+  <p:slide id="179" href="slide0179.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="160" href="slide0160.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="203" href="slide0203.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="153" href="slide0153.htm" layout="title_body" slots="title,body"/>
+  <p:slide id="121" href="slide0121.htm" layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" scale="50" restoredleft="152" restoredtop="883"
+   manualadjustleft="t" manualadjusttop="t"/>
+  <p:guide type="horizontal" position="4272"/>
+  <p:guide type="vertical" position="3168"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:font name="Arial" charset="0" type="4" family="34"/>
+  <p:font name="Symbol" charset="2" type="4" family="18"/>
+  <p:headersfooters noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"
+   headerstr="Tell a Vision: 3 Vignettes"
+   footerstr="Denise A. Troll, troll@andrew.cmu.edu" nodate="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"/>
+  <p:htmlpublishsettings browsersupport="dual"
+   href="D:\dlf\dlfweb\new\forums\fall2001\papers\troll.htm" noloadinbrowser="t"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="453634">
+  <o:colormru v:ext="edit" colors="#f99,#fc9,yellow,white,red,#cf6,#cf3,#ffc"/>
+  <o:colormenu v:ext="edit" fillcolor="white" strokecolor="red"/>
+ </o:shapedefaults></xml>

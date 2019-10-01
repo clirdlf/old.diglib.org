@@ -1,0 +1,94 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="3"/>
+ </o:shapelayout><p:colorscheme
+  colors="#FFFFE9,#00264C,#333333,#333333,#78C0B2,#262D4C,#598BBD,#4D4D4D"/>
+ <v:background id="_x0000_s3073" o:bwmode="white" fillcolor="#eeefe1">
+  <v:fill src="master04_image001.jpg" o:title="Ricebk" color2="#262d4c [5]"
+   type="tile"/>
+ </v:background><p:shaperange id="_x0000_m3074">
+  <v:shapetype id="_x0000_m3074" style='position:absolute;left:86.125pt;top:22.375pt;
+   width:612pt;height:90pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#262d4c [5]" stroked="f" strokecolor="#00264c [1]">
+   <v:fill src="master04_image002.gif" o:title="Large confetti" color2="#4d4d4d [7]"
+    o:detectmouseclick="t" type="pattern"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#333 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m3075">
+  <v:shapetype id="_x0000_m3075" style='position:absolute;left:54pt;top:150pt;
+   width:612pt;height:330pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#78c0b2 [4]"
+   stroked="f" strokecolor="#00264c [1]">
+   <v:fill color2="#ffffe9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#333 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s3076">
+  <v:shapetype id="_x0000_s3076" style='position:absolute;left:54pt;top:492pt;
+   width:150pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#78c0b2 [4]" stroked="f" strokecolor="#00264c [1]">
+   <v:fill color2="#ffffe9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#333 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s3077">
+  <v:shapetype id="_x0000_s3077" style='position:absolute;left:246pt;top:492pt;
+   width:228pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#78c0b2 [4]" stroked="f" strokecolor="#00264c [1]">
+   <v:fill color2="#ffffe9 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#333 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s3078">
+  <v:rect id="_x0000_s3078" style='position:absolute;left:0;top:119.125pt;
+   width:666pt;height:6.875pt;mso-wrap-style:none;v-text-anchor:middle'
+   fillcolor="#333 [2]" stroked="f" strokecolor="#00264c [1]">
+   <v:shadow color="#333 [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s3079">
+  <v:rect id="_x0000_s3079" style='position:absolute;left:19.5pt;top:0;width:62.5pt;
+   height:145pt;mso-wrap-style:none;v-text-anchor:middle' o:bwmode="lightGrayScale"
+   o:allowincell="f" fillcolor="#262d4c [5]" stroked="f" strokecolor="#00264c [1]">
+   <v:fill src="master04_image002.gif" o:title="Large confetti" color2="#4d4d4d [7]"
+    type="pattern"/>
+   <v:shadow color="#333 [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s3080">
+  <v:rect id="_x0000_s3080" style='position:absolute;left:556.5pt;top:516pt;
+   width:163.5pt;height:6.25pt;mso-wrap-style:none;v-text-anchor:middle'
+   fillcolor="#333 [2]" stroked="f" strokecolor="#00264c [1]">
+   <v:shadow color="#333 [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s3081">
+  <v:shapetype id="_x0000_s3081" style='position:absolute;left:647pt;top:492pt;
+   width:42pt;height:48pt;v-text-anchor:middle-center' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" fillcolor="#262d4c [5]"
+   stroked="f" strokecolor="#00264c [1]">
+   <v:fill src="master04_image002.gif" o:title="Large confetti" color2="#4d4d4d [7]"
+    o:detectmouseclick="t" type="pattern"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#333 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="slideNumber" position="4" size="quarter"/>
+  </v:shapetype></p:shaperange>
+</xml>

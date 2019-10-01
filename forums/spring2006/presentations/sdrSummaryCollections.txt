@@ -1,0 +1,308 @@
+        <dig:collectionName>Hannah's test 
+        <dig:fileCount>44</dig:fileCount>
+    <dig:formats>
+        <dig:format formatCount="1" formatName="BYTESTREAM" 
+        <dig:format formatCount="4" formatName="PDF" 
+        <dig:format formatCount="9" formatName="AIFF" 
+        <dig:format formatCount="6" formatName="WAVE" 
+        <dig:format formatCount="2" formatName="GIF" 
+        <dig:format formatCount="6" formatName="JPEG" 
+        <dig:format formatCount="3" formatName="TIFF" 
+        <dig:format formatCount="4" formatName="HTML" 
+        <dig:format formatCount="9" formatName="ASCII" 
+*******************
+    <dig:formatVerificationOutcomes>
+       <outcomeCount="34" verificationOutcome="Format_Verified">
+       <outcomeCount="5"verificationOutcome="Format_FromExtension">
+       <outcomeCount="4" verificationOutcome="Format_Mismatch">
+    <dig:fileInfo
+	filePath="\test files\2376.500px"fileID="_2.14"/>
+ 	filePath="\test files\ReallyAnAIFF.wav" fileID="_2.20"/>
+	filePath="\test files\chat\channel\cnn_newsroom\index.bak" fileID="_2.23.1.1.1"/>
+	filePath="\test files\gif" fileID="_2.28"/>
+       <outcomeCount="1" verificationOutcome="Format_Unknown">
+        filePath="\test files\ALLPOLITICS\Shortcut to index.html.lnk" fileID="_2.15.1"/>
+*******************************
+    <dig:formatScores>
+        <dig:formatScore scoreCount="27" scoreValue="0"/>
+        <dig:formatScore scoreCount="10" scoreValue="1"/>
+        <dig:formatScore scoreCount="6" scoreValue="2"/>
+        <dig:formatScore scoreCount="1" scoreValue="5"/>
+*******************************
+    </dig:formatScores>
+    <dig:preservationQualities>
+        <dig:preservationQuality qualityCount="37" qualityValue="StatusQuality_High"/>
+        <dig:preservationQuality qualityCount="6" qualityValue="StatusQuality_Medium"/>
+        <dig:preservationQuality qualityCount="1" qualityValue="StatusQuality_Low"/>
+    </dig:preservationQualities>
+********************************
+    <dig:preservationPolicyOutcomes>
+        <dig:policyOutcome policyCount="22" policyValue="StatusPolicy_Preferred">
+        </dig:policyOutcome>
+        <dig:policyOutcome policyCount="19" policyValue="StatusPolicy_Approved">
+        </dig:policyOutcome>
+        <dig:policyOutcome policyCount="2" policyValue="StatusPolicy_Acceptable">
+        <dig:policyOutcome policyCount="0" policyValue="StatusPolicy_Minimal">
+        <dig:policyOutcome policyCount="1" policyValue="StatusPolicy_Unknown">
+         <dig:fileInfo filePath="\test files\ALLPOLITICS\Shortcut to index.html.lnk" fileID="_2.15.1"/>
+    </dig:preservationPolicyOutcomes>
+************************************
+    <dig:preservationRisk>
+        <dig:format formatName="AIFF">
+            <dig:flagRaised>
+                <dig:flag flagID="AIFF_CompressionType">
+                    <test feature="property" path="AIFFMetadata:CompressionType" compare="any value"/>
+                    <reason>In the interest of tracking any compression type which may hinder future accessibility.</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\aiff\Fnonull.aiff" fileID="_2.22.1"/>
+                    <dig:fileInfo filePath="\test files\aiff\M1F1-AlawC-AFsp.aiff" fileID="_2.22.2"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\M1F1-int8C-AFsp.aiff" fileID="_2.22.4"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Pmiscck.aiff" fileID="_2.22.5"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Pnossnd.aiff" fileID="_2.22.6"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Porder.aiff" fileID="_2.22.7"/>
+                </dig:fileList>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="AIFF_CompressionName">
+                    <test feature="property" path="AIFFMetadata:CompressionName" compare="any value"/>
+                    <reason>In the interest of tracking any compression type which may hinder future accessibility.</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Fnonull.aiff" fileID="_2.22.1"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\M1F1-AlawC-AFsp.aiff" fileID="_2.22.2"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\M1F1-int8C-AFsp.aiff" fileID="_2.22.4"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Pmiscck.aiff" fileID="_2.22.5"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Pnossnd.aiff" fileID="_2.22.6"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Porder.aiff" fileID="_2.22.7"/>
+                </dig:fileList>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="AIFF_InfoMessage">
+                    <test feature="infoMessage" compare="any value"/>
+                    <reason>A message is usually bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\aiff\Pmiscck.aiff" fileID="_2.22.5"/>
+                </dig:fileList>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="ASCII"/>
+        <dig:format formatName="BMP"/>
+        <dig:format formatName="CSS"/>
+        <dig:format formatName="FLASH"/>
+        <dig:format formatName="GIF"/>
+        <dig:format formatName="HTML">
+            <dig:flagRaised>
+                <dig:flag flagID="HTML_ErrorMessage">
+                    <test feature="errorMessage" compare="any value"/>
+                    <reason>An error message is especially bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\ALLPOLITICS\index.html" fileID="_2.15.3"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\channel\cnn_newsroom\index.bak" fileID="_2.23.1.1.1"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\channel\cnn_newsroom\index.html" fileID="_2.23.1.1.2"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\index.html" fileID="_2.23.2"/>
+                </dig:fileList>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="HTML_TokenMgrErro">
+                    <test feature="errorMessage" compare="contains"/>
+                    <values>
+                        <value>TokenMgrError</value>
+                    </values>
+                    <reason>Error may not be correctable by transformation. Nonetheless, transformation would be beneficial for long-term preservation goals.</reason>
+                    <recommendation action="RiskAssessment_TransformFormat">
+                        <transformation newFormatName="XHTML" transformationEffects="Flexibility afforded by XHTML will facilitate future access and interoperability."/>
+                    </recommendation>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\ALLPOLITICS\index.html" fileID="_2.15.3"/>
+                </dig:fileList>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="HTML_NotValid">
+                   <test feature="valid" compare="equals" datatype="boolean"/>
+                    <values>
+                        <value>false</value>
+                    </values>
+                    <reason>A HTML file should be valid</reason>
+                    <recommendation action="RiskAssessment_TransformFormat">
+                        <transformation newFormatName="XHTML" transformationEffects="Flexibility afforded by XHTML will facilitate future access and interoperability."/>
+                    </recommendation>
+                </dig:flag>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\ALLPOLITICS\index.html" fileID="_2.15.3"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\channel\cnn_newsroom\index.bak" fileID="_2.23.1.1.1"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\channel\cnn_newsroom\index.html" fileID="_2.23.1.1.2"/>
+                    <dig:fileInfo filePath="D:\AIHT\HannahTestFiles\test files\chat\index.html" fileID="_2.23.2"/>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="JPEG">
+            <dig:flagRaised>
+                <dig:flag flagID="JPEG_ProgressiveEncoding">
+                    <test feature="property" path="JPEGMetadata:Images:Image:Scans" compare="any value" datatype="integer"/>
+                    <reason>Indicates progressive encoding; limited software support; recommend conversion to JPEG2000 or JPEG normalization.</reason>
+                    <recommendation action="RiskAssessment_TransformFormat">
+                        <transformation newFormatName="JPEG2000" transformationEffects="Preserves image data in a &quot;standard&quot; format expected to gain in preservation quality, and policy status, as adoption increases; benefits of progressive encoding may not be retained."/>
+                        <transformation newFormatName="JPEG" transformationEffects="Image data retained in a format closer to de facto baseline; greater software compatibiilty; benefits of progressive encoding will not be retained in the conversion."/>
+                    </recommendation>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="\test files\1000.pjpeg" fileID="_2.06"/>
+                    <dig:fileInfo filePath="\test files\1014.jpeg" fileID="_2.10"/>
+                    <dig:fileInfo filePath="\test files\1015.jpeg" fileID="_2.11"/>
+                    <dig:fileInfo filePath="\test files\1015.pjpeg" fileID="_2.12"/>
+                    <dig:fileInfo filePath="\test files\1058.jpeg" fileID="_2.13"/>
+                    <dig:fileInfo filePath="\test files\2376.500px" fileID="_2.14"/>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="JPEG2000"/>
+        <dig:format formatName="MP3"/>
+        <dig:format formatName="MPEG"/>
+        <dig:format formatName="MSEXCEL"/>
+        <dig:format formatName="MSPOWERPOINT"/>
+        <dig:format formatName="MSWORD"/>
+        <dig:format formatName="PDF">
+            <dig:flagRaised>
+                <dig:flag flagID="PDF_EmbeddedImages">
+                    <test feature="property" path="PDFMetadata:Images" compare="any value" datatype="string"/>
+                    <reason>Embedded images might be of interest (because they can be extracted and preserved as other MIMEtypes which are more open). Note that probably all DL1 PDFs have image metadata recorded here that is not of concern at this point.</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\00001017_mixed.pdf" fileID="_2.01"/>
+                    <dig:fileInfo filePath="\test files\WorldTradeCenter1977Colormange.pdf" fileID="_2.21"/>
+                    <dig:fileInfo filePath="\test files\withAIFFembedded.pdf" fileID="_2.31"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="PDF_InfoMessage">
+                    <test feature="infoMessage" compare="any value"/>
+                    <reason>A message is usually bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\00001017_mixed.pdf" fileID="_2.01"/>
+                    <dig:fileInfo filePath="\test files\LCCatWebResourcesEncrypt.pdf" fileID="_2.17"/>
+                    <dig:fileInfo filePath="\test files\WorldTradeCenter1977Colormange.pdf" fileID="_2.21"/>
+                    <dig:fileInfo filePath="\test files\withAIFFembedded.pdf" fileID="_2.31"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="PDF_Encryption">
+                    <test feature="property" path="PDFMetadata:Encryption" compare="any value"/>
+                    <reason>Any encryption could impede file preservation/access in the future.</reason>
+                    <recommendation action="RiskAssessment_DowngradeStatusPolicy" newPolicyValue="StatusPolicy_Minimal"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\LCCatWebResourcesEncrypt.pdf" fileID="_2.17"/>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="PHOTOSHOP"/>
+        <dig:format formatName="PNG"/>
+        <dig:format formatName="QUICKTIME"/>
+        <dig:format formatName="REAL"/>
+        <dig:format formatName="SGML"/>
+        <dig:format formatName="TIFF">
+            <dig:flagRaised>
+                <dig:flag flagID="TIFF_Not_DLF_Benchmark">
+                    <test feature="profile" compare="not equals"/>
+                    <values>
+                        <value>DLF Benchmark for Faithful Digital Reproductions of Monographs and Serials</value>
+                    </values>
+                    <reason>Where SUL-created digital surrogates of book-like objects are concerned, we should be checking that our specs meet the DLF benchmark. Also may have trusted repository implications.</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-ICC.tif" fileID="_2.02"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501.TIF" fileID="_2.04"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="TIFF_MultipleImages">
+                    <test feature="property" path="TIFFMetadata:IFDs:Number" compare="greater than" datatype="integer"/>
+                    <values>
+                        <value>1</value>
+                    </values>
+                    <reason>Indicates multiple image files wrapped in TIFF; reader-compatibility and techMD implications.</reason>
+                    <recommendation action="RiskAssessment_DowngradeStatusPolicy" newPolicyValue="StatusPolicy_Approved"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-ICC.tif" fileID="_2.02"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-JPGICC.tif" fileID="_2.03"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501.TIF" fileID="_2.04"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="TIFF_Compression">
+                    <test feature="property" path="TIFFMetadata:IFDs:IFD:Entries:NisoImageMetadata:CompressionScheme" compare="any value"/>
+                    <reason>In the interest of tracking any compression type which may hinder future accessibility.</reason>
+                    <recommendation action="RiskAssessment_DowngradeStatusPolicy" newPolicyValue="StatusPolicy_Acceptable"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-ICC.tif" fileID="_2.02"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-JPGICC.tif" fileID="_2.03"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501.TIF" fileID="_2.04"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="TIFF_ColorProfile">
+                    <test feature="property" path="TIFFMetadata:IFDs:IFD:Entries:TIFFEPProperties:InterColourProfile" compare="equals" datatype="boolean"/>
+                    <values>
+                        <value>true</value>
+                    </values>
+                    <reason>Color profile info</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-ICC.tif" fileID="_2.02"/>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501-JPGICC.tif" fileID="_2.03"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="TIFF_InfoMessage">
+                    <test feature="infoMessage" compare="any value"/>
+                    <reason>A message is usually bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\010911-F-2703B-501.TIF" fileID="_2.04"/>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="UTF-8"/>
+        <dig:format formatName="WAVE">
+            <dig:flagRaised>
+                <dig:flag flagID="WAVE_FactChunk">
+                    <test feature="property" path="WAVEMetadata:Fact" compare="any value" datatype="integer"/>
+                    <reason>Presence of the Fact Chunk indicates non-PCM files.</reason>
+                    <recommendation action="RiskAssessment_DowngradeStatusPolicy" newPolicyValue="StatusPolicy_Acceptable"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\1005.wav" fileID="_2.07"/>
+                    <dig:fileInfo filePath="\test files\1007.wav" fileID="_2.08"/>
+                    <dig:fileInfo filePath="\test files\truspech.wav" fileID="_2.30"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="WAVE_ErrorMessage">
+                    <test feature="errorMessage" compare="any value"/>
+                    <reason>An error message is especially bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\GLASS.wav" fileID="_2.16"/>
+                    <dig:fileInfo filePath="\test files\M1F1-uint8WE-AFsp.wav" fileID="_2.18"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="WAVE_NotWellFormed">
+                    <test feature="wellFormed" compare="equals" datatype="boolean"/>
+                    <values>
+                        <value>false</value>
+                    </values>
+                    <reason>File should be well formed</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                    <dig:fileInfo filePath="\test files\GLASS.wav" fileID="_2.16"/>
+                    <dig:fileInfo filePath="\test files\M1F1-uint8WE-AFsp.wav" fileID="_2.18"/>
+            </dig:flagRaised>
+            <dig:flagRaised>
+                <dig:flag flagID="WAVE_InfoMessage">
+                    <test feature="infoMessage" compare="any value"/>
+                    <reason>A message is usually bad news</reason>
+                    <recommendation action="RiskAssessment_Warning"/>
+                </dig:flag>
+                <dig:fileList>
+                    <dig:fileInfo filePath="\test files\Ptjunk.wav" fileID="_2.19"/>
+            </dig:flagRaised>
+        </dig:format>
+        <dig:format formatName="WINDOWSMEDIA"/>
+        <dig:format formatName="XML"/>
+        <dig:format formatName="BYTESTREAM"/>
+    </dig:preservationRisk>
+</dig:sdrDigiprovSummary>

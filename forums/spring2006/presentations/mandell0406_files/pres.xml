@@ -1,0 +1,74 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4416" notessizey="5856"
+  gridspacingx="49152" gridspacingy="49152">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="SAA overview" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000ff,#ffffff,#000000,#ffff00,#ff9900,#00ffff,#ff0000,#969696"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#00cc99,#3333cc,#ccccff,#b2b2b2"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#333333,#000000,#dddddd,#808080,#4d4d4d,#eaeaea"/>
+    <p:colorscheme
+     colors="#ffffcc,#000000,#666633,#808000,#339933,#800000,#0033cc,#ffcc66"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#ffcc66,#0000ff,#cc00cc,#c0c0c0"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#c0c0c0,#0066ff,#ff0000,#009900"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#3399ff,#99ffcc,#cc00cc,#b2b2b2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1C54742,973F9F70" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C56D17,590CBE90" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="68" slidesn="1C59C20,9A52C790" href="slide0068.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle"/>
+  <p:slide id="115" slidesn="1C651BB,59C27C10" href="slide0115.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="70" slidesn="1C59C6C,9034D630" href="slide0070.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="120" slidesn="0,0" href="slide0120.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="121" slidesn="0,0" href="slide0121.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="122" slidesn="0,0" href="slide0122.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="123" slidesn="72AA6F,71104C00" href="slide0123.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="101" slidesn="1C599F4,C2BBBA80" href="slide0101.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="102" slidesn="1C592BB,4815E020" href="slide0102.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="106" slidesn="1C592BB,4815E020" href="slide0106.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="119" slidesn="1C651BC,375C1180" href="slide0119.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="44" slidesn="0,0" href="slide0044.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle"/>
+  <p:viewstate type="slideView" sorterscale="50" restoredleft="228"
+   restoredtop="885" manualadjustleft="t" manualadjusttop="t"
+   hideoutlineicons="t"/>
+  <p:tag name="___PPT2001" type="binary" datasize="68" dataoffset="0"/>
+  <p:tag name="___PPTMac11" type="binary" datasize="2362" dataoffset="1"/>
+  <p:font name="Times New Roman" charset="0" type="4" family="1"/>
+  <p:font name="Times" charset="0" type="4" family="1"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Arial Narrow" charset="0" type="4" family="1"/>
+  <p:headersfooters slidenumber="t"
+   footerstr="Archivists' Toolkit - DLF Presentation, 11 April 2006"
+   formatid="0" noheader="t" nodate="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="376836">
+  <o:colormru v:ext="edit" colors="white,#369,#ffc,#c30,#009,#030,#060,black"/>
+  <o:colormenu v:ext="edit" fillcolor="white"/>
+ </o:shapedefaults></xml>

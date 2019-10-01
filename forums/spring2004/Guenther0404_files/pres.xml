@@ -1,0 +1,50 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="49152" gridspacingy="49152">
+  <p:master id="6" slidesn="0,0" type="main" href="master06.htm"
+   xmlhref="master06.xml" template="Bold Stripes" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#3e798e,#ffffff,#356677,#ffffcc,#7fa0b1,#3a7184,#ffbf0b,#cc9900"/>
+    <p:colorscheme
+     colors="#eaeaea,#000000,#eaeaea,#003366,#ffffff,#dddddd,#336699,#9a0000"/>
+    <p:colorscheme
+     colors="#eaeaea,#000000,#eaeaea,#000000,#ffffff,#dddddd,#777777,#969696"/>
+    <p:colorscheme
+     colors="#d4d5c3,#492417,#b9ba9c,#6e4900,#dbd8cf,#c7c8b0,#cc9900,#808080"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="7" slidesn="0,0" type="title" href="master07.htm"
+   xmlhref="master07.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" masterhref="master07.htm"
+   layout="title_subtitle" slots="centerTitle,subTitle"/>
+  <p:slide id="2" slidesn="0,0" href="slide0002.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="3" slidesn="0,0" href="slide0003.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="4" slidesn="0,0" href="slide0004.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="5" slidesn="0,0" href="slide0005.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="6" slidesn="0,0" href="slide0006.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="7" slidesn="0,0" href="slide0007.htm" layout="title_body"
+   slots="title,body"/>
+  <p:viewstate type="slideView"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Verdana" charset="0" type="4" family="34"/>
+  <p:font name="Wingdings" charset="2" type="4" family="2"/>
+  <p:headersfooters formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="94210" style='mso-wrap-style:none'>
+  <o:colormru v:ext="edit" colors="gray,#5f5f5f,silver"/>
+  <o:colormenu v:ext="edit" strokecolor="none" shadowcolor="none"/>
+ </o:shapedefaults></xml>

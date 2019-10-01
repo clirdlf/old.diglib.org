@@ -1,0 +1,48 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint">
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout><p:colorscheme
+  colors="#EFB0B0,#663300,#996633,#000000,#99CC00,#DDDDFF,#333399,#663300"/>
+ <v:background id="_x0000_s1025" o:bwmode="white" fillcolor="#efb0b0 [0]">
+  <v:fill color2="#ddf [5]"/>
+ </v:background><p:shaperange id="_x0000_m1026">
+  <v:shapetype id="_x0000_m1026" style='position:absolute;left:84pt;top:48pt;
+   width:606pt;height:90pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m0,0l0,21600,21600,21600,21600,0xe" filled="f"
+   fillcolor="#9c0 [4]" stroked="f" strokecolor="#630 [1]">
+   <v:fill color2="#efb0b0 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#963 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="title"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m1027">
+  <v:shapetype id="_x0000_m1027" style='position:absolute;left:84pt;top:138pt;
+   width:606pt;height:366pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m0,0l0,21600,21600,21600,21600,0xe" filled="f" fillcolor="#9c0 [4]"
+   stroked="f" strokecolor="#630 [1]">
+   <v:fill color2="#efb0b0 [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="#963 [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="body" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s1047">
+  <v:rect id="_x0000_s1047" style='position:absolute;left:0;top:0;width:10in;
+   height:24pt;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#963" stroked="f" strokecolor="#630 [1]">
+   <v:fill src="master03_image001.jpg" o:title="Medium wood" type="tile"/>
+   <v:shadow color="#963 [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_s1048">
+  <v:rect id="_x0000_s1048" style='position:absolute;left:0;top:0;width:1in;
+   height:540pt;mso-wrap-style:none;v-text-anchor:middle' o:userdrawn="t"
+   fillcolor="#963" stroked="f" strokecolor="#630 [1]">
+   <v:fill src="master03_image001.jpg" o:title="Medium wood" type="tile"/>
+   <v:shadow color="#963 [2]"/>
+  </v:rect></p:shaperange>
+</xml>

@@ -1,0 +1,113 @@
+<html>
+   <head>
+      <title>TEI Header Examples</title>
+      <style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+</style>
+
+   </head>
+
+   <body>
+      <h3>TEI Header Examples</h3>
+      <p>This example was given by the University of Michigan Library. It is a very small work from the "Making of
+         America" project. The example illustrates that the emphasis in "Level 1" texts is on the descriptive and
+         administrative metadata contained in the &lt;teiHeader&gt; and conveying the textual object as a series
+         of page images with loosely-encoded dirty OCR (usually not displayed) for searching.</p>
+      <p>To see what how this XML functions in published context, <a href="http://www.hti.umich.edu/cgi/b/bib/bibperm?q1=adg9061.0001.001">go here</a>.</p>
+      <hr/>
+      <pre>
+
+   <span class="element">&lt;teiHeader&gt;</span>
+	<span class="element">&lt;fileDesc&gt;</span>
+		<span class="element">&lt;titleStmt&gt;</span>
+			<span class="element">&lt;title type="245"&gt;</span>The Wade-Davis manifesto. A last appeal to the democracy. By Caspar Butz.<span class="element">&lt;/title&gt;</span>
+			<span class="element">&lt;author&gt;</span> Butz, Caspar, 1825-1885.<span class="element">&lt;/author&gt;</span>
+		<span class="element">&lt;/titleStmt&gt;</span>
+		<span class="element">&lt;extent&gt;</span>4 600 dpi G4 TIFF images<span class="element">&lt;/extent&gt;</span>
+		<span class="element">&lt;publicationStmt&gt;</span>
+			<span class="element">&lt;publisher&gt;</span>University of Michigan Library<span class="element">&lt;/publisher&gt;</span>
+			<span class="element">&lt;pubPlace&gt;</span>Ann Arbor, Michigan<span class="element">&lt;/pubPlace&gt;</span>
+			<span class="element">&lt;date&gt;</span>2005<span class="element">&lt;/date&gt;</span>
+			<span class="element">&lt;idno type="dlps"&gt;</span>ADG9061.0001.001<span class="element">&lt;/idno&gt;</span>
+			<span class="element">&lt;idno type="lccallno"&gt;</span>E458.4 .B99<span class="element">&lt;/idno&gt;</span>
+			<span class="element">&lt;availability&gt;</span>
+				<span class="element">&lt;p&gt;</span>These pages may be freely searched and displayed. Permission must be received for 
+subsequent distribution in print or electronically. Please go to http://www.umdl.umich.edu/ for more information.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/availability&gt;</span>
+		<span class="element">&lt;/publicationStmt&gt;</span>
+		<span class="element">&lt;sourceDesc&gt;</span>
+			<span class="element">&lt;biblFull&gt;</span>
+			  <span class="element">&lt;titleStmt&gt;</span>
+				<span class="element">&lt;title type="245"&gt;</span>The Wade-Davis manifesto. A last appeal to the democracy. By Caspar Butz.<span class="element">&lt;/title&gt;</span>
+				<span class="element">&lt;author&gt;</span> Butz, Caspar, 1825-1885.<span class="element">&lt;/author&gt;</span>
+			  <span class="element">&lt;/titleStmt&gt;</span>
+			  <span class="element">&lt;extent&gt;</span>[4] p.  27 cm.  <span class="element">&lt;/extent&gt;</span>
+			  <span class="element">&lt;publicationStmt&gt;</span>
+			  <span class="element">&lt;pubPlace&gt;</span>[Chicago?<span class="element">&lt;/pubPlace&gt;</span>
+			  <span class="element">&lt;date&gt;</span>1864]<span class="element">&lt;/date&gt;</span>
+			  <span class="element">&lt;/publicationStmt&gt;</span>
+			  <span class="element">&lt;notesStmt&gt;</span>
+				<span class="element">&lt;note&gt;</span>Caption title.<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>At head of title: Printed by order of the Fremont central committee.<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>"From the German American monthly for September."<span class="element">&lt;/note&gt;</span>
+				<span class="element">&lt;note&gt;</span>"Messr. Wade and Davis ... propose to hold a new convention ... 
+in order to trot out a new presidential candidate against Mr. Lincoln, in case ... [he] does not ... withdraw voluntarily ... 
+We only know of one man, who ... can ... re-establish this Union, and his name is John C. Fremont.--p. [2], [4]<span class="element">&lt;/note&gt;</span>
+			  <span class="element">&lt;/notesStmt&gt;</span>
+			<span class="element">&lt;/biblFull&gt;</span>
+		<span class="element">&lt;/sourceDesc&gt;</span>
+		<span class="element">&lt;/fileDesc&gt;</span>
+		<span class="element">&lt;encodingDesc&gt;</span>
+			<span class="element">&lt;projectDesc&gt;</span>
+				<span class="element">&lt;p&gt;</span>Header created with script mrcb2teiutf.xsl on 2005-05-25.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/projectDesc&gt;</span>
+			<span class="element">&lt;editorialDecl n="1"&gt;</span>
+				<span class="element">&lt;p&gt;</span>This electronic text file was created by Optical Character Recognition (OCR). 
+No corrections have been made to the OCR-ed text and no editing has been done to the content of the original document. 
+Encoding has been done using the recommendations for Level 1 of the TEI in Libraries Guidelines. Digital page images are 
+linked to the text file.<span class="element">&lt;/p&gt;</span>
+			<span class="element">&lt;/editorialDecl&gt;</span>
+		<span class="element">&lt;/encodingDesc&gt;</span>
+	<span class="element">&lt;profileDesc&gt;</span>
+		<span class="element">&lt;langUsage id="eng"&gt;</span>
+			<span class="element">&lt;language&gt;</span>eng<span class="element">&lt;/language&gt;</span>
+		<span class="element">&lt;/langUsage&gt;</span>
+		<span class="element">&lt;textClass&gt;</span>
+			<span class="element">&lt;keywords&gt;</span>
+				<span class="element">&lt;term&gt;</span>Campaign literature -- United States<span class="element">&lt;/term&gt;</span>
+				<span class="element">&lt;term&gt;</span>Fr&amp;eacute;mont, John Charles, -- 1813-1890.<span class="element">&lt;/term&gt;</span>
+				<span class="element">&lt;term&gt;</span>Lincoln, Abraham, -- 1809-1865.<span class="element">&lt;/term&gt;</span>
+			<span class="element">&lt;/keywords&gt;</span>
+		<span class="element">&lt;/textClass&gt;</span>
+	<span class="element">&lt;/profileDesc&gt;</span>
+   <span class="element">&lt;/teiHeader&gt;</span>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

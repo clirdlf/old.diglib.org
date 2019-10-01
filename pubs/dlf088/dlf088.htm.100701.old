@@ -1,0 +1,2802 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="Enabling Access in Digital Libraries: A Report on a Workshop on Access Management" />
+<meta name="dc.Creator" content="Arms, Caroline" />
+<meta name="dc.Creator" content="Klavans, Judith" />
+<meta name="dc.Creator" content="Waters, Donald J." />
+<meta name="dc.Subject" content="Electronic information resources" />
+<meta name="dc.Description" content="The workshop described in this report focused on the management of access to published information resources through research libraries. Topics discussed include privacy, protection of rights, authorization, and authentication." />
+<meta name="dc.Publisher" content="Digital Library Federation, Washington, D.C." />
+<meta name="dc.Publisher" content="Council on Library and Information Resources, Washington, D.C." />
+<meta name="dc.Contributor" content="Howard, Barrie" />
+<meta name="dc.Date" content="1999-02-01" />
+<meta name="dc.Date" content="2006-08-18" />
+<meta name="dc.Type" content="electronic book abstract" />
+<meta name="dc.Format" content="text/html" />
+
+<meta name="dc.Identifier" content="http://purl.oclc.org/DLF/pubs/dlf087/" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 1999, Digital Library Federation." />
+<meta name="dc.Rights"
+content="Copyright 1999, Council on Library and Information Resources." />
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Preserving the Whole: A Two-Track Approach to Rescuing Social Science Data and Metadata</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../sitemap.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+
+
+</td>
+</tr>
+
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"></td>
+       <td width="117" height="38" valign="top"></td>
+    <td width="117" height="38" colspan="2" valign="top"></td>
+    <td width="117" height="38" colspan="3" valign="top"></td>
+    <td width="116" height="38" colspan="2" valign="top"></td>
+  </tr>
+
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+       <center>
+         <b><i>
+               
+               <h3>Preserving the Whole <br>A Two-Track Approach to Rescuing Social Science Data and Metadata
+               </h3>
+               </i></b>
+         by <b>Ann Green</b>, <b>JoAnn Dionne</b>, and <b>Martin Dennis</b>
+         
+         
+         <blockquote>
+            June 1999
+            <i>Copyright 1999 by the Council on Library and Information Resources. No part of this publication may be reproduced or transcribed
+               in any form without permission of the publisher. Requests for reproduction should be submitted to the Director of Communications
+               at the Council on Library and Information Resources.</i>
+            
+         </blockquote>
+         
+      </center>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-ii-</i></p>
+      
+      
+      <hr width="75%">
+      <center><b>The Digital Library Federation</b></center>
+      
+      <blockquote>On May 1, 1995, 16 institutions created the Digital Library Federation (additional partners have since joined the original
+         16). The DLF partners have committed themselves to "bring together -- from across the nation and beyond -- digitized materials
+         that will be made accessible to students, scholars, and citizens everywhere." If they are to succeed in reaching their goals,
+         all DLF participants realize that they must act quickly to build the infrastructure and the institutional capacity to sustain
+         digital libraries. In support of DLF participants' efforts to these ends, DLF launched this publication series in 1999 to
+         highlight and disseminate critical work.
+      </blockquote>
+      
+      <blockquote>DONALD J. WATERS <br><i>Director <br>Digital Library Federation</i></blockquote>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-iii-</i></p>
+      
+      <a name="about"></a><hr width="75%">
+      <center><b>About the Authors</b></center>
+      
+      <blockquote>Ann Green is director of the Social Science Statistical Laboratory at Yale University, where she oversees social science research
+         and instructional technologies, facilities, and support services. She has participated in the development of standards for
+         social science metadata through the Data Documentation Initiative. She is vice president of the International Association
+         for Social Science Information Service and Technology (IASSIST). From 1989 to 1996, she was consultant and technical manager
+         of the Social Science Data Archive at Yale. She was data archivist from 1985 to 1989 at the Survey Research Center, University
+         of California at Berkeley.
+      </blockquote>
+      
+      <blockquote>JoAnn Dionne is the social science data librarian at the University of Michigan Library where she is developing and providing
+         data services for the campus. From 1977 to 1998, she was the social science data librarian at Yale University where the Yale
+         Roper Collection was an integral part of her responsibilities.
+      </blockquote>
+      
+      <blockquote>Martin Dennis is a Ph.D. candidate in psychology at Yale University. His main area of research is in human reasoning in general
+         and causal induction in particular. In addition to his studies, he works as a part-time statistics and computer consultant
+         at the Yale Social Science Statistical Laboratory, where his responsibilities include helping users to access Yale's collection
+         of public use data sets. 
+      </blockquote>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-iv-</i></p>
+      
+      <a name="acknowledgments"></a><hr width="75%">
+      <center><b>Acknowledgments</b></center>
+      
+      <blockquote>We wish to thank Scott Redinius of the Yale Economics Department for his work on the TextBridge Pro portion of the project
+         and his advice on OCR software, our scanning workstation, and developing evaluation procedures. Soo Yeon Kim of the Yale Political
+         Science Department provided welcome editorial comments. Thanks also goes to David Sheaves at the University of North Carolina's
+         Institute for Social Science Research, for helping us evaluate column binary data options and spread ASCII formats and for
+         providing very useful SAS programs. We also wish to acknowledge the help of Marilyn Potter and Marc Maynard, from the Roper
+         Center for Public Opinion Research, for answering questions, rushing us replacement copies of data sets, and sharing their
+         xray program. We also acknowledge Kathleen Eisenbeis, former director of the Yale Social Science Libraries and Information
+         Services, for her contributions to the early stages of the project. And lastly, to Donald Waters for his encouragement, advice,
+         and support thank you.
+      </blockquote>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-v-</i></p>
+      
+      
+      <hr width="75%">
+      <center><b>Contents</b></center>
+      
+      <ul>
+         
+         <li><a href="#about">About the Authors</a></li>
+         
+         <li><a href="#acknowledgments">Acknowledgments</a></li>
+         
+         <li><a href="#preface">Preface</a></li>
+         
+         <li><a href="#background">Background and Project Description</a></li>
+         
+         <li><a href="#datatrack">The Data Track</a>
+            
+            <ul>
+               
+               <li>1. Identify Equipment</li>
+               
+               <li>2. Copy Files</li>
+               
+               <li>3. Examine Documentation</li>
+               
+               <li>4. Define Format</li>
+               
+               <li>5. Develop Standard Classifications</li>
+               
+               <li>6. Read in Data</li>
+               
+               <li>7. Identify Migration Formats</li>
+               
+               <li>8. Recode Data Files</li>
+               
+               <li>9. Create Spread ASCII Data Files</li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#doctrack">The Documentation Track</a>
+            
+            <ul>
+               
+               <li>Software and Equipment</li>
+               
+               <li>TextBridge Pro Optical Character Recognition</li>
+               
+               <li>PDF Files from Adobe Capture</li>
+               
+               <li>HTML and SGML/XML Marked-up Files</li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#findings">Findings and Recommendations</a>
+            
+            <ul>
+               
+               <li>User Evaluation</li>
+               
+               <li>Findings about Data Conversion</li>
+               
+               <li>Findings about Documentation Conversion</li>
+               
+               <li>Recommendations to Data Producers</li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#glossary">Glossary</a></li>
+         
+         <li><a href="#references">Reference List</a></li>
+         
+         <li>Appendixes
+            
+            <ul>
+               
+               <li><a href="#appendix1">1. Roper Report documentation page 3W: Questions 7-9 (photocopy)</a></li>
+               
+               <li><a href="#appendix2">2. Sample SAS input and recode statements</a></li>
+               
+               <li><a href="#appendix3">3. Data conversion formats and storage requirements</a></li>
+               
+               <li><a href="#appendix4">4. Programs to create spread ASCII datasets</a></li>
+               
+               <li><a href="#appendix5">5. Data map for column binary spread data</a></li>
+               
+               <li><a href="#appendix6a">6a. Roper Report documentation page 4 W/Y: Question 10: photocopy</a></li>
+               
+               <li><a href="#appendix6b">6b. Roper Report documentation page 4 W/Y: Question 10: TextBridge Pro</a></li>
+               
+               <li><a href="#appendix6c">6c. Roper Report documentation page 4 W/Y: Question 10: PDF in Acrobat Exchange</a></li>
+               
+            </ul>
+         </li>
+         
+      </ul>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-vi-</i></p>
+      
+      <a name="preface"></a><hr width="75%">
+      <center><b>Preface</b></center>
+      
+      <blockquote>Quantitative data, including social survey results, test measurements, economic and financial series, and government statistics,
+         are vital resources for research and education in a variety of disciplines concerned with advancing the study of individuals
+         and society. For decades, these data have been encoded, stored, and used primarily in digital form. Custodians who have collected,
+         maintained, and provided access to numeric data resources thus have been building and managing digital libraries and scholars
+         and students have been effectively using them in the pursuit of historical, social, and scientific studies long before the
+         term <i>digital library</i> came into wide currency.
+      </blockquote>
+      
+      <blockquote>Those who are grappling with an explosion of digital information in a dizzying range of formats have much to learn from social
+         science data librarians and users who have relatively long experience in managing and working with digital resources. Data
+         producers, librarians, and scholarly users have come to invest in very sophisticated mechanisms for storing and distributing
+         social science data. They have achieved valuable economies of scale in data storage and delivery through consortial developments,
+         such as the data archives held by the Inter-university Consortium for Political and Social Research (ICPSR). Through years
+         of experience with repeated changes in storage technologies and in the software for encoding and using the data, they have
+         become particularly adept at the long-term maintenance of information in digital form.
+      </blockquote>
+      
+      <blockquote>In 1996, the Task Force on Archiving of Digital Information highlighted the difficulties of preserving digital information
+         over long periods of time. As a way of addressing these difficulties, the task force recommended in part that its sponsors,
+         the Commission on Preservation and Access and the Research Libraries Group, seek to document the experiences of communities
+         already well practiced in the preservation of digital information. Responding to this recommendation, the Commission, which
+         has since merged with the Council on Library Resources to become the Council on Library and Information Resources (CLIR),
+         sought out the expertise of those managing university-based data archives. It contracted for the development of this paper
+         with the authors, who at the time worked together in managing the Social Science Data Archives at Yale University, one of
+         the oldest data archives in American universities.
+      </blockquote>
+      
+      <blockquote><i>Preserving the Whole</i> appears as the second publication of the Digital Library Federation and reflects the Federation's interests both in advancing
+         the state of the art of social science data archives and in building the infrastructure necessary for the long-term maintenance
+         of digital information. The paper is especially valuable as a meticulously
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-vii-</i></p>
+         
+         detailed case study of migration as a preservation strategy. It explores the options available for migrating both data stored
+         in a technically obsolete format and their associated documentation stored on paper, which may itself be rapidly deteriorating.
+         The obsolete data format known as column binary was born in the same era of creatively parsimonious coding techniques that
+         have given rise to the widely publicized Year 2000 (Y2K) computer problems.
+      </blockquote>
+      
+      <blockquote>Beyond its contributions to our understanding of migration as a particular strategy for the long-term maintenance of digital
+         information, <i>Preserving the Whole</i> also provides more general lessons. It is a remarkable finding of this study that the column binary format, although technically
+         obsolete, is so well documented that numerous options exist not just for migrating column binary files to other formats, but
+         also for reading them in their native format. Moreover, the authors make the important observation that data sets will be
+         indecipherable and cannot survive at all, regardless of the file format in which they are stored, if there is no effort made
+         also to preserve their codebooks. A codebook is essential documentation that relates the numeric data to meaningful fields
+         and values of information.
+      </blockquote>
+      
+      <blockquote>From more theoretical perspectives, Jeff Rothenberg (1999) and David Bearman (1999) both emphasize the critical importance
+         of documentation, or metadata, for preserving digital information. The value of <i>Preserving the Whole</i> is that it makes a similar argument, but concretely and from the long experience of the data community in effectively managing
+         digital information.
+      </blockquote>
+      
+      <blockquote><i>Donald J. Waters</i></blockquote>
+      
+      
+      
+      
+      <hr width="75%">
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-1-</i></p>
+      
+      <a name="background"></a><hr width="75%">
+      <center>
+         <h2>Background and Project Description</h2>
+      </center>
+      
+      <p>In December 1994, the Commission on Preservation and Access and the Research Libraries Group created the Task Force on Archiving
+         of Digital Information. The purpose of the task force was "to investigate the means of ensuring continued access indefinitely
+         into the future of records stored in digital electronic form." Digital media are more fragile than paper and become unreadable
+         more quickly because of changes in operating systems and applications software and the deterioration of physical media, and
+         because no organization has accepted responsibility for preservation. In its definitive 1996 report, <i>Preserving Digital Information</i>, the task force warned that "owners or custodians who can no longer bear the expense and difficulty of migration will deliberately
+         or inadvertently, through a simple failure to act, destroy the objects without regard for future use."
+      </p>
+      
+      <p>The task force's warning echoed the growing realization by researchers who were using social science statistical
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-2-</i></p>
+         
+         data in digital form and specialists who were archiving these data that major rescue efforts to identify, locate, and preserve
+         computer files produced with rapidly outmoded technology could not be postponed. Because access to social science numeric
+         data requires metadata accompanying paper or machine-readable records the loss of the metadata can also mean the loss of the
+         data file.
+      </p>
+      
+      <p>The two approaches to preservation of digital files under evaluation in the early 1990s were <i>refreshing</i> and <i>migration</i>. Refreshing refers to the copying of information from one medium to another without changing the format or internal structure
+         of the records in the files. Refreshing digital information will suffice as long as software exists to manipulate the format
+         of the files. Since digital information is produced in varying degrees of dependence upon particular hardware and software,
+         refreshing cannot serve as a general solution for preserving digital information. The task force emphasized migration of digital
+         information, "designed to achieve the periodic transfer of digital materials from one hardware/software configuration to another,
+         or from one generation of computer technology to a subsequent generation." Migration includes refreshing the media but also
+         addresses the internal structure of the files so that the information within can be read on subsequent computer platforms,
+         operating systems, and software.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>The Yale Social Science Data Preservation Project</h3>
+      </center>
+      
+      <p>In 1996, the Commission on Preservation and Access commissioned the Social Science Library and the Social Science Statistical
+         Laboratory at Yale (Statlab) to identify and evaluate the formats that would most likely provide the ability to migrate social
+         science statistical data and accompanying <b>documentation</b><a href="#n1"> [1]</a> into future technical environments. The Yale University Library, one of the first academic libraries to form a collection
+         of machine-readable data, began acquiring social science numeric data in 1972. Over the years, Yale has copied its data from
+         one form of digital storage to another as mainframe computer technology has dictated. The copying of data, while labor-intensive,
+         was straightforward in creating exact logical copies from out-of-date media in newer data storage formats. In the mid-1990s,
+         as data use was moving from the mainframe to distributed computing systems and from one hardware/software configuration to
+         another, digital formats began to require not just simple duplication, but restructuring. Files produced by standard statistical
+         software on mainframes had to be converted into platform-independent formats before moving to personal computers. In addition,
+         data stored on magnetic tapes had to be moved to new media as access to and support in using the Yale mainframe was discontinued.
+      </p>
+      
+      <p><a name="n1"></a><p>[1 At its first occurance, a word defined in the Glossary is shown in <b>bold</b>].
+         </p><br><br></p>
+      
+      <p>Our social science data preservation project team was headed by Ann Green (director, Statlab) and JoAnn Dionne (data librarian,
+         Social Science Library) with the assistance of Martin Dennis (consultant, Statlab, and graduate student, psychology). We began
+         our work in June 1996, during a time when many academic institutions were in the process of transferring numeric social science
+         data sets from mainframe environments to PC- and UNIX-based networks. Large collections of numeric data had been successfully
+         moved across these platforms. Considerably less attention had been directed toward the greater problem of developing system-independent
+         archival formats, while also preserving and digitizing the accompanying paper records (metadata) that must be available to
+         analyze the data sets.
+      </p>
+      
+      <p>We were thus faced with a two-track preservation approach: converting deteriorating paper (the documentation) to digital form,
+         and migrating digitized numeric data to an archival format that can be read by future operating systems and applications software.
+         The Yale University Library had taken a lead in digitizing for preservation (Conway 1996), and we built on that base in digitizing
+         the paper records accompanying the data file. The Statlab had taken a lead in migrating data collections from mainframe-dependent
+         tape storage to networked online storage, and we built on that base in restructuring and migrating the numeric files.
+      </p>
+      
+      <p>On the documentation track, we scanned printed textual material for 10 surveys selected from the Yale Roper Collection and
+         evaluated the outcomes of applying optical character recognition (<b>OCR</b>), creating image files, and producing Adobe Portable Document Format (<b>PDF</b>) files. On the data track, we investigated diligently and in detail the implications of preserving data in their original
+         format vs. migrating to restructured formats. We evaluated the alternative formats for migrating the original data files from
+         tape and focused upon the benefits and drawbacks of each alternative. Details are covered in the Findings and Recommendations
+         section of this report.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-3-</i></p>
+      
+      
+      <p>While evaluations of computer storage media should not be ignored in an overall strategy for planning the future costs and
+         viability of data collections, we did not include media evaluations in this project. Nor did we research the intellectual
+         property issues involved in conversion, leaving that to a later discussion. However, there is a long-established ethic in
+         the social science data community that data documentation should be shared freely. For example, the Inter-university Consortium
+         for Political and Social Research (<b>ICPSR</b>) recently began making all its machine-readable documentation freely accessible on the Internet.
+      </p>
+      
+      <p>At the end of the project in the fall of 1997, we developed a collection of information, including sample programs and documents,
+         relevant to the project and made it available at the Statlab Web page of the Yale Web site. The collection of information
+         has since moved to the Council on Library and Information Resources' Web site at <a href="http://www.clir.org/pubs/reports/pub83/statlab">http://www.clir.org/pubs/reports/pub83/statlab</a>. Included in the materials accessible at this site are:
+         
+         <ul>
+            
+            <li>a link to the Interim Report to the Commission on Preservation and Access</li>
+            
+            <li>programs to create <b>spread ASCII</b> data files
+            </li>
+            
+            <li>spread ASCII data file example</li>
+            
+            <li>sample data map for spread ASCII data file</li>
+            
+            <li><b>SAS</b> programs for recoding data and producing ASCII data from SAS data files
+            </li>
+            
+            <li>link for downloading Adobe Acrobat Reader</li>
+            
+            <li>multiple examples of Adobe PDF files</li>
+            
+         </ul>
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>The Roper Collection at Yale</h3>
+      </center>
+      
+      <p>The Yale Roper Collection contains materials from the Roper Center for Public Opinion Research (the Roper Center), whose data
+         sets comprise a rich resource for research in political psychology and sociology. They provide a record of public opinion
+         research in the United States from 1935 to the present, along with surveys conducted abroad since the 1940s. In addition to
+         the data files, the Yale Roper Collection includes paper records such as <b>questionnaires</b>, information on sample sizes, and other notes necessary for use of the data files. Many of the paper records are brittle,
+         have handwritten notes, and were produced through unstable copying technologies such as mimeography.
+      </p>
+      
+      <p>The first step in the project was to select a representative group of documents and accompanying data files from the collection.
+         Our initial discussions led us to select the Roper Reports, a significant, heavily used part of the Yale Roper Collection.
+         The Roper Reports have been produced since 1973 by the Roper Organization, a commercial polling company now known as Roper
+         Starch Worldwide, Inc. The Roper Reports have 1,500-2,000 <b>respondents</b>, 200-300 <b>variables</b>, and polling for the reports is conducted 10 times per year in the United States. Data files contain demographic information
+         such as age, sex, race, economic level, education, marital status, union
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-4-</i></p>
+         
+         membership, religious and political affiliation, and responses to questions on a broad array of issues facing society such
+         as energy, politics, media, health and medical care, consumer behavior, education, and foreign policy.
+      </p>
+      
+      <p>The Roper Reports in the Yale Roper Collection do not have machine-readable documentation supplied with the data files. The
+         documentation consists of paper photocopies of questionnaires and computer output. Some parts of the documentation are poorly
+         duplicated copies with blurred text on a gray background and some questionnaires have handwritten notes in the margins. Most
+         of the questionnaires are printed in multiple columns on a page with no standard format or layout. The Roper Reports documentation
+         collection thus represents the problems inherent in the rest of the Yale Roper Collection. Of the 200 Roper Reports in the
+         Yale Collection at the time of the project, 10 studies were selected across the full span of years to include any differences
+         in format or documentation.
+      </p>
+      
+      <p>Our selection of the Roper Report data files was particularly important in the context of migrating data files. The files
+         were stored in <b>column binary</b> format with portions of the files coded in an archaic format based upon the IBM <b>punch card</b>. The responses of a single <b>case</b> or individual interview were represented on one or more punch cards. Each punch card had 80 columns and 12 rows. The non-column
+         binary format allowed a maximum of one character per column and a maximum of 80 variables per card. The column binary format,
+         however, made it possible to store more than one variable in the same column. With punches allowed in each of the 12 rows,
+         the maximum number of items was increased by up to a factor of 12. This column binary format was especially popular in the
+         1960s and 1970s when information was stored almost exclusively on computer cards, making it desirable to compress the data
+         into as small a space as possible, because it provided space for multiple answers to a single question.
+      </p>
+      
+      <p>Special instructions must be given in software programs to define this unique column and row structure. Since the format is
+         based upon old technology, knowledge about its use and software input formats to read it are increasingly rare. Our challenge
+         was to find a new format that preserved the full intellectual content of the binary coding while allowing current and future
+         technology to read the data and convert the computer card punches into meaningful <b>values</b>.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>Literature Search</h3>
+      </center>
+      
+      <p>We reviewed the library literature for this project and conducted searches of the Internet. Discussion of the issues involved
+         in archiving digital information had been well detailed in <i>Preserving Digital Information</i>, so we limited our search to topics specific to the preservation of social science numeric data and documentation. The literature
+         search revealed much information on imaging as a preservation technique for books but little on preserving documentation for
+         data files (see Reference List). We uncovered no previously published
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-5-</i></p>
+         
+         material on methods of preservation of electronic materials, other than duplicate copies moved from one storage medium to
+         another. We found little information on the subject of copying data files and changing the way they are coded. We searched
+         for reports on the conversion of multiple-punched data to other formats but found nothing. Nor did we find any discussion
+         of standards for such conversions nor of the validity of various numeric data storage formats as archival media.
+      </p>
+      
+      <p>In addition, we inquired of the Center for Electronic Records of the National Archives and Records Administration (NARA),
+         Archival Research and Evaluation Staff, to identify any standards they follow internally. NARA retains numeric data in the
+         format they are received but will transform them on request (Adams 1996). There had been discussion among members of the data
+         archive community about whether column binary was an acceptable archival format, but we found no published discussion of this
+         issue. We also searched for reports on the use of proprietary formats in archiving electronic records. Again, we found almost
+         no mention of numeric data in the published literature.
+      </p>
+      
+      <p>On the Web site of the ICPSR, we found one discussion of the conversion of questionnaire-type information from paper to electronic
+         formats using OCR as opposed to imaging. This type of information may also be found in the business records management literature,
+         which we did not review. JSTOR, the Journal Storage Project, was making images of journal pages available to subscribers via
+         the Web and using OCR to index the pages (JSTOR 1996). This approach seemed to overcome the limitations of using either imaging
+         or OCR technology alone.
+      </p>
+      
+      <p>We concluded that we needed to extrapolate from the more general literature on archiving textual data, which emphasized the
+         desirability of storing information in formats independent of hardware and software (NARA 1990). The perils of using formats
+         that depend on hardware and software in the case of textual data had been described by Jeff Rothenberg (1995). We had no reason
+         to expect that numeric data would be any different.
+      </p>
+      
+      <p>During 1995 and 1996, we followed discussions on the informal list for ICPSR Official Representatives and the listserv for
+         members of the International Association for Social Science Information Service and Technology, especially on the use of PDF
+         for storage and distribution of <b>codebooks.</b> The discussions focused on the concern that PDF was not an acceptable archival format and would require reformatting during
+         the lifetime of the documents. ICPSR also published a discussion of this issue (1996).
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-6-</i></p>
+      
+      <a name="datatrack"></a><hr width="75%">
+      <center>
+         <h2>The Data Track</h2>
+      </center>
+      
+      <p>The preservation project's goals for the data track were to develop and evaluate a <i>process of migrating</i> digital numeric information from computer tape to hardware- and software-independent formats and to evaluate the utility
+         of the resultant <i>formats</i>. The process of migrating was broken down into a series of nine steps.
+         
+         <ul>
+            
+            <li>Identify equipment</li>
+            
+            <li>Copy files from mainframe-based media to local hard disks</li>
+            
+            <li>Examine the documentation</li>
+            
+            <li>Define the column binary format</li>
+            
+            <li>Develop standard variable-naming classifications</li>
+            
+            <li>Read in the data files with SAS and <b>SPSS</b></li>
+            
+            <li>Identify migration formats</li>
+            
+            <li><b>Recode</b> data files with SAS
+            </li>
+            
+            <li>Create spread ASCII data files without recoding</li>
+            
+         </ul>
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>1. Identify Equipment</h3>
+      </center>
+      
+      <p>The computing environment used for the project consisted of IBM mainframes (all commands were submitted as JCL batch jobs
+         issued from a CMS-based IBM mainframe to an MVS mainframe with tape access), and PC/Intel (Pentium 90) computers running Microsoft
+         Windows for Workgroups on a Novell network.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>2. Copy Files</h3>
+      </center>
+      
+      <p>We copied the column binary data files from old round reel tapes to new 3480 IBM cartridges on the Yale mainframe. This was
+         the first step in refreshing the data from the old tape medium to a more stable magnetic medium. Next, the data were copied
+         from the cartridges to mainframe disk and moved via standard file transfer protocols (in binary mode) to the Statlab Novell
+         server, the home for the SAS program writing, record keeping, and output storage.
+      </p>
+      
+      <p>Once transferred to disks connected to the server, each data set was checked with a simple program that read in one variable
+         the <b>deck</b> or <b>card</b> number for each observation in the original data file. The number of observations for each deck number was then compared
+         with information in the documentation. Any discrepancies were noted and data files reordered from the Roper Center if errors
+         were confirmed.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>3. Examine Documentation</h3>
+      </center>
+      
+      <p>The primary document for a particular Roper Report was simply a copy of the original survey questionnaire containing the questions
+         asked in the survey. The card number and column number (or numbers) for locating the question in the record for each respondent
+         were given for each question. Furthermore, the punch location was listed for each response option in the question. All of
+         this information card number, column location, and punch location was necessary for reading the original column binary data.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-7-</i></p>
+      
+      
+      <p>The questionnaires varied in length and, in some cases, multiple versions of a questionnaire were provided. For example, some
+         of the surveys used a <b>split sample</b>, either to ask different questions or to ask the same questions in different sequence. Often, the questions asked of the
+         two groups in the split sample were not identical. In some cases, the column location and format of the different variables
+         were identical. The samples could differ in the order of items in a multiple-response question, or in using slightly different
+         sets of items. In other cases, the format of the questions (along with their column and row locations) changed radically between
+         samples.
+      </p>
+      
+      <p>The <b>xray</b>, a special form of printed output supplied by the Roper Center, provided a response frequency used to check the data during
+         the migration processes. Organized by card, column, and row, the xray gave the total number of punched bits across observations
+         for each variable in the data set. The xray also provided useful information about the types of questions being answered and
+         the complexity of reading the column binary format. Because each question was usually encoded in its own column, the sum of
+         all of the responses (plus any blank observations), for most types of questions, should add up to the total number of people
+         in the survey. If it did not, then the question allowed multiple responses and would need to be read in a different manner
+         from single response variables.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>4. Define Format</h3>
+      </center>
+      
+      <p>The structure of the column binary format is illustrated in table 1. The sample question shown in the table uses two columns
+         (47 and 48) to cover all the possible answers. The full text of this question may also be seen in Appendix 1. Each card contains
+         12 rows numbered from top to bottom, beginning with 1 at the top. Punch numbers are assigned in a different way: a 12 punch
+         goes in the top row, an 11 punch in the second row, and the third through twelfth rows are reserved for 0 through 9 punches.
+         The 11 and 12 punches are often used for "don't know," "no answer," or "not applicable" responses. In this example, a respondent
+         chose the values 1, 2, and 4 ("living in poverty," "being abused as a child," and "drug abuse"), so punches were made in rows
+         4, 5, and 7, as shown in the last column of the table.
+      </p>
+      
+      <p>In this question, both columns 47 and 48 may have multiple punches representing the choices people were allowed to select
+         from the list of causes of violent crime. Alternatively, in the non-column binary scheme allowing only one punch per column,
+         each possible selection would have to be coded as a separate variable and therefore as a separate column, so coding of this
+         question would take up 18 columns rather than two.
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>5. Develop Standard Classifications</h3>
+      </center>
+      
+      <p>A standard classification of types of variables, based upon the types of questions asked in the surveys, was used in the construction
+         of
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-8-</i></p>
+         
+         data set translation. The classification provided a scheme for the creation of standard templates and the logic behind the
+         variable types used in recoding the data. In addition, the classification made it easier to construct appropriate variable
+         names and to ensure consistent naming across data sets. Each of the variable types we defined required different variable-naming,
+         formatting, and recoding procedures.
+      </p>
+      
+      <p><b>Table 1.</b> <i>Question Coding Example</i></p>
+      
+      <p><i>Roper Report 9309, Question 8W:"...which three or four things do you think are the main causes of people committing violent
+            crimes?"</i></p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Responses</td>
+               <td colspan="1">Column location</td>
+               <td colspan="1">Row</td>
+               <td colspan="1">Punch number</td>
+               <td colspan="1">Punched</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">
+                  <ul>
+                     <li>a. Living in poverty</li>
+                     <li>b. Parents not teaching right from wrong</li>
+                     <li>c. Being abused as a child</li>
+                     <li>d. Drug abuse</li>
+                     <li>e. What people see in TV programs</li>
+                     <li>f. A lack of morals</li>
+                     <li>g. A lack of education</li>
+                     <li>h. A person not seeing any harm in it</li>
+                     <li>i. A person being irresponsible</li>
+                     <li>j. Influence of friends</li>
+                     <li>k. Alcohol abuse</li>
+                     <li>l. What people see in movies</li>
+                  </ul>
+               </td>
+               <td colspan="1">47</td>
+               <td colspan="1">
+                  <ul>
+                     <li>4</li>
+                     <li>5</li>
+                     <li>6</li>
+                     <li>7</li>
+                     <li>8</li>
+                     <li>9</li>
+                     <li>20</li>
+                     <li>11</li>
+                     <li>12</li>
+                     <li>3</li>
+                     <li>2</li>
+                     <li>1</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li>1</li>
+                     <li>2</li>
+                     <li>3</li>
+                     <li>4</li>
+                     <li>5</li>
+                     <li>6</li>
+                     <li>7</li>
+                     <li>8</li>
+                     <li>9</li>
+                     <li>0</li>
+                     <li>11 (or X)</li>
+                     <li>12 (or Y)</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li>X</li>
+                     <li>X</li>
+                     <li></li>
+                     <li>X</li>
+                  </ul>
+               </td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">
+                  <ul>
+                     <li>m. The advertising and marketing of toy guns</li>
+                     <li>n. Guns being too easy to get</li>
+                     <li>o. Low chance of being punished</li>
+                     <li>p. Seeing pornography</li>
+                     <li>None of these</li>
+                     <li>Don't know</li>
+                  </ul>
+               </td>
+               <td colspan="1">48</td>
+               <td colspan="1">
+                  <ul>
+                     <li>4</li>
+                     <li></li>
+                     <li>5</li>
+                     <li>6</li>
+                     <li>7</li>
+                     <li></li>
+                     <li>8</li>
+                     <li>1</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li>1</li>
+                     <li></li>
+                     <li>2</li>
+                     <li>3</li>
+                     <li>4</li>
+                     <li></li>
+                     <li>5</li>
+                     <li>12 (or Y)</li>
+                  </ul>
+               </td>
+               <td colspan="1"></td>
+            </tr>
+            
+         </table><br></p>
+      
+      <p>The four basic types of variables are regular numeric variables, numeric variables with special <b>missing values</b>, multiple-response questions, and single-response questions. Each variable type was associated with a different template
+         for code creation, a specific form of variable names, and certain projected difficulties in recoding. For instance, a multiple-response
+         variable was read in with a simple list of <b>single-punch</b> variables, was labeled simply with letter suffixes, and was not recoded. In contrast, an aggregated single-response variable
+         was read in with a list of single-punch <b>intermediate variables</b>, was labeled with intermediate number suffixes, and was recoded into a final variable for the entire question. Retrieving
+         the variable type directly from the documentation provided a guide to the particular piece of program code that was necessary
+         for inputting and recoding the variable.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-9-</i></p>
+      
+      
+      <p><i>Regular numeric variables.</i> Regular numeric variables range from 0 to 9. The values are computed by filling in each digit with the numbers in the appropriate
+         columns. For example, Roper Report 9309, Question 68Y, asked "<i>Do you think government lotteries produce an unwholesome gambling spirit in this country?</i> Yes=1, No=2"
+      </p>
+      
+      <p><i>Numeric variables with special missing values</i>. These variables are identical to regular numeric variables, except that there can be one or two special missing values (such
+         as "don't know"), recorded at punch 11 and/or punch 12. For example, Roper Report 9309, Question 2X, asked, "<i>Do you feel things in this country are generally going in the right direction today, or do you feel that things have pretty
+            seriously gotten off on the wrong track? </i>Right track=1, Wrong track=2, Don't know=Y"
+      </p>
+      
+      <p><i>Multiple-response questions.</i> Multiple-response questions generally ask respondents to choose more than one option from a list of items, as in Roper Report
+         9309, Question 8W illustrated in table 1. If an item was checked, it was coded as 1 in the recoded data set; if it was not
+         checked, it was coded as 0. Therefore, for any such question, there would be multiple binary variables corresponding to all
+         of the possible responses (including special missing values), so that each possible response became a variable in a final
+         recoded data set.
+      </p>
+      
+      <p><i>Single-response questions.</i> Single-response questions allow one, and only one, response per item. They frequently include a special missing value at
+         punch number 12, with several answer options between punch numbers 1 and 9. These questions require appropriate recoding for
+         the final variable. For example, Roper 9309, Question 7Y, asked<i>, "And thinking about crime in the United States, what one type of crime do you feel presents the biggest threat for you and
+            your family today?" </i>An example of multiple-column storage of a single-response question appears in table 2.
+      </p>
+      
+      <p><b>Table 2.</b> <i>Example of multiple-column storage of single-response question</i></p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Response</td>
+               <td colspan="1">Punch number</td>
+               <td colspan="1">Column location</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">
+                  <ul>
+                     <li>a. Burglary, robbery, auto theft</li>
+                     <li>b. Vandalism/hooliganism</li>
+                     <li>c. Official corruption, government bribe-taking</li>
+                     <li>d. Murder</li>
+                     <li>e. Rape</li>
+                     <li>f. Assault</li>
+                     <li>g. Racketeering, extortion</li>
+                     <li>h. Drugs</li>
+                     <li>i. Prostitution </li>
+                     <li>j. Speculation and swindling</li>
+                     <li>k. Other</li>
+                     <li>None of the above</li>
+                     <li>Don't know</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li>1</li>
+                     <li>2</li>
+                     <li>3</li>
+                     <li>4</li>
+                     <li>5</li>
+                     <li>6</li>
+                     <li>7</li>
+                     <li>8</li>
+                     <li>9</li>
+                     <li>0</li>
+                     <li>1</li>
+                     <li>2</li>
+                     <li>Y</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li>45</li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li></li>
+                     <li>46</li>
+                  </ul>
+               </td>
+            </tr>
+            
+         </table><br></p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-10-</i></p>
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>6. Read in Data</h3>
+      </center>
+      
+      <p>The first step in the SAS programming process was reading in the data using one of the three SAS column binary <b>informats</b>: <b>PUNCH.d</b>, <b>CBw.d</b>, and <b>ROWw.d</b>. The informat PUNCH.d reads a specific bit (with a value of either 0 or 1) in the original data set. The <b>d</b> value indicates which row in a column of data is to be read. The informat CBw.d, on the other hand, looks to see which one
+         of the 10 numeric bits (0 through 9) has been punched, and returns that number as a value for the column. ROWw.d begins reading
+         at a user-specified bit, looks to see which one of a user-specified number of bits (after the first) has been punched, and
+         returns a number equal to the <i>relative</i> location of the punched bit. For instance, a ROW5.5 informat would start reading at PUNCH.5 and continue for four more bits
+         through PUNCH.9; if bit 8 was punched, then the ROW5.5 informat would return a 4. The PUNCH.d informat was the most appropriate
+         for this project. For clarification of its use, refer to the sample SAS program in Appendix 2. Depending on the final form
+         of the question, the pattern of punches in a column usually had to be logically recoded later in the program from an intermediate
+         variable to a final variable that matched the response options in the original documentation.
+      </p>
+      
+      <p>The Statistical Package for the Social Sciences (SPSS) is also able to read data, including multiple-response question responses,
+         from a column binary data file by using the keywords MODE=MULTI-PUNCH on the FILE HANDLE command. An example of an SPSS program
+         that reads a single variable from Roper Report 9309 data with SPSS is: 
+         
+         <blockquote>
+            
+            <p>file handle test / name='h:/roper/rprr9309.bin' /recform=fixed / mode=multipunch/lrecl=160. <br>data list file=test records=9 /1 feddep 24 (A) /9. <br>execute.
+            </p>
+            
+         </blockquote> In this example, a variable called FEDDEP is read in column 24. It has a possible Y coded as "don't know", requiring that
+         SPSS read this variable as a character string (see also SPSS 1988, 84-86).
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>7. Identify Migration Formats</h3>
+      </center>
+      
+      <p>We selected the following formats to test the migration process:
+         
+         <ul>
+            
+            <li>SAS <b>system files </b>of recoded column binary data, with and without intermediate variables
+            </li>
+            
+            <li>SAS system files with shortened integer byte lengths</li>
+            
+            <li>SAS <b>export files</b> of recoded column binary data
+            </li>
+            
+            <li>ASCII files produced from recoded column binary data</li>
+            
+            <li>ASCII files of the binary data patterns in the original file, called spread ASCII</li>
+            
+         </ul>
+         These formats were selected on the basis of the software's ability to read the column binary format, the availability of project
+         staff programming
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-11-</i></p>
+         
+         expertise, the transportability of output formats, storage requirements (size of output data sets), and long-term archival
+         implications. While both SAS and SPSS software are able to read column binary data, the staff members working on the project
+         had more experience with SAS, so we chose to work with that statistical package. With the exception of spread ASCII data files,
+         each format we selected for testing contained completely recoded and renamed variables. Storage requirements were compared
+         on the different platforms for many of the different types of SAS data files, as shown in Appendix 3.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>8. Recode Data Files</h3>
+      </center>
+      
+      <p><i>Create intermediate variables and code missing values</i>. After reading in the data with the SAS informat statements, the second step in the SAS programming process was to produce
+         a set of if-then statements for recoding the individual punch data (the intermediate variables) into final variables. Each
+         intermediate variable needed to have a column location, row location, variable name, and SAS informat instructions specified
+         in the input statement, as seen in the example shown in table 3. The only things that changed while inputting this variable
+         Q14 were the suffix and punch location for each intermediate variable. This redundancy increased when there were more intermediate
+         variables, and especially with aggregated single-response variables. The logical statements used for recoding the intermediate
+         variables also contained many repetitions of the same if-then commands.
+      </p>
+      
+      <p><b>Table 3.</b> <i>Example of variable location, name, and SAS informat statement</i></p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Column location</td>
+               <td colspan="1">Variable name</td>
+               <td colspan="1">Row location and informat</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@30</td>
+               <td colspan="1">Q14A_1</td>
+               <td colspan="1">PUNCH.1</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@30</td>
+               <td colspan="1">Q14A_2</td>
+               <td colspan="1">PUNCH.2</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@30</td>
+               <td colspan="1">Q14A_3</td>
+               <td colspan="1">PUNCH.3</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@30</td>
+               <td colspan="1">Q14A_Y</td>
+               <td colspan="1">PUNCH.12</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@31</td>
+               <td colspan="1">Q14B_1</td>
+               <td colspan="1">PUNCH.1</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@31</td>
+               <td colspan="1">Q14B_2</td>
+               <td colspan="1">PUNCH.2</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@31</td>
+               <td colspan="1">Q14B_3</td>
+               <td colspan="1">PUNCH.3</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">@31</td>
+               <td colspan="1">Q14B_Y</td>
+               <td colspan="1">PUNCH.12</td>
+            </tr>
+            
+         </table><br></p>
+      
+      <p>Since the creation of these translation programs in SAS involved a large amount of repetitive typing, we created templates
+         for both the input and recoding statements. Templates were created for single-response
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-12-</i></p>
+         
+         variables (simple and aggregated), multiple-response variables, and numeric variables with special missing codes. Each template
+         included generic characters for column locations, variable names, and SAS informats, as well as pre-formed logical recoding
+         statements. Furthermore, the templates contained repeated lines of code for different numbers of punches or aggregate variables
+         so that it would not be necessary to enter the redundant information for the different variables.
+      </p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">/* Three options + NR */ <br>(for INPUT command) <br>@COL1 Q000A_1 PUNCH.1 <br>@COL1 Q000A_2 PUNCH.2 <br>@COL1 Q000A_3 PUNCH.3 <br>@COL1 Q000A_Y PUNCH.12 <br>@COL2 Q000B_1 PUNCH.1 <br>@COL2 Q000B_2 PUNCH.2 <br>@COL2 Q000B_3 PUNCH.3 <br>@COL2 Q000B_Y PUNCH.12 <br><br>(for recoding statements) <br>IF Q000A_1=1 AND Q000A_2=0 AND Q000A_3=0 AND Q000A_Y=0 <br>THEN Q000A=1; <br>IF Q000A_1=0 AND Q000A_2=1 AND Q000A_3=0 AND Q000A_Y=0 <br>THEN Q000A=2; <br>IF Q000A_1=0 AND Q000A_2=0 AND Q000A_3=1 AND Q000A_Y=0 <br>THEN Q000A=3; <br>IF Q000A_1=0 AND Q000A_2=0 AND Q000A_3=0 AND Q000A_Y=1 <br>THEN Q000A=9; <br>IF Q000B_1=1 AND Q000B_2=0 AND Q000B_3=0 AND Q000B_Y=0 <br>THEN Q000B=1; <br>IF Q000B_1=0 AND Q000B_2=1 AND Q000B_3=0 AND Q000B_Y=0 <br>THEN Q000B=2; <br>IF Q000B_1=0 AND Q000B_2=0 AND Q000B_3=1 AND Q000B_Y=0 <br>THEN Q000B=3; <br>IF Q000B_1=0 AND Q000B_2=0 AND Q000B_3=0 AND Q000B_Y=1 <br>THEN Q000B=9;
+               </td>
+            </tr>
+            
+         </table><br></p>
+      
+      <p>These templates considerably sped up translation code creation. Once the type of the current variable had been determined,
+         the appropriate input and recode statements were copied from the template file, pasted into the program code, and then the
+         key characters (such as column location and variable name) were replaced using a find/replace function in the text editor.
+         For example, to create the code for variable Q14, a piece of the template would have been copied from the template file and
+         pasted into the program, as illustrated in table 4. The aggregated single-response variable template included
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-13-</i></p>
+         
+         input and recode statements for sub-questions from A through Z; only A and B are shown in table 4.
+      </p>
+      
+      <p><b>Table 4.</b> <i>Examples of SAS input statements and recoding statements</i></p>
+      
+      <p>Then the string Q000 would be replaced with Q14, and COL1 and COL2 would be replaced with 30 and 31, respectively, resulting
+         in the final code for inputting and recoding the variables Q14A and Q14B.
+      </p>
+      
+      <p><i>Create macro programs to recode data files. </i>Given that we could define fairly well the different types of variables in a data set, and that we could create input and
+         recode template statements for these different variable types, it was tempting to think that we would be able to write programs
+         to automate the whole procedure. That is, we might imagine a program that could perform all of the operations described above
+         with minimal effort from the human operators. Although such automation may be possible in the future, the irregularity of
+         the data files presented a major obstacle. Not only would an automatic translation program have to deal with some of the complexities
+         of, for example, split samples with different variable types in the same column, but it would also have to handle the different
+         types of errors that occur in the original data files.
+      </p>
+      
+      <p>For example, one fairly straightforward solution (though quite a lot of work) would have been to create a program that received
+         some sort of variable list from a human operator, set up logical conditions to create code around split samples, and then
+         write out a SAS program to translate and recode the data file. More sophisticated error-checking would have been necessary,
+         however, to handle simple events such as a variable being incorrectly marked as a single-response type in the documentation,
+         but actually having multiple responses coded in the data. Because the recoded data files needed to be of archival quality,
+         this error-checking would have had to be quite rigorous. Furthermore, judgment calls would have sometimes arisen when dealing
+         with irregularities (that is, should the variable be recoded differently or should the irregularity be ignored), so that leaving
+         the decision solely to a computer program was not advisable. In short, creating an automatic translation program to recode
+         the data would have involved several compromises that we would not recommend.
+      </p>
+      
+      <p><i>Debug programs and check data.</i> Several types of errors occurred in the SAS programming: typographic errors, invalid informats, and unexpected changes in
+         variable types (where the questionnaire did not match the data). The key indicators for these problems were INVALID DATA warnings
+         that appeared in the SAS log.
+      </p>
+      
+      <p>Once the programs ran without INVALID DATA messages, the accuracy of the translation needed to be checked. Complete frequencies
+         for <i>all </i>of the variables in the final data set had to be compared to the frequencies in the xray.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-14-</i></p>
+      
+      
+      <p>For example, if variable Q9 (deck 1, column 30) had the following frequencies (in this case, PUNCH.12 was recoded to the missing
+         value of 9):
+         <br><table border="1">
+            
+            <tr>
+               <td colspan="1">Value</td>
+               <td colspan="1">Frequency</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">1</td>
+               <td colspan="1">290</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">2</td>
+               <td colspan="1">1300</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">9</td>
+               <td colspan="1">403</td>
+            </tr>
+            
+         </table><br> then the xray for deck 1, column 30 should look like this:
+         <br><table border="1">
+            
+            <tr>
+               <td colspan="1">Punch location</td>
+               <td colspan="1">12</td>
+               <td colspan="1">11</td>
+               <td colspan="1">0</td>
+               <td colspan="1">1</td>
+               <td colspan="1">2</td>
+               <td colspan="1">3</td>
+               <td colspan="1">4</td>
+               <td colspan="1">5</td>
+               <td colspan="1">6</td>
+               <td colspan="1">7</td>
+               <td colspan="1">8</td>
+               <td colspan="1">9</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Sum</td>
+               <td colspan="1">403</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">290</td>
+               <td colspan="1">1300</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+               <td colspan="1">0</td>
+            </tr>
+            
+         </table><br>
+         It was necessary to check all of the variables in the final data set, because one badly coded variable in the conversion job
+         could compromise the archival integrity of the entire data set. Unfortunately, a random subset of variables may miss the errors.
+         If there was a mismatch between the xray and the frequencies, the difference needed to be tracked down and the SAS job edited.
+         This frequency check was also the last chance to resolve ambiguities between the type of variable listed in the documentation
+         and that shown in the xray. One final point to note during this check was the maximum number of possible digits in a recoded
+         variable. If the data set was to be output in ASCII format, then the number of digits in the special missing value should
+         be equal to the number of digits in the regular values. That is, if a variable had values 1 through 3, then the special missing
+         value should be 9; if it had values 1 through 12, then the special missing should be 99; and so on.
+      </p>
+      
+      <p><i>Save recoded data</i>. The final step in the reading and recoding process was to write to disk the resultant SAS data sets. For recoded SAS to
+         SAS export files, we saved the files as SAS system files and export files with all intermediate and recoded variables, and
+         as SAS system files and export files with just the recoded variables (see Appendix 3).
+      </p>
+      
+      <p>For recoded SAS to ASCII, once the SAS data set had been completely debugged and double-checked, PUT statements could be written
+         to create an ASCII version of the recoded
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-15-</i></p>
+         
+         data (see Appendix 2). The simplest way to write these PUT statements was to copy the INPUT statements from the original job
+         (or from the recoding statements), strip off the column binary informat information, and manually type in the new column locations
+         for each variable. These PUT statements had two advantages: unlike automatic translation programs, they created ASCII data
+         files with minimum wasted space and the PUT statement itself could be distributed as a <b>data dictionary</b>.
+      </p>
+      
+      <p>For the first data set translated, an ASCII version of the recoded SAS data set was created using an automatic translation
+         program called DBMSCOPY, version 5.10. However, this ASCII data set was not satisfactory. Although the translation program
+         automatically created a data dictionary (based on the variable names in the SAS data set), the ASCII data set was not compact.
+         The translation program seemed to be incapable of concatenating one variable's width of columns against the previous variable's
+         columns, so that there would be no wasted space within the flat data set. Instead, the program inserted multiple spaces between
+         each variable, which allowed a differing number of characters within each variable, but also inserted approximately 10 ASCII
+         space characters between each variable. Because of the enormously increased storage requirements this insertion causes, this
+         approach to creating ASCII data files was abandoned and program code for creating compact ASCII data files was written in
+         SAS.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>9. Create Spread ASCII Data Files</h3>
+      </center>
+      
+      <p>The original column binary data files did not necessarily have to be recoded during the translation process. Another possible
+         method of translation was simply to convert, or spread, the column binary into ASCII data. Spread ASCII data files keep the
+         binary structure of the column binary data, but encode each 0 or 1 as an ASCII character. For example, the following column
+         in the original data (each 0 or 1 is one bit)
+      </p>
+      
+      <p>0 <br>0 <br>0 <br>0 <br>1 <br>0 <br>0 <br>0 <br>0 <br>0 <br>0 <br>0
+      </p>
+      
+      <p>would become 000010000000 in the spread version. While this example uses a single-response variable, multiple-response questions
+         may have more than one bit with a value of 1 in the column. To create a spread version of the data, each bit (or punch) in
+         the column binary file could be read (via SAS in our case) as an individual variable; each variable was then written to a
+         new ASCII data set. Because the punches in the column binary data were rectangular, and because the variables being written
+         out did not have to be meaningfully recoded, the SAS code itself was largely a simple iteration, over columns and rows, of
+         INPUT and PUT statements.
+      </p>
+      
+      <p>The iterative nature of the SAS program suggested that a macro program could be written to automate the creation of SAS code.
+         A simple <b>C</b> program was written based on this iteration over columns
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-16-</i></p>
+         
+         and rows. After prompting the user for unique information the name of the SAS program file to be created, the name of the
+         data set to be created, the name and path of the column binary file, and the number of decks and record length (LRECL) of
+         the original data the C program simply looped over columns and rows. The program passed through the loop twice. In the first
+         pass, the program created an INPUT statement that would read in each punch (looping over columns and rows) as a new variable.
+         The second pass created a PUT statement in which each new variable would be written to an ASCII file. The C program was not
+         itself reading or writing the data files; instead, it created many repetitive lines of SAS code to read and write the data
+         files (see Appendix 4).
+      </p>
+      
+      <p>Each card of column binary data was translated to a line of ASCII data. Since each card contained 960 data points (80 columns
+         by 12 rows), each line of ASCII data contained 960 characters. The spread ASCII data set expanded about 600 percent from the
+         original size. It took about 15 minutes to create the spread ASCII data on the IBM PC network, including all steps from running
+         the C program to writing out the ASCII data.
+      </p>
+      
+      <p>We investigated the formats currently distributed by the Roper Center and the Institute for Research in the Social Sciences
+         at the University of North Carolina at Chapel Hill (IRSS) to determine their utility over time, and to evaluate them in light
+         of our findings. Both distributors were producing what we call the hybrid spread ASCII data files from the original column
+         binary files. These files are produced by <i>horizontally concatenating</i> the data into a new format. The first 80 columns of the data set contained the 80 columns of the original file; however,
+         any binary encoding of variables with multiple-punch coding was converted to ASCII. The entire file was then converted to
+         spread ASCII and the resultant data were appended to the end of the record. Users could access the non-binary data in the
+         original column locations; if they needed to access data that were originally punched in the binary mode, they could read
+         those data from the spread ASCII portion of the record. Data dictionaries were produced that mapped the location of variables
+         from both the original 80 columns and the spread ASCII portion of the record.
+      </p>
+      
+      <p>We obtained sample programs from IRSS to help us evaluate these hybrid spread file formats. We also acquired sample data files
+         from IRSS and the Roper Center, with their enhanced data dictionaries, to evaluate their utility. We then adapted a SAS program
+         from IRSS to produce the data map showing the new column locations of the data items. This data map allowed for quick translation
+         from the column-by-row information necessary to read column binary data, to the column-only information necessary to read
+         the spread ASCII data. A note at the top of the data map showed the order of punches in the spread ASCII data. For example,
+         for a response located at column 56, row 1 in the original data set, the data map showed the same response's location as column
+         661 in the ASCII data set; a response at column 56, row 5 would be located at column 665; and a response at column 56, row
+         Y(12) would be located at column 672 (see Appendix 5).
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-17-</i></p>
+      
+      <a name="doctrack"></a><hr width="75%">
+      <center>
+         <h2>The Documentation Track</h2>
+      </center>
+      
+      <p>Several options were available for digitizing the documentation, including image scanning, OCR, combinations of image and
+         text (PDF format), and text encoding. The initial part of the project included identifying formats to test and set up the
+         scanning workstation. Complete documentation for each file was scanned, including the questionnaires, xrays, frequency counts,
+         data maps, and other metadata whenever available.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>Software and Equipment</h3>
+      </center>
+      
+      <p>The scanner used was a Hewlett-Packard ScanJet 4c with a document feeder and SCSI connection to an IBM 750-P90 PC. All files
+         were stored on an external SCSI Iomega Jaz drive. For a major scanning project, a fast machine with 32 MB of memory was required.
+         Also, a PCI bus SCSI card speeded up transfer rates from the scanner to the computer. An automatic document feeder reduced
+         the labor by automating the page turning. Such labor-saving devices are cost-effective because scanning operations tend to
+         absorb a lot of resources and to constrain work on other major tasks while the scanning is in progress.
+      </p>
+      
+      <p>Scanners differ in speed, and, for a given scanner, speed varies with the desired scanning resolution. Speed could be an important
+         factor in making a purchasing decision for a major project, as it can have a considerable impact on labor costs. For the HP
+         4c, the time it takes to scan a page varied with the desired resolution as indicated below.
+      </p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Desired Resolution</td>
+               <td colspan="1">Scanner Speed</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">600 dpi</td>
+               <td colspan="1">30 seconds</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">300 dpi</td>
+               <td colspan="1">7.5 seconds</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">200 dpi</td>
+               <td colspan="1">3.3 seconds</td>
+            </tr>
+            
+         </table><br></p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>TextBridge Pro Optical Character Recognition</h3>
+      </center>
+      
+      <p>We first scanned the documentation for one Roper Report using the OCR software TextBridge Pro. We reviewed alternative OCR
+         software products and, finding no significant benefits to using one over another, chose a package with which the staff had
+         experience. Initial evaluation of the OCR output showed that there were significant numbers of errors in the resultant ASCII
+         text. We tested various resolutions and documented time taken for setup and for scanning, optimum settings, range of file
+         sizes, quality of proofing summaries, and procedures to follow.
+      </p>
+      
+      <p>The questionnaires we scanned with the TextBridge Pro software had an unacceptable rate of character recognition, including
+         incorrect location information necessary for manipulating the accompanying data files. Handwritten notes were completely lost
+         and the editing costs of reviewing the output and changing all errors
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-18-</i></p>
+         
+         would have been prohibitive. This format did not present us with an adequate archival solution to preserving the textual material,
+         so no further documentation was scanned using this process. TextBridge Pro does not work well with poor originals, determining
+         optimum scanning settings was very time-consuming (and sometimes impossible), compression formats did not give good results,
+         and raw ASCII format required time-consuming reformatting (see Appendix 6 for a photocopy of a page from Roper Report 9309,
+         Question 10, and for the TextBridge Pro sample output of the same question).
+      </p>
+      
+      <p><i>Document condition.</i> When used with printed clean originals, OCR is very accurate even when the font size is small, and can replicate the formatting
+         of the original document. For example, TextBridge Pro is capable of producing low-resolution images and exporting both images
+         and text to a word processing document that retains the format of the original printed page. However, there are far more problems
+         with this process when the quality of the original is anything less than perfect, as in our case. TextBridge has a particular
+         problem with italics and underlining, even with good quality originals.
+      </p>
+      
+      <p>TextBridge Pro also does not work well with columns and has some difficulty recognizing tables and columns in originals, let
+         alone poor photocopies. This problem gets much worse when some of the entries in some of the table cells are blank because
+         the columns get shifted; cleaning up the resulting output files becomes a major undertaking.
+      </p>
+      
+      <p><i>Scanner settings.</i> TextBridge Pro allows considerable control over the way in which the document is scanned in as an image. For some settings,
+         this task can be delegated to TextBridge Pro by setting options to "automatic"; in other words, TextBridge Pro tries to figure
+         out what works as it scans the page. But TextBridge Pro does not always make these determinations successfully. Nor are photocopies
+         ideal for scanning, particularly if not all of the characters are completely clear and if not all of the pages are of the
+         same lightness/darkness. Successful recognition requires changing the settings periodically to account for the varying quality
+         of the photocopies. Two outcomes are possible if the settings are not optimal: in some cases, the program is unsuccessful
+         in recognizing text that is legible in the original; in others, it gives the frustratingly cryptic error, "page too complex
+         for selected mode."
+      </p>
+      
+      <p>We finally became convinced that there was no simple system for setting these options. In the worst case, it was a frustrating
+         process of trial and error. Too dark a setting meant that the program tried to decipher each small dot on the page as though
+         it were part of a character. As a result, it was not possible to use 600x600 resolution in cases where originals were speckled.
+         Likewise, selecting the "text only" option for the original page format forced the program to try to convert everything on
+         the page into text, including imperfections in the image or dark binding patches. On the other hand, sometimes the auto brightness
+         setting scans were so light that no text was recognized
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-19-</i></p>
+         
+         on the page. In some cases, we spent hours trying to correct the settings manually.
+      </p>
+      
+      <p><i>Proofing text.</i> TextBridge Pro provides an optional feature that facilitates the correction of recognition errors. When text is scanned,
+         it is possible to save "proofing text." This information is used by special modules that are installed into WordPerfect or
+         Word and are implemented as macros. If the relevant module is installed and the document opened in the word processor, all
+         words are highlighted that TextBridge Pro was unsure it recognized. The color of the highlighted word indicates the confidence
+         TextBridge Pro has in its accuracy.
+      </p>
+      
+      <p>TextBridge Pro can be taught to recognize particular fonts with a higher degree of accuracy through a period of training during
+         which it asks the user to help it recognize ambiguous characters. We did not use this feature extensively. Our limited experience
+         showed it does increase the likelihood of successful recognition if originals were poor but not truly awful. The effort is
+         only worthwhile if the same types of fonts will be encountered often, which was not the case with the Roper Reports documentation.
+      </p>
+      
+      <p><i>Final format.</i> The available formats into which the output text can be saved depends on the options selected. There are a very large number
+         of possible word processor, text, and spreadsheet formats. However, if "save proofing text" is selected, then the file can
+         be saved in only Word or WordPerfect format. Similarly, if "reconstitute text" is selected, only file formats that support
+         fairly complex formatting are available. When formatting text with the "reconstitute text" option, TextBridge Pro will use
+         some of the new "style" features of WordPerfect or Word in the new document. This can make subsequent editing cumbersome.
+         Though the styles themselves can be edited, an alternative is to save in a file format that supports the text features that
+         are being "reconstituted" but does not support "styles." In this way, the formatting will appear as regular tabs, font changes,
+         and so forth, that can be directly edited. The editing of ASCII text to recreate the format of the original is a major undertaking
+         and the time required to reformat each document is extensive. We found that getting pagination to match the original is particularly
+         difficult.
+      </p>
+      
+      <p>The scanned images produced by TextBridge Pro can be stored in CCITT-3, a compression standard, for later processing, but
+         the results from the subsequent processing of these images were not as good as those obtained from processing the images directly
+         from the scanner. We decided that using these compression formats would not give usable results.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>PDF Files from Adobe Capture</h3>
+      </center>
+      
+      <p>The next step in the documentation portion of the project was to produce documents in the portable document format (PDF) used
+         by Adobe Acrobat, a widely accepted de facto standard for encoding electronic documents. The viewing software provided by
+         Adobe allows for reading and searching the text, viewing the structure of a document, and printing high-quality hard copy.
+         PDF documents provided
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-20-</i></p>
+         
+         clear, accurate reproductions of the questionnaires. The Adobe Capture software produced an interim ASCII text file that could
+         be edited to improve text searching. An example of a viewing screen may be found at the end of Appendix 6.
+      </p>
+      
+      <p><i>Basic structure of Acrobat files.</i> Adobe Acrobat files (distinguished by the PDF suffix on the file names) can contain both text and image information from
+         the original document. There are different types of PDF files containing different kinds of information: normal PDF, image-only
+         PDF, and image+text PDF.
+      </p>
+      
+      <p>Normal PDF files, by default, display the text information derived from the OCR process. Where the text information is unknown
+         (when there is a nontext picture on the page or there were difficulties in the OCR process), a normal PDF file will insert
+         the original image into that space on the display page. Image-only PDF files are, in effect, paginated pictures of the original
+         pages. Like <b>tagged image file format</b> (<b>TIFF</b>) files, the text in these images is not searchable. Like image-only files, image+text PDF files show the image of the original
+         pages, but also contain searchable text.
+      </p>
+      
+      <p>The image+text files were chosen as the most appropriate for this project. The user would see a faithful reproduction of the
+         original documentation (complete with handwritten notes) with the PDF browser, but could also search for specific text within
+         the document. If text in the search function looked suspicious, a user could view the original image. In comparison, files
+         produced by OCR programs contain only the text information, with no way to double-check the text against the image of the
+         original.
+      </p>
+      
+      <p><i>Adobe Acrobat Capture procedures.</i> When scanning the document with the Capture software, a set of pages was scanned in sequence. Each page was stored as a separate
+         TIFF file, with the filenames numbered sequentially. For example, a 40-page document produced 40 TIFF files, named page01,
+         page02, through page40. These original image files in TIFF format were stored separately from the final reformatted PDF documents,
+         providing a set of image files for digital storage.
+      </p>
+      
+      <p>When translating the images into editable text, the TIFF files were concatenated into a single document during the OCR scanning
+         process. Acrobat Capture analyzed the page layout and grouped text into regions. It then identified characters and grouped
+         them into words. The words were looked up in the Acrobat dictionary (which can be customized) and spelling suspects noted.
+         Fonts were analyzed and font suspects identified. The interim text layer of the final PDF file contains no image data and
+         can be edited with the Capture Reviewer so that the text matches the original document as closely as possible. During the
+         OCR process, each word was assigned a confidence rating, representing the software's estimate of its OCR accuracy.
+      </p>
+      
+      <p>For the searchable text of the final PDF file to be as accurate as possible, many OCR errors were corrected by editing the
+         interim files. Fortunately, the program used to edit interim files, Acrobat Capture Reviewer, would highlight words whose
+         confidence levels fell below a certain threshold, or that were not included in a
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-21-</i></p>
+         
+         dictionary file. The majority of unrecognized words could be easily spotted and corrected to match the original document.
+         Although the Reviewer software allows one to change fonts and other formatting options, the only editing necessary for the
+         project was in the content of the words used for searching purposes (words used to locate terms in question text and variable
+         coding). Since the user would see only the image reproduction of the original, the underlying ASCII text need to be reformatted
+         as a visual reproduction of the original. Once the document was edited, it was then saved in the image+text PDF format.
+      </p>
+      
+      <p><i>Time and storage requirements of PDF files.</i> The total time required to process a 39-page document was approximately four hours, from scanning to saving the final PDF.
+         The scanning itself took 30 minutes; the OCR process took 20 minutes; and editing the resulting file took 3 hours 15 minutes.
+         The storage space required for this document is shown in table 5.
+      </p>
+      
+      <p><b>Table 5.</b> <i>Example of storage space required for Acrobat PDF files</i></p>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">File Type</td>
+               <td colspan="1">Storage Space</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">39 TIFF files</td>
+               <td colspan="1">1.19 MB</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">collated image file</td>
+               <td colspan="1">1.42 MB</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">final PDF files:
+                  <ul>
+                     <li>normal PDF (image)</li>
+                     <li>image+text PDF</li>
+                  </ul>
+               </td>
+               <td colspan="1">
+                  <ul>
+                     <li></li>
+                     <li>924 KB</li>
+                     <li></li>
+                     <li>1.49 MB</li>
+                  </ul>
+               </td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">ASCII output file</td>
+               <td colspan="1">100 KB</td>
+            </tr>
+            
+         </table><br></p>
+      
+      <p>Documentation for the other nine Roper Report data files was also scanned and edited. Some data files with split samples had
+         dual documentation. The time taken for the scanning process using a document feeder ranged from 5 to 30 minutes. The OCR software
+         took between 15 and 35 minutes to process each document. The time taken to edit each document varied widely, from one to eight-and-a-half
+         hours. The time it took to complete a single document depended largely on the quality of the original. Features such as background
+         shadows, crooked lines of text, compressed fonts, jagged edges on letters, and handwriting increased both the time it took
+         the OCR software to process the page, and, more importantly, the time it took to edit or insert accurate, searchable text.
+         In some cases, blocks of text were so unrecognizable that whole questions needed to be typed in as hidden search text. Additional
+         time was required for error-checking.
+      </p>
+      
+      <p><i>Problems encountered in text recognition and editing of PDF files.</i> Although Adobe Acrobat Preview highlights most words with low confidence levels, some forms of errors are not so easily detected
+         during the editing phase.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-22-</i></p>
+      
+      
+      <ul>
+         
+         <li>A word was not recognized as a block of text by Capture software during the OCR process. This means that instead of a text
+            form of the word, the document included simply a bitmapped image of the word from the original page. Such an image, of course,
+            would not be searchable. Fortunately, these image blocks had some telltale signs. First, they appeared to be in a font that
+            was usually quite different from the fonts assigned to the recognized words. Also, they were usually surrounded by a fine
+            gray or blue box. After some experience, an editor could quickly spot the image boxes as the page was being read. Although
+            these image boxes could not be changed to text, a Reviewer command can be used to insert hidden search text underneath them.
+            A later search would highlight the image as if it were a normal word.
+         </li>
+         
+         <li>A word was recognized as another, <i>valid</i> English word. In this case, the confidence level for the word might be quite high and the word would not normally be highlighted.
+            For instance, if a falsely recognized word was assigned a confidence level of 97 percent, and Preview was set to highlight
+            words at 95 percent <i>or below</i>, then the wrong word would not be highlighted. These words can be highlighted by raising the threshold setting, although
+            at high levels (98 percent or 99 percent), virtually every word in the document would be highlighted. The only practical way
+            to discover these errors was for an editor to read through the document carefully. Once errors were spotted, the correct words
+            would be inserted.
+         </li>
+         
+         <li>In rare cases, a line of text could be skipped in the OCR process. Again, nothing would be highlighted, but fortunately there
+            would be obvious gaps in the text block where the line was skipped. A careful reading of the document would reveal these gaps.
+            As a corrective, a new block of text could be created to overlay the gap. The correct text could then be typed in for the
+            purpose of future searches.
+         </li>
+         
+      </ul>
+      
+      <p>In each of these cases, an attentive editor must catch the OCR error and make appropriate changes to the text to verify accurate
+         search and retrieval. We did not edit enough documents to estimate the average time needed for cleaning a complete document.
+         Future projects will need to budget extensive editing costs.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>HTML and SGML/XML Marked-up Files</h3>
+      </center>
+      
+      <p>Conversion of scanned text to <b>hypertext markup language</b> (<b>HTML</b>) format would provide a more readily accessible browsing format. However, the text of each document would need to be fully
+         edited and formatted. As indicated above, the ASCII output from the OCR
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-23-</i></p>
+         
+         technology we used could not provide us with text clean enough to use in HTML. Moving text into documents adhering to the
+         <b>standard general markup language/extensible markup language</b> (<b>SGML/XML</b>) is the most labor-intensive but also the most dynamic alternative for text applications. SGML/XML tagging allows customized
+         and robust access to specific pieces of the documentation (such as question text and variable location information). SGML/XML
+         Document Type Definitions maintain the integrity of document content and structure and also define the relationships among
+         the elements. The emerging social science documentation standard for both formatting and content, the <b>Data Documentation Initiative</b> (<b>DDI</b>) Document Type Definition (DTD), provides standard elements developed specifically for social science numeric resources.
+         The standard adheres to our requirement that text be stored in a system-independent, nonproprietary format. Furthermore, this
+         standard, developed by representatives from the international social science research community, is intended to fill the need
+         for a structured codebook standard that will serve as an interchange format and permit the development of new Web applications.
+         However, this format requires that the text be fully edited and the components of the documentation tagged, and funding for
+         this work was not included in the budget for this project.
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-24-</i></p>
+      
+      <a name="findings"></a><hr width="75%">
+      <center>
+         <h2>Findings and Recommendations</h2>
+      </center>
+      
+      <p>Upon completing the steps defined in both the data and documentation tracks, we carefully examined the processes of migrating
+         hardware- and software-dependent formats to independent formats. We also evaluated the formats in relation to their utility
+         and ease of use over time. In both the data migration and the documentation migration processes, it was imperative that the
+         original content be preserved. Migration that included <i>recoding</i> the content of the data files (changing the character or numeric equivalents in a data file) proved to be labor-intensive
+         and error-prone, and produced unacceptable changes to the original content of the data. Editing the text output from the scanning
+         process proved to be the same: error-prone, time-consuming, and incomplete. Therefore, recoding as a part of migration is
+         not recommended. However, simply copying a file in its original format from medium to medium (refreshing) is not enough.
+      </p>
+      
+      <p>Software-dependent data file formats, such as the original column binary files examined in the project, cannot be read without
+         specific software routines. If standard software packages do not offer those specific routines in the future, translation
+         programs that emulate the software's reading of the column binary format could provide a solution. However, these emulation
+         programs will themselves require migration strategies over time. We offer another alternative for the column binary format:
+         <i>convert</i> the data out of the column binary format into ASCII without changing the coded values of the files. The spread ASCII format
+         meets the criterion of software independence while simultaneously preserving the original content of the data set. It does,
+         however, require a file-by-file migration strategy that would be time-consuming for a large collection of files.
+      </p>
+      
+      <p>Finding a parallel solution for the documentation files is not possible at this time. We can not accurately generate character-by-character
+         equivalents of the paper records. We can, however, scan the paper into digital representations that could be used in future
+         character recognition technologies. The Adobe PDF image+text format does provide an interim solution by producing digital
+         versions of the image and limited ASCII representation of the text. However, the types of documentation files produced by
+         the Adobe process are software dependent. If software packages move away from the format used to store the image+text files,
+         translators will be necessary to search, print, and display the files. We therefore recommend archiving the images of the
+         printed pages in both nonproprietary TIFF format and PDF image+text format.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>User Evaluation</h3>
+      </center>
+      
+      <p>We asked faculty and graduate students to make an informal review of the findings and sample output from the project. All
+         our evaluators had previous experience using data files from the Yale Roper Collection. Regarding the data conversions, they
+         expressed relief at not having to use column binary input statements to read the data files. They had no difficulty in using
+         the chart that mapped column binary to ASCII in order to locate variables in the spread ASCII
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-25-</i></p>
+         
+         version of the data files, once it was explained that each variable mapped directly to a 12-column equivalent and instructions
+         were given for finding single- and multiple-punch locations.
+      </p>
+      
+      <p>As for the documentation track, faculty and student reviewers found viewing and browsing PDF format files acceptable. Since
+         most users had accessed PDF files on the Web, they seemed comfortable moving from the Internet browser to the Adobe Reader
+         to locate question text and variable location information. This may not be the case with inexperienced users. These users
+         were eager to have more questionnaire texts available for browsing and searching. The lack of a large sample collection of
+         questionnaires did not allow evaluation of question text searching on a large scale.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>Findings about Data Conversion</h3>
+      </center>
+      
+      <p><i>Column binary into SAS and SPSS.</i> As long as software packages can read the SAS and SPSS export formats, recoding the column binary format into SAS and SPSS
+         export files is an attractive option. These file formats can be used easily, are transportable to multiple operating systems
+         and equipment configurations, and can be transformed into other software-specific formats. They do, however, have a number
+         of drawbacks.
+      </p>
+      
+      <p>First, the original data file must be recoded, a process that is lengthy and potentially error-prone and one that places great
+         reliance on the person doing the translation. If that person does not adequately check for errors, annotate the documentation
+         for irregular variables, or properly recode the original patterns of punches, the translated data set becomes inconsistent
+         with the original. Also, some irregularities in the original data set, which may be meaningful in the analysis of the data,
+         can become lost when the data set is cleaned up. For instance, the original documentation might indicate that a question has
+         four possible responses: PUNCH.1 through PUNCH.3 for a rating scale, and PUNCH.12 for a "don't know" response. On examination
+         of the xray, though, it is discovered that about 200 people had their responses coded as PUNCH.11, not PUNCH.12. A decision
+         must be made: will those PUNCH.11 observations be given the same special missing value code as that for PUNCH.12? This solution
+         will put the responses in the data set into accordance with the documentation by assuming that the strange punches were simply
+         due to errors in data entry. On the other hand, the strange punches could have been intentionally entered to mark out those
+         observations for special reasons that are not listed in the documentation. In this case, it would be better to give the PUNCH.11
+         observations a special missing value different from that for PUNCH.12. Once the recoding is done, future researchers will
+         be unable to re-create the original data set with its irregularities.
+      </p>
+      
+      <p>Second, this process of reading, recoding, and cleaning data files to produce SAS (or SPSS) system files and export files
+         is very time-consuming. For example, it took 20 hours of work to write, debug, and double-check a SAS program to recode the
+         data set for Roper
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-26-</i></p>
+         
+         Report 9209, which includes a split sample and a variety of variable types. Assuming a wage of $15 an hour for an experienced
+         SAS programmer, we would expect a cost of approximately $600 <i>per data set </i>for a complete job of data recoding. This estimate, of course, does not include the cost of consultations with data archivists
+         about the recoding of particular variables or the cost of rewriting documentation to reflect the new format of the data set.
+      </p>
+      
+      <p>Third, data files stored in SAS and SPSS (and other statistical software) formats require proprietary software to read the
+         information. Although there has been an increase in programs that can read and transfer data files from one program, and one
+         version of a program, to another, there is no guarantee that programs for specific versions of software will be available
+         in the future. U.S. Census data from the 1970s were produced in compressed format (called Dualabs) that relied on custom programs
+         and can no longer be read on most of today's computing platforms. Such system- and software-dependent formats require expensive
+         migration strategies to move them to future computing technologies.
+      </p>
+      
+      <p><i>Spread ASCII format.</i> If an archival standard is defined as a non-column binary, nonproprietary format that faithfully reproduces the content of
+         the original files, only the spread ASCII format meets these conditions. This spread format, however, is at least 600 percent
+         larger than the original file and requires converting the original column binary structure. It also requires producing additional
+         documentation, since each punch listed in the original documentation must be assigned a new column location in the spread
+         ASCII data. We recommend that each file be converted to a standard spread ASCII format so that a single conversion map may
+         be used for all the data files (see Appendix 5 for an example from this project). Producing such an ASCII data set has several
+         advantages. Information is not lost from the original data set, because the pattern of 0s and 1s remains conceptually the
+         same across data files. It is unnecessary for a data translator to interpose herself between the original data and the final
+         user.
+      </p>
+      
+      <p>However, the spread ASCII format is not perfect. The storage requirements for spread ASCII data are on a par with the size
+         requirements for a SAS data set containing both recoded <i>and</i> intermediate variables. For the overhead in storage cost, the SAS data set at least provides internally referenced variable
+         names and meaningful variable values. The size of the spread ASCII data becomes even more apparent when it is contrasted with
+         the size of a recoded ASCII data set. In a recoded data set, each unused bit can be left out of the final data; particular
+         bits in a column need not even be input if they contain no values for the variable, and columns without variables may also
+         be skipped. In contrast, in the spread ASCII data, each bit is input and translated to a character, whether it is used or
+         not.
+      </p>
+      
+      <p>The spread ASCII format requires that users must know how the variables, particularly the multiple-response variables, relate
+         to the 12-column equivalent. A spread ASCII data set is not as easily used as a fully recoded one; after all, recoding the
+         0s and 1s into usable
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-27-</i></p>
+         
+         variable values will fall to the end user with ASCII data, just as it currently does with column binary data. Finally, each
+         punch listed in the original documentation must be assigned a new column location in the spread ASCII data. Users must refer
+         to an additional piece of documentation, the ASCII data map, to locate data of interest, and this extra step inevitably creates
+         some initial confusion.
+      </p>
+      
+      <p><i>Hybrid spread ASCII.</i> The hybrid spread ASCII format, distributed by the Roper Center and the Institute for Research in Social Science at University
+         of North Carolina, offers another alternative. The original data are stored in column binary format in the first horizontal
+         layer of the file. This format preserves the original structure of the data file in the first part of a new record. A second
+         horizontal layer of converted data, in spread ASCII format, is added to the new record. The primary advantage of this hybrid
+         spread ASCII data file format is that users can access the nonbinary portions of the original data file in their original
+         column locations as indicated on the questionnaires. However, users have to know whether the question and variables of interest
+         were coded in the binary format in order to determine whether to read the first part of the record or the second. The ASCII
+         codes in the first horizontal layer are readable, but any binary coding in that first horizontal layer are not, since the
+         binary coding is converted to ASCII to avoid problems while reading the data with statistical software. If users want to read
+         data that were coded in binary in the original file, they can read the spread ASCII version of multiple-punched equivalents
+         in the second horizontal layer without having to learn the column binary input statements to read the data.
+      </p>
+      
+      <p>We chose to produce converted ASCII files that did not have this two-part structure. To use the spread ASCII data files we
+         constructed, users first determine the original column location of a particular variable from the questionnaire, and then
+         use a simple data map to locate the column location in the new spread ASCII file (see Appendix 5).
+      </p>
+      
+      <p><i>Original column binary format.</i> The column binary format itself turned out to be more attractive as a long-term archival standard than we had anticipated.
+         It conserves space, it preserves the original coding of data and matches the column location information in the documentation,
+         it can be transferred among computers in standard binary, and it can be read by standard statistical packages on all of the
+         platforms we used in testing. Unfortunately, it is difficult to locate and decipher information about how to read column binary
+         data with SAS and SPSS, as the latest manuals (for PC versions of the software) no longer contain supporting information about
+         this format. This lack of documentation support indicates the possibility that the input formats will not be offered in subsequent
+         software versions.
+      </p>
+      
+      <p>On the other hand, as long as the format exists, there seems to be some level of commitment to support it. As stated in the
+         <i>SAS Language: Reference</i> text, "because <b>multipunched</b> decks and card-image data sets remain in existence the SAS System provides informats for reading column-binary data." (SAS
+         1990, 38-9). If the column binary format is refreshed onto new media and preserved only in its
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-28-</i></p>
+         
+         original form, we recommend that sample programs for reading the data with standard statistical packages, or a stand-alone
+         translation program, be included in the collection of supporting files. But even with these supplemental programs, accessing
+         and converting the files will continue to present significant challenges to researchers. Given these considerations, we do
+         not recommend this format over the spread ASCII alternative.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>Findings about Documentation Conversion</h3>
+      </center>
+      
+      <p>The OCR output files from TextBridge Pro did not provide us with an adequate means for archiving the textual material. The
+         questionnaires we scanned had an unacceptable rate of character recognition, including incorrect location information necessary
+         for manipulating the accompanying data files. Handwritten notes were completely lost. Although the format allowed for searching
+         of a particular text that was successfully recognized, the amount of editing required to produce a legible version of the
+         original, review the output, and correct all errors was found to be prohibitive. Subsequent viewing was poor without the formatting
+         capabilities of proprietary word processing software.
+      </p>
+      
+      <p>The PDF format provided solutions to some of the documentation distribution and preservation problems we faced, but it did
+         not meet all of our needs. For one thing, the format does not go far enough in providing internal structure for the manipulation,
+         output, and analysis of the metadata. Like a tagged MARC record in an online public access catalog, full-text documentation
+         for numeric data requires specific content tagging to allow search, retrieval, manipulation, and reformatting of individual
+         sections of the information. Another drawback is that PDF files are produced and stored in a format that may be difficult
+         to read and search in the future. The PDF format, although a published standard, depends on proprietary software that may
+         not be available in future computing environments. (A similar problem can be seen with dBase data files that are rapidly becoming
+         outmoded, causing major problems with large collections of CD-ROM products distributed by the U.S. government.) We see increasing
+         numbers of PDF documents distributed on the Internet and the format will be used by ICPSR for the distribution of machine-readable
+         documentation to its member institutions. So, given the large number of PDF files in distribution, software for conversion
+         will most likely be developed over time. However, the current popularity of the PDF format does not guarantee that software
+         to read it will continue to be available throughout the future of technological evolution.
+      </p>
+      
+      <p>The TIFF graphic image file format is useful for viewing and for distribution on the Web and as an intermediate archival format,
+         allowing storage of files until they can be processed in the future using more advanced OCR technology. Even though this format
+         does not allow text searching, tagging/mark up, or editing, it moves the endangered material into digital format. ICPSR has
+         decided to retain
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-29-</i></p>
+         
+         such digital images of its printed documentation collection for reprocessing as OCR technology evolves.
+      </p>
+      
+      <p>It is our recommendation that both PDF/Adobe Capture edited output and scanned image files be produced and archived. The PDF/Adobe
+         image+text files allow searching and viewing of text in original formatting. The scanned image files can be archived for future
+         character recognition and enhancement. We also want to emphasize the importance of the long-term development of tagged documentation
+         using the DDI format. This is by far the most desirable format, albeit one that is difficult to produce from printed documentation,
+         given the inadequacy of OCR technology and the costs of subsequent editing. We urge future producers and distributors of numeric
+         data to help develop and adhere to standard system- independent documentation.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>Recommendations to Data Producers</h3>
+      </center>
+      
+      <p><i>Design affects maintenance costs and long-term preservation.</i> Producers of statistical data files need to be cognizant of preservation strategies and the importance of system-independent
+         formats that can be migrated through generations of media and technological applications. In this project, we had significant
+         problems with the column binary format of the data. Had long-term maintenance plans been considered, and the costs of migration
+         been taken into consideration, the creators of the data format might not have chosen the column binary format. At the time,
+         however, it was the most compact format to use and standard software could then be adapted to the format.
+      </p>
+      
+      <p>One thing is very clear: data producers would be advised and should be persuaded to take long-term maintenance and preservation
+         considerations into account as they create data files and as they design value-added systems. Our experience shows that the
+         most simple format is the best long-term format: the flat ASCII data file. We would urge producers to provide column-delimited
+         ASCII files, accompanied by complete machine-readable documentation in nonproprietary and nonplatform-specific formats. Programming
+         statements (also known as control cards) for SAS and SPSS are also highly recommended so that users can convert the raw data
+         into system files. The control card files can be modified for later versions of statistical software and used for other programming
+         applications and indexing.
+      </p>
+      
+      <p>In accordance with emerging standards for resource discovery, data files should contain a standard electronic header or be
+         accompanied by machine-readable metadata identification information. This information should include complete citations to
+         all the parts of a particular study (data files, documentation, control card files, and so forth) and serve as a study-level
+         record of contents and structure.
+      </p>
+      
+      <p><i>Metadata standards.</i> Not only must standards be considered for the structure of the numeric data files, but the metadata information describing
+         the data must also conform to content and format standards for current use and for long-term preservation applications.
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-30-</i></p>
+         
+         Content standards require common elements, or a common set of "containers" that hold specific types of information. Standards
+         for coding variables should be followed so that linkages and cross-study analysis are enhanced, and common thesauri for searching
+         and mining data collections also need to be produced. As for format standards, metadata should be produced in system-independent
+         formats that provide standard structures for the common elements and coding schemes. These format standards should provide
+         consistent tagging of elements that can be mapped to resource discovery and viewing software and to statistical analysis and
+         database systems.
+      </p>
+      
+      <p>For most social science data files, machine-readable documentation should be supplied in ASCII format that conforms to standard
+         guidelines for both content and format. With some very large surveys using complex survey instruments, files in this ASCII
+         format may be so big that complex structures in nonproprietary format need to be developed to reduce storage requirements.
+         If paper documentation is distributed, it should be produced using high-quality duplication techniques with simple fonts,
+         no underlining, no handwritten notations, and plenty of white space.
+      </p>
+      
+      <p>Of particular interest is the Data Documentation Initiative (DDI) DTD (Document Type Definition in XML), which is a developing
+         standard for documentation describing numeric databases. It provides both content and format standards for creating digitized
+         documentation in XML. Data producers in the United States, Canada, and Europe will be testing the DTD as part of their documentation
+         production process. Data archives will be converting their digitized documentation into this format, and some will be scanning
+         paper documentation and tagging the content with the DDI.
+      </p>
+      
+      <p><i>Complex statistical systems</i>. We must also be concerned about the long-term preservation plans for complex systems. As we see more efforts to integrate
+         data and documentation within linked systems, we see a growing tension between access and preservation. Complex database management
+         systems such as ORACLE or SQL present us with more complex questions: What parts of the system need to be preserved to save
+         the content of the information as well as its integrity? Will snapshots of the system provide future users with enough information
+         to simulate access as we see it today? Is the content usable outside the context of the system? These are the database preservation
+         challenges of the future.
+      </p>
+      
+      
+      
+      
+      
+      <hr width="75%">
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-31-</i></p>
+      
+      <a name="glossary"></a><hr width="75%">
+      <center>
+         <h2>Glossary</h2>
+      </center>
+      
+      <p><b>ASCII</b> -- American Standard Code for Information Interchange. A character encoding scheme used by many computers. The ASCII standard
+         uses 7 of the 8 bits that make up a byte to define the codes for 128 characters. Example: in ASCII, the number seven is a
+         treated as a character and is encoded as: 00010111. Because a byte can have a total of 256 possible values, there are an additional
+         128 possible characters that can be encoded into a byte, but there is no formal ASCII standard for those additional 128 characters.
+         Most IBM-compatible personal computers do use an IBM extended character set that includes international characters, line and
+         box drawing characters, Greek letters, and mathematical symbols.
+      </p>
+      
+      <p><b>C</b> -- A programming language.
+      </p>
+      
+      <p><b>CB<i>w.d</i></b> -- Instructions that the SAS System uses to read standard numeric values from column-binary files, translating the data into
+         standard binary format. The <i>w </i>value specifies the width of the variable, usually 8, but has a range between 1 and 32. The <i>d</i> value specifies the number of digits to the right of the decimal point in the numeric value.
+      </p>
+      
+      <p><b>card</b> -- Also known as deck, a physical record of data. A survey may have multiple cards for each respondent, all cards together
+         comprising a <b>logical record</b>. Based on the IBM punch cards of 80-column length.
+      </p>
+      
+      <p><b>case</b> -- The unit of analysis in a particular data file. Can be an individual respondent to a questionnaire, a customer, or an
+         industry. In the Roper Reports, each case is an interview respondent.
+      </p>
+      
+      <p><b>codebook</b> -- Description of the organization and content of a data file. Contains the code ranges and the code meanings needed to interpret
+         the data file.
+      </p>
+      
+      <p><b>column binary</b> -- A code originally used with punched cards in which successive bits are represented by the presence or absence of punches
+         in contiguous positions in columns. Using this method, responses to more than one question can be stored in a single column.
+      </p>
+      
+      <p><b>data dictionary</b> -- A file, part of a file, or part of a printed codebook containing information about a data file, including the name of
+         the element, its format, location, and size.
+      </p>
+      
+      <p><b>Data Documentation Initiative (DDI)</b> -- An international committee sponsored by ICPSR that is developing a new metadata standard for social science documentation.
+         This standard, developed by representatives from the international social science research community, is intended to fill
+         the need for a structured codebook standard that will serve as an interchange format and permit the development of new Web
+         applications. The Document Type Definition (DTD) for the DDI
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-32-</i></p>
+         
+         standard is written in XML (Extensible Markup Language) and is available at <a href="http://www.icpsr.umich.edu/DDI/">http://www.icpsr.umich.edu/DDI/</a>.
+      </p>
+      
+      <p><b>deck</b> -- Also known as card, a logical record of data. A survey may have multiple cards for each respondent, all cards together
+         comprising a logical record. Based on the IBM punch cards of 80-column length.
+      </p>
+      
+      <p><b>documentation</b> -- Information that accompanies a data file, describing the condition of the data, the creation of the file, the location
+         and size of variables in the file, and the values (or codes) of the variables.
+      </p>
+      
+      <p><b>export file</b> -- A file produced by a software package that is designed to be read on another computer, often with a different operating
+         system, running a version of the same software package.
+      </p>
+      
+      <p><b>HTML</b> -- HyperText Markup Language
+      </p>
+      
+      <p><b>ICPSR</b> -- Inter-university Consortium for Political and Social Research
+      </p>
+      
+      <p><b>informat</b> -- The instructions that specify how SAS reads the numbers and characters in a data file.
+      </p>
+      
+      <p><b>intermediate variable</b> -- A variable used when recoding data to input information from individual punches in multipunch data. Sets of intermediate
+         variables are then recoded to produce final variables.
+      </p>
+      
+      <p><b>logical record</b> -- A complete unit of data for a particular unit of analysis, in this project a single respondent. Multiple physical records,
+         called cards or decks, may make up a logical record.
+      </p>
+      
+      <p><b>missing value</b> -- A value code that indicates no data are present for a variable for a particular case. To be distinguished from non-response
+         values (respondent refused to answer or was not asked the question) and from invalid responses (the response did not have
+         a valid value code equivalent). Non-responses and invalid responses may or may not have value categories provided in the questionnaire
+         and may be treated differently from true missing data during analysis.
+      </p>
+      
+      <p><b>multipunched</b> -- A way of recording data, originally used with punched cards, in which successive bits are represented by the presence
+         or absence of punches in contiguous positions in columns. Using this method, responses to more than one question can be stored
+         in a single column.
+      </p>
+      
+      <p><b>OCR</b> -- Optical character recognition
+      </p>
+      
+      <p><b>PDF</b> -- Portable Document Format, a published standard format developed by Adobe Systems, accessed with proprietary software.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-33-</i></p>
+      
+      
+      <p><b>punch card</b> -- A paper medium used for recording computer-readable data. The card is punched by a special machine called a keypunch that
+         works like a typewriter, except that it punches holes in cards instead of typing characters on paper. The punch cards are
+         then processed with a card reader that transfers the punched information to a computer-readable digital format.
+      </p>
+      
+      <p><b>PUNCH.<i>d</i></b> -- Instructions that the SAS system uses to read standard numeric values from column binary files. The <i>d</i> value specifies which row in a card column to read. Valid values for the <i>d</i> value are 1 through 12.
+      </p>
+      
+      <p><b>questionnaire</b> -- The set of questions asked in a survey. In the Yale Roper Collection, the questionnaire, with columns and codes written
+         next to the question, may substitute for a codebook.
+      </p>
+      
+      <p><b>recode</b> -- Changing the value code of a variable from one value to another. For example, changing 0 and 1 values in column binary
+         data files to value ranges of 0 through 12. Also known as data transformation.
+      </p>
+      
+      <p><b>respondent</b> -- In survey research, the person responding to the survey questions.
+      </p>
+      
+      <p><b>ROW<i>w.d</i></b> -- Instructions that the SAS system uses to read a column-binary field down a card column. The <i>w </i>value specifies the row where the field begins, with a range between 1 and 12. The <i>d</i> value specifies the length in rows of the field. Valid values for <i>d</i> are 1 through 25, with the default value of 1. The informat assigns the relative position of the punch in the field range
+         to a numeric variable.
+      </p>
+      
+      <p><b>SAS</b> -- Set of proprietary computer programs used for analysis of social science statistical data. (No longer an acronym; originally
+         stood for Statistical Analysis System.)
+      </p>
+      
+      <p><b>SGML</b> -- Standard General Mark-Up Language
+      </p>
+      
+      <p><b>SPSS</b> -- Statistical Package for the Social Sciences. Set of proprietary computer programs used for analysis of social science
+         statistical data.
+      </p>
+      
+      <p><b>single-punch</b> -- A single response coded in a column.
+      </p>
+      
+      <p><b>split sample</b> -- A method of data collection in which one group of respondents is queried with one form of a questionnaire and the second
+         group is queried with a different form of the questionnaire.
+      </p>
+      
+      <p><b>spread</b> -- Recoding multiple responses that have been coded in a single column of a record to a separate column for each response.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-34-</i></p>
+      
+      
+      <p><b>system file</b> -- A data file or collection of data files specifically formatted for a particular software package; may not be readable
+         by other software packages.
+      </p>
+      
+      <p><b>TIFF</b> -- Tagged Image File Format
+      </p>
+      
+      <p><b>values</b> -- The numeric or character equivalents for a particular variable in a data file.
+      </p>
+      
+      <p><b>variable</b> -- An item in a data file to which a value has been assigned. A data file contains the values of certain variables measured
+         for a set of cases. In the Roper Report data files, variables are responses to questions or parts of questions from each person
+         interviewed.
+      </p>
+      
+      <p><b>XML</b> -- Extensible Markup Language (XML) is a data format for structured document interchange on the Web.
+      </p>
+      
+      <p><b>xray</b> -- A form of output that is organized by card, column, and row; each bit has its own unique location within this framework.
+         The total number of punched bits across all observations is recorded for each location in the data set. This sum often provides
+         a response frequency for individual response options.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>Sources of Glossary Terms</h3>
+      </center>
+      
+      <ul>
+         
+         <li>Armor, David J., and Arthur S. Couch. 1972. <i>Data-text Primer: An Introduction to Computerized Social Data Analysis</i>. New York: The Free Press.
+         </li>
+         
+         <li>Dodd, Sue A. 1982. <i>Cataloging Machine-readable Data Files: An interpretive Manual</i>. Chicago: American Library Association.
+         </li>
+         
+         <li>Dodd, Sue A., and Ann M. Sandberg-Fox. 1985. <i>Cataloging Microcomputer Files: a Manual of Interpretation for AACR2</i>. Chicago: American Library Association.
+         </li>
+         
+         <li>Geda, Carolyn L. [n.d.] <i>Data Preparation Manual</i>. Sponsored by John D. Peine, Project Coordinator, Heritage Conservation and Recreation Service, U.S. Department of the Interior.
+         </li>
+         
+         <li>Jacobs, Jim. <i>Glossary of Selected Social Science Computing Terms and Social Science Data Terms.</i> University of California, San Diego. Available at <a href="http://odwin.ucsd.edu/glossary/index.html">http://odwin.ucsd.edu/glossary/index.html</a>.
+         </li>
+         
+         <li>SAS Institute. 1990. <i>SAS Language: Reference. </i>Version 6, 1st ed. Cary, NC: SAS Institute.
+         </li>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-35-</i></p>
+         
+         
+         <li>Sippl, Charles J. 1966. <i>Computer Dictionary</i>. Indianapolis: Howard W. Sams &amp; Co., Inc.
+         </li>
+         
+         <li>Sippl, Charles J., and Roger J. Sippl. 1980. <i>Computer Dictionary</i>. 3rd ed. Indianapolis: Howard W. Sams &amp; Co, Inc.
+         </li>
+         
+         <li>Spencer, Donald D. 1968. <i>Computer Programmer's Dictionary and Handbook</i>. Waltham, MA: Blaisell Publishing Company.
+         </li>
+         
+         <li>SPSS, Inc. 1988. <i>SPSS-X User's Guide</i>. 3rd ed. Chicago: SPSS, Inc.
+         </li>
+         
+         <li>Weik, Martin H. 1969. <i>Standard Dictionary of Computers and Information Processing</i>. New York: Hayden Book Company.
+         </li>
+         
+      </ul>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-36-</i></p>
+      
+      <a name="references"></a><hr width="75%">
+      <center>
+         <h2>Reference List</h2>
+      </center>
+      
+      <ul>
+         
+         <li>Adams, Margaret. 1996. Private e-mail message to JoAnn Dionne, November 4.</li>
+         
+         <li>Bearman, David. 1999. Reality and Chimeras in the Preservation of Electronic Records. <i>D-Lib Magazine</i> 5(4). Available at <a href="http://www.dlib.org/dlib/april99/bearman/04bearman.html">http://www.dlib.org/dlib/april99/bearman/04bearman.html</a>.
+         </li>
+         
+         <li>Conway, Paul. 1996. <i>Conversion of Microfilm to Digital Imagery: A Demonstration Project.</i> Performance Report on the Production Conversion Phase of Project Open Book. New Haven, CT: Yale University Library.
+         </li>
+         
+         <li>Elkington, Nancy E., ed. 1994.<i> Digital Imaging Technology for Preservation.</i> Proceedings from an RLG Symposium held March 17 and 18, 1994, Cornell University, Ithaca, NY. Mountain View, CA: Research
+            Libraries Group, Inc.
+         </li>
+         
+         <li>Kenney, Anne R., and Stephen Chapman. 1996. <i>Digital Imaging for Libraries and Archives.</i> Ithaca, NY: Department of Preservation and Conservation, Cornell University Library.
+         </li>
+         
+         <li>Inter-university Consortium for Political and Social Research. 1996. <i>Producing Electronic Forms of Documentation: The Experience at ICPSR.</i> Available at <a href="http://www.icpsr.umich.edu/ICPSR/Developments/nsf.pdf">http://www.icpsr.umich.edu/ICPSR/Developments/nsf.pdf</a>.
+         </li>
+         
+         <li>JSTOR. 1996. <i>Why Images? </i>Available at <a href="http://index.umdl.umich.edu/about/images.html">http://index.umdl.umich.edu/about/images.html</a>.
+         </li>
+         
+         <li>Kenney, Anne R., and Stephen Chapman. 1995. <i>Tutorial: Digital Resolution Requirements for Replacing Text-Based Material: Methods for Benchmarking Image Quality.</i> Washington, DC: Commission on Preservation and Access.
+         </li>
+         
+         <li>Michelson, Avra, and Jeff Rothenberg. 1992. Scholarly Communication and Information Technology: Exploring the Impact of Changes
+            in the Research Process on Archives. <i>American Archivist</i> 55:236-315.
+         </li>
+         
+         <li>National Archives and Records Administration, Archival Research and Evaluation Staff. 1990. <i>A National Archives Strategy for the Development and Implementation of Standards for the Creation, Transfer, Access, and Long-term
+               Storage of Electronic Records of the Federal Government.</i> National Archives Technical Information Paper No. 8, June. Available at <a href="gopher://gopher.nara.gov:70/00/managers/archival/papers/strategy.txt">gopher://gopher.nara.gov:70/00/managers/archival/papers/strategy.txt</a>.
+         </li>
+         
+         <li>Rockwell, Richard C. 1997. Message to the ICPSR OR-l (<a href="orl@majordomo.srv.ualbera.ca">orl@majordomo.srv.ualbera.ca</a>) of February 27. Subject: ORL discussion of PDFICPSR.
+         </li>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-37-</i></p>
+         
+         
+         <li>Rothenberg, Jeff. 1995. Ensuring the Longevity of Digital Documents. <i>Scientific American</i> 272(1):42-47.
+         </li>
+         
+         <li>Rothenberg, Jeff. 1999. <i>Avoiding Technological Quicksand: Finding a Viable Technical Foundation for Digital Preservation.</i> Washington, DC: Council on Library and Information Resources (January). Available at <a href="http://www.clir.org/pubs/reports/reports.html">http://www.clir.org/pubs/reports/reports.html</a>.
+         </li>
+         
+         <li>SAS Institute. 1990. <i>SAS Language: Reference.</i> Version 6, 1st ed. Cary, NC: SAS Institute.
+         </li>
+         
+         <li>SPSS, Inc. 1988. <i>SPSS-X User's Guide.</i> 3rd ed. Chicago: SPSS, Inc.
+         </li>
+         
+         <li>Saffady, William. 1993. <i>Electronic Document Imaging Systems: Design, Evaluation, and Implementation</i>. Westport, CT: Meckler Publishing.
+         </li>
+         
+         <li>Stielow, Frederick J. 1992. Archival Theory and the Preservation of Electronic Media: Opportunities and Standards Below the
+            Cutting Edge. <i>American Archivist</i> 55:332-43.
+         </li>
+         
+         <li>Task Force on Archiving of Digital Information. 1996. <i>Preserving Digital Information</i>. Report to the Commission on Preservation and Access and the Research Libraries Group. Washington, DC: Commission on Preservation
+            and Access. Multiple versions are available at:
+            <a href="http://www.rlg.org/ArchTF/">http://www.rlg.org/ArchTF/</a>.
+         </li>
+         
+      </ul>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-38-</i></p>
+      
+      <a name="appendix1"></a><hr width="75%">
+      <center>
+         <h2>Appendix 1: Roper Report documentation page 3W: <br>Questions 7-9
+         </h2>
+      </center>
+      
+      <p>
+         <p align="center"><img src="images/appendix1.gif"></p>
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-39-</i></p>
+      
+      <a name="appendix2"></a><hr width="75%">
+      <center>
+         <h2>Appendix 2: Sample SAS input and recode statements</h2>
+      </center>
+      
+      <p>/* <br>This snippet of a SAS program consists of two parts: the first part is an example of reading in column binary data, the second
+         is an example of inputting the same data in spread ASCII format <br>*/ <br>... <br>DATA ONE; <br>INFILE IN LRECL=160 RECFM=F; <br>INPUT <br>#1 @26 Q10_1 PUNCH.1 <br>@26 Q10_2 PUNCH.2 <br>@26 Q10_Y PUNCH.12 <br>#9 @5 Q101_1 PUNCH.1 <br>@5 Q101_2 PUNCH.2 <br>@5 Q101_3 PUNCH.3 <br>@5 Q101_X PUNCH.11 <br>@5 Q101_Y PUNCH.11; <br>IF Q10_1=1 AND Q10_2=0 AND Q10_Y=0 THEN Q10=1; <br>IF Q10_1=0 AND Q10_2=1 AND Q10_Y=0 THEN Q10=2; <br>IF Q10_1=0 AND Q10_2=0 AND Q10_Y=1 THEN Q10=99; <br>IF Q101_1=1 AND Q101_2=0 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=1; <br>IF Q101_1=0 AND Q101_2=1 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=2; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=1 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=3; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=0 AND Q101_X=1 AND Q101_Y=0 <br>THEN Q101=4; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=1 <br>THEN Q101=99; <br>... <br>DATA ONE; <br>INFILE IN LRECL=960 RECFM=F; <br>INPUT <br>#1 @301 Q10_1 <br>@302 Q10_2 <br>@312 Q10_Y <br>#9 @49 Q101_1 <br>@49 Q101_2 <br>@49 Q101_3 <br>@49 Q101_X <br>@49 Q101_Y; <br>IF Q10_1=1 AND Q10_2=0 AND Q10_Y=0 THEN Q10=1; <br>IF Q10_1=0 AND Q10_2=1 AND Q10_Y=0 THEN Q10=2; <br>IF Q10_1=0 AND Q10_2=0 AND Q10_Y=1 THEN Q10=99; <br>IF Q101_1=1 AND Q101_2=0 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=1; <br>IF Q101_1=0 AND Q101_2=1 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=2; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=1 AND Q101_X=0 AND Q101_Y=0 <br>THEN Q101=3; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=0 AND Q101_X=1 AND Q101_Y=0 <br>THEN Q101=4; <br>IF Q101_1=0 AND Q101_2=0 AND Q101_3=0 AND Q101_X=0 AND Q101_Y=1 <br>THEN Q101=99;
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-40-</i></p>
+      
+      <a name="appendix3"></a><hr width="75%">
+      <center>
+         <h2>Appendix 3: Data conversion formats and storage requirements</h2>
+      </center>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Platform</td>
+               <td colspan="1">Dataset Description <br>(Sept. 1993 Roper Report)
+               </td>
+               <td colspan="1">Storage Requirements (bytes)</td>
+               <td colspan="1">Percentage of Original</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">All platforms</td>
+               <td colspan="1">Original (column-binary)</td>
+               <td colspan="1">2858400</td>
+               <td colspan="1"></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">IBM PC datasets</td>
+               <td colspan="1">SAS dataset (full set of variables)</td>
+               <td colspan="1">19464984</td>
+               <td colspan="1">681</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS XPORT dataset (full set of variables)</td>
+               <td colspan="1">19144720</td>
+               <td colspan="1">670</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset with 4 byte integers (full set of variables)</td>
+               <td colspan="1">9978112</td>
+               <td colspan="1">349</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset with 3 byte integers (full set of variables)</td>
+               <td colspan="1">7528192</td>
+               <td colspan="1">263</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset (partial set of variables)</td>
+               <td colspan="1">8879360</td>
+               <td colspan="1">311</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS XPORT dataset (partial set of variables)</td>
+               <td colspan="1">8843760</td>
+               <td colspan="1">309</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset with 4 byte integers (partial set of variables)</td>
+               <td colspan="1">4571392</td>
+               <td colspan="1">160</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset with 3 byte integers (partial set of variables)</td>
+               <td colspan="1">3471616</td>
+               <td colspan="1">121</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Mainframe datasets</td>
+               <td colspan="1">SAS dataset (full set of variables)</td>
+               <td colspan="1">23347200</td>
+               <td colspan="1">817</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS XPORT dataset (full set of variables)</td>
+               <td colspan="1">19144720</td>
+               <td colspan="1">670</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS dataset (partial set of variables)</td>
+               <td colspan="1">11059200</td>
+               <td colspan="1">387</td>
+            </tr>
+            
+            <tr>
+               <td colspan="1"></td>
+               <td colspan="1">SAS XPORT dataset (partial set of variables)</td>
+               <td colspan="1">8843760</td>
+               <td colspan="1">309</td>
+            </tr>
+            
+         </table><br></p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-41-</i></p>
+      
+      <a name="appendix4"></a><hr width="75%">
+      <center>
+         <h2>Appendix 4: Programs to create spread ASCII datasets</h2>
+      </center>
+      
+      <p><i>Part one: The SAS Macro</i> <br>%INCLUDE 'j:\statlab\roper\data\spread.mac'; <br>* ALWAYS INDICATE FULL PATH &amp; DATASET NAME OF *; <br>* COLUMN-BINARY DATA (DSN=) AND THE FULL PATH *; <br>* &amp; DATASET NAME OF THE SPREAD DATA (OUT=) *; <br>* IN THE MACRO CALL *; <br>%SPREAD(DSN=h:\ssda\roper\reports\rprr9309\rprr9309.bin, <br>OUT=h:\ssda\roper\reports\rprr9309\rprr9309.spr); <br>RUN;
+      </p>
+      
+      <p><i>Part two: Read in column binary data, convert to ASCII; create data map showing new column locations</i> <br>%MACRO SPREAD(DSN=,OUT=); <br>OPTION ERRORS = 0; /* CHANGES INVALID DATA MESSAGES TO WARNINGS */ <br>OPTIONS NONUMBER NODATE; <br>options ps=58; <br>DATA _NULL_; <br>INFILE "&amp;DSN" lrecl=160 recfm=f; <br>FILE "&amp;OUT" lrecl=960 ; <br>length a $1; <br>DO i=1 TO 80; <br>INPUT @i A $CB1. @i row1 punch.1 <br>@i row2 punch.2 <br>@i row3 punch.3 <br>@i row4 punch.4 <br>@i row5 punch.5 <br>@i row6 punch.6 <br>@i row7 punch.7 <br>@i row8 punch.8 <br>@i row9 punch.9 <br>@i row10 punch.0 <br>@i row11 punch.11 <br>@i row12 punch.12 @; <br>PUT @(1+(12*(i-1))) (row1-row12) (1.) @; <br>END; <br>put; <br>options ls=80; <br>data _null_; <br>file print; <br>title DATA MAP FOR COLUMN-BINARY SPREAD DATA; <br>title3 NOTE: Rows 1-9,0,X,Y correspond to columns 1-12.; <br>put; put; put; <br>do i = 1 to 40; <br>col1 = 1 + (12*(i-1)); <br>col2 = 12 + (12*(i-1)); <br>col3 = 1 + (12*(40+i-1)); <br>col4 = 12 + (12*(40+i-1)); <br>cola = i; <br>colb = 40 + i; <br>put @1 "Column " cola 2. " maps to " col1 4. " through " col2 4. @; <br>put @41 "Column " colb 2. " maps to " col3 4. " through " col4 4. @; <br>put; <br>end;
+      </p>
+      
+      <p>run;</p>
+      
+      <p>%MEND;</p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-42-</i></p>
+      
+      <a name="appendix5"></a><hr width="75%">
+      <center>
+         <h2>Appendix 5: Data map for column binary spread data</h2>
+      </center>
+      
+      <p>NOTE: Rows 1-9,0,X,Y correspond to columns 1-12.</p>
+      
+      <p>Column 1 maps to 1 through 12 <br>Column 2 maps to 13 through 24 <br>Column 3 maps to 25 through 36 <br>Column 4 maps to 37 through 48 <br>Column 5 maps to 49 through 60 <br>Column 6 maps to 61 through 72 <br>Column 7 maps to 73 through 84 <br>Column 8 maps to 85 through 96 <br>Column 9 maps to 97 through 108 <br>Column 10 maps to 109 through 120 <br>Column 11 maps to 121 through 132 <br>Column 12 maps to 133 through 144 <br>Column 13 maps to 145 through 156 <br>Column 14 maps to 157 through 168 <br>Column 15 maps to 169 through 180 <br>Column 16 maps to 181 through 192 <br>Column 17 maps to 193 through 204 <br>Column 18 maps to 205 through 216 <br>Column 19 maps to 217 through 228 <br>Column 20 maps to 229 through 240 <br>Column 21 maps to 241 through 252 <br>Column 22 maps to 253 through 264 <br>Column 23 maps to 265 through 276 <br>Column 24 maps to 277 through 288 <br>Column 25 maps to 289 through 300 <br>Column 26 maps to 301 through 312 <br>Column 27 maps to 313 through 324 <br>Column 28 maps to 325 through 336 <br>Column 29 maps to 337 through 348 <br>Column 30 maps to 349 through 360 <br>Column 31 maps to 361 through 372 <br>Column 32 maps to 373 through 384 <br>Column 33 maps to 385 through 396 <br>Column 34 maps to 397 through 408 <br>Column 35 maps to 409 through 420 <br>Column 36 maps to 421 through 432 <br>Column 37 maps to 433 through 444 <br>Column 38 maps to 445 through 456 <br>Column 39 maps to 457 through 468 <br>Column 40 maps to 469 through 480
+      </p>
+      
+      <p>Column 41 maps to 481 through 492 <br>Column 42 maps to 493 through 504 <br>Column 43 maps to 505 through 516 <br>Column 44 maps to 517 through 528 <br>Column 45 maps to 529 through 540 <br>Column 46 maps to 541 through 552 <br>Column 47 maps to 553 through 564 <br>Column 48 maps to 565 through 576 <br>Column 49 maps to 577 through 588 <br>Column 50 maps to 589 through 600 <br>Column 51 maps to 601 through 612 <br>Column 52 maps to 613 through 624 <br>Column 53 maps to 625 through 636 <br>Column 54 maps to 637 through 648 <br>Column 55 maps to 649 through 660 <br>Column 56 maps to 661 through 672 <br>Column 57 maps to 673 through 684 <br>Column 58 maps to 685 through 696 <br>Column 59 maps to 697 through 708 <br>Column 60 maps to 709 through 720 <br>Column 61 maps to 721 through 732 <br>Column 62 maps to 733 through 744 <br>Column 63 maps to 745 through 756 <br>Column 64 maps to 757 through 768 <br>Column 65 maps to 769 through 780 <br>Column 66 maps to 781 through 792 <br>Column 67 maps to 793 through 804 <br>Column 68 maps to 805 through 816 <br>Column 69 maps to 817 through 828 <br>Column 70 maps to 829 through 840 <br>Column 71 maps to 841 through 852 <br>Column 72 maps to 853 through 864 <br>Column 73 maps to 865 through 876 <br>Column 74 maps to 877 through 888 <br>Column 75 maps to 889 through 900 <br>Column 76 maps to 901 through 912 <br>Column 77 maps to 913 through 924 <br>Column 78 maps to 925 through 936 <br>Column 79 maps to 937 through 948 <br>Column 80 maps to 949 through 960
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-43-</i></p>
+      
+      <a name="appendix6a"></a><hr width="75%">
+      <center>
+         <h2>Appendix 6: Roper Report documentation page 4 W/Y: <br>Question 10
+         </h2>
+      </center>
+      
+      <p>
+         <p align="center"><img src="images/appendix6a.gif"></p>
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-44-</i></p>
+      
+      <a name="appendix6b"></a><hr width="75%">
+      <center>
+         <h2>Appendix 6: Roper Report documentation page 4 W/Y: <br>Question 10
+         </h2>
+      </center>
+      
+      <p>
+         <p align="center"><img src="images/appendix6b.gif"></p>
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-45-</i></p>
+      
+      <a name="appendix6c"></a><hr width="75%">
+      <center>
+         <h2>Appendix 6: Roper Report documentation page 4 W/Y: <br>Question 10
+         </h2>
+      </center>
+      
+      <p>
+         <p align="center"><img src="images/appendix6c.gif"></p>
+      </p>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2006 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

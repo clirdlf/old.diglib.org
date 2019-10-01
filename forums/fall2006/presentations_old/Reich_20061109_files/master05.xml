@@ -1,0 +1,81 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="70"/>
+ </o:shapelayout><p:colorscheme
+  colors="#ffffff,#000000,#ffffff,#cc6600,#ffffcc,#b5e0e3,#e5d093,#ccb374"/>
+ <v:background id="_x0000_s71681" o:bwmode="white" fillcolor="white [0]"/>
+ <p:shaperange id="_x0000_s71682">
+  <v:rect id="_x0000_s71682" style='position:absolute;left:138pt;top:126pt;
+   width:582pt;height:414pt;mso-wrap-style:none;v-text-anchor:middle' o:bwmode="undrawn"
+   fillcolor="white [0]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [2]" angle="-135" focus="50%" type="gradient"/>
+   <v:shadow color="white [2]"/>
+  </v:rect></p:shaperange>
+ <p:shaperange id="_x0000_m71683">
+  <v:shapetype id="_x0000_m71683" style='position:absolute;left:2in;top:2in;
+   width:546pt;height:186pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]" opacity=".5"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="centerTitle"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m71684">
+  <v:shapetype id="_x0000_m71684" style='position:absolute;left:2in;top:5in;
+   width:546pt;height:102pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#ffc [4]" stroked="f"
+   strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="subTitle" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s71685">
+  <v:shapetype id="_x0000_s71685" style='position:absolute;left:42pt;top:498pt;
+   width:150pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="dateTime" position="2" size="half"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="3"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s71686">
+  <v:shapetype id="_x0000_s71686" style='position:absolute;left:252pt;top:498pt;
+   width:228pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="footer" position="3" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="4"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s71687">
+  <v:shapetype id="_x0000_s71687" style='position:absolute;left:540pt;top:498pt;
+   width:150pt;height:36pt;v-text-anchor:bottom' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#ffc [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [2]"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="slideNumber" position="4" size="quarter"/>
+   <p:tag name="___PPTMac11" type="binary" datasize="284" dataoffset="5"/>
+  </v:shapetype></p:shaperange>
+</xml>

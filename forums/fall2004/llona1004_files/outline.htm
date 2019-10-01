@@ -1,0 +1,691 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../llona1004.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL1>Exploring METS : a case
+  study using architectural images</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Eileen Llona, Marsha Maguire, Diana Brooking</li>
+   <br>
+   <br>
+   <li>University of Washington Libraries</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0019.htm');" id=PPTL2>Metadata for
+  architecture images</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>architecture image collections are complex</li>
+   <li>using flat system for metadata doesn’t work well for these types of
+       collections</li>
+   <li>need complex metadata in a structure that can accommodate complexity
+       (METS)</li>
+   <li>choice of appropriate schema(s) to use with METS</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL3>Background</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Russian architecture images</li>
+   <li>Some buildings extensively documented</li>
+   <li>Delmas Foundation funding to digitize, catalog and design interface for
+       1,200 representative images</li>
+   <li>This collection representative of other architecture collections</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL4>Single building, one
+  image, one view, one photo date</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0003.htm');" id=PPTL5>One building, many
+  images, multiple views, different photo dates</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL6>Architectural ensemble,
+  multiple buildings, multiple views</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL7>Diagram of one church
+  <br>
+    (works within a work)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0006.htm');" id=PPTL8>Polyhierarchy</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Image includes frescoes and iconostasis</li>
+   <li>Each considered a “work”: distinct artists, distinct date, distinct
+       styles</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL9>Sample record using
+  local tags</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>&lt;record&gt;</li>
+   <li>		&lt;title&gt;Church of Elijah the Prophet, interior, central crossing,
+       west piers, frescoes&lt;/title&gt;</li>
+   <li>		&lt;full&gt;TSerkov Ili Proroka (IAroslavl, IAroslavskaia
+       oblast,Russia)&lt;/full&gt;</li>
+   <li>		&lt;english&gt;Church of Elijah the Prophet (IAroslavl,
+       IAroslavskaiaoblast, Russia)&lt;/english&gt;</li>
+   <li>		&lt;common&gt;TSerkov Ili Proroka (IAroslavl, IAroslavskaia
+       oblast,Russia)&lt;/common&gt;</li>
+   <li>		&lt;complex/&gt;</li>
+   <li>		&lt;viewtype&gt;interior view&lt;/viewtype&gt;</li>
+   <li>		&lt;vieworientation&gt;east&lt;/vieworientation&gt;</li>
+   <li>		&lt;archdetail&gt;frescoes&amp;lt;br&amp;gt;drums
+       (walls)&amp;lt;br&amp;gt;piers (supporting elements)&lt;/archdetail&gt;</li>
+   <li>		&lt;location&gt;Russia (Federation)--IAroslavskaia
+       oblast--IAroslavl&lt;/location&gt;</li>
+   <li>		&lt;address&gt;Sovetskaia ploshchad&lt;/address&gt;</li>
+   <li>		&lt;date&gt;1647-1650&lt;/date&gt;</li>
+   <li>		&lt;begin&gt;1647&lt;/begin&gt;</li>
+   <li>		&lt;end&gt;1650&lt;/end&gt;</li>
+   <li>		&lt;architect&gt;Savin, Sila&amp;lt;br&amp;gt;Nikitin, Gurii, d.
+       1691&lt;/architect&gt;</li>
+   <li>		&lt;patron/&gt;</li>
+   <li>		&lt;notes&gt;Interior, west piers. Background: iconostasis, early 18th
+       century. The<span style='mso-spacerun:yes'>    </span>frescoes were
+       painted in 1680 under the supervision of Gurii Nikitin and Sila Savin.</li>
+   <li>Dates of restoration: In 1898-1902, cleaned by M. I. Dikarev; In
+       1955-60, cleaned by V. G. Briusova and A. I. Grekov&lt;/notes&gt;</li>
+   <li>		&lt;style/&gt;</li>
+   <li>		&lt;buildingtype&gt;churches&lt;/buildingtype&gt;</li>
+   <li>		&lt;materials&gt;brick&lt;/materials&gt;</li>
+   <li>		&lt;restoration&gt;1898&amp;lt;br&amp;gt;1955&lt;/restoration&gt;</li>
+   <li>		&lt;preservationstatus/&gt;</li>
+   <li>		&lt;contact/&gt;</li>
+   <li>		&lt;imageno&gt;1270&lt;/imageno&gt;</li>
+   <li>		&lt;contactinfo/&gt;</li>
+   <li>		&lt;copyright&gt;Brumfield, William Craft, 1944-&lt;/copyright&gt;</li>
+   <li>		&lt;photographer&gt;Brumfield, William Craft,
+       1944-&lt;/photographer&gt;</li>
+   <li>		&lt;photodate&gt;1995&lt;/photodate&gt;</li>
+   <li>		&lt;phototype&gt;35mm color slide&lt;/phototype&gt;</li>
+   <li>		&lt;imagemod/&gt;</li>
+   <li>		&lt;lastupdated&gt;1/28/2003 0:00:00&lt;/lastupdated&gt;</li>
+   <li>		&lt;category&gt;detail-interior&lt;/category&gt;</li>
+   <li>		&lt;keyentity/&gt;</li>
+   <li>		&lt;latitude&gt;57.64&lt;/latitude&gt;</li>
+   <li>		&lt;longitude&gt;39.87&lt;/longitude&gt;</li>
+   <li>		&lt;keyimage&gt;0&lt;/keyimage&gt;</li>
+   <li>		&lt;url&gt;http://content-dev.lib.washington.edu/brumfield/image/1045.JPG&lt;/url&gt;</li>
+   <li>	&lt;/record&gt;</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL10>Showing relationships
+  through the interface</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL11>Polyhierarchy</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Using METS and structMap to accommodate this situation</li>
+   <li>Each work described in the dmdSec; individual images can be linked in
+       more than 1 place in structMap</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL12>Catalog the building
+  (=work), not the images?</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL13>Automated mapping from
+  local tags to METS/VRA</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL14>Automated mapping from
+  local tags to METS/VRA</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0014.htm');" id=PPTL15>Manual creation of METS
+  record</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL16><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL17>Mapping across schemas</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0015.htm');" id=PPTL18>Using embedded schemas
+  to show relationships vs. using METS structMap to show relationships</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>	&lt;METS:dmdSec ID=&quot;dm1.1&quot;&gt;</li>
+   <li>	&lt;METS:mdWrap MDTYPE=&quot;VRA&quot;&gt;</li>
+   <li>	&lt;METS:xmlData&gt;</li>
+   <li>		&lt;vra:vra&gt;</li>
+   <li>		&lt;vra:record type=&quot;work&quot;&gt;</li>
+   <li>		&lt;vra:type authority=&quot;aat&quot;&gt;fences&lt;/vra:type&gt;</li>
+   <li>		&lt;vra:title&gt;Fence&lt;/vra:title&gt;</li>
+   <li>		&lt;vra:title type=&quot;largerEntity&quot;&gt;TSerkov Ili Proroka
+       (IAroslavl, IAroslavskaia oblast, Russia)&lt;/vra:title&gt;</li>
+   <li>		&lt;vra:material type=&quot;medium&quot;
+       authority=&quot;aat&quot;&gt;brick&lt;/vra:material&gt;</li>
+   <li>		&lt;vra:material type=&quot;medium&quot;
+       authority=&quot;aat&quot;&gt;wrought iron&lt;/vra:material&gt;</li>
+   <li>		&lt;vra:material type=&quot;medium&quot;
+       authority=&quot;aat&quot;&gt;ceramic&lt;/vra:material&gt;</li>
+   <li>		&lt;vra:description&gt;The iron fence and brick fenceposts, ornamented
+       with inlaid ceramic medallions, were designed by A.M. Pavlinov and
+       constructed over two centuries after the initial construction of the
+       main church building. &lt;/vra:description&gt;</li>
+   <li>		&lt;/vra:record&gt;</li>
+   <li>		&lt;/vra:vra&gt;</li>
+   <li>	&lt;/METS:xmlData&gt;</li>
+   <li>	&lt;/METS:mdWrap&gt;</li>
+   <li>	&lt;/METS:dmdSec&gt;</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master03.htm></a><a href=master03.xml></a><a
+href=preview.wmf></a><a href=pres.xml></a><a href=slide0018.htm></a><a
+href=slide0019.htm></a><a href=slide0022.htm></a><a href=slide0002.htm></a><a
+href="slide0002_image001.png"></a><a href="slide0002_image002.jpg"></a><a
+href=slide0003.htm></a><a href="slide0003_image003.jpg"></a><a
+href="slide0003_image004.jpg"></a><a href="slide0003_image005.jpg"></a><a
+href="slide0003_image006.jpg"></a><a href="slide0003_image007.jpg"></a><a
+href="slide0003_image008.jpg"></a><a href="slide0003_image009.jpg"></a><a
+href="slide0003_image010.jpg"></a><a href="slide0003_image011.jpg"></a><a
+href="slide0003_image012.jpg"></a><a href="slide0003_image013.jpg"></a><a
+href="slide0003_image014.jpg"></a><a href="slide0003_image015.jpg"></a><a
+href="slide0003_image016.jpg"></a><a href=slide0004.htm></a><a
+href="slide0004_image017.png"></a><a href="slide0004_image018.jpg"></a><a
+href="slide0004_image019.png"></a><a href="slide0004_image020.jpg"></a><a
+href="slide0004_image021.png"></a><a href="slide0004_image022.jpg"></a><a
+href="slide0004_image023.png"></a><a href="slide0004_image024.jpg"></a><a
+href="slide0004_image025.png"></a><a href="slide0004_image026.jpg"></a><a
+href="slide0004_image027.gif"></a><a href="slide0004_image028.gif"></a><a
+href="slide0004_image029.gif"></a><a href="slide0004_image030.gif"></a><a
+href=slide0016.htm></a><a href="slide0016_image031.png"></a><a
+href="slide0016_image032.jpg"></a><a href=slide0006.htm></a><a
+href="slide0006_image033.jpg"></a><a href="slide0006_image034.jpg"></a><a
+href=slide0009.htm></a><a href="slide0009_image035.gif"></a><a
+href="slide0009_image036.gif"></a><a href="slide0009_image037.gif"></a><a
+href="slide0009_image038.gif"></a><a href="slide0009_image039.gif"></a><a
+href="slide0009_image040.gif"></a><a href=slide0011.htm></a><a
+href="slide0011_image041.png"></a><a href="slide0011_image042.jpg"></a><a
+href="slide0011_image043.png"></a><a href="slide0011_image044.jpg"></a><a
+href="slide0011_image045.png"></a><a href="slide0011_image046.jpg"></a><a
+href="slide0011_image047.png"></a><a href="slide0011_image048.jpg"></a><a
+href=slide0012.htm></a><a href="slide0012_image049.jpg"></a><a
+href=slide0020.htm></a><a href="slide0020_image050.gif"></a><a
+href="slide0020_image051.gif"></a><a href="slide0020_image052.gif"></a><a
+href="slide0020_image053.gif"></a><a href="slide0020_image054.gif"></a><a
+href="slide0020_image055.gif"></a><a href="slide0020_image056.gif"></a><a
+href="slide0020_image057.gif"></a><a href="slide0020_image058.gif"></a><a
+href="slide0020_image059.gif"></a><a href="slide0020_image060.gif"></a><a
+href="slide0020_image061.gif"></a><a href="slide0020_image062.gif"></a><a
+href="slide0020_image063.gif"></a><a href=slide0007.htm></a><a
+href="slide0007_image064.png"></a><a href="slide0007_image065.gif"></a><a
+href="slide0007_image066.gif"></a><a href=slide0008.htm></a><a
+href="slide0008_image067.png"></a><a href="slide0008_image068.gif"></a><a
+href="slide0008_image069.gif"></a><a href=slide0014.htm></a><a
+href="slide0014_image070.png"></a><a href="slide0014_image071.gif"></a><a
+href=slide0021.htm></a><a href=slide0013.htm></a><a
+href="slide0013_image072.wmz"></a><a href="slide0013_image073.gif"></a><a
+href=slide0015.htm></a><a href="slide0015_image074.gif"></a><a
+href="slide0015_image075.gif"></a><a href=master01.htm></a><a
+href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../llona1004.htm"></a><a href=fullscreen.htm></a><a href="notes_flag.gif"></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

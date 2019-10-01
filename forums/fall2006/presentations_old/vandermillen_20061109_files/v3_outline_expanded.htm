@@ -1,0 +1,1580 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../vandermillen_20061109.htm">
+
+<script>
+<!--
+if( window.name != "PPTOtl" )
+  parent.location.href = "../vandermillen_20061109.htm";
+//-->
+</script>
+<meta name=Robots content=NoIndex>
+</head>
+
+<body bgcolor=white alink=black link=black vlink=black text=black>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0105.htm');">Virtual Collections</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Challenges in Harvesting and
+  Transforming Metadata from Harvard Catalogs for Topical Collections</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Michael Vandermillen, Randy
+  Stern<span style='mso-spacerun:yes'>   </span>Harvard University</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0106.htm');">Overview</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>What is the Virtual Collections
+  Service?</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Creating A Virtual Collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Architecture</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Implementation Challenges</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0107.htm');">What is the <br>
+Virtual Collections Service?</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0108.htm');">Virtual Collections Is …</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>A library service that allows Harvard
+  curators, librarians and archivists to create a web-based collection view of
+  thematically related resources which<span style='mso-spacerun:yes'> 
+  </span>exist in a number of systems or within a single system.</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0109.htm');">Features of VC</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Scheduled harvesting of
+  metadata from HOLLIS (OPAC), VIA (Visual Information Access) and Harvard
+  Geospatial Library</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Web-based search, browse, and
+  display interface; short and full record views</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Search results include
+  thumbnails and links to digital objects</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Flexible configuration</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>“Out of the box” stand alone
+  public interface</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>“Embedded” option for
+  integrating into web sites, such as Harvard Open Collections sites</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0110.htm');">Virtual Collections is
+not…</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>A new catalog – records must
+  exist in another catalog</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>A repository for digital
+  objects</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>A platform for short term,
+  non-”library-like” projects</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0112.htm');">A stand alone collection</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Latin American Pamphlets</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0113.htm');">Slide 8</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0114.htm');">Slide 9</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0115.htm');">Slide 10</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0116.htm');">Slide 11</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0117.htm');">Slide 12</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0118.htm');">Slide 13</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0119.htm');">Slide 14</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0135.htm');">Slide 15</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0134.htm');">Slide 16</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0120.htm');">Slide 17</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0121.htm');">Slide 18</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0122.htm');">An Integrated Virtual
+Collection</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Harvard Open Collections
+  Program “Women Working”</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0123.htm');">Slide 20</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0124.htm');">Slide 21</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0125.htm');">Slide 22</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0136.htm');">Slide 23</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0126.htm');">Slide 24</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0127.htm');">Slide 25</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0137.htm');">&quot;Creating a Virtual
+Collection&quot;</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Creating a Virtual Collection</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0128.htm');">Creating a Virtual
+Collection</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Step 1. Define the collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Step 2. Define the look and
+  feel requirements</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Step 3. Harvest metadata
+  records</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Step 4. Add categories
+  (optional)</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0129.htm');">Step 1: Define the
+Collection</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>What materials from HOLLIS,
+  VIA, and/or HGL are to make up the collection?</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Is additional cataloging
+  required in the primary catalog?</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'> </span>Do digital versions of any of the objects
+  need to be created?</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Will any VC-specific subject
+  terms (“categories”) be added to the collection?</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0138.htm');">Step 2: Define the Look
+and Feel Requirements</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>Curator selects an
+  implementation option:</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Stand-alone – minimal work</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Data and public “skin” (custom
+  banner, background colors, footer, menu links, home page text) hosted by VC</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Integrated – look and feel</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Data hosted by VC; public
+  “skin” styled and hosted locally</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Setup and maintenance under
+  curator’s control</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Both options offer the same
+  search, browse, and record display features</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0130.htm');">Step 3: Harvest Metadata
+Records</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Sources: HOLLIS OPAC, VIA,
+  Harvard Geospatial Library</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Curator creates a “harvest
+  file”</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Curator FTPs the harvest file
+  to a dropbox; records harvested overnight</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Automatic weekly harvesting
+  picks up changes in source cataloging</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0131.htm');">Step 4: (Optional) Add
+Categories to Records</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Categories are optional
+  subject-like terms added to records in VC</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>They supplement but do not
+  replace subject terms from the source system</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>They are created using the VC
+  Web Maintenance Interface to a collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>They can be searched and
+  browsed</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0132.htm');">Benefits of Virtual
+Collections</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Minimal setup time for</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>	a fully functional web</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>	based collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Centrally supported
+  infrastructure – 24x7 support</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Have our cake and eat it too</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Capitalize on central
+  cataloging</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Automated sync with catalog
+  updates</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Multiple contexts for discovery
+  (union catalog and virtual collection)</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0133.htm');">Current Collections</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Latin American Pamphlets <br>
+    (Harvard College Library Latin American Collection) (3500 records)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Immigration to the United
+  States, 1789-1930</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	(Harvard University Library
+  Open Collections Program) (8400 records)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Women Working <br>
+    (Open Collections Program) (4200 records)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Studies in Scarlet</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	(Harvard Law Library;
+  upcoming)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0016.htm');">How Virtual Collections
+Work<br>
+and Some Implementation Challenges</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0011.htm');">VC Architecture</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0050.htm');">VC Technologies</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Java 1.4 (Servlets, JSPs)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Struts framework</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Tomcat 4.1 (Servlet engine)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Tamino Native XML database</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>XML Schema</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>XSLT</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>OAI-PMH (OAICAT – OCLC)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>MODS (Metadata Object
+  Description Schema)</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0039.htm');">Harvesting: OAI-PMH</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Harvester uses GetRecord verb</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>verb=GetRecord&amp;identifier=HVD01-002223743&amp;
+  metadataPrefix=marc21</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>HOLLIS:	Data Provider from
+  ExLibris</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>VIA:	Custom Data Provider</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>HGL:	Custom Data Provider</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0051.htm');">Slide 38</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0052.htm');">Slide 39</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0053.htm');">Harvesting Challenges</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Aleph OAI provider lacks
+  holdings info</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Add holdings fields using
+  XServer</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;oai_marc&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>...</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>&lt;varfield id=&quot;856&quot;
+  i1=&quot;4&quot; i2=&quot;1&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;u&quot;&gt;http://nrs.harvard.edu/urn-3:RAD.SCHL:159598&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;z&quot;&gt;Provides access to page images of entire
+  work&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;/varfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;varfield id=&quot;852&quot;
+  i1=&quot;7&quot; i2=&quot;&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;2&quot;&gt;ZHCL&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;b&quot;&gt;WID&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;c&quot;&gt;HD&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  label=&quot;h&quot;&gt;SG 1690.3&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;/varfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>...</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>&lt;/oai_marc&gt;</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0056.htm');">Harvesting Challenges</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Local subjects in MARC records</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>600/650 -&gt; MODS:subject</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;datafield tag=&quot;650&quot;
+  ind1=&quot;&quot; ind2=&quot;0&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		&lt;subfield
+  code=&quot;a&quot;&gt;Cycling.&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;/datafield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>690 -&gt; VC:subject</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;datafield tag=&quot;690&quot;
+  ind1=&quot;&quot; ind2=&quot;9&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	<span
+  style='mso-spacerun:yes'>    </span>&lt;subfield code=&quot;a&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		Conduct of life; Education;
+  Living 	conditions; Dress; Health; Recreation.</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	<span
+  style='mso-spacerun:yes'>    </span>&lt;/subfield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;/datafield&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0057.htm');">Harvesting Challenges</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Seeding and refreshing a
+  collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Aleph report for HOLLIS record
+  id</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Custom query tool for VIA
+  record id generation (future)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0049.htm');">Metadata Mapping: Crosswalks/XSL</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0054.htm');">Slide 44</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0055.htm');">Slide 45</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0097.htm');">Slide 46</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0035.htm');">Metadata Mapping</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>MARC and VIA to MODS</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0065.htm');">Metadata Mapping</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0041.htm');">Metadata Mapping: MODS</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>Why MODS</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Richer metadata than qualified
+  Dublin Core</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Clean mapping from both MARC
+  and VIA to MODS</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Supports hierarchical VIA (and
+  MARC) records</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>VIA</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;surrogate
+  componentID=&quot;olvsurrogate299383&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'> 
+  </span>&lt;title&gt;&lt;textElement&gt;Total&lt;/textElement&gt;&lt;/title&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;/surrogate&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>MODS</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'> </span>&lt;relatedItem
+  type=&quot;constituent&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  
+  </span>&lt;titleInfo&gt;&lt;title&gt;Total&lt;/title&gt;&lt;/titleInfo&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  
+  </span>&lt;recordInfo&gt;&lt;recordIdentifier&gt;olvsurrogate299383</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>   </span>&lt;/recordIdentifier&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>   </span>&lt;/recordInfo&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'> </span>&lt;/relatedItem&gt;</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0098.htm');">Slide 50</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0042.htm');">Metadata Mapping: Schema
+Definition</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Virtual Collections Schema</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>One primary schema for all
+  collections</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;virtualCollection&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;xs:import schemaLocation =
+  &quot;mods.xsd“/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;xs:import schemaLocation=“VC_subject.xsd“/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'> </span>&lt;xs:element name = &quot;virtualCollection&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>    </span>&lt;xs:complexType&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>      </span>&lt;xs:sequence&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&nbsp; &lt;xs:element
+  name=&quot;modsGroup&quot; ref=&quot;MODS:mods&quot; /&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>&nbsp; 		<span
+  style='mso-spacerun:yes'>   </span>&lt;xs:element name=&quot;vcSubj&quot;
+  ref=&quot;VC:subject&quot; …/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>&nbsp; 		<span
+  style='mso-spacerun:yes'>   </span>&lt;xs:element name=&quot;admSection&quot;
+  ref=&quot;admin&quot; /&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>		&lt;/xs:sequence&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>    </span>&lt;/xs:complexType&gt;</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0140.htm');">Metadata Mapping: Schema
+Definition</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Local Subject schema for each
+  collection</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2><span
+  style='mso-spacerun:yes'> </span>&lt;xs:element name=&quot;subject&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;xs:simpleType&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>      </span>&lt;xs:restriction
+  base=&quot;xs:string&quot;&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&lt;xs:enumeration value=&quot;African
+  American&quot;/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&lt;xs:enumeration value=&quot;Aged
+  women&quot;/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&lt;xs:enumeration value=&quot;Agricultural
+  work&quot;/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&lt;xs:enumeration
+  value=&quot;Anarchism&quot;/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2><span
+  style='mso-spacerun:yes'>        </span>&lt;xs:enumeration
+  value=&quot;Artists&quot;/&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>		…</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>	&lt;/xs:restriction&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;/xs:simpleType&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>&lt;/xs:element&gt;</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0101.htm');">Slide 53</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0059.htm');">Metadata Mapping:
+Challenges</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Multiple transforms</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Original form MARC or MODS
+  wrapped in OAI elements</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Final XML record form is MODS +
+  ADMIN + VC Subjects</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0044.htm');">Storage of Metadata</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>Tamino native XML database</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>Schema(s) defined within Tamino</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>XQuery (W3C standard) used to
+  query database for results</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=3><font face=Arial size=2>Challenges</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Native XML DBs not as mature as
+  relational</font></td>
+ </tr>
+ <tr>
+  <td colspan=3></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Tamino just now catching up
+  with full implementation of XQuery</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Scaling as number and size of
+  collections grow</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0045.htm');">User Interface and
+Customization</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Challenge: provide an
+  out-of-the-box option and customizable option for collections</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Different needs for different
+  collections</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Solution: Standalone and
+  Integrated</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Default XSL and CSS templates
+  for standalone</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Override default templates with
+  custom XSL and/or CSS for integrated collections</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0046.htm');">User Interface:
+Stylesheets</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>XSL used to render XML to HTML</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>MODS XML</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>&lt;subject&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2><span
+  style='mso-spacerun:yes'>    </span>&lt;topic&gt;bicycles&lt;/topic&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2><span
+  style='mso-spacerun:yes'>  </span>&lt;/subject&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>		<span
+  style='mso-spacerun:yes'>   </span>&lt;div&gt;Subject&lt;/div&gt;&lt;div&gt;bicycles&lt;/div&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>CSS used to render “look and
+  feel”</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>(true of Standalone as well as
+  Integrated)</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;div style=“label”&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&lt;div style=“field”&gt;</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0070.htm');">User Interface:
+Stylesheets</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Custom XSL (and CSS) passed as
+  url parameters to overwrite default templates</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>XSL</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&amp;baseUrl=http://defaultUrl&amp;resultSetXsl=defaultRS.xsl</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&amp;baseUrl=http://customUrl&amp;resultSetXsl=customRS.xsl</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>CSS</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>&amp;baseUrl=http://customUrl&amp;css=custom.css</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0071.htm');">Slide 59</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0099.htm');">Slide 60</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0100.htm');">Slide 61</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0047.htm');">User Interface: Local
+Subjects</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width=20 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Challenge: how to
+  separate/integrate Local and MODS subjects</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Hardest issue to reach
+  concensus on</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=2><font face=Arial size=2>Solution</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Local subjects optional</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Local and MODS subjects
+  integrated for KW search as well as browse</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Optional local subject dropdown
+  on search screen</font></td>
+ </tr>
+ <tr>
+  <td colspan=2></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>MODS and Local subjects separated
+  in Full Record display</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0103.htm');">Slide 63</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0104.htm');">Slide 64</a></b></font></p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0066.htm');">User Interface: Mapping</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Challenge: consensus on fields
+  and labeling</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0030.htm');">VC Future Developments</a></b></font>
+
+<table>
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>OAI Data Provider for VCs (this
+  year)</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Portfolio function</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Ability to harvest from other
+  Harvard catalogs</font></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td dir=ltr colspan=1><font face=Arial size=2>Ability to search multiple
+  virtual collections</font></td>
+ </tr>
+</table>
+
+</p>
+
+<p><font face=Arial size=2><b><a
+href="javascript:parent.GoToSld('v3_slide0031.htm');">Questions?</a></b></font></p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

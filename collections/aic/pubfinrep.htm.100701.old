@@ -1,0 +1,1068 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="Final report of a planning process for the Academic Image
+Exchange (now the Academic Image Cooperative) Prototype" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>Final report of a planning process for the Academic Image
+Exchange (now the Academic Image Cooperative) Prototype</title>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "/../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+ <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form>
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+
+
+<h1 class="sectionhead">Final report of a planning process for the Academic Image
+Exchange (now the Academic Image Cooperative) Prototype. A
+digital image resource for students, teachers, and scholars of
+The History of Art and related disciplines</h1>
+
+
+
+<p>Based on a document submitted to The Andrew W. Mellon
+Foundation on 20 August 2000 on behalf of the project Executive
+Committee.</p>
+
+<p>D Greenstein<br />
+30 October 2000</p>
+
+<center>
+<h3>Table of Contents</h3>
+</center>
+
+<ol>
+<li><a href="#exsum">Executive summary</a></li>
+
+<li><a href="#origin">Origin. The Academic Image
+Exchange</a></li>
+
+<li><a href="#evolution">Evolution. The Academic Image
+Cooperative</a></li>
+
+<li><a href="#next">Next steps</a></li>
+
+<li>Statement of expenditure (intentionally omitted here)</li>
+
+<li>Appendices 
+
+<ul>
+<li>Appendix A. AIC business plan (intentionally omitted
+here)<br />
+</li>
+
+<li><a href="appb.gif">Appendix B. AIC Prototype entity
+model</a><br />
+</li>
+
+<li>Appendix C. Features of the AIC prototype system<br />
+</li>
+
+<li><a href="appd.htm">Appendix D. Executive Committee, advisory
+and review groups</a><br />
+</li>
+
+<li><a href="appe.htm">Appendix E. Technical standards and
+guidelines for image contributors</a><br />
+</li>
+
+<li><a href="appf.htm">Appendix F. Distribution services.
+Functional specification</a><br />
+</li>
+
+<li><a href="appg.htm">Appendix G. Draft collection strategy and
+development framework</a><br />
+</li>
+
+<li>Appendix H. Shared cataloguing tool (forthcoming
+shortly)<br />
+</li>
+
+<li>Appendix I. Statement of expenditure and estimated future
+costs (intentionally omitted here)</li>
+</ul>
+</li>
+</ol>
+
+<h3><a id="exsum" name="exsum"></a>1. Executive summary</h3>
+
+<p>This document reports on a planning process for the Academic
+Image Exchange (AIE) Prototype - a process intended to develop a
+scaleable database of curriculum-based digital images to be used
+for teaching the history of art. In the course of the planning
+process, the project changed its name (to the Academic Image
+Cooperative or AIC - a name used throughout this documentation
+for consistency), constructed the prototype, and created a
+framework for a service capable of launching and sustaining an
+unparalleled and comprehensive scholarly resource that will
+promote innovation in research, learning, and teaching in the
+history of art and other arts and humanities disciplines that
+depend fundamentally upon the use of visual resources as
+evidence.</p>
+
+<p>The planning process is still in train. With support from the
+Digital Library Federation, the AIC continues to assemble the
+remaining operational details that are required to launch a fully
+operational image service. Details are available below in Section
+4, Next steps. This report is therefore a snapshot of ongoing
+activity. As such, it takes pains to distinguish between the work
+that has been completed and that which is still underway.</p>
+
+<h3><a id="origin" name="origin"></a>2. Origin. The Academic
+Image Exchange</h3>
+
+<p>As originally envisaged, the AIC was intended as a
+web-accessible database of public domain and copyright cleared
+visual image resources distributed freely or at the lowest
+possible price compatible with creation of an ongoing service,
+for bona fide educational use.</p>
+
+<h4>2.1. AIC Collection</h4>
+
+<p>The collection includes image resources that make up the
+"concordance core" - defined as the roughly 2,300 art historical
+objects represented in two or more of the ten leading art
+historical text books - and is intended principally to support
+teaching art history survey courses. Collection building was
+intended as a community exercise. Visual resource professionals
+and art historians, the hypothesis ran possess images in the
+public domain or which they hold copyright (many such individuals
+are themselves exceptional photographers). Further, initial
+soundings among members of relevant professional communities
+indicated a willingness to contribute images to a community
+resource that promised to serve a common educational good.</p>
+
+<ul>
+<li><i>Achievement</i>: The AIC has assembled a concordance for
+the ten leading textbooks with brief information about the art
+historical works that appear in two or more texts (including
+descriptions of the works as well as their location within
+texts).
+
+<p></p>
+</li>
+
+<li><i>Achievement</i>: The AIC has assembled a collection of
+about 2,000 TIFF images that relate meaningfully to the
+concordance core. At present, approximately 800 precisely
+matching the concordance core, have been processed by Yale
+University to AIC standards. 
+
+<p></p>
+</li>
+
+<li><i>Achievement</i>: Brief descriptive records are available
+for all 2,000 of the TIFF images and indeed, for all works within
+the concordance core. 
+
+<p></p>
+</li>
+
+<li><i>In process</i>: The remaining 1,200 TIFF images in
+possession of the AIC are being processed at the University of
+Michigan, The entire corpus should be in fully processed form by
+January 2001. 
+
+<p></p>
+</li>
+
+<li><i>In process</i>: Full descriptive records (conforming to
+the Core Categories as recommended by the Visual Resource
+Assocation - <a
+href="http://www.gsd.harvard.edu/~staffaw3/vra/vracore3.htm">VRA
+Core, version 3.0</a>) are being developed for the 2,000 TIFF
+images in the possession of the AIC and for works in the entire
+concordance core. Full records will be available early in
+2001.</li>
+</ul>
+
+<h4>2.2. AIC prototype system</h4>
+
+Developing the functional equivalent of the traditional slide
+library and making this functionality available via the web to
+individuals and institutions with access to only standard
+web-browsing software was a further aim. The prototype was
+intended, for example, to support via most web-browsers a range
+of basic search and retrieval functions as well as image
+sequencing and side-by-side views as essential to their
+presentation for teaching and learning purposes. It was also
+intended to allow the user to navigate images with references to
+the hierarchy of art historical works as represented in the
+source textbooks. 
+
+<ul>
+<li><i>Achievement</i>: The AIC developed an entity model to
+support its intended features. This entity model is available in
+<a href="appb.gif">Appendix B</a>.
+
+<p></p>
+</li>
+
+<li><i>Achievement</i> : The AIC developed a prototype supplying
+the functionality discussed above. Appendix C uses screen dumps
+to introduce the prototype and its features. 
+
+<p></p>
+</li>
+
+<li><i>In process</i>: The AIC is developing a metadata model
+that conforms to the Core Categories recommended by the Visual
+Resources Association in the recently published version 3.0. The
+model will be available by the end of November 2000.</li>
+</ul>
+
+<p></p>
+
+<h4>2.3. Community building</h4>
+
+Regular expert assessment and evaluation was an inherent part of
+the planning, system design, collection building, and business
+planning. The AIC has been steered by an Executive Committee and
+guided by informal advisory and technical groups. The groups
+included representatives of key user communities (art historians,
+visual resource professionals, scholarly organizations,
+universities, colleges, independent scholars, etc.). In addition,
+the planning process was punctuated by expert workshops convened
+to review progress and shape developmental trajectories and
+priorities. The prototype itself was demonstrated at key
+professional meetings whose participants were invited through
+question-and-answer sessions, exhibitor demonstrations, and
+personal follow-up correspondence to reflect on various aspects
+of the prototype and its aims. Finally, the AIC has maintained a
+web site through the DLF (<a
+href="aic.htm">http://diglib.isproductions.net/collections/aic.htm</a>)
+where information about it and the text of a printed promotional
+flyer ( <a
+href="aic.pdf">(http://diglib.isproductions.net/collections/aic/aic.pdf</a>)
+are made available and kept up to date. <a
+href="appd.htm">Appendix D</a> supplies the names and
+institutional affiliations of those who have participated on the
+Executive Committee and the advisory and technical groups. It
+also lists expert workshops (with pointers to supporting
+documentation) and public presentations. 
+
+<ul>
+<li><i>Achievement</i>: The AIC has developed a community of
+professionals that take a deep and meaningful interest in and
+help inform and review its activities. That community continues
+to inform the AIC's further development. 
+
+<p></p>
+</li>
+
+<li><i>Achievement</i>: The AIC has secured the ongoing
+sponsorship of the College Art Association, the principal
+professional organization of artists and art historians. CAA also
+plays a significant advocacy role in the public policy arena,
+having played an activist role in discussions of copyright and
+digital images. CAA is itself a scholarly publisher with close
+ties to trade and university publishers in the art history field,
+and has facilitated discussions between these publishers and the
+AIC. 
+
+<p></p>
+</li>
+
+<li><i>Achievement</i>: The AIC has secured expressions of
+support from the Visual Resources Association, whose membership
+is crucial to the AIC's success.</li>
+</ul>
+
+<p></p>
+
+<h3><a id="evolution" name="evolution"></a>3. Evolution. The
+Academic Image Cooperative</h3>
+
+<p>As of February 2000 the AIC met all its original objectives.
+It then exceeded them as it turned attention in March 2000 to
+defining and documenting the policies, practices, and business
+strategies that could sustain the AIC while developing its
+collections to include images outside the concordance core. The
+focus on business planning was a direct response to public
+evaluation and assessment of the AIC prototype as demonstrated at
+the College Art Association's 2000 annual meeting and at other
+professional gatherings (<a href="appd.htm">Appendix D</a>).
+Feedback encouraged numerous changes to the prototype's look and
+feel as was expected. It also suggested reconsideration of some
+of the AIC's founding assumptions as enumerated below.</p>
+
+<h4>3.1. Commercial assumptions</h4>
+
+<p>The AIC rested on an assumption that its cost profile would
+start out high as the concordance core and the online service
+capacity were developed and then diminish precipitously as
+development work shifted into more of a maintenance mode. It was
+also assumed from the outset that while external support would be
+essential at startup, the AIC would have to be self-sustaining
+over the long run. The engagement of the art historical and
+visual resource communities was seen as the principal mechanism
+for achieving sustainability. Collections would grow at little or
+no cost through individual and corporate community contributions
+of images and data; volunteer domain specialists identified by
+CAA would ensure the quality of these contributions and
+legitimize the AIC collections in the eyes of scholars; the
+effort of image processing and cataloging (all to AIC standards)
+would be distributed, wherever possible, to contributors; and the
+proposed use of open standards (XML) for delivery would reduce
+the AIC's need to create end-user tools and enhance the end
+user's ability to use local tools to deliver AIC content. It was
+equally evident, however, that the AIC would have to be a
+centralized service to some extent, with staff for (re)cataloging
+and (re)processing images, communicating with contributors and
+subscribers, and marketing and delivering the service. The
+project team imagined that this centralized service might most
+economically be aligned with a large educational institution or
+professional organization, especially an institution for which
+the AIC would represent an opportunity to accelerate a "switch"
+from analog to digital already envisioned.</p>
+
+<p>These assumptions were fundamentally challenged, not because
+they are erroneous, but because participants in AIC presentations
+and focus groups emphasized their need for well-managed, richly
+documented collections of consistently high-quality digital
+images and their skepticism that minimally processed
+community-evolved collections were likely to possess these
+traits. Respondents also recognized the costs involved in the
+development of high-quality collections and almost universally
+stressed a preference for paid access to such collections over
+free access to collections that were more "serendipitously"
+derived. Driven in part by its respondents' needs but also by the
+knowledge of costs incurred in documenting, processing, and
+creating a prototype delivery system for a relatively small image
+set supplied by only three contributors, the project team began
+to consider subscription-based models for supporting its
+activities, and a more managed approach to the collection
+development beyond the prototype phase.</p>
+
+<h4>3.2. Collection scope</h4>
+
+Visual resource professionals, art historians, as well as
+scholars in other arts and humanities disciplines repeatedly
+stressed the value of the kind of online image resource the AIC
+was proposing. Indeed, they wanted much more in the way of
+collections than the AIC was prepared initially to offer.
+Demonstrations of the concordance core inevitably provoked
+questions from specialists who wanted to know how their
+particular interests (e.g., in Americana, in Southeast Asian art,
+classical art and archaeology, or in architecture of the European
+Renaissance) would be supported by the AIC. In addition, it
+provoked offers from individuals and institutions acting as
+custodians of more specialized image collections and who were
+willing in principle to consider contributing these to the AIC.
+In response, the project team returned to the idea of the
+concordance core as merely a starting point for collection
+development - a hub comprising one or even several instances of
+representative art historical works around which whole new
+collections could be developed. Maintaining its emphasis on
+coherent collections meeting definable educational needs, it
+expanded its vision again to include numerous coherent
+collections, sequentially developed and launched, adding scope to
+the AIC through addition but also depth, for example, through the
+cross-collection searching that would become available. A vision
+of phased addition of coherent collections also underpins the
+marketing model and pricing strategy as represented in the
+business plan. 
+
+<h4>3.3. Service development</h4>
+
+The AIC initially envisaged a single initial collection (the
+concordance core) supported and developed through three online
+services (online access to the core, a shared cataloguing tool,
+and an image exchange that allowed individuals to upload digital
+image content directly into the online corpus as well as to
+download images for local use). Demonstration and review revealed
+considerable skepticism about the image exchange, while shared
+cataloguing efforts were postponed until work on the prototype
+collection and image delivery service was completed (see Section
+4.4. below). Just as some service development aspirations were
+tabled or put on hold, other new ones were introduced. Indeed,
+public review and evaluation revealed demand for a far richer
+range of services that, if included in some phased development
+path, would diversify the AIC's revenue streams while enhancing
+its collections. Services are described in detail in the business
+plan where the shared cataloguing tool is re-introduced as a key
+feature of the AIC service at launch. Additional services may be
+included in some phased development. 
+
+<h4>3.4. Collection strategy</h4>
+
+The AIC was launched with the view that a collection could be
+developed on the basis of images contributed by individuals to
+fill needs identified on widely publicized want lists that were
+themselves constructed by subject experts and other domain
+specialists. Where the concordance core was concerned, the AIC
+was fortunate enough to find a significant number of the
+requisite 2,300 images in personal collections. Even with this
+initial jumpstart, this mode of collection development proved to
+be slow and cumbersome. There are, for example, uncertainties
+that surround the copyright status of images contributed by
+individuals, some of whom may not be abreast of copyright law and
+its implications. At the same time, as the AIC began to broaden
+its collection scope beyond the concordance core, it began to
+identify wholly coherent collections managed by single
+institutions, and potentially available for inclusion. While
+maintaining a want list function, therefore, the AIC's principal
+collection development strategy will rely more on expert advisory
+groups that define collection priorities in reference to data on
+research and teaching needs and market potential, and help to
+select images to assemble priority collections. This more managed
+and strategic approach to collection development does not
+necessarily assume a centralized structure for receipt and
+processing of digital images. It does necessitate in-house
+technical standards to guide image production and guidelines for
+those interested in contributing to the AIC. These are supplied
+in <a href="appe.htm">Appendix E</a>. 
+
+<h4>3.5. Distribution model</h4>
+
+Reflecting, in part, the catholic membership of the College Art
+Association, the AIC initially envisaged a distribution model
+that focused entirely on web-based services accessible to
+individuals and institutions with very different levels of
+computing infrastructure and support. Early on it realized the
+importance of supporting the growing number of institutions that
+have interest in and capacity for locally managed image services.
+Consequently, the AIC has adopted a stratified approach. It will
+make its collections available online and by distribution (with
+periodic updates) on portable media. The functional
+specifications for both distribution paths is supplied in <a
+href="appf.htm">Appendix F</a>. 
+
+<h4>3.6. Service platform</h4>
+
+The AIC set out to develop application software that would supply
+the full range of web-based access services envisaged for the
+prototype using open standards (XML) in order to reduce the AIC's
+need to create end-user tools while enhancing the end user's
+ability to use local tools to deliver AIC content. The software
+was developed by Carnegie Mellon University under contract to the
+AIC. It supplied a large subset of the AIC's specified access
+features via a suite of Open Source XML files with a configurable
+API that allows underlying image and data content to be stored in
+and retrieved from virtually any web-accessible database
+software. 
+
+<p>The software served the AIC's purposes through its public
+demonstrations (a feature description is supplied in Appendix C)
+but was rejected by the AIC in favor of a pre-packaged solution
+when the AIC turned its attention to planning its business
+future. An evolving market and cost considerations combined to
+influence this decision. With regard to the market, several
+solutions suited to the AIC are now available and under
+consideration. With suitable products now available on the open
+market, the AIC Executive Committee felt that it could no longer
+justify the costs involved in developing its own software
+solution, and the associated long-term costs of maintaining that
+solution's viability on successive generations of hardware
+platforms and operating systems.</p>
+
+<h4>3.7. Organizational and operational considerations</h4>
+
+During its planning phase, the AIC has relied on a combination of
+volunteer and paid effort at the University of Michigan, Yale
+University, Carnegie Mellon University, and the Digital Library
+Federation. Significant contributions and leadership have also
+been supplied by staff at the University of Oregon, and the
+College Art Association. Although appropriate to a planning
+process, this organizational approach is unsuited to the fully
+operational phase envisaged in the business plan. Accordingly,
+the AIC seeks development as a 501(c)3 organization responsible
+to an advisory board with at least 5 members of full-time
+co-located staff looking after business, collection, and
+technical development, and marketing and administrative
+functions. Image processing, data distribution, and web hosting
+functions may be required in addition but may be supplied by
+entities acting under contract to the AIC. 
+
+<p>In an operational mode, the AIC will also require: empirical
+data about the use of visual resources in research and teaching,
+and guidelines for using them to evaluate and prioritize
+collection development opportunities; a technical framework to
+guide image processing and management; a functional specification
+for data dissemination services; and a rights management
+framework. Empirical data on research and teaching needs will
+help the AIC to prioritize investment in new collections and
+enable it to enlist support of domain specialists in their design
+and development. The latter function is fundamental to the
+emergence of an educational resource that is trusted by the
+community for its quality, integrity, and value. Empirical data
+are presently being generated, and a draft collection development
+framework has been prepared and is supplied in <a
+href="appg.htm">Appendix G</a>.</p>
+
+<p>A standards framework and technical guidelines have already
+been referenced above and are available in <a
+href="appe.htm">Appendix E</a>. They will ensure consistency,
+quality, and reliability across collections sourced from numerous
+individuals and institutions. They will also enable the AIC to
+secure some operational services under license from third
+parties.</p>
+
+<p>A rights framework will reduce the AIC's legal liability while
+encouraging collection development. The rights framework is one
+of the least developed operational components. At present it
+exists as a set of principles (available in <a
+href="appg.htm">Appendix G</a>, section 13) that need will be
+transformed into templates for negotiable licenses.</p>
+
+<h3><a id="next" name="next"></a>4. Next steps</h3>
+
+One of the DLF's core aims is to leverage its members' digital
+library investments and expertise to foster the development of
+innovative information services that educational and library
+institutions require but cannot afford or be motivated to supply
+individually or through limited consortial engagements. The AIC
+is the best-developed example of what the DLF hopes to achieve in
+its catalytic role. Other examples include its work on digital
+archival repositories and on Internet portal services (for
+further information see <a
+href=" http://clir.isproductions.net/pubs/issues/issues17/issues17.html#digital">
+"The Digital Library and B2B Services"</a>). 
+
+<p>In conformance with this programmatic objective, the DLF and
+the teams it has assembled around the AIC are deeply committed to
+the development of an information service that will promote and
+expand opportunities for innovation in research, learning and
+teaching with visual resources. They feel no proprietary hold
+over that service but are resolved to deploy their resources and
+collective expertise to its development. The next steps
+effectively fall into two categories: those taken to produce the
+outstanding agreements, licenses, and tools that the service will
+require; and those taken to initiate the service in an
+operational form. At present our focus is on the former. The
+following framing activities are currently envisaged or
+underway:</p>
+
+<h4>4.1. Making a "buy or build" decision about the AIC's
+delivery platform</h4>
+
+That decision will require a further survey of the costs and
+capabilities of present software solutions. The survey will need
+to take account of the software's innate capabilities, potential,
+and costs but also of the detailed functional specification that
+has been developed for the AIC (<a href="appf.htm">Appendix
+F</a>). 
+
+<h4>4.2. Turning licensing principles into template licenses</h4>
+
+A principal aim of the AIC is to create trusted, high-quality,
+and legitimate online visual image resources that can promote and
+expand opportunities for innovation in research, teaching, and
+learning. Indeed, the failure so far by educational and cultural
+communities to confront the thorny issues that surround
+intellectual property and the fair use exclusion has
+significantly impeded attempts to harness information technology
+for the benefit of those interested in the scholarly use of
+visual resources. Intellectually coherent collections of online
+visual resources are being created by several universities but
+they tend to incorporate images whose copyright status is
+questionable at best. Accordingly, they are placed behind
+institutional firewalls and made accessible to only the smallest
+audience. They are also inefficient, representing great
+redundancy of effort while preventing colleagues at different
+institutions from learning from one another's efforts. More
+publicly accessible online collections exist to be sure. Relying
+on the availability of copyright cleared content, however, they
+tend on the whole to be patchy in their coverage and fail as a
+result to supply the deep resource that the scholarly community
+requires, whether for research or teaching purposes. Confronting
+these issues head on requires close involvement of legal counsel
+and a robust rights framework that reflects and supports a
+service's collection development and business aims. The AIC is
+working toward this framework. It has at present established
+licensing principles that it wishes to reflect in any licenses
+that it negotiates with image contributors. The principles are
+tied to its collection development and business aims. They need
+to be reviewed by expert legal counsel and drafted into licensing
+templates. In addition, the AIC needs to work along similar lines
+to develop an appropriate range of end-user licenses and licenses
+that may be used with any third party to which the AIC
+sub-contracts the provision of any of its operational services
+(archiving, distribution, etc.). 
+
+<h4>4.3. Establishing priorities for collection development</h4>
+
+During the planning process, and particularly in response to
+public demonstrations of the AIC prototype, the AIC has received
+numerous offers in principle to contribute image content to its
+collections. Focusing its limited human resources on the
+prototype's development and review and then on the collection
+strategy, business plan and service route map, the AIC has begun
+to gather the data it needs to set priorities for collection
+development beyond the concordance core. 
+
+<p>The Distinguished Fellows program of the Council on Library
+Information Resources and the DLF has recently created such an
+opportunity for the AIC to move in this essential direction by
+awarding a fellowship to Max Marmor of Yale University. Mr.
+Marmor has been a guiding light in the AIC's development and is
+also deeply engaged in a closely related initiative, Imaging
+America, which is based at Yale University. Mr. Marmor's
+fellowship will focus the AIC's collection development strategy
+and then, within that strategy, develop opportunities that can
+serve the combined purposes of Imaging America and the Academic
+Image Cooperative. At least five strands of activity are
+required, the last three of which assume the availability of a
+prioritized list of collection development opportunities and a
+robust rights framework replete with template.</p>
+
+<ul>
+<li><i>Prioritizing collection development effort</i>. The AIC's
+mission and its business interests are tied to the development of
+useful image collections that meet definable teaching and
+research needs. Charting the scope of its collections beyond the
+concordance core and assessing and prioritizing need for coherent
+teaching and research collections within that scope are key and
+immediate tasks. As indicated above, the core is only a starting
+point for the AIC. Including images representative of art
+historical work across time and genres, it supplies small sets of
+images around which other discrete collections may be developed,
+e.g., in South Asian art, in Impressionism, Romanticism,
+Byzantine architecture. Collection priorities, although
+influenced to be sure by opportunity, need to be established on
+the basis of careful analysis of teaching and research needs and
+trends. The analysis (which will also supply essential market
+research) will require methodological innovation. Without the
+benefit of "Impact Factors" and other data that have helped
+electronic publishers establish priorities for digitizing
+scholarly journals, for example, the AIC will need to gather data
+that illuminate the use of visual resources in teaching and
+research. In developing its research methods, the AIC will also
+review the practices employed by competing electronic publishers,
+focusing in particular on those that seek to develop coherent
+collections as opposed to large assemblies of image content. 
+
+<p>The AIC is uniquely positioned to conduct this analysis. Its
+long-standing affiliation to the College Art Association will be
+beneficial - the Association is abreast of such trends and
+gathers or has access to some relevant data. It can also act
+independently of institutional, professional, and other special
+interests that can influence collection priorities on principles
+that are less empirical and market oriented than those the AIC
+intends to apply. The College Art Association represents the
+visual resources community in its broadest form. The DLF is a
+membership organization but one whose members seek collectively
+to act as catalysts in developing, rather than as proprietors of,
+innovative information services. Finally, as a CLIR/DLF
+Distinguished Fellow, Mr. Marmor will be positioned to act
+independently of any single institutional interest.</p>
+
+<p></p>
+</li>
+
+<li><i>Negotiation with potential contributors for access to
+rights-cleared images of art historical objects</i>. The research
+that will inform the AIC's collection decisions will take place
+over 4 to 6 months. During that time, the AIC will conduct more
+detailed examination of the collections already on offer while
+exploring opportunities with the custodians of other substantial
+collections. 
+
+<p></p>
+</li>
+
+<li><i>Developing guidelines for expert editorial or advisory
+bodies</i>. The AIC's collection strategy and business plan both
+emphasize the importance of having domain specialists and
+appropriate professional associations involved in developing
+discrete collections. Experts' work will vary with the
+circumstances that surround any single collection. Typically, it
+would involve the development of a want list that includes the
+art historical works (or categories of works) that need to be
+represented in a collection to support defined teaching or
+research aims. Thereafter, experts may find themselves filling
+the want list through careful review of images on offer from a
+single institution (whether a slide library, museum, or private
+or institutional photo archive) or through some more general
+solicitation to a particular custodial community. Since expert
+groups will need to surround every collection that the AIC
+develops, guidelines will supply an essential tool for ensuring
+that the same intellectual rigor is consistency applied. 
+
+<p></p>
+</li>
+
+<li><i>Identifying costs and determining distribution of effort
+in image processing to AIC standards</i>. The work can only take
+place after collections are defined and in light of the
+opportunities that present themselves for their development.</li>
+</ul>
+
+<h4>4.4. Developing and evaluating a prototype shared cataloguing
+tool</h4>
+
+From its conception, the AIC envisaged a database of records
+richly describing art historical works. The database was intended
+to serve several communities. For scholars and students it would
+act as a reference tool: an invaluable aid to research, teaching,
+and learning. For custodians of visual resource collections, the
+database would inform local cataloguing activities while
+minimizing the extensive redundant effort that they involve. The
+database could also have a number of business applications, for
+example, for those concerned in the private market for art
+historical objects. Focusing its efforts on the concordance core,
+strategies and methods for developing image collection, and on
+business planning, the AIC postponed consideration of the
+cataloguing tool for a second stage of its development. Having
+reached that stage, the AIC has drafted a statement of the
+problem a shared cataloguing tool will solve and frames a
+prototype development initiative. The statement is supplied in <a
+href="apph.htm">Appendix H</a>. 
+
+
+
+
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2004 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

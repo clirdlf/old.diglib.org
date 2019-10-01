@@ -1,0 +1,1203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xml:lang="en">
+<head>
+<meta name="dc.Title" content="Contexts and Contributions: Building the Distributed Library" />
+<meta name="dc.Creator" content="Martha L. Brogan" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher"
+content="Digital Library Federation: Washington, D.C." />
+<meta name="dc.Contributor"
+content="Barrie Howard" />
+<meta name="dc.Date" content="2006-09-13" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="DC.identifier" content="http://purl.oclc.org/DLF/dlf106" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Contexts and Contributions: Building the Distributed Library</title>
+
+
+<style type="text/css">
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; }
+
+	  .nobullet { list-style-type: none; }
+
+        </style>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+</script>
+
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<form action="search.asp" method="get" name="searchform" id="search">
+<label for="textfield"><span class="news">Search&nbsp;</span></label>
+<input name="qu" id="textfield" type="text" value="" size="10" />&nbsp;
+<a href="javascript:document.searchform.submit();">
+
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp;
+<a href="../../sitemap.htm"><img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+</form>
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="177" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="177" height="38" border="0" id="collect" /></a></td>
+       <td width="177" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="177" height="38" border="0" id="produce" /></a></td>
+
+    <td width="177" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="177" height="38" border="0" /></a></td>
+    <td width="177" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="177" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+
+<!-- Begin text here -->
+<a name="ref"></a>
+<hr width="75%" />
+<center>
+<h2>References</h2>
+</center>
+<ul>
+<li>Agogino, A.M. 2004. Enhancing Interoperability of Collections and Services. Final Report, December 2004. NSF Award DUE-0127580. Available from <a href="http://best.me.berkeley.edu/%7Eaagogino/papers/Final_Report_SMETE.pdf">http://best.me.berkeley.edu/%7Eaagogino/papers/Final_Report_SMETE.pdf</a>
+</li>
+<li>Almasy, Edward. 2005. Tools for Creating Your Own Resource Portal: CWIS and the Scout Portal Toolkit. <i>Library Trends</i> 53(4): 620-636.</li>
+<li>American Council on Learned Societies. 2005. <i>Draft Report of the ACLS Commission on Cyberinfrastructure for Humanities and Social Sciences</i> (November 24, 2005). Available from <a href="http://www.acls.org/cyberinfrastructure/acls-ci-public.pdf">http://www.acls.org/cyberinfrastructure/acls-ci-public.pdf</a>.</li>
+<li>Arms, Carol R. 2003. Available and Useful: OAI at the Library of Congress. <i>Library Hi Tech</i>, <i>21</i>(2): 129-139 [DOI:10.1108/07378830310491899] Available from <a href="http://memory.loc.gov/ammem/techdocs/libht2003.html#exploit">http://memory.loc.gov/ammem/techdocs/libht2003.html#exploit</a>
+</li>
+<li>Bailey, Charles W., Jr. 2005. <i>Open Access Bibliography: Liberating Scholarly Literature with E-Prints and Open Access Journals</i>. Washington DC: Association of Research Libraries. Available from <a href="http://www.digital-scholarship.com/">http://www.digital-scholarship.com/</a>.</li>
+<li>Bailey, Charles W., Jr. 2006. What Is Open Access? In Jacobs, Neil, ed. <i>Open Access: Key Strategic, Technical and Economic Aspects</i>. Oxford: Chandos Publishing. Preprint available from <a href="http://www.digital-scholarship.com/cwb/WhatIsOA.pdf">http://www.digital-scholarship.com/cwb/WhatIsOA.pdf</a>
+</li>
+<li>Bailey-Hainer, Brenda and Richard Urban. 2004. The Colorado Digitization Program: A Collaboration Success Story. <i>Library Hi Tech</i> <i>22</i>(3): 254-262.</li>
+<li>Bates, Mary Ellen. 2006. Tips Article: "Save Yourself! Free Resources for Organising, Maintaining and Sharing the Fruits of your Web Searches." <i>Freepint Newsletter</i> 202 (March 16). Available from <a href="http://www.freepint.com/issues/160306.htm">http://www.freepint.com/issues/160306.htm</a>.</li>
+<li>Berkman, Paul Arthur. 2004. Sustaining the National Science Digital Library. <i>Project Kaleidoscope Newsletter</i>, Vol. IV: What Works, What Matters, What Lasts. Available from <a href="http://www.pkal.org/documents/Vol4SustainingTheNSDL.cfm">http://www.pkal.org/documents/Vol4SustainingTheNSDL.cfm</a>
+</li>
+<li>Bishoff, Liz and Nancy Allen. 2004. <i>Business Planning for Cultural Heritage Institutions.</i> Washington DC: Council on Library and Information Resources. Available from <a href="http://www.clir.org/pubs/reports/pub124/contents.html">http://www.clir.org/pubs/reports/pub124/contents.html</a>/</li>
+<li>Blinco, Kerry et al. 2004. Trends and Issues in E-Learning Infrastructure Development. A White Paper for alt-i-lab 2004. Prepared on behalf of DEST (Australia) and JISC-CETIS (UK). Version 2, July 19, 2004. Available from <a href="http://www.jisc.ac.uk/uploaded_documents/Altilab04-infrastructureV2.pdf">http://www.jisc.ac.uk/uploaded_documents/Altilab04-infrastructureV2.pdf</a>
+</li>
+<li>Blinco, Kerry and McLean. 2004. A 'Cosmic' View of Repositories Space: Wheel of Fortune. University of Southern Queensland Available from <a href="http://www.rubric.edu.au/extrafiles/wheel/">http://www.rubric.edu.au/extrafiles/wheel/</a>
+</li>
+<li>Blinco, Kerry. 2006. The JISC-DEST Framework: Integrating Everything. PowerPoint presentation at Open Repositories, Sydney, Australia (February 2, 2006). Available from <a href="http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#thursday">http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#thursday</a>
+</li>
+<li>Bloomberg, Jason. 2006. SOA Governance and the Butterfly Effect. Zapthink.com. (January 24). Available from <a href="http://www.zapthink.com/report.html?id=ZAPFLASH-2006124">http://www.zapthink.com/report.html?id=ZAPFLASH-2006124</a>.</li>
+<li>Brody, T., Harnad, S. and Carr, L. 2005. Earlier Web Usage Statistics as Predictors of Later Citation Impact. <i>Journal of the American Association for Information Science and Technology (JASIST)</i> Eprint available from <a href="http://eprints.ecs.soton.ac.uk/10713/">http://eprints.ecs.soton.ac.uk/10713/</a>.</li>
+<li>Brogan, Martha L. 2003. <i>A Survey of Digital Library Aggregation Services.</i> Washington DC: Digital Library Federation. Available from <a href="/pubs/brogan/">http://www.diglib.org/pubs/brogan/</a>
+</li>
+<li>California Digital Library. 2004. <i>National Science Digital Library: Focus Groups and Market Assessment, Final Report.</i> Prepared by Alex Wright with others. (1 July 2004). Available from <a href="www.cdlib.org/inside/projects/metasearch/nsdl/nsdl_assessmentfindings.pdf">www.cdlib.org/inside/projects/metasearch/nsdl/nsdl_assessmentfindings.pdf</a>
+</li>
+<li>Campbell, Debbie. 2005. The ARROW Discovery Service 'Public Funding, Public Knowledge, Public Access.' National Library of Australia <i>Gateways</i> 46 (August). Available from <a href="http://www.nla.gov.au/pub/gateways/archive/76/Campbell-ArrowProject.html">http://www.nla.gov.au/pub/gateways/archive/76/Campbell-ArrowProject.html</a>
+</li>
+<li>Campbell, Debbie. 2004. How the Use of Standards Is Transforming Australian Digital Libraries. <i>Ariadne 41</i> (October). Available from <a href="http://www.ariadne.ac.uk/issue41/campbell/intro.html">http://www.ariadne.ac.uk/issue41/campbell/intro.html</a>
+</li>
+<li>Cervone, Frank H. 2004. The Repository Adventure. <i>Library Journal</i>. June 1 2004. Available from <a href="http://www.libraryjournal.com/article/CA421033.html">http://www.libraryjournal.com/article/CA421033.html</a>
+</li>
+<li>Chan, Leslie. 2004. Supporting and Enhancing Scholarship in the Digital Age: The Role of Open-Access Institutional Repositories. Available from <a href="http://eprints.rclis.org/archive/00002590/01/Chan_CJC_IR.pdf">http://eprints.rclis.org/archive/00002590/01/Chan_CJC_IR.pdf</a> (not copied?)</li>
+<li>Chan, Leslie, Barbara Kirsop and Subbiah Arunachalam. 2005. Open Access Archiving: The Fast Track to Building Research Capacity in Developing Countries. First published as part of the SciDev.Net Web Site. (November). Available from <a href="http://www.scidev.net/ms/openaccess/">http://www.scidev.net/ms/openaccess/</a>
+</li>
+<li>Chang, Amy et al. 2004. I Came, I Found It, I Used It, and It Made a Difference. BiosciEdNet (BEN). [n.p.]: American Society of Microbiology, 8 pp. Available from <a href="http://www.biosciednet.org/project_site/BEN_Survey_Article_October_2004.pdf">http://www.biosciednet.org/project_site/BEN_Survey_Article_October_2004.pdf</a>
+</li>
+<li>Choudhury, Sayeed. 2006. A Technology Analysis of Repositories and Services. CNI Spring 2006 Task Force Meeting hand-out. Alexandria, Virginia, April 3-4 2006. Available from <a href="http://www.cni.org/tfms/2006a.spring/abstracts/Handouts/CNI_Results_Choudhury.doc">http://www.cni.org/tfms/2006a.spring/abstracts/Handouts/CNI_Results_Choudhury.doc</a>. Project wiki accessible from <a href="https://wiki.library.jhu.edu/display/RepoAnalysis/ProjectRepository/">https://wiki.library.jhu.edu/display/RepoAnalysis/ProjectRepository/</a>.</li>
+<li>Christenson, Heather and Roy Tennant. 2005. Integrating Information Resources: Principles, Technologies, and Approaches. In partial fulfillment of National Science Foundation Award #0333710 (August 15). Available from <a href="http://www.cdlib.org/inside/projects/metasearch/nsdl/nsdl_report2.pdf">http://www.cdlib.org/inside/projects/metasearch/nsdl/nsdl_report2.pdf</a>
+</li>
+<li>Chudnov, Dan and Jeremy Frumkin. 2005. Digital Library Dialtone: Bootstrapping with Auto-discovery and Service Registries. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 7, 2005. Available from <a href="/forums/fall2005/presentations/ockhambof1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/ockhambof1105_files/frame.htm</a>
+</li>
+<li>Cole, Timothy W. and Sarah L. Shreeves. 2004. Search and Discovery across Collections: The IMLS Digital Collections and Content Project. <i>Library Hi Tech</i> <i>22</i>(3): 307-322.</li>
+<li>Cole, Timothy W. 2005a. OAI-PMH Repositories: Quality Issues Regarding Metadata and Protocol Compliance: Part II Shareable Metadata. Presented at CERN Workshop on Innovations in Scholarly Communication (OAI4), Geneva, Switzerland, 20 October 2005. PowerPoint slides available from <a href="http://imlsdcc.grainger.uiuc.edu/OAI4_Tutorial_1_URLs.htm#shareable">http://imlsdcc.grainger.uiuc.edu/OAI4_Tutorial_1_URLs.htm#shareable</a>
+</li>
+<li>Cole, Timothy W. 2005b. Rationale for Interoperable Metadata. DLF Fall Forum, Charlottesville, Virginia, November 7-9, 2005. Available from <a href="/forums/fall2005/presentations/cole1105.htm">http://www.diglib.org/forums/fall2005/presentations/cole1105.htm</a>
+</li>
+<li>Cole, Timothy W. 2005. OAI-PMH repositories: quality issues regarding metadata and protocol compliance: Part II Shareable Metadata. Presented at CERN workshop on <i>Innovations in Scholarly Communication (OAI4)</i>, Geneva, Switzerland, 20 October 2005. PowerPoint slides available from <a href="http://imlsdcc.grainger.uiuc.edu/OAI4_Tutorial_1_URLs.htm#shareable">http://imlsdcc.grainger.uiuc.edu/OAI4_Tutorial_1_URLs.htm#shareable</a>
+</li>
+<li>Cole, Timothy W. 2006. OAI-PMH in Practice: Lessons Learned from the IMLS Digital Collections &amp; Content Project. Middle East Digital Library Workshop, Bibliotheca Alexandrina, 15-17 January 2006, Available from <a href="http://www.sis.pitt.edu/~egyptdlw/presentations.html">http://www.sis.pitt.edu/~egyptdlw/presentations.html</a>
+</li>
+<li>Cole, Timothy W. and Thomas G. Habing. 2006. The University of Illinois OAI-PMH Data Provider Registry. Presentation at NSF/DLF/JISC/UKOLN Digital Library Service Registry Workshop. National Science Foundation, Arlington, Virginia, March 23, 2006. Available from <a href="http://gita.grainger.uiuc.edu/registry/Cole-OAIRegistry.ppt">http://gita.grainger.uiuc.edu/registry/Cole-OAIRegistry.ppt</a>
+</li>
+<li>Coleman, Anita and Joseph Roback. 2005. Open Access Federation for Library and Information Science: dLIST and DL-Harvest. <i>D-Lib Magazine</i>. <i>11</i>(12) (December 2005). Available from <a href="http://www.dlib.org/dlib/december05/coleman/12coleman.html">http://www.dlib.org/dlib/december05/coleman/12coleman.html</a>
+</li>
+<li>Coutts, Brian E. and Cheryl LaGuardia. 2006. Best Reference 2005. <i>Library Journal</i> (April 15). Available from <a href="http://www.libraryjournal.com/article/CA6321696.html">http://www.libraryjournal.com/article/CA6321696.html</a>.</li>
+<li>Crane, Gregory. 2006. Featured Collection: The Perseus Digital Library. D-Lib Magazine, 12,3 (March). Available from <a href="http://www.dlib.org/dlib/march06/03featured-collection.html.doi:10.1045/march2006-featured.collection">http://www.dlib.org/dlib/march06/03featured-collection.html.doi:10.1045/march2006-featured.collection</a>.</li>
+<li>Crow, Raym. 2002. The Case for Institutional Repositories: A SPARC Position Paper. Association of Research Libraries, Scholarly Publishing &amp; Academic Resources Coalition. Available from <a href="http://www.arl.org/sparc/IR/ir.html">http://www.arl.org/sparc/IR/ir.html</a>.</li>
+<li>Custard, Myra and Tamara Sumner. 2005. Using Machine Learning to Support Quality Judgments. D-Lib Magazine, 11, 10 (October). Available from <a href="http://www.dlib.org/dlib/october05/custard/10custard.html.doi:10.1045/october2005-custard">http://www.dlib.org/dlib/october05/custard/10custard.html.doi:10.1045/october2005-custard</a>
+</li>
+<li>Davison, Stephen, Cynthia Requardt and Kristine Brancolini. 2003. A Specialized Open Archives Initiative Harvester for Sheet Music: A Project Report and Examination of Issues. Presented at ISMIR 2003, October 26-30. Available from <a href="http://ismir2003.ismir.net/papers/Davison.PDF">http://ismir2003.ismir.net/papers/Davison.PDF</a>
+</li>
+<li>Dempsey, Lorcan. Lorcan Dempsey's Weblog On Libraries, Services and Networks. Available from <a href="http://orweblog.oclc.org/">http://orweblog.oclc.org/</a>.</li>
+<li>Dempsey, Lorcan. 2004. Libraries, Digital Libraries and Digital Library Research. PowerPoint presentation at the European Conference on Digital Libraries, University of Bath, September 12-17, 2004. Available from <a href="http://www.ecdl2004.org/presentations/dempsey/l-dempsey.ppt">http://www.ecdl2004.org/presentations/dempsey/l-dempsey.ppt</a>.</li>
+<li>Dempsey, Lorcan. 2005. The User Face that Isn't. May 15, 2005. Available from <a href="http://orweblog.oclc.org/archives/000667.html">http://orweblog.oclc.org/archives/000667.html</a>.</li>
+<li>Dempsey, Lorcan et al. 2004-05. Metadata Switch: Thinking About Some Metadata Management and Knowledge Organization Issues in the Changing Research and Learning Landscape. Forthcoming in <i>LITA Guide to E-Scholarship</i> (working title), ed. Debra Shapiro. Available from <a href="http://www.oclc.org/research/publications/archive/2004/dempsey-mslitaguide.pdf">http://www.oclc.org/research/publications/archive/2004/dempsey-mslitaguide.pdf</a> (PDF:824K/25pp.)</li>
+<li>Dewatripont, Mathias et al. 2006. <i>Study on the Economic and Technical Evolution of the Scientific Publications Market in Europe.</i> Final Report, commissioned by the Directorate-General of Research, European Commission (January). Available from <a href="http://ec.europa.eu/research/science-society/pdf/scientific-publication-study_en.pdf">http://ec.europa.eu/research/science-society/pdf/scientific-publication-study_en.pdf</a>.</li>
+<li>Diekema, Amy and Holly Devaul. 2006. Computer Assisted Standard and Alignment. Audio PowerPoint presentation at NSDL Tool Time, March 16, 2006. Archived video playback available from <a href="http://commserv.comm.nsdl.org/tooltime/2006-03-16/lib/playback.html">http://commserv.comm.nsdl.org/tooltime/2006-03-16/lib/playback.html</a>.</li>
+<li>Digital Library Federation. 2005. The Distributed Library: OAI for Digital Library Aggregation. OAI Scholars Advisory Panel Meeting, Washington DC, June 20-21, 2005. Available from <a href="/architectures/oai/imls2004/OAISAP05.htm">http://www.diglib.org/architectures/oai/imls2004/OAISAP05.htm</a>.</li>
+<li>Digital Library Federation. DLF Aquifer Services Working Group. 2006. DLF-Aquifer Services Institutional Survey Report. (March 9). Available from <a href="/aquifer/SWGisrfinal.pdf">http://www.diglib.org/aquifer/SWGisrfinal.pdf</a>
+</li>
+<li>Digital Library Federation and the National Science Digital Library. OAI and Shareable Metadata Best Practices Working Group. 2005. OAI Best Practices. Available from <a href="http://oai-best.comm.nsdl.org/">http://oai-best.comm.nsdl.org/</a>
+</li>
+<li>
+<i>Best Practices for OAI Data Provider Implementations</i>. Available from <a href="http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?DataProviderPractices">http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?DataProviderPractices</a>
+</li>
+<li>
+<i>Best Practices for Shareable Metadata</i> <a href="http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?PublicTOC">http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?PublicTOC</a>
+</li>
+<li>Dine, Brooke. 2004. PubMed Central. PowerPoint presentation given at the Medical Library Association Conference, May 2004. Available from: <a href="http://www.nlm.nih.gov/pubs/techbull/ja04/theater_ppt/pmc.ppt">http://www.nlm.nih.gov/pubs/techbull/ja04/theater_ppt/pmc.ppt</a>.</li>
+<li>Dobratz, Susanne and Astrid Schoger. 2005. Digital Repository Certification: A Report from Germany. <i>RLG DigiNews</i> 15, 9 (October). Available from <a href="http://www.rlg.org/en/page.php?Page_ID=20793#article3">http://www.rlg.org/en/page.php?Page_ID=20793#article3</a>
+</li>
+<li>Dominguez, Magaly B&aacute;scones. 2005. Applying Usage Statistics to the CERN E-journals Collection: a Step Forward, <i>High Energy Physics Libraries Webzine</i> <i>High Energy Physics Libraries Webzine</i>, 11 (August). Available from <a href="http://library.cern.ch/HEPLW/11/papers/4/">http://library.cern.ch/HEPLW/11/papers/4/</a> .</li>
+<li>Dunsire, Gordon. 2005. Harvesting Institutional Resources in Scotland Testbed (HaIRST). Final Report. Available from <a href="http://hairst.cdlr.strath.ac.uk/documents/HaIRST-FAIR-FP.pdf">http://hairst.cdlr.strath.ac.uk/documents/HaIRST-FAIR-FP.pdf</a>
+</li>
+<li>Fabos, Bettina., ed. 2005. The Commercialized Web: Challenges for Libraries and Democracy. <i>Library Trends 53</i>(4): 519-698.</li>
+<li>Foster, Nancy Fried and Susan Gibbons. 2005. Understanding Faculty to Improve Content Recruitment for Institutional Repositories. <i>D-Lib Magazine</i> <i>11</i>(1) (January). Available from <a href="http://www.dlib.org/dlib/january05/foster/01foster.html">http://www.dlib.org/dlib/january05/foster/01foster.html</a>.</li>
+<li>Foulonneau, Muriel. CIC Metadata Portal: Project Status. PowerPoint presented at the Big Ten Center, Chicago, December 12, 2005.</li>
+<li>Foulonneau, Muriel and Timothy W. Cole. 2004. CIC-OAI Project Recommendations for Dublin Core Metadata Providers," Version 1.0 (06/18/2004). University of Illinois. Available from <a href="http://cicharvest.grainger.uiuc.edu/dcguidelines.asp">http://cicharvest.grainger.uiuc.edu/dcguidelines.asp</a>.</li>
+<li>Foulonneau, Muriel et al. 2005. Using Collection Descriptions to Enhance an Aggregation of Harvested Item-Level Metadata. PowerPoint presented at JCDL, June 2005. Available from <a href="http://cicharvest.grainger.uiuc.edu/presentations/jcdl.ppt">http://cicharvest.grainger.uiuc.edu/presentations/jcdl.ppt</a>
+</li>
+<li>Foulonneau, Muriel et al. 2006. The CIC Metadata Portal: A Collaborative Effort in the Area of Digital Libraries. Forthcoming in Sci Tech Lib. 2006. Preprint available from <a href="http://cicharvest.grainger.uiuc.edu/documents/PreprintCIC-OAI-ScienceTechnologyLibraries.pdf">http://cicharvest.grainger.uiuc.edu/documents/PreprintCIC-OAI-ScienceTechnologyLibraries.pdf</a>
+</li>
+<li>Frumkin, Jeremy. 2006a. The Need for A Digital Library Service Registry. <i>OCLC Systems &amp; Services; International Digital Library Perspective</i> <i>22</i>(1): 23-25.</li>
+<li>Frumkin, Jeremy. 2006b. Registry Use Cases. Developed for the Digital Library Service Registry Workshop, co-sponsored by DLF and JISC, March 22-23, 2006, Washington DC. Available from <a href="http://wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases/">http://wiki.library.oregonstate.edu/confluence/display/DLSRW/RegistryUseCases/</a>.</li>
+<li>Gargiulo, Paola, Susanna Mornati, Ugo Contino, and Zeno Tajoli. 2005a. PLEIADI, A Portal Solution for Scholarly Literature. In Dobreva, Milena and Engelen, Jan, Eds. Proceedings ELPUB2005. <i>From Author to Reader: Challenges for the Digital Content Chain: Proceedings of the 9th ICCC International Conference on Electronic Publishing</i>. Leuven-Heverlee (Belgium). (May 2005): 277-281. Available from <a href="http://eprints.rclis.org/archive/00004442/">http://eprints.rclis.org/archive/00004442/</a>
+</li>
+<li>Gargiulo, Paola, Susanna Mornati, Ugo Contino, and Zeno Tajoli. 2005b. A User-Centred Portal for Search and Retrieval of Open-Access Italian Scholarly Literature: The PLEIADI Project. In <i>Proceedings</i> <i>Open Culture : Accessing and Sharing Knowledge</i>, Milano (Italy). (June 2005). Available from <a href="http://eprints.rclis.org/archive/00004403/01/Pleiadi_AICA2005_rev.pdf">http://eprints.rclis.org/archive/00004403/01/Pleiadi_AICA2005_rev.pdf</a>
+</li>
+<li>Gentil-Beccot, Anne. 2006. 2005, the Year CERN Ran for Open Access. <i>High Energy Physics Libraries Webzine</i>, <i>12</i> (February). Available from <a href="http://library.cern.ch/HEPLW/12/papers/3/">http://library.cern.ch/HEPLW/12/papers/3/</a>
+</li>
+<li>Ghosh, S. B. 2006. Open Access and Institutional Repositories - A Developing Country Perspective: A Case Study of India. Preprint for World Library and Information Congress: 72<sup>nd</sup> IFLA General Conference and Council 20-24 August 2006, Seoul, Korea. Available from <a href="http://www.ifla.org/IV/ifla72/papers/157-Ghosh_Das-en.pdf">http://www.ifla.org/IV/ifla72/papers/157-Ghosh_Das-en.pdf</a>.</li>
+<li>Giersch, Sarah et al. 2004. If You Build It, Will They Come? Participant Involvement in Digital Libraries. <i>D-Lib Magazine</i> <i>10</i>, 7/8 (July/August). Available from <a href="http://www.dlib.org/dlib/july04/giersch/07giersch.html">http://www.dlib.org/dlib/july04/giersch/07giersch.html</a>.</li>
+<li>Goldenberg-Hart, Diane. 2004. Libraries and Changing Research Practices: A Report of the ARL/CNI Forum on E-Research and Cyberinfrastructure. <i>ARL Bimonthly Report</i>, 237 (December). Available from <a href="http://www.arl.org/newsltr/237/cyberinfra.html">http://www.arl.org/newsltr/237/cyberinfra.html</a>.</li>
+<li>Gon&ccedil;alves, Marcos Andr&eacute; et al. 2004. Streams, Structures, Spaces, Scenarios, Societies (5S): A Formal Model for Digital Libraries. <i>ACM Transactions on Information Systems 22</i>(2) (April): 270-312.</li>
+<li>Giustini, Dean and Eugene Barsky. 2005. A Look at Google Scholar, PubMed, and Scirus: Comparisons and recommendations. <i>JCHLA/JABSC</i> <i>26</i>: 85-89. Available from: <a href="http://www.slais.ubc.ca/courses/libr538f/04-05-wt2/giustini_barsky.pdf">http://www.slais.ubc.ca/courses/libr538f/04-05-wt2/giustini_barsky.pdf</a>
+</li>
+<li>Gray, Cindy et al. 2005. The Online ETD Tutorial: Supporting Students' Transition from Traditional to ETD. Presentation at the NDLTD annual conference, Australia 2005. Available from <a href="http://adt.caul.edu.au/etd2005/papers/065Gray.pdf">http://adt.caul.edu.au/etd2005/papers/065Gray.pdf</a>.</li>
+<li>Guenther, Rebecca. 2005. Rich Descriptive Metadata in XML: MODS as a Metadata Scheme. Presentation at "MODS, MARC and Metadata Interoperability," at ALA Annual 2005. Available from <a href="http://www.loc.gov/standards/mods/presentations/ala2005-mods_files/frame.htm">http://www.loc.gov/standards/mods/presentations/ala2005-mods_files/frame.htm</a>
+</li>
+<li>Habing, Tom. 2005. UIUC's Role: Registry of OAI Data Providers. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 8, 2005. Available from <a href="/forums/fall2005/presentations/habing-oaigrant1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/habing-oaigrant1105_files/frame.htm</a>
+</li>
+<li>Habing, Thomas G., Timothy W. Cole, and William H. Mischo. 2004. Developing a Technical Registry of OAI Data Providers. Presented at the ECDL 2005 conference, University of Bath, England, September 15, 2004. Available as a Post-print from Lecture Notes in Computer Science, Springer-Verlag from <a href="http://gita.grainger.uiuc.edu/registry/thabing_ecdl2004.doc">http://gita.grainger.uiuc.edu/registry/thabing_ecdl2004.doc</a>
+</li>
+<li>Hagedorn, Kat. 2005a. IMLS Grant: University of Michigan's Role. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 8, 2005. Available from <a href="/forums/fall2005/presentations/hagedorn-oaigrant1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/hagedorn-oaigrant1105_files/frame.htm</a>
+</li>
+<li>Hagedorn, Kat. 2005b. And Now for Something Completely Different. . . Informal Collaboration. University of Michigan School of Information Internet Public Library (IPL) Class, 28 November 2005, Ann Arbor, MI. Available from <a href="http://oaister.umdl.umich.edu/o/oaister/IPL05_Hagedorn.ppt">http://oaister.umdl.umich.edu/o/oaister/IPL05_Hagedorn.ppt</a>  </li>
+<li>Halbert, Martin. 2003. Findings from the Metascholar Projects: AmericanSouth and MetaArchive. Proceedings of the Workshop on Applications of Metadata Harvesting in Scholarly Portals. Atlanta: MetaScholar Initiative at Emory University, October 24, 2003. Available from <a href="http://www.metascholar.org/pdfs/MetaScholarFindingsProceedings.pdf">http://www.metascholar.org/pdfs/MetaScholarFindingsProceedings.pdf</a>.</li>
+<li>Halbert, Martin. 2005. DLF IMLS OAI Best Practices Project: Training Component. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 8, 2005. Available from <a href="/forums/fall2005/presentations/halbert-oaigrant1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/halbert-oaigrant1105_files/frame.htm</a>
+</li>
+<li>Hanson, Katherine and Bethany Carlson. 2005. Effective Access: Teachers' Use of Digital Resources in STEM Teaching. Gender, Diversities, and Technology Institute, Education Development Center, Inc. Available from <a href="http://www2.edc.org/gdi/publications_SR/EffectiveAccessReport.pdf">http://www2.edc.org/gdi/publications_SR/EffectiveAccessReport.pdf</a>.</li>
+<li>Hardy, Rachel et al. 2005. Open Access Citation Information. Final Report - Extended Version. JISC Scholarly Communications Group. (September), 105 p. Download PDF from JISC Scholarly Communications Group site, available from <a href="http://www.jisc.ac.uk/index.cfm?name=jcie_scg">http://www.jisc.ac.uk/index.cfm?name=jcie_scg</a>.</li>
+<li>Harley, Diane et al. 2006. Use and Users of Digital Resources: A Focus on Undergraduate Education in the Humanities and Social Sciences. Center for Studies of Higher Education, University of California, Berkeley (April). Available from <a href="http://cshe.berkeley.edu/research/digitalresourcestudy/">http://cshe.berkeley.edu/research/digitalresourcestudy/</a>
+</li>
+<li>Harnad, Stevan et al. 2003. Mandated Online RAE CVs Linked to University Eprint Archives: Enhancing UK Research Impact and Assessment. <i>Ariadne</i> <i>35</i> (April). Available from <a href="http://www.ariadne.ac.uk/issue35/harnad/">http://www.ariadne.ac.uk/issue35/harnad/</a>
+</li>
+<li>Harnad, S. &amp; Brody, T. 2004. Comparing the Impact of Open Access (OA) vs. Non-OA Articles in the Same Journals. <i>D-Lib Magazine</i> <i>10</i>(6) (June). Available from <a href="http://www.dlib.org/dlib/june04/harnad/06harnad.html">http://www.dlib.org/dlib/june04/harnad/06harnad.html</a>
+</li>
+<li>Harnad, S., Brody, T., Vallieres, F., Carr, L., Hitchcock, S., Gingras, Y, Oppenheim, C., Stamerjohanns, H., &amp; Hilf, E. 2004. The Access/Impact Problem and the Green and Gold Roads to Open Access. <a href="http://dx.doi.org/10.1016/j.serrev.2004.09.013">http://dx.doi.org/10.1016/j.serrev.2004.09.013</a>. <i>Serials Review</i> <i>30</i>(4). <a href="http://eprints.ecs.soton.ac.uk/10209/01/impact.html#bib15">http://eprints.ecs.soton.ac.uk/10209/01/impact.html#bib15</a>
+</li>
+<li>Healey, Michael. 2000. An Analytical Model of Collections and Their Catalogues. A study carried out on behalf of UKOLN. Oxford. Available from <a href="http://www.ukoln.ac.uk/metadata/rslp/model/amcc-v31.pdf">http://www.ukoln.ac.uk/metadata/rslp/model/amcc-v31.pdf</a>.</li>
+<li>Healey, Michael 2005. Users and Information Resources: An Extension of the Analytical Model of Collections and Their Catalogues into Usage and Transactions. A study carried out on behalf of UKOLN. Oxford, 2<sup>nd</sup> rev. issue, July-November 2005. Available from <a href="http://www.ukoln.ac.uk/cd-focus/model-ext/CD2-principles-v2-2.pdf">http://www.ukoln.ac.uk/cd-focus/model-ext/CD2-principles-v2-2.pdf</a>.</li>
+<li>Heery, Rachel and Sheila Anderson. 2005. Digital Repositories Review. UKOLN, AHDS. (February 19). Available from <a href="http://www.jisc.ac.uk/uploaded_documents/digital-repositories-review-2005.pdf">http://www.jisc.ac.uk/uploaded_documents/digital-repositories-review-2005.pdf</a>.</li>
+<li>Heery, Rachel and Andy Powell. 2006. Digital Repositories Roadmap: Looking Forward. UKOLN, Eduserv Foundation. (April). Available from <a href="http://www.jisc.ac.uk/uploaded_documents/rep-roadmap-v15.doc">http://www.jisc.ac.uk/uploaded_documents/rep-roadmap-v15.doc</a> </li>
+<li>Hey, Tony et al. 2006. Augmenting Interoperability Across Scholarly Repositories. JCDL Panel Abstract, June 11-15, 2006, Chapel Hill, North Carolina. Available from <a href="http://msc.mellon.org/Meetings/Interop/follow-up/jcdlpanel_abstract.pdf">http://msc.mellon.org/Meetings/Interop/follow-up/jcdlpanel_abstract.pdf</a>
+</li>
+<li>Hiom, Debra. 2006. Retrospective on the RDN. <i>Ariadne</i> <i>47</i> (April). Available from <a href="http://www.ariadne.ac.uk/issue47/hiom/intro.html">http://www.ariadne.ac.uk/issue47/hiom/intro.html</a>.</li>
+<li>Hitchcock, Stephen. [September 15, 2004 - present]. The Effect of Open Access and Downloads ('Hits') on Citation Impact: A Bibliography of Studies. OpCit Project. Available from <a href="http://opcit.eprints.org/oacitation-biblio.html">http://opcit.eprints.org/oacitation-biblio.html</a>.</li>
+<li>Hodgson, Cynthia, Andrew Pace, and Jenny Walker. 2006. NISO Metasearch Initiative Targets Next Generation of Standards and Best Practices. <i>Against the Grain 18</i>(1) (February): 79-82. Available from <a href="http://www.niso.org/pdfs/ReprintNISOv18-1.pdf">http://www.niso.org/pdfs/ReprintNISOv18-1.pdf</a>.</li>
+<li>Hubbard, William. 2005. "OpenDOAR The Directory of Open Access Repositories." Presented at OAI4. Available from <a href="http://www.sherpa.ac.uk/documents/OAI4OpenDOAR_pub.ppt">http://www.sherpa.ac.uk/documents/OAI4OpenDOAR_pub.ppt</a>
+</li>
+<li>Hughes, Baden. 2004. Metadata Quality Evaluation: Experience from the Open Language Archives Community. <i>Lecture Notes in Computer Science</i>. 3334: 320-329. Available from <a href="http://eprints.unimelb.edu.au/archive/00001408/">http://eprints.unimelb.edu.au/archive/00001408/</a>
+</li>
+<li>Hughes, Baden and Amol Kamat, 2005. A Metadata Search Engine for Digital Language Archives<b>.</b> <i>DLib Magazine</i> 11(2), (February). Available from <a href="http://www.dlib.org/dlib/february05/hughes/02hughes.html">http://www.dlib.org/dlib/february05/hughes/02hughes.html</a>.</li>
+<li>Hunter, Philip. 2005. OAI and OAI-PMH for Absolute Beginners: a Non-Technical Introduction. PowerPoint presentation at the CERN workshop on Innovations in Scholarly Communication (OAI4) (Geneva, October 20-22, 2005). Self-archived January 30, 2006. Available from <a href="http://eprints.rclis.org/archive/00005512/">http://eprints.rclis.org/archive/00005512/</a>.</li>
+<li>Hutchings, Paul and Ilana Levin. 2006. NIH Author Postings: A Study to Assess Understandings of, and Compliance with, NIH Public Access Policy. Conducted on behalf of the Publishing Research Consortium (February). Available from <a href="http://www.alpsp.org/news/NIH_authorpostings_report.pdf">http://www.alpsp.org/news/NIH_authorpostings_report.pdf</a>
+</li>
+<li>Jacobs, Neil. 2006a. International Workshop on E-Theses. <i>Ariadne 46</i> (February). Available from <a href="http://www.ariadne.ac.uk/issue46/e-theses-rpt/">http://www.ariadne.ac.uk/issue46/e-theses-rpt/</a>
+</li>
+<li>Jacobs, Neil, ed. 2006b. <i>Open Access: Key Strategic, Technical and Economic Aspects.</i> Oxford, England: Chandos Publishing. </li>
+<li>Jacs&oacute;, P&eacute;ter. 1993. A Proposal for Database "Nutrition and Ingredient" Labeling. Guest Editorial, "The Linear File," <i>Database</i> (February): 7-9.</li>
+<li>Jacs&oacute;, P&eacute;ter. 2004. CiteBaseSearch, Institute of Physics Archive, and Google's Scholarly Archive. "P&eacute;ter's Picks and Pans."<i>Online</i>28, 5 (Sept/Oct): 57-60. Available from <a href="http://www2.hawaii.edu/~jacso/">http://www2.hawaii.edu/~jacso/</a>.</li>
+<li>Jacs&oacute;, P&eacute;ter. 2005a. CiteSeer. P&eacute;ter's Digital Reference Shelf. <i>GaleNet</i> (November). Available from <a href="http://www2.hawaii.edu/~jacso/">http://www2.hawaii.edu/~jacso/</a>.</li>
+<li>Jacs&oacute;, P&eacute;ter. 2005b. Visualizing Overlap and Rank Differences Among Web-wide Search Engines: Some Free Tools and Services. <i>Online Information Review</i> 29 (5): 554-60.</li>
+<li>Jacs&oacute;, P&eacute;ter. 2006. The Oxford Journals Collection. P&eacute;ter's Digital Reference Shelf. Galenet (April). Available from <a href="http://www2.hawaii.edu/~jacso/">http://www2.hawaii.edu/~jacso/</a>.</li>
+<li>Jin, Hai. [2004]. ChinaGrid Overview. Available from <a href="http://unpan1.un.org/intradoc/groups/public/documents/apcity/unpan016934.pdf">http://unpan1.un.org/intradoc/groups/public/documents/apcity/unpan016934.pdf</a>
+</li>
+<li>Jones, Paul. 2005. Strategies and Technologies of Sharing in Contributor-Run Archives. <i>Library Trends</i> 53(4): 651-662.</li>
+<li>Jones, Richard. 2004. The Tapir: Adding E-Theses Functionality to DSpace. Ariadne 41 (October). Available from <a href="http://www.ariadne.ac.uk/issue41/jones/">http://www.ariadne.ac.uk/issue41/jones/</a>.</li> 
+<li>Jones, Richard, et al. 2006. <i>The Institutional Repository</i>. Oxford, England: Chandos Publishing.</li>
+<li>Kastens, K. 2005. The DLESE Community Review System: Gathering, Aggregating, and Disseminating User Feedback about the Effectiveness of Web-based Educational Resources. <i>Journal of Geoscience Education</i> 53: 37-43. Available from <a href="http://www.nagt.org/files/nagt/jge/abstracts/Kastens_v53n1.pdf">http://www.nagt.org/files/nagt/jge/abstracts/Kastens_v53n1.pdf</a>
+</li>
+<li>Kastens, Kim et al. 2005. Questions &amp; Challenges Arising in Building the Collection of a Digital Library for Education: Lessons from Five Years of DLESE. <i>D-Lib</i> 11(11). Available from <a href="http://www.dlib.org/dlib/november05/kastens/11kastens.html">http://www.dlib.org/dlib/november05/kastens/11kastens.html</a>
+</li>
+<li>Kastens, Kim A. and Neil Holzman. 2006. The Digital Library for Earth System Education Provides Individualized Reports for Teachers on the Effectiveness of Educational Resources in Their Own Classrooms. <i>D-Lib</i> 12, 1 (January 2006). Available from <a href="http://www.dlib.org/dlib/january06/kastens/01kastens.html">http://www.dlib.org/dlib/january06/kastens/01kastens.html</a>.</li>
+<li>Khan, Haseebulla M., Kurt Maly and Mohammad Zubair. 2005. Similarity and Duplicate Detection System for an OAI Compliant Federated Digital Library. Proceedings of the 9th European Conference, ECDL 2005, Vienna, Austria, September 18-23, 2005. in Lecture Notes in Computer Science, "Research and Advanced Technology for Digital Libraries," vol. 2652: 531-532.</li>
+<li>Kelly, Brian, Amanda Closier, and Debra Hiom. 2005. Gateway Standardization: A Quality Assurance Framework for Metadata. <i>Library Trends</i> 53(4): 637-650.</li>
+<li>Kennan, Mary Anne et al. 2005. ADT ProQuest Collaboration: A Case Study of a Library/Vendor Alliance. Available from <a href="http://adt.caul.edu.au/etd2005/papers/095Kennan.pdf">http://adt.caul.edu.au/etd2005/papers/095Kennan.pdf</a>.</li>
+<li>Koelling, Jill and Mark Shelstad. 2006. Collaborative Digitization Projects. PowerPoint presentation at the Midwest Archives Conference, April 27-29, 2006, Normal, Illinois. Available from <a href="http://www.cdpheritage.org/cdp/presentations/documents/CollaborativeDigitizationProgramsMAC06.pdf">http://www.cdpheritage.org/cdp/presentations/documents/CollaborativeDigitizationProgramsMAC06.pdf</a>.</li>
+<li>Kott, Katherine et al. 2005. DLF Aquifer: Bringing Collections to Light. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia on November 8, 2005. Available from <a href="/forums/fall2005/presentations/aquifer1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/aquifer1105_files/frame.htm</a>
+</li>
+<li>Kott, Katherine et al. 2006. DLF Aquifer: Phase 1 Accomplishments. PowerPoint presented at the DLF Spring Forum Austin, Texas on April 11, 2006. Available from <a href="/forums/spring2006/presentations/aquifer0406_files/frame.htm">http://www.diglib.org/forums/spring2006/presentations/aquifer0406_files/frame.htm</a>
+</li>
+<li>Kraan, Wilbert and Jon Mason. 2005. Issues in Federating Repositories: Report on the First International CORDRA<sup>TM</sup> Workshop. <i>D-Lib Magazine</i> 11,3 (March), Available from <a href="http://www.dlib.org/dlib/march05/kraan/03kraan.html">http://www.dlib.org/dlib/march05/kraan/03kraan.html</a>.</li>
+<li>Lagoze, Carl et al. 2002. "The Open Archives Initiative Protocol for Metadata harvesting, Version 2.0." (June). Available from <a href="http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm">http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm</a>
+</li>
+<li>Lagoze, Carl et al. 2005. What Is a Digital Library Anymore, Anyway? Beyond Search and Access in the NSDL. <i>D-Lib Magazine</i> 11,11 (November). Available from <a href="http://www.dlib.org/dlib/november05/lagoze/11lagoze.html#n3">http://www.dlib.org/dlib/november05/lagoze/11lagoze.html#n3</a>
+</li>
+<li>Lagoze, Carl et al. 2006a. Metadata Aggregation and "Automated Digital Libraries": A Retrospective on the NSDL Experience. Submission to JCDL. Preprint available from <a href="http://www.arxiv.org/ftp/cs/papers/0601/0601125.pdf">http://www.arxiv.org/ftp/cs/papers/0601/0601125.pdf</a>.</li>
+<li>Lagoze, Carl et al. 2006b. Representing Contextualized Information in the NSDL. Preprint available from <a href="http://www.arxiv.org/ftp/cs/papers/0603/0603024.pdf">http://www.arxiv.org/ftp/cs/papers/0603/0603024.pdf</a> .</li>
+<li>LaGuardia, Cheryl. 2006. ResearchNow. <i>Library Journal</i> (February 1). Available from <a href="http://www.libraryjournal.com/article/CA6299837.html">http://www.libraryjournal.com/article/CA6299837.html</a>.</li>
+<li>Landis, Bill. 2005. Collaborative Metadata Aggregations: CDL's American West Experience + A Whole Lot of Unanswered Questions. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 8, 2005. Available from <a href="/forums/fall2005/presentations/landis1105_files/frame.htm">http://www.diglib.org/forums/fall2005/presentations/landis1105_files/frame.htm</a>.</li>
+<li>Landis, Bill. 2006. Go Fish! Experiments with Topical Metadata Enhancement in the American West Project. DLF Spring Forum, Austin, Texas (April 11). Available from <a href="/forums/spring2006/presentations/landis0406_files/frame.htm">http://www.diglib.org/forums/spring2006/presentations/landis0406_files/frame.htm</a>.</li>
+<li>Lavoie Brian, Lorcan Dempsey, and Lynn Silipigni Connaway. 2006. Making Data Work Harder. <i>Library Journal.</i> (January 15).Available from <a href="http://www.libraryjournal.com/article/CA6298444.html">http://www.libraryjournal.com/article/CA6298444.html</a>
+</li>
+<li>Liu, Xiaoming et al. 2005. Lessons Learned with Arc, an OAI-PHM Service Provider. <i>Library Trends</i>. 53(4): 590-603.</li>
+<li>Lossau, Norbert. 2006. Existing Infrastructures to Bring Cultural Heritage Online, and New Needs For Such Infrastructures. Presentation at "Open Access to Cultural Heritage," Golm/Potsdam, Germany, 29 March 2006. Available from <a href="http://berlin4.aei.mpg.de/presentations/Lossau_OA06.pdf">http://berlin4.aei.mpg.de/presentations/Lossau_OA06.pdf</a>.</li>
+<li>Lutz, Marilyn. 2005. Featured Collection: The Maine Music Box. <i>D-Lib Magazine.</i> 11, 3<i></i> (March). Available from <a href="http://www.dlib.org/dlib/march05/03featured-collection.html">http://www.dlib.org/dlib/march05/03featured-collection.html</a>.</li>
+<li>Lynch, Clifford A. 2003. Institutional Repositories: Essential Infrastructure for Scholarship in the Digital Age. <i>ARL Bimonthly Report</i>, 226 (February): 1-7. Available from <a href="http://www.arl.org/newsltr/226/ir.html">http://www.arl.org/newsltr/226/ir.html</a>.</li>
+<li>Lynch, Clifford A. and Joan K. Lippincott. 2005. Institutional Repository Deployments in the United States as of Early 2005. <i>D-Lib Magazine</i> 11, 9 (September). Available from <a href="http://www.dlib.org/dlib/september05/lynch/09lynch.html">http://www.dlib.org/dlib/september05/lynch/09lynch.html</a>.</li>
+<li>Lyon, Liz and Simon Coles. 2004. eBank UK: Linking Research Data, Scholarly Communication and Learning. Presentation at All Hands Meeting: eScience Broadening the Horizon, Nottingham, England sponsored by the National eScience Centre, September 2, 2004. Available from <a href="http://www.nesc.ac.uk/events/ahm2004/presentations/237.ppt">http://www.nesc.ac.uk/events/ahm2004/presentations/237.ppt</a>.</li>
+<li>MacLeod, Roddy and Malcolm Moffat. 2005. Engineering Digital Repositories Landscape Analysis, and Implications for PerX. Version 1.0 (10/11/05). Available from <a href="http://www.icbl.hw.ac.uk/perx/analysis.htm">http://www.icbl.hw.ac.uk/perx/analysis.htm</a>.</li>
+<li>Marlino, M. R., T. R. Sumner, and M. J. Wright, 2004. Geoscience Education and Cyberinfrastructure. Report of a workshop sponsored by the National Science Foundation (NSF), April 19-20. Boulder: Digital Library for Earth System Education (DLESE) Program Center; University Corporation for Atmospheric Research (UCAR), 43p. Available from <a href="http://www.dlese.org/documents/reports/GeoEd-CI.html">http://www.dlese.org/documents/reports/GeoEd-CI.html</a>
+</li>
+<li>Marmor, Max. 2006. Six Lessons Learned: An (Early) ARTstor Retrospective. <i>RLG DigiNews</i> 10, 2 (April). Available from <a href="http://www.rlg.org/en/page.php?Page_ID=20916#article0">http://www.rlg.org/en/page.php?Page_ID=20916#article0</a>.</li>
+<li>McCown, Frank, Johan Bollen and Michael L. Nelson. 2005. Evaluation of the NSDL and Google for Obtaining Pedagogical Resources. <i>Lecture Notes in Computer Science</i> 3652, 344-355.</li>
+<li>McCown, Frank, Xiaoming Liu, Michael L. Nelson, Mohammad Zubair. 2005. Search Engine Coverage of the OAI-PMH Corpus. <i>IEEE Internet Computing</i> LA-UR-04-9158. Available from <a href="http://library.lanl.gov/cgi-bin/getfile?LA-UR-05-9158.pdf">http://library.lanl.gov/cgi-bin/getfile?LA-UR-05-9158.pdf</a>.</li>
+<li>McGann, Jerome. 2005. Like Living on the Nile. IVANHOE, A User's Manual. <i>Literature Compass</i> 2, VI 149 (2005): 1-27.</li>
+<li>McGann, Jerome and Bethany Nowviskie. 2005. NINES: A Federated Model for Integrating Digital Scholarship. White Paper (September):1-40. Available from <a href="http://www.nines.org/about/9swhitepaper.pdf">http://www.nines.org/about/9swhitepaper.pdf</a>.</li>
+<li>McKiernan, G. 2005.  E-profile: Scirus: For Scientific Information Only. Library Hi Tech News, 22,3 (Mar):18-25.</li>
+<li>McLean, Neil. 2004. The Ecology of Repository Services: A Cosmic View. PowerPoint presentation at ECDL (European Conference on Research and Advanced Technology for Digital Libraries), University of Bath, September 12-17, 2004. Available from <a href="http://www.ecdl2004.org/presentations/mclean/">http://www.ecdl2004.org/presentations/mclean/</a>.</li>
+<li>McLean, Neil and Clifford Lynch. 2004. Interoperability between Library Information Services and Learning Environments - Bridging the Gaps. A Joint White Paper on behalf of the IMS Global Learning Consortium and the Coalition of Networked Information. (May 10). Available from <a href="http://www.imsglobal.org/digitalrepositories/CNIandIMS_2004.pdf">http://www.imsglobal.org/digitalrepositories/CNIandIMS_2004.pdf</a>.</li>
+<li>Mimno, David, Gregory Crane and Alison Jones. 2005. Hierarchical Catalog Records: Implementing a FRBR Catalog. D-Lib Magazine, 11,10 (October). Available from <a href="http://www.dlib.org/dlib/october05/crane/10crane.html.doi:10.1045/october2005-crane">http://www.dlib.org/dlib/october05/crane/10crane.html.doi:10.1045/october2005-crane</a>.</li>
+<li>Mitchell, Steven. 2005. Collaboration Enabling Internet Resource Collection-Building Software and Technologies. <i>Library Trends</i> 53(4): 604-619.</li>
+<li>Mitchell, Steven. 2006. Automated Metadata Generation and New Resource Discovery Software and Services. PowerPoint Presentation at IMLS Webwise 2006. Available from <a href="http://datafountains.ucr.edu/IMLS2006presentation.ppt">http://datafountains.ucr.edu/IMLS2006presentation.ppt</a>
+</li>
+<li>Mitchell, Steven, Julie Mason and Lori Pender. 2004. Enabling Technologies and Service Designs for Collaborative Internet Collection Building. <i>Library Hi Tech</i> 22, 3: 295-306.</li>
+<li>Moffat, M. 2006. 'Marketing' with Metadata - How Metadata Can Increase Exposure and Visibility of Online Content. PerX project, Version 1.0 8th March 2006. Available from <a href="http://www.icbl.hw.ac.uk/perx/advocacy/exposingmetadata.htm#nine">http://www.icbl.hw.ac.uk/perx/advocacy/exposingmetadata.htm#nine</a>.</li>
+<li>NASA. Scientific &amp; Technical Information Program Office. 2005. Persistent Unique Identifiers Being Added to NASA STI. <i>STI Bulletin Online.</i> (July). Available from <a href="http://www.sti.nasa.gov/Pubs/Bulletin/05julypub/05julypub.pdf">http://www.sti.nasa.gov/Pubs/Bulletin/05julypub/05julypub.pdf</a>
+</li>
+<li>NASA. Scientific &amp; Technical Information Program Office. 2006. Richer Search Experience Coming for NASA STI Public Collection. <i>STI Bulletin Online.</i> (January). Available from <a href="http://www.sti.nasa.gov/Pubs/Bulletin/06janpub/06janpub.pdf">http://www.sti.nasa.gov/Pubs/Bulletin/06janpub/06janpub.pdf</a>
+</li>
+<li>National Information Standards Organization. 2004. A Framework of Guidance for Building Good Digital Collections. 2<sup>nd</sup> edition. Available from <a href="http://www.niso.org/framework/Framework2.html">http://www.niso.org/framework/Framework2.html</a>.</li>
+<li>National Institutes of Health. Department of Health and Human Services. 2006. <i>Report on the NIH Public Access Policy</i>. Submitted by Elias A. Zerhouni, Director, NIH, (January).</li>
+<li>National Science Foundation. NSF Cyberinfrastructure Council. 2006. <i>Cyberinfrastructure Vision for 21<sup>st</sup> Century Discovery.</i> Version 7.1. July 20, 2006. Available from <a href="http://www.nsf.gov/od/oci/ci-v7.pdf">http://www.nsf.gov/od/oci/ci-v7.pdf</a>
+</li>
+<li>Nelson, Michael L. and Johan Bollen. 2005. "If You Harvest arXiv.org, Will They Come?" Fifth ACM/IEEE Joint Conference on Digital Libraries (JCDL 2005), June 7 - 11 (Denver, CO), p. 393. 1-58113-876-8/05/006.</li>
+<li>Nelson, Michael L., Johan Bollen, JoAnne Rocker and Calvin Mackey. 2004. User Evaluation of the NASA Technical Report Server Recommendation Service, Sixth ACM CIKM International Workshop on Web Information and Data Management (WIDM 2004), Washington D.C., USA, November 12-14, 2004. ACM 2004. Available from <a href="http://ntrs.nasa.gov/NTRSrecommendation1004.pdf">http://ntrs.nasa.gov/NTRSrecommendation1004.pdf</a>
+</li>
+<li>Nelson, Michael L., JoAnne Rocker and Terry L. Harrison. OAI and NASA's Scientific and Technical Information. Library Hi Tech,  21 (2):140-150.</li>
+<li>Noruzi, Alireza. 2005. Google Scholar: The New Generation of Citation Indexes. <i>Libri</i> 55:170-180.</li>
+<li>Nowviskie, Bethany. 2005. COLLEX: Semantic Collections and Exhibits for the Remixable Web. (November). Available from <a href="http://www.nines.org/about/Nowviskie-Collex.pdf">http://www.nines.org/about/Nowviskie-Collex.pdf</a>.</li>
+<li>OCLC Online Computer Library Center, Inc. 2005. Perceptions of Libraries and Information Resources. A Report to the OCLC Membership. Contributions by Cathy De Rosa et al. Dublin, Ohio: OCLC. Available from <a href="http://www.oclc.org/reports/2005perceptions.htm">http://www.oclc.org/reports/2005perceptions.htm</a>.</li>
+<li>OCLC/RLG PREMIS Working Group. 2004. Implementing Preservation Repositories for Digital Materials: Current Practice and Emerging Trends in the Cultural Heritage Community. Report by the joint OCLC/RLG Working Group Preservation Metadata: Implementation Strategies (PREMIS). Dublin, Ohio: OCLC Online Computer Library Center, Inc. Available from <a href="http://www.oclc.org/research/projects/pmwg/surveyreport.pdf">http://www.oclc.org/research/projects/pmwg/surveyreport.pdf</a>
+</li>
+<li>Open Archives Initiative. 2002. Specification for an OAI Static Repository and an OAI Static Repository Gateway. Protocol Version 2.0 of 2002-06-14. Document Version 2004/04/23T15:17:00Z <a href="http://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm">http://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm</a>
+</li>
+<li>Paynter, G., 2005. Developing Practical Automatic Metadata Assignment and Evaluation Tools for Internet Resources. JCDL, Denver. Available from <a href="http://ivia.ucr.edu/projects/publications/Paynter-2005-JCDL-Metadata-Assignment.pdf">http://ivia.ucr.edu/projects/publications/Paynter-2005-JCDL-Metadata-Assignment.pdf</a>.</li>
+<li>Peek, Robin. 2005. RCUK Free for All. <i>Information Today</i>. 22, 8 (September): 17-18.</li>
+<li>Pepe, Alberto, Jean-Yves Le Meur and Tibor &Scaron;imko. 2006. Dissemination of scientific results in High Energy Physics: the CERN Document Server vision. Presented at Computing in High Energy and Nuclear Physics (Mumbai, February 13-17, 2006). Available from <a href="http://indico.cern.ch/getFile.py/access?contribId=216&amp;sessionId=5&amp;resId=0&amp;materialId=paper&amp;confId=048">http://indico.cern.ch/getFile.py/access?contribId=216&amp;sessionId=5&amp;resId=0&amp;materialId=paper&amp;confId=048</a>. Conference Web site <a href="http://www.tifr.res.in/%7Echep06/">http://www.tifr.res.in/%7Echep06/</a>
+</li>
+<li>Petricek, Vaclav et al. 2005. A Comparison of On-Line Computer Science Citation Databases. ECDL 2005, <i>Lecture Notes in Computer Science</i> 3653: 438-449. Available from <a href="http://citeseer.ist.psu.edu/petricek05comparison.html">http://citeseer.ist.psu.edu/petricek05comparison.html</a>
+</li>
+<li>Phipps, Jon, Diane Hillmann and Gordon Paynter. 2004. Orchestrating Metadata Enhancement Services: Introducing Lenny. <a href="http://www.arxiv.org/ftp/cs/papers/0501/0501083.pdf">http://www.arxiv.org/ftp/cs/papers/0501/0501083.pdf</a>.</li>
+<li>Plutchak, T. Scott. 2005. The Impact of Open Access. <i>JMLA: Journal of the Medical Library Association. 93</i>(4) October 2005: 419-421. Available from <a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1250314">http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1250314</a>
+</li>
+<li>Poe, Felicia with contributions from Jane Lee. 2005. American West Broad Topic Category Naming: Survey Findings &amp; Recommendations. Prepared for the American West Project Team, (May). Available from <a href="http://www.cdlib.org/inside/assess/evaluation_activities/docs/2005/survey_May2005_report.pdf">http://www.cdlib.org/inside/assess/evaluation_activities/docs/2005/survey_May2005_report.pdf</a>. </li>
+<li>Powell, Andy. 2005. A 'Services-Oriented' View of the JISC Information Environment. UKOLN, University of Bath. (November). Available from <a href="http://www.ukoln.ac.uk/distributed-systems/jisc-ie/arch/soa/jisc-ie-soa.pdf">http://www.ukoln.ac.uk/distributed-systems/jisc-ie/arch/soa/jisc-ie-soa.pdf</a>.</li>
+<li>Proudman, Vanessa. 2006. Nereus: One International Subject-based Repository Meeting Two Needs - Libraries and Researchers Collaborate. Delivered at 8th International Bielefeld Conference, Bielefeld (Germany). Available from <a href="http://conference.ub.uni-bielefeld.de/2006/docs/presentations/proudman_biconf06_final.ppt">http://conference.ub.uni-bielefeld.de/2006/docs/presentations/proudman_biconf06_final.ppt</a>.</li>
+<li>Renda, M. Elena and Umberto Straccia. 2005. A Personalized Collaborative Digital Library Environment: a Model and an Application. <i>Information Processing &amp; Management</i>. 41,1 (January): 5-21.</li>
+<li>RLG and NARA. 2005. An Audit Checklist for the Certification of Trusted Digital Repositories. Draft for Public Comment. Mountain View, CA: RLG, August 2005. Available from <a href="http://www.rlg.org/en/pdfs/rlgnara-repositorieschecklist.pdf">http://www.rlg.org/en/pdfs/rlgnara-repositorieschecklist.pdf</a>.</li>
+<li>RLG and OCLC. 2002. Trusted Digital Repositories: Attributes and Responsibilities. Mountain View, CA: RLG, May 2002. Available from <a href="http://www.rlg.org/en/pdfs/repositories.pdf">http://www.rlg.org/en/pdfs/repositories.pdf</a>. </li>
+<li>Roosendaal, Hans and Peter Geurts. 1997. Forces and Functions in Scientific Communication: an Analysis of their Interplay. Cooperative Research Information Systems in Physics, August 31-September 4 1997, Oldenburg, Germany. Available from <a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html">http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html</a>.</li>
+<li>Sadeh, Tamar. 2006. Google Scholar Versus Metasearch Systems. <i>HEP Libraries Webzine</i> 12 (March). Available from <a href="http://library.cern.ch/HEPLW/12/papers/1/#ref-02">http://library.cern.ch/HEPLW/12/papers/1/#ref-02</a>.</li>
+<li>Sale, Arthur. 2006. The Impact of Mandatory Policies on ETD Acquisition. <i>D-Lib Magazine</i> 12, 4 (April). Available from <a href="http://www.dlib.org/dlib/april06/sale/04sale.html">http://www.dlib.org/dlib/april06/sale/04sale.html</a>.</li>
+<li>Seaman, David.<b> 2005a. </b>OAI For Digital Library Aggregation: An IMLS Grant-funded DLF Project. PowerPoint presented at the DLF Fall Forum, Charlottesville, Virginia, November 8, 2005. Available from <a href="/forums/fall2005/presentations/cole1105.htm">http://www.diglib.org/forums/fall2005/presentations/cole1105.htm</a>
+</li>
+<li>Seaman, David. 2005b. Podcast Interview at CNI 2005 Fall Task Force Meeting. Phoenix, Arizona <a href="http://connect.educause.edu/featured_content/mpasiewicz/an_interview_with_dlfs_executive_director_david_seaman/1712">http://connect.educause.edu/featured_content/mpasiewicz/an_interview_with_dlfs_executive_director_david_seaman/1712</a>
+</li>
+<li>Sequeira E. 2005. PubMed Links to Author Manuscripts in PubMed Central. NLM Techical Bulletin, 345 (July-August): e3.</li>
+<li>Shadbolt, Nigel et al. 2006. The Open Research Web. In Jacobs, Neil, ed. <i>Open Access: Key Strategic, Technical and Economic Aspects</i>. Oxford: Chandos Publishing, 2006. Preprint available from <a href="http://www.arxiv.org/ftp/cs/papers/0601/0601125.pdf">http://www.arxiv.org/ftp/cs/papers/0601/0601125.pdf</a>.</li>
+<li>Shreeves, Sarah L. et al. 2005. Current Developments and Future Trends for the OAI Protocol for Metadata Harvesting. <i>Library Trends</i> 53(4): 576-589.</li>
+<li>Smith, MacKenzie. 2006. Transition to a Broader Participation: Experience from the DSpace Project. PowerPoint Presentation at Open Repositories conference, Sydney, Australia (February 3, 2006). Available from <a href="http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#thursday">http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#thursday</a>
+</li>
+<li>Sparks, Sue. 2005. JISC Disciplinary Differences Report. London: Rightscom Ltd. Available from <a href="http://www.jisc.ac.uk/index.cfm?name=schol_comms_reports">http://www.jisc.ac.uk/index.cfm?name=schol_comms_reports</a>.</li>
+<li>Sreekumar, M.G. 2006. Open Access Landscaping in India: Building Institutional Repositories (IRs) Using 'DSpace.' PowerPoint Presentation at Open Repositories conference, Sydney, Australia (February 1, 2006). Available from <a href="http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#wednesday">http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#wednesday</a>.</li>
+<li>Straccia, Umberto and Costantino Thanos. 2004. An Open Collaborative Virtual Archive Environment. <i>International Journal on Digital Libraries</i> 4 (1): 23-24, DOI: 10.1007/s00799-003-0063-.</li>
+<li>Suber, Peter. Open Access News. Weblog available from <a href="http://www.earlham.edu/~peters/fos/fosblog.html">http://www.earlham.edu/~peters/fos/fosblog.html</a>.</li>
+<li>Suber, Peter. The SPARC Open Access Newsletter. Available from <a href="http://www.earlham.edu/~peters/fos/">http://www.earlham.edu/~peters/fos/</a>.</li>
+<li>Sumner, Tamara et al. 2004. A Web Service Interface for Creating Concept Browsing Interfaces. <i>D-Lib Magazine</i> 10, 11 (November). Available from <a href="http://www.dlib.org/dlib/november04/sumner/11sumner.html">http://www.dlib.org/dlib/november04/sumner/11sumner.html</a>.</li>
+<li>Swan, Alma and Chris Awre. 2006. Linking UK Repositories: Technical and Organisational Models to Support User-Oriented Services Across Institutional and Other Digital Repositories. Scoping Study Report. (June). Available from <a href="http://www.jisc.ac.uk/uploaded_documents/Linking_UK_repositories_report.pdf">http://www.jisc.ac.uk/uploaded_documents/Linking_UK_repositories_report.pdf</a>
+</li>
+<li>Swan, Alma et al. 2005. Developing a Model for E-prints and Open Access Journal Content in UK Further and Higher Education. <i>Learned Publishing</i> 18, 1: 25-40. Available from <a href="http://eprints.ecs.soton.ac.uk/11000/">http://eprints.ecs.soton.ac.uk/11000/</a>
+</li>
+<li>Swan, Alma and Sheridan Brown. 2004a. Authors and Open Access Publishing. <i>Learned Publishing</i> 17(3) 219-224.<u> </u><a href="http://cogprints.org/4123/">http://cogprints.org/4123/</a>
+</li>
+<li>Swan, Alma and Sheridan Brown. 2004b. JISC/OSI Journal Authors Survey Report. <a href="http://cogprints.org/4125/">http://cogprints.org/4125/</a>
+</li>
+<li>Swan, Alma and Sheridan Brown. 2005. Open Access Self-Archiving: An Author Study. Key Perspectives Ltd. Technical Report, Joint Information Systems Committee (JISC), UK FE and HE Funding Councils. (May). Available from <a href="http://cogprints.org/4385/">http://cogprints.org/4385/</a> or <a href="http://www.keyperspectives.com">http://www.keyperspectives.com</a>
+</li>
+<li>Tansley, Robert. 2006. The China Digital Museum Project. PowerPoint presentation at Open Repositories conference, Sydney, Australia (January 31, 2006). Available from <a href="http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#tuesday">http://www.apsr.edu.au/Open_Repositories_2006/conference_program.htm#tuesday</a>
+</li>
+<li>Teng, Xia et al. 2005. Best Practices in the Design, Development and Use of Courseware in Engineering Education. Presented at the 25<sup>th</sup> ASEE/IEEE Frontiers in Education Conference, October 19-22, 2005 in Indianapolis, Indiana, Session T1A-1. Available from <a href="http://www.needs.org/smete/public/about_smete/publications/FIE05/FIE_bestpractice_15.pdf">http://www.needs.org/smete/public/about_smete/publications/FIE05/FIE_bestpractice_15.pdf</a>
+</li>
+<li>Tennant, Roy. [n.d.] Specifications for Metadata Processing Tools. California Digital Library. Available from <a href="http://www.cdlib.org/inside/projects/harvesting/metadata_tools.htm">http://www.cdlib.org/inside/projects/harvesting/metadata_tools.htm</a>.</li>
+<li>Tennant, Roy. [2004a] Bitter Harvest: Problems &amp; Suggested Solutions for OAI-PMH Data &amp; Service Providers. California Digital Library. Available from <a href="http://www.cdlib.org/inside/projects/harvesting/bitter_harvest.html">http://www.cdlib.org/inside/projects/harvesting/bitter_harvest.html</a>.</li>
+<li>Tennant, Roy. 2004b. A Bibliographic Metadata Infrastructure for the 21<sup>st</sup> Century. <i>Library Hi Tech</i> 22, 2: 175-181, Available from <a href="http://roytennant.com/metadata.pdf">http://roytennant.com/metadata.pdf</a> .</li>
+<li>Turner, Chris. 2004. Cornucopia: An Open Collection Description Service. <i>Ariadne</i> 40 (July). Available from <a href="http://www.ariadne.ac.uk/issue40/turner/">http://www.ariadne.ac.uk/issue40/turner/</a>
+</li>
+<li>Turner, Chris. 2005. Cornucopia. UKOLN Collection Description Focus. Case Study 4, January 2005. Available from <a href="http://www.ukoln.ac.uk/cd-focus/case-studies/cdf-casestudy4-cornucopia.pdf">http://www.ukoln.ac.uk/cd-focus/case-studies/cdf-casestudy4-cornucopia.pdf</a>
+</li>
+<li>United Kingdom. HM Treasury. 2006. Science and Innovation Investment Framework 2004-2014: Next Steps. (March). Available from <a href="http://www.hm-treasury.gov.uk/media/1E1/5E/bud06_science_332.pdf">http://www.hm-treasury.gov.uk/media/1E1/5E/bud06_science_332.pdf</a>.</li>
+<li>University Library Regensburg. 2006. Electronic Journals Library: Annual Report 2005. Regensburg: Germany, April 2006. Available from <a href="http://rzblx1.uni-regensburg.de/ezeit/anwender/Jahresbericht_EZB_2005_engl.pdf">http://rzblx1.uni-regensburg.de/ezeit/anwender/Jahresbericht_EZB_2005_engl.pdf</a>.</li>
+<li>University of California Libraries. Bibliographic Services Task Force. 2005. Final Report: Rethinking How We Provide Bibliographic Services for the University of California. Final Report: December 2005. Available from <a href="http://libraries.universityofcalifornia.edu/sopag/BSTF/Final.pdf">http://libraries.universityofcalifornia.edu/sopag/BSTF/Final.pdf</a>.</li>
+<li>Van de Sompel, Herbert et al. 2004. Rethinking Scholarly Communication: Building the System that Scholars Deserve. <i>D-Lib Magazi</i><i>ne</i> (September). Available from <a href="http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html">http://www.dlib.org/dlib/september04/vandesompel/09vandesompel.html</a>
+</li>
+<li>Van de Sompel, Herbert et al. 2005. aDORe: A Modular, Standards-Based Digital Object Repository <i>The Computer Journal</i>, 48 (5): 514 - 535. doi:10.1093/comjnl/bxh114.</li>
+<li>van Westrienen, Gerard. 2005. Completed Questionnaires: Country Update on Academic Institutional Repositories. Making the Strategic Case for Institutional Repositories, CNI-JISC-SURF Conference; Amsterdam, 10-11 May 2005. (August). Available from <a href="http://www.surf.nl/download/country-update2005.pdf">http://www.surf.nl/download/country-update2005.pdf</a>.</li>
+<li>van Westrienen, Gerard and Clifford A. Lynch. 2005. Academic Institutional Repositories: Deployment Status in 13 Nations as of Mid 2005. <i>D-Lib Magazine</i> 11, 9 (September). Available from <a href="http://www.dlib.org/dlib/september05/westrienen/09westrienen.html">http://www.dlib.org/dlib/september05/westrienen/09westrienen.html</a>.</li>
+<li>van Veen, Theo and Bill Oldroyd. 2004. Search and Retrieval in The European Library: A New Approach. <i>D-Lib Magazine</i> 10, 2 (February). Available from <a href="http://www.dlib.org/dlib/february04/vanveen/02vanveen.html">http://www.dlib.org/dlib/february04/vanveen/02vanveen.html</a>
+</li>
+<li>Vise, David A. 2005. World Digital Library Planned: Library of Congress Envisions Collection to Bridge Cultures. The Washington Post. (November 22): A27. Available from <a href="http://www.washingtonpost.com/wp-dyn/content/article/2005/11/21/AR2005112101428.html">http://www.washingtonpost.com/wp-dyn/content/article/2005/11/21/AR2005112101428.html</a>.</li>
+<li>Warner, Simeon. 2005. The arXiv: Fourteen Years of Open Access Scientific Communication. In M. Halbert, ed. <i>Free Culture and the Digital Library Symposium Proceedings.</i> Atlanta: MetaScholar Initiative at Emory University, October 14, 2005, 56-68.</li>
+<li>Warner, Simeon and Michael Nelson. 2003. Report on the Metadata Harvesting Workshop at JCDL 2003. ACM SIGIR Forum, 37,2 (Fall).</li>
+<li>Walters, William H. 2006. Institutional Journal Costs in an Open Access Environment. Helen A. Gaser Library, Millersville University, Millersville, PA. Available from <a href="http://www.library.millersville.edu/public_html/walters/journal_costs.pdf">http://www.library.millersville.edu/public_html/walters/journal_costs.pdf</a>.</li>
+<li>Waters, Donald. 2001. The Metadata Harvesting Initiative of the Mellon Foundation. <i>ARL Bimonthly Report</i> 217 (August). Available from <a href="http://www.arl.org/newsltr/217/waters.html">http://www.arl.org/newsltr/217/waters.html</a>
+</li>
+<li>Weatherley, J. 2005. A Web Service Framework for Embedding Discovery Services in Distributed Library Interfaces. In <i>Proceedings of the 5th ACM/IEEE-CS Joint Conference on Digital Libraries</i> (Denver, CO, USA, June 07 - 11, 2005). JCDL '05. ACM Press, New York, NY, 42-43. DOI= <a href="http://doi.acm.org/10.1145/1065385.1065394">http://doi.acm.org/10.1145/1065385.1065394</a>
+</li>
+<li>Whitney, Colleen and Peter Brantley. 2006. Project Briefing: The Melvyl Recommender Project. PowerPoint Presentation at CNI Spring 2006 Task Force Meeting. Arlington, Virginia, April 3-4, 2006. Available from <a href="http://www.cni.org/tfms/2006a.spring/abstracts/PB-whitney-melvyl.html">http://www.cni.org/tfms/2006a.spring/abstracts/PB-whitney-melvyl.html</a>.</li>
+<li>Willinsky, John. 2006. <i>The Access Principle: The Case of Open Access to Research and Scholarship</i>. Cambridge, Massachusetts and London: The MIT Press.</li>
+<li>Wright, Michael. 2004. GEON and DLESE: Building Educational CyberInfrastructure. PowerPoint Presentation from GEON NSF meeting. Available from <a href="http://www.geongrid.org/ahm/Wright_Final_2004.ppt">http://www.geongrid.org/ahm/Wright_Final_2004.ppt</a>.</li>
+<li>Yeomans, Joanne. 2006. CERN's Open Access E-print Coverage in 2006 : Three Quarters Full and Counting. <i>High Energy Physics Libraries Webzine</i>, 12, (March). Available from <a href="http://library.cern.ch/HEPLW/12/papers/2/">http://library.cern.ch/HEPLW/12/papers/2/</a>
+</li>
+<li>Zia, Lee I. 2006. The NSF National Science, Technology, Engineering, and Mathematics Education Digital Library (NSDL) Program. D-LIb Magazine, 12, 3 (December). Available from <a href="http://www.dlib.org/dlib/march06/03inbrief.html">http://www.dlib.org/dlib/march06/03inbrief.html</a>.</li>
+<li>Zorich, Diane M. 2003. A Survey of Digital Cultural Heritage Initiatives and Their Sustainability Concerns. Washington DC: Council on Library and Information Resources, pub 118 (June). Available from <a href="http://www.clir.org/pubs/abstract/pub118abst.html">http://www.clir.org/pubs/abstract/pub118abst.html</a>.</li>
+</ul>
+
+
+<a name="app01"></a>
+<hr width="75%" />
+<center>
+<h2>Appendix 1 <br />Survey Respondents and Contacts</h2>
+</center>
+<p>Alice M. AGOGINO <br />NEEDS <br />
+<a href="http://www.needs.org/">http://www.needs.org/</a> <br />SMETE.org <br />
+<a href="http://www.smete.org/">http://www.smete.org/</a>
+</p>
+<p>Linda AKLI <br />BiosciEdNet (BEN) Collaborative <br />
+<a href="http://www.biosciednet.org/portal/">http://www.biosciednet.org/portal/</a>
+</p>
+<p>Jenny BENEVENTO <br />IMLS Digital Collections &amp; Content <br />
+<a href="http://imlsdcc.grainger.uiuc.edu/">http://imlsdcc.grainger.uiuc.edu/</a> </p>
+<p>Paul BERKMAN <br />NSDL: National Science Digital Library <br />Sustainability Committee <br />
+<a href="http://sustain.comm.nsdl.org/">http://sustain.comm.nsdl.org/</a>
+</p>
+<p>Steven BIRD <br />Open Language Archives <br />
+<a href="http://www.language-archives.org/">http://www.language-archives.org/</a>
+</p>
+<p>Tim BRODY <br />Citebase <br />
+<a href="http://citebase.eprints.org/">http://citebase.eprints.org/</a> <br />ROAR: Registry of Open Access Repositories <br />
+<a href="http://archives.eprints.org/">http://archives.eprints.org/</a> <br />Journal Policies-Self-archiving Policies of Journals <br />
+<a href="http://romeo.eprints.org/">http://romeo.eprints.org/</a>
+</p>
+<p>Vinod CHACHRA <br />VTLS: NDLTD Union Catalog Search <br />
+<a href="http://zippo.vtls.com/cgi-bin/ndltd/chameleon/">http://zippo.vtls.com/cgi-bin/ndltd/chameleon/</a>
+</p>
+<p>Ann CHAPMAN <br />Cornucopia <br />
+<a href="http://www.cornucopia.org.uk/">http://www.cornucopia.org.uk/</a>
+</p>
+<p>Alex CHAUX <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a> </p>
+<p>Heather CHRISTENSON <br />Metasearch Infrastructure Project <br />California Digital Library <br />
+<a href="http://www.cdlib.org/inside/projects/metasearch/">http://www.cdlib.org/inside/projects/metasearch/</a>
+</p>
+<p>Anita COLEMAN <br />dL-Harvest: Digital Library of Information Science &amp; Technology ** <br />
+<a href="http://dlharvest.sir.arizona.edu/">http://dlharvest.sir.arizona.edu/</a>
+</p>
+<p>Stephen DAVISON <br />Sheet Music Consortium <br />
+<a href="digital.library.ucla.edu/sheetmusic/">digital.library.ucla.edu/sheetmusic/</a>
+</p>
+<p>Tom DEHN <br />NDLTD Catalog, OCLC <br />
+<a href="http://alcme.oclc.org/ndltd/servlet/OAIHandler?verb=ListSets">http://alcme.oclc.org/ndltd/servlet/OAIHandler?verb=ListSets</a>
+</p>
+<p>Holly DEVAUL <br />DLESE: Digital Library for Earth System Education <br />
+<a href="http://www.dlese.org/dds/index.jsp">http://www.dlese.org/dds/index.jsp</a>
+</p>
+<p>Brooke DINE <br />PubMed Central <br />
+<a href="http://www.pubmedcentral.nih.gov/">http://www.pubmedcentral.nih.gov/</a>
+</p>
+<p>Thomas DOWLING <br />OhioLink Worldwide ETD Search <br />
+<a href="http://search.ohiolink.edu/etd/world.cgi">http://search.ohiolink.edu/etd/world.cgi</a>
+</p>
+<p>Naomi DUSHAY <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a>
+</p>
+<p>Curtis FORNADLEY <br />Sheet Music Consortium <br />
+<a href="digital.library.ucla.edu/sheetmusic/">digital.library.ucla.edu/sheetmusic/</a>
+</p>
+<p>Muriel FOULONNEAU <br />CIC Metadata Portal <br />
+<a href="http://cicharvest.grainger.uiuc.edu/">http://cicharvest.grainger.uiuc.edu/</a>
+</p>
+<p>Edward FOX <br />NDLTD: Networked Digital Library of Theses and Dissertations <br />
+<a href="http://www.ndltd.org/">http://www.ndltd.org/</a>
+</p>
+<p>Connie FRANKENFIELD <br />US States Implementing GILS** <br />Illinois State Library <br />
+<a href="http://states.gils.net/">http://states.gils.net/</a>
+</p>
+<p>Jeremy FRUMKIN <br />OCKHAM Initiative <br />
+<a href="http://www.ockham.org/">http://www.ockham.org/</a>
+</p>
+<p>Paola GARGIULO <br />PLEIADI** <br />
+<a href="http://www.openarchives.it/pleiadi/">http://www.openarchives.it/pleiadi/</a>
+</p>
+<p>Lee GILES <br />CiteSeer <br />
+<a href="http://citeseer.ist.psu.edu/">http://citeseer.ist.psu.edu/</a>
+</p>
+<p>Fred GULDEN <br />ARL Scholars Portal* <br />
+<a href="http://www.arl.org/access/scholarsportal/">http://www.arl.org/access/scholarsportal/</a>
+</p>
+<p>Tom HABING <br />CIC Metadata Portal <br />
+<a href="http://cicharvest.grainger.uiuc.edu/">http://cicharvest.grainger.uiuc.edu/</a> <br />Grainger Engineering Library at University of Illinois, Urbana-Champaign <br />
+<a href="http://web.library.uiuc.edu/grainger/">http://web.library.uiuc.edu/grainger/</a> <br />IMLS Digital Collections and Content <br />
+<a href="imlsdcc.grainger.uiuc.edu/collections/">imlsdcc.grainger.uiuc.edu/collections/</a> <br />UIUC Digital Gateway to Cultural Heritage Materials* <br />
+<a href="http://nergal.grainger.uiuc.edu/cgi/b/bib/bib-idx">http://nergal.grainger.uiuc.edu/cgi/b/bib/bib-idx</a> <br />University of Illinois OAI-PMH Data Provider Registry <br />
+<a href="http://gita.grainger.uiuc.edu/registry/">http://gita.grainger.uiuc.edu/registry/</a>
+</p>
+<p>Kat HAGEDORN <br />OAIster <br />
+<a href="http://www.oaister.org/">http://www.oaister.org/</a>
+</p>
+<p>Martin HALBERT <br />AmericanSouth* <br />
+<a href="http://www.americansouth.org/">http://www.americansouth.org/</a> <br />MetaScholar <br />
+<a href="http://www.metascholar.org/">http://www.metascholar.org/</a> <br />SouthComb <br />[not yet available]</p>
+<p>Irma HOLTKAMP <br />Flashpoint, LANL* <br />
+<a href="http://library.lanl.gov/">http://library.lanl.gov/</a>
+</p>
+<p>Kaye HOWE <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a>
+</p>
+<p>Bill HUBBARD <br />OpenDOAR <br />
+<a href="http://opendoar.org/">http://opendoar.org/</a> <br />Publisher Copyright Policies &amp; Self-Archiving: SHERPA/RoMEO list <br />
+<a href="http://www.sherpa.ac.uk/romeo.php">http://www.sherpa.ac.uk/romeo.php</a>
+</p>
+<p>Susan JESUROGA <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a>
+</p>
+<p>Alison JONES <br />Perseus Digital Library <br />
+<a href="http://perseus.uchicago.edu/hopper/">http://perseus.uchicago.edu/hopper/</a>
+</p>
+<p>L&oslash;tte JORGENSEN <br />DOAJ: Directory of Open Access Journals <br />
+<a href="http://www.doaj.org/">http://www.doaj.org/</a>
+</p>
+<p>Jill KOELLING <br />Heritage West <br />
+<a href="http://www.cdpheritage.org/collection/heritageWest.cfm">http://www.cdpheritage.org/collection/heritageWest.cfm</a>
+</p>
+<p>Katherine KOTT <br />DLF Aquifer <br />
+<a href="/aquifer/">http://www.diglib.org/aquifer/</a>
+</p>
+<p>Bill LANDIS <br />The American West <br />
+<a href="http://www.cdlib.org/inside/projects/amwest/">http://www.cdlib.org/inside/projects/amwest/</a>
+</p>
+<p>Jean-Yves LE MEUR <br />CDS: CERN Document Server*** <br />
+<a href="http://cds.cern.ch/">http://cds.cern.ch/</a>
+</p>
+<p>Susan LIEPA <br />AARLIN* <br />
+<a href="http://www.aarlin.edu.au/">http://www.aarlin.edu.au/</a>
+</p>
+<p>Kimberly LIGHTLE <br />
+<i>Formerly</i> ENC Online* <br />
+<a href="http://goenc.com/">http://goenc.com/</a>
+</p>
+<p>Calvin MACKEY <br />NTRS: NASA Technical Reports Server*** <br />
+<a href="http://ntrs.nasa.gov/">http://ntrs.nasa.gov/</a>
+</p>
+<p>Gail MACMILLAN <br />NDLTD: Networked Digital Library for Theses and Disserations <br />
+<a href="http://www.ndltd.org/">http://www.ndltd.org/</a>
+</p>
+<p>Kurt MALY <br />Arc <br />
+<a href="http://www.eng.odu.edu/arc/">http://www.eng.odu.edu/arc/</a> <br />ARCHON* <br />
+<a href="http://archon.cs.odu/edu/">http://archon.cs.odu/edu/</a>
+</p>
+<p>Mary MARLINO <br />DLESE: Digital Library for Earth System Education <br />
+<a href="http://www.dlese.org/dds/index.jsp">http://www.dlese.org/dds/index.jsp</a> </p>
+<p>Julie MASON <br />INFOMINE <br />
+<a href="http://infomine.ucr.edu/">http://infomine.ucr.edu/</a>
+</p>
+<p>Jerome MCGANN <br />NINES <br />
+<a href="http://www.nines.org/">http://www.nines.org/</a>
+</p>
+<p>Elizabeth MILEWICZ <br />AmericanSouth* <br />
+<a href="http://www.americansouth.org/">http://www.americansouth.org/</a> <br />MetaScholar <br />
+<a href="http://www.metascholar.org/">http://www.metascholar.org/</a> <br />SouthComb <br />[not yet available]</p>
+<p>Stephen MITCHELL <br />iVia <br />
+<a href="http://ivia.ucr.edu/">http://ivia.ucr.edu/</a> <br />Data Fountains <br />
+<a href="http://ivia.ucr.edu/#DataFountains">http://ivia.ucr.edu/#DataFountains</a>
+</p>
+<p>Sharon MOMBRU <br />Scirus <br />
+<a href="http://www.scirus.com/">http://www.scirus.com/</a>
+</p>
+<p>Carol MINTON MORRIS <br />National Science Digital Library (NSDL) <br />
+<a href="http://nsdl.org/">http://nsdl.org/</a>
+</p>
+<p>Michael NELSON <br />
+<i>Formerly</i> NTRS <br />
+<a href="http://ntrs.nasa.gov/">http://ntrs.nasa.gov/</a>
+</p>
+<p>Michael NEUBERT <br />American Memory and other OAI Collection <br />Library of Congress <br />
+<a href="http://memory.loc.gov/ammem/">http://memory.loc.gov/ammem/</a>
+</p>
+<p>John Mark OCKERBLOOM <br />The Online Books Page** <br />
+<a href="http://digital.library.upenn.edu/books/">http://digital.library.upenn.edu/books/</a>
+</p>
+<p>John M. SAYLOR <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a>
+</p>
+<p>David SEAMAN <br />DLF Digital Collections Registry <br />
+<a href="http://susanowo.grainger.uiuc.edu/DLFCOllectionsRegistry/browse/">http://susanowo.grainger.uiuc.edu/DLFCOllectionsRegistry/browse/</a> <br />DLF Portal <br />
+<a href="http://www.hti.umich.edu/i/imls/">http://www.hti.umich.edu/i/imls/</a> <br />DLF MODS Portal <br />
+<a href="http://www.hti.umich.edu/m/mods/">http://www.hti.umich.edu/m/mods/</a>
+</p>
+<p>Edwin SEQUEIRA <br />PubMed Central <br />
+<a href="http://www.pubmedcentral.nih.gov/">http://www.pubmedcentral.nih.gov/</a>
+</p>
+<p>Massimiliano SIMONCINI <br />DigitAlexandria** <br />
+<a href="http://www.bdaweb.net/">http://www.bdaweb.net/</a>
+</p>
+<p>Katherine SKINNER <br />AmericanSouth* <br />
+<a href="http://www.americansouth.org/">http://www.americansouth.org/</a> <br />MetaScholar <br />
+<a href="http://www.metascholar.org/">http://www.metascholar.org/</a> <br />SouthComb <br />[not yet available]</p>
+<p>Barbra SPERLING <br />MERLOT (Multimedia Educational Resource for Learning and Online Teaching) <br />
+<a href="http://www.merlot.org/Home.po">http://www.merlot.org/Home.po</a>
+</p>
+<p>Umberto STRACCIA <br />Cyclades* <br />
+<a href="http://www.ercim.org/cyclades/">http://www.ercim.org/cyclades/</a>
+</p>
+<p>David SUNDVALL <br />NSDL: National Science Digital Library <br />
+<a href="http://www.nsdl.org/">http://www.nsdl.org/</a>
+</p>
+<p>Roy TENNANT <br />Metasearch Infrastructure Project <br />California Digital Library <br />
+<a href="http://www.cdlib.org/inside/projects/metasearch/">http://www.cdlib.org/inside/projects/metasearch/</a>
+</p>
+<p>Christopher TURNER <br />Cornucopia <br />
+<a href="http://www.cornucopia.org.uk/">http://www.cornucopia.org.uk/</a>
+</p>
+<p>Simeon WARNER <br />arXiv.org <br />
+<a href="http://www.arxiv.org/">http://www.arxiv.org/</a>
+</p>
+<p>John WILLINSKY <br />Public Knowledge Project** <br />
+<a href="http://www.pkp.ubc.ca/">http://www.pkp.ubc.ca/</a>
+</p>
+<p>Caroline WILLIAMS <br />Intute <br />
+<a href="http://www.intute.ac.uk/development/">http://www.intute.ac.uk/development/</a>
+</p>
+<p>Jeff YOUNG <br />XTCat* <br />
+<a href="http://www.intute.ac.uk/development/">http://www.intute.ac.uk/development/</a>
+</p>
+<p>*Service excluded from study in 2006. Refer to Appendix 3.</p>
+<p>**Service excluded or only partially covered.</p>
+<p>***Did not provide feedback on draft text.</p>
+
+
+<a name="app02"></a>
+<hr width="75%" />
+<center>
+<h2>Appendix 2: <br />Other Specialists and Projects Consulted</h2>
+</center>
+<p>Sayeed CHOUDHURY <br />Johns Hopkins University <br />
+<a href="http://ldp.library.jhu.edu/projects/repository/">http://ldp.library.jhu.edu/projects/repository/</a>
+</p>
+<p>Neil JACOBS <br />JISC Executive <br />
+<a href="http://www.jisc.ac.uk/">http://www.jisc.ac.uk/</a>
+</p>
+<p>P&eacute;ter JACS&oacute; <br />University of Hawaii <br />
+<a href="http://www2.hawaii.edu/~jacso/">http://www2.hawaii.edu/~jacso/</a>
+</p>
+<p>Michael KAPLAN <br />PRIMO, Ex Libris <br />
+<a href="http://www.exlibrisgroup.com/">http://www.exlibrisgroup.com/</a>
+</p>
+<p>John HARRINGTON <br />AERADE <br />
+<a href="http://aerade.cranfield.ac.uk/">http://aerade.cranfield.ac.uk/</a>
+</p>
+<p>Marilyn LUTZ <br />Maine Music Box <br />
+<a href="http://mainemusicbox.library.umaine.edu/">http://mainemusicbox.library.umaine.edu/</a>
+</p>
+<p>Max MARMOR <br />ARTstor <br />
+<a href="http://www.artstor.org/">http://www.artstor.org/</a>
+</p>
+<p>Paul A. S. NEEDHAM <br />AERADE <br />
+<a href="http://aerade.cranfield.ac.uk/">http://aerade.cranfield.ac.uk/</a>
+</p>
+<p>James PRINGLE <br />Thomson Scientific <br />
+<a href="http://scientific.thomson.com/">http://scientific.thomson.com/</a>
+</p>
+<p>Jeff RIEDEL <br />Digital Commons/bepress <br />ProQuest <br />
+<a href="http://www.proquest.ceff RIEDEL">http://www.proquest.ceff RIEDEL</a>
+ <br />Digital Commons/bepress <br />ProQuest <br />
+<a href="http://www.proquest.com/products_umi/digitalcommons/">http://www.proquest.com/products_umi/digitalcommons/</a>
+</p>
+<p>Barbara ROCKENBACH <br />ARTstor <br />
+<a href="http://www.artstor.org/">http://www.artstor.org/</a>
+</p>
+<p>Martin SCHEUPLEIN <br />EZB: Elektronische Zeitschriftenbibliothek <br />
+<a href="http://rzblx1.uni-regensburg.de/ezeit/">http://rzblx1.uni-regensburg.de/ezeit/</a>
+</p>
+<p>David STERN <br />Yale University Science Libraries <br />
+<a href="http://www.library.yale.edu/science/services/">http://www.library.yale.edu/science/services/</a>
+</p>
+<p>Donald J. WATERS <br />The Andrew W. Mellon Foundation <br />
+<a href="http://www.mellon.org/">http://www.mellon.org/</a>
+</p>
+<p>Gary WIGGINS <br />Indiana University, School of Informatics <br />
+<a href="http://www.informatics.indiana.edu/">http://www.informatics.indiana.edu/</a>
+</p>
+
+
+<a name="app03"></a>
+<hr width="75%" />
+<center>
+<h2>Appendix 3 <br />2003 Services Excluded in 2006 Report</h2>
+</center>
+
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>AARLIN: the Australian Academic &amp; Research Library Network</b> <br />
+<a href="http://www.aarlin.edu.au/">http://www.aarlin.edu.au/</a> <br />
+<b>Goal</b>: National Portal Framework <br />
+<b>Status:</b> Moved from project phase to an operating system and achieved its goals by December 2004. Continues as a priority with 12 member libraries deploying Ex Libris with Metalib and SFX modules. <br />Summary of achievements reported on 12/9/2004. <br />
+<a href="http://www.caul.edu.au/caul-doc/caul20042aarlin.pdf">http://www.caul.edu.au/caul-doc/caul20042aarlin.pdf</a> <br />Strategic directions 2006-07 available from <br />
+<a href="http://www.aarlin.edu.au/about.shtml">http://www.aarlin.edu.au/about.shtml</a></td>
+</tr>
+<tr>
+<td colspan="1"><b>AmericanSouth.org</b> <br />
+<a href="http://americansouth.org/">http://americansouth.org/</a> <br />
+<b>Goal</b>: Scholar-designed portal prototype service <br />
+<b>Status</b>:<b> </b>Since 2003 has grown from 18 to 31 contributing archives with combined records increasing from 28,775 to 55,371. "Lessons learned" put into practice in new Emory University and DLF projects (see Aquifer affiliated projects in this report, including The Southern Digital Archives Conspectus from Emory). <br />Documents from Emory's MetaScholar Initiative, including reports about the MetaArchive Project, AmericanSouth, MetaCombine, Music of the Social Change, and proceedings from the Workshop on Applications of Metadata Harvesting in Scholarly Portals: Findings from the MetaScholar Projects: AmericanSouth and MetaArchive (Halbert 2003) are available from <a href="http://www.metascholar.org/documents.html">http://www.metascholar.org/documents.html</a>. <br />AmericanSouth Final Project Report submitted to The Andrew W. Mellon Foundation, March 1, 2004: <a href="http://www.metascholar.org/pdfs/AmSouth-FINAL-REPORT.pdf">http://www.metascholar.org/pdfs/AmSouth-FINAL-REPORT.pdf</a> <br />Used as basis for advanced visualization and semantic clustering R&amp;D in the MetaCombine project. <br />
+<a href="http://www.metacombine.org/">http://www.metacombine.org/</a> <br />MetaCombine Project Interim Report on experiments in combined searching, automated organization of OAI and Web resources, and new forms of scholarly communication, September 2004. <br />
+<a href="http://www.metacombine.org/reports/project/">http://www.metacombine.org/reports/project/</a> <br />"SouthComb" Project will continue to develop the content, technologies, and practices developed in AmericanSourth.org. (Refer to section 4.4.8)</td>
+</tr>
+<tr>
+<td colspan="1"><b>Archon</b> <br />
+<a href="http://archon.cs.odu.edu/">http://archon.cs.odu.edu/</a> <br />
+<b>Goal:</b> To build a DL that federates Physics collections with varying degrees of metadata richness. <br />
+<b>Status:</b> No survey response received. <br />Most recent presentation available at Web site from 2003 covers Archon's architecture, equation and formulae searching, reference linking, conclusions and future directions. It announces plans: <br />to make a separate service that can be plugged in or out which will make development changes easier and allow third party development of similar services <br />to modify reference resolution to be able to refer to documents whether inside or outside the digital library <br />to make this service context dependent using some of the technologies such as OpenURL to make the resolution dependent on the location and privileges of the user <br />to work on the secure management of user accounts and access privileges using Shibboleth architecture to enable different access levels depending on use groups such as students or faculty (Digital Library Group, Old Dominion University, ICNEE PPT, available from <a href="http://archon.cs.odu.edu/publications.html">http://archon.cs.odu.edu/publications.html</a>. <br />Archon is also discussed in "Lessons Learned with Arc, an OAI-PMH Service Provider" (Liu et al. 2005) </td>
+</tr>
+<tr>
+<td colspan="1"><b>ARL Scholars Portal Project</b> <br />
+<a href="http://www.arl.org/access/scholarsportal/">http://www.arl.org/access/scholarsportal/</a> <br />
+<b>Goal:</b> To provide software tools for an academic community to have a single point of access on the Web to find high-quality information resources and, to the greatest extent possible, to deliver the information and related services directly to the user's desktop. <br />
+<b>Status</b>: As of May 2004, the project became "self-managing" among participating institutions with functional implementations using Fretwell-Downing software (under 3-year contract) with campus-wide releases at Arizona State University, University of Arizona, Iowa State University, and the University of Utah, and limited releases at University of Southern California (USC), University of California - San Diego (UCSD), and Dartmouth College. <br />Scholars Portal Project Report, issued by ARL, May 10, 2004 <br />
+<a href="http://www.arl.org/access/scholarsportal/SPupdateMay04.html">http://www.arl.org/access/scholarsportal/SPupdateMay04.html</a> <br />See also "The Current State of Portal Applications in ARL Libraries" (Jackson 2004) <br />
+<a href="http://www.arl.org/access/portal/PAWGfinalrpt.pdf">http://www.arl.org/access/portal/PAWGfinalrpt.pdf</a></td>
+</tr>
+<tr>
+<td colspan="1"><b>Cyclades</b> <br />
+<a href="http://www.ercim.org/cyclades/">http://www.ercim.org/cyclades/</a> <br />
+<b>Goal</b>: To develop an open collaborative virtual archive service environment supporting both single scholars as well as scholarly communities. <br />
+<b>Status</b>: CYCLADES was a R&amp;D project in operation from 1 November 2000 to 31 August 2003, <br />supported by the IST Programme of the European Commission (project no. IST-2000-25456) and set up under the framework of the DELOS Network of Excellence on Digital Libraries. Refer to: <br />"An Open Collaborative Virtual Archive Environment" (Straccia and Thanos 2004) <br />"A Personalized Collaborative Digital Library Environment: A Model and an Application" (Renda and Straccia 2005)</td>
+</tr>
+<tr>
+<td colspan="1"><b>ENC Online: Eisenhower National Clearinghouse for Mathematics and Science Education</b> <br />
+<a href="http://www.goenc.org/">http://www.goenc.org/</a> <br />
+<b>Goal</b>: Online math and science K-12 resource center. <br />
+<b>Status</b>: ENC resources were available free-of-charge until its funding from the U.S. Department of Education funding terminated. Effective October 1, 2005, goENC.com switched to a subscription service at a cost of $349 per school. <br />Among the ENC projects discussed in the 2003 DLF report, the only post-ENC project still active is the NSDL Middle School Portal, (although previous relics from ENC still show in up in NSDL search results). <br />NSDL Middle School Portal with Pathways to Mathematics, Science and Technology is available from <br />
+<a href="http://msteacher.org/">http://msteacher.org/</a></td>
+</tr>
+<tr>
+<td colspan="1"><b>Flashpoint (Los Alamos National Laboratory)</b> <br />
+<a href="http://lib-www.lanl.gov/lww/flashpoint.htm">http://lib-www.lanl.gov/lww/flashpoint.htm</a> <br />
+<b>Goal</b>: Multi-database search tool for internal use at LANL. <br />
+<b>Status</b>: No survey response received. About LANL Research Library's new digital object repository architecture refer to: "aDORe: a Modular, Standards-based Digital Object Repository <br />" (Van de Sompel et al. 2005).</td>
+</tr>
+<tr>
+<td colspan="1"><b>UIUC Digital Gateway to Cultural Heritage Materials</b> <br />
+<a href="http://oai.grainger.uiuc.edu/">http://oai.grainger.uiuc.edu/</a> <br />
+<b>Goal</b>: OAI aggregator of cultural heritage metadata. <br />
+<b>Status</b>: Since 2003 number of collections grew from 25 to 31; records increased from 413,563 to 538,485. However, project is now static and under review for probable discontinuation in light of the new IMLS Digital Collections and Content project, discussed more fully in Section 4.4.2 of this report. "Lessons learned" put into practice in other UIUC &amp; DLF projects. <br />Publications and presentations from UIUC's OAI metadata harvesting projects available from <a href="http://oai.grainger.uiuc.edu/presentations.htm">http://oai.grainger.uiuc.edu/presentations.htm</a> <br />See also, "Current Developments and Future Trends for the OAI Protocol for Metadata Harvesting" (Shreeves et al. 2005) <br />IMLS Digital Collections and Content Project <br />
+<a href="http://imlsdcc.grainger.uiuc.edu/">http://imlsdcc.grainger.uiuc.edu/</a></td>
+</tr>
+<tr>
+<td colspan="1"><b>XTCat</b> <br />
+<a href="http://alcme.oclc.org/ndltd/SearchbySru.html">http://alcme.oclc.org/ndltd/SearchbySru.html</a> <br />
+<b>Goal</b>: One-time extract of 4.3 million bibliographic records from OCLC's WorldCat. <br />
+<b>Status</b>: Dormant. Arc continues to aggregate the entire set of records. OAIster continues to aggregate the 8,255 records that point to full text. The NDLTD Union Catalog includes a regular harvest of ETD metadata from OCLC's WorldCat, as discussed in Section 4.2.6.</td>
+</tr>
+</table>
+<br />
+
+<a name="app04"></a>
+<hr width="75%" />
+<center>
+<h2>Appendix 4 <br />Comparison of Top Twenty OAIster and ROAR Archives based on Record Count (March 11, 2006)</h2>
+</center>
+
+<br />
+<table border="1">
+<tr>
+<td colspan="1">RESOURCE Ranked by Size</td><td colspan="1">OAIster Top Twenty</td><td colspan="1">ROAR Top Twenty</td>
+</tr>
+<tr>
+<td colspan="1"><b>PictureAustralia</b> <br />National image aggregation <br />Australia <br />
+<a href="http://www.pictureaustralia.org/">http://www.pictureaustralia.org/</a></td><td colspan="1">832,506</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>CiteSeer Scientific Literature Digital Repository</b> <br />Aggregation of computer &amp; information science documents with citation analysis. <br />United States <br />
+<a href="http://citeseer.ist.psu.edu/">http://citeseer.ist.psu.edu/</a></td><td colspan="1">716,772</td><td colspan="1">703,654</td>
+</tr>
+<tr>
+<td colspan="1"><b>PubMed Central</b> <br />Digital archive of life sciences journal literature. <br />United States <br />
+<a href="http://www.pubmedcentral.gov/">http://www.pubmedcentral.gov/</a></td><td colspan="1">463,229</td><td colspan="1">492,069</td>
+</tr>
+<tr>
+<td colspan="1"><b>Citebase</b> <br />Semi-autonomous citation index that harvests scientific e-prints. <br />United Kingdom <br />
+<a href="http://citebase.eprints.org/">http://citebase.eprints.org/</a></td><td colspan="1">416,464</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>arXiv</b> <br />Physics e-print archive <br />United States <br />
+<a href="http://www.arXiv.org/">http://www.arXiv.org/</a></td><td colspan="1">329,544</td><td colspan="1">356,199</td>
+</tr>
+<tr>
+<td colspan="1"><b>Pangaea: Publishing Network for Geoscientific and Environmental Data</b> <br />Archiving, publishing and distributing georeferenced datasets <br />Germany <br />
+<a href="http://www.pangaea.de/">http://www.pangaea.de/</a></td><td colspan="1">316,229</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>University of Michigan, Digital Library Production Service Collection</b> <br />Collection of texts and images primarily in the humanities. <br />United States <br />
+<a href="http://www.umdl.umich.edu/">http://www.umdl.umich.edu/</a></td><td colspan="1">281,072</td><td colspan="1">See Humanities Text Initiative below.</td>
+</tr>
+<tr>
+<td colspan="1"><b>Library of Congress Digitized Historical Collections</b> <br />Digitized manuscripts, photographs, rare books, maps, sound recordings and moving pictures. <br />United States <br />
+<a href="http://memory.loc.gov/">http://memory.loc.gov/</a></td><td colspan="1">231,413</td><td colspan="1">231,654</td>
+</tr>
+<tr>
+<td colspan="1"><b>Networked Digital Library of Theses &amp; Dissertations (NDLTD) OAI Union Catalog</b> <br />Aggregation of e-theses and dissertations <br />United States <br />
+<a href="http://alcme.oclc.org/ndltd/">http://alcme.oclc.org/ndltd/</a></td><td colspan="1">Only harvests 8,255 records will full-text representation from OCLC's XTCat. <br />
+<a href="http://alcme.oclc.org/xtcat/">http://alcme.oclc.org/xtcat/</a>. Harvests ETDs from other sources.</td><td colspan="1">217,520</td>
+</tr>
+<tr>
+<td colspan="1"><b>Institute of Physics</b> <br />Learned society aggregation of physics' journals. <br />United Kingdom <br />
+<a href="http://www.iop.org/">http://www.iop.org/</a></td><td colspan="1">208,272</td><td colspan="1">Not included; journals are restricted access.</td>
+</tr>
+<tr>
+<td colspan="1"><b>State Library of Victoria OAI Repository</b> <br />Digitized collection of manuscripts, photographs, and maps. <br />Australia <br />
+<a href="http://statelibrary.vic.gov.au/">http://statelibrary.vic.gov.au/</a></td><td colspan="1">201,934</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>California Digital Library</b> <br />Aggregated digital resources held in libraries, museums, archives, and other institutions across California <br />United States <br />
+<a href="http://www.cdlib.org/">http://www.cdlib.org/</a></td><td colspan="1">174,097</td><td colspan="1">Includes 10,900 records from the University of California eScholarship repository.</td>
+</tr>
+<tr>
+<td colspan="1"><b>Digital Academic Repository of the Universiteit van Amsterdam (UvA-DARE)</b> <br />Institutional Repository <br />The Netherlands <br />
+<a href="http://dare.uva.nl/">http://dare.uva.nl/</a></td><td colspan="1">Includes only 2,145 records with full-text representation.</td><td colspan="1">137,805</td>
+</tr>
+<tr>
+<td colspan="1"><b>CITIDEL: Computing and Information Technology Interactive Digital Educational Library</b> <br />Consortial digital library for computer and information technology education. <br />United States <br />
+<a href="http://www.citidel.org/">http://www.citidel.org/</a></td><td colspan="1">136,693</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>RePEc: Research Papers in Economics</b> <br />United Kingdom <br />
+<a href="http://www.repec.org/">http://www.repec.org/</a></td><td colspan="1">132,452</td><td colspan="1">51,611</td>
+</tr>
+<tr>
+<td colspan="1"><b>OSTI OAI Repository</b> (U.S. Department of Energy, Office of Scientific &amp; Technical Information) <br />Institutional Repository <br />United States <br />
+<a href="http://www.osti.gov/">http://www.osti.gov/</a></td><td colspan="1">122,753</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>Wageningen Yield (WaY)</b> <br />Institutional Repository <br />The Netherlands <br />
+<a href="http://library.wur.nl/way/">http://library.wur.nl/way/</a> </td><td colspan="1">Includes 5,938 records only with full-text representation.</td><td colspan="1">119,846</td>
+</tr>
+<tr>
+<td colspan="1"><b>Instituto Tecnologico y de Estudios Superiores de Occidente: Acervo General de la biblioteca</b> <br />Institutional Repository <br />Mexico <br />
+<a href="http://www.biblio.iteso.mx/biblioteca/">http://www.biblio.iteso.mx/biblioteca/</a></td><td colspan="1"> No links to full text.</td><td colspan="1">119,606</td>
+</tr>
+<tr>
+<td colspan="1"><b>National Library of Australia Digital Object Repository</b> <br />Collections of manuscripts, sheet music, images and maps <br />Australia <br />
+<a href="http://www.nla.gov.au/digicoll/oai/">http://www.nla.gov.au/digicoll/oai/</a></td><td colspan="1">108,517</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>University of Southern California Digital Archive</b> <br />Aggregation of photographs, maps, manuscripts, records, texts and sound recordings owned by USC and collaborating institutions. <br />United States <br />
+<a href="http://digarc.usc.edu:8089/cispubsearch/">http://digarc.usc.edu:8089/cispubsearch/</a></td><td colspan="1">106,546</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>Capturing Electronic Publications (CEP) Archive</b> (University of Illinois) <br />Web site harvesting and archiving system focusing on state documents currently used by Illinois, Alaska, Arizona, Montana, North Carolina, Utah, and Wisconsin <br />United States <br />
+<a href="http://www.isrl.uiuc.edu/pep/">http://www.isrl.uiuc.edu/pep/</a></td><td colspan="1">98,238 (PDFs only)</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>The Wolfram Functions Site</b> <br />Collection of formulas and graphs of mathematical functions. <br />United States <br />
+<a href="http://functions.wolfram.com/">http://functions.wolfram.com/</a></td><td colspan="1">87,618</td><td colspan="1">Not included.</td>
+</tr>
+<tr>
+<td colspan="1"><b>National Institute of Informatics Metadata Database</b> <br />Aggregation of university scientific information resources. <br />Japan <br />
+<a href="http://www.nii.ac.jp/index.shtml.en">http://www.nii.ac.jp/index.shtml.en</a></td><td colspan="1">79,702</td><td colspan="1">82,229</td>
+</tr>
+<tr>
+<td colspan="1"><b>CERN Document Server</b> <br />Aggregation of e-prints, articles, photographs and other formats related to physics and Institutional Repository. <br />Switzerland <br />
+<a href="http://cdsweb.cern.ch/">http://cdsweb.cern.ch/</a></td><td colspan="1">Harvests 38,459 CERN-specific materials only with full-text representation.</td><td colspan="1">74,986</td>
+</tr>
+<tr>
+<td colspan="1"><b>DIALNET: Servicio de Alertas y Hemeroteca Virtual de Sumarios de Revistas Cientificas Espanolas</b> <br />Alerting service with access to the contents of Hispanic scientific literature. <br />Spain <br />
+<a href="http://dialnet.unirioja.es/">http://dialnet.unirioja.es/</a></td><td colspan="1">60,979</td><td colspan="1">63,352</td>
+</tr>
+<tr>
+<td colspan="1"><b>Humanities Text Initiative, University of  Michigan</b> <br />Digitized collection of e-texts in the humanities. <br />United States <br />
+<a href="http://www.hti.umich.edu">http://www.hti.umich.edu</a>/</td><td colspan="1">See University of Michigan above.</td><td colspan="1">58,632</td>
+</tr>
+<tr>
+<td colspan="1"><b>CCLRC ePublication Archive (Council for the Central Laboratory of the Research Councils)</b> <br />Central repository of publications containing the scientific and technical output of CCLRC. <br />United Kingdom <br />
+<a href="http://epubs.cclrc.ac.uk/">http://epubs.cclrc.ac.uk/</a></td><td colspan="1">Harvests 13,599 records only with full-text representation.</td><td colspan="1">55,511</td>
+</tr>
+<tr>
+<td colspan="1"><b>SciELO: Public Health</b> <br />Online health science articles with integrated access for Ibero-American countries. <br />Brazil <br />
+<a href="http://www.scielosp.org/">http://www.scielosp.org/</a>  </td><td colspan="1">61,948</td><td colspan="1">51,032</td>
+</tr>
+<tr>
+<td colspan="1"><b>HAL: Hyper Article en Ligne</b> <br />E-print server in France for all disciplines. <br />France <br />
+<a href="http://hal.ccsd.cnrs.fr/">http://hal.ccsd.cnrs.fr/</a></td><td colspan="1">56,140</td><td colspan="1">51,692</td>
+</tr>
+<tr>
+<td colspan="1"><b>University of Twente Repository</b> <br />Institutional Repository <br />Netherlands <br />
+<a href="http://doc.utwente.nl:9080/en/">http://doc.utwente.nl:9080/en/</a></td><td colspan="1">1,526</td><td colspan="1">43,758</td>
+</tr>
+<tr>
+<td colspan="1"><b>Demetrius Australia National University Institutional Repository</b> <br />Institutional Repository <br />Australia <br />
+<a href="http://dspace.anu.edu.au/">http://dspace.anu.edu.au/</a></td><td colspan="1">42,601</td><td colspan="1">42,602</td>
+</tr>
+<tr>
+<td colspan="1"><b>Max Planck Society Edoc Server</b> <br />Aggregated research output of the institutes of the Max Planck Society. <br />Germany <br />http://edoc.mpg.de/</td><td colspan="1">Excluded because most identifiers do not link to digital objects but rather invoke SFX to find full text available through various proprietary online services.</td><td colspan="1">39,944</td>
+</tr>
+<tr>
+<td colspan="1"><b>Gallica, biblioth&egrave;que num&eacute;rique de la Biblioth&egrave;que nationale de France</b> (National Library of France) <br />Digitized collections, images and sound recordings. <br />France <br />
+<a href="http://gallica.bnf.fr/">http://gallica.bnf.fr/</a></td><td colspan="1">36,390</td><td colspan="1">36,398</td>
+</tr>
+</table>
+<br />
+
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a>&nbsp;&nbsp;<a href="DLF106part4.html" class="link">&lt;&lt; previous</a>&nbsp;&nbsp;<a href="notes.html" class="link">next &gt;&gt;</a></p>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+</p>
+
+
+
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

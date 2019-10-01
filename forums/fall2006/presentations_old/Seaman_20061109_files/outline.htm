@@ -1,0 +1,1314 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../Seaman_20061109.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>DLF/IMLS OAI Project
+  Update <br>
+    &amp; DLF Aquifer Update<br>
+    DLF Fall Forum 2006</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>David Seaman, DLF</li>
+   <li>Katherine Kott, DLF Aquifer</li>
+   <li>Kat Hagedorn, University of Michigan</li>
+   <li>Tom Habing, UIUC</li>
+   <li>Perry Willett, University of Michigan</li>
+   <li>Liz Milewicz, Emory University</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL2>Introduction</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>The DLF/IMLS grant is in its final stages and was designed to test 2nd
+       generation OAI tools, services and training opportunities, with guidance
+       from scholars and technical experts: http://www.diglib.org/architectures/oai/imls2004/</li>
+   <li>Includes the creation of best practices for shareable metadata, OAI data
+       provider implementations, and tools and strategies for using and
+       enhancing/extending the OAI protocol.</li>
+   <li>A report by Martha Brogan on OAI service and data providers: http://www.diglib.org/pubs/dlf106/
+       .</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0003.htm');" id=PPTL3>Introduction</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Comprehensive training documents used in several training sessions for
+       potential OAI data providers.</li>
+   <li>Two enhanced registries for data providers and service providers.</li>
+   <li>Two searchable portals that collect all DLF OAI data providers and all
+       DLF OAI data providers that are using the MODS metadata format.</li>
+   <li>An effort at clustering metadata topically for inclusion into the DLF
+       OAI data provider searchable portal.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0030.htm');" id=PPTL4>OAI Scholars Advisory
+  Panel</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li><span style='mso-spacerun:yes'> </span>May 23, 2006</li>
+   <li>Washington DC</li>
+   <li>http://www.diglib.org/architectures/oai/imls2004/</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0031.htm');" id=PPTL5>Advisory Panel</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>John Carlson, University of Virginia</li>
+   <li>Gail McMillan, Virginia Polytechnic Institute and State University</li>
+   <li>Kenneth Price, University of Nebraska, Lincoln</li>
+   <li>Stephen Railton, University of Virginia</li>
+   <li>Bruce Rosenstock, University of Illinois at Urbana-Champaign</li>
+   <li>Roy Rosenzweig, George Mason University</li>
+   <li>Martha Nell Smith, University of Maryland</li>
+   <li>Crandall Shifflett, Virginia Polytechnic Institute and State University</li>
+   <li>Will Thomas, University of Nebraska-Lincoln</li>
+   <li>Allen Tullos, Emory University</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0032.htm');" id=PPTL6>Agenda</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Reviewed research progress to date</li>
+   <ul>
+    <li>A9</li>
+    <li>Asset action package</li>
+    <li>Best practices in metadata creation</li>
+    <li>Thumbnails</li>
+    <li>Clustering by collection</li>
+    <li>MODS portal</li>
+   </ul>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0033.htm');" id=PPTL7>Discussion items</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Dates</li>
+   <li>Visualization</li>
+   <li>Clustering</li>
+   <li>Personal collections</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0034.htm');" id=PPTL8>Comments</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Will Thomas suggested that what has been done already outruns what the
+       scholars can do with it.</li>
+   <li>Scholars aren't being encouraged to practice digital scholarship and
+       contributing to this is the fact that a great deal of the use of digital
+       objects is focused on pedagogy, as are the tools.&nbsp; But what about
+       scholarly research and production?</li>
+   <li>Visualization is important (for different reasons, in different ways)
+       for scholars, students and K-12 pupils</li>
+   <li>We need the voice of the scholar matched with the technology.</li>
+   <li></li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0035.htm');" id=PPTL9>Full report available
+  at:</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://www.diglib.org/architectures/oai/imls2004/OAIAdvisors060523final.htm</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL10>Wiki of OAI Best
+  Practices<br>
+    <span style='mso-spacerun:yes'> </span>http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Shareable metadata and data provider implementations sections developed
+       extensively: soon to be published by DLF</li>
+   <li>“Tools and Strategies for Using and Enhancing / Extending the OAI
+       Protocol” section: working on before end of the grant/year</li>
+   <ul>
+    <li>descriptions of software packages for data providers and service
+        providers</li>
+    <li>metadata management tools, e.g., UIUC ThumbGrabber, UM OAITransform,
+        CDL Date Normalizer</li>
+    <li>listing of registries for both data and service providers</li>
+    <li>description of extensions to the OAI protocol</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0005.htm');" id=PPTL11><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0006.htm');" id=PPTL12>“Tools” Best Practices</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Ongoing!</li>
+   <ul>
+    <li>in flux at the moment, awaiting assistance from various quarters</li>
+    <li>will continue to add and update as new information becomes available</li>
+    <li>hope that it becomes a comprehensive resource for both data providers
+        and service providers</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL13>Requests by
+  Institutions considering OAI Implementation</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Administrative: Why implement OAI? What resources are needed (staff,
+       equipment, time)?</li>
+   <li>Technical: How can we implement data or service providers with existing
+       infrastructure?</li>
+   <li>Metadata: What are appropriate standards for shareable metadata?</li>
+   <li>General: Give us clear and brief documents, we don’t have time for
+       tomes.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL14>OAI Training Materials</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Brief documents (1-2 pages each)</li>
+   <li>Standalone pieces, focused on one element of the training program</li>
+   <li>“See Also” references link the series together</li>
+   <li>Current training documents online: http://www.diglib.org/architectures/oai/imls2004/training2/index.htm</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL15><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0010.htm');" id=PPTL16>OAI Training Program</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Combined overview with one-on-one assistance</li>
+   <li>Flexible structure supports varying types &amp; levels of expertise</li>
+   <li>OAI Training Materials served multiple purposes</li>
+   <li>-----</li>
+   <li>* More workshops, more consultation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL17>Successes, Barriers,
+  &amp; Lessons</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Positive response to workshop format</li>
+   <li>OAI Training Materials served multiple purposes</li>
+   <li>-----</li>
+   <li>High demand for tools info and training</li>
+   <li>Requests for more workshops &amp; consultation</li>
+   <li>Resources pose challenge to implementation</li>
+   <li>-----</li>
+   <li>1-page handouts meet many informational needs</li>
+   <li>Find new ways to connect OAI consultants with institutions beginning OAI
+       implementation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL18>A Tale of Three
+  Registries</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Plus a few other things</li>
+   <br>
+   <br>
+   <li>By Tom Habing <br>
+              thabing@uiuc.edu</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL19>There was the best of
+  registries for OAI Data Providers…</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Enhanced metadata</li>
+   <ul>
+    <li>IMLS DCC Collection Description Metadata Application Profile</li>
+    <li>Human cataloging of DLF-member data providers</li>
+    <li>Data feeds for Michigan’s OAIster service</li>
+    <li>Browse by subject terms</li>
+   </ul>
+   <li>Improved Export Formats</li>
+   <ul>
+    <li>RSS</li>
+    <li>OAI Data Provider</li>
+   </ul>
+   <li>Continued growth – currently 1164 repositories (~40% growth since start
+       of project)</li>
+   <li>http://gita.grainger.uiuc.edu/registry/</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0014.htm');" id=PPTL20>There was a registry of
+  OAI Service Providers…</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>An OAI Service Provider is defined as a system which is reliant on data
+       which is harvested via the OAI-PMH</li>
+   <li>The current registry doesn’t strictly comply</li>
+   <li>Currently about 100 entries, 40 were collected from the openarchives.org
+       list or harvested via Google, the remainder were manually entered</li>
+   <li>Minimal metadata, basic browse and search</li>
+   <li>http://gita.grainger.uiuc.edu/registry/services/servicesbrowse.asp</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0015.htm');" id=PPTL21>There was a registry of
+  DLF-member collections…</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Based on the IMLS DCC Collections Registry</li>
+   <li>Data from the previous Michigan registry</li>
+   <ul>
+    <li>With some cleanup and enhancements by DLF</li>
+   </ul>
+   <li>Browse</li>
+   <ul>
+    <li>Subject, Place, Time Period, Title, Institution, …</li>
+   </ul>
+   <li>Basic Search</li>
+   <li>OAI data provider for harvesting records</li>
+   <li>http://dlf.grainger.uiuc.edu/dlfcollectionsregistry/</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL22>There was some other
+  stuff too…</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>A9 gateway to the DLF MODS search portal</li>
+   <li>Preliminary experiments with Emory’s MetaCombine clustering service</li>
+   <li>Automated Thumbnail Generation (Open Source Tool)</li>
+   <li>Education and Outreach</li>
+   <ul>
+    <li>OAI Training Sessions</li>
+    <li>Distributed Services Registry Workshop at the University of Warwick</li>
+    <li>NSF – DLF – JISC/UKOLN Digital Library Service Registry (DLSR) Workshop</li>
+   </ul>
+   <li>Reporting in support of DLF Aquifer project</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0017.htm');" id=PPTL23>There is some time left
+  for more…</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Allow self-registration in the data and service provider registries</li>
+   <li>Turn thumbnail generation into web service</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL24>Some Related Links</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>http://gita.grainger.uiuc.edu/registry/</li>
+   <li>http://gita.grainger.uiuc.edu/registry/services/</li>
+   <li>http://dlf.grainger.uiuc.edu/dlfcollectionsregistry/</li>
+   <li>http://imlsdcc.grainger.uiuc.edu/</li>
+   <li>http://opensearch.a9.com/searches.jsp</li>
+   <li>http://sourceforge.net/project/showfiles.php?group_id=47963&amp;package_id=159364</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0019.htm');" id=PPTL25>DLF Portal<br>
+    http://www.hti.umich.edu/i/imls/</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Created to showcase and experiment on the OAI repositories from DLF
+       institutions</li>
+   <li>Currently 59 repositories, almost 2.5 million records</li>
+   <li>Changes to search interface, metadata tagging, and sorting happened here
+       first</li>
+   <li>Based on recommendations from the Scholars’ Advisory Panel</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL26><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL27>MODS Portal<br>
+    <span style='mso-spacerun:yes'> </span>http://www.hti.umich.edu/m/mods/</a></font></div>
+  <div id=PPTC27 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Created to encourage OAI data providers to create MODS records</li>
+   <li>Currently 5 institutions make some or all of their sets available in
+       MODS</li>
+   <li>(DSpace just made MODS available, so potentially many more to come.)</li>
+   <li>Highly detailed records-- MODS:DLXS</li>
+   <li>Research into addition of thumbnails</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL28><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0023.htm');" id=PPTL29>Topical clustering</a></font></div>
+  <div id=PPTC29 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Effort to create smaller sets of metadata for ease of end-user retrieval</li>
+   <li>Scholars’ Panel thought topically was best to work on initially</li>
+   <li>Working with University of California Irvine researcher David Newman,
+       who has a “Topic Modeling” tool</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0024.htm');" id=PPTL30>Vocabulary</a></font></div>
+  <div id=PPTC30 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Tool builds a vocabulary from the metadata values in Title, Subject and
+       Description (oai_dc)</li>
+   <ul>
+    <li>scientific repositories contained more consistent and enriched metadata
+        (from previous experiment)</li>
+    <li>task for this prototype will be building topics using non-scientific
+        and scientific repositories together</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>31</font></div>
+  </td>
+  <td>
+  <div id=PPTP31 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0025.htm');" id=PPTL31><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>32</font></div>
+  </td>
+  <td>
+  <div id=PPTP32 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL32>Learning topics</a></font></div>
+  <div id=PPTC32 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Tool uses vocabulary to “topic model” or cluster groups of like metadata
+       records together</li>
+   <ul>
+    <li>a. with a small number of records to learn what the clusters/topics are</li>
+    <li>b. with all the records to classify them according to the learned
+        topics</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>33</font></div>
+  </td>
+  <td>
+  <div id=PPTP33 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL33>Incorporate in records</a></font></div>
+  <div id=PPTC33 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Result will be metadata records containing topic labels</li>
+   <li>Search and browse will be re-built to incorporate searching by topic
+       labels</li>
+   <ul>
+    <li>clusters/topics will be mapped to UM Library’s High Level Browse
+        classification</li>
+    <li>e.g., as used at http://www.lib.umich.edu/ejournals/</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>34</font></div>
+  </td>
+  <td>
+  <div id=PPTP34 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0028.htm');" id=PPTL34><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>35</font></div>
+  </td>
+  <td>
+  <div id=PPTP35 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0029.htm');" id=PPTL35>DLF Portal:
+  Re-engineered</a></font></div>
+  <div id=PPTC35 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>All work will be prototyped in the DLF Portal by the end of the year</li>
+   <li>Prototype will kickstart re-design of OAIster in spring 2007</li>
+   <li>Suggestions on interface design welcome!</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>36</font></div>
+  </td>
+  <td>
+  <div id=PPTP36 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0036.htm');" id=PPTL36>Conclusion</a></font></div>
+  <div id=PPTC36 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Importance of best practices to transmit what we have learned (the hard
+       way)</li>
+   <li>Training helpful to transform the willing into active participants</li>
+   <li>Tools and services critical – the registries and portals are useful even
+       while in prototype stages</li>
+   <li>MODS rules</li>
+   <li>Close contact with scholars save us from ourselves.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>37</font></div>
+  </td>
+  <td>
+  <div id=PPTP37 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0037.htm');" id=PPTL37>DLF Aquifer Highlights</a></font></div>
+  <div id=PPTC37 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Katherine Kott</li>
+   <li>Aquifer Director</li>
+   <li>DLF Fall Forum</li>
+   <li><span style='mso-spacerun:yes'> </span>November 10, 2006</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>38</font></div>
+  </td>
+  <td>
+  <div id=PPTP38 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0038.htm');" id=PPTL38>Where we are</a></font></div>
+  <div id=PPTC38 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Clear purpose within DLF mission</li>
+   <li>Key outcome</li>
+   <ul>
+    <li>Making content available where scholars work</li>
+    <ul>
+     <li>Creating schemas and communities of practice for digital library
+         interoperation</li>
+     <li>Developing a better understanding of what services content consumers
+         want and need</li>
+     <br>
+     <br>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>39</font></div>
+  </td>
+  <td>
+  <div id=PPTP39 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0039.htm');" id=PPTL39><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>40</font></div>
+  </td>
+  <td>
+  <div id=PPTP40 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0040.htm');" id=PPTL40>Aquifer metaphor</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>41</font></div>
+  </td>
+  <td>
+  <div id=PPTP41 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0041.htm');" id=PPTL41>Upcoming work</a></font></div>
+  <div id=PPTC41 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Two year project to begin April 2007 adds dedicated project staff</li>
+   <li>Implements architectural framework</li>
+   <li>Implements American Social History Online collection through four
+       channels</li>
+   <ul>
+    <ul>
+     <li>Course management system</li>
+     <li>Federated search</li>
+     <li>Commercial search service</li>
+     <li>Citation management software</li>
+    </ul>
+   </ul>
+   <li>Includes assessment</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>42</font></div>
+  </td>
+  <td>
+  <div id=PPTP42 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0042.htm');" id=PPTL42>Accomplishments and
+  activities</a></font></div>
+  <div id=PPTC42 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Redesigned the DLF Aquifer website</li>
+   <ul>
+    <li>Products and experiments listed on Products web page</li>
+    <ul>
+     <li>Final release of MODS implementation guidelines</li>
+     <li>Framework diagram and explanation</li>
+    </ul>
+    <li>Publications in D-Lib Magazine</li>
+    <ul>
+     <li>General DLF Aquifer article June 2006</li>
+     <li>Asset Actions article October 2006</li>
+    </ul>
+   </ul>
+   <li>Cornell, USC and Yale joined</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>43</font></div>
+  </td>
+  <td>
+  <div id=PPTP43 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0043.htm');" id=PPTL43>DLF Aquifer desiderata</a></font></div>
+  <div id=PPTC43 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Funding for metadata remediation and enhancement</li>
+   <li>Funding for cross platform tools integration or development</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>44</font></div>
+  </td>
+  <td>
+  <div id=PPTP44 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0044.htm');" id=PPTL44>Within the working
+  groups</a></font></div>
+  <div id=PPTC44 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Adding collections</li>
+   <ul>
+    <li>Submission agreement</li>
+    <li>Gap analysis report</li>
+   </ul>
+   <li>Melding two product experiments (portal and asset actions)</li>
+   <li>Creating capacity for usability and assessment best practices work,
+       built on existing DLF efforts</li>
+   <li>Developing<span style='mso-spacerun:yes'>  </span>and documenting best
+       practices for collaborative development</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>45</font></div>
+  </td>
+  <td>
+  <div id=PPTP45 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0045.htm');" id=PPTL45>Connection with other
+  DLF initiatives</a></font></div>
+  <div id=PPTC45 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Services framework</li>
+   <ul>
+    <li>Glossary extraction</li>
+    <li>Collaboration between services framework and technology/architecture
+        working group prompted work on</li>
+    <ul>
+     <li>Architectural development</li>
+     <li>Development method</li>
+    </ul>
+   </ul>
+   <li>Synthesizing gap analysis work with OAI/IMLS grant findings</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>46</font></div>
+  </td>
+  <td>
+  <div id=PPTP46 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0046.htm');" id=PPTL46>In conclusion</a></font></div>
+  <div id=PPTC46 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Working on things DLF does well</li>
+   <ul>
+    <li>Building communities of practice</li>
+    <li>Recommending best practices</li>
+    <li>Incubating innovation</li>
+   </ul>
+   <li>Continuing to map DLF Aquifer within the broader organizational context</li>
+   <li>Accomplishing core work of the initiative through the upcoming two year
+       project</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>47</font></div>
+  </td>
+  <td>
+  <div id=PPTP47 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0047.htm');" id=PPTL47>Thank you…</a></font></div>
+  <div id=PPTC47 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>For more information</li>
+   <li>http://www.diglib.org/aquifer/</li>
+   <li>kkott@clir.org</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master04.htm></a><a href=master04.xml></a><a
+href=preview.wmf></a><a href=master05.htm></a><a href=master05.xml></a><a
+href=master06.htm></a><a href=master06.xml></a><a href=master07.htm></a><a
+href=master07.xml></a><a href=master08.htm></a><a href=master08.xml></a><a
+href=pres.xml></a><a href=sound001.wav></a><a href=slide0001.htm></a><a
+href="master05_image001.gif"></a><a href="master05_image002.gif"></a><a
+href=slide0002.htm></a><a href="master04_image003.gif"></a><a
+href=slide0003.htm></a><a href=slide0030.htm></a><a href=slide0031.htm></a><a
+href=slide0032.htm></a><a href=slide0033.htm></a><a href=slide0034.htm></a><a
+href=slide0035.htm></a><a href=slide0004.htm></a><a href=slide0005.htm></a><a
+href="slide0005_image004.png"></a><a href="slide0005_image005.gif"></a><a
+href=slide0006.htm></a><a href=slide0007.htm></a><a href=slide0008.htm></a><a
+href=slide0009.htm></a><a href="slide0009_image006.gif"></a><a
+href="slide0009_image007.png"></a><a href="slide0009_image008.jpg"></a><a
+href="slide0009_image009.png"></a><a href="slide0009_image010.jpg"></a><a
+href="slide0009_image011.png"></a><a href="slide0009_image012.jpg"></a><a
+href=slide0010.htm></a><a href=slide0011.htm></a><a href=slide0012.htm></a><a
+href="master07_image013.gif"></a><a href=slide0013.htm></a><a
+href="master06_image014.gif"></a><a href=slide0014.htm></a><a
+href=slide0015.htm></a><a href=slide0016.htm></a><a href=slide0017.htm></a><a
+href=slide0018.htm></a><a href=slide0019.htm></a><a href=slide0020.htm></a><a
+href="slide0020_image015.png"></a><a href="slide0020_image016.gif"></a><a
+href="slide0020_image017.png"></a><a href="slide0020_image018.gif"></a><a
+href=slide0021.htm></a><a href=slide0022.htm></a><a
+href="slide0022_image019.png"></a><a href="slide0022_image020.gif"></a><a
+href="slide0022_image021.png"></a><a href="slide0022_image022.gif"></a><a
+href=slide0023.htm></a><a href=slide0024.htm></a><a href=slide0025.htm></a><a
+href="slide0025_image023.jpg"></a><a href="slide0025_image024.jpg"></a><a
+href=slide0026.htm></a><a href=slide0027.htm></a><a href=slide0028.htm></a><a
+href="slide0028_image025.png"></a><a href="slide0028_image026.gif"></a><a
+href=slide0029.htm></a><a href=slide0036.htm></a><a href=slide0037.htm></a><a
+href="slide0037_image027.gif"></a><a href=oledata.mso></a><a
+href=slide0038.htm></a><a href=slide0039.htm></a><a
+href="slide0039_image028.png"></a><a href="slide0039_image029.jpg"></a><a
+href=slide0040.htm></a><a href="slide0040_image030.png"></a><a
+href="slide0040_image031.jpg"></a><a href="slide0040_image032.gif"></a><a
+href="slide0040_image033.gif"></a><a href="slide0040_image034.gif"></a><a
+href="slide0040_image035.gif"></a><a href="slide0040_image036.gif"></a><a
+href="slide0040_image037.gif"></a><a href=slide0041.htm></a><a
+href=slide0042.htm></a><a href=slide0043.htm></a><a href=slide0044.htm></a><a
+href=slide0045.htm></a><a href=slide0046.htm></a><a href=slide0047.htm></a><a
+href=master01.htm></a><a href=editdata.mso></a><a href="master04_stylesheet.css"></a><a
+href="master06_stylesheet.css"></a><a href="master08_stylesheet.css"></a><a
+href=script.js></a><a href="../Seaman_20061109.htm"></a><a href=fullscreen.htm></a><a
+href="notes_flag.gif"></a><a href=buttons.gif></a><a href=frame.htm></a><a
+href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

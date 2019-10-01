@@ -1,0 +1,225 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>Digital Library Authentication and Authorization
+Architecture. Print Version</title>
+</head>
+<!-- Begin text here -->
+<body>
+<h2>Digital Library Authentication and Authorization
+Architecture</h2>
+
+<p>What it is</p>
+
+<div style="margin-left: 4em">
+<p>A secure, precise, standards-based, scalable mechanism,
+enabling information service providers both to guarantee the
+identity of institutional consumers (authentication) and to
+provide services based on the characteristics of individual
+consumers (authorization) while offering increased access,
+privacy, flexibility and richer management information to
+consumer institutions.</p>
+
+<p>Information service providers may be traditional commercial
+vendors. They may also be our own institutions, enabling
+increased flexibility in inter-institutional transactions, e.g.,
+federated collections.</p>
+
+<p>Participants in the current DLF-sponsored pilot are the
+University of California (Office of the President), Columbia
+University, JSTOR and OCLC.</p>
+</div>
+
+<p><i>Motivation</i></p>
+
+<div style="margin-left: 6em">
+<p>a) Increasing problems associated with network topological
+(IP-address) methods</p>
+
+<div style="margin-left: 4em">
+<p>- no ISP (third-party dial-in) access to remote services</p>
+
+<p>- security enforced only by physical location</p>
+
+<p>- difficult/impossible to manage access for remote campuses
+using commercial Internet providers</p>
+
+<p>- difficult for providers to implement services customized per
+individual</p>
+
+<p>- poor management information for both providers and consumer
+institutions</p>
+
+<p>- poor scaling properties, increasing labor to manage</p>
+</div>
+
+<p>b) Increasing problems with "proxy" methods</p>
+
+<div style="margin-left: 4em">
+<p>- impossible to implement newer services, e.g., those which
+build web addresses dynamically in the browser</p>
+
+<p>- potential bandwidth bottleneck</p>
+
+<p>- no management information for providers</p>
+
+<p>- cache-based security violations possible for providers</p>
+</div>
+
+<p>c) Problems with remote user registration methods</p>
+
+<div style="margin-left: 4em">
+<p>- in opposition to strategies for single sign-on</p>
+
+<p>- duplicate development work</p>
+
+<p>- poor authentication</p>
+
+<p>- poor management information for consumer institutions</p>
+
+ 
+</div>
+
+<p>d) Standards-based, trends promising</p>
+
+<div style="margin-left: 4em">
+<p>- certificate technology already standard in browsers</p>
+
+<p>- e-commerce community positioning for certificate
+technology</p>
+
+<p>- directory service standards increasingly part of other
+products (email, calendaring, enterprise-wide applications)</p>
+</div>
+
+<p>e) Feedback encouraging-increasing interest from higher-ed IT
+decision-makers</p>
+
+ 
+</div>
+
+<p><i>Architecture</i></p>
+
+<p>
+<img src="Image1.gif" width="526" height="305" alt="x" /></p>
+
+ 
+
+<div style="margin-left: 6em">
+<p>1. Individual within consumer institution community, providing
+an individual digital certificate, requests service from remote
+provider;</p>
+
+<p>2. Service provider validates authenticity of individual's
+issuing certificate authority, retrieves location of consumer
+institution's directory/attribute service from within
+individual's certificate, contacts that directory
+service-providing its own certificate as well-requesting
+authorization information for the individual;</p>
+
+<p>3. Directory service validates authenticity of service
+provider's issuing authority, and responds to provider with
+appropriate classes of service permissible for the
+individual;</p>
+
+<p>4. Service provider delivers appropriate service to the
+individual.</p>
+
+ 
+</div>
+
+<p><i>Design Principles</i></p>
+
+<div style="margin-left: 6em">
+<p>- privacy; user-specific information is kept entirely within
+the consumer institution</p>
+
+<p>- localization of information; minimal information exchange,
+only what's precisely necessary for the transaction, no
+redundancy</p>
+
+<p>- better management information on all sides</p>
+
+<p>- better services possible; providers can create extensive
+user-profiled services with appropriate privacy</p>
+
+<p>- separation between authentication and authorization systems;
+much more flexible classes of service are possible</p>
+
+ 
+</div>
+
+<p><i>Investments, per architectural component</i></p>
+
+<div style="margin-left: 6em">
+<p>a) for customer institutions</p>
+
+<div style="margin-left: 4em">
+<p>- certificate identity for servers</p>
+
+<p>- directory service</p>
+
+<p>- certificate infrastructure for individuals</p>
+</div>
+
+<p>b) for service providers</p>
+
+<div style="margin-left: 4em">
+<p>- certificate identity for servers</p>
+
+<p>- web server extension module</p>
+
+ 
+</div>
+</div>
+
+<p><i>History/Status</i></p>
+
+<div style="margin-left: 6em">
+<p>- 97-98; UCOP, UC System-wide security architecture; Columbia
+access management broker service</p>
+
+<p>- Apr 98; Clifford Lynch white paper, issues in
+inter-institutional authentication and authorization; CNI
+discussion</p>
+
+<p>- Oct 98; DLF Architecture Committee, identification of common
+practices</p>
+
+<p>- Dec 98; CNI, UCOP/Columbia comparison presentation</p>
+
+<p>- Jan 99; UCOP/Columbia/JSTOR/OCLC Pilot Launched</p>
+
+<p>- Apr 99; Pilot operational</p>
+
+<p>- Apr 99; CNI presentation</p>
+
+<p>- May 99; CSG presentation</p>
+
+<p>- Jun 99; CIC presentation</p>
+
+<p>- Jun 99; Internet-2 presentation</p>
+
+<p>- Oct 99; Educause presentation</p>
+
+<p>- Publication with the Corporation for Research and
+Educational Networking (<a href="http://www.cren.org/">CREN</a>)
+of FAQ</p>
+</div>
+
+<!-- End text -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

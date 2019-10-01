@@ -1,0 +1,1804 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="Spring Forum 2005 Abstracts" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2005-01-21" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2005, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>Spring Forum 2006 Abstracts</title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet"
+type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type=
+"text/css" />
+</head>
+<body onload=
+"MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"
+onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)">
+<img src="../../images/logo.gif" alt=
+"Digital Library Federation, Link: Home" name="dlf_logo" width=
+"192" height="133" border="0" id="dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../../quotations.htm"><img src=
+"../../images/quote_hold.gif" name="quote_rotate" alt=
+"random library quotation" width="333" height="95" border="0" id=
+"quote_rotate" /></a></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../../publications.htm"><img src="../../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><a href=
+"../../forums.htm"><img src="../../images/forum.gif" alt="Forum"
+width="50" height="27" border="0" /></a></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../../about.htm"><img src="../../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../../news.htm"><img src="../../images/news.gif" alt=
+"Link: News" width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top">
+<form action="search.asp" method="get" name="searchform" id=
+"search"><label for="textfield"><span class=
+"news">Search </span></label> <input name="qu" id="textfield"
+type="text" value="" size="10" />   <a href=
+"javascript:document.searchform.submit();"><img src=
+"../../images/go.gif" alt="Link: go search" width="20" height=
+"20" border="0" align="middle" /></a>  <a href=
+"../../sitemap.htm"><img src="../../images/sitemap.gif" alt=
+"Link: Sitemap" width="47" height="20" border="0" align=
+"middle" /></a> <script language="JavaScript" type=
+"text/javascript">
+</script></form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);">
+<img src="../../images/collect.gif" alt=
+"Link: Digital Collections" name="collect" width="117" height=
+"38" border="0" id="collect" /></a></td>
+<td width="117" height="38" valign="top"><a href=
+"../../produce.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)">
+<img src="../../images/produce.gif" alt=
+"Link: Digital Production" name="produce" width="117" height="38"
+border="0" id="produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)">
+<img src="../../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../../use.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)">
+<img src="../../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top"><!-- Begin text here -->
+<div class="Section1">
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='font-size:14.0pt'>DLF</span></b><b><span style=
+'font-size:14.0pt'>Spring Forum 2006</span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style=
+'font-size:14.0pt'>Austin</span></b><b><span style='font-size:14.0pt'>
+, Texas</span></b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">DAY ONE: Monday, April 10</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>10:30am&mdash;1:00pm</b>                
+Registration</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>11:30am-12:15pm</b>                 
+First-time Attendee Orientation</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>12:45pm-1:00pm</b>                  
+Opening Remarks</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>1:00pm-2:30pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 1:
+ <i>Developers' Forum Panel: Identifier Resolution</i></b>.  </p>
+<p class="MsoNormal" style='margin-left:.5in'>Eva M&uuml;ller,
+Uppsala University, Sweden; Herbert Van de Sompel, LANL; and John
+Kunze, CDL</p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>1:00pm-2:30pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 2:</b>
+Panel: <b><i>Implementing the PREMIS data
+dictionary.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Priscilla Caplan,
+Florida Center for Library Automation; Nancy Hoebelheinrich,
+Stanford; Marcus Enders, Staats- und Universitdtsbibliothek
+Gvttingen; Rebecca Guenther, LC</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In May 2005, the
+PREMIS Working Group (Preservation Metadata:</p>
+<p class="MsoNormal" style='margin-left:.5in'>Implementation
+Strategies) released its Data Dictionary for Preservation
+Metadata, which defines and describes an implementable set of
+core preservation metadata with broad applicability to digital
+preservation repositories.  In Nov. 2005, this international
+working group, comprised of 30 members from five countries, won
+the prestigious Digital Preservation Award, sponsored by the
+Digital Preservation Coalition and part of the UK Conservation
+Awards.  This presentation/panel will discuss progress and
+problems in implementing the PREMIS data dictionary and some of
+the implementation choices to be made, with a particular focus on
+its use in METS. It will consist of a brief high level
+introduction to PREMIS and a panel discussion of two
+implementations and their similarities and differences.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ol style='margin-top:0in' start="1" type="1">
+<li class="MsoNormal">Introduction to PREMIS: Priscilla Caplan
+(Florida Center for Library Automation) Overview of PREMIS, its
+assumptions and its neutrality in terms of any particular
+implementation.  Choices for implementation will be reviewed
+(i.e. using the PREMIS schema published on the MA site; 
+incorporating pieces of the schema into METS; or, incorporating
+into another framework such as DIDL).</li>
+</ol>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ol style='margin-top:0in' start="2" type="1">
+<li class="MsoNormal">Use of PREMIS with METS: A panel of three
+will discuss how the PREMIS data elements might be incorporated
+into METS. Marcus Enders (Staats- und Universitdtsbibliothek
+Gvttingen) will discuss the MathARC implementation. (tentative)
+Nancy Hoebelheinrich (Stanford University Libraries) will present
+Stanford's implementation of PREMIS in METS. Rebecca Guenther
+(Library of Congress) will outline the general issues to be
+considered in implementing PREMIS in a METS context and review
+how the two applications have approached it similarly and
+differently. The panel will then discuss the various approaches
+and take questions.</li>
+</ol>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><i>Note:</i> If
+possible we will try to include someone who is implementing in
+DIDL, although the likely presenter was unavailable. Please make
+sure this does not conflict with Nancy Hoebelheinrich.s other
+presentation (if accepted) on Automating Preservation Assessment.
+Also, please do not schedule on Wednesday morning, because one
+presenter will not be available.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>2:30pm-3:00pm Break</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>3:00pm-4:30pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 3:</b>
+Panel: <b><i>Libraries and Publishing -- Reports from the
+Field.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Maria Bonn,
+University of Michigan, David Millman, Columbia University,
+Catherine Mitchell, CDL, David Ruddy, Cornell University</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>For several years,
+a number of DLF member libraries have been exploring active roles
+in the scholarly publishing domain. These efforts were sparked by
+shared concerns: increasing costs, diminishing access, loss of
+control of scholarly content, greater consolidation of commercial
+publishing--in general, an environment that appeared increasingly
+restrictive, expensive, and unsustainable.</p>
+<p class="MsoNormal" style='margin-left:.5in'>As a challenge to
+prevailing publishing models, these libraries have been building
+tools and providing services in support of scholarly publishing,
+experimenting with alternative business models, modes of
+production, and technologies, in an effort to identify successful
+and sustainable scholarly publishing solutions. This session
+includes updates on these efforts and reports on recent
+projects.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Maria Bonn will
+reflect on the growing pains and growing gains -- looking at the
+strategies Michigan has taken to scale up, their costs and
+benefits, and also considering the extent to which they can and
+should develop support for some of the traditional publisher
+functions that are outside current library realms of
+expertise.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>David Millman will
+present on issues of interoperability at Columbia and the re-use
+of library materials in publications, for instruction, and for
+research.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Catherine Mitchell
+will present on the collaboration forged among the California
+Digital Library, University of California Press and Mark Twain
+Papers in exploiting the CDL's existing XTF infrastructure to
+create digital critical editions of all of  Mark Twain's works.
+She will discuss specifically the kinds of editorial and
+infrastructure issues born of this collaboration and the
+project's promise of both delivering and informing scholarly
+work.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>David Ruddy will
+report progress on a collaborative effort by Cornell University
+Library and the Penn State Libraries and Press to develop and
+distribute open source publishing software. DPubS, developed to
+support Project Euclid, Cornell's publishing initiative in
+mathematics, is a flexible and extensible publishing platform
+that will allow libraries to create alternative and affordable
+publishing opportunities for their communities and beyond.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>3:00pm-4:30pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 4:</b>
+Panel: <b><i>The LC/NSF Digital Archiving and Long-Term
+Preservation Research Program (Digarch): Results and
+Prospects. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>William LeFurgy,
+LC; Harry Kreisler, UC Berkeley; Margaret Hedstrom, Michigan;
+Michael Nelson, Old Dominion University.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The panel would
+provide a brief background about the program and reports from
+three of the 10 projects funded from the first round.  Project
+reports will highlight preliminary findings that may be of broad
+interest to the digital preservation community.  There will be
+discussion about how the projects relate to other Library of
+Congress National Digital Information Infrastructure and
+Preservation Program (NDIIPP) initiatives.  Plans will be
+outlined for a potential second round of Digarch projects, which
+again will be administered through the National Science
+Foundation.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>William LeFurgy to
+discuss NDIIPP and Digarch overall; Harry Kreisler, (not
+confirmed) to discuss the "Digital Preservation Lifecycle
+Management Building" Digarch project; Margaret Hedstrom to
+discuss "Incentives for Data Producers to Create 'Archive-Ready'
+Data Sets" Digarch Project; and Michael Nelson to discuss "Shared
+Infrastructure Preservation Models" Digarch project.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>4:30pm&mdash;5.00pm Break</b></p>
+<p class="MsoNormal"><b> </b></p>
+<b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'><br clear="all"
+style='page-break-before:always' /></span></b>
+<p class="MsoNormal"><b>5.00pm-6.30pm</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+5:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a)
+<b><i>Development and Testing of Schema for Expressing Copyright
+Status Information in Metadata: Recommendations of the Rights
+Management Framework Group, California Digital
+Library. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Curtis Lavery,
+CDL</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Current efforts to
+express intellectual property rights associated with digital
+materials have focused on access and usage permissions, but many
+important permissions are defined by an item&rsquo;s copyright
+status rather than by license or contract. These permissions are
+not included in existing rights expressions. Digital libraries
+hold and provide access to many items for which copyright status
+is the sole governor of use, and even for licensed materials
+copyright status is often an essential element for those wishing
+to make further use of a work.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The California
+Digital Library is working on a rights framework that will
+include recommendations for metadata to express the copyright
+status of digital resources. This metadata should accompany
+digital materials and be offered to users to inform them of the
+copyright status and potential uses of the item. It also allows
+the depositor to clearly state what data about the copyright
+status is not known by the holding library or archive, and what
+data may be known but has not been provided. Because this
+copyright information is often unknown or scant, the metadata
+includes fields for contact information for the office or
+individual who can best advise on use and permissions for the
+object in question.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Early versions of
+this work have been presented at the NISO Workshop on Rights
+Expression and the Society of American Archivists meeting, both
+in 2005. CDL has now developed a first schema language for this
+metadata and is seeking partners to test the metadata in actual
+digital library settings.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>Truth and
+consequences, Texas: The University of Texas Libraries' Metadata
+Registry Project. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Alisha Little and
+Erik Grostic, UT Austin</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The University of
+Texas at Austin&rsquo;s Metadata Registry began as a research
+project in 2001, and morphed into a fast track development
+project in 2003.  This presentation will take people through the
+entire development and implementation process for the University
+of Texas Libraries&rsquo; Metadata Registry.  It will include:
+the rationale behind developing in house from scratch, rather
+than utilizing or modifying an existing product; the decisions we
+made regarding the data model and the use of FRBR and Dublin
+Core; what we wanted the system to do vs. what it does do; the
+perils of developing a pilot using a pilot (java struts); how we
+use it and how it works for us; and future development goals and
+questions.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>c) <b><i>Sharing
+resources by collection: OAI sets and set
+descriptions. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Muriel Foulonneau,
+UIUC, Caroline Arms, LC, Sarah Shreeves, UIUC</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Many institutions
+are sharing their digital resources using metadata-sharing
+frameworks such as OAI-PMH. They sometimes organize their
+resources into subsets, such as OAI sets, which may or may not
+correspond to a defined collection.  As the DLF/NSDL Best
+Practices for OAI Data Provider Implementations and Shareable
+Metadata &lt;<a href=
+"http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents"
+title=
+"http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents">http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents</a>&gt;
+and other research notes, clustering resources by collections
+contributes to improving metadata shareability because the
+collection can provide context to individual items aggregated.
+The OAI protocol allows the definition of metadata sets and set
+descriptions which can be used to convey collection level
+descriptions. Usage of OAI sets and set descriptions varies
+considerably among data providers. Service providers are using
+collections defined by content providers in a multiplicity of
+ways: to build registries; for filtering results; and for ranking
+of item level search results.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>However, harvesters
+find useful not only information  about the collection of
+resources which is represented by the metadata in the OAI set,
+but also information about the collection of metadata records.
+The distinction between these two is oftentimes fuzzy. This
+presentation will present an analysis of current practice in the
+OAI domain of set and set description usage and will include the
+experiences of both a data provider (Library of Congress) and a
+service provider (UIUC) on the challenges of defining and
+describing sets (collections) of items in a metadata sharing
+framework.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>5.00pm-6.30pm</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+6:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a)
+<b><i>UTOPIA.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Aaron Choate, UT
+Austin</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>As The University
+of Texas Libraries continues to build and collaborate on large
+projects such as UTOPIA, the Texas Heritage Digitization
+Initiative, and the Texas Digital Library, it remains a challenge
+to also manage ongoing internal digital projects workflows. 
+Aaron Choate and Uri Kolodney (Digital Library Production
+Services, UT Libraries) will discuss the challenges their unit
+faces in managing parallel project-based and production workflows
+as well as how such projects touch on the management of resources
+throughout the library.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>DAR: A
+Digital Assets Repository for Library Collections.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Mohamed Yakout and
+Magdy Nagi, Bibliotheca Alexandrina. </p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Digital Assets
+Repository (DAR) is a system developed at the Bibliotheca
+Alexandrina, the Library of Alexandria, to create and maintain
+the digital library collections. DAR acts as a repository for all
+types of digital material and provides public access to the
+digitized collections through web-based search and browsing
+facilities.  DAR is also concerned with the digitization of
+material already available in the library or acquired from other
+research-related institutions. A digitization laboratory was
+built for this purpose at the Bibliotheca Alexandrina.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The system
+introduces a data model capable of associating the metadata of
+different types of resources with the content such that searching
+and retrieval can be done efficiently. The data model is able to
+describe objects in either MARC 21 standard, which is designed
+for textual material or VRA core, which is widely used format for
+describing images and multimedia. DAR integrates the digitization
+and OCR process with the digital repository and introduces as
+much automation as possible to minimize the human intervention in
+the process. As far as we know, this is an exclusive feature of
+DAR. The system is also concerned with the preservation and
+archiving of the digitized output and provides access to the
+collection through browsing and searching capabilities.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The goal of this
+project is building a digital resource repository by supporting
+the creation, use, and preservation of varieties of digital
+resources as well as the development of management tools. These
+tools help the library to preserve, manage and share digital
+assets. The system is based on evolving standards for easy
+integration with web-based interoperable digital libraries</p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>           </b> c) <b><i>Contextualizing
+the institutional repository within faculty research.</i></b> 
+ </p>
+<p class="MsoNormal" style='margin-left:.5in'>Deborah Holmes-Wong
+(Project Manager, Librarian, Chair of Institutional Repository
+Needs Assessment Task Force and Presenter, USC); Janis Brown
+(Associate Director, Systems &amp; Info Technology, USC Norris
+Medical Library); Sara Tompson (USC Science Team Leader)</p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>7:00pm-9:30pm Reception</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>POSTERS
+7.00pm-8.00pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>1) <b>Digital
+Imaging at the University of Texas at Austin</b>.  Aaron Choate,
+UT Austin.</p>
+<p class="MsoNormal" style='margin-left:.5in'>The University of
+Texas Libraries has been working with Stokes Imaging to refine
+their digital camera system (the CaptureStation) and workflow
+management tool for use in a collections-focused digitization
+center.  The goal has been to take a highly accurate digital
+camera system and build a flexible product that will allow for
+the hardware investment to be leveraged to capture rare books,
+bulk bound books, negatives and transparencies and large format
+materials.  John Stokes (Stokes Imaging) and Aaron Choate
+(Digital Library Production Services, UT Libraries) will show the
+progress they have made and discuss plans they have for further
+modifications to the system.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>2) WolfPack: a
+distributed file conversion framework.  Christopher Kellen,
+Carnegie Mellon.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>3) Navigating a Sea
+of Texts: Topic Maps and the Poetry of Algernon Charles
+Swinbure.  John Walsh and Michelle Dalmau, Indiana.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>4) <b>Implications
+of the Copyright Office's Recommended Legislation for Orphan
+Works</b>.  Denise Troll Covey, Carnegie Mellon.</p>
+<p class="MsoNormal" style='margin-left:.5in'>This poster session
+will provide an opportunity to explore how the proposed
+legislation might impact the creation of digital libraries. 
+Based on an analysis of the comments submitted in response to the
+Federal Register Notice of Inquiry, the transcripts from the
+public hearings, and the final report and recommendations
+prepared by the Copyright Office, the poster will highlight the
+issues and compromises relevant to libraries and archives, termed
+&ldquo;large-scale access uses&rdquo; in the final report, and
+invite discussion and strategic thinking about how digital
+libraries might leverage the suggested revision to Section 514,
+Limitations on Remedies, should it be enacted into law. </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">DAY TWO: Tuesday, April 11</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>8:00am-9:00am Breakfast</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>9:00am-10:30am</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+7:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>Everything
+Old is New Again: Repurposing Collections at the University of
+Michigan Through Print-on-Demand.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Terri Geitgey and
+Shana Kimball, Michigan</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Three years ago,
+the Scholarly Publishing Office of the University of Michigan
+University Library undertook development and stewardship of a
+print-on-demand program, which offers low-cost, high quality
+reprints of volumes from the university library&rsquo;s digital
+library collections, namely Making of America, Historical Math,
+and Michigan Technical Reports, as well as from the American
+Council of Learned Societies History E-Book collection. The
+program began very modestly, as a little cost-recovery service
+operating &ldquo;on the side,&rdquo; and growth has been
+relatively gradual and scalable. However, recent developments,
+such as an arrangement with BookSurge to make our titles
+available through Amazon, and the recent addition of our metadata
+to Bowker&rsquo;s Books in Print, are forcing us to re-examine
+our current methods. Many challenges present themselves as we
+consider transitioning to a more formal, scalable, full-time
+service.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>This paper explores
+why the University of Michigan University Library chose to
+develop this program, how the Scholarly Publishing Office built
+the print-on-demand program, and some of the challenges and
+rewards of the project. We&rsquo;ll cover the advantages and
+disadvantages of our methods, and chart new areas of growth and
+development for the program. We&rsquo;ll also touch on how this
+type of activity relates to the notion of &ldquo;library as
+publisher&rdquo; and the idea of selling information. Our goal is
+to encourage and enable other libraries to explore
+print-on-demand as a way to repurpose digital text
+collections.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>The next
+mother lode for large-scale digitization?</i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>John Mark
+Ockerbloom, University of Pennsylvania.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Much of the
+publicity around recent mass-digitization projects focuses on the
+millions of books they promise to make freely readable
+online.</p>
+<p class="MsoNormal" style='margin-left:.5in'>Because of
+copyright, though, most of the books provided in full will be of
+mainly historical interest.  But much of the richest historical
+text content is not in books at all, but in the newspapers,
+magazines, newsletters, and scholarly journals where events are
+reported firsthand, stories and essays make their debut, research
+findings are announced and critiqued, and issues of the day
+debated.  Back runs of many of these serials are available in
+major research institutions but often in few other places.  But
+they have the potential for much more intensive use, by a much
+wider community, if they are digitized and made generally
+accessible.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In this talk, we
+will discuss an inventory we have conducted at Penn of
+periodicals copyright renewals.  We found that copyrights of the
+vast majority of mid-20th-century American serials of historical
+interest were not renewed to their fullest possible extent.  The
+inventory reveals a rich trove of copyright-free digitizable
+serial content from major periodicals as late as the 1960s. 
+Drawing on our experience with this inventory's production and
+previous registry development, we will also show how low-cost,
+scalable knowledge bases could be built from this inventory to
+help libraries more easily identify freely digitizable serial
+content, and collaborate in making it digitally available to the
+world.  Our initial raw inventory can be found at <a href=
+"http://onlinebooks.library.upenn.edu/cce/firstperiod.html">http://onlinebooks.library.upenn.edu/cce/firstperiod.html</a></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>9:00am-10:30am</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+8:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>SRU:
+Version 1.2 and Beyond.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Robert Sanderson,
+University of Liverpool</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The SRU
+Implementors Group and Editorial Board will meet at the beginning
+of March in the Hague to formalise the changes needed for SRU and
+CQL 1.2.  This presentation will report on those decisions to the
+wider digital library community, including the technical changes
+to the protocol and query language, but also a discussion of how
+these changes affect current implementations and people wishing
+to implement something but not sure why, where or how to
+start.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In particular,
+changes are expected to CQL to allow a sort specification to be
+carried along with the query and the last non-profilable feature
+(proximity) will be changed to allow community specified
+values.</p>
+<p class="MsoNormal" style='margin-left:.5in'>The SRU request and
+response formats will be tidied up with some of the rough edges
+filed down.  This will be the first real test of the versioning
+system designed between version 1.0 and 1.1.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The presentation
+will also report on the progression towards full standardisation
+of SRU (now a NISO draft standard for trial use) and some
+thoughts about what the future might bring for digital library
+interoperability with SRU compliant applications developed
+outside of our community.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b)
+<b><i>Disambiguating Multiple Paths To Content Using RDF
+Triples.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Barbara Taranto,
+NYPL.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Traditional
+hierarchical data trees are ideal for the development and
+deployment of user driven navigational strategies since there is
+a direct and unambiguous path through the generations. However,
+when the underlying object model employs RDF triples any given
+object can have multiple family trees, which may include, or
+rather does not preclude, stepfathers, half-sisters etc. This
+paper will discuss the challenges of building richer navigational
+tools to enhance access to multiple lineages, and the
+possibilities it presents for the proliferation of smarter human
+and machine services.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>10:30am-11:00am Break</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>11:00am-12:30pm</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+9:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>Surfacing
+Consistent Topics Across Aggregated Resource
+Collections</i></b>. </p>
+<p class="MsoNormal" style='margin-left:.5in'>David Newman, UC,
+Irvine; Kat Hagedorn , Michigan; Bill Landis, CDL.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Surfacing
+consistent topics across a heterogeneous collection of
+information resources is a challenge faced by many digital
+libraries. This is true both for large-scale aggregation
+services, and for those seeking to federate a more focused set of
+resources for a specific audience. This session provides an
+overview of clustering and classification strategies, and
+considers two specific implementations as a means of engaging the
+audience in a discussion of possibilities for automated or
+semi-automated topical remediation and enhancement in digital
+library work.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><i>Note:</i> Three
+15-minute presentations, followed by discussion with the
+audience.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>&ldquo;Automated
+Subject Indexing of Document Collections,&rdquo; David Newman,
+UC, Irvine: Clustering and classification techniques -- that are
+well known in computer science -- have potentially valuable
+applications for digital libraries. This presentation will
+provide an overview of these techniques, and discuss the
+strengths and weaknesses of several methods to topically organize
+and categorize a collection of text documents.  We will review
+several case studies including an OAI-harvested collection where
+individual documents vary widely in their length and content.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>&ldquo;How (Not) to
+Use a Semi-Automated Classification Tool,&rdquo; Kat Hagedorn,
+Michigan: Clustering services hold much promise for providing end
+users with a more targeted way of navigating large aggregator
+sites like OAIster, as well as more focused federations of
+scholarly resources such as those envisioned for the collections
+created in the context of the DLF/Aquifer initiative. This
+presentation discusses successes and challenges in prototype use
+of Emory University's MetaCombine NMF Document Clustering System
+Web Service at the University of Michigan.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>&ldquo;Go Fish!:
+Experiments with Topical Metadata Enhancement in the American
+West Project,&rdquo; Bill Landis, CDL:  The CDL experimented with
+topical clustering in support of creating consistent metadata to
+drive a hierarchical faceted browse interface for the harvested
+metadata collection assembled for the American West Project. This
+presentation reviews issues arising from the topical enhancement
+work done for this project, speculates on a sustainable process
+design for longer term use of this approach, and considers some
+scenarios for topic enhancement work in academic digital
+libraries.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>Tools and
+Findings of the Emory MetaCombine Project.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Martin Halbert,
+Emory</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The MetaCombine
+Project (<a href=
+"http://www.metacombine.org/">http://www.metacombine.org</a>) has
+developed: 1) search techniques for combinations of OAI-PMH and
+Web resources, 2) semantic clustering and taxonomy assignment for
+metadata and content, and 3) frameworks for combining digital
+library components acting as a whole (hence the project name:
+MetaCombine).  The project (funded by the Andrew W. Mellon</p>
+<p class="MsoNormal" style='margin-left:.5in'>Foundation) has
+developed twenty separate software modules as enhancements to the
+Heretrix web crawler and other DL tools, and has evaluated these
+tools with cooperation from the Universities of Illinois and
+Michigan.  Key points:</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>1) This project
+developed, demonstrated, and assessed two approaches for
+providing combined search capabilities of harvested metadata and
+Web</p>
+<p class="MsoNormal" style='margin-left:.5in'>content: A) by
+providing OAI access to metadata records automatically generated
+for Web content via semantic clustering techniques; and B)
+indexing combined bodies of Web content and OAI metadata.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>2) The MetaCombine
+project assessed the effectiveness of several specific semantic
+clustering techniques for improving organization and access to
+bodies of metadata exposed via the OAI-PMH as well as Web
+resources. The project's researchers not only evaluated existing
+techniques, but also developed a new mathematical algorithm (and
+associated software) for clustering termed non-negative matrix
+factorization, which is more efficient than other techniques for
+clustering metadata records.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>3) The project
+developed and evaluated a framework for coordinating loosely
+coupled components of digital library services in an extensible
+manner.</p>
+<p class="MsoNormal" style='margin-left:.5in'>Based on the OCKHAM
+network (<a href=
+"http://www.ockham.org/">http://www.ockham.org</a>), this new
+approach utilizes the OAI-PMH and Web services as underlying
+means of system integration.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>11:00am-12:30pm</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+10:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>Archiving
+Courseware Websites to DSpace, Using Content Packaging Profiles
+and Web Services.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>William Reilly and
+Robert Wolfe, MIT</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Standards-based
+development of new functionalities for the DSpace platform to
+expose Web Services that import and export
+&ldquo;courseware&rdquo; websites is the study of an MIT iCampus
+project, CWSpace. This presentation reviews these DSpace
+capabilities (nearing completion) of: 1) the &ldquo;Lightweight
+Network Interface&rdquo; (LNI), a WebDAV-based implementation of
+basic archive services (a SOAP interface is also provided); 2) a
+plug-in architecture which permits the use of content packager
+plug-ins (e.g. IMS-CP; METS) for both submission (SIP) and
+dissemination (DIP); 3) crosswalk plug-ins to accept descriptive
+metadata other than Dublin Core (e.g. MODS; LOM), to be rendered
+to DSpace&rsquo;s native Qualified Dublin Core.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Key to much of this
+software development has been the creation of a profile for the
+IMS Content Package, serving as a specification to both the
+DSpace platform as content consumer, as well as the initial
+target content provider, MIT&rsquo;s OpenCourseWare (OCW). The
+resulting courseware packages-&mdash;based on a standard, shaped
+by this profile&mdash;-are designed to be interoperable with
+other collaborative learning environments and tools (e.g. RELOAD;
+dotLRN LORS; other).</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Topics addressed in
+the presentation include issues faced in working with these
+content packaging standards for archiving complex digital objects
+(websites); issues in rendering websites from within a
+repository; issues in (future) development to ingest the newer
+&ldquo;logical&rdquo; content packages (URLs rather than only
+local files); basic considerations in planning for preservation
+of educational multi-media; issues in management and workflow of
+various superseded versions of courses; issues concerning
+intellectual property and student privacy when working with
+educational materials.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b)
+<b><i>Preservation of Video: Notes from the Bleeding
+Edge.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Rick Ochoa and
+Melitte Buchman, NYU. </p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Hemispheric
+Institute Digital Video Library is currently a two year
+collaboration between NYU&rsquo;s Digital Library Team and the
+Hemispheric Institute of Performance and Politics (HI), supported
+by a grant from the Mellon Foundation. The HI mission is to
+provide an open resource for those scholars, artists and
+activists working on the relation between politics and
+performance in the Americas.  To that end the Digital Library is
+digitizing and preserving 250 hours of video per year of original
+performances, lectures, and symposia.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In shaping a video
+preservation strategy, we have encountered many technical
+challenges. As curious as it may seem, however, our greatest
+difficulty in digitizing video is the semantics of what is meant
+when <i>video</i> and <i>preservation</i> are used together.  As
+a model for video preservation we&rsquo;ve looked closely at our
+digital imaging initiative and the attempt to ground the digital
+image surrogates in authenticity. Ideally, the only perceptible
+change is in the container format. We have adopted similar
+approachs in grounding video materials, and have met with limited
+success due to issues of cost and pragmatism.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Whereas video
+commercial restoration implements procedures to produce masters
+that are often heavily reworked surrogates; i.e preservation
+versus restoration, at NYU we have developed specific practices
+to uphold the spirit of grounding video assets, and have chosen
+to eschew restoration in favor of preservation.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In this
+presentation we will talk about specific benchmarks that
+we&rsquo;ve developed, areas we&rsquo;ve been able to automate,
+ways that we&rsquo;ve differentiated acceptable intervention in
+the master and in the derivative.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='text-indent:.5in'>c) <b><i>Automated
+Risk Assessment for File Formats.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Hannah Frost and
+Nancy Hoebelheinrich, Stanford.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Stanford's
+participation in the National Digital Information Infrastructure
+and Preservation's (NDIIPP) Archive Ingest and Handling Test
+(AIHT) provided the opportunity to automate a mechanism to query
+a digital object for assessment of the "preservability" of its
+object class by scoring reported technical characteristics
+against Stanford Digital Repository (SDR) preservation policy. 
+The SDR Team developed a process, integrated into repository
+ingestion workflow, which incorporates JHOVE and applies PREMIS.
+This presentation will discuss the conceptual underpinnings,
+operational experiences, and the potential seen for the file
+format preservation matrices used to support SDR policy and
+services.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>12:30pm-2:30pm Break for Lunch</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>POSTERS
+1.30pm-2.30pm</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Digital Imaging
+at the University of Texas at Austin</b>. </p>
+<p class="MsoNormal" style='margin-left:.5in'>Aaron Choate, UT
+Austin.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The University of
+Texas Libraries has been working with Stokes Imaging to refine
+their digital camera system (the CaptureStation) and workflow
+management tool for use in a collections-focused digitization
+center.  The goal has been to take a highly accurate digital
+camera system and build a flexible product that will allow for
+the hardware investment to be leveraged to capture rare books,
+bulk bound books, negatives and transparencies and large format
+materials.  John Stokes (Stokes Imaging) and Aaron Choate
+(Digital Library Production Services, UT Libraries) will show the
+progress they have made and discuss plans they have for further
+modifications to the system.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>WolfPack: a
+distributed file conversion framework</b>.  Christopher Kellen,
+Carnegie Mellon.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>WolfPack is an
+open-source software framework used to automate the processing
+and OCRing of scanned images in parallel using a variety of
+off-the-shelf programs.  WolfPack is a (soon-to-be) open-source
+software framework used to automate the processing and OCRing of
+scanned images in parallel using a variety of off-the-shelf
+programs.  In creating a digital library, a variety of conversion
+programs need to operate on each scanned image, however these
+programs often take considerable time and often run on different
+software platforms.  Manually running these conversion programs
+is time-consuming and error prone.  In order to increase the
+throughput of our scanning center we sought to automate this
+process of deriving files from the original scanned image.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'> WolfPack solves
+this problem by providing a framework which:</p>
+<ul style='margin-top:0in' type="disc">
+<li class="MsoNormal">analyzes the files one currently has,</li>
+<li class="MsoNormal">determines which derived files are
+missing?,</li>
+<li class="MsoNormal">gives these required conversions to worker
+processes to work on,</li>
+<li class="MsoNormal">collects the derived files from those
+worker processes, and</li>
+<li class="MsoNormal">stores the completed work.</li>
+</ul>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>This distributed
+file conversion framework allows one to automate the various file
+conversions on different software platforms, perform the work in
+parallel, and perform the conversions around the clock, therefore
+increasing the overall throughput of the scanning center.  In the
+past year, WolfPack has been used to process over a half million
+pages.  The WolfPack source code is being released under an open
+source license.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Navigating a Sea
+of Texts: Topic Maps and the Poetry of Algernon Charles
+Swinbure</b>.  John Walsh and Michelle Dalmau, Indiana
+University.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Implications of
+the Copyright Office's Recommended Legislation for Orphan
+Works</b>.   Denise Troll Covey, Carnegie Mellon.</p>
+<p class="MsoNormal" style='margin-left:.5in'>This poster session
+will provide an opportunity to explore how the proposed
+legislation might impact the creation of digital libraries. 
+Based on an analysis of the comments submitted in response to the
+Federal Register Notice of Inquiry, the transcripts from the
+public hearings, and the final report and recommendations
+prepared by the Copyright Office, the poster will highlight the
+issues and compromises relevant to libraries and archives, termed
+&ldquo;large-scale access uses&rdquo; in the final report, and
+invite discussion and strategic thinking about how digital
+libraries might leverage the suggested revision to Section 514,
+Limitations on Remedies, should it be enacted into law. </p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>2:30pm-4:00pm</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 11:</b>
+<b><i>DLF</i></b><b><i>Aquifer: Bringing Collections to
+Light</i></b>. </p>
+<p class="MsoNormal" style='margin-left:.5in'>Katherine Kott, DLF
+Aquifer Director; Perry Willett, Kat Hagedorn, Michigan; Jon
+Dunn, Indiana; Thornton Staples, UVa; Thomas Habing, UIUC</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>This panel will
+highlight DLF Aquifer phase 1 accomplishments. Following a brief
+project status report, the program will focus on two project
+deliverables:</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ol style='margin-top:0in' start="1" type="1">
+<li class="MsoNormal">A DLF Aquifer portal of MODS OAI harvested
+records. The University of Michigan is hosting metadata
+harvesting for DLF Aquifer and will demonstrate the DLF Aquifer
+portal, which experiments with the DLF MODS Implementation
+Guidelines for Cultural Heritage Materials.</li>
+</ol>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ol style='margin-top:0in' start="2" type="1">
+<li class="MsoNormal">&ldquo;Asset action packages&rdquo; to
+support a consistent user experience and deeper level of
+interoperability across collections and repositories. An asset
+action package is an XML-defined set of actionable URIs for a
+digital resource that delivers named, typed actions for that
+resource. Members of the DLF Aquifer Technology/Architecture
+Working Group will demonstrate the application of asset action
+packages to aggregated image collections in an OAI service
+provider.</li>
+</ol>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ol style='margin-top:0in' start="3" type="1">
+<li class="MsoNormal">A third outcome of the past year&rsquo;s
+work, the DLF MODS Implementation Guidelines for Cultural
+Heritage Materials is proposed as an interactive BOF
+session.</li>
+</ol>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>2:30pm-4:00pm</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+12:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>The XML
+Submission Tool: A system for managing text collections at
+Indiana University.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Dazhi Jiao, Tamara
+Lopez, and Jenn Riley, Indiana</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>XML-based schemes
+like EAD and the TEI are attractive to organizations because they
+normalize the key concepts in a domain using a structured syntax.
+Both standards are &ldquo;document&rdquo; -centric, designed to
+be created and read by humans, and characterized by a mixture of
+highly structured elements with unstructured content.  Because
+the XML standard also mandates machine-readability, a perceived
+benefit of using XML markup languages is system interoperability.
+However, unlike data-centric XML used for transaction processing,
+languages like the TEI and EAD are developed in an iterative
+editorial process that involves analysis of source text and
+encoding. The illusory nature of interoperability in such an
+environment is clear: two valid instance documents can employ the
+markup language and adhere to content standards in vastly
+different ways.    The flexibility and complexity inherent in
+using mixed-content markup languages thus demands that digital
+libraries proactively manage the document creation process.  This
+is necessary to ensure that encoding and content guidelines are
+followed while meeting the descriptive needs of source texts and
+the data model requirements of delivery and access systems.  The
+XML Submission Tool manages the production and workflow of
+collections described using XML markup languages.  Implemented
+using open-source Java software and XML technologies, it allows
+document creators to submit documents to collection specific
+rule-based content review, to review descriptive metadata, and to
+preview HTML delivery.  In addition, the submission tool serves
+as an editorial repository that can be integrated with production
+systems and digital repositories.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>The
+Archivists' Toolkit:  Streamlining Production and Standardizing
+Archival Information.</i></b> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Bradley D.
+Westbrook, UC, San Diego; Lee Mandell, Archivists' Toolkit; Jason
+Varghese, NYU.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Archivists'
+Toolkit is a multi-institution, multi-year project initially
+funded by the Digital Library Federation and subsequently by The
+Andrew W. Mellon Foundation.  This project update will occur
+several weeks before the beta version of the AT application is
+scheduled to be released for testing to the project partner
+repositories.  The project update will consist of an account of
+how the application specification has been modified as a result
+of public comment last fall, and it will describe the testing
+process planned for the application.  A considerable portion of
+the presentation will be devoted  to demonstrating a prototype of
+the application and several of its salient features such  as
+ingest of legacy data, recording  of archival resource
+information, and production of EAD encoded finding aids, METS
+encoded digital objects, and administrative reports.  Substantial
+time will be allocated to questions from attendees.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>4:00pm-4:15pm Break</b></p>
+<b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'><br clear="all"
+style='page-break-before:always' /></span></b>
+<p class="MsoNormal"><b>4:15pm-5:15pm BIRDS OF A FEATHER
+1</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>1) Electronic
+Records Archives: Systems and Metadata Architectures.  Quyen
+Nguyen, NARA, and Dyung Le, NARA.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Electronic
+Records Archives (ERA) system will be a future archives system in
+the digital object world. It will authentically preserve any type
+of electronic record, created by any entity in the Federal
+Government, and it will provide this electronic information
+anytime and anyplace to anyone with an interest and legal right
+to access it.  Within such system whose main goals are to
+preserve and provide access to digital records over time,
+Metadata Management is a critical service.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In this paper, we
+will present typical use case scenarios of ERA that involve or
+require metadata management. These use cases will encompass the
+creation, retrieval, update, and deletion of metadata of digital
+records throughout the record life cycle. The ERA system has to
+meet multiple challenges. On one hand, ERA has to deal with
+challenges that are inherent to the digital object world; on the
+other hand, it has to fulfill the requirements posed by the
+business practices of the archival community in the context of
+NARA mission.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>We also study
+different database management models (relational,
+object-relational, native XML) for the ERA metadata
+repositories.  The study will focus on how these technologies can
+satisfy the systems engineering principles of ERA such as
+performance, scalability, availability, backup, and recovery.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Finally, since ERA
+architecture will be based on Web services technologies, and it
+is meant to be used by NARA personnel, record managers at federal
+agencies, as well as the general public, appropriate security
+scheme based on user access roles has to be implemented in order
+to protect the integrity of record metadata.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='text-indent:.5in'>2) Update of
+Activities of the DLF Services Framework Working Group. </p>
+<p class="MsoNormal" style='margin-left:.5in'>Geneva Henry,
+Rice. </p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>3) Identifier
+Resolution.  Developers' Forum.  Tim DiLauro (JHU) and John Kunze
+(CDL)</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>5.15pm-5.25pm: Break</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>5:25pm-6:25pm BIRDS OF A FEATHER
+2</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>1) DLF Aquifer
+MODS Implementation Guidelines. </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Sarah L.
+Shreeves, UIUC, John Chapman, Minnesota, Bill Landis, CDL, David
+Reynolds, JHU, Jenn Riley, Indiana, Gary Shawver, NYU</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Metadata
+Working Group of the DLF Aquifer Initiative has developed a set
+of implementation guidelines for the Metadata Object Description
+Schema (MODS).  These guidelines are intended for such as those
+that are the initial focus of the Aquifer Initiative. The
+guidelines were developed to encourage creation of rich,
+shareable metadata that is coherent and consistent, and, thus,
+useful to aggregators and end users.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The draft
+guidelines were widely distributed for community input in
+December 2005, the comment process ended in early February. 
+During this BOF, members of the Working Group will report on
+comments received, discuss changes to the guidelines based on
+those comments, and explore implementation issues with potential
+users.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>As noted in the
+abstract, the Aquifer Metadata Working Group has been gathering
+input about our MODS Guidelines from many user groups over the
+past few months. In addition to some relatively minor
+suggestions, a couple of basic philosophical questions have
+arisen, such as how and where to describe the original analog
+object and its digital surrogate. The Working Group would like to
+explain the rationale behind some of our decisions and engage our
+user community in a face-to-face conversation about some of these
+questions. A BOF at the DLF Spring Forum would provide the means
+for an interactive program that would give both the Aquifer
+Metadata Working Group and potential users of the MODS guidelines
+an opportunity to discuss in real time the issues raised during
+the comment period.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>2) Archivists'
+Toolkit.  Bradley Westbrook</b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b> </b></p>
+<p class="MsoNormal" style='text-indent:.5in'><b>3) DLF
+inter-institutional communication. </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Michael Pelikan,
+Penn State.</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Newsletter saw
+a big surge in submissions when we first breathed life back into
+it.  People were pleased with the switch to xhtml, and seemed to
+understand that their submissions were feeding not only the
+Newsletter, but DLF registries.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Since then,
+especially in the past calendar year, the submission rate has
+fallen way off.  I cannot browbeat submissions out of colleagues
+who are busy doing the very projects we'd all most like to hear
+about - indeed: when they're ready (or sooner!) we'll hear about
+them at the Forum!</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>I'd like to query
+an interested group of attendees as to some of the following:</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<ul style='margin-top:0in' type="disc">
+<li class="MsoNormal">What can DLF do to foster communication
+between its member institutions?</li>
+<li class="MsoNormal">If the Newsletter is useful, what can we do
+to ease or normalize its timely production?</li>
+<li class="MsoNormal">Along those lines, is it time for a few
+pilot experiments either with authenticated blogs, or a
+DLF-hosted wiki with authenticated editing access?</li>
+<li class="MsoNormal">Should we be pushing stuff out with RSS? 
+If so, fine.</li>
+</ul>
+<ul style='margin-top:0in' type="disc">
+<li class="MsoNormal">Where will we get the content and who will
+feed it in?</li>
+<li class="MsoNormal">Shall we offer to edit or redact it?</li>
+<li class="MsoNormal">What, of any of this, will people use, buy
+in to, get enthusiastic about, and will also, at the same time,
+give you the data you need to keep your registries up to
+date?</li>
+</ul>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.25in;text-indent:.25in'>
+<b>4) Central repository for a DL "how-to". </b></p>
+<p class="MsoNormal" style='text-indent:.5in'><b>Jewel Ward,
+USC.</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>I am sensing a need
+for a central location for the "how" of digital libraries, and
+would like to explore/discuss building a central "Best Practices"
+web site or wiki that provides this information.  I would like to
+discuss this w/other members of the DLF.  During the latter
+course of 2005, I received 3 requests (2 from outside the USA, 1
+from within the USA) for this type of information.  When I
+searched for this information online, I realized there is no one
+central place that provided the "how" of "how to share the
+information" that is both central and up-to-date.  I would like
+to know if other DLF members have found the same need and to
+discuss approaches to this topic, if there is a need.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>My initial thought
+is that this would be a Best Practices group along the lines of
+the OAI-PMH Best Practices committee who could put together some
+kind of wiki or web site that details the "how" -- which is
+tricky, given that every situation is different.  In a very
+idealistic way, it's a way to make available, "how to share the
+information", which fulfills our professional mission that
+"information shall be free".</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The envisioned
+audience for this web site would not only be the Western
+Hemisphere, but the "rest of the World". ;-)  As one part of
+this, if this web site or wiki is created with content that is
+actually useful, ;-) perhaps eventually, like the OAI-PMH, this
+could be translated into other languages? Again, the trick, as
+many of my DLF colleagues pointed out, would be to provide the
+"how" without being so high level it is useless, and so detailed
+a reader cannot apply it to his/her own DL project.  ;-)  As
+well, as David Seaman pointed out to me last November at the Fall
+Forum 2005, this may be a project more for CLIR than DLF. 
+However, I would like to start at the DLF to gauge both interest
+in this project and feasibility.  As well, I believe it would be
+a nice complement to the Greenstone and DSpace projects.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">DAY THREE: Wednesday, April 12</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>8:00am-9:00am Breakfast</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>9:00am-10:30am</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+13:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a)
+<b><i>Recommendations and Ranking: Experiments in Next Generation
+Library Catalogs.</i></b>  Brian Tingle, CDL.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>During the last
+decade, there have been fundamental changes in the way that
+people find and use information on the Internet. Google, Amazon,
+e-Bay and other successful commercial services have introduced
+technical approaches such as relevance ranking, personalization,
+recommending and faceted browsing that have fundamentally
+reshaped user expectations. Currently, search results from
+library catalogs are not presented in a transparent or usefully-
+ranked manner to the user, in stark contrast to Internet search
+engines. Nor do library systems offer recommending and
+personalization services that are very popular with users in e-
+commerce settings. Recent Mellon Foundation-funded research by
+the California Digital Library into how library catalogs can
+offer such modern search features will be presented and
+discussed.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>Unbundling
+the ILS: Deploying an e-commerce catalog search solution.</i></b>
+Andrew Pace and Emily Lynema, NCSU.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Traditionally,
+integrated library system solutions are bundled with Online
+Public Access Catalogs (OPACs) designed to help patrons search
+for library resources. Created by library automation vendors, ILS
+catalogs were useful tools for libraries trying to make the
+complexities of MARC records and library metadata accessible to
+the public. However, the explosive growth of the Internet and the
+accompanying achievements in searching technology have
+highlighted the weaknesses of these catalogs. Search engines and
+e-commerce tools that specialize in finding and presenting useful
+search results have become popular alternatives for many patrons.
+In response, NCSU Libraries has unbundled keyword searching of
+the library catalog from the functionality provided by the
+back-office integrated system. This presentation will provide an
+overview of the implementation process, including an
+environmental scan of the marketplace, an introduction to the
+commercial software chosen, and the local implementation process.
+Several key decision points and remaining questions will be
+highlighted.  A demonstration of the library&rsquo;s new catalog
+search interface will reveal advances in natural language
+searching, relevance ranking, result-set exploration, and
+response time.  New features, including &ldquo;true
+browsing&rdquo; of the collection by the Library of Congress
+Classification scheme and a FRBR-like record display will also be
+discussed.  The presenters will address the technical
+architecture and requirements for co-existence with the legacy
+catalog, as well as future development, usability testing, and
+assessment plans.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>9:00am-10:30am</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session
+14:</b></p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>a) <b><i>The Music
+Encoding Initiative (MEI). </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Perry Roland,
+UVa</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The ability to more
+easily create richly and consistently encoded musical sources
+would support the analysis and cross-comparison of musical data
+by enabling activities such as building structured virtual
+annotated compilations of various instantiations of a work, or
+contextual searching and detailed data retrieval across indexed
+XML representations.  The Music Encoding Initiative (MEI) DTD is
+a developing standard for such work.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The purpose of MEI
+DTD is two-fold: to provide a standardized, universal XML
+encoding format for music content (and its accompanying metadata)
+and to facilitate interchange of the encoded data. MEI is not
+designed to be an input code per se, like the Plaine and Easie
+code; however, it is intended to be human-readable and easily
+understood and applied. MEI has a significant advantage over
+other proposed XML standards that define an entirely new
+terminology because it uses familiar names for elements and
+attributes.  Using common music notation terminology has the
+benefit of making MEI files more human-readable, and makes clear
+the correspondence between MEI-encoded data and music notation. 
+The true potential of MEI is that a single file to encode
+multiple variations of a musical work and generate multiple
+outputs.  Because of its emphasis on comprehensiveness,
+comprehensibility, and software independence, MEI may also
+function as an archival data format.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The presentation
+will describe the features of the MEI DTD and the advantages of
+its use as an encoding standard.  Methods for capturing data in
+MEI will be discussed and a brief demonstration of displaying MEI
+data will be given.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>b) <b><i>METS
+Profile Development at the Library of Congress: An
+Update.</i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Morgan Cundiff,
+Library of Congress</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>The Library of
+Congress has continued to develop METS Profiles for specific
+types of digital objects. This presentation will feature recent
+development of profiles for audio or video Recorded Events,
+Photographs, Historical Newspapers, and Bibliographic Records.
+Explanation and demonstration of these object types will be based
+on items in the online application &ldquo;Library of Congress
+Presents: Music, Theater, and Dance&rdquo;. Specific topics
+included will be: 1) developing a consistent methodology for
+profile creation, 2) using METS and MODS together to represent
+object structure, 3) creating tools for validating METS documents
+(i.e. checking for compliance to a given profile) and 4) moving
+toward METS harvesting and interoperation. Discussion from the
+floor will be welcomed.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'>c) <b><i>Automated
+Generation of METS Records for Digital Objects. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Nate Trail, Library
+of Congress</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>This presentation
+will demonstrate a loose set of configurable tools to generate
+METS objects from files and metadata automatically.  For Library
+of Congress Presents: Music, Theater and Dance, we ingest files
+of digitized content and merge them with metadata from various
+data sources to build our METS objects. The demonstration will
+show conversion of file system directory structure into XML
+documents, SRU searching for bibliographic data, JDBC searching
+for rights and other item specific data stored in common
+databases. The objects are then indexed and stored for future
+rendering according to the METS profile for that object.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>We use open source
+applications and tools (especially Cocoon and XSL) to interact
+with various data components.  For each type of digitized
+content, we may need to interact with different databases for
+metadata, or expect to see different file structures and file
+types, so the stylesheets and Cocoon pipelines are broken into
+small steps that can be easily re-used or modified.  This enables
+us to more rapidly ingest collections of digitized content
+according to METS profiles we develop.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>10:30am-11:00am Break</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal"><b>11:00am-12:30pm</b></p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 15:</b>
+Panel: <b><i>The Open Content Alliance, introduction and progress
+report. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Rick Prelinger, the
+Internet Archive; Robin Chandler, California Digital Library,
+University of California; Merrilee Proffitt, RLG</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In October 2005,
+the Internet Archive announced a partnership of libraries and
+technology interests including the University of California, the
+University of Toronto, the European Archive, the National
+Archives (UK), O&rsquo;Reilly Media, Inc., Adobe, and Hewlett
+Packard Labs.  Shortly after, RLG, the Biodiversity Heritage
+Library, Emory University, Johns Hopkins University Libraries,
+Rice University, University of Texas, University of Virginia, and
+others joined the newly formed Open Content Alliance. This unique
+partnership of public and private seeks to digitize and make
+freely available published, out of copyright material ... to any
+party.<br />
+<br />
+This panel will discuss the formation of the OCA, principals,
+working groups, and what the group intends to do in order to meet
+a goal of having a mass of material on line and ready for use by
+October 2006.  The panel will allow for plenty of time for
+audience discussion and input.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal"><b>11:00am-12:30pm</b></p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal" style='margin-left:.5in'><b>Session 16:</b>
+Panel:<b><i>Listening to users: how user communities can inform
+design. </i></b></p>
+<p class="MsoNormal" style='margin-left:.5in'>Ellen Meltzer,
+Felicia Poe, and Tracy Seneca, CDL.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>Outline of the
+panel:</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style=
+'margin-left:.75in;text-indent:-.75in'><span style=
+'font:7.0pt "Times New Roman"'>                    </span>
+1.<span style='font:7.0pt "Times New Roman"'>        </span>
+Listening to users: Creating more useful digital library tools
+and services by understanding the needs of user communities.</p>
+<p class="MsoNormal" style=
+'margin-left:.75in;text-indent:-.75in'><span style=
+'font:7.0pt "Times New Roman"'>                    </span>
+2.<span style='font:7.0pt "Times New Roman"'>        </span> The
+Calisphere Project: Supporting the use of university digital
+resources by multiple user communities.</p>
+<p class="MsoNormal" style=
+'margin-left:.75in;text-indent:-.75in'><span style=
+'font:7.0pt "Times New Roman"'>                    </span>
+3.<span style='font:7.0pt "Times New Roman"'>        </span> The
+Web-at-Risk Project: Enabling curators to capture and manage
+collections of web-published government and political
+information.</p>
+<p class="MsoNormal" style='margin-left:.5in'> </p>
+<p class="MsoNormal" style='margin-left:.5in'>In order to create
+more useful digital library tools and services, we must first
+understand the needs of our user communities. In this panel
+discussion, we will describe what the California Digital Library
+(CDL) has learned from carrying out an array of assessment
+activities with our current and potential users. Through the
+presentation of two projects in differing stages of development,
+we will share our growing insight into digital library user
+communities, including students, faculty, K-12 teachers,
+librarians, archivists and others.</p>
+<p class="MsoNormal"> </p>
+<p class="MsoNormal">12:30pm Adjourn</p>
+<p class="MsoNormal"><b> </b></p>
+<p class="MsoNormal"><b>Post Forum: Wednesday afternoon, April 12
+2006: DLF Developers' Forum (open to all)</b></p>
+</div>
+<!-- End text -->
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+<p> </p>
+<p align="center" class="copyright">Copyright &copy; 2005 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

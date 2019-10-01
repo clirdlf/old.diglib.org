@@ -1,0 +1,1012 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="Enabling Access in Digital Libraries: A Report on a Workshop on Access Management" />
+<meta name="dc.Creator" content="Arms, Caroline" />
+<meta name="dc.Creator" content="Klavans, Judith" />
+<meta name="dc.Creator" content="Waters, Donald J." />
+<meta name="dc.Subject" content="Electronic information resources" />
+<meta name="dc.Description" content="The workshop described in this report focused on the management of access to published information resources through research libraries. Topics discussed include privacy, protection of rights, authorization, and authentication." />
+<meta name="dc.Publisher" content="Digital Library Federation, Washington, D.C." />
+<meta name="dc.Publisher" content="Council on Library and Information Resources, Washington, D.C." />
+<meta name="dc.Contributor" content="Howard, Barrie" />
+<meta name="dc.Date" content="1999-02-01" />
+<meta name="dc.Date" content="2006-08-18" />
+<meta name="dc.Type" content="electronic book abstract" />
+<meta name="dc.Format" content="text/html" />
+
+<meta name="dc.Identifier" content="http://purl.oclc.org/DLF/pubs/dlf087/" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 1999, Digital Library Federation." />
+<meta name="dc.Rights"
+content="Copyright 1999, Council on Library and Information Resources." />
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Digital Library Content and Course Management Systems: Issues of Interoperation. Report of a study group, July, 2004. Digital Library Federation.</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../sitemap.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+
+
+</td>
+</tr>
+
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"></td>
+       <td width="117" height="38" valign="top"></td>
+    <td width="117" height="38" colspan="2" valign="top"></td>
+    <td width="117" height="38" colspan="3" valign="top"></td>
+    <td width="116" height="38" colspan="2" valign="top"></td>
+  </tr>
+
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+      <center>
+         <b><i>
+               
+               <h3><b>Digital Library Content and Course Management Systems: Issues of Interoperation</b></h3>
+               
+               <h4><i>Report of a study group</i></h4>
+               </i></b>
+         Co-Chairs: <b>Dale Flecker</b>, Associate Director for Planning &amp; Systems, Harvard University Library, and <b>Neil McLean</b>, Director, IMS Australia.
+         
+         
+         <blockquote>
+            <i>July, 2004</i>
+            
+         </blockquote>
+         
+      </center>
+      
+      
+      
+      <blockquote><a href="PDF version">PDF version</a></blockquote>
+      
+      
+      
+      
+      <hr width="75%">
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>Executive Summary</h2>
+      </center>
+      
+      <p>With funding from the Andrew W. Mellon Foundation, an <i>ad hoc</i> group of digital librarians, course management system developers, and publishers met under the aegis of the Digital Library
+         Federation to discuss the issues related to the use of digital library content in course management systems. The size, heterogeneity,
+         and complexity of the current information landscape create enormous challenges for the interoperation of information repositories
+         and systems that support course instruction. The group has created a checklist of things that operators of digital content
+         repositories can do to help ameliorate the complexities of such interoperation. It also explored through the means of use
+         cases the utility of tools which help instructors gather information resources from various distributed information repositories
+         for teaching purposes, and created a model of how the group envisions the interaction of users, tools, and information repositories
+         in the future. Understanding the complexities of the information landscape, and the importance of tools to simplify interactions
+         with that landscape, is critical for those building systems and services in this domain. The group believes that it is now
+         important that the community move from theoretical discussions of interoperation of content repositories and instructional
+         systems to real-world demonstration projects in order to further our collective understanding of the needs of users and the
+         realities of systems interoperation.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>Introduction</h2>
+      </center>
+      
+      <p>American institutions of higher education today are awash with digital information resources. Members of the educational community
+         commonly have access to thousands and thousands of electronic books and journals, hundreds of digital reference works, increasingly
+         rich collections of digital pictures, videos, and music, and large databases of survey, geographic, and scientific data. Few
+         areas of academic work are not dependent on at least some digital resources at this point, and the range and importance of
+         what is available continues to grow dramatically
+      </p>
+      
+      <p>While many digital resources are maintained and accessed through the local environments of scholars and research groups, a
+         very significant number, particularly materials of wider interest, are captured in the more formal systems of publishers,
+         digital libraries, and institutional repositories.
+      </p>
+      
+      <p>In the same period that the range and scale of digital resources available within universities was beginning to grow dramatically,
+         so was the use of information technology tools to assist in or augment teaching and learning. These tools range from the small
+         and personal (personal web sites, PowerPoint) to large-scale institutional course management systems. Given the richness of
+         digital resources available, one might have expected that educational tools would quickly become a significant vehicle for
+         providing students with access to digital library resources relevant to their courses. However, there is a wide-spread perception
+         that the level of integration of digital materials from formal repositories in educational systems remains relatively low.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <p>An awareness of the need for interoperation of repositories of quality content with systems supporting learning and teaching
+         has been growing over the past few years. The issue has been addressed on a technical architecture level in the "repository
+         interoperation" work of IMS and OKI. On a more immediate and short-term level, the IMS Digital Library Special Interest Group
+         has a subgroup working on standards for the exchange of "resource lists" (structured lists of readings and similar materials)
+         between course management systems, integrated library systems, and other related entities (resource lists containing pointers
+         to digital resources represent one form of integration of digital resources into learning systems).
+      </p>
+      
+      <p>In order to further progress in this area, the Andrew W. Mellon provided support for an <i>ad hoc</i> group of digital librarians, course management system developers, and publishers to meet and discuss some useful next steps
+         to increase the integration of existing digital resources into the working environments of instructors in higher education.
+         The Group (see
+         <i>Appendix A</i> for a list of participants), co-chaired by Dale Flecker of Harvard University and Neil McLean of IMS Australia, met face-to-face
+         twice, in August and December, 2003. It spawned two working groups, each of which wrote a report, as discussed later. This
+         paper summarizes the work of the Group as of March, 2004
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>General findings and observations</h2>
+      </center>
+      
+      <p>Given the breadth of the topic, it is unsurprising that discussions of the Group ranged over a large number of issues. Among
+         the issues and observations that most affected the direction of the Group are:
+      </p>
+      
+      <ul>
+         
+         <li>The barriers to finding and re-using extant digital materials in a course context are very high today. Locating an appropriate
+            place to look for materials, finding individual resources within the systems in which they are described, reusing existing
+            descriptive metadata, coping with access management systems, understanding technical formats and intellectual property constraints,
+            and ensuring continuing access to selected objects are all difficult. We do not have systems in place which make it easy for
+            instructors with limited time and very limited technical expertise to simply locate and reuse digital content.
+         </li>
+         
+         <li>The universe of systems containing materials useful in teaching and learning is highly diverse. This diversity is a reflection
+            of many factors: differing types of digital objects (geographic databases versus art images), different organizations (Harvard's
+            collections versus MIT's), different technical sophistication (an e-journal published by Elsevier versus one published in
+            an academic department), and different intent (legal information systems versus genomic databases). The combination of these
+            factors represents a major challenge in creating a coherent and easily useable information environment for instructors assembling
+            resources for a course.
+         </li>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>--</i></p>
+         
+         
+         <li>The universe of systems containing materials useful in teaching and learning is very large. It includes not just systems internal
+            to universities (institutional repositories, digital libraries, learning object repositories, museums) but also a very large
+            number of commercial and non-commercial publishers which are normally accessed through the library under licensing agreements.
+         </li>
+         
+         <li>The diversity of players in the digital domain is an impediment to the wide-spread implementation of any proposed solutions
+            to simplifying the environment. While there are important content holders that are part of the educational environment and
+            who see the support of education as one of their important roles, there are many more players for whom educational use is
+            a minor or incidental part of their business. As we identify measures that content players can take to simplify access and
+            reuse, it will be important for the educational community to work with content holders to explain the importance of, and where
+            possible, induce them to adopt, such measures.
+         </li>
+         
+         <li>Simplifying the use of resources goes well beyond questions of repository access protocols and standards. The need to work
+            with system operators and data owners was noted above. The scale of available resources will require considerable management
+            effort in terms of selection, storage and organization. Intellectual property concerns will require efforts in licensing,
+            vendor relations, and education. Heterogeneous systems interfaces and metadata practices will require efforts in data conversion,
+            in the building of agents to cope with diverse interfaces, and in constant monitoring to cope with incessant change. These
+            efforts will necessarily involve many parts of the university.
+         </li>
+         
+         <li>Much of the thinking to date in this domain has concentrated on formal course management systems. But we know that instructors
+            use many different kinds of systems to deliver teaching materials, including, for example, the use of PowerPoint for classroom
+            presentation, or of a course weblog to share work.
+         </li>
+         
+         <li>Tools and systems relevant to discovering and using information resources are being acquired or created elsewhere in the university,
+            and their integration into the learning systems environment will take effort. Metasearch engines, capable of simultaneously
+            searching multiple systems and of homogenizing retrieved metadata, are potentially key components of integration. OpenURL
+            linking servers, capable of resolving metadata links to on-line or physical resources, are also logical parts of the integrating
+            environment. It is worth noting the growing number of both free and commercial sources (e. g., Serial Solutions, SFX Knowledgebase,
+            TD-Net, Jake) which maintain systematic information about electronic resources including up-to-date interface requirements.
+            These are becoming important parts of digital library infrastructures, and could play an important role in integrating information
+            
+            
+            <hr width="75%">
+            <p align="center"><i>--</i></p>
+            
+            resources into course environments, as they help deal with the diversity and continual change in the information landscape.
+         </li>
+         
+      </ul>
+      
+      <p>During the first deliberations of the Group, David Greenbaum of the Interactive University project at Berkeley introduced
+         a diagram (see <i>Figure 1</i>) which captures many of the points above and helped focus the thinking of the Group.
+      </p>
+      
+      <p>
+         <p align="center"><img src="images/cmsdl0407a.jpg"></p>
+      </p>
+      
+      <p>The diagram posits that diversity exists at three levels in the domain: diverse users with different expectations and needs,
+         different tools for users that help meet those needs, and different repositories of useful digital content on which users
+         can draw, frequently with the intermediation of the tools. With this quite satisfying model in front of us, the Group formed
+         two working groups to address the two interface layers in the model: one to think about the interface between repositories
+         and tools, with an emphasis on what repositories should do to make their content optimally useful in such an environment;
+         and one to explore the user experience through the medium of use cases. The latter effort led to an important observation
+         about tools. The work of the two groups is discussed in the next two sections.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>Case studies and the need for aggregation tools</h2>
+      </center>
+      
+      
+      <p>In writing the use cases, this work group evolved a model of how resources are gathered and used in teaching. This model is
+         a good deal more complex than the simple "find and incorporate" that is frequently assumed in much of the literature. It is
+         based on three key
+         
+         
+         <hr width="75%">
+         <p align="center"><i>--</i></p>
+         
+         observations: that relevant digital resources will be distributed over many systems; that the process of using digital objects
+         in teaching usually involves such tasks as arranging, editing, annotating, and describing; and that the results of this work
+         may be used in multiple environments and/or saved for later reuse. The Group defined a general model workflow:
+      </p>
+      
+      <ul>
+         
+         <li><b><i><u>Gather:</u></i></b>
+            
+            <ul>
+               
+               <li><b>DISCOVER</b> = identify content sources
+               </li>
+               
+               <li><b>SEARCH</b> = find content within sources
+               </li>
+               
+               <li><b>COLLECT</b> = bookmark/link within each content source or within tool, probably using set formats or templates for types of learning
+                  objects or aggregations of content
+               </li>
+               
+               <li><b>IMPORT</b> = into tool or managed environment, bring or point to content itself, or metadata about content
+               </li>
+               
+               <li><b>SAVE</b> = prior to publishing, make a copy for the desktop, external or non-personal workspace that is managed for collaboration
+                  or sharing
+               </li>
+               
+               <li><b>FIND SIMILAR</b> = identify like items, per the Amazon.com model
+               </li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i><u>Create:</u></i></b>
+            
+            <ul>
+               
+               <li><b>DESCRIBE RESOURCE</b> = annotate, interpret, and write about content before publishing
+               </li>
+               
+               <li><b>ORGANIZE</b> = order, sequence, transform content to create learning object
+               </li>
+               
+               <li><b>ASSOCIATE</b> = declare link between content or learning object and course, project group or learning objective
+               </li>
+               
+               <li><b>MODIFY</b> = change, edit, annotate content or learning object for re-use after initial publishing. Differentiated from <b>Organize</b> in that this function may trigger other services to selected community members such as Alerts or Notification related to
+                  allowable permissions or conditions to re-use
+               </li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i><u>Share:</u></i></b>
+            
+            <ul>
+               
+               <li><b>EXPORT</b> = transfer content to other formats and/or tools, e.g., PowerPoint, METS. Differs from <b>Save</b> by its facilitation of supported format, output, packaging of content or learning object for specific display, rendering,
+                  use, storage environments
+               </li>
+               
+               <li><b>PUBLISH</b> = make formally available to learning environment with implications for declaration / agreements related to rights for re-use,
+                  short and long term storage and archiving services, and expectations for content transformation services
+               </li>
+               
+               <li><b>ARCHIVE</b> = establish agreements regarding short or long term storage, preservation, and delivery services.
+               </li>
+               
+            </ul>
+         </li>
+         
+      </ul>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <p>The Working Group created three specific use cases of the use of digital library content for teaching (the full report of
+         the Group is in <i>Appendix 4</i>). Taken together the three use cases illustrate this model and some of its ramifications. The first case describes the process
+         of gathering readings for a humanities course. It involves searching in multiple sources (a library catalog, a digital library
+         repository, and abstracting/indexing databases), and the integration of resources from multiple repositories (including the
+         use of physical as well as digital resources). The second describes the use of a tool to support an instructor's work in aggregating
+         images for use in a class. The tool provides an interface for searching for materials, supports the local aggregation of chosen
+         materials, along with functions of arrangement and annotation, and provides options to output the aggregations in a variety
+         of formats for different purposes. The third use case represents the use of a tool collecting resources that is embedded within
+         a course management system, but that provides the means to search digital content repositories of many kinds including the
+         subscription services managed by libraries.
+      </p>
+      
+      <p>The work involved in identifying where to look for resources, dealing with multiple system interfaces and varied search functionality,
+         and incorporating heterogeneous metadata and objects into a local environment is enormously complex and rather daunting. The
+         utility of a tool to simplify those tasks is obvious. Many sources, many interfaces, many digital formats are a given in our
+         rich digital environment. Mitigating that complexity and diversity will certainly encourage and enable more instructors to
+         make use of existing resources in their teaching.
+      </p>
+      
+      <p>A development related to the idea of an aggregation tool for instructors is the growing use of "metasearch" engines in libraries.
+         These engines allow the simultaneous searching of multiple sources, with the engine masking the variations of interface and
+         indexing across the various target systems, and homogenizing the metadata returned as a result of a search. This ability to
+         mask the heterogeneity of many distributed information systems is an obvious part of any aggregation tool. It is worth noting
+         as well the role "knowledge-bases" play in the metasearch environment: databases that contain information needed by the engines
+         to find and use a variety of target systems. There is a good deal of work required to implement metasearch engines, work that
+         will be common as well to aggregation tools. Such tools need to be configured to use appropriate target systems (i.e., configured
+         for local needs and business arrangements), and the knowledge-bases need to be kept up-to-date as target systems change and
+         evolve. An obvious question is how the work related to these distinct but related applications can be combined.
+      </p>
+      
+      <p>Predecessors of the aggregation systems discussed here are the citation-manager products such as EndNote and ProCite used
+         by many scholars, which support searching, aggregation, homogenization, and flexible output of metadata from a rich variety
+         of sources. Examples of aggregation tools proper are now being created, most notably the Scholar's Box system described in
+         Use Case #2. We expect more such systems to be created in the near term. The Scholar's Box is a stand-alone system. It is
+         easy to imagine similar tools being incorporated directly into course management systems, so that instructors have a unified
+         environment in which to assemble all of the tools and resources needed to support a course.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>Considerations for Repositories</h2>
+      </center>
+      
+      <p>As noted above, the universe of digital resources relevant to education is large, growing, and highly diverse. From the vantage
+         point of a developer or operator of a course management system, enabling the use of such resources in local systems will inevitably
+         be daunting. As the Group discussed the challenge and complexity of such integration, it became clear that there were a number
+         of steps that the operators of repositories of content could take that would reduce the difficulties of locating and reusing
+         their content. A work group was formed to analyze in detail what services and practices repository owners should consider
+         when designing their offerings, and to create a checklist for repositories that includes specific standards or best practice
+         recommendations when appropriate. The full report of the Group, including the checklist, is in <i>Appendix 2</i>, and a summary version of the checklist has been prepared by Kerry Blinco (IMS Australia).
+      </p>
+      
+      <p><i>Figure 2</i> below shows the relationship of systems and digital objects that the work group addresses. An important element of this diagram
+         is the role of what the work group called gateway systems. These are systems that provide aggregation and discovery services
+         for objects in distributed repositories. Examples of such gateways are abstracting and indexing databases such as Pubmed or
+         Inspec, union catalogs such as OCLC or Melvyl, directories such as MERLOT, and even such search services such as Google. The
+         checklist functions apply as much to these systems as to digital object repositories.
+      </p>
+      
+      <p>
+         <p align="center"><img src="images/cmsdl0407b.jpg"></p>
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <p>The work group identified four key types of services relevant to the discovery and reuse of digital resources:</p>
+      
+      <ul>
+         
+         <li><b><i>Finding Content.</i></b> Issues include:
+            
+            <ul>
+               
+               <li>what types of searching and browsing are supported, and whether complete inventories of content areas are available</li>
+               
+               <li>whether standard or well-documented descriptive, structural, technical, and administrative metadata are supported</li>
+               
+               <li>whether metadata can be exported for reuse in learning systems</li>
+               
+               <li>whether standard or well-documented protocols are supported for searching</li>
+               
+               <li>whether metadata is available for harvesting and inclusion in external discovery systems.</li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i>Collecting Content.</i></b> Issues include:
+            
+            <ul>
+               
+               <li>creation of stable identifiers for content, allowing it to be referenced unambiguously by outside systems</li>
+               
+               <li>creation of persistent resolvable identifiers for the location of content which will continue to reference content independent
+                  of changes in repositories
+               </li>
+               
+               <li>support for standard citation formats, and the export of citations for exchange and reuse.</li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i>Accessing Content.</i></b> Issues include:
+            
+            <ul>
+               
+               <li>transfer of digital materials to local environments for manipulation and display</li>
+               
+               <li>ability of users to specify the format of materials or to download subsets of larger objects</li>
+               
+               <li>applications for viewing, utilizing and repurposing objects.</li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i>Documentation.</i></b> Issues include:
+            
+            <ul>
+               
+               <li>documentation of such critical policies as rights and use, privacy, and security</li>
+               
+               <li>documentation of all metadata conventions (vocabularies, subject classification, etc.)</li>
+               
+               <li>description of repositories in relevant registries, directories and gateways, so that users know of their existence and what
+                  content domains they cover
+               </li>
+               
+               <li>description in relevant registries and directories of the technical and policy profiles of the repository (protocols supported,
+                  metadata standards supported, access policies) so that applications can interoperate with repositories appropriately.
+               </li>
+               
+            </ul>
+         </li>
+         
+      </ul>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>--</i></p>
+      
+      
+      <p>In addition, the Group identified two general areas of design important for interoperation:</p>
+      
+      <ul>
+         
+         <li><b><i>Accessibility</i></b>. Issues include:
+            
+            <ul>
+               
+               <li>does interaction with the repository require the use of proprietary protocols?</li>
+               
+               <li>does the user interface meet recognized accessibility guidelines and legislation?</li>
+               
+               <li>does the repository support standard character encodings?</li>
+               
+            </ul>
+         </li>
+         
+         <li><b><i>Access Control.</i></b> Issues include:
+            
+            <ul>
+               
+               <li>does the repository interface to and support standard or conventional external authentication mechanisms?</li>
+               
+               <li>does the repository implement granular authorization rules?</li>
+               
+               <li>does the repository interface to standard or conventional external authorization mechanisms?</li>
+               
+               <li>does the repository interface support anonymous interaction for discovery?</li>
+               
+               <li>is authentication delayed until the point of need?</li>
+               
+            </ul>
+         </li>
+         
+      </ul>
+      
+      <p>The overall thrust of the checklist is that repositories and related information systems should make themselves known to operators
+         of learning applications in expected ways, should follow standards and best practices in terms of access, search, metadata
+         practices, and download support, and should document their systems and policies so that others can configure their systems
+         appropriately to interoperate with them. Taken together, these steps should significantly ease the task of integrating information
+         systems into the learning environment.
+      </p>
+      
+      <p>In order to both test the checklist itself, and to get some feel for how the current environment of information systems relates
+         to these criteria, a number of existing repositories in the digital library environment were asked to measure themselves against
+         the list. <i>Appendix 3</i> includes the responses from six repositories: ARTStor, the California Digital Library, D-Space, Fedora, Harvard University,
+         and JSTOR. These responses cannot simply be taken at face value for several reasons: they reveal different interpretations
+         of some criteria; some of the responses are for software platforms and many of the criteria are specific to an implementation
+         and some implementations of the software might comply and others; and the interpretations of functions that are "planned"
+         obviously also varies noticeably. Nonetheless, there are a number of interesting observations one can make from the collective
+         responses:
+      </p>
+      
+      <ul>
+         
+         <li>Even among this population of players, who are likely to be aware of and sensitive to learning applications, no repository
+            comes close to satisfying all of the listed criteria.
+         </li>
+         
+         <li>These systems and services are evolving rapidly, and there are plans to implement a number of the criteria that not currently
+            supported.
+         </li>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>--</i></p>
+         
+         
+         <li>One senses that there are a number of areas where, if there were accepted standards or practices that would enhance the usefulness
+            of the repositories for learning applications, developers would be willing to add features to repository applications and
+            that repository managers would be very willing to enhance their services.
+         </li>
+         
+         <li>There are some obvious areas where the development of supporting infrastructure and community best practice is required. Preferred
+            metadata formats and content (particularly for administrative data such as rights, and structural metadata for complex objects),
+            a shared understanding of persistent identifiers, registries where services providing digital learning resources can make
+            themselves known and record technical and policy profiles, and the role of and support for software agents to help deal with
+            the large and complex information environment stand out as areas for development.
+         </li>
+         
+         <li>Responses from the two institutions with large digital library environments (the California Digital Library and Harvard University)
+            show that such environments are not homogeneous. Both responses repeatedly responded "in some cases", reflecting the variations
+            across their systems. The landscape is complex even within single institutions.
+         </li>
+         
+      </ul>
+      
+      <p>Overall, these responses demonstrate the need for greater awareness of the issues of integration with learning environments,
+         and for more active engagement between the digital library and course management communities.
+      </p>
+      
+      <p>These the guidelines for repositories and the aggregation tools discussed above are closely related issues. By supporting
+         standards and community conventions and best practices, repositories and related systems can significantly simplify the task
+         of building and maintaining aggregation tools that work across a large environment. The more target systems support standard
+         services and document themselves, the larger the number of targets will be that can be practically supported by such tools.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>The need for demonstration projects</h2>
+      </center>
+      
+      <p>The need for improved interoperation between learning systems and digital library systems has been much discussed, but we
+         have today few working examples of such cooperation. As long as these discussions remain theoretical, neither the developers
+         of instructional support systems nor the developers of digital library systems are likely to spend the resources required
+         to support interoperation. We are at a point where some convincing demonstration projects are badly needed. The purpose of
+         such projects include:
+      </p>
+      
+      <ul>
+         
+         <li>demonstrating the utility of interoperation in the real world. The best argument for supporting interoperation will be instructors
+            who use and care about the functions.
+         </li>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>--</i></p>
+         
+         
+         <li>testing the hypotheses about what functions matter. We need real world experience to see what is actually needed by instructors.</li>
+         
+         <li> providing experience with modes of interoperation. While the growing experience with metasearching is beginning to reveal
+            what works and what doesn't in this sort of interoperation, and where we will need additional conventions, standards, and
+            business models, the sort of aggregation tools imagined here will involve many issues beyond simple search, and only experience
+            will show what is needed to support richer interoperation.
+         </li>
+         
+         <li> providing a basis for projecting the resources required to implement and support wider interoperation. All the players in
+            this environment are busy and stretched for resources. Interoperation represents a potentially large drain on resources, and
+            systems designers and operators need to understand both the benefits <b>and</b> the costs of supporting it.
+         </li>
+         
+      </ul>
+      
+      <p>Our Group is convinced that there is now an adequate base of installed course management systems and of repositories of important
+         educational content to mount meaningful demonstration projects in this domain, and we <b>strongly</b> encourage the Mellon Foundation to consider an initiative in this area. We believe that a variety of projects, involving
+         different course management systems as well as a variety of content repositories, are needed. Content sources should include
+         both commercial services (e-journal and e-book suppliers, art image collections, etc.) and university-based systems (institutional
+         repositories, digital libraries, etc.).
+      </p>
+      
+      <p>Pages 3 - 7 of <i>Appendix 4</i> provide a framework created by the Use Case Working Group for considering an appropriate range of demonstration projects.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h2>Other next steps</h2>
+      </center>
+      
+      <p>Discussions touched on a number of other efforts we believe will help further progress in this domain:</p>
+      
+      <ul>
+         
+         <li><i>Use of digital library repositories to support reusable course content</i>. This Group looked at the interoperation of digital libraries and course management systems from one perspective: the inclusion
+            of content from digital libraries in course environments. There is another potential area of interoperation that has been
+            discussed repeatedly: the storing of materials created in a course context in digital library infrastructures for subsequent
+            discovery and reuse. Such interoperation will involve an entirely different set of issues than those we considered, and we
+            believe that a parallel effort to explore these issues would be beneficial.
+         </li>
+         
+         <li><i>Communication across domains and stakeholders</i>. We are struck by how few opportunities there are for digital library and course management developers and commercial information
+            providers to talk systematically about areas of
+            
+            
+            <hr width="75%">
+            <p align="center"><i>--</i></p>
+            
+            intersection. We found that the various communities did not have a shared understanding of the larger environment, and that
+            we had a great deal to learn from each other's world views. It is not easy to identify how to hold such larger discussions,
+            but we believe an effort in this direction would provide significant pay-back.
+         </li>
+         
+         <li><i>The need for proselytizing</i>. Many information providers have little or no understanding of the role of course management systems, nor any appreciation
+            of why making their content easily discoverable and reusable in a course context might matter. There is a need for librarians
+            and course system operators to reach out particularly to the commercial information providers to begin to educate them about
+            the growing role of such systems in higher education.
+         </li>
+         
+      </ul>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2006 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

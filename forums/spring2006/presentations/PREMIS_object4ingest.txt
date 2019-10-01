@@ -1,0 +1,30 @@
+ <amdSec ID="AMD_FILE_99002859">
+  <techMD ID="TMD_FILEMD_99002859">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="premisObject" LABEL="90990250.pdf">
+    <xmlData>
+     <fileMD:object xmlns:fileMD="http://www.loc.gov/standards/premis">
+      <fileMD:objectIdentifier>
+       <fileMD:objectIdentifierType>CSN_FILEID</fileMD:objectIdentifierType>
+       <fileMD:objectIdentifierValue>99002859</fileMD:objectIdentifierValue>
+      </fileMD:objectIdentifier>
+      <fileMD:objectCategory>file</fileMD:objectCategory>
+      <fileMD:objectCharacteristics>
+       <fileMD:fixity>
+        <fileMD:messageDigestAlgorithm>MD5</fileMD:messageDigestAlgorithm>
+        <fileMD:messageDigest>c1b82611e48066016ceb8daa93d46de7</fileMD:messageDigest>
+       </fileMD:fixity>
+       <fileMD:size>92925</fileMD:size>
+       <fileMD:format>
+        <fileMD:formatDesignation>
+         <fileMD:formatName>PDF</fileMD:formatName>
+        </fileMD:formatDesignation>
+       </fileMD:format>
+       <fileMD:significantProperties>
+        <fileMD:byteOrder>little</fileMD:byteOrder>
+       </fileMD:significantProperties>
+      </fileMD:objectCharacteristics>
+      <fileMD:originalName>90990250\90990250.pdf</fileMD:originalName>
+     </fileMD:object>
+    </xmlData>
+   </mdWrap>
+  </techMD>

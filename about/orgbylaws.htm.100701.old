@@ -1,0 +1,1450 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="DLF Bylaws" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="Digital Library Federation--Governance" />
+<meta name="dc.Description" content="Digital Library Federation Bylaws" />
+<meta name="dc.Publisher" content="Digital Library Federation, Washington, D.C." />
+<meta name="dc.Contributor" content="Barrie Howard" />
+<meta name="dc.Date" content="2005-05-27" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="www.diglib.org/about/orgbylaws.htm" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>DLF Bylaws</title>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../images/"+arrQuote[num]; 
+}
+}
+//-->
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type="text/css" />
+
+<style>
+<!-- 
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+  {margin-top:6.0pt;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:1.25in;
+  text-align:center;
+  text-indent:-1.25in;
+  font-size:10.0pt;
+  font-family:"Times New Roman";
+  text-transform:uppercase;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:0in;
+  margin-left:1.0in;
+  margin-bottom:.0001pt;
+  text-indent:-.5in;
+  font-size:10.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:1.5in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:2.0in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:2.5in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:3.0in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:3.5in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:4.0in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+  {margin-top:0in;
+  margin-right:.5in;
+  margin-bottom:6.0pt;
+  margin-left:4.5in;
+  text-indent:-.5in;
+  font-size:12.0pt;
+  font-family:"Times New Roman";}
+-->
+/*]]>*/
+</style>
+
+</head>
+<body onload="MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src="../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../quotations.htm">
+<img src="../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../publications.htm"><img src="../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../forums.htm"><img src="../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../about.htm"><img src="../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../news.htm"><img src="../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+<form action="../search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../sitemap.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"><img src="../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"><img src="../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"><img src="../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"><img src="../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"><img src="../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">
+DIGITAL LIBRARY FEDERATION BYLAWS</h1>
+
+<br />
+<h3>
+<p align="center">
+TABLE OF CONTENTS
+</p>
+
+</h3>
+
+
+<br />
+<p class="MsoToc1"><a id="mpTableOfContents"
+name="mpTableOfContents">ARTICLE I</a></p>
+<p class="MsoToc1">
+OFFICES</p>
+<p class="MsoToc2"> Section 1.  Principal
+Office</p>
+<p class="MsoToc2"> Section 2.  Registered
+Office</p>
+<p class="MsoToc1">ARTICLE II</p>
+<p class="MsoToc1">
+MEMBERS</p>
+<br />
+<p class="MsoToc1">ARTICLE III</p>
+<p class="MsoToc1">
+TRUSTEES</p>
+<p class="MsoToc2"> Section 1.  Powers and
+Qualifications</p>
+<p class="MsoToc2"> Section 2. 
+Number</p>
+<p class="MsoToc2"> Section 3. 
+Appointment</p>
+<p class="MsoToc2"> Section 4. 
+Term</p>
+<p class="MsoToc2"> Section 5. 
+Resignations</p>
+<p class="MsoToc2"> Section 6. 
+Removal</p>
+<p class="MsoToc2" style='margin-bottom:6.0pt'> Section 7. 
+Vacancies</p>
+<p class="MsoToc1">MEETINGS OF THE BOARD OF
+TRUSTEES</p>
+<p class="MsoToc2"> Section 8.  Location of
+Meetings</p>
+<p class="MsoToc2"> Section 9.  Annual
+Meeting</p>
+<p class="MsoToc2"> Section 10. Regular
+Meetings</p>
+<p class="MsoToc2"> Section 11. Call of Special
+Meetings</p>
+<p class="MsoToc2"> Section 12. Notice of Special
+Meetings</p>
+<p class="MsoToc2"> Section 13. Waiver of
+Notice</p>
+<p class="MsoToc2"> Section 14.
+Quorum</p>
+<p class="MsoToc2"> Section 15. Action by Majority
+Vote</p>
+<p class="MsoToc2" style='margin-bottom:6.0pt'> Section 16.
+Action by Written
+Consent</p>
+<p class="MsoToc1">
+COMMITTEES</p>
+<p class="MsoToc2"> Section 17. 
+Designation</p>
+<p class="MsoToc2"> Section 18. 
+Powers</p>
+<p class="MsoToc2"> Section 19. 
+Term</p>
+<p class="MsoToc2"> Section 20. 
+Meetings</p>
+<p class="MsoToc2" style='margin-bottom:6.0pt'> Section 21. 
+Quorum;
+Action</p>
+<p class="MsoToc1">ARTICLE IV</p>
+<p class="MsoToc1">OFFICERS; EXECUTIVE
+DIRECTOR</p>
+<p class="MsoToc2"> Section 1. 
+Designation</p>
+<p class="MsoToc2"> Section 2. 
+Election</p>
+<p class="MsoToc2"> Section 3. 
+Term</p>
+<p class="MsoToc2"> Section 4. 
+Resignations</p>
+<p class="MsoToc2"> Section 5. 
+Removal</p>
+<p class="MsoToc2"> Section 6. 
+Vacancies</p>
+<p class="MsoToc2"> Section 7. 
+President</p>
+<p class="MsoToc2"> Section 8.  Vice
+President</p>
+<p class="MsoToc2"> Section 9. 
+Secretary</p>
+<p class="MsoToc2"> Section 10. 
+Treasurer</p>
+<p class="MsoToc2"> Section 11.  Other
+Officers</p>
+<p class="MsoToc2"> Section 12.  Executive
+Director</p>
+<p class="MsoToc1">ARTICLE V</p>
+<p class="MsoToc1">COMPENSATION OF TRUSTEES AND
+OFFICERS</p>
+<p class="MsoToc2"> Section 1.  Compensation of
+Trustees</p>
+<p class="MsoToc2"> Section 2.  Compensation of
+Officers</p>
+<p class="MsoToc1">ARTICLE VI</p>
+<p class="MsoToc1">LIABILITY AND
+INDEMNIFICATION</p>
+<p class="MsoToc2"> Section 1. 
+Liability</p>
+<p class="MsoToc2"> Section 2. 
+Indemnification</p>
+<p class="MsoToc2"> Section 3.  Prohibition Against
+Self&#8209;Dealing</p>
+<p class="MsoToc1">ARTICLE VII</p>
+<p class="MsoToc1">GENERAL
+PROVISIONS</p>
+<p class="MsoToc2"> Section 1. 
+Grants</p>
+<p class="MsoToc2"> Section 2.  Execution of
+Contracts</p>
+<p class="MsoToc2"> Section 3. 
+Loans</p>
+<p class="MsoToc2"> Section 4. 
+Gifts</p>
+<p class="MsoToc2"> Section 5. 
+Investments</p>
+<p class="MsoToc2"> Section 6.  Voting of Securities Held by the
+Corporation</p>
+<p class="MsoToc2"> Section 7.  Books and
+Records</p>
+<p class="MsoToc2"> Section 8. 
+Depositories</p>
+<p class="MsoToc2"> Section 9. 
+Signatories</p>
+<p class="MsoToc2"> Section 10.  Annual
+Audit</p>
+<p class="MsoToc2"> Section 11.  Fiscal
+Year</p>
+<p class="MsoToc2"> Section 12.  Corporate
+Seal</p>
+<p class="MsoToc2"> Section 13. 
+Notice</p>
+<p class="MsoToc2"> Section 14. 
+Proxies</p>
+<p class="MsoToc1">ARTICLE VIII</p>
+<p class="MsoToc1">AMENDMENTS TO ARTICLES OR
+BYLAWS</p>
+<br />
+<p class="MsoToc1">ARTICLE IX</p>
+<p class="MsoToc1">EFFECT OF PROVISIONS OF LAW AND ARTICLES OF
+INCORPORATION</p>
+</div>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'><br
+clear="all" style='page-break-before:always' />
+</span> 
+<div class="Section2">
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style='letter-spacing:-.15pt'>BYLAWS</span></b></p>
+<p class="MsoNormal" style='text-align:justify'><b><span
+style='letter-spacing: -.15pt'> </span></b></p>
+<p class="MsoNormal" align="center" style='text-align:center'><b><span
+style='letter-spacing: -.15pt'>                                              
+DIGITAL LIBRARY FEDERATION</span></b></p>
+<p class="MsoNormal" style='text-align:justify'><b><span
+style='letter-spacing: -.15pt'> </span></b></p>
+<p class="MsoNormal" style='text-align:justify'><b><span
+style='font-size:11.0pt; letter-spacing:-.15pt'> </span></b></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665334" name="_Toc100665334"><b><span
+style='text-transform:uppercase'>ARTICLE I</span></b><br />
+<br />
+<b><u>OFFICES</u></b></a></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Principal Office</u></span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+principal office of the Digital Library Federation (the
+&ldquo;Corporation&rdquo;) shall be located in the District of
+Columbia.  The Corporation may from time to time have such other
+offices as the Board of Trustees may determine or as the affairs
+of the Corporation may require. </span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Registered Office</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+Corporation shall have and continuously maintain in the District
+of Columbia, a registered office and a registered agent whose
+office is located in such registered office.  The registered
+office may be, but need not be, located in the principal office
+of the Corporation.  The registered agent and the address of the
+registered office may from time to time be changed by the Board
+of Trustees.</span></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665338" name="_Toc100665338"><b><span
+style='text-transform:uppercase'>ARTICLE II</span></b><br />
+<br />
+<b><u>MEMBERS</u></b></a></p>
+<p class="MsoNormal" style='line-height:200%'><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+The Corporation shall have three or more categories of
+membership, including Strategic Membership, Administrative
+Membership, and Allied Membership.  Admission to membership shall
+be by invitation of the Board of Trustees.  The trustees may
+create, by amendment of the Articles of Incorporation or these
+Bylaws, additional categories of voting or non-voting membership
+or affiliation.  The voting rights of the members (the
+&ldquo;Members&rdquo;) shall be as set out in the Articles or
+these Bylaws.  The other categories, obligations, privileges and
+rights of the Members shall be as set out in these Bylaws and the
+resolutions of the Board of Trustees as adopted from time to
+time.  Members in the Strategic Membership and Administrative
+Membership categories shall each have the right to appoint one
+voting trustee.  Members in the Allied Membership category may
+each appoint one non-voting trustee.  The Corporation may have
+other categories of non-voting Members, such as (but not limited
+to) vendors in the digital library field.  The Board of Trustees
+shall have the power, subject to the resolutions of the board on
+the subject, to admit or terminate any organization or person as
+a Member.  The annual meeting of the Board of Trustees shall be
+the annual meeting of the Strategic, Administrative and Allied
+Members.  Notice of the purpose of a meeting to consider the
+termination of a Member shall be given in accordance with Section
+12 of Article III. </span></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665340" name="_Toc100665340"><b><span
+style='text-transform:uppercase'>ARTICLE III</span></b><br />
+<br />
+<b><u>TRUSTEES</u></b></a></p>
+<p class="MsoNormal"
+style='line-height:200%;page-break-after:avoid'><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Powers and Qualifications</u>.</span></b><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size: 11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+policies of the Corporation shall be determined, and its affairs
+shall be managed, by its Board of Trustees.  Trustees need not be
+citizens of the United States, nor residents of the District of
+Columbia.  At no time may the Board of Trustees be controlled,
+directly or indirectly, by &ldquo;disqualified persons&rdquo;
+within the meaning of Section 509(a)(3)(c) of the Internal
+Revenue Code of 1986, as amended (the
+&ldquo;Code&rdquo;). </span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Number</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+number of trustees of the Corporation shall be not less than
+three (3); notwithstanding such limit, the number of trustees
+shall not be less than the sum of the number of Members in the
+categories of Strategic Membership, Allied Membership and
+Administrative Membership.  Such number may be increased or
+decreased from time to time by the Board of Trustees, subject to
+such limits, by amendment to this Section 2; however, no decrease
+shall, other than in the case of the termination of the
+membership of any Member who has appointed a trustee, reduce the
+term of any incumbent trustee.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 3.  <u>Appointment</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Trustees
+shall be appointed by Members by notice in writing sent to the
+chair of the Board, the secretary of the Corporation, or the
+Executive Director. </span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 4.  <u>Term</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Except
+as provided in Sections 5, 6 and 7 of this Article, a trustee
+shall serve for a term ending at the end of the next annual
+meeting following the date of appointment and until that
+trustee&rsquo;s successor is appointed or until that
+trustee&rsquo;s earlier resignation, removal or death.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 5.  <u>Resignations</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Any
+trustee may resign at any time by notifying (a) the Corporation
+by notice to the chair of the Board of Trustees, the secretary or
+the Corporation or the Executive Director and (b) the Member
+appointing that trustee, in writing.  Such resignation shall take
+effect at the time specified therein, but not later than the time
+of delivery of notice to the Corporation.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 6.  <u>Removal</u>.</span></b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> 
+A trustee appointed by a Member may be removed from office at any
+time by the written action, and in the sole discretion, of that
+Member.  Removal or termination of a Member shall automatically
+and at the same time constitute removal or termination of the
+trustee, if any, appointed by that Member.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 7.  <u>Vacancies</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Vacancies
+in the Board of Trustees shall exist in the event of the
+resignation, removal or death of a trustee, or in the event of an
+increase in the number of Members having the right to appoint a
+trustee.  Any such vacancy shall be filled, in the case of a
+trustee appointed by a Member, by an appointment by that Member. 
+A trustee appointed or elected to fill a vacancy shall hold
+office for the unexpired term of his or her predecessor.  A
+vacancy created by the election of a new Member shall be filled
+by an appointment by the new Member. </span></p>
+<br />
+<p class="MsoNormal" align="center"
+style='text-align:center;line-height:200%; page-break-after:avoid'>
+<b><u><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'>MEETINGS
+OF THE BOARD OF TRUSTEES</span></u></b></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 8.  <u>Location of Meetings</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>All
+meetings of the Board of Trustees may be held within or without
+the District of Columbia and may be held by means of telephone,
+video or internet conference.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 9.  <u>Annual Meeting</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+annual meeting of the Board of Trustees shall be held at such
+time and place as shall be determined by the Board of Trustees
+and designated in the notice or waiver of notice of the meeting. 
+In default of such determination and designation, the first
+meeting in a calendar year shall be the annual
+meeting.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 10. <u>Regular Meetings</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>Regular
+meetings of the Board of Trustees may be held at such time and
+place as shall be determined from time to time by the Board of
+Trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 11. <u>Call of Special Meetings</u>.</span></b><b><span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>The
+president may call, or upon the request of a majority of the
+members of the Board of Trustees, the secretary shall call,
+special meetings of the Board of Trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 12. <u>Notice of Special Meetings</u>.</span></b><b><span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>Notice
+of special meetings of the Board of Trustees shall be in writing,
+signed by the president or secretary, and shall be served
+personally or sent to each trustee by mail, e-mail, telecopy or
+telegram addressed to his or her last address notified by that
+trustee to the Corporation at least seven (7) days before the
+time designated for such meeting.  Notice of special meetings
+shall state the time and place of the meeting; the purpose or
+purposes of such meetings need not be specified, unless otherwise
+required.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 13. <u>Waiver of Notice</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>Whenever
+notice is required to be given to any trustee, a waiver thereof
+in writing, signed by the person or persons entitled to such
+notice, whether before or after the time stated therein, shall be
+equivalent to the giving of such notice.  Such waiver need not
+specify the purpose or purposes of the meeting.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 14. <u>Quorum</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>A
+majority of the voting trustees then serving, present in person
+or by proxy, at a meeting, teleconference, videoconference, or
+internet conference, shall constitute a quorum for the
+transaction of business at any meeting of the Board of Trustees,
+unless otherwise required.  However, if a quorum is not present
+at any meeting of the Board of Trustees, those trustees present
+may adjourn the meeting from time to time, without notice other
+than announcement at the meeting, until a quorum shall be
+present.  A meeting of the Board may include guests.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 15. <u>Action by Majority Vote</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>Except
+as otherwise required, any action by a majority of the voting
+trustees present at a meeting at which a quorum is present shall
+be deemed the action of the Board of Trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 16. <u>Action by Written Consent</u>.</span></b><b><span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>Any
+action required or permitted to be taken at a meeting of the
+Board of Trustees may be taken without a meeting if a consent in
+writing, setting forth the action so taken, shall be signed by
+all of the voting trustees.</span></p>
+<br />
+<p class="MsoNormal" align="center"
+style='text-align:center;line-height:200%; page-break-after:avoid'>
+<b><u><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'>COMMITTEES</span></u></b></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 17.  <u>Designation</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+Board of Trustees may from time to time designate a portion of
+the board, but not less than two voting trustees, to constitute
+an Executive Committee.  The Board of Trustees may also from time
+to time designate trustees and non-trustees to serve on such
+other committee or committees as deemed appropriate and may adopt
+other resolutions on the appointment by one or more categories of
+Members of members of committees.  The Board of Trustees shall,
+in relation to any committee, have the power at any time to (i)
+appoint a member of such committee as its chair, or terminate
+such an appointment, (ii) subject to any resolution adopted under
+the preceding sentence, fill vacancies or change the membership,
+or (iii) discharge a committee.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 18.  <u>Powers</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Each
+committee shall have, and may exercise, such powers as authorized
+by the Board of Trustees.  The designation of any such committee
+and the delegation thereto of authority shall not operate to
+relieve the Board of Trustees, or any individual trustee, of any
+responsibility imposed upon the board or such trustee by
+law.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 19.  <u>Term</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Members
+of a committee shall serve for a term of up to three years or
+until their earlier resignation, removal with or without cause,
+or death, or, in the case of a trustee member of a committee,
+until the term of that trustee comes to an end, or until the
+committee shall sooner be terminated.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 20.  <u>Meetings</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Meetings
+of a committee may be held within or without the District of
+Columbia, and may be held in person, by teleconference,
+videoconference or internet conference.  A majority of any such
+committee may fix the time and place of its meetings.  Each
+committee shall keep records of its actions, and report such
+actions to the Board of Trustees and the president.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b>           
+Section 21.  <u>Quorum; Action</u>.</b><b> </b> A majority of the
+then serving trustee members (whether voting trustees or not) of
+any committee, present in person or by proxy, in a meeting or by
+teleconference, videoconference, or internet conference, shall
+constitute a quorum.  Any action of the majority of those present
+at a meeting at which a quorum is present shall be deemed the
+action of the committee, except when a committee has only two
+members, in which case any action must be by unanimous consent. 
+A meeting of a committee may include guests.<a id="_Toc100665365"
+name="_Toc100665365"></a></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'>
+<b><span style='text-transform:uppercase'>ARTICLE
+IV</span></b><br />
+<br />
+<b><u>OFFICERS, EXECUTIVE DIRECTOR</u></b></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Designation</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+officers of the Corporation shall consist of a president, vice
+president, secretary, and treasurer, and may include one or more
+additional vice presidents, and such other officers and assistant
+officers as may be deemed necessary, each to have such duties and
+authority as are provided in these Bylaws, or as the Board of
+Trustees may from time to time determine.  Any two or more
+offices may be held by the same person, except the offices of
+president and secretary. </span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Election</u>.</span></b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> Officers
+shall be elected, for any position the term of the incumbent in
+which is then expiring, by the Board of Trustees at the annual
+meeting of the board.  In the first year of the Corporation, the
+trustees may elect officers on an interim basis and may within
+that year elect new officers.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 3.  <u>Term</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Officers
+shall serve for a term of one year (subject, in the first year of
+the Corporation, to the preceding sentence), until the next
+annual meeting of the Board of Trustees and until their
+successors are elected and qualified, or until their earlier
+resignation, removal or death.  Any officer may be elected to
+succeed himself or herself.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 4.  <u>Resignations</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Any
+officer may resign at any time by notifying the Board of Trustees
+in writing.  Such resignation shall take effect at the time
+specified therein.  Acceptance by the Board of Trustees of such
+resignation shall not be necessary to make it
+effective.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 5.  <u>Removal</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Any
+officer may be removed, either with or without cause, by a
+majority vote of the Board of Trustees at any regular or special
+meeting.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 6.  <u>Vacancies</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>A
+vacancy in any office caused by resignation, removal, or death of
+an officer may be filled for the unexpired term of that officer
+by the Board of Trustees at any regular or special
+meeting.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 7.  <u>President</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+president shall have general supervision over the affairs of the
+Corporation, and shall perform all duties incident thereto.  The
+president shall have such other power as may from time to time be
+assigned by the Board of Trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 8.  <u>Vice President</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+vice president, or if there shall be more than one, the vice
+presidents in the order so determined by the Board of Trustees,
+shall, in the absence or disability of the president, perform the
+duties and exercise the powers of the president, and shall
+perform such other duties and have such other powers as the Board
+of Trustees may from time to time prescribe.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 9.  <u>Secretary</u>.</span></b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> The
+secretary shall (i) act as secretary of all meetings of the Board
+of Trustees and of such other committees as the Board of Trustees
+shall specify, (ii) keep the minutes thereof in the proper book
+or books, (iii) see that the reports, statements, and other
+documents required by law are properly kept and filed and (iv) in
+general, perform all the duties incident to the office of
+secretary and such related duties as may from time to time be
+assigned by the Board of Trustees or the president.  The books,
+records and papers in the hands of secretary shall at all times
+be subject to the inspection, supervision and control of the
+Board of Trustees and the president.  At the expiration of his or
+her term of office, the secretary shall turn over to his or her
+successor in office all books, records, papers and other
+properties of the Corporation.  Any assistant secretary may act
+in the absence or inability to act of the secretary.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 10.  <u>Treasurer</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+treasurer shall (i) collect and keep an account of all moneys
+received and expended for the use of the Corporation, (ii)
+deposit sums received by the Corporation in the name of the
+Corporation in such depositaries as shall be approved by the
+Board of Trustees, (iii) present reports of the finances of the
+Corporation at each annual meeting and when called upon by the
+president and (iv) perform such related duties as shall be
+directed by the Board of Trustees, or the president.  The funds,
+books and vouchers in the hands of the treasurer shall at all
+times be subject to the inspection, supervision, and control of
+the Board of Trustees and the president.  At the expiration of
+his or her term of office, the treasurer shall turn over to his
+or her successor in office all books, records, monies and other
+properties of the Corporation.  Any assistant treasurer may act
+in the absence or inability to act of the treasurer.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 11.  <u>Other Officers</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>Other
+officers elected or appointed by the Board of Trustees shall, in
+general, perform  such duties and have such powers as shall be
+assigned to them by the Board of Trustees or the
+president.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 12.  <u>Executive Director</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+chief operating officer of the Corporation shall be the Executive
+Director.  The Executive Director shall not be a trustee or an
+officer of the Corporation and shall not have the power to vote
+in meetings of the board or of the Executive Committee, but shall
+have the ability to attend all meetings of the board and of the
+Executive Committee except such meetings or portions of meetings
+when the board or that committee shall be in executive session. 
+Nor shall the Executive Director be a member of any other
+committees of the board, but shall have the ability to attend all
+such meetings except those of the Executive Director Review
+Committee.</span></p>
+<br />
+<p class="MsoNormal" style='line-height:200%'><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'> </span></p>
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665378" name="_Toc100665378"><b><span
+style='text-transform:uppercase'>ARTICLE V</span></b><br />
+<br />
+<b><u>COMPENSATION OF TRUSTEES AND OFFICERS</u></b></a></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Compensation of Trustees</u>.</span></b> <b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>Trustees
+shall not receive any compensation for their services as such;
+however, the Board of Trustees may authorize reimbursement for
+expenses incurred in connection with the performance of services
+for the Corporation.  Nothing herein contained shall be construed
+to preclude any trustee from serving the Corporation in any other
+capacity and receiving reasonable compensation therefor.  The
+approval of the Board of Trustees shall be required for the
+hiring by the Corporation of such a person as an employee or
+independent contractor.</span></p>
+<br />
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Compensation of Officers</u>.</span></b> <span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'> Officers
+shall not receive any compensation for their services as such;
+however, the Board of Trustees may authorize reimbursement for
+expenses incurred in connection with the performance of services
+for the Corporation.  Nothing herein contained shall be construed
+to preclude any officer from serving the Corporation in any other
+capacity and receiving reasonable compensation therefor.  The
+approval of the Board of Trustees shall be required for the
+hiring by the Corporation of such a person as an employee or
+independent contractor.</span></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665382" name="_Toc100665382"><b><span
+style='text-transform:uppercase'>ARTICLE VI</span></b><b><br />
+<br />
+<u>LIABILITY AND INDEMNIFICATION</u></b></a></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Liability</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>In
+the absence of fraud or bad faith, the trustees of the
+Corporation shall not be personally liable for its debts,
+obligations or liabilities.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Indemnification</u>.</span></b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> The
+Corporation shall indemnify any trustee or officer, or former
+trustee or officer, against expenses incurred in connection with
+the defense of any action, suit or proceeding in which he or she
+is made a party by reason of being, or having been, such trustee
+or officer, to the maximum extent permitted by law.  Such
+indemnification shall not be deemed exclusive of any other rights
+to which such trustee or officer may be entitled, under these
+Bylaws, any agreement, vote of the Board of Trustees or
+otherwise.  The Corporation shall purchase and maintain liability
+insurance at appropriate levels for its officers and
+trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 3.  <u>Prohibition Against
+Self&#8209;Dealing</u>.</span></b><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size: 11.0pt;line-height:200%;letter-spacing:-.15pt'>Anything
+contained in this Article to the contrary notwithstanding, the
+Corporation shall in no event indemnify any person otherwise
+entitled to such indemnification if such indemnification would
+violate any provision of Chapter 42 of the Code.</span></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665387" name="_Toc100665387"><b><span
+style='text-transform:uppercase'>ARTICLE VII</span></b><b><br />
+<br />
+<u>GENERAL PROVISIONS</u></b></a></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 1.  <u>Grants</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+Board of Trustees may prospectively or retroactively authorize
+any officer of the Corporation, in the name and on behalf of the
+Corporation, and in the administration of an approved program, to
+make any grants or contributions or provide financial assistance
+to any qualified individuals or organizations.  The Board of
+Trustees may receive grants made to the Corporation from any
+source.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 2.  <u>Execution of Contracts</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+Board of Trustees, except as otherwise provided in these Bylaws,
+may prospectively or retroactively authorize any officer or
+officers, in the name, and on behalf of the Corporation, to enter
+into any contract, or execute and deliver any instrument as may
+be necessary to carry out the purposes of the Corporation.  Any
+such authority may be general or confined to specific
+instances.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 3.  <u>Loans</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+Board of Trustees may authorize the president or any other
+officer of the Corporation to (i) obtain loans and advances at
+any time for the Corporation from any bank, trust company, firm,
+corporation, individual or other institution, (ii) make, execute
+and deliver promissory notes, bonds or other certificates or
+evidences of indebtedness of the Corporation and (iii) pledge and
+hypothecate, or transfer, any securities or other property of the
+Corporation as security for any such loans or advances.  Such
+authority conferred by the Board of Trustees may be general or
+confined to specific instances.  No loans shall be made by the
+Corporation to any trustee or officer thereof.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 4.  <u>Gifts</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+Board of Trustees may accept on behalf of the Corporation any
+contribution, gift bequest, or devise for the purposes of the
+Corporation.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 5.  <u>Investments</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+Corporation shall have the right to invest and reinvest any funds
+held by it according to the judgment of the Board of Trustees. 
+The Board of Trustees is  restricted to the prudent investments
+which a trustee is or may hereafter be permitted by law to
+make.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 6.  <u>Voting of Securities Held by the
+Corporation</u>.</span></b><b><span
+style='font-size: 11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Stocks
+and other securities owned by the Corporation shall be voted, in
+person or by proxy, as the Board of Trustees may specify.  In the
+absence of any direction by the Board of Trustees, such stocks
+and securities shall be voted as the president may
+determine.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 7.  <u>Books and Records</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>There
+shall be kept at the principal office of the Corporation correct
+books of accounts of all the business and transactions of the
+Corporation.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 8.  <u>Depositories</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>The
+funds of the Corporation not otherwise employed shall from time
+to time be deposited to the order of the Corporation in such
+banks, trust companies or other depositories as the Board of
+Trustees may select.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 9.  <u>Signatories</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>All
+checks, drafts and other orders for payment of money out of the
+funds of the Corporation, and all notes and other evidences of
+indebtedness of the Corporation shall be signed on behalf of the
+Corporation in such manner as shall from time to time be
+determined by the Board of Trustees. In the absence of such
+determination by the Board of Trustees, such instruments shall be
+signed by the Executive Director and countersigned by the
+Administrative Member.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 10.  <u>Annual Audit</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+Board of Trustees may require an annual audit to be made of the
+books and accounting records of the Corporation.</span></p>
+<p class="MsoNormal" style='line-height:200%'><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'> <b>
+           Section 11.  <u>Fiscal Year</u>.</b></span><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+fiscal year of the Corporation shall be determined by resolution
+of the Board of Trustees.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 12.  <u>Corporate Seal</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%; letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height: 200%;letter-spacing:-.15pt'>The
+Corporation shall have a corporate seal with its name, year of
+incorporation, and the words &ldquo;Corporate Seal, District of
+Columbia&rdquo; inscribed thereon.  The seal shall be in the
+custody of the secretary and used by him or her, or any other
+officer so authorized by the Board of Trustees, by causing it, or
+a facsimile thereof, to be impressed, affixed, or reproduced
+otherwise on any instrument or document as may be required or
+recommended.  The presence or absence of the seal on any
+instrument, or its addition thereto, shall not affect the
+character, validity or legal effect of the instrument in any
+respect.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 13.  <u>Notice</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>Any
+consent, notice, waiver or writing required or permitted under
+these Bylaws may be, unless otherwise specifically required, by
+e-mail, letter, telecopy or telegram sent to the last business or
+home address of the intended recipient notified to the
+Corporation, provided that there is a written record of receipt
+of the notice sent.</span></p>
+<p class="MsoNormal" style='line-height:200%'><b><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+Section 14.  <u>Proxies</u>.</span></b><b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></b>
+<span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>A
+voting trustee, in the case of a meeting of the board or a
+committee, may give a written proxy to another person, including
+but not limited to a colleague at that trustee&rsquo;s
+institution. Any proxy must be in writing.  A proxy may be
+general or may be confined to one or more specific matters that
+may come before the meeting.  A proxy must state whether it
+applies to a meeting of the board or of a committee, name the
+committee, and identify the date of the meeting, and no proxy may
+apply to more than one meeting.  A proxy may give complete voting
+discretion to the proxyholder or limit that voting discretion in
+any manner.  If a proxy is exercised in a meeting, the proxy must
+be given to the secretary or chair of the meeting for retention
+in the records of the meeting.</span></p>
+<br />
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665403" name="_Toc100665403"><b><span
+style='text-transform:uppercase'>ARTICLE VIII</span></b><br />
+<br />
+<b><u>AMENDMENTS TO ARTICLES OR BYLAWS</u></b></a></p>
+<p class="NormalJustified" align="left"
+style='text-align:left;line-height:200%'><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>           
+These Bylaws or the Articles of Incorporation of the Corporation,
+or any one or more of the provisions thereof, may be, subject to
+the resolutions of the board on this subject, adopted, amended,
+repealed or new provisions adopted by the majority vote of the
+trustees then in office at a meeting of the Board of Trustees
+expressly called for that purpose.  Notice of the intent to
+adopt, amend, repeal and adopt any new such provision shall be
+given in accordance with Article III, Section 12
+hereof.</span></p>
+<br />
+<span
+style='font-size:11.0pt;line-height:200%;font-family:"Times New Roman"; letter-spacing:-.15pt'>
+<br clear="all" style='page-break-before:always' />
+</span> 
+<p class="NormalJustified" align="left"
+style='text-align:left;line-height:200%'><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'> </span></p>
+<p class="BylawsL1" style='margin-left:0in;text-indent:0in'><a
+id="_Toc100665405" name="_Toc100665405"><b><span
+style='text-transform:uppercase'>ARTICLE IX</span></b><br />
+<br />
+<b><u>EFFECT OF PROVISIONS OF LAW AND ARTICLES OF
+INCORPORATION</u></b></a></p>
+<p class="MsoNormal"
+style='line-height:200%;page-break-after:avoid'><span
+style='font-size:11.0pt;line-height:200%'>            Each of the
+provisions of these Bylaws shall be subject to and controlled by
+specific provisions of the District of Columbia Nonprofit
+Corporation Act or the Articles of Incorporation which relate to
+their subject matter, and shall also be subject to any exceptions
+or more specific provisions in these Bylaws dealing with the
+subject matter appearing in any Bylaw, as amended from time to
+time.</span></p>
+<p class="MsoNormal"
+style='line-height:200%;page-break-after:avoid'><span
+style='font-size:11.0pt;line-height:200%'> </span></p>
+<p class="MsoNormal"
+style='text-align:justify;line-height:200%;page-break-after: avoid'>
+<b><span
+style='font-size:11.0pt;line-height:200%;letter-spacing:-.15pt'>                                                  
+<u>SECRETARY&rsquo;S CERTIFICATE</u></span></b></p>
+<p class="MsoNormal" style='line-height:200%'><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+The undersigned, as Secretary or Assistant Secretary of the
+Digital Library Federation, a corporation formed and existing
+under the laws of the District of Columbia (the
+&ldquo;Corporation&rdquo;), do hereby certify that the foregoing
+is a true and complete copy of the Bylaws of this Corporation as
+submitted to and adopted by the Board of Trustees through the
+date appearing below.          </span></p>
+<p class="MsoNormal" style='line-height:200%'><span
+style='font-size:11.0pt; line-height:200%;letter-spacing:-.15pt'>           
+IN WITNESS WHEREOF, I have hereunder subscribed my name and
+affixed the seal of the Corporation on May 27,
+2005.</span></p>
+<p class="MsoNormal" style='text-align:justify'><span
+style='font-size:11.0pt; letter-spacing:-.15pt'> </span></p>
+<p class="MsoNormal" style='text-align:justify'><span
+style='font-size:11.0pt; letter-spacing:-.15pt'> </span></p>
+<p class="MsoNormal" style='text-align:justify'><span
+style='font-size:11.0pt; letter-spacing:-.15pt'> </span></p>
+<p class="MsoNormal" style='text-align:justify'><span
+style='font-size:11.0pt; letter-spacing:-.15pt'>                                                                       
+Wendy Pradt Lougee</span></p>
+<p class="MsoNormal" style='text-align:justify'><span
+style='font-size:11.0pt; letter-spacing:-.15pt'>                                                                       
+Secretary</span></p>
+
+
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

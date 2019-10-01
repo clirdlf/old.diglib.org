@@ -1,0 +1,78 @@
+h1
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;} 
+h2
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:16.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:14pt;
+	color:blue;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h4
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p
+	{margin-right:0in;
+	margin-left:.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+
+.title {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: antiquewhite; }
+
+.headnote {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	background-color: whitesmoke; }
+
+.section1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: AliceBlue; }
+
+.syllabus {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: white; }

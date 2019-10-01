@@ -1,0 +1,45 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:slidetransition advancetime="0" flag="1"/>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="603,717"/>
+ </o:shapelayout><p:colorscheme
+  colors="#ffffff,#000000,#919191,#000000,#618ffd,#00ae00,#fc0128,#cecece"/>
+ <v:background id="_x0000_s734209" o:bwmode="white" fillcolor="#174a4a"/>
+ <p:shaperange id="_x0000_s734210">
+  <v:rect id="_x0000_s734210" style='position:absolute;left:0;top:0;width:10in;
+   height:252pt;mso-wrap-style:none;v-text-anchor:middle' fillcolor="white [0]"
+   stroked="f" strokecolor="black [1]"/>
+ </p:shaperange>
+ <p:shaperange id="_x0000_m734211">
+  <v:shapetype id="_x0000_m734211" style='position:absolute;left:54pt;top:125pt;
+   width:612pt;height:90pt;v-text-anchor:middle' coordsize="21600,21600"
+   o:master="" o:spt="1" path="m,l,21600r21600,l21600,xe" filled="f"
+   fillcolor="#618ffd [4]" stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow color="white [0]" offset="1pt,1pt" offset2="-2pt,-2pt"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="centerTitle"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_m734212">
+  <v:shapetype id="_x0000_m734212" style='position:absolute;left:108pt;top:306pt;
+   width:7in;height:138pt' coordsize="21600,21600" o:master="" o:spt="1"
+   path="m,l,21600r21600,l21600,xe" filled="f" fillcolor="#618ffd [4]"
+   stroked="f" strokecolor="black [1]">
+   <v:fill color2="white [0]" o:detectmouseclick="t"/>
+   <v:stroke joinstyle="miter" o:forcedash="t"/>
+   <v:shadow on="t" color="black [1]" offset=",3pt" offset2=",2pt"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" grouping="t"/>
+   <p:placeholder type="subTitle" position="1"/>
+  </v:shapetype></p:shaperange>
+ <p:shaperange id="_x0000_s734213">
+  <v:line id="_x0000_s734213" style='position:absolute;mso-wrap-style:none;
+   v-text-anchor:middle' from="0,252pt" to="10in,252pt" strokecolor="#919191 [2]"
+   strokeweight="6pt"/>
+ </p:shaperange>
+</xml>

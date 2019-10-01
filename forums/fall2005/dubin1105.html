@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Unpacking the Interpretation of METS Markup</title>
+  </head>
+
+  <body>
+    <h1>Unpacking the Interpretation of METS Markup</h1>
+    <h3>David Dubin<br>University of Illinois at Urbana-Champaign </h3>
+    <div>
+      <h2>Overview</h2>
+      <ul>
+	<li>Situating the project</li>
+	<li>Digital preservation</li>
+	<li>Markup Interpretation</li>
+	<li>Some issues with data streams in METS</li>
+	<li>Goals and tools</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Background</h2>
+      <ul>
+	<li>Library of Congress NDIIPP Projects</li>
+	<ul>
+	    <li>The ECHO DEPository Project (UIUC, OCLC, et al)</li>
+	    <ul>
+		<li>University of Illinois team</li>
+		<ul>
+		    <li>GSLIS/ISRL Group</li>
+		    <ul>
+			<li>METS Analysis project</li>
+		      </ul>
+		  </ul>
+	      </ul>
+	  </ul>
+      </ul>
+    </div>
+    <div>
+      <h2>Digital Preservation</h2>
+      <ul>
+	<li>This part of the project is about what the OAISRM calls
+	  "Representation Information"</li>
+	<li>"The information that maps a Data Object into more meaningful concepts"</li>
+	<li>The aim is to build models that aid in making inferences
+	  about digital resources.</li>
+	<li>METS is an XML application for encoding metadata about
+	  objects in digital libraries. METS files represent (diverse)
+	  efforts to express some levels of representation information
+	  in a machine-readable form. </li>
+	<li>We're interested in what we can learn from efforts
+	  to draw inferences about digital objects by reasoning with
+	  their METS encodings.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Markup Interpretation</h2>
+      <ul>
+	<li>XML applications overload a small number of generic
+	  syntactic relationships (e.g., parent/child) to represent a
+	  variety of specific semantic relationships.</li>
+	<li>Human beings correctly infer the meaning of markup, and
+	  these understandings inform the logic and design of
+	  applications that import, export, and transform XML. </li>
+	<li>But relying on tacit human understanding becomes
+	  problematic as collections age, become larger, and more
+	  heterogeneous.</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Kinds of Problems</h2>
+      <ul>
+	<li>Identifying data streams</li>
+	<li>Identifying metadata descriptions and the resources they describe</li>
+	<li>Interpreting relationships across namespaces</li>
+	<li>Discovering properties or relationships relevant to digital preservation</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Data Streams</h2>
+      <p>METS markup has several ways to license the inference that a
+      particular data stream exists.</p>
+      <pre>
+&lt;METS:file ID="DS1.0" CREATED="2002-05-20T06:32:00" MIMETYPE="image/x-mrsid-image" 
+ADMID="TECH1 DIGIPROV1 SOURCE1 RIGHTS1" OWNERID="E" STATUS="A">
+  &lt;METS:FLocat LOCTYPE="URL" 
+  xlink:href="http://iris.lib.virginia.edu/mrsid/mrsid_images/iva/archerd01.sid" 
+  xlink:title="Exhibit Intro: Architectural Drawings, Pavilion III, University of Virginia"/>
+&lt;/METS:file>
+      </pre>
+    </div>
+    <div>
+      <h2>Data Streams</h2>
+      <p>Data streams can be pointed to or encoded within the METS document.</p>
+      <pre>
+&lt;dmdSec ID="dmd003">
+   &lt;mdWrap MIMETYPE="application/marc" MDTYPE="MARC" LABEL="OPAC Record">
+     &lt;binData>MDI0ODdjam0gIDIyMDA1ODkgYSA0NU0wMDAxMDA...(etc.)
+     &lt;/binData>
+  &lt;/mdWrap>
+&lt;/dmdSec>
+      </pre>
+    </div>
+    <div>
+      <h2>Data Streams</h2>
+      <p>Even a subtree of the METS document can be understood as a data stream.</p>
+      <pre>
+&lt;METS:dmdSecFedora ID="DC" STATUS="A">
+ &lt;METS:descMD ID="DC1.0" CREATED="2002-05-20T06:32:00">
+  &lt;METS:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" LABEL="DC Record for Exhibit Intro: 
+  Pavillion III Architectural image object">
+   &lt;METS:xmlData>
+     &lt;oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+        &lt;dc:title>Exhibit Intro: Architectural drawings, Pavilion III, 
+         University of Virginia&lt;/dc:title>
+</pre>
+    </div>
+    <div>
+      <h2>Data Streams</h2>
+      <p>Some interesting meronymic issues are raised by this example. Also problems 
+of reasoning about files in file systems.</p>
+      <pre>
+ &lt;mets:fileGrp ID="FILEGROUP_PRELUDE1.2">
+   &lt;mets:file MIMETYPE="text/xml" ID="FILE1.2">
+      &lt;mets:FLocat LOCTYPE="URL"
+            xlink:href="file:doctxt.xml#xpointer(/Section[1]/Section[2]/text())"/>
+   &lt;/mets:file>
+ &lt;/mets:fileGrp>
+      </pre>
+    </div>
+    <div>
+      <h2>Parts or portions of Data Streams</h2>
+      <p>The area element can be of type "time" or "polygon" but is
+      supposed to represent portions of a file.</p>
+      <pre>
+&lt;fptr FILEID="FILE002">
+  &lt;area FILEID="FILE002" BEGIN="00:01:48"END="00:06:17"
+  BETYPE="TIME" />
+&lt;/fptr>
+      </pre>
+    </div>
+    <div>
+      <h2>How we're doing this</h2>
+      <ul>
+	<li>The BECHAMEL System is written in Prolog, and is designed
+	  to support inferences about markup.</li>
+	<li>We create declarations about the kinds of things that
+	  exist, their properties, and the relationships that can hold
+	  among them.</li>
+	<li>We experiment with mapping rules of various kinds for
+	  instantiating objects, assigning property values, and
+	  establishing relationships.</li>
+	<li>The first steps involve building and experimenting with different models.</li>
+	<li>The knowledge structures we're creating are of the kind
+	  that can be serialized as RDF, OWL, etc.</li>
+	<li>Later applications that deploy this knowledge need not be
+	  written in Prolog. </li>
+      </ul>
+    </div>
+<!--Issues: nature of streams, area element  -->
+
+    <hr>
+    <address><a href="mailto:Panasonic@PANASONIC-R4"></a></address>
+<!-- Created: Sat Nov 05 19:58:56 Central Standard Time 2005 -->
+<!-- hhmts start -->
+Last modified: Mon Nov 07 12:01:46 Central Standard Time 2005
+<!-- hhmts end -->
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

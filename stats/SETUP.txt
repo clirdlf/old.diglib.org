@@ -1,0 +1,3 @@
+Analog doesn't need a setup.exe. It's ready to run!
+Instructions are in Readme.html in the folder docs
+    (or possibly in this folder if your unzip is broken).

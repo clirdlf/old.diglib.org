@@ -1,0 +1,445 @@
+body
+	{width:534px;
+	height:400px;}
+.TB
+	{mso-special-format:nobullet•;}
+.T
+	{text-align:center;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:280%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.BB
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.B
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:528;
+	mso-text-indent-alt:168;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.B1B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.B1
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:808;
+	mso-text-indent-alt:448;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.B2B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.B2
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1088;
+	mso-text-indent-alt:728;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.B3B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.B3
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1368;
+	mso-text-indent-alt:1008;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.B4B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.B4
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1648;
+	mso-text-indent-alt:1288;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.NB
+	{mso-special-format:nobullet•;}
+.N
+	{font-family:"Gill Sans";
+	mso-line-spacing:"100 0 0";
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.N1B
+	{mso-special-format:nobullet•;}
+.N1
+	{font-family:"Gill Sans";
+	mso-line-spacing:"100 0 0";
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.N2B
+	{mso-special-format:nobullet•;}
+.N2
+	{font-family:"Gill Sans";
+	mso-line-spacing:"100 0 0";
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.N3B
+	{mso-special-format:nobullet•;}
+.N3
+	{font-family:"Gill Sans";
+	mso-line-spacing:"100 0 0";
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.N4N
+	{mso-special-format:nobullet•;}
+.N4
+	{font-family:"Gill Sans";
+	mso-line-spacing:"100 0 0";
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.OB
+	{mso-special-format:nobullet•;}
+.O
+	{text-align:left;
+	font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:40%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.O1B
+	{mso-special-format:nobullet•;}
+.O1
+	{font-family:"Gill Sans";
+	font-size:40%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.O2B
+	{mso-special-format:nobullet•;}
+.O2
+	{font-family:"Gill Sans";
+	font-size:40%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.O3B
+	{mso-special-format:nobullet•;}
+.O3
+	{font-family:"Gill Sans";
+	font-size:40%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.O4B
+	{mso-special-format:nobullet•;}
+.O4
+	{font-family:"Gill Sans";
+	font-size:40%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CBB
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.CB
+	{text-align:left;
+	font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:528;
+	mso-text-indent-alt:168;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CB1B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.CB1
+	{text-align:left;
+	font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:808;
+	mso-text-indent-alt:448;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CB2B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.CB2
+	{text-align:left;
+	font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1088;
+	mso-text-indent-alt:728;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CB3B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.CB3
+	{text-align:left;
+	font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1368;
+	mso-text-indent-alt:1008;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CB4B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.CB4
+	{text-align:left;
+	font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1648;
+	mso-text-indent-alt:1288;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.CTB
+	{mso-special-format:nobullet•;}
+.CT
+	{font-family:"Gill Sans";
+	color:white;
+	mso-color-index:1;
+	font-size:280%;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.HBB
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.HB
+	{font-family:"Gill Sans";
+	font-size:143%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:528;
+	mso-text-indent-alt:168;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.HB1B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.HB1
+	{font-family:"Gill Sans";
+	font-size:143%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:808;
+	mso-text-indent-alt:448;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.HB2B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.HB2
+	{font-family:"Gill Sans";
+	font-size:143%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1088;
+	mso-text-indent-alt:728;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.HB3B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.HB3
+	{font-family:"Gill Sans";
+	font-size:143%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1368;
+	mso-text-indent-alt:1008;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.HB4B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.HB4
+	{font-family:"Gill Sans";
+	font-size:143%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1648;
+	mso-text-indent-alt:1288;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.QBB
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.QB
+	{font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:528;
+	mso-text-indent-alt:168;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.QB1B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.QB1
+	{font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:808;
+	mso-text-indent-alt:448;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.QB2B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.QB2
+	{font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1088;
+	mso-text-indent-alt:728;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.QB3B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.QB3
+	{font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1368;
+	mso-text-indent-alt:1008;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.QB4B
+	{mso-special-format:bullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.QB4
+	{font-family:"Gill Sans";
+	font-size:140%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1648;
+	mso-text-indent-alt:1288;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.TblB
+	{mso-special-format:nobullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.Tbl
+	{font-family:"Gill Sans";
+	font-size:126%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:528;
+	mso-text-indent-alt:168;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.Tbl1B
+	{mso-special-format:nobullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.Tbl1
+	{font-family:"Gill Sans";
+	font-size:126%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:808;
+	mso-text-indent-alt:448;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.Tbl2B
+	{mso-special-format:nobullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.Tbl2
+	{font-family:"Gill Sans";
+	font-size:126%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1088;
+	mso-text-indent-alt:728;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.Tbl3B
+	{mso-special-format:nobullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.Tbl3
+	{font-family:"Gill Sans";
+	font-size:126%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1368;
+	mso-text-indent-alt:1008;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.Tbl4B
+	{mso-special-format:nobullet•;
+	font-family:"Lucida Grande";
+	font-size:171%;}
+.Tbl4
+	{font-family:"Gill Sans";
+	font-size:126%;
+	mso-line-spacing:"100 -192 0";
+	mso-margin-left-alt:1648;
+	mso-text-indent-alt:1288;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;}
+.defaultB
+	{mso-special-format:nobullet•;}
+.default
+	{text-align:center;
+	font-family:"Gill Sans";
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-shadow:none;
+	text-effect:none;
+	mso-fareast-hint:no;
+	layout-flow:horizontal;
+	color:white;
+	font-size:140%;
+	mso-text-raise:0%;
+	mso-line-spacing:"100 0 0";
+	mso-margin-left-alt:0;
+	mso-text-indent-alt:0;
+	mso-char-wrap:1;
+	mso-kinsoku-overflow:1;
+	direction:ltr;
+	mso-word-wrap:1;
+	mso-vertical-align-special:baseline;
+	mso-ansi-language:EN-US;}
+a:link
+	{color:#009999 !important;}
+a:active
+	{color:#333399 !important;}
+a:visited
+	{color:#99CC00 !important;}

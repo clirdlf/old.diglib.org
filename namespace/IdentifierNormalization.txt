@@ -1,0 +1,1 @@
+All identifiers in the dlf namespace are case-sensitive.

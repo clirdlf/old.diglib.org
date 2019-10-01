@@ -1,0 +1,28 @@
+  <digiprovMD ID="DP_0755ad93-5fd1-11da-b211-19e7a5cf4814" CREATED="2005-11-27T21:37:13">
+   <mdWrap MDTYPE="OTHER" OTHERMDTYPE="premisEvents">
+    <xmlData xmlns:event="http://www.loc.gov/standards/premis/v1"><event xmlns="http://www.loc.gov/standards/premis/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <eventIdentifier>
+    <eventIdentifierType>Validation</eventIdentifierType>
+    <eventIdentifierValue>SDR_Ingest_Validation</eventIdentifierValue>
+  </eventIdentifier>
+  <eventType>Validation</eventType>
+  <eventDateTime>2005-11-27-08:00</eventDateTime>
+  <eventDetail>ValidationResults</eventDetail>
+  <eventOutcomeInformation>
+    <eventOutcome>Pass</eventOutcome>
+    <eventOutcomeDetail>
+      <ingestValidation ID="FILE_07108e3e-5fd1-11da-b211-19e7a5cf4814" xmlns="">
+        <JhoveOutput>File is of format: PDF.  The file is well-formed.  The file is valid.</JhoveOutput>
+        <SDR_IngestValidatorOutput>The computed checksum matches the original checksum for file [file:90990250/90990250.pdf]</SDR_IngestValidatorOutput>
+        <SDR_IngestValidatorOutput>Original file ID : FILE_99002859 has been changed to FILE_07108e3e-5fd1-11da-b211-19e7a5cf4814</SDR_IngestValidatorOutput>
+        <SDR_IngestValidatorOutput>Original file name 90990250/90990250.pdf has been changed to FILE_07108e3e-5fd1-11da-b211-19e7a5cf4814.pdf</SDR_IngestValidatorOutput>
+      </ingestValidation>
+    </eventOutcomeDetail>
+  </eventOutcomeInformation>
+  <linkingAgentIdentifier>
+    <linkingAgentIdentifierType "SDR_Software"/>
+    <linkingAgentIdentifierValue "SDR_Ingest_Validator"/>
+  </linkingAgentIdentifier>
+</event></xmlData>
+   </mdWrap>
+  </digiprovMD>

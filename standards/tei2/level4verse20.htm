@@ -1,0 +1,144 @@
+<html>
+<head><title>Level 4 Verse Examples</title>
+<style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif;}
+
+          p          { margin-top: .5em; margin-bottom: .25em;}
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+
+</style>
+
+</head>
+
+<body>
+
+<h3>Level 4 Verse Examples</h3> 
+<p>Examples are from Documenting the American South at
+the University of North Carolina at Chapel Hill</p>
+<p>Compiled by Natasha Smith</p>
+
+<hr/>
+
+<ul><li><p>V.4.10 All verse, even poems without separate stanzas or verse paragraphs, 
+should be contained within a line group element &lt;lg&gt;. This will assist 
+with automated processing and retrieval.</p>
+
+<p>Millie-Christine, 1851-1912<br/>
+The History of the Carolina Twins: Told in "Their Own Peculiar Way" By "One of Them"<br/>
+[Buffalo]: Buffalo Courier Printing House, [18--?].<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/neh/millie-christine/menu.html">HTML</a> or the entire 
+<a href="http://docsouth.unc.edu/neh/millie-christine/millie-christine.xml">XML</a> file)</p>
+
+<div class="example"><p><pre>	
+	<span class="element">&lt;lg type="stanza"&gt;</span>
+            <span class="element">&lt;l&gt;</span>I'm happy, quite, <span class="element">&lt;sic corr="because"&gt;</span>beeause<span class="element">&lt;/sic&gt;</span> I'm good;<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>I love my Savior and my God.<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>I love all things that God has done,<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>Whether I'm created <span class="element">&lt;hi rend="italics"&gt;</span>two<span class="element">&lt;/hi&gt;</span> or <span class="element">&lt;hi rend="italics"&gt;</span>one.<span class="element">&lt;/hi&gt;</span><span class="element">&lt;/l&gt;</span>
+         <span class="element">&lt;/lg&gt;</span>
+</pre>
+</p></div>
+
+<p>FROM: George Moses Horton, 1798?-ca. 1880<br/>
+The Poetical Works of George M. Horton: The Colored Bard of North Carolina: To Which is Prefixed the Life<br/> 
+of the Author, Written by Himself.<br/> 
+Hillsborough [N.C.]: Printed by D. Heartt, 1845.<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/hortonpoem/menu.html">HTML</a> or the entire 
+<a href="http://docsouth.unc.edu/hortonpoem/hortonpoem.xml">XML</a> file)</p>
+<div class="example"><p><pre>
+	<span class="element">&lt;lg type="stanza"&gt;</span>
+            <span class="element">&lt;l&gt;</span>Friendship, thou balm for ev'ry ill, <span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>I must aspire to thee; <span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>Whose breezes bid the heart be still, <span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>And render sweet the patient's pill, <span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>And set the pris'ner free. <span class="element">&lt;/l&gt;</span>
+	<span class="element">&lt;/lg&gt;</span>
+</pre></p></div>
+</li>
+
+<li><p>It is common to see informal divisions within poems, noted by a string of asterisks or periods. These 
+should be encoded as <span class="element">&lt;milestone&gt;</span>s with attribute values of UNIT="typography"and N= 
+indicating the character used and its occurrence, <span class="element">&lt;milestone unit="typography" N="******"&gt;</span>.</p>
+
+<p>FROM: Paul Hamilton Hayne, 1830-1886<br/>
+Poems of Paul Hamilton Hayne.<br/> 
+Boston: D. Lothrop and Company, 1882.<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/hayne/menu.html">HTML</a> or the entire 
+<a href="http://docsouth.unc.edu/hayne/hayne.xml">XML</a> file)</p>
+
+<div class="example"><p><pre>
+	<span class="element">&lt;lg type="stanza"&gt;</span>
+            <span class="element">&lt;l&gt;</span>O'er the dim billows thundering, peals a boom<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>Of the deep gun that bursteth as a knell,<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>When the brave tender to the brave farewell&mdash;<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>And strong arms bear a comrade to the tomb.<span class="element">&lt;/l&gt;</span>
+          <span class="element">&lt;/lg&gt;</span>
+
+          <span class="element">&lt;milestone n=". . . . . " unit="typography"/&gt;</span></pre></p></div>
+</li>
+
+<li><p>It is strongly recommended that indentation is recorded using the REND attribute on the <span class="element">&lt;l&gt;</span> element.</p>
+
+<p>FROM: Lewis Carroll,<br/>
+The Hunting of the Snark, an Agony in Eight Fits<br/>
+New York: Macmillan and Co., 1891.<br/>
+(example provided by the University of Virginia Electronic Text Center)</p>
+<div class="example"><p><pre>
+	<span class="element">&lt;lg type="stanza"&gt;</span>
+	  <span class="element">&lt;l&gt;</span>"Just the place for a Snark!" the Bellman cried,<span class="element">&lt;/l&gt;</span>
+	  <span class="element">&lt;l rend="indent"&gt;</span>As he landed his crew with care;<span class="element">&lt;/l&gt;</span>
+	  <span class="element">&lt;l&gt;</span>Supporting each man on the top of the tide<span class="element">&lt;/l&gt;</span>
+	  <span class="element">&lt;l rend="indent"&gt;</span>By a finger entwined in his hair.<span class="element">&lt;/l&gt;</span>
+	<span class="element">&lt;/lg&gt;</span>
+
+	<span class="element">&lt;pb n="46" /&gt;</span>
+
+	<span class="element">&lt;lg type="stanza"&gt;</span>
+	  <span class="element">&lt;l&gt;</span>"Just the place for a Snark! I have said it twice:<span class="element">&lt;/l&gt;</span>
+	  <span class="element">&lt;l rend="indent"&gt;</span>That alone should encourage the crew.<span class="element">&lt;/l&gt;</span>
+  	  <span class="element">&lt;l&gt;</span>Just the place for a Snark! I have said it thrice:<span class="element">&lt;/l&gt;</span>
+	  <span class="element">&lt;l rend="indent"&gt;</span>What I tell you three times is true."<span class="element">&lt;/l&gt;</span>
+	<span class="element">&lt;/lg&gt;</span> 
+</pre></p></div>
+
+<p>... may be rendered as such depending upon how the document is styled upon delivery:</p>
+<div class="example">
+	<p>"Just the place for a Snark!" the Bellman cried,</p>
+	<p class="lindent4">As he landed his crew with care;</p>
+	<p>Supporting each man on the top of the tide</p>
+	<p class="lindent4">By a finger entwined in his hair.</p>
+	<hr width="50%"/>
+<p>--Page 46--</p>
+	
+	  <p>"Just the place for a Snark! I have said it twice:</p>
+	  <p class="lindent4">That alone should encourage the crew.</p>
+  	  <p>Just the place for a Snark! I have said it thrice:</p>
+	  <p class="lindent4">What I tell you three times is true."</p>
+</div>	
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

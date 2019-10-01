@@ -1,0 +1,176 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns:oa="urn:schemas-microsoft-com:office:activation"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../DLFERMIFallForum2003.htm">
+<link rel=Preview href=preview.wmf>
+<link rel=OLE-Object-Data href=oledata.mso>
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+p\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+v\:textbox {display:none;}
+</style>
+<![endif]-->
+<title>Developing E-Resource Management Systems</title>
+<meta name=Description content="11/17/2003: ERMS Data Structure">
+<link rel=Stylesheet href="master04_stylesheet.css">
+<![if !ppt]>
+<style media=print>
+<!--.sld
+	{left:0px !important;
+	width:6.0in !important;
+	height:4.5in !important;
+	font-size:107% !important;}
+-->
+</style>
+<script src=script.js></script><script><!--
+if( !IsNts() ) Redirect( "PPTSld" );
+//--></script><!--[if vml]><script>g_vml = 1;
+</script><![endif]--><![endif]><o:shapelayout v:ext="edit">
+ <o:idmap v:ext="edit" data="425"/>
+</o:shapelayout>
+</head>
+
+<body lang=EN-US style='margin:0px;background-color:black'
+onclick="DocumentOnClick()" onresize="_RSW()" onload="LoadSld()"
+onkeypress="_KPH()">
+
+<div id=SlideObj class=sld style='position:absolute;top:0px;left:0px;
+width:534px;height:400px;font-size:16px;background-color:#EAEAEA;clip:rect(0%, 101%, 101%, 0%);
+visibility:hidden'><p:slide coordsize="720,540"
+ colors="#00007A,#EAEAEA,#000054,#EBD189,#FCAB40,#555BAD,#B97C01,#CCFF33"
+ masterhref="master04.xml">
+ <v:background id="_x0000_s435201" o:bwmode="white" fillcolor="#eaeaea [1]"/>
+ <p:shaperange href="master04.xml#_x0000_m18443"/><v:shape id="_x0000_s435202"
+  type="#_x0000_m18443" style='position:absolute;left:84pt;top:24pt;width:612pt;
+  height:57pt' o:userdrawn="f">
+  <v:fill o:detectmouseclick="f"/>
+  <v:stroke o:forcedash="f"/>
+  <o:lock v:ext="edit" text="f"/>
+  <p:placeholder type="title"/></v:shape>
+ <div v:shape="_x0000_s435202" class=T style='text-align:center;position:absolute;
+ top:6.0%;left:12.73%;width:83.14%;height:8.5%'><span style='font-size:91%;
+ color:#00007A;mso-color-index:0'>ERMS Data Structure</span></div>
+ <v:shape id="_x0000_s435203" type="#_x0000_t75" style='position:absolute;
+  left:11.5pt;top:76.25pt;width:708.5pt;height:627.75pt;mso-wrap-style:none;
+  mso-wrap-distance-left:0;mso-wrap-distance-right:0' fillcolor="#fcab40 [4]"
+  strokecolor="#eaeaea [1]">
+  <v:fill color2="#00007a [0]"/>
+  <v:imagedata src="slide0250_image075.wmz" o:title=""/>
+  <v:shadow color="#000054 [2]"/>
+ </v:shape><o:OLEObject Type="Embed" ProgID="Word.Document.8"
+  ShapeID="_x0000_s435203" DrawAspect="Content" ObjectID="634">
+  <p:oleclientdata subtype="table" menuname="Document"
+   clipboardname="Microsoft Word Document"/></o:OLEObject>
+ <![if !vml]><img border=0 v:shapes="_x0000_s435203"
+ src="slide0250_image076.gif" style='position:absolute;top:14.0%;left:1.68%;
+ width:98.31%;height:116.25%'><![endif]></p:slide></div>
+
+<![if !ppt]>
+
+<div id=NotesObj style='display:none'>
+
+<table style='color:white' border=0 width="100%">
+ <tr>
+  <td width=5 nowrap></td>
+  <td width="100%"></td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>A number of the
+  entities have quite long lists of elements that are mapped to them.<span
+  style='mso-spacerun:yes'>  </span>For convenience, we have created conceptual
+  groups within entities where elements relating to similar issues are
+  collated.<span style='mso-spacerun:yes'>  </span>These groups have no
+  function other than to make the data structure more humanly readable.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>This particular
+  portion of the quite long Data Structure shows a group within the
+  Administrative Information entity.<span style='mso-spacerun:yes'>  </span>You
+  will note there is a summary at the top of the outline, again to provide
+  convenience for those using the data structure.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>The meat of the
+  outline of each entity is the information associated with each element</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>-definition</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>type</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>functionality</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>values</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>optionality</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>cardinality</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>and notes and
+  examples.</font><br>
+  </td>
+ </tr>
+ <tr>
+  <td colspan=1></td>
+  <td align=left colspan=1><font face="Times New Roman" size=3>And with that, I
+  will let the Data Structure speak for itself, and let us move on to XML.</font><br>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<![endif]>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta name="dc.Title" content="DLF Aquifer: the Distributed, Open, Digital Library" />
+<meta name="dc.Creator" content="DODL Initiative Committee" />
+<meta name="dc.Creator" content="Aquifer Prototype Group" />
+<meta name="dc.Subject" content="Distributed libraries; resource management; collaborative building" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. CLIR, Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman." />
+<meta name="dc.Contributor" content="Katherine Kott." />
+<meta name="dc.Date" content="2004-08-30" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="aquifer" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content="Copyright 2005, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+
+<title>DLF Aquifer: the Distributed, Open, Digital Library</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collect.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../build.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='../"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+
+<style type='text/css'>
+
+#title {
+	height:48px;
+	background-image: url("http://www.diglib.org/aquifer/rippling.jpg"); 
+	/*border-bottom: 1px solid #999;*/
+	clear:both;
+	padding:4px 10px 0px 10px;
+	font-size:18pt;
+	color:#fff;
+	width:100%;
+	min-width:630px;
+	voice-family: "\"}\""; /* stop IE5 hack */
+	voice-family: inherit;
+	width:auto;
+}
+
+#title p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#title A {
+	color:white;
+}
+#title A:hover {
+	color:#fc6;
+}
+</style>
+
+<link media="screen" href="../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body onload="MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+  <tr class="noprint">
+
+    <td width="192" height="133" rowspan="3" valign="bottom">
+<a href="../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../images/logo_r.gif',1)">
+
+<img src="../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+  
+  <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../publications.htm"><img src="../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top"><a href="../forums.htm"><img src="../images/forum.gif" alt="Link: Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../about.htm"><img src="../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top"><a href="../news.htm"><img src="../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+
+
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+<form action="../search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+<input name="qu" id="textfield" type="text" value="" size="15" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();"><img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>
+
+
+<a href="../sitemap.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form> 
+
+
+</td>
+        </tr>
+      </table>
+
+</td>
+  </tr>
+
+
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"><img src="../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+
+    <td width="117" height="38" valign="top">
+<a href="../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)">
+<img src="../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" />
+</a></td>
+
+    <td width="117" height="38" colspan="2" valign="top"><a href="../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"><img src="../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    
+<td width="117" height="38" colspan="3" valign="top"><a href="../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"><img src="../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    
+
+<td width="116" height="38" colspan="2" valign="top"><a href="../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"><img src="../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+          <td valign="top">
+<img class="noprint" src="../images/books.gif" alt="photo of books" width="56" height="59" /> 
+<br />
+
+<p class="level2nav">DLF AQUIFER PARTICIPANTS</p>
+<script src="aquifer.js" type="text/javascript"> </script> 
+            </td>
+        </tr>
+      </table>
+</td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+
+
+<!-- <div id="title">
+<p align="center">DLF Aquifer: the Distributed, Open, Digital Library
+</p>
+</div> -->
+
+<!-- Main column text starts here -->
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        
+<tr> 
+<td height="99" colspan="3" align="left" valign="top"> 
+
+<center><img src="DLF_Aquifer_rev2b.jpg" alt="newlogo" /></center>
+
+<div id='wikitext'>
+<h2>Report on a meeting of the Aquifer initiative held at Stanford University on August 5, 2004</h2>
+<p></p><h3>D Greenstein</h3>
+<p></p>The following is based on a meeting involving:
+<ul ><li>	Stanford University (Michael Keller, Jerry Persons)
+</li><li>	DLF (David Seaman)
+</li><li>	CDL (Daniel Greenstein, Peter Brantley)
+</li><li>	UIUC (Paula Kaufman, Beth Sandore)
+</li><li>	Indiana (Suzanne Thorin)
+</li><li>	Michigan (John Price Wilkin)
+</li><li>	JHU (Winston Tabb)
+</li><li>	Emory (Martin Halbert)
+</li><li>	Minnesota (Eric Celeste)
+</li><li>	Virginia (Karin Wittenborg)
+</li><li>	Library of Congress (Caroline Arms)
+</li><li>	NYU (Jerome McDonough)
+</li></ul><p></p><h3>A. What is Aquifer</h3>
+<p></p><ul ><li>	Supporting research, teaching, and learning with high-quality online special collections and distinctive information services. Aquifer is an initiative of the Digital Library Federation (DLF). It leverages DLF members' extant digital collections, their institutional capacities, curatorial expertise, and historic service to scholarly communities. 
+<p></p><ul ><li> <em>Google commodifies mass information and global search; Aquifer commodifies information's curation and selection, and the distinctive services that it enables</em>
+</li></ul><p></p></li><li>	A basket of collaborative initiatives in support of innovative scholarship, selected and prioritized by DLF directors, and emphasizing interoperability, resource sharing, and institutional commitment and adherence to consensually developed standards, information architectures, and development agenda
+<p></p><ul ><li> <em>Membership in Aquifer requires more than annual dues; it requires alignment of and changes in organizational behaviors </em>
+</li></ul></li></ul><p></p><h3>B. Some Aquifer principles</h3>
+<p></p><ul ><li>	Driven by an interest in scholarship
+</li><li>	Focused practically on the development of discrete online collections and services that support definable research, teaching, and learning needs
+</li><li>	Supported by collaboration and deep resource sharing
+</li><li>	Enabled by alignment of organizational behaviors, commitments, and investments 
+</li></ul><p></p><h3>C. Aquifer. A basket of initiatives</h3>
+<p></p>Aquifer is envisaged a basket of loosely related initiatives set out below 
+<p></p><ol ><li> <strong>Foundational service infrastructure - enabling Aquifer with essential organizational support</strong>
+<p></p><ol ><li> <em>Enabling Aquifer partners to share and comment upon planning, policy, and other key documents in a secure (password-protected?) web space</em>
+<p></p><ul ><li> <strong>Action</strong>: <strong>DS</strong> to consult with <strong>EC</strong> and others in establishing a web-space where Aquifer partners can share documentation and comments as appropriate.  Workspace plan to be circulated and reviewed by Aquifer members by <strong>September 7 and available for use by September 30, 2004</strong>
+<p></p><ul ><li><strong>EC action</strong><span  style='color:red; '> Aug 23: done -- wiki set up </span>
+</li><li><strong>DS action</strong><span  style='color:red; '>Sep 1: done -- website set up at </span><span  style='color:blue; '> <a style='color:blue'  class='urllink' href='/aquifer/'>http://www.diglib.org/aquifer/</a> </span>
+</li><li><strong>DS action</strong><span  style='color:red; '>Sep 2: draft workplan and wiki notes sent to workgroup by email</span>
+</li></ul></li></ul><p></p></li><li> <em>Enabling leverage of partners' technology development effort by creating a registry of the tools they are developing and that can potentially support the initiative's aims. Registered tools will either be open source and platform independent or have the possibility of developing as such. Aquifer is particularly interested in tools that enable and/or support </em>
+<ol ><li> creation of Aquifer-standard-conformant metadata (enriching the metadata content that can be supplied by a data provider)
+</li><li> enrichment of metadata or content (helping a service provider overcome the constraints inherent in the metadata and content they capture from third-party data providers - annotation tools fit neatly here)
+</li><li> tools being developed around a cornerstone application such as DSpace
+</li><li> tools for integrating digital libraries into local learning environments (e.g. tools that build bridges between commercially supplied platforms such as SFX and WebCT, or that support Blogging, etc.)
+</li></ol><p></p><ul ><li> <em><strong>As part of their membership in Aquifer, partners will commit themselves to contributing to and maintaining the tools registry. </strong></em>
+<p></p></li><li> <em><strong>Aquifer will use the registry to help prioritize tools co-development effort</strong></em>
+<p></p></li><li> <strong>Actions: </strong>
+<ul ><li> <strong>DS</strong> to consult with <strong>EC</strong> about development of a Wiki to host the tools registry
+<p></p></li><li><strong>DS action</strong><span  style='color:red; '>Aug 23: used <strong>EC</strong>'s Aquifer wiki testbed and learned some wiki markup language.  read up on wikis and am preparing a brief background factsheet on them for the group: </span><span  style='color:blue; '><a style='color:blue'  class='urllink' href='/pubs/execsumm/wikiexecsumm.htm'>http://www.diglib.org/pubs/execsumm/wikiexecsumm.htm</a></span>
+<p></p></li><li><strong>DS action</strong><span  style='color:red; '> Aug 25: spoke to <strong>EC</strong> to follow up on email exchange about the possibilities and limitations of the pmwiki software used at Minnesota</span>
+<p></p></li><li><strong>DS action</strong><span  style='color:red; '> Aug 26: spoke to <strong>Martin Halbert</strong> about the Ockham group's use of wikis as a collaborative editing tool.  Will make recommendations to Aquifer group about how best for us to use wiki next week.</span>
+<p></p></li><li>
+<p></p></li><li> <strong>DS</strong> to consult with Aquifer partners to 
+<ul ><li> develop detailed documentation about the registry's scope and intention, 
+</li><li> create a template description for tools (PB to supply DS with template description developed by UC libraries' SOPAG group) 
+</li></ul><p></p></li><li><strong>DS action</strong><span  style='color:red; '> Aug 25: spoke to Martha Brogan about working with us on this task, and she is interested (we have previously discussed a &#8220;production tools survey&#8221; that should perhaps be rolled into this one); am looking for other tools registries as examples, e.g. </span><span  style='color:blue; '><a style='color:blue'  class='urllink' href='http://www.oaforum.org/oaf_db/list_db/list_software.php'>http://www.oaforum.org/oaf_db/list_db/list_software.php</a> </span><span  style='color:red; '> or </span><span  style='color:blue; '><a style='color:blue'  class='urllink' href='http://sourceforge.net/softwaremap/trove_list.php'>http://sourceforge.net/softwaremap/trove_list.php</a></span>
+</li></ul><p></p></li><li>Registry specification to be available by <strong>DS</strong> for review on the Aquifer workspace (see 1.1. above) by <strong>October 11, 2004</strong>
+</li></ul><p></p></li><li> <em>Enabling learning from partners' institution-based assessment and evaluation activities by developing a repository where members deposit results of the work they undertake to understand users' information and service needs, and to assess the use, usability, and perceived value of various digital library products (collections, services, interfaces, etc.).</em>
+<p></p><ul ><li> <em><strong>As part of their membership in Aquifer, partners will commit themselves to contributing to the repository. </strong></em>
+<p></p></li><li> <strong>Actions</strong>: <strong>DS</strong> to consult with staff at partner institutions to: 
+<ul ><li> develop detailed documentation about the repository's scope and intent
+</li><li> prepare a template for describing reports that are deposited in the repository
+</li><li> recommend an infrastructure (service environment) capable of sustainably hosting and managing the repository
+</li></ul><p></p></li><li>Repository specification as described above to be available for review on the Aquifer workspace (see 1.1.) by <strong>October 11, 2004</strong>
+</li></ul></li></ol><p></p></li><li><strong>Foundational knowledge - informing Aquifer with environmental scans conducted in key areas</strong> The environmental scans and the organization or individuals responsible for developing a detailed specification for them are supplied below. Unless otherwise indicated, specifications will be made available on the Aquifer workspace for review and comment by October 11, 2004. Specifications will be detailed enough to use as the basis for an RFP process as may be required.
+<p></p><ol ><li><em>What lessons can Aquifer learn from IMS's work in the area of content/information interchange? What tools emerging in this space from within the IMS arena and in which Aquifer might take an interest? </em>
+<p></p><ul ><li><strong>Action</strong>: <strong>Stanford</strong> to create specification for this environmental scan making it available for review on the Aquifer workspace on <strong>October 11, 2004</strong> 
+</li></ul><p></p></li><li><em>How are undergraduates, graduates, teachers, and researchers using digital information? What information can be gleaned from extant research (e.g. as sponsored by Mellon, Hewlett, NSF, and others) and initiatives (e.g. ACLS's cyberinfrastructure committee)? What gaps exist in our understanding and how (through what kind of investigative effort) could they be filled?</em>
+<p></p><ul ><li><strong>Actions:</strong>
+<p></p><ul ><li><strong>DG</strong> to speak with Saul Fisher (Mellon) to get advice about how/where Aquifer might make headway with these questions, reporting back to partners by <strong>October 11, 2004</strong>
+<p></p></li><li><strong>PK</strong> to speak with John Unsworth (ACLS/Cyberinfrastructure) to get advice about how/where Aquifer might make headway with these questions, reporting back to partners by <strong>October 11, 2004</strong>
+<p></p></li><li><strong>MK/DG/KW</strong> to think about and scope a program through which Aquifer might leverage initiatives like that hosted by UVa and with Mellon support as a means of defining (getting some traction under) scholarly information needs in a manner that can help define and focus Aquifer development efforts. The three to consult with Don Waters (Mellon) and report back to Aquifer meeting <strong>at DLF Forum, October 2004</strong>
+</li></ul></li></ul></li></ol><p></p></li><li><strong>Pooling - tools and approaches to aggregating digital information content </strong>
+<p></p><ol ><li><em>What standards, best practices, and approaches can Aquifer encourage and/or require of data providers and service providers in order to improve the adequacy and usefulness of OAI harvesting as a means of harvesting extant online digital library information resources.</em>
+</li></ol><p></p><ul ><li><em><strong>Where Aquifer partners have the rights necessary to do so, they are committed to making online digital information available for harvesting by other Aquifer partners and doing so in a manner that conforms to the standards and best practices that the group agrees through the above initiative </strong></em>
+<p></p><ul ><li><strong>Action</strong>: <strong>Sarah Shreeves (UIUC)</strong> to define and scope a program of activities in this area leveraging the DLF initiative in this area that got underway in July 2004. Program statement to be available on the Aquifer workspace for review by <strong>October 11, 2004</strong>.
+</li></ul></li></ul><p></p></li><li><strong>Puddling - tools and approaches to selective assembly of digital information content in support of curated online collections and/or specialized information services</strong>
+<p></p><ol ><li><em>How can Aquifer leverage existing taxonomies to improve search capability and/or to assist in the automated selection (curation) of digital collections that are based on large-scale aggregations of materials assembled via OAI harvesting, web crawling, or other means? What taxonomies exist that could be useful? What are the technical obstacles that need to be overcome so they may be utilized effectively, for example, as web services? </em>
+<p></p><ul ><li><strong>Action</strong>: <strong>Stanford (MK/JP)</strong> to develop a detailed specification or problem statement for work in this area along with recommendations for funding required effort, supplying Aquifer partners with both the specification and recommendations <strong>by October 11, 2004</strong>
+</li></ul><p></p></li><li><em>What data mining, metadata enrichment, and other tools currently exist or are in development that may assist &#8220;curators&#8221; to develop special or focused collections based on digital content that is aggregated by OAI harvesting, web crawling and other means</em>
+<p></p><ul ><li><strong>Action</strong>: <strong>CDL</strong> to develop a scoping statement and timelines for the survey by October 11, 2004, and to conduct the survey thereafter. Scoping statement and timeline to be made available by <strong>October 11, 2004</strong> for review by Aquifer partners via the workspace
+</li></ul><p></p></li><li><em>Aquifer partners have between them explored a variety of approaches to curating digital library collections. Approaches range from selecting a canonical reference work and digitizing all items mentioned therein (Indiana's work with American Literature), to aggregation of distributed content that meets specific format or protocol requirements (OAIster), to working with scholars to define needs appropriate to a particular course or teaching need (CDL's Cal Cultures). What are the costs and benefits involved in these and the other approaches that have become familiar to us? What lessons can we learn from those with practical experience of these areas that can be brought to bear on our future work building high-quality digital collections that are based at least in part on extant digital content?</em>
+<p></p><ul ><li><strong>Action</strong>: Pending. What is required is a statement framing work that might be conducted in this area. 
+</li></ul><p></p></li><li><em>What special collections can Aquifer build based at least initially on the digital information content that partners can supply and using the tools and knowledge gained through other Aquifer initiatives? How and by whom will collections be developed? </em>
+<p></p><ul ><li>Round-table review of available collections indicated potential pools in the following areas: 
+<ul ><li>American history, society, and culture (all and sundry)
+</li><li>American literature (UVa/CDL/Emory/NYU/Michigan/Indiana/Stanford/to be informed by Mellon-supported survey being conducted by Martha Brogan)
+</li><li>Slavic periodical index and etc (Stanford/Indiana/UIUC)
+</li><li>Performing Arts inclusively (Indiana/JHU/NYU/UVa/CDL for UCLA etc)
+</li><li>Art and architecture  (UVa/CDL/JHU/LoC/Indiana/Michigan)
+</li><li>Data (UVa/CDL/JHU/Michigan to speak with ICPSR)
+</li><li>Medieval manuscripts (JHU/Stanford/UIUC/)
+</li></ul><p></p></li><li><strong>Action</strong>: <strong>DG</strong> to develop a draft collection planning framework detailing the set of activities likely to be required to plan and build any specific collection. Activities might include such things as as user needs assessment, review of existing collection strengths and weaknesses, metadata and collection or metadata profiling requirements, special service requirements (e.g. distributed text analysis as appropriate for encoded literary texts, slide-table presentation as appropriate for image collections etc.). Based on this framework (to be available for review <strong>by October 11, 2004</strong>), Aquifer to define candidate collections and identify curators (individuals or groups) responsible for planning and building them 
+</li></ul></li></ol><p></p></li><li><strong>Piping - moving digital library content whether pooled or puddled, into particular applications in support of specific research, teaching, and learning needs</strong>
+<p></p><ul ><li><strong>Action</strong>: Pending. Work in this area should support exploitation of the curated  collections that Aquifer builds and should also, preferably, take advantage of some of the tools being developed at partner sites. Accordingly, detailed development path awaits progress in collection development (4.4.) and initial population of the tools registry (1.2. above)
+</li></ul><p></p></li><li><strong>Building core infrastructure</strong>
+<p></p><ol ><li><em>Persistent digital asset management is likely to be key to Aquifer's success. How can Aquifer partners leverage their extensive respective experiences with digital object repositories in order to put into place a network of robust and appropriately replicated digital filestores?</em>
+<p></p><ul ><li><strong>Action</strong>: <strong>JPW</strong> to convene a group including PB to scope frame an initiative reporting back with a scoping statement and recommendations by October 11, 2004. After discussion, JPW and colleagues asked to consider at least the following directions: 
+<ul ><li>review costs and benefits of repository options that are currently available (DSpace, Fedora, CDL's Ark-based METS repository, etc) 
+</li><li>explore repository replication costs, benefits, and development options
+</li><li>explore repository  co-development options
+</li></ul></li></ul><p></p></li><li>Irrespective of the variety of business models that may be used within Aquifer to govern access to collections and services, authentication/authorization is likely to be essential. How can Aquifer leverage existing effort with Shibboleth to develop appropriate access control and rights management approaches?
+<p></p><ul ><li>Action: JMd/PB/JP to scope a shibboleth/Authentication initiative and implementation path, reporting out by October 11, 2004 for review by partnership
+</li></ul></li></ol><p></p></li><li><strong>Changing the economics of scholarly publishing</strong>
+<p></p><ol ><li><em>The current model of scholarly publishing is incontrovertibly unsustainable. How can Aquifer help to finding alternatives that are as crucial to the academy as it is to the research libraries that play such an essential supporting role within it. How can Aquifer members leverage their commitment to resource sharing and information interoperability to find and support the development of such alternatives and in so doing help support sustainable, widespread and low-cost access to scholarly research</em>
+<p></p><ul ><li> <strong>Action</strong>: <strong>DG</strong> to frame a possible initiative that leverages the work federating institutional repositories that has already been begun by CDL, MIT, Harvard, and Cal Tech, including in this initiative UIUC, Indiana, Michigan, and UVa with Minnesota, Stanford, JHU as observers. Framework to be available by <strong>October 11, 2004</strong> for review by partners.
+</li></ul></li></ol></li></ol><p></p></div> </td></tr></table>
+
+
+<!-- Main column text ends here -->
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+
+<hr width="75%" />
+
+<p align="center" style='text-align:center'><i><span style=
+'font-size:10.0pt'>Copyright &copy; 2005 by the Digital Library
+Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+</p>
+      <p align="center" class="copyright">&nbsp;</p>
+      </td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

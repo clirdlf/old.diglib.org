@@ -1,0 +1,1035 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../ockerbloom0406.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0093.htm');" id=PPTL1>The next mother lode for
+  large-scale digitization?</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Historic serials, copyrights, and shared knowledge</li>
+   <br>
+   <br>
+   <li>John Mark Ockerbloom</li>
+   <li><span style='mso-spacerun:yes'> </span>DLF Spring Forum, Austin</li>
+   <li>April<span style='mso-spacerun:yes'>  </span>11, 2006</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0159.htm');" id=PPTL2>Main ideas</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>A vast amount of significant serial literature before 1964 is in the
+       public domain in the US</li>
+   <ul>
+    <li>Both scholarly and general-interest content</li>
+    <li>More complete, and potentially more accessible, view of
+        mid-20th-century culture and thought than public domain books</li>
+   </ul>
+   <li>We can determine what is available to digitize</li>
+   <ul>
+    <li>We have created an inventory of all periodicals renewals 1950-1977 (for
+        1923-1950 publications; only a tiny fraction renewed)</li>
+    <li>This inventory can be the germ of a more comprehensive, cooperatively
+        built knowledge base</li>
+   </ul>
+   <li>Leadership opportunities for DLF and its institutions</li>
+   <ul>
+    <li>We have the big serial collections, the hard-core users, the knowledge
+        of the literature and of digital library issues</li>
+    <li>Low-overhead shared knowledge bases can provided a basis for
+        coordinating work</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0201.htm');" id=PPTL3>The hopes of mass
+  digitization</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>“It is time to build… an America where every child can stretch a hand
+       across a keyboard and reach every book ever written, every painting ever
+       painted, every symphony ever composed…”</li>
+   <li>	-- US President Bill Clinton, 1998 State of the Union address</li>
+   <br>
+   <br>
+   <li>“Our venture will result in a magnitude of discovery that seems almost
+       incomprehensible…”</li>
+   <li>	-- U-Michigan President Mary Sue Coleman, 2006 speech to Association of
+       American Publishers, on the Google Book Search project</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0202.htm');" id=PPTL4>What can we actually
+  make available online?</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Every book, painting, symphony…</li>
+   <ul>
+    <li>That is in the public domain</li>
+    <li>Or that we can license (actively or passively)</li>
+    <li>Or that we can get a special exemption to provide</li>
+    <ul>
+     <li>fair use</li>
+     <li>section 108</li>
+     <li>orphan works?</li>
+     <li>Snippets of fully indexed text?</li>
+    </ul>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0223.htm');" id=PPTL5>What are we getting from
+  mass text digitization efforts so far?</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Many books before 1923, or 1909, or 1864</li>
+   <ul>
+    <li>Over 40,000 from Google alone since the fall</li>
+    <li>Public domain status determination often very conservative</li>
+   </ul>
+   <li>Some open access serial runs</li>
+   <ul>
+    <li>Open access largely seen in nonprofit projects (MOA, newspapers, ILEJ…)
+        or by journals themselves (smaller-scale)</li>
+    <li>Google, Internet Archive, etc. also including some serial volumes along
+        with the books, not systematically to date</li>
+    <li>Larger collections available in limited access (EBSCO, JSTOR…)</li>
+   </ul>
+   <li>A fascinating assortment of miscellaneous text</li>
+   <ul>
+    <li>Pamphlets, manuscripts, letters, diaries, blogs, ephemera…</li>
+    <li>We won’t focus on that in this talk</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0214.htm');" id=PPTL6>What do we get from all
+  this text?</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Classic or timely wisdom and art</li>
+   <ul>
+    <li>Would be fresh and valued even if first produced today</li>
+    <li>The most widely acclaimed public domain exemplars are already online</li>
+   </ul>
+   <li>Current, directly applicable knowledge</li>
+   <ul>
+    <li>Much (though not all) public domain informative literature now outdated
+        (especially if one only looks pre-1923)</li>
+   </ul>
+   <li>Entertainment</li>
+   <ul>
+    <li>Important, but hard to get grants for…</li>
+   </ul>
+   <li>History and documentation</li>
+   <ul>
+    <li>Vast majority of<span style='mso-spacerun:yes'>  </span>interesting
+        public domain text</li>
+    <li>Includes literature, art, essays, science, etc., that are valuable
+        primarily in a historical context</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0227.htm');" id=PPTL7>Serials: A treasure
+  trove of history and documentation</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Newspapers: First reports of events</li>
+   <ul>
+    <li>Primary sources for history; essential for local history</li>
+   </ul>
+   <li>Magazines: Literature, essays, debates as they first appear</li>
+   <ul>
+    <li>And often the only place that they appear</li>
+    <li>Lots of short-form work that didn’t make it into books</li>
+   </ul>
+   <li>Scholarly journals: The record of research</li>
+   <ul>
+    <li>The hypotheses, the experiments, the data, the debates</li>
+   </ul>
+   <li>Specialty publications: Insight into communities</li>
+   <ul>
+    <li>Trade journals, local and special interest groups</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0225.htm');" id=PPTL8>What’s in the public
+  domain?</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Anything copyrighted before 1923</li>
+   <li>Anything that’s specifically dedicated</li>
+   <ul>
+    <li>E.g. fed. gov. docs in US; small amounts of private stuff</li>
+   </ul>
+   <li>Anything that didn’t “maintain” copyright as was once required:</li>
+   <ul>
+    <li>Copyrights before 1964 that were not renewed (most weren’t)</li>
+    <ul>
+     <li>But many of most significant books were renewed</li>
+     <li>(note also some may contain separately renewed material)</li>
+    </ul>
+    <li>Publications before 1989 w/o copyright notice</li>
+    <ul>
+     <li>(Inadvertent omissions after 1977 sometimes fixable)</li>
+    </ul>
+    <li>But: Many foreign works were retroactively exempted from maintenance
+        requirements in 1996</li>
+    <ul>
+     <li>Key requirement: First foreign publication needs to be more than 30
+         days before first US publication to get exemption</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0217.htm');" id=PPTL9>Copyright detective work</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Popular Lord Peter Wimsey mystery in US public domain since 1951, but
+       not online until 2005</li>
+   <li>Needed to:</li>
+   <ul>
+    <li>Search renewal records</li>
+    <li>Research publication history</li>
+    <li>Find a first edition to transcribe</li>
+    <li>Meticulously record what we did to clear the book</li>
+   </ul>
+   <li>Expensive to scale up</li>
+   <ul>
+    <li>(see work by Denise Troll Covey at CMU)</li>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0230.htm');" id=PPTL10>Copyright renewals
+  index</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0229.htm');" id=PPTL11>Copyright renewal
+  volumes</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0207.htm');" id=PPTL12>Copyright renewal
+  records</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0208.htm');" id=PPTL13>Inventory of serials</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0209.htm');" id=PPTL14>Very few serials
+  completely copyrighted after 1922</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>WorldCat lists over 200,000 serials with significant dates between 1923
+       and 1950</li>
+   <ul>
+    <li>May undercount based on journals not starting or ending in that range</li>
+    <li>May overcount based on duplicate entries for some serials</li>
+   </ul>
+   <li>We found only ~1300 serials that renewed any issue copyrights during
+       that time</li>
+   <li>Most significant serials publishing then did not renew all (or any) of
+       their issues</li>
+   <ul>
+    <li>Weak correspondence between extent of renewal and significance to
+        researchers</li>
+    <br>
+    <br>
+   </ul>
+   <br>
+   <ul>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0210.htm');" id=PPTL15>Newspapers</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>No daily newspaper outside New York renewed issues dating before the end
+       of World War II</li>
+   <li>Only a few dailies from 1923-1950 renewed at all</li>
+   <li>Earliest renewed issues for some major newspapers:</li>
+   <ul>
+    <li>New York Herald/Tribune:		before 1923</li>
+    <li>New York Times (daily):		1928</li>
+    <li>Wall Street Journal:			1941</li>
+    <li>Christian Science Monitor:		1945</li>
+    <li>Chicago Tribune:			1946</li>
+    <li>Washington Post:			1951</li>
+    <li>Los Angeles Times:			1958</li>
+    <li>Boston Globe, Philadelphia Inquirer, many more : No issue renewals</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0211.htm');" id=PPTL16>Scholarly journals</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Using JSTOR (as of March 2006) as representative sample of significant
+       journals:</li>
+   <ul>
+    <li>1923-1950 journals in JSTOR: 		298</li>
+    <li>Number that renewed any issues:	 	<span style='mso-spacerun:yes'> 
+        </span>49</li>
+    <li>Number renewing first issue in period:<span
+        style='mso-spacerun:yes'>      </span>	<span
+        style='mso-spacerun:yes'>    </span>7</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0212.htm');" id=PPTL17>Magazines</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Some major magazines renewed from the start (or before 1923)</li>
+   <ul>
+    <li>E.g. The New Yorker, National Geographic, Sat Eve Post</li>
+   </ul>
+   <li>Many other majors did not start renewing right away</li>
+   <ul>
+    <li>E.g. Time, The New Republic, Scientific American</li>
+   </ul>
+   <li>Many others didn’t renew at all</li>
+   <ul>
+    <li>E.g. The Economist</li>
+   </ul>
+   <li>Comics, pulp fiction often renewed aggressively</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0222.htm');" id=PPTL18>What’s published in the
+  US?</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0213.htm');" id=PPTL19>Caveats and qualifiers</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Serials may contain separately copyrighted (and separately renewed)
+       items</li>
+   <ul>
+    <li>Text: Contributions to periodicals (renewal scans and transcriptions
+        are available online)</li>
+    <ul>
+     <li>Inventory of these for serials would be useful too</li>
+    </ul>
+    <li>Images: Renewal scans not yet online, but there aren’t that many</li>
+    <ul>
+     <li>Low-hanging fruit for a scanning/transcription project!</li>
+    </ul>
+   </ul>
+   <li>Some possible mitigating factors:</li>
+   <ul>
+    <li>Section 201(c) gives serial copyright holders presumptive rights to
+        reprint contributions in original context</li>
+    <li>Orphan works provisions might also make it easier to clear
+        contributions</li>
+   </ul>
+   <li>Double-check anything you intend to digitize</li>
+   <ul>
+    <li>Don’t rely on me (or other non-lawyers) for legal advice</li>
+    <li>It’s possible we may have missed renewals</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0221.htm');" id=PPTL20>Who will provide
+  libraries of historic serials online?</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Google, Yahoo, Microsoft?</li>
+   <ul>
+    <li>Serial content being ingested along with monograph content</li>
+    <li>Thus far not being treated specially or systematically</li>
+   </ul>
+   <li>Commercial aggregators?</li>
+   <ul>
+    <li>Already broad coverage, but still limited; limited access; no inherent
+        monopoly on public domain content</li>
+   </ul>
+   <li>Let central consortia do it?</li>
+   <ul>
+    <li>JSTOR et al can’t do everything; and limited access may inhibit reuse,
+        repurposing, remixing</li>
+   </ul>
+   <li>Libraries do it ourselves?</li>
+   <ul>
+    <li>We have the content, constituency, mission, know-how</li>
+    <li>Scanner tech, storage, and sharing all getting cheaper</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0215.htm');" id=PPTL21>Sharing knowledge about
+  copyrights</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Renewal scans were contributed by many, inventory created by individual</li>
+   <ul>
+    <li>Just using flat files served by Apache</li>
+    <li>Thanks: Greg Weeks, Juliet Sutherland &amp; Distributed Proofreaders,
+        CMU, Penn, several public libraries</li>
+   </ul>
+   <li>Many may need to do copyright research</li>
+   <ul>
+    <li>Searchable databases useful for quick lookups</li>
+    <li>Registries useful for pooling information</li>
+   </ul>
+   <li>Rights clearance info could also be machine-readable</li>
+   <ul>
+    <li>See e.g. rights expression work by Karen Coyle, CDL</li>
+    <li>Needs to avoid inhibiting expression, contributors</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0206.htm');" id=PPTL22>Building a robust
+  knowledge base for copyright information</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Usability: Should be easy for humans and programs to comprehend as
+       needed</li>
+   <ul>
+    <li>Main machine-processing requirement: Lookup</li>
+   </ul>
+   <li>Inclusiveness: Make it easy for researchers to contribute any relevant
+       information</li>
+   <ul>
+    <li>What work (journal, issues…) is being referred to?</li>
+    <li>What is asserted about its copyright?</li>
+    <li>What are the facts that support this assertion?</li>
+    <li>Who is making the assertion? (And perhaps: when?)</li>
+   </ul>
+   <li>Reliability: Support degrees of certainty and authority, audit (history)
+       trail</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0228.htm');" id=PPTL23>Where and how to
+  construct this knowledge base?</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Stick with individually curated flat files?</li>
+   <ul>
+    <li>Certainly easy to store, trade; hard to scale</li>
+   </ul>
+   <li>Wiki base with structured data and review?</li>
+   <ul>
+    <li>We built one not long ago: Fred (format registry demonstration that was
+        prototype for GDFR)</li>
+    <ul>
+     <li>http://tom.library.upenn.edu/fred/ for reference</li>
+    </ul>
+   </ul>
+   <li>Add-on to existing catalog/registry?</li>
+   <ul>
+    <li>E.g. Registry of Digital Masters on OCLC</li>
+    <br>
+    <br>
+   </ul>
+   <li>Should extended scope be considered?</li>
+   <ul>
+    <li>Journals: Info on digitizations as well as copyright?</li>
+    <li>Copyrights: info on non-journal copyrights as well?</li>
+   </ul>
+   <br>
+   <li>Who will use and support it, and what do they need?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0218.htm');" id=PPTL24>To sum up</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>We have many valuable, relatively recent serials that are fair game to
+       digitize and share</li>
+   <ul>
+    <li>An opportunity largely untapped to date (at least post-1922)</li>
+   </ul>
+   <li>We now have, or can get, the information we need to determine their
+       status and share them digitally</li>
+   <li>DLF and its member institutions are particularly suited to leading in
+       this area</li>
+   <ul>
+    <li>Due to our collections, the research we support, and our expertise
+        coordination</li>
+   </ul>
+   <li>It would be useful, and feasible, to coordinate our efforts and our
+       information gathering</li>
+   <ul>
+    <li>E.g. by contributing to appropriate information registries</li>
+   </ul>
+   <br>
+   <li>We should begin discussions on how best to move forward</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0219.htm');" id=PPTL25>So, let’s discuss</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Initial inventory and copyright renewal records at</li>
+   <ul>
+    <li>http://onlinebooks.library.upenn.edu/cce/</li>
+    <br>
+    <br>
+   </ul>
+   <li>You can contact me at</li>
+   <ul>
+    <li>Ockerblo@pobox.upenn.edu</li>
+   </ul>
+   <br>
+   <br>
+   <li>What information could you use?<span style='mso-spacerun:yes'> 
+       </span>What could you contribute?</li>
+   <li>Let’s start the conversation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master03.htm></a><a href=master03.xml></a><a
+href=preview.wmf></a><a href="master03_image001.gif"></a><a href=master02.htm></a><a
+href=pres.xml></a><a href=editdata.mso></a><a href=slide0093.htm></a><a
+href=slide0159.htm></a><a href=slide0201.htm></a><a href=slide0202.htm></a><a
+href=slide0223.htm></a><a href=slide0214.htm></a><a href=slide0227.htm></a><a
+href=slide0225.htm></a><a href=slide0217.htm></a><a
+href="slide0217_image002.wmz"></a><a href="slide0217_image003.pcz"></a><a
+href="slide0217_image004.gif"></a><a href=slide0230.htm></a><a
+href="slide0230_image005.wmz"></a><a href="slide0230_image006.pcz"></a><a
+href="slide0230_image007.gif"></a><a href=slide0229.htm></a><a
+href="slide0229_image008.wmz"></a><a href="slide0229_image009.pcz"></a><a
+href="slide0229_image010.gif"></a><a href=slide0207.htm></a><a
+href="slide0207_image011.wmz"></a><a href="slide0207_image012.pcz"></a><a
+href="slide0207_image013.gif"></a><a href=slide0208.htm></a><a
+href="slide0208_image014.wmz"></a><a href="slide0208_image015.pcz"></a><a
+href="slide0208_image016.gif"></a><a href=slide0209.htm></a><a
+href=slide0210.htm></a><a href=slide0211.htm></a><a
+href="slide0211_image017.wmz"></a><a href="slide0211_image018.pcz"></a><a
+href=oledata.mso></a><a href="slide0211_image019.gif"></a><a
+href=slide0212.htm></a><a href=slide0222.htm></a><a
+href="slide0222_image020.wmz"></a><a href="slide0222_image021.pcz"></a><a
+href="slide0222_image022.gif"></a><a href=slide0213.htm></a><a
+href=slide0221.htm></a><a href=slide0215.htm></a><a href=slide0206.htm></a><a
+href=slide0228.htm></a><a href=slide0218.htm></a><a href=slide0219.htm></a><a
+href=master01.htm></a><a href="master03_stylesheet.css"></a><a href=script.js></a><a
+href="../ockerbloom0406.htm"></a><a href=fullscreen.htm></a><a
+href="notes_flag.gif"></a><a href=buttons.gif></a><a href=frame.htm></a><a
+href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

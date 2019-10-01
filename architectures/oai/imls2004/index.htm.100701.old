@@ -1,0 +1,540 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="The Distributed Library: OAI for Digital Library Aggregation Home Page" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content="Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content="David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Contributor" content="Barrie Howard" />
+<meta name="dc.Date" content="2006-09-20" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 2004 - 2006, Digital Library Federation. Publicly-accessible." />
+<title>The Distributed Library: OAI for Digital Library Aggregation Home Page</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../../images/"+arrQuote[num]; 
+}
+
+
+}
+//-->
+</script>
+<link media="screen" href="../../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../../images/preserve_r.gif','../../../images/use_r.gif','../../../images/build_r.gif','../../../images/logo_r.gif','../../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../../images/logo_r.gif',1)"><img src="../../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<a href="../../../quotations.htm">
+<img src="../../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../../publications.htm"><img src="../../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../../forums.htm"><img src="../../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../../about.htm"><img src="../../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../../news.htm"><img src="../../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+<!-- 
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../../sitemap.htm">
+<img src="../../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+ -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../../images/collect_r.gif',1);"><img src="../../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../../images/produce_r.gif',1)"><img src="../../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../../images/preserve_r.gif',1)"><img src="../../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../../images/use_r.gif',1)"><img src="../../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../../images/build_r.gif',1)"><img src="../../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p><b><i>Project Team</i></b>
+<br /><br />
+<b>Digital Library Federation</b>
+<br /><br />
+David Seaman,<br />
+Project Director/<br />
+Principal Investigator
+<br /><br />
+Barrie Howard,<br />
+Project Manager
+<br /><br />
+Martha Brogan,<br />
+Consultant
+<br /><br />
+<b>Emory University</b>
+<br /><br />
+Martin Halbert,<br />
+Co-Principal Investigator
+<br /><br />
+Elizabeth Milewicz,<br />
+Technical Writer
+<br /><br />
+<b>University of Illinois<br />
+at Urbana-Champaign</b>
+<br /><br />
+Tom Habing,<br />
+Co-Principal Investigator
+<br /><br />
+Xuan Xie,<br />
+Graduate Assistant
+<br /><br />
+<b>University of Michigan</b>
+<br /><br />
+Perry Willet, <br />
+Co-Principal Investigator
+<br /><br />
+Kat Hagedorn,<br />
+Technical Manager
+</p>
+</td>
+</tr>    
+
+<tr> 
+<td align="left" valign="top"><img src="../../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Executive Director</a> 
+your comments or suggestions. </p></td>
+</tr>
+
+<tr> 
+<td align="left" valign="top"><img src="../../../images/horizline.gif" alt="" width="156" height="16" /></td>
+</tr>
+
+<tr>
+<td align="left" valign="top"><p class="news">Project participants follow this 
+<a href="http://dlf.projectpath.com/">link</a> to log on the project management
+interface.</p>
+</td>
+</tr>
+</table></td>
+<td width="584" height="634" colspan="9" valign="top">
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr> 
+<td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+<h1 class="sectionhead">The Distributed Library:
+<br />OAI for Digital Library Aggregation</h1>
+
+<p align="center"><b>IMLS 2004 National Leadership Grant for Libraries
+<br />Research and Demonstration</b></p>
+
+
+<hr width="75%" />
+<b><font color="red">New</font>: view the <a href="training2/index.htm">presentations and documents</a> from the DLF OAI Implementers' Workshop held on August 25, 2006, at Stanford University in Palo Alto, California
+<br />
+<br />
+<font color="red">New</font>: read the findings from our OAI Advisors' Meeting, May 23, 2006 [<a href="OAIAdvisors060523final.pdf">PDF</a> | <a href="OAIAdvisors060523final.htm">HTML</a>]
+</b>
+
+<hr />
+
+June 2006: the DLF Collections Registry, which describes the collections (759 publicly accessible digital collections) that include many items found via the DLF OAI Portal (see below), available from <a href="http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/">http://gita.grainger.uiuc.edu/dlfcollectionsregistry/browse/</a>
+
+<hr />
+
+May 2006: the <i>Best Practices for OAI Data Provider Implementations and Shareable Metadata</i>, co-developed with NSDL, is undergoing its final revision and will be published online and in print this fall, available from <a href="http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents">http://oai-best.comm.nsdl.org/cgi-bin/wiki.pl?TableOfContents</a>
+
+<hr />
+
+December 2005: read the <i>OAI Repository Cataloging Procedures and Guidelines</i>, developed at the University of Illinois, it is a guide to writing collection-level descriptions for OAI repositories using Library of Congress subject headings, available from <a href="http://gita.grainger.uiuc.edu/registry/CatalogingOAIRepositories.pdf ">http://gita.grainger.uiuc.edu/registry/CatalogingOAIRepositories.pdf</a>
+
+<hr />
+
+November 2005: view the <a href="/forums/fall2005/fall2005abstracts.htm#session10">presentations</a> from the Fall Forum 2005 session, "OAI for digital library aggregation," and read the <a href="training/index.htm">documents</a> from the OAI training session held on November 10, 2005, in Charlottesville, Virginia
+
+<hr />
+
+October 2005: view the DLF MODS Portal&mdash;a subset of the DLF OAI Portal (see below)&mdash;drawing together those records that have the richer MODS metadata format, which supports much better subject, date, and geographic navigation (253,478 MODS records) <a href="http://www.hti.umich.edu/m/mods/">http://www.hti.umich.edu/m/mods/</a>
+
+<hr />
+
+June 2005: read the findings from our first Scholars' Advisory Panel [<a href="OAISAP05.pdf">PDF</a> | <a href="OAISAP05.htm">HTML</a>]
+
+<hr />
+
+April 2005: view the DLF OAI Portal that makes accessible all items from DLF libraries that have been publicized through the Open Archives Initiative Protocol for Metadata Harvesting (1,042,268 records) <a href="http://www.hti.umich.edu/i/imls/">http://www.hti.umich.edu/i/imls/</a>
+
+<hr />
+
+<p>In September 2004, the Digital Library Federation
+(DLF) was awarded $292,456 by the Institute of Museum and Library Services (IMLS) as one of their National Leadership Grants for Libraries. 
+</p>
+<p>
+DLF in partnership with Emory University (Emory), the 
+University of Illinois at Urbana-Champaign (UIUC), and the 
+University of Michigan (Michigan), will research, design, 
+and prototype a <i>second generation</i> OAI finding system, 
+capitalizing on the lessons learned from the first wave of OAI 
+harvesting and using as its raw material collections 
+drawn from across the DLF membership. The aim is to foster 
+better teaching and scholarship through easier, more relevant 
+discovery of digital resources, and enhance libraries' ability 
+to build more responsive local services on top of a distributed 
+metadata platform.
+</p>
+
+<p>
+The work of the grant project team is guided by the participation 
+of three working groups: the DLF OAI Project Affiliates Team, the DLF OAI Scholars' Advisory Panel, and the DLF OAI Technical Advisory Group. Click <a href="/architectures/oai/imls2004/groups.htm">here</a> to review a list of group members.
+</p>
+<p>
+An abstract of this two-year research and development grant, outlining its goals, objectives, and impacts is posted below. 
+To read the full narrative, follow this <a href="imlsoai-narrative.html">link</a>.</p>
+
+
+<p><b>Abstract</b></p>
+
+<p>In 2004, the Digital Library
+Federation began a 2-year project to research, design, and prototype a
+second generation OAI finding system, capitalizing on the lessons learned
+from the first wave of OAI harvesting and using, as its raw material, collections
+drawn from across the DLF membership. Our research here builds on the digital
+objects, motivated scholarly users, and high-level OAI expertise that we have
+across our 38-member organization, and is informed by ongoing research into
+metadata creation and service building at Emory, Michigan, UIUC, and elsewhere,
+including our colleagues in the NSF's (OAI-based) National Science Digital
+Library.</p>
+
+<p>The Open
+Archives Initiative (OAI) has proven itself as a protocol that allows basic
+metadata records to be created by many <i>providers</i> and then gathered up by
+<i>harvesters</i> who use those records to create library services (e.g. <a href="http://oaister.umdl.umich.edu/o/oaister/">
+www.oaister.org</a>). In the act of using it over several years in library
+settings, however, a range of issues have come to light that need research and
+development if OAI is going to mature into its full potential: collections as
+well as item records need further development, and we need richer mechanisms
+of creating dialog between harvesters and providers; the hurdles to adoption
+need careful study, particularly how to embed the very idea of creating public,
+harvestable metadata as a routine step in our digitizing workflows, and how to
+speed up the feedback loop from a harvester to a community of providers such as
+exists in the library world, who typically respond positively to such "good
+practice" guidance.</p>
+
+<p>The aim we have
+clearly in mind is to foster better teaching and scholarship through easier,
+more relevant discovery of digital resources, and a much greater ability for
+libraries to build more responsive local services on top of a distributed
+metadata platform. To this end, a team of scholars&mdash;alongside digital library
+experts&mdash;will be assembled at the early stages of the project and their input
+will inform and challenge our assumptions about the nature and design of our
+prototype service throughout the grant period.</p>
+
+<p>DLF is an
+ideal community in which to prototype collection-level and item-level metadata that
+is explicitly designed for use in digital library aggregation services. We are
+large enough to give confidence that what we discover can be generally applied;
+we have rich intellectual resources in our librarians and a proven track record
+for effective collaborative work; and we have in our number some of the most
+active OAI harvesting service providers. We have a good sense of the barriers
+to providing OAI records routinely, and the training and consultancy component
+of our work seeks to overcome those hurdles; related work such as the recent
+DLF <i>Survey of Digital Aggregation Services</i> provides rich feedback on the
+strengths and weaknesses of the first wave of OAI services--lessons we will
+take to heart in this <i>second wave</i> research.</p>
+
+
+<p>
+<img src="imls1-smallfile.jpg" alt="imls logo" hspace="10" width="120" height="120" align="left" />
+<br />
+<i>The Institute of Museum and Library Services, a federal grant-making agency
+dedicated to creating and sustaining a nation of learners by helping libraries
+and museums serve their communities, supports the Digital Library Federation.</i>
+</p>
+
+<!-- End text -->
+
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+    </tr>
+   </table>
+   <p>&nbsp;</p>
+   <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+    Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+   </td>
+ </tr>
+ <tr>
+  <td width="192" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="192" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="117" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="117" height="1" /></td>
+  <td width="99" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="99" height="1" /></td>
+  <td width="18" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="18" height="1" /></td>
+  <td width="59" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="59" height="1" /></td>
+  <td width="50" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="50" height="1" /></td>
+  <td width="8" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="8" height="1" /></td>
+  <td width="63" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="63" height="1" /></td>
+  <td width="53" height="1" valign="top"><img src="../../../transparent.gif" alt="" width="53" height="1" /></td>
+ </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

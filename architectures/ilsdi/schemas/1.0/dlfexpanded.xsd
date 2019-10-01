@@ -1,0 +1,170 @@
+<xsd:schema targetNamespace="http://diglib.org/ilsdi/1.0" 
+            xmlns:dlf="http://diglib.org/ilsdi/1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">
+      Schema for DLF Expanded replies
+      (in version 1.0 of the DLF ILS-DI recommendation, released June 4, 2008).
+      by John Mark Ockerbloom
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="record" type="dlf:recordType"/>
+  <xsd:element name="collection" type="dlf:collectionType"/>
+  <xsd:element name="ilsharvest" type="dlf:collectionsummariesType"/>
+
+  <xsd:complexType name="recordType">
+   <xsd:annotation>
+     <xsd:documentation>A record can have a bibliographic part, an optional
+        holdings part, and an items part</xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="bibliographic" type="dlf:idwithanyType" minOccurs="1"/>
+      <xsd:element name="holdings" type="dlf:holdingsType" minOccurs="0"/>
+      <xsd:element name="items" type="dlf:itemsType" minOccurs="0"/>
+      <xsd:element name="simpleavailability" type="dlf:simpleavailabilityType" minOccurs="0" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="collectionType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more metadata records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="record" type="dlf:recordType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="holdingsType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more holdingset records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="holdingset" type="dlf:holdingsetType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="holdingsetType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more holdings records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="holdingsrec" type="dlf:metadataType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="items" type="dlf:itemsType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="itemsType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more item records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="item" type="dlf:idwithanyType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="idwithanyType">
+    <xsd:annotation>
+      <xsd:documentation>
+          This must have an id attribute,
+          but then can contain anything.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:any namespace="##other" processContents="strict" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:string" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="simpleavailabilityType">
+    <xsd:annotation>
+      <xsd:documentation>This consists of an identifier and status
+       (both required) followed by an optional message.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="identifier" type="xsd:string"/>
+      <xsd:element name="availabilitystatus" type="dlf:availabilitystatusType"/>
+      <xsd:element name="availabilitymsg" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="dateavailable" type="dlf:dateortimeType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:simpleType name="availabilitystatusType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="unknown"/>
+      <xsd:enumeration value="available"/>
+      <xsd:enumeration value="not available"/>
+      <xsd:enumeration value="possibly available"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="dateortimeType">
+    <xsd:annotation>
+      <xsd:documentation>This type allows either a date or a date-time combo.
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:union memberTypes="xsd:date xsd:dateTime"/>
+  </xsd:simpleType>
+
+  <xsd:complexType name="metadataType">
+    <xsd:annotation>
+      <xsd:documentation>Metadata must be expressed in XML that complies
+       with another XML Schema (namespace=#other). Metadata must be 
+       explicitly qualified in the response.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:any namespace="##other" processContents="strict"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="collectionsummariesType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more collection summary records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="harvestcollection" type="dlf:collectionsummaryType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="collectionsummaryType">
+    <xsd:sequence>
+      <xsd:element name="set" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="fullmdformats" type="dlf:fullmdformatsType" minOccurs="0"/>
+      <xsd:element name="suppressed" type="dlf:selectedsetsType" minOccurs="0"/>
+      <xsd:element name="embargoed" type="dlf:selectedsetsType" minOccurs="0"/>
+      <xsd:element name="notes" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="type" type="xsd:string" use="required"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="fullmdformatsType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more fullmdformats records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="fullmdformat" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="selectedsetsType">
+   <xsd:annotation>
+     <xsd:documentation>This contains 0 or more fullmdformats records.
+     </xsd:documentation>
+   </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="inset" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="outset" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="included" type="xsd:boolean" use="required"/>
+  </xsd:complexType>
+
+</xsd:schema>

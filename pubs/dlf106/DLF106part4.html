@@ -1,0 +1,751 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+xml:lang="en">
+<head>
+<meta name="dc.Title" content="Contexts and Contributions: Building the Distributed Library" />
+<meta name="dc.Creator" content="Martha L. Brogan" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher"
+content="Digital Library Federation: Washington, D.C." />
+<meta name="dc.Contributor"
+content="Barrie Howard" />
+<meta name="dc.Date" content="2006-09-13" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="DC.identifier" content="http://purl.oclc.org/DLF/dlf106" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Contexts and Contributions: Building the Distributed Library</title>
+
+
+<style type="text/css">
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif; }
+
+          p          { margin-top: .5em; margin-bottom: .25em; }
+
+          hr         { color: #888833; }
+
+	  .nobullet { list-style-type: none; }
+
+        </style>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+if (Math.random) {
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif";
+arrQuote = strQuote.split("^");
+var num = Math.floor(Math.random() * arrQuote.length);
+document.quote_rotate.src = "../../images/"+arrQuote[num];
+}
+}
+//-->
+</script>
+
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="/wrap/wrap.css" /><script type="text/javascript" src="/wrap/wrap.js"></script></head>
+<body onload="wrapoldcontent();MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint">
+          <td valign="top">
+
+ <form action="search.asp" method="get" name="searchform" id="search">
+<label for="textfield"><span class="news">Search&nbsp;</span></label>
+<input name="qu" id="textfield" type="text" value="" size="10" />&nbsp;
+<a href="javascript:document.searchform.submit();">
+
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp;
+<a href="../../sitemap.htm"><img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a>
+<script language="JavaScript" type="text/javascript"></script>
+</form> 
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="157" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="157" height="38" border="0" id="collect" /></a></td>
+       <td width="157" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="157" height="38" border="0" id="produce" /></a></td>
+
+    <td width="157" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="157" height="38" border="0" /></a></td>
+    <td width="157" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="157" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr>
+       <td align="left" valign="top">
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" />
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script>
+
+
+</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr>
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script>
+
+        </td>
+        </tr>
+
+      <tr>
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Executive Director</a>
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr>
+          <td align="left" valign="top">
+
+
+
+<!-- Begin text here -->
+
+<a name="s5"></a>
+<hr width="75%" />
+<center>
+<h3>5.0 Conclusions</h3>
+</center>
+<p>This section compares services' baseline features in 2003 and 2006 (i.e. organizational model, subject, function, primary audience, status, size, and use). Next, problems encountered while preparing this report are enumerated in "an embarrassment of glitches," highlighting the need for better product and service "nutrition and ingredient" labels (Jacs&oacute; 1993). Progress towards addressing three primary issues and five future directions from the 2003 report is discussed before giving attention to "the pulse" in 2006. Growth in adoption of OAI, coupled with a better understanding of its potential uses and limitations; interoperability as an international phenomenon; sustainability and funding; and next generation service characteristics are highlighted. The report closes with a summary of ten "imperatives" for successful services.</p>
+
+
+<a name="s5ss1"></a>
+<hr width="75%" />
+<center>
+<h3>5.1 Comparison of 2003 and 2006 Baseline Features</h3>
+</center>
+
+<a name="s5ss1p1"></a>
+<h4>5.1.1 Organizational Model</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Integral to issues of quality assurance, economic viability and long-term sustainability. <br />Almost all sites under review are sponsored by institutions of higher education or governmental agencies. <br />Many are promoted by a handful of key individuals. <br />Few are fully integrated into a broad-based organizational structure. <br />Many address R&amp;D issues and have not transitioned to full production. <br />Almost none have a business plan. <br />Some rely on community-based input and collaboration with varying degrees of formal governance structures. <br />Most are developed with external support.</td>
+</tr>
+</table>
+<br />
+</p>
+<p>
+<b>2006 Survey Responses and Observations</b>
+</p>
+<ul>
+<li>Although relatively few respondents noted organizational changes in the survey, upon closer examination there were numerous shifts in administrative and governance structures, especially to anchor the service more securely to the operation of an established institution or disciplinary group.</li>
+<li>The services under review are still predominantly sponsored by institutions of higher education or governmental agencies, but there is increased connectivity with disciplinary organizations.</li>
+<li>As these services mature, they are becoming more fully integrated into established institutions and a widening circle of collaborators assume advocacy roles.</li>
+<li>A few services are beginning to turn to libraries to fulfill implementation and preservation functions while they continue in R&amp;D, prototyping services.</li>
+<li>More services are developing business, marketing, and fiscal sustainability plans. Typically, these are hybrid approaches, including a mix of institutional, grant/foundation, and revenue-producing streams. Nevertheless, there is still widespread concern about future funding and long-term viability.</li>
+<li>Community-input is viewed as an essential ingredient in developing most services. A great deal of emphasis is placed on creating active communities of practice.</li>
+<li>When implementing service-oriented architectures (SOA) industry analysts advise that
+<blockquote>
+<i>building a governance framework is a critical early milestone on the road to a successful SOA implementation - not a governance framework for the SOA implementation specifically, but rather, a framework that outlines governance best practices across the organization that will leverage the power and flexibility of the Services that form the core of the SOA implementation.</i> (Bloomberg 2006)</blockquote>
+</li>
+<li>The UK and Australian e-Framework for Education and Research reflects this approach in   so far as they began the process by adopting principles to guide the partnership (<a href="http://www.e-framework.org/about">http://www.e-framework.org/about</a>).</li>
+</ul>
+
+<a name="s5ss1p2"></a>
+<h4>5.1.2 Subject Coverage</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Major initiatives cluster around funding agencies in the sciences and cultural heritage. <br />Communities of practice formed around disciplines; audiences; type of media; software; or philosophy. <br />Published literature on disciplinary differences in scholarly communication appears primarily in the sciences. <br />Much of the literature produced by PIs. <br />Some mainstream news coverage focusing on the economic dynamics of the open access movement.</td>
+</tr>
+</table>
+<br />
+</p>
+<ul>
+<li>
+<b>2006 Survey Responses and Observations</b>
+</li>
+<li>The NSF, IMLS and The Andrew W. Mellon Foundation have a tremendous influence in supporting the development of the services under review in this report. Although the predominant focus here is on the sciences and cultural heritage, in fact there is increasing activity across a full spectrum of disciplines and subject areas. Despite few social science examples in this report, there are significant activities underway as evident from such activities as Cyberinfrastructure initiatives, the leading role of the Inter-university Consortium of Social Science Research in the archiving of digital datasets, new affiliations between the American Economics Association and RePEc, the development of Nereus in Europe and so forth.</li>
+<li>Communities of practice continue to form around disciplines, audiences, types of media, technology platform, and philosophy. To this list one must add communities focusing on e-learning, e-research, Web publishing, digital preservation, and e-administration (including records management). While services may be aligned primarily with one community, it is increasingly apparent that they need an understanding of-if not direct engagement with-multiple communities in order to garner the requisite combination of subject, technology, and service-environment expertise.</li>
+<li>The literature on scholarly communication now crosses all disciplines.</li>
+<li>To meet their responsibilities as researchers, PIs continue to contribute substantially to the literature, but their efforts are now joined by a widening circle of authors, extending from practitioners and journalists to researchers and theoreticians.</li>
+<li>There is phenomenal growth in media coverage of issues under review in this report. Open access, scholarly information practices, mass digitization, the digital divide, publicly-funded research, copyright and fair use are all part of the public discourse.</li>
+</ul>
+
+<a name="s5ss1p3"></a>
+<h4>5.1.3 Function</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Conflicting and overlapping definitions of concepts (e.g., digital libraries, portals). <br />Service are complex and do not lend themselves to solitary functional "encapsulation." <br />Dynamic and innovative nature of these services fuels their capacity to change functionality or scope. <br />Successful data providers attract multiple new services, creating new levels of aggregation and customized functionality.</td>
+</tr>
+</table>
+<br />
+</p>
+<p>
+<b>2006 Survey Responses and Observations</b>
+</p>
+<ul>
+<li>Very few of the services under review changed their core function since 2003, although there are some elaborations and modifications in scope. Intute (formerly RDN-Resource Discovery Network), for example, notes: <i>We exist to advance education and research by promoting the best of the Web through evaluation and collaboration. Our vision is to create knowledge from internet resources and in doing so, enable people to fulfill their potential. We bring together the best websites for education and develop associated services to embed these resources in teaching, learning and research.</i> Other new initiatives represent a variety of functional models ranging from DLF Aquifer's service-oriented approach to SouthComb's portal development.</li>
+<li>Data providers continue to morph into service providers (dLIST spawns DL-Harvest) and vice versa (OAIster makes it metadata available to other services).</li>
+<li>Blinco and McLean's "Wheel of Fortune" (section 2.2.1) depicts the different communities of practice and dimensions of the scholarly information environment, including Web publishing, e-learning, e-research, administrative computing and scholarly information.</li>
+<li>Discussion continues unabated about how best to differentiate among concepts such as repositories, archives, digital libraries and portals; however, there are several sustained efforts to define their distinctive qualities. Heery and Anderson (2005) distinguish digital repositories from other digital collections according to four characteristics:
+<ul>
+<li>content is deposited in a repository, whether by the content creator, owner or third party</li>
+<li>the repository architecture manages content as well as metadata</li>
+<li>the repository offers a minimum set of basic services e.g., put, get, search, access control</li>
+<li>the repository must be sustainable and trusted, well-supported and well-managed</li>
+</ul>
+</li>
+<li>(p. 2) <br />They then develop a typology of repositories by content type, coverage, functionality and target user group. Among primary functions, Heery and Anderson propose:
+<ul>
+<li>Enhanced access to resources (resource discovery and location)</li>
+<li>Subject access to resources (resource discovery and location)</li>
+<li>Preservation of digital resources</li>
+<li>New modes of dissemination (new modes of publication)</li>
+<li>Institutional asset management</li>
+<li>Sharing and re-use of resources [e.g., datasets and learning objects] (p. 14)</li>
+</ul>
+</li>
+<li>As discussed earlier in this report, this typology formed the basis of the disciplinary landscape analysis for engineering and ensuing cross-archive search service, PerX  (<a href="http://www.engineering.ac.uk/">http://www.engineering.ac.uk/</a>).</li>
+<li>JISC provides definitions of major service components in the context of its Information Environment Architecture (Powell 2005). For example:
+<ul>
+<li>Portal: A network service that provides a personalised, single point of access to a range of heterogeneous network services, local and remote, structured and unstructured. Portal functionality often includes resource discovery, email access and online discussion fora. Portals are intended for (human) end-users using common Web 'standards' such as HTTP, HTML, Java and JavaScript. In the context of the JISC IE, portals interact with brokers, aggregators, indexes, catalogues and content providers using Z39.50, SRW, the OAI-PMH and RSS/HTTP.</li>
+<li>Aggregator: A structured network service that gathers metadata from a range of other, heterogeneous, local or remote structured network services. Aggregators are intended for use by software applications. In the context of the JISC IE, aggregators interact with indexes, catalogues, content providers and other aggregators using the OAI-PMH and RSS/HTTP. Aggregators interact with portals using the OAI-PMH. In some cases an aggregator may offer its aggregated metadata as a Z39.50 target.</li>
+<li>Subject Gateway / Gateway: A network service based on a catalogue of Internet resources. The gateways provided by RDN [now Intute] hubs focus on particular subject areas. (JISC Information Environment Architecture, Glossary, <a href="http://www.ukoln.ac.uk/distributed-systems/jisc-ie/arch/glossary/">http://www.ukoln.ac.uk/distributed-systems/jisc-ie/arch/glossary/</a>)</li>
+</ul>
+</li>
+</ul>
+
+<a name="s5ss1p4"></a>
+<h4>5.1.4 Audience</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Counter prevailing trends: serving multiple audiences for different uses versus serving specialized audience for restricted uses.</td>
+</tr>
+</table>
+<br />
+</p>
+<p>
+<b>2006 Survey Responses and Observations</b>
+</p>
+<ul>
+<li>Several services comment on the difficulties of attempting to meet a wide range of audience needs and expectations. This is particularly true for deployments attempting to serve the spectrum of K-12 and higher education clienteles. As more user studies identify differences in the work environments, habits, and traditions of instructors by grade-level and discipline, broad-based services struggle to effectively tailor subsets of resources and tools for targeted use. Theoretically, service-oriented architectures are designed with the flexibility of meeting this challenge and portal toolkits (e.g., NSDL's Scout Portal Toolkit and Collection Workflow Integration System, see Almasy 2005) are intended to facilitate customization.</li>
+<li>More hybrid services, offering a combination of open and restricted use, are appearing. As commercial journal publishers enter the "open choice" market so too are OA service providers starting to integrate restricted use resources.</li>
+<li>As services attempt to sustain themselves without benefit of grant funding, they are instituting different level of access, with value-added services and benefits to members or subscribers.</li>
+</ul>
+
+<a name="s5ss1p5"></a>
+<h4>5.1.5 Status</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Status is a moving target; most services are characterized as "evolving."</td>
+</tr>
+</table>
+<br />
+</p>
+<p>
+<b>2006 Survey Responses and Observations</b>
+</p>
+<ul>
+<li>Most services now consider themselves "established."</li>
+<li>Several new efforts are clearly pilots. While their future is uncertain, these undertakings serve as building blocks for more durable systems.</li>
+<li>A number of services are suspended in perpetual beta.</li>
+</ul>
+
+<a name="s5ss1p6"></a>
+<h4>5.1.6 Size</h4>
+<p>
+<br />
+<table border="1">
+<tr>
+<td colspan="1"><b>2003</b> <br />Difficult to measure and interpret. <br />Can change rapidly. <br />A limited number of archives may account for the majority of records. <br />Paradox of size: critical mass is important but may also inhibit customization for specific uses.</td>
+</tr>
+</table>
+<br />
+</p>
+<p>
+<b>2006 Survey Responses and Observations</b>
+</p>
+<ul>
+<li>At the individual service-level, statistics about size and what is measured (number of metadata records, full-object links, full-text articles, collections, repositories, free and restricted use resources, etc.) is still difficult to obtain.</li>
+<li>All services increased in size; many noted growth as one of their major accomplishments. Overall size continues to change rapidly although for some sectors (e.g., full-text or peer-reviewed items; IR deposits) growth is incremental.</li>
+<li>As discussed below and evident from the prior review of "OAI demographics," there are more tools available to obtain a composite picture of OAI growth and distribution.</li>
+<li>As discussed above, the critical mass versus customization dialectic remains a challenge.</li>
+</ul>
+
+<a name="s5ss1p7"></a>
+<h4>5.1.7 Use</h4>
+<p>
+<b>2006 Survey Responses and Observations </b>(usage data not collected in 2003)</p>
+<ul>
+<li>Usage statistics are even more problematical to obtain and interpret. Numerous services do not make their usage data readily available. A few services, not surprising primarily those aggregating self-archived research papers, are exemplary in making their usage data transparent, e.g. arXiv, <a href="http://www.arxiv.org/todays_stats">http://www.arxiv.org/todays_stats</a>; dLIST, <a href="http://dlist.sir.arizona.edu/es/index.php?action=show_detail_date;range=4w">http://dlist.sir.arizona.edu/es/index.php?action=show_detail_date;range=4w</a>.</li>
+<li>Growing interest in Webmetrics and efforts to incorporate OAI sources (as described in section 4.2.10) should help to bring more consensus, if not standardization, in usage measures.</li>
+</ul>
+
+
+
+<a name="s5ss2"></a>
+<hr width="75%" />
+<center>
+<h3>5.2 An Embarrassment of Glitches</h3>
+</center>
+<p>Preparing this report and testing various services was not without its frustrations. Among the glitches encountered:
+<ul>
+<li>No information or misinformation about the scope and attributes of resources harvested</li>
+<li>Moribund harvests resulting in stale crops</li>
+<li>No information or misinformation about frequency of harvests</li>
+<li>Service disruptions of several weeks to several months duration without any indication to the user</li>
+<li>Perpetual Beta-enduring from 2003 to present</li>
+<li>Advanced feature malfunctions</li>
+<li>Programming "bugs" grossly affecting search results</li>
+<li>Duplicate harvests-the same data provider aggregated twice by the service provider</li>
+<li>Broken links leading nowhere</li>
+<li>Links leading to restricted resources without any indication to user</li>
+<li>Duplication of items within a service</li>
+<li>Out-of-date collection/repository descriptions</li>
+<li>Out-of-date wikis and empty templates where current news is anticipated</li>
+<li>Most recent "news" is a year or more out-of-date</li>
+<li>Widely varying resource and usage statistics provided within the service</li>
+<li>Lack of internal agreement about what is measured and how to measure it</li>
+</ul>
+In a 1993 guest editorial appearing in "Database," P&eacute;ter Jacs&oacute; harkens back to Jeff Pemberton's decade-old plea for "exposing the problems of dirty data." Noting that the situation had only grown worse in the ensuing years, Jacs&oacute; takes the suggestion a step further, proposing "nutrition and ingredient" labels for databases. Now, more than 20 years have past since the original article-and the need is transferred to the new scholarly information environment on the Web. </p>
+<p>An adaptation of Jacs&oacute;'s database nutrition and ingredient label could serve as a starting point, regularly reporting such items as: number of records; quarterly increase in size; time-lag since last update (proportion of database that is current); record of service availability (in last week, month, quarter, year); source coverage (depth, breadth, geographic provenance); content (types of materials, languages, subjects, restricted use versus freely available, full-object versus bibliographic metadata only); access points (percent of records that include major search fields, e.g., title, author, subject, publication year), and "transfat" (estimated percentage of duplicate records).</p>
+<p>"Centers of value" formulated in conjunction with the review of faculty needs in using digital resources provides a useful "product-level" summary (elements that might be elaborated on, for example, in a collection development policy):</p>
+<p>
+<br />
+<table border="1">Table 37: Digital Resources and Centers of Value
+<tr>
+<td colspan="1">Content coverage (chronological, geographic, thematic, disciplinary, type of "original"-manuscripts, coins, maps, games) <br />Form of representation (i.e. availability of digital formats and portability, e.g., jpeg, tiff, sid; proprietary or open, level of metadata: structured, standard, rich or thin; wrapper issues, e.g. HTML, XML,METS) <br />Authority (e.g., source, maintenance, institutional affiliation) <br />Permitted uses and digital rights of reuse <br />Persistence (e.g., how long is the resource up, how often does updating occur?) <br />Exposure for discovery (e.g., searching paths, browsing, availability for federated search, availability for Google crawling)</td>
+</tr>
+</table>
+<br /> Source: Harley et al. 2006, 41; based on suggestion of Arnold Arcolio, RLG.</p>
+
+
+<a name="s5ss3"></a>
+<hr width="75%" />
+<center>
+<h3>5.3 Updates: 2003 Issues and Future Directions</h3>
+</center>
+<p>The 2003 report identified three critical issues:
+<ul>
+<li>1. The absence of a user-friendly comprehensive registry of OAI-compliant services geared towards users to improve resource discoverability.</li>
+<li>2. The lack of priority given to creating and exposing OAI-compliant metadata to meet minimal let alone enhanced standards, coupled with problematic issues of granularity and the need to amass more object-level data.</li>
+<li>3. The aggregations did not provide users with a meaningful "context" or match the level of refinement available from the resource's native environment or of their proprietary counterparts.</li>
+</ul>
+It concluded by highlighting five future directions to pursue: (1) giving more attention to users and uses; (2) finding solutions to digital rights management and digital content preservation; (3) building personal libraries and collaborative workspaces; (4) putting digital libraries in the classroom and digital objects in the curriculum; and (5) promoting excellence.</p>
+<p>These issues and directions are updated below. Accomplishments and challenges regarding shareable metadata are more fully discussed earlier in this report (section 3.1.3).</p>
+
+<a name="s5ss3p1"></a>
+<h4>5.3.1 Registries, Metadata, and Placing Objects in Context</h4>
+<p>Considerable progress is evident in addressing the three concerns specified in the 2003 report. First, various new or enhanced registries, directories, and tools, described in section 4.1, help to meet the need for more user-friendly and comprehensive access to OAI-compliant collections and resources. Second, through work led primarily by the DLF and NSDL in the US along with JISC in the UK, there are renewed efforts to create quality shareable metadata by promoting best practices, organizing training workshops, and "marketing" the value of metadata (refer to section 3.1). Issues of granularity are aided by recommendations to use enriched MODS metadata that describes objects more fully. Meanwhile the quantity of object-level data has mushroomed thus offering users with more coherent content. Third, concerns about providing users with a meaningful "context" if not fully realized, are increasingly remedied by improvements in aligning collections with object-level data and through new visualization and clustering techniques. Moreover there is a better understanding of both the potential and limitations of metadata-driven technical infrastructures. New digital architectures, such as implemented by the NSDL, emphasize relationships among resources (hence give "context") in which metadata plays an important but not singular or preeminent role.</p>
+
+<a name="s5ss3p2"></a>
+<h4>5.3.2 Users and Uses</h4>
+<p>"Users and uses" are frequently the starting point-rather than a by-product-of building distributed libraries. Studies such as "Use and Users of Digital Resources: A Focus on Undergraduate Education in the Humanities and Social Sciences" (Harley et al. 2006), (which is now being adapted to study the sciences by Alan Wolf and Flora McMartin), and JISC's "Disciplinary Differences" (Sparks 2005) offer a more refined articulation of faculty preferences and environmental constraints. Increasingly, user or persona scenarios are developed for a wide variety of purposes such as explaining the need for new technologies (Frumkin 2006b), evaluating repository platforms (Choudhury 2006), or creating new services (American West).<a href="notes.html#n211"> [[211]]</a> Further, virtually all of the services under review in this report have conducted at least one user study. The DLF Aquifer Services Institutional Survey Report (2006) found that most user evaluations by its members come at the point of introducing or updating a service, therefore, DLF Aquifer hopes to develop a model for the "persistent assessment" of how digital resources are used and integrated into various service environments.</p>
+
+<a name="s5ss3p3"></a>
+<h4>5.3.3 Managing Digital Rights and Digital Content Preservation</h4>
+<p>A second broad direction identified in the 2003 report, "finding solutions to digital rights management and digital content preservation" is now being addressed on multiple fronts through numerous high-profile initiatives, a few of which are highlighted here predominantly in relationship to the services under review and OAI-PMH.<a href="notes.html#n212"> [[212]]</a> Inspired in part by the RoMEO Project (Rights MEtadata for Open archiving, described in the 2003 DLF report), the Open Archives Initiative released specifications in May 2005 documenting how to express rights at the record-level and at the repository and set aggregation levels, "Conveying rights expressions about metadata in the OAI-PMH framework."<a href="notes.html#n213"> [[213]]</a> It guides both data and service providers in the optimal way to create and harvest rights management metadata. Directories of journal and publisher's policies regarding self-archiving-another outgrowth of the RoMEO Project-help librarians and authors to determine publishing and distribution options (described in section 4.1). In spring 2006, to provide immediate access to embargoed journal articles, EPrints.org announced the release of a "Request eprint" button in its software to enable interested readers to request authors to supply them with an email full-text version of a restricted access article. In response, DSpace made a similar add-on available, called "RequestCopy" (<a href="http://wiki.dspace.org/RequestCopy">http://wiki.dspace.org/RequestCopy</a>).</p>
+<p>In the vast realm of digital preservation, the PREMIS (PREservation Metadata: Implementation Strategies) Working Group, a team of 30 experts from five countries jointly sponsored by OCLC and RLG, completed its work and released its products, including the Data Dictionary for Preservation Metadata issued in June 2005. The dictionary and associated XML schema are now maintained under the auspices of the Library of Congress (LC) (<a href="http://www.loc.gov/standards/premis/">http://www.loc.gov/standards/premis/</a>). The LC Digital Preservation Web site provides up-to-date news about NDIIPP (National Digital Information Infrastructure and Preservation Program, <a href="http://www.digitalpreservation.gov/">http://www.digitalpreservation.gov/</a>). From here, readers can obtain the latest information about Technical Infrastructure developments, Collaborative Collection Development Partnerships, Research Awards, E-depot for e-journals (Portico), States Initiatives, and Organization Alliances. In the UK, the Digital Curation Centre, established in 2004, is the focal point for research, training, and publication about digital preservation. Finally, the tutorial designed by Cornell University Library, "Digital Preservation Management: Implementing Short-term Strategies for Long-term Problems," won the 2004 publication award from the Society of American Archivists. It provides an excellent introduction to the issues along with a listing of other resources and publications (in need of update as of mid-2006).<a href="notes.html#n214"> [[214]]</a> </p>
+
+<a name="s5ss3p4"></a>
+<h4>5.3.4 Building Personal Libraries and Collaborative Workspaces</h4>
+<p>Among the services under review, there are certainly efforts towards this goal exemplified by NSDL's incorporation of more interactive and social networking features or the Sheet Music Consortium's provision to create personal collections. The Scholars Box (described in section 4.5) is designed to facilitate "interoperability across four intersecting domains of interoperability: educational technology, library services, desktop tools, and social software." Collex, under development at the University of Virginia, is an "open-source collections- and exhibits-builder designed to aid humanities scholars working in digital collections or within federated research environments like NINES" (described in section 4.4.11). Perseus Digital Library hopes to implement "a distributed editing environment whereby users may correct error, comment on topics, create custom commentaries, user guides, discuss issues with other users, and personalize the Perseus experience."</p>
+<p>Community-building is an objective of many of the sites and they encourage collaboration through such activities as peer review, implementation of editorial boards, or integrating user comments about resources. With noticeable advancements towards integration of resources into personal work spaces, many of these services are poised to deliver new user-driven functionality in the not-distant future. However, none of them have yet to attain the level of what ARTstor (<a href="http://www.artstor.org/">http://www.artstor.org/</a>) has to offer in terms of providing users with the tools to manage and integrate externally-created and hosted digital images with personal and institutional collections (Marmor 2006).</p>
+<p>"Save yourself! Free resources for organising, maintaining and sharing the fruits of your web searches," (Bates 2006) reviews personalization and social-networking tools offered by generic and niche services.<a href="notes.html#n215"> [[215]]</a>
+</p>
+
+<a name="s5ss3p5"></a>
+<h4>5.3.5 Putting Digital Libraries in the Classroom and Digital Objects in the Curriculum</h4>
+<p>A major finding of the Center for Studies in Higher Education (UC, Berkeley) about faculty's use of digital resources in undergraduate education, bears reiterating: ". . . they simply do <i>not</i> mesh with faculty members pedagogies" (Harley et al. 2006, 49). If ARTstor represents a superior model of community-responsiveness in developing tools, content, and services that do coincide with instructional practice, there are, nevertheless, examples among many of the services considered in this report where similar efforts are in the planning, if not implementation, stage.</p>
+<p>The NSF/NSDL-funded, Instructional Architect (http://ia.usu.edu/), for example, "allows you to find, use, and share learning resources from the National Science Digital Library (NSDL) and the Web in order to create engaging and interactive educational web pages." Services such as MERLOT have signed agreements with several e-learning platforms, although what they have to share is metadata about learning resources, not the objects themselves. NEEDS architecture supports cataloging in full IEEE-LOM compliant metadata and it reports working on a more extensive cataloging interface to leverage that ability and to provide users with richer metadata of the learning objects. It is modifying its "authority lists" or vocabulary to conform to agreed upon standards, such as currently being done for "learning resource type." Built through a collaborative design process, DLESE Teaching Boxes are "classroom-ready instructional units created by collaboration between teachers, scientists, and designers. Each box helps to bridge the gap between educational resources and how to implement them in the classroom. The Teaching Boxes contain materials that model scientific inquiry, allowing teachers to build classroom experiences around data collection and analysis from multiple lines of evidence, and engaging students in the process of science." (<a href="http://www.teachingboxes.org/">http://www.teachingboxes.org/</a>).</p>
+<p>Repository technology platforms are also seeking solutions to achieve interoperability with e-learning systems. Browsing and searching for content in DSpace via the open source Sakai learning environment (<a href="http://sakaiproject.org/">http://sakaiproject.org/</a>) is already possible and DSpace is now examining integration with Moodle (<a href="http://moodle.org/">http://moodle.org/</a>) and Blackboard (<a href="http://wiki.dspace.org/SakaiIntegration/">http://wiki.dspace.org/SakaiIntegration/</a>).</p>
+<p>Finally, several influential studies and a collaborative JISC/NSF project are worth noting.</p>
+<p>"Interoperability between Library Information Services and Learning Environments - Bridging the Gaps," a Joint White Paper written by Neil McLean and Clifford Lynch on behalf of the IMS Global Learning Consortium and the Coalition of Networked Information (May 10, 2004) scopes out library interactions with the e-learning space, examines issues related to different conceptualizations of repositories and stewardship, and provides an overview of the IMS Digital Repositories Interoperability Framework. <a href="http://www.imsglobal.org/digitalrepositories/CNIandIMS_2004.pdf">http://www.imsglobal.org/digitalrepositories/CNIandIMS_2004.pdf</a>
+</p>
+<p>"Digital Library Content and Course Management Systems: Issues of Interoperation," The Report of a Study Group co-chaired by Dale Flecker and Neil McLean under the aegis of the Digital Library Federation (July 2004), designed a model of instructional "workflow" practices, applied the model to use cases, analyzed what services and practices repository owners should consider when designing their offerings, and created an extensive "checklist" of service requirements and best practices for repositories. <a href="/pubs/cmsdl0407/cmsdl0407.htm#summary">http://www.diglib.org/pubs/cmsdl0407/cmsdl0407.htm#summary</a>
+</p>
+<p>JORUM<i>, a free online repository service for teaching and support staff in UK Further and Higher Education Institutions, helping to build a community for the sharing, reuse and repurposing of learning and teaching materials</i>, has produced a series of useful reports surveying: international e-learning repository initiatives and commercial systems; technical frameworks; open source learning object repository systems; digital rights management; and digital preservation issues. <a href="http://www.jorum.ac.uk/">http://www.jorum.ac.uk/</a>
+</p>
+<p>The Digital Libraries in the Classroom Programme (scheduled to end in July 2006) is an international program jointly funded by JISC and the National Science Foundation (NSF), developed<i> to bring about significant improvements in the learning and teaching process in certain disciplines within higher education in the US and UK, through bringing emerging technologies and readily available digital content into mainstream educational use</i>.  Its four funded projects include:
+<ul>
+<li>The Spoken Word - led by Glasgow Caledonian University and Michigan in partnership with the BBC exploring the use of digital audio in the humanities, <a href="http://www.spokenword.ac.uk/">http://www.spokenword.ac.uk/</a>;</li>
+<li>DialogPlus - a partnership between the University of Southampton, the University of Leeds, Penn State and the University of California, Santa Barbara, working in the Geography discipline, <a href="http://www.dialogplus.org/">http://www.dialogplus.org/</a>;</li>
+<li>DIDET - a partnership between the University of Strathclyde and Stanford University working in the design engineering discipline, <a href="http://www.didet.ac.uk/">http://www.didet.ac.uk/</a>;</li>
+<li>DART - a partnership between the London School of Economics and Columbia University in the discipline of Anthropology, <a href="http://www.columbia.edu/dlc/dart/">http://www.columbia.edu/dlc/dart/</a>.</li>
+</ul>
+</p>
+
+<a name="s5ss3p6"></a>
+<h4>5.3.6 Promoting Excellence</h4>
+<p>Mechanisms to promote excellence are often built into the structure of the services under review, for example by establishing submission routines to ensure author credibility (e.g. arXiv's user endorsement system), guidelines for metadata compliance (e.g., OLAC's metadata report card evaluation system), creating peer-review systems (e.g., BEN), setting up editorial boards (e.g., NINES), and distributing awards for excellence (e.g., NEEDS Premier Award for courseware). Projects like the "Cream of Science" in the Netherlands meet the twin goal of fulfilling institutional repositories while showcasing the work of top scholars (<a href="http://www.creamofscience.org/">http://www.creamofscience.org/</a>).</p>
+<p>The Certificate of the DINI German Initiative for Network Information (described in section 4.1) serves as quality filter for institutional data providers by supporting minimum standards and recommendations. The Certificate is awarded to the repository after review by a distributed group of experts. As of May 2006 there are nineteen DINI-certified document servers (<a href="http://www.dini.de/dini/zertifikat/zertifiziert.php">http://www.dini.de/dini/zertifikat/zertifiziert.php</a>).</p>
+<p>At a systemic level, the standards and best practices discussed in this report (e.g., those promoted by the DLF, NSDL, NISO, etc.) are intended to improve the overall quality and interoperability of distributed libraries. Geared towards preservation and long-term sustainability of digital resources, the RLG-NARA "Audit Checklist for the Certifying Digital Repositories" (draft of August 2005), builds on the Open Archival Information System (OAIS) Reference Model (ISO 14721) adopted in 2002 and related high-level articulation of the attributes and responsibilities for trusted, reliable sustainable digital repositories (RLG and OCLC 2002). Efforts to move this proposal forward to implementation are underway at the Center for Research Libraries, through a grant funded by The Andrew W. Mellon Foundation, Participating archives include the Royal Library of the Netherlands, Portico, the Inter-university Consortium for Social Science Research (ICPSR), and LOCKSS (Lots of Copies Keep Stuff Safe).<a href="notes.html#n216"> [[216]]</a>
+</p>
+
+
+
+<a name="s5ss4"></a>
+<hr width="75%" />
+<center>
+<h3>5.4 The Pulse in 2006</h3>
+</center>
+
+<a name="s5ss4p1"></a>
+<h4>5.4.1 Acceptance of OAI-PMH and Growth in Adoption</h4>
+<p>This report leaves little doubt that the Open Archives Initiative Protocol for Metadata Harvesting has witnessed remarkable international adoption and growth since 2003. In case after case, the aggregations under review recorded sizeable gains in the number of records available via their services, frequently noting this growth as one of their three most significant accomplishments. More than 1,000 OAI-compliant archives are active across at least 46 countries with an estimated seven million links to full digital object representation. OAI modules have become a standard feature in institutional repository software and e-publishing platforms-whether open source or commercial. This trend is perhaps best exemplified by the highly acclaimed HighWire Press, which has a well-established tradition of offering free access to a large proportion of its journal article database, but d&eacute;buted as a registered OAI data provider in 2006, starting with Oxford University Press journals (<a href="http://openarchive.highwire.org/">http://openarchive.highwire.org/</a>).<a href="notes.html#n217"> [[217]]</a> Adoption is likely to accelerate as more countries view OAI implementation as a fast-track to bring increased visibility to indigenous scholarship.</p>
+<p>Along with the good news come two cautionary tales. First, the bulk of OAI items with full-object representation come from a limited number of countries and sites. Data derived from both ROAR and OAIster suggest that half of all records are supplied by repositories in the United States, United Kingdom, and Germany; and that the largest top 20 services constitute 70 percent or more of all records (see Appendix 04). The influence of a handful of repositories is undeniable, for example, CiteSeer, PubMed Central, arXiv, and American Memory. In contrast to these services, the average deployment has fewer than 12,000 items and the median hovers around 500 records. Overall, thematic- or discipline-based archives have been more effective thus far in attracting content than university-based repositories. Aside from IRs built around research agencies such as the U.S. Office of Scientific and Technical Information (OSTI) or CERN in Switzerland, university IRs appear to have relatively few full-text resources. The largest IR in OAIster, Demetrius Australia National University Institutional Repository, had 42,000 items as of March 2006. As discussed in this report, the situation will change dramatically if and when more "self-archiving" mandates are invoked by institutions, funding agencies, or through national legislation.</p>
+<p>Secondly, there is growing awareness of the limitations of OAI-PMH and the Dublin Core metadata standard that "underpin much of the current repository activity" along with a call to develop a model and mechanisms to handle "complex objects held in repositories . . . in a more fully automated and interoperable way" (Heery and Powell 2006, 18). A meeting sponsored and supported by Microsoft, The Andrew W. Mellon Foundation, the Coalition for Networked Information, the Digital Library Federation, and JISC explored these issues with the intention of reaching "agreement on the nature and characteristics of a limited set of core, protocol-based repository interfaces (REST-full and/or SOAP-based Web services) that allow downstream applications to interact with heterogeneous repositories in an efficient and consistent manner; compile a concrete list of action items aimed at fully specifying, validating and implementing such repository interfaces; and devise a timeline for the specification, validation and implementation of such repository interfaces" (OAI News, <a href="http://www.openarchives.org/news/news2.html#InterOp">http://www.openarchives.org/news/news2.html#InterOp</a>).</p>
+
+<a name="s5ss4p2"></a>
+<h4>5.4.2 Interoperability in an International Framework</h4>
+<p>Strategic planning for interoperability takes place increasingly in the international arena. Open access converges with open source platforms and open standards that are worked out with international input. Whether the discussion revolves around e-learning, e-research or Web publishing, many projects, principles, platforms, and policies bridge national borders. Examples abound throughout this report from bi-national partnerships such as the JISC (UK) and DEST (Australia) e-Framework, to transnational movements like the Berlin Declaration on Open Access. DSpace, EPrints.org, and Fedora are international communities of practice. NISO's Metasearch Initiative has involved more than 60 individuals from five countries (Hodgson, Pace and Walker 2006). Systems to measure use and research impact are attempting to synchronize efforts across national borders.</p>
+<p>Service providers surveyed in this report identify both accomplishments and challenges of an international dimension. OLAC is actively tively engaged in establishing best practices in digital language documentation, calling out for better language identification in metadata. The Library of Congress is taking a leadership role with OCLC and the Deutsche Bibliothek to harmonize millions of people's names across catalogs (name authority control) through the creation of the Virtual International Authority File. At the same time, LC seeks more tools to support multilingual search and display, as it moves to create the Global Gateway. MERLOT has joined up with GLOBE (Global Learning Objects Brokered Exchange) international consortium and offers federated searches across the European, Ariadne, and Australian, EdNA learning object collectives. CiteSeer and arXiv have established mirror sites on an international basis. The CERN Document Server translates its services in 14 languages and the NDLTD Union catalog represents ETD content in more than 25 languages.</p>
+<p>In comparison to many other countries where higher education strategic planning and funding of networked infrastructures and digital services are coordinated by centralized agencies, the situation in the United States is much more decentralized involving a variety of public and private funding agencies (e.g., NSF, IMLS, Mellon, Hewlett), higher education coalitions and federations (e.g., CNI, Educause) and library-related entities (e.g., DLF, OCLC/RLG, the Library of Congress, ARL). The California Digital Library, Digital Library Federation, National Science Digital Library, and National Digital Information Infrastructure and Preservation Program stand out as four different models used in the US to pursue high-level, multi-dimensional digital agendas across a wide sector of stakeholders. Still, in contrast to concerted investigations in the UK and the Netherlands, for example, in the realm of connecting digital repositories to national and pan-European networks, the United States higher education community lacks a widely accepted organizational vehicle for developing parallel frameworks.</p>
+
+<a name="s5ss5p3"></a>
+<h4>5.4.3 Sustainability and Funding-Ubiquitous Concerns</h4>
+<p>The most common challenge and resource requirement cited by survey respondents revolved around funding and staffing. This concern cut across all services irrespective of status, business model, organizational structure, community of practice, or subject domain. Survey respondents noted:
+<ul>
+<li>arXiv: "staff time and money"</li>
+<li>OAIster: "need to recruit a programmer"</li>
+<li>OLAC: "sponsorship for maintaining core services; guidance on long-term funding sources other than research agencies"</li>
+<li>NSDL: "lack of funding to offer more teacher workshops in how to use NSDL . . ." and "lack of a well-funded corporate and foundation outreach program to diversify sustainability options"</li>
+<li>NEEDS: "sustainability planning"</li>
+<li>MERLOT: "high demand but limited resources"</li>
+<li>Cornucopia: "funding"</li>
+<li>Heritage West: "sustained funding"</li>
+<li>Aquifer: "outside funding that would allow dedicated project staff; support for service model development to evaluate organizational effectiveness and to plan for sustainability"</li>
+<li>SouthComb: "sustainability of service: managing the transition from project to ongoing program"</li>
+<li>Perseus: "meeting needs of growing audience with limited resources, including providing adequate user support; ability to maintain current services while also implementing research agendas"</li>
+<li>NINES: "funding to sustain the developing infrastructure; funding to move paper-based journals that want to become part of the NINES project to online operations"</li>
+<li>INFOMINE: "continued funding of programmers and metadata specialists"</li>
+</ul>
+This collective &laquo; cri de c&oelig;ur &raquo; begs for widespread, cross-sector dialogue, training, and strategic action, drawing on the findings of Zorich (2003), Bishoff and Allen (2004), Berkman (2004) and the work of NSDL's Sustainability Standing Committee, especially its Sustainability Matrix and Vignettes (<a href="http://sustain.comm.nsdl.org/">http://sustain.comm.nsdl.org/</a>).<a href="notes.html#n218"> [[218]]</a> Addressing funding and sustainability dovetails with the need to improve the marketing of these services and integrate them into existing scholarly information systems.</p>
+
+<a name="s5ss5p4"></a>
+<h4>5.4.4 Next Generation Service Characteristics</h4>
+<p>Culled from survey responses, these "next generation" service features-many of which are under development if not already deployed-are grouped according to what they offer users and advantages they will bring to service providers.<a href="notes.html#n219"> [[219]]</a>
+</p>
+<p>From the user perspective, next generation services:
+<ul>
+<li>Will be developed with a better understanding of user needs and reflect the "scholars' voice."</li>
+<li>Will be trusted and preferred, offering valuable services beyond generic search engines.</li>
+<li>Will be fully integrated with other scholarly resources and embedded in scholarly environments, thus more widely used in learning, teaching, and research.</li>
+<li>Will offer mechanisms for scholars to disseminate research findings and to navigate the literature by citation linking and impact rankings. Will enable scholars to measure usage and impact. Similarly, will permit instructors to assess the pedagogic value of digital resources used in different teaching settings.</li>
+<li>Will enable easy discovery of appropriate metasearch portals and the ability to dynamically select resources to be metasearched at the moment of query.</li>
+<li>Will support sound and video recording; natural language queries in multi-lingual environments; data and text mining; dynamic clustering; interpretation and analysis; side-by-side comparison, manipulation, and re-use of digital objects in local environments.</li>
+<li>Will offer more push technologies, community-building tools (threaded discussion forums, blogs, newsletters), collaborative tools (share baskets, alerts, annotations, comments, reviews), and interactive features.</li>
+<li>Will leverage multiple online and face-to-face interactions as repeat users become contributors in a timely and transparent way.</li>
+</ul>
+From the service provider perspective, next generation services:
+<ul>
+<li>Will have more easy to use tools that allow collections to become OAI compliant along with mechanisms for service providers to better assess OAI conformance and communicate shortcomings efficiently with data providers.</li>
+<li>Will have more automated, robust, flexible open source tools for metadata creation, normalization and enrichment. Barriers to participation will be lower, while quality becomes higher.</li>
+<li>Will have the means to automatically ingest digital objects, along with bulk-loading tools (OAI-based at first) to ingest applicable, already-cataloged collections quickly. Tools to mine data from existing catalogs and authority files will improve ingested records.</li>
+<li>Will reduce administrative time and labor through better facilities and easier submission processes.</li>
+<li>Will offer collaborative tools that allow trusted others to contribute to or edit site records remotely; and improved object relational management systems;</li>
+<li>Will have automated means to cleanse metadata and manage duplicate records.</li>
+<li>Will speed up indexing as there is more support for OAI-PMH flow control.</li>
+<li>Will have standards and mechanisms in place to measure and share usage and impact values across repositories.</li>
+<li>Will lead to improved search and retrieval systems through automated, dynamic classifiers and semantic clustering techniques. Tools will be in place to support surfacing topical cohesiveness across highly heterogeneous aggregated collections.</li>
+<li>Will deploy user quality metrics for metasearch systems, making it possible to customize search and retrieval to specific user needs. Improved classifiers and crawlers will help to scale with the increase of scholarly resources.</li>
+<li>Will enjoy widespread adoption of search protocols (e.g., SRU, MXG) by vendors and aggregators. Digital library service registries will enable effective machine-to-machine and direct end-user access to requested resources.</li>
+<li>Will enable deep sharing through experimentation with aggregation other than metadata harvesting, resulting in the capacity to move digital objects from domain to domain, along with the ability to modify and re-deposit them in a different location in the process.</li>
+<li>Will feature new cluster and file systems that help to automate building and deploying digital libraries, making it easy for users to install and utilize them.</li>
+</ul>
+</p>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a>&nbsp;&nbsp;<a href="DLF106part3c.html" class="link">&lt;&lt; previous</a>&nbsp;&nbsp;<a href="appendices.html" class="link">next &gt;&gt;</a></p>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2005 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+</blockquote>
+
+
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

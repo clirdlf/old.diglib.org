@@ -1,0 +1,85 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4608" notessizey="6048"
+  gridspacingx="49152" gridspacingy="49152" omittitleplace="t">
+  <p:master id="44" slidesn="1C00DA9,3702FA30" type="main" href="master44.htm"
+   xmlhref="master44.xml" template="Pixel" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#000066,#ffffff,#0066ff,#ffffff,#6699ff,#3333ff,#ffcc00,#0000cc"/>
+    <p:colorscheme
+     colors="#334b49,#ffffff,#009999,#ffffff,#33cccc,#008080,#ffcc00,#006666"/>
+    <p:colorscheme
+     colors="#333399,#ffffff,#006699,#ffffff,#0099cc,#0386af,#ffcc00,#6699ff"/>
+    <p:colorscheme
+     colors="#2f978d,#ffffff,#008080,#ffffff,#0099ff,#009999,#ffffcc,#70cac6"/>
+    <p:colorscheme
+     colors="#330000,#ffffff,#822504,#ffffff,#ff9900,#9e2a06,#ff3300,#7c0704"/>
+    <p:colorscheme
+     colors="#4a7911,#ffffff,#336600,#ffffff,#666633,#669900,#ffcc00,#99cc00"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#cc3300,#000000,#ffcc00,#cc6600,#663300,#cc9900"/>
+    <p:colorscheme
+     colors="#ffffff,#003300,#336600,#000000,#cccc00,#669900,#333300,#99cc00"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#440044,#000000,#ffcccc,#790571,#993366,#9f839f"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#ff9900,#000000,#ffcc99,#fba313,#cc3300,#fcc66e"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#779f92,#000000,#33cccc,#9dc2d7,#006666,#ccccff"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#00007d,#000000,#9999ff,#9999cc,#666699,#cccce6"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="45" slidesn="1C00DA9,3702FA30" type="title" href="master45.htm"
+   xmlhref="master45.xml" layout="title_subtitle"
+   slots="centerTitle,subTitle,dateTime,footer,slideNumber"/>
+  <p:master id="1" slidesn="1C5E3CF,40C73660" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C6C728,2EE7F2D0" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="1" slidesn="1C5E3CD,84A25880" href="slide0001.htm"
+   masterhref="master45.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle"/>
+  <p:slide id="13" slidesn="1C6C634,92BC70A0" href="slide0013.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="12" slidesn="1C6C634,54A29CE0" href="slide0012.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="11" slidesn="1C5E3CD,EFF10C80" href="slide0011.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="9" slidesn="1C6C633,EAA8F190" href="slide0009.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="15" slidesn="1C6C71D,E0573B30" href="slide0015.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="3" slidesn="1C5E3CF,B0A53680" href="slide0003.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="4" slidesn="1C5E418,85BB4D80" href="slide0004.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="6" slidesn="1C5E419,D360A9D0" href="slide0006.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="5" slidesn="1C5E419,42718B60" href="slide0005.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="7" slidesn="1C5E41B,57EA4CF0" href="slide0007.htm"
+   layout="title_body" slots="title,body"/>
+  <p:slide id="8" slidesn="1C5E41B,F85B7380" href="slide0008.htm"/>
+  <p:slide id="14" slidesn="1C6C71D,6567FA90" href="slide0014.htm"
+   layout="title_body" slots="title,body"/>
+  <p:viewstate type="slideView" restoredleft="156" restoredtop="946"
+   hideoutlineicons="t"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="Times New Roman" charset="0" type="6" family="18"/>
+  <p:font name="Wingdings" charset="2" type="6" family="2"/>
+  <p:font name="Arial Black" charset="0" type="6" family="34"/>
+  <p:headersfooters slidenumber="t" footerstr="Halbert - DLF Fall Forum 2005"
+   formatid="0" nofooter="t" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="63508">
+  <o:colormru v:ext="edit" colors="#777,#969696,silver,#b2b2b2"/>
+  <o:colormenu v:ext="edit" fillcolor="#969696"/>
+ </o:shapedefaults></xml>

@@ -1,0 +1,975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<title>Johns Hopkins University.  Digital Library Federation Newsletter. Vol 5 (2004)</title>
+<meta content="" name="dc.Title" />
+<meta content="" name="dc.Creator" />
+<meta content="Newsletter" name="dc.Subject" />
+<meta content="" name="dc.Description" />
+<meta content="Digital Library Federation. Washington, DC" name="dc.Publisher" />
+<meta content="" name="dc.Contributor" />
+<meta content="2004-00-00" name="dc.Date" />
+<meta content="text" name="dc.Type" />
+<meta content="text/html" name="dc.Format" />
+<meta content="" name="dc.Identifier" />
+<meta content="none" name="dc.Source" />
+<meta content="en-us" name="dc.Language" />
+<meta content="http://www.diglib.org/" name="dc.Relation" />
+<meta content="none" name="dc.Coverage" />
+<meta content="Copyright 2004, Digital Library Federation. Publicly-accessible" name="dc.Rights" />
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+ /* Font Definitions */
+ @font-face
+  {font-family:Tahoma;
+  panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+
+h1
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:16.0pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h2
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:14.0pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h3
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h4
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+p
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  text-indent: 0cm; 
+}
+
+ul
+{list-style-type: circle;
+}
+
+ol
+{list-style-type: lower-roman;
+}
+
+li
+  {line-height: 1.5;
+}
+
+.titlepage {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	background-color: #CCCC99;
+}
+
+.TOC {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;
+}
+
+.collections {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	background-color: whitesmoke;	
+}
+
+.services {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.systems {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.projects {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.programs {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.challenges {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.bibl {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+-->
+/*]]>*/
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/logo_r.gif','../../images/collect_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  
+<tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+    <td width="50" height="45" valign="top"><a href="../../forums.htm"><img src="../../images/forum.gif" alt="Link: Forum" width="50" height="27" border="0" /></a></td>
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+    <td width="53" height="45" valign="top"><a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr class="noprint">
+    <td width="50" height="50" colspan="6" valign="top">
+<a href="/search.html">
+<img src="../../images/search.gif" alt="Search this site" border="0" /></a>
+
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"> <span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();"><img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+              <img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> 
+            </form> -->
+
+</td>
+        </tr>
+  
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+    <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+    <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top">
+<a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="117" height="38" border="0" />
+</a></td>
+  </tr>
+  <tr>
+
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+          <td valign="top">
+<img src="../../images/chip.gif" alt="photo of computer chip" width="56" height="59" />
+</td></tr>
+
+        <tr> 
+          <td align="left" valign="top"> 
+
+</td>
+        </tr>
+      </table> 
+
+</td>
+
+    <td width="584" height="634" colspan="9" valign="top">
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td height="99" colspan="3" align="left" valign="top"> 
+
+<!-- TEXT STARTS HERE -->
+
+
+
+
+<div class="titlepage"> 
+  <h1>Johns Hopkins University Sheridan Libraries</h1>
+
+    <h2>Report to the Digital Library Federation<br />
+    October 22, 2004</h2>
+</div>
+
+<div class="TOC">
+<h2>TABLE OF CONTENTS</h2>
+
+<ol>
+<li>  <a href="#sec1">Collections, services, and systems</a>  </li>
+<li>  <a href="#sec2">Projects and programs</a>  </li>
+<li>  <a href="#sec3">Specific digital library challenges</a>  </li>
+<li>  <a href="#sec4">Digital library publications, policies, working papers, and other documents</a> </li>
+</ol>
+
+</div>
+
+<hr align="center" width="75%" />
+
+<div class="Section1">
+<h1><a name="sec1">I. Collections, services, and systems</a></h1>
+
+<div class="collections">
+<h2>A. Collections</h2>
+
+<blockquote>
+
+    <h3>Maryland ArtSource </h3>
+    <p>Based at the Sheridan Libraries, Maryland ArtSource is the collaborative 
+      effort of eight cultural and arts organizations in Baltimore dedicated to 
+      promoting art information resources that illuminate Maryland art and artists. 
+      The site showcases Maryland's artistic and cultural heritage, and features: 
+    </p>
+    <ul><li>selected art collections</li>
+     <li>biographies of Maryland artists </li>
+      <li>links to art and photography collections at area colleges and universities, 
+      libraries, museums, and historical societies.</li>
+	 </ul>
+    <p>The National Endowment for the Arts awarded $20,000 to Maryland ArtSource 
+      in 2004 to expand the site's resources on Maryland artists and broaden its 
+      reach to include the state's photographic heritage.<br />
+    </p>
+	<a href="http://www.marylandartsource.org/"> http://www.marylandartsource.org/</a> 
+    <h3>Medieval Manuscripts - Le Roman de la Rose</h3>
+    <p>A virtual collection of Medieval manuscripts from four libraries has been 
+      created to test ways of presenting manuscripts in digital format. This collection 
+      enables scholars to conduct comparative research on different versions of 
+      Le Roman de la Rose. Designed by librarians, scholars and information technology 
+      specialists, the site features: </p>
+    <ul><li>Complete transcriptions of three manuscripts and the ability to search 
+      the entire text of three manuscripts including searches for word frequency, 
+      spelling variations, and rhyming patterns.</li>
+      <li>Images of each folio in 6 manuscripts of Le Roman de la Rose, a principal 
+      Medieval text, from the collections of the Walters Art Museum, the Getty 
+      Museum, Oxford University, and the Morgan Library.</li>
+      <li>Ability to "page" through the manuscripts folio by folio 
+      and access the transcription from the folio image screen.</li>
+      <li>Ability to view the same passage in all three manuscripts as a result 
+      of a search query, and to view multiple folio images and/or transcriptions 
+      on the same screen.</li>
+      <li>Ability to search the miniatures of three manuscripts using controlled 
+       vocabulary</li></ul>
+    <p><a href="http://rose.mse.jhu.edu/">http://rose.mse.jhu.edu/</a> </p>
+    <h3>Lester S. Levy Collection of Sheet Music </h3>
+    <p>The Lester S. Levy Collection of Sheet Music <a href="http://levysheetmusic.mse.jhu.edu/"> 
+      (http://levysheetmusic.mse.jhu.edu/</a>) contains 30,000 pieces of music 
+      and focuses on popular American music spanning the period 1780 to 1960. 
+      Both the sheet music covers and the scores have been digitized. Highlights 
+      include:</p>
+    <ul><li> Images of the covers and each page of music published before 1923 
+      and in the public domain </li>
+      <li>Search capability </li>
+      <li>Digital workflow management system is currently under development 
+      which is designed to reduce the amount of human labor for large-scale digitization 
+      projects.</li>
+      <li>Optical Music Recognition (OMR) capability, allowing pages of sheet 
+      music to be interpreted by a computer, is also being developed within the 
+      framework of the Gamera system. OMR will allow users to play the music on 
+      a MIDI synthesizer and will enable the storage of large quantities of music 
+      in a database which can then be searched with a music search engine and/or 
+      analyzed with automatic musical analysis tools.</li>
+    </ul>
+    <blockquote> 
+      <p>Optical Music Recognition Demo (<a href="http://www.dkc.jhu.edu/gamera/demo/index.html">http://www.dkc.jhu.edu/gamera/demo/index.html</a></p>
+      </blockquote>
+    <p>The Sheridan Libraries are members of the Sheet Music Consortium, which 
+      includes the Library of Congress, UCLA, Brown, Indiana, and Duke. The Sheridan 
+      Libraries and the Library of Congress sponsored the 4th annual International 
+      Conference on Music Information Retrieval (ISMIR), held October 26 - 30, 
+      2004 in Baltimore, Maryland. Over 150 participants from 21 countries attended. 
+      <br />
+      <a href="http://ismir2003.ismir.net/">http://ismir2003.ismir.net/</a></p>
+</blockquote>
+</div>
+
+<div class="services">
+<h2>B. Services</h2>
+
+<blockquote>
+<p>
+Services may include user-profiling services, online reference
+services, services supporting interlibrary loan or the use of
+electronic reserves. Details below.</p>
+
+    <h3>Center for Educational Resources</h3>
+     
+    <p> The Center for Educational Resources (CER) partners with faculty to extend 
+      their instructional impact through the integration of digital technologies 
+      and innovative teaching strategies. Located in the library the Center's 
+      mission aligns with the evolving role of university libraries as they advance 
+      from print-based repositories to electronic collaboratories that enable 
+      application of digital collections and networked services to new approaches 
+      in instructional and scholarly communication. The CER's popular Technology 
+      Fellows Program (<a href="http://www.cer.jhu.edu/index.cfm?pageID=269">http://www.cer.jhu.edu)</a> 
+      awards mini-grants to faculty and students projects that enhance pedagogy, 
+      facilitate access to course materials, encourage active learning and promote 
+      student/teacher collaboration.</p>
+    <p>The CER will present a symposium on November 9, 2004, to mark the completion 
+      of a major humanities initiative to develop electronic resources that support 
+      critical thinking skills in students of the humanities. The event features 
+      14 projects, funded in part by the Arthur Vining Davis Foundations, that 
+      range across the disciplines of art history, archeology, documentary photography, 
+      fiction and poetry, film studies, philosophy, "great books,"and 
+      history. Each project is unique, but shares the theme of developing exciting 
+      new digital resources that inform undergraduate study and research in the 
+      discipline in question. </p>
+    <p><a href="http://www.cer.jhu.edu/"> http://www.cer.jhu.edu/</a><br />
+    </p>
+
+    <h3>Virtual Library Services for Alumni</h3>
+    <p>Hopkins KnowledgeNET, a Web-based service devoted exclusively to Hopkins 
+      alumni, was launched in the spring of 2004. A joint venture of the Sheridan 
+      Libraries and the Johns Hopkins Alumni Association, it offers free access 
+      to hundreds of journals, newspapers and e-books, and fee-based access to 
+      an expanded set of resources, such as the Harvard Business Review, The Economist, 
+      and the many other resources. The service also provides toll-free phone, 
+      e-mail and fax access to a dedicated KnowledgeNET librarian. Over 100 alumni 
+      have already subscribed to the fee-based service since the launch.<br />
+    </p>
+</blockquote>
+  </div>
+
+<div class="systems">
+<h2>C. Systems</h2>
+
+<blockquote>
+<p>Systems may include reports by members on their development,
+implementation or experience of various applications and software
+whether developed locally, acquired from a third party. etc.
+Reports might focus on integrated library systems, application
+specific software or software components, applications developed
+by members for specific functions. Details below.</p>
+
+    <h3>Digital Hammurabi </h3>
+	<p>
+      Digital Hammurabi is a major, cross-disciplinary effort originating at Johns 
+      Hopkins aimed both at making very high resolution, three dimensional models 
+      of cuneiform tablets available to every researcher's desktop and at producing 
+      an international standard Unicode encoding for cuneiform text. Major goals 
+      include:</p>
+    <ul><li>Production of a portable, non-contact, user-friendly, very high resolution 
+      3D surface scanner that can scan all facets of an average cuneiform tablet 
+      in under a minute while implementing scantime adaptive resolution down to 
+      10 micrometers (i.e., 100 lines per millimeter - at least 4 times finer 
+      than currently available resolutions) </li>
+      <li>Creation of new computer algorithms to stitch gigabytes of raw data 
+      together into coherent, virtual tablets for real-time, multi-resolution 
+      rendering, self-shading, and manipulation by researchers over fast Internet2 
+      connections using software of our own design. </li>
+    </ul>
+	<p><a href="http://www.jhu.edu/digitalhammurabi/"> http://www.jhu.edu/digitalhammurabi/</a></p>
+
+    <p>Jonathan Cohen in Johns Hopkins Computer Science department is now the 
+      principal investigator for this project.</p>
+  
+  <h3>CAPM (Comprehensive Access to Print Materials)</h3>
+    <p>CAPM focuses on the evaluation and development of a robotic system that 
+      will provide real-time access, through a Web interface, to materials shelved 
+      in off-site locations. Also collaborating on the project are faculty from 
+      the Departments of Mechanical Engineering and Geography and Environmental 
+      Engineering at Johns Hopkins and faculty from the Economics Department at 
+      the University of Colorado at Boulder.</p>
+    <p>The first phase of the CAPM Project produced a prototype retrieval robot 
+      and an economic analysis of the potential costs and benefits. The economic 
+      analysis framework is applicable for assessing general library services.</p>
+    <p><a href="http://dkc.mse.jhu.edu/CAPM/">http://dkc.mse.jhu.edu/CAPM/</a></p>
+    <h3>Gamera</h3>
+    <p>Gamera is a system for developing document recognition applications, 
+      though it is not itself a document recognition application. Developing 
+      a document recognition system with Gamera is designed to be as easy as 
+      possible, but still requires a considerable time commitment.<br />
+    </p>
+    <p><a href="http://dkc.mse.jhu.edu/gamera/index.php3#Introduction">http://dkc.mse.jhu.edu/gamera/index.php3#Introduction</a></p>
+    <h3>Information Technology Research</h3>
+      <p>
+      The proposed Information Technology Research, funded by the National Science 
+      Foundation, will result in a fully automated robotic system to include:</p>
+    <ul><li>An on-demand and batch scanning of print materials (CAPM) </li>
+      <li>An open-source software framework for document analysis that can be 
+      trained and calibrated by Humanities scholars (Gamera).</li>
+	  </ul>
+    <p> The resulting system will include an inter-linked mechanism between CAPM 
+      and Gamera. To evaluate different techniques for document analysis, including 
+      Gamera, we will build a testbed of digital images. Gamera will be designed 
+      according to the principles of usability which include effectiveness, efficiency 
+      and satisfaction.<br />
+    </p>
+    <h3>Services for a Customizable Authority Linking Environment (SCALE)</h3>
+      <p>Johns Hopkins and Tufts University researchers are collaborating to provide 
+      two broad classes of service to National Science Digital Library users: 
+    </p>
+    <ul>
+      <li>automatic linking services that bind key words and phrases to supplementary 
+        information; such automatic linking services are already in place in the 
+        Perseus Digital Library (<a href="http://www.perseus.tufts.edu/">http://www.perseus.tufts.edu/</a>)</li>
+      <li>infrastructure to support automatic linking based on authority control 
+        of names and terms and on links among different authority lists such as 
+        thesauri, glossaries, encyclopedias, subject hierarchies, and object catalogs.</li>
+    </ul>
+    <p>SCALE Web Site (<a href="http://nils.lib.tufts.edu/scale/">http://nils.lib.tufts.edu/scale/</a>)</p>
+    <p><a href="http://www.dkc.jhu.edu/scale_project.html">http://www.dkc.jhu.edu/scale_project.html</a><br />
+    </p>
+</blockquote>
+
+  </div>
+</div>
+
+<hr align="center" width="75%" />
+
+<div class="section2">
+<h1><a name="sec2">II. Projects and programs</a></h1>
+
+<div class="projects">
+<h2>A. Projects</h2>
+
+    <h3>Projects in progress in 2004: </h3> 
+
+<blockquote>      
+    <h3>Digital Audio Archive Project (DAAP)</h3>
+      
+    <p>The Sheridan Libraries are collaborating with Indiana University on this 
+      project. The main goal of the current project, funded by the Institute For 
+      Museum and Library Services (<a href="http://www.imls.gov/">http://www.imls.gov/</a>), 
+      is to digitize about one-third of the music collection to ensure scalability 
+      then determine the cost and the feasibility of digitizing the entire Archive 
+      and similar collections. The project will: </p>
+      
+    <ul>
+      <li>Develop and design workflow management for audio tape ingestion, including 
+        finding the best hardware (tape machines) and using appropriate methods 
+        required to digitize aging analog audio tapes.</li>
+      <li>Evaluate existing metadata formats (MPEG 7 / 21, Dublin Core, MusicBrainz) 
+        for recorded music and expand if necessary to create a catalogue.</li>
+      <li>Evaluate the potential of using native XML databases along with XSLT/XQuery 
+        for searching (remote access, exchange) of metadata. </li>
+      <li>Evaluate the feasibility of using open-source software and inexpensive 
+        hardware as foundations for search and distribution of terabyte-scale 
+        data: IDLE (Inexpensive Digital Library Engine).</li>
+      <li>Clarify the copyright issues of the Archive.</li>
+      <li>Collect user feedback and assess usability.</li>
+          </ul>
+    <p><a href="http://www.dkc.jhu.edu/pdaap_project.html"> http://www.dkc.jhu.edu/pdaap_project.html</a></p>
+   <h3>Evaluation of repository, e-publishing, and digital preservation technologies</h3> 
+       
+    <p>Development and evaluation of technologies supporting repositories and 
+      repository interoperability, learning and collaboration, e-publishing, metadata 
+      management, and digital preservation. <a href="http://dkc.jhu.edu/projects.html">http://dkc.jhu.edu/projects.html</a> </p>
+      <h3>National Digital Information Infrastructure and Preservation Program (NDIIPP)</h3>
+      <p>Archive Ingest and Handling Test <br />
+      This project is testing the best methods and strategies for the long-term 
+      preservation of digital collections. </p>
+    <p>Multiple digital "repository systems" are being evaluated to 
+      determine how well each performs the process of "ingesting" and 
+      sharing a massive collection of over 57,000 digital images, Web pages and 
+      other digital records surrounding the September 11, 2001 attacks. </p>
+    <p>Through the evaluation, a set of policies and processes will be developed 
+      for large-scale digital repositories to form the foundation of an open, 
+      modular digital library infrastructure that will support the diversity and 
+      scale of a broad range of digital content. <br />
+      Other ongoing systems evaluations include: <br />
+      
+    </p><ul>
+      <li>Dspace</li>
+      <li>Fedora</li>
+      <li>DiVA (Uppsala University)</li>
+      <li>ETD Software</li>
+      <li>e-prints</li>
+      <li>WebWare (commercial digital asset management system)</li>
+      <li>OKI-compliant courseware</li>
+      <li>LOCKSS</li>
+      <li>Sakai (via membership in Sakai Educational Partners Program)</li>
+      <li>locally developed applications<br />
+      </li>
+    </ul>
+</blockquote>
+  </div>
+
+
+
+<hr align="center" width="75%" />
+
+<div class="section3">
+<h1><a name="sec3">III. Specific Digital Library Challenges</a></h1>
+
+
+    <div class="challenges"> 
+<blockquote>      
+<h2>Usability </h2>
+      <p>Ubiquity does not guarantee usability. "Click here." Familiar 
+        words and common interface elements contribute to the usability of a Web 
+        site, but many other aspects are involved. The Sheridan Libraries are 
+        engaged in evaluating the "usability" of sites to determine 
+        how to create an interface that is efficient, satisfying, and easy to 
+        use, to learn, and to remember. Usability evaluation involves selecting 
+        some of the various methods designed to glean this information and applying 
+        them iteratively, from the early stages of a Web site's development through 
+        its active use. Methods include: </p>
+      <ul><li>Interviews</li>
+        <li>focus groups</li>
+        <li>card-sorting tests</li>
+        <li>link-naming tests</li>
+        <li>scenario-based tests</li>
+        <li>cognitive walkthroughs </li>
+        <li>heuristic evaluations</li>
+	  </ul>
+      <p>Many of these methods invite the library's "target users" to 
+        discuss their needs and goals in using the library's Web resources and 
+        to participate in sessions in which library staff observe their use of 
+        a library Web site. In addition to providing usability evaluation for 
+        various library Web projects, research is also conducted on digital library 
+        usability, with the goal of finding the best methods for evaluating the 
+        usability of digital library resources.</p>
+      <p>In 2004, usability testing was employed extensively in the re-design 
+        of the Sheridan Libraries' Web site. The site launched in August 2004, 
+        and usability testing has been formalized as an on-going evaluation tool.</p>
+      <p><a href="http://www.dkc.jhu.edu/dkc_usability.html"> http://www.dkc.jhu.edu/dkc_usability.html</a><br />
+      </p>
+ </blockquote>
+   </div>
+</div>
+
+<hr align="center" width="75%" />
+
+<div class="section4">
+<h1><a name="sec4">IV. Digital library publications, policies, working papers, and other documents</a></h1>
+
+    <div class="bibl"> 
+      <ul>
+        <li>Martino, Jim. 2004. Is Metadata Too Subjective? MELD, the MedBiquitous 
+          E-Learning Discourse, an online community. <a href="http://meld.medbiq.org/divergent_views/metadata_martino.htm">http://meld.medbiq.org/divergent_views/metadata_martino.htm</a> 
+          .<br />
+          <br />
+        </li>
+        <li>Droettboom, M., I. Fujinaga, and K. MacMillan. 2002. Optical music 
+          interpretation. Proceedings of the Statistical, Structural and Syntactic 
+          Pattern Recognition Conference, Windsor, Canada. LNCS 2396. 378-86. 
+          <br />
+          <br />
+        </li>
+        <li>Droettboom, M., K. MacMillan, I. Fujinaga, G. S. Choudhury, T. DiLauro, 
+          M. Patton, and T. Anderson. 2002. Using Gamera for the recognition of 
+          cultural heritage materials. Proceedings of the Joint Conference on 
+          Digital Libraries, (JCDL). 11-17. <br />
+          <br />
+        </li>
+        <li>Choudhury, S., B. Hobbs, M. Lorie, and N. Flores. 2002. A Framework 
+          for Evaluating Digital Library Services. D-Lib Magazine 8 (7/8). <a href="http://www.dlib.org/dlib/july02/choudhury/07choudhury.html"> 
+          http://www.dlib.org/dlib/july02/choudhury/07choudhury.html</a><br />
+          <br />
+        </li>
+        <li>Suthakorn, J., S. Lee, Y. Zhou, R. Thomas, G.S. Choudhury, and G.S. 
+          Chirikjian. A Robotic Library System for an Off-Site Shelving Facility. 
+          Proceedings of the 2002 IEEE International Conference on Robotics and 
+          Automation (ICRA), Volume 4. 3589-3594. <br />
+          <br />
+        </li>
+        <li>MacMillan, K., M. Droettboom, I. Fujinaga. 2001 Gamera: A Python-based 
+          toolkit for Structured Document Recognition. Submitted to the 10th International 
+          Python Conference.<br />
+          <br />
+        </li>
+        <li>Droettboom, M., I. Fujinaga, K. MacMillan, M. Patton, J. Warner, G. 
+          S. Choudhury and T. DiLauro. 2001. Expressive and efficient retrieval 
+          of musical data. Proceedings, International Symposium on Music Information 
+          Retrieval. 173-8.<br />
+          <br />
+        </li>
+        <li>MacMillan, K., M. Droettboom and I. Fujinaga. 2001. Gamera: A structured 
+          document recognition application development environment. Proceedings, 
+          International Symposium on Music Information Retrieval. 15-6.<br />
+          <br />
+        </li>
+        <li>Choudhury, G. S., T. DiLauro, M. Droettboom, I. Fujinaga, and K. MacMillan. 
+          2001. Strike up the score: Deriving searchable and playable digital 
+          formats from sheet music. D-Lib Magazine 7 (2). <a href="http://www.dlib.org/dlib/february01/choudhury/02choudhury.html"> 
+          http://www.dlib.org/dlib/february01/choudhury/02choudhury.html</a><br />
+          <br />
+        </li>
+        <li>Droettboom, M., and I. Fujinaga. 2001. Interpreting the semantics 
+          of music notation using an extensible and object-oriented system. Proceedings 
+          of the Ninth International Python Conference. 71-85. <br />
+          <br />
+        </li><li>Choudhury, S., T. DiLauro, M. Droettboom, I. Fujinaga, B. Harrington 
+          and K. MacMillan. 2000. Optical Music Recognition System within a Large-Scale 
+          Digitization Project. Proceedings, International Symposium on Music 
+          Information Retrieval. <br />
+          <br />
+        </li>
+        <li>Choudhury, G. S., C. Requardt, I. Fujinaga, T. DiLauro, E. W. Brown, 
+          J. W. Warner, and B. Harrington. 2000. Digital workflow management: 
+          The Lester S. Levy digitized collection of sheet music. First Monday 
+          5 (6). <a href="http://firstmonday.org/issues/issue5_6/choudhury/index.html"> 
+          http://firstmonday.org/issues/issue5_6/choudhury/index.html</a><br />
+          <br />
+        </li>
+        <li>Brown, E. and J. Warner. Automated Name Authority Control. Proceedings 
+          of the First ACM/IEEE Joint Conference on Digital Libraries (JCDL). 
+          21-22. <br />
+          <br />
+        </li>
+        <li>DiLauro, T., G.S. Choudhury, M. Patton, J. Warner, and E. Brown (2001). 
+          Automated Name Authority Control and Enhanced Searching in the Levy 
+          Collection. D-Lib Magazine, 7 (4). <a href="http://www.dlib.org/dlib/april01/dilauro/04dilauro.html"> 
+          http://www.dlib.org/dlib/april01/dilauro/04dilauro.html</a><br />
+          <br />
+        </li>
+        <li>Choudhury, G.S., M. Lorie, E. Fitzpatrick, B. Hobbs, G. Chirikjian, 
+          A. Okamura, and N.E. Flores. 2001. Comprehensive Access to Printed Materials 
+          (CAPM). Proceedings of the First ACM/IEEE Joint Conference on Digital 
+          Libraries (JCDL). 174-75. </li>
+      </ul>
+	  <h3> Presentations </h3>
+      <p>Teal Anderson, Web/Usability Specialist </p>
+      <blockquote>
+        <p>Evaluating the Usability of Digital Libraries through Task-Based Tests." 
+          Digilib Conference. Espoo, Finland. September 2003. <a href="http://dkc.mse.jhu.edu/%7Eteal/digilib/">http://dkc.mse.jhu.edu/~teal/digilib/</a> 
+        </p>
+        <p>An Introduction to Web Accessibility presented at the JHU Disability 
+          Coordinators' Spring Meeting, March 2003. <a href="http://www.dkc.jhu.edu/%7Eteal/section508/">http://www.dkc.jhu.edu/%7Eteal/section508/</a></p>
+        <p>International Perspectives on Creating a Usability Methodology for 
+          Academic DLs, panel at the European Conference on Digital Libraries, 
+          September 2002. <a href="http://www.uclic.ucl.ac.uk/annb/DLUsability/ECDLpanel.html">http://www.uclic.ucl.ac.uk/annb/DLUsability/ECDLpanel.html</a></p>
+        <p>Usability Testing for Reference Librarians, presented at the American 
+          Library Association conference, June 2002. <a href="http://www.dkc.jhu.edu/%7Eteal/ala_slides/">http://www.dkc.jhu.edu/%7Eteal/ala_slides/</a></p>
+        <p>An Introduction to Usability, presented at the Maryland Library Association 
+          - Academic and Research Libraries Division, September 2001. <a href="http://dkc.mse.jhu.edu/%7Eteal/presentation/"> http://dkc.mse.jhu.edu/~teal/presentation/</a></p>
+	 </blockquote>
+       
+      
+      <p>Sayeed Choudhury, Associate Director for Library Digital Programs</p>
+      <blockquote> 
+        <p>Integration of Digital Library Services through Repositories. Educause 
+          Mid-Atlantic Regional Conference. January 2004. <a href="http://tinyurl.com/45p26">http://tinyurl.com/45p26 </a>
+        </p>
+		</blockquote>
+ </div>
+</div>
+
+</div>
+
+<!-- TEXT ENDS HERE -->
+
+
+
+        <p class="body"><br />
+
+              <a href="#top" class="link">return to top &gt;&gt;</a> </p>
+
+            </td>
+        </tr>
+      </table>
+
+      <p>&nbsp;</p>
+
+<p align="center" class="copyright">Copyright &copy; 2004 Digital Library Federation. All rights reserved.</p>
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+</p>
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>

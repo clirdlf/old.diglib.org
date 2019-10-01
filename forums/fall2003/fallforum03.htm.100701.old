@@ -1,0 +1,2507 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<TITLE>DLF Fall Forum  2003: Albuquerque</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+
+<META content="DLF Forum : Albuquerque : Fall 2003" name="dc.Title">
+<META content="Digital Library Federation" name="dc.Creator">
+<META content="Forum" name="dc.Subject">
+<META content="" name="dc.Description">
+<META content="Digital Library Federation. Washington, DC" name="dc.Publisher">
+<META content="David Seaman.  Added DC metadata." name="dc.Contributor">
+<META content="2003-09-03 name="dc.Date">
+<META content="text" name="dc.Type">
+<META content="text/html" name="dc.Format">
+<META content="/forums/fall2003/" name="dc.Identifier">
+
+<META content="none" name="dc.Source">
+<META content="en-us" name="dc.Language">
+<META content="http://www.diglib.org/" name="dc.Relation">
+<META content="none" name="dc.Coverage">
+<META content="Copyright 2003, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible" name="dc.Rights">
+
+
+<title>DLF Forum: Fall 2003</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	color:black;}
+h4
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:283266748;
+	mso-list-template-ids:-1506494402;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:552472607;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1262503154 1758484358 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:691225615;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2048119246 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:893540680;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-22001584 67698705 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:917833805;
+	mso-list-type:hybrid;
+	mso-list-template-ids:916600126 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:986741621;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-123292892 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1124078563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1341447268 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1431243692;
+	mso-list-template-ids:-234071466;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:1442452410;
+	mso-list-type:hybrid;
+	mso-list-template-ids:39728124 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l8:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+
+
+
+
+			<script language='javascript' src='http://127.0.0.1:1029/js.cgi?pca&r=19895'></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('images/preserve_r.gif','images/use_r.gif','images/build_r.gif','images/logo_r.gif','images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+<a href="/search.html">Search</a>
+
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<ol class="newsbold">
+<li><a href="http://www.bl.uk/">British Library</a><br /><br /></li>
+
+<li><a href="http://www.cdlib.org/">California Digital Library</a><br /><br /></li><li>
+<a href="http://www.library.cmu.edu/">Carnegie Mellon University</a><br /><br /></li><li>
+<a href="http://www.columbia.edu/cu/libraries/digital/">Columbia University</a><br /><br /></li><li>
+<a href="http://campusgw.library.cornell.edu/">Cornell University</a><br /><br /></li><li>
+<a href="http://www.clir.org/">Council on Libraries and Information Resources</a><br /><br /></li><li>
+<a href="http://www.dartmouth.edu/libcomp/">Dartmouth College</a><br /><br /></li><li>
+<a href="http://www.emory.edu/LIBRARIES/">Emory University</a><br /><br /></li><li>
+<a href="http://hul.harvard.edu/ldi/">Harvard University </a><br /><br /></li><li>
+<a href="http://www.dlib.indiana.edu/">Indiana University</a><br /><br /></li><li>
+
+<a href="http://webapps.jhu.edu/jhuniverse/libraries/">Johns Hopkins University</a><br /><br /></li><li>
+<a href="http://memory.loc.gov/ammem/dli2/html/lcndlp.html">Library of Congress</a><br /><br /></li><li>
+<a href="http://libraries.mit.edu/">Massachusetts Institute of Technology</a><br /><br /></li><li>
+<a href="http://www.archives.gov/index.html">National Archives and Records Administration </a><br /><br /></li><li>
+<a href="http://digital.nypl.org/">New York Public Library </a><br /><br /></li><li>
+<a href="http://www.nyu.edu/library/">New York University </a><br /><br /></li><li>
+<a href="http://www.lib.ncsu.edu/">North Carolina State University </a><br /><br /></li><li>
+<a href="http://www.psu.edu/ur/libraries.html">Pennsylvania State University </a><br /><br /></li><li>
+<a href="http://artsdata.princeton.edu/">Princeton University </a><br /><br /></li><li>
+
+<a href="http://www.rice.edu/fondren/">Rice University </a><br /><br /></li><li>
+
+<a href="http://www-sul.stanford.edu/">Stanford University </a><br /><br /></li><li>
+<a href="http://sunsite.berkeley.edu/">University of California, Berkeley</a><br /><br /></li><li>
+<a href="http://www.lib.uchicago.edu/e/index.html">University of Chicago </a><br /><br /></li><li>
+<a href="http://gateway.library.uiuc.edu/index.html">University of Illinois at Urbana-Champaign </a><br /><br /></li><li>
+<a href="http://www.lib.umich.edu/lit/">University of Michigan </a><br /><br /></li><li>
+<a href="http://www.lib.umn.edu/">University of Minnesota </a><br /><br /></li><li>
+<a href="http://www.library.upenn.edu/">University of Pennsylvania </a><br /><br /></li><li>
+
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Southern California </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Tennessee </a><br /><br /></li><li>
+<a href="http://www.lib.utexas.edu/">University of Texas at Austin </a><br /><br /></li><li>
+<a href="http://www.lib.virginia.edu/">University of Virginia </a><br /><br /></li><li>
+<a href="http://www.lib.washington.edu/">University of Washington</a>
+<br /><br /></li><li>
+<a href="http://www.library.yale.edu/">Yale University </a></li>
+</ol>
+</td>
+        </tr>
+
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+<ol class="newsbold">
+
+<li><a href="http://www.oclc.org/home/">Online Computer Library Center </a>
+<br /><br /></li>
+<li><a href="http://www.rlg.org/toc.html">Research Libraries Group </a>
+
+<br /><br /></li>
+<li><a href="http://www.cni.org">Coalition for Networked Information </a>
+<br /><br /></li>
+<li><a href="http://lib-www.lanl.gov/">Los Alamos National Laboratory Research Library </a></li>
+</ol>
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- Begin text here -->
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<div class=Section1>
+
+<br />
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img width=282 height=41 src="fallforum03_files/image002.gif"></p>
+
+<table align="center">
+<tr><td><img src="Img0946s.jpg" alt="DLF Forum" />
+</td><td><img src="Img0948s.jpg" alt="DLF Forum" />
+</tr>
+
+</table>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:18.0pt'>Fall Forum 2003<br />
+Albuquerque, New Mexico, <br />17-19 November, 2003
+</b></p>
+
+<p align="center"><img src="Img0992s.jpg" alt="DLF Forum" />
+</p>
+<br />
+<p class=MsoNormal align=center style='text-align:center;mso-outline-level:
+3'><b><span style='font-size:13.5pt;color:black'>Winners </span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-outline-level:
+3'><b><span style='font-size:13.5pt;color:black'>DLF Forum Fellowships <span
+class=GramE>For</span> Librarians New To The Profession </span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-outline-level:
+3'><b><span style='font-size:13.5pt;color:black'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Paul <span
+class=SpellE>Fogel</span>, </span></b><st1:State> <b><span
+  style='color:black'>California</span></b> </st1:State><b><span
+style='color:black'> Digital Library  </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Anne
+Graham, </span></b>  <b><span style='color:black'>University</span></b> <b><span
+ style='color:black'> of </span></b> <b><span style='color:black'>Washington</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Uri <span
+class=SpellE>Kolodney</span>, </span></b>  <b><span
+  style='color:black'>University</span></b> <b><span
+ style='color:black'> of </span></b> <b><span style='color:black'>Texas</span></b>  <b><span
+style='color:black'>, </span></b><st1:City> <b><span
+  style='color:black'>Austin</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Jin
+Ma, </span></b>  <b><span style='color:black'>Penn</span></b>   <b><span style='color:black'>State</span></b>   <b><span style='color:black'>University</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Christine
+Madsen, </span></b>  <b><span style='color:black'>Harvard</span></b>   <b><span style='color:black'>University</span></b>  <b></b></p>
+
+<br />
+
+<p class=MsoNormal align=center style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:center;mso-outline-level:4'><b><span style='font-size:14.0pt;
+color:black'>Program Committee </span></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in;mso-outline-level:4'><b><span
+style='color:black'>David Seaman: Digital Library Federation  </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Dale
+Flecker: </span></b>  <b><span style='color:black'>Harvard</span></b>   <b><span style='color:black'>University</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Nancy
+Hoebelheinrich, </span></b>  <b><span style='color:
+  black'>Stanford</span></b> <b><span style='color:black'> </span></b> <b><span
+  style='color:black'>University</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Leslie
+Johnson: </span></b>  <b><span style='color:black'>University</span></b> <b><span
+ style='color:black'> of </span></b> <b><span style='color:black'>Virginia</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Jerome
+McDonough: </span></b>  <b><span style='color:black'>New
+  York</span></b> <b><span style='color:black'> </span></b> <b><span
+  style='color:black'>University</span></b>  <b></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>John
+Ober: </span></b><st1:State> <b><span style='color:black'>California</span></b> </st1:State><b><span
+style='color:black'> Digital Library  </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><span style='color:black'>Jennifer
+Vinopal: </span></b>  <b><span style='color:black'>New
+  York</span></b> <b><span style='color:black'> </span></b> <b><span
+  style='color:black'>University</span></b>  <b></b></p>
+
+<br />
+
+<p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:18.0pt'>Pre-Forum </span></b></p>
+
+<br />
+
+<p class=MsoNormal><b><span
+style='font-size:14.0pt'>Monday 17 November  </span></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="9" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-1:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span>DLF
+Developers Forum. <i style='mso-bidi-font-style:
+normal'>The Potter’s Room. </i></p>
+
+<p class=MsoNormal><span style='color:#993366'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><st1:time Hour="10" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>10:00-1:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>    </span>E-resources
+Management Initiative Steering Committee meeting (<st1:PersonName>Tim Jewell</st1:PersonName>,
+chair). <i style='mso-bidi-font-style:
+normal'>The Fireplace Room. </i></p>
+
+<br />
+
+<hr width="75%" />
+<h3 align="center"><a href="ForumNov03summ.htm">Fall 2003 Meeting Summary</a></h3>
+<hr width="75%" />
+
+<p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:18.0pt'>Forum Schedule </span></b></p>
+
+<p style='margin-left:.5in'><b style='mso-bidi-font-weight:
+normal'>
+
+<a href="#p1"><span style='font-size:10.0pt;color:blue'>Digital Formats: Factors for
+Sustainability, Functionality, and Quality.</span></a></b><span style='font-size:
+10.0pt'> <span class=GramE>Caroline Arms and Carl Fleischhauer.</span> <span
+class=GramE>Office of Strategic Initiatives, Library of Congress.</span> </span></p>
+
+<p style='margin-left:.5in'><span class=GramE>
+
+<b style='mso-bidi-font-weight:normal'>
+
+<a href="#p2"><span style='font-size:10.0pt;color:blue'>Digital
+Object Format Validation</span></a></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:10.0pt'>.</span></b></span><span style='font-size:10.0pt'>
+Stephen L. Abrams, Digital Library Program Manager, </span><st1:place><st1:PlaceName><span
+  style='font-size:10.0pt'>Harvard</span></st1:PlaceName><span
+ style='font-size:10.0pt'> </span><st1:PlaceType><span style='font-size:10.0pt'>University</span></st1:PlaceType></st1:place><span
+style='font-size:10.0pt'> Library </span></p>
+
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+<a href="#p3"><span style='font-size:10.0pt;color:#3366FF'>The DLF E-Resource
+Management Initiative: Project Report</span></a></b><span style='font-size:10.0pt'>.
+Tim Jewell, University of Washington; Ivy Anderson, Harvard; Adam Chandler,
+Cornell; Sharon <span class=SpellE>Farb</span>, UCLA; Kimberly Parker,
+Yale; Angela <span class=SpellE>Riggio</span>,
+UCLA; Nathan Robertson, Johns Hopkins. </span></p>
+<br />
+<p class=MsoNormal style='margin-left:.5in'><b>
+<a href="#p4"><span style='font-size:10.0pt;color:blue'>MPEG-21
+DIDL, the OAI-PMH, and the OpenURL as building blocks for representing, storing
+and disseminating complex digital objects</span></a></b><span style='font-size:
+10.0pt;color:blue'>.</span></span><span style='font-size:10.0pt;color:blue'>  </span><span lang=NL-BE style='font-size:
+10.0pt;mso-ansi-language:NL-BE'>Jeroen Bekaert, Patrick Hochstenbach, Herbert
+Van de Sompel. </span> <span style='font-size:10.0pt'>Los Alamos</span> <span
+style='font-size:10.0pt'> National Laboratory, Research Library, Prototyping
+Team. <span style='color:blue'> </span></span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><b>
+<a href="#p5"><span style='font-size:10.0pt;color:blue'>Update on the Fedora
+Open-Source Project</span></a>
+</b><span style='font-size:10.0pt;color:blue'>.  </span><span style='font-size:10.0pt'>Sandy
+Payette, </span>  <span style='font-size:10.0pt'>Cornell</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>University</span>  <span
+style='font-size:10.0pt;color:blue'> </span></p>
+<br />
+<p class=MsoNormal style='margin-left:.5in'><b>
+
+<span style='font-size:10.0pt;color:#3366FF'>LOCKSS Implementation:
+technology, collections, and access.</span></b><span style='font-size:10.0pt'> 
+<br />
+<a href="#p6">Tom Robertson, Technical Manager, LOCKSS
+Program, Stanford University</a>; 
+<br /><a href="#p7">Perry
+Willett, Head, Library Electronic Text Resource Service, Indiana University</a>;
+<br /><a href="#p8">Martin Halbert, Director for Library Systems, Emory University.</a> </span></p>
+<br />
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+
+<a href="#p9"><span style='font-size:10.0pt;color:#3366FF'>Responding
+to Digital Data Needs: The DEWI System.</span></a></b></span><span
+style='font-size:10.0pt'> Ron Nakao and Chris Bourg, </span>  <span
+  style='font-size:10.0pt'>Stanford</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>University</span>  <span
+style='font-size:10.0pt'> Libraries </span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+
+<a href="#p10"><span style='font-size:10.0pt;color:#3366FF'>Building
+Collections with Greenstone Digital Library Software.</span></a></b></span><span
+style='font-size:10.0pt'> <span class=SpellE>Tod</span> A. Olson,
+Programmer/Analyst Digital Library Development Center, </span>  <span
+  style='font-size:10.0pt'>University</span> <span
+ style='font-size:10.0pt'> of </span> <span style='font-size:
+  10.0pt'>Chicago</span>  <span style='font-size:
+10.0pt'> Library </span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+
+<a href="#p11"><span style='font-size:10.0pt;color:#3366FF'>Metadata
+Tradeoffs in High-Production Digitization Environments.</span></a></b></span><span
+style='font-size:10.0pt'> Nancy J.
+Hoebelheinrich. Metadata Coordinator, </span>  <span
+  style='font-size:10.0pt'>Stanford</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>University</span>  <span
+style='font-size:10.0pt'> Libraries / Academic Information Resources (SUL/AIR) </span></p>
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+
+<a href="#p12"><span style='font-size:10.0pt;color:#3366FF'>The Union Catalog of Art
+Images (UCAI): Aggregating and
+Standardizing Diverse Legacy Metadata.</span></a></b><span style='font-size:10.0pt'>
+<span class=SpellE>Esme</span> Cowles (Database Developer) and Linda Barnhart
+(Project Coordinator), Union Catalog of Art Images </span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+
+<a href="#p13"><span style='font-size:10.0pt;color:#3366FF'>Preservation-Worthy
+Digital Video; or, How to Drive your Library into Chapter 11</span></a></b><span
+style='font-size:10.0pt'>.</span></span><span style='font-size:10.0pt'>  Jerry McDonough.  </span>  <span
+  style='font-size:10.0pt'>New York</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>University</span>  <span
+style='font-size:10.0pt'> </span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><st1:State> <span
+  class=GramE><b>
+
+<a href="#p14"><span style='font-size:
+  10.0pt;color:#3366FF'>California Digital Library's Digital Preservation Program</span></a></b><b><span style='font-size:10.0pt'>.</span></b></span><span
+style='font-size:10.0pt'> Patricia Cruse, Director, Digital Preservation
+Program, </span><st1:State> <span style='font-size:10.0pt'>California</span> </st1:State><span
+style='font-size:10.0pt'> Digital Library </span></p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><b>
+
+<a href="#p15"><span style='font-size:10.0pt;color:#3366FF'>Digital Scholarship in the
+Academy: What Scholars Need</span></a></b><b><span
+style='font-size:10.0pt'>.</span></b><span style='font-size:10.0pt'>  Ann Lally, Head, Digital Initiatives, </span>  <span
+  style='font-size:10.0pt'>University</span> <span
+ style='font-size:10.0pt'> of </span> <span style='font-size:
+  10.0pt'>Washington</span>  <span style='font-size:
+10.0pt'> Libraries </span></p>
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+
+<a href="#p16"><span style='font-size:10.0pt;color:#3366FF'>The Evolution of an
+Interface from the User Perspective: From End User Testing to a Usage Log
+Analysis</span></a></b><b><span
+style='font-size:10.0pt'>.</span></b><span style='font-size:10.0pt'>  Sarah Chandler, </span>  <span
+  style='font-size:10.0pt'>Cornell</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>University</span>  <span
+style='font-size:10.0pt'> </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>
+
+<a href="#p17"><span style='font-size:10.0pt;color:blue'><b>A rose is a rose by any other
+name; what's a DODL?</b></span></a>
+<span style='font-size:10.0pt'> Michael Keller, </span>  <span
+  style='font-size:10.0pt'>Stanford University</span>  </p>
+
+<br />
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+<a href="#p18"><span style='font-size:10.0pt;color:#3366FF'>The
+National Digital Information Infrastructure and Preservation Program</span></a></b><span
+style='font-size:10.0pt'>.</span></span><span style='font-size:10.0pt'> Clay
+Shirky and Laura Campbell  </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=SpellE><b>
+<br />
+<a href="#p19"><span style='font-size:10.0pt;color:#3366FF'>LibData</span></b></span><b><span style='font-size:10.0pt;color:#3366FF'>:
+a library web management system</span></a>
+</b><b><span
+style='font-size:10.0pt'>. </span></b><span style='font-size:10.0pt'>Paul F.
+Bramscher, Shane A, Nackerud, and John T. Butler, </span>  <span
+  style='font-size:10.0pt'>University</span> <span
+ style='font-size:10.0pt'> of </span> <span style='font-size:
+  10.0pt'>Minnesota</span>  <span style='font-size:
+10.0pt'>, </span>  <span style='font-size:10.0pt'>Twin</span> <span
+ style='font-size:10.0pt'> </span> <span style='font-size:10.0pt'>Cities</span>  <b><span style='font-size:10.0pt'> </span></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+<br />
+<a href="#p20"><span style='font-size:10.0pt;color:#3366FF'>NAND: A New Tool for an
+Old Problem</span></a>
+</b><b><span
+style='font-size:10.0pt'>. </span></b><span style='font-size:10.0pt'>Charles
+Blair, Elisabeth Long, and Keith Waclena, <span class=GramE>The Digital Library Development Center, The University of Chicago Library </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span class=GramE><b>
+<br />
+<span style='font-size:10.0pt;color:#3366FF'>NSDL Projects Update</span>
+</b>
+
+<br />
+
+<b></span><span style='font-size:10.0pt'>
+<a href="#p21">"The OCKHAM Library Network."</a></b> Martin Halbert, Emory University, with a draft of the OCKHAM reference model, as well as results from an early survey.
+<br />
+<a href="#p22">"Adding Value to NSDL : A Business Proposition and Service Enhancement."</a></b> Laine Farley, Director, Digital Library Services, California Digital Library. 
+</span>
+
+</p>
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+<br />
+<a href="#p23"><span style='font-size:10.0pt;color:#3366FF'>Data Mining Library
+Collection Silos: An Opportunity for Cooperative Collection Management of Print and Electronic Books.  </span></a> 
+</b><span style='font-size:10.0pt'>Lynn
+
+<span class=SpellE>Silipigni</span> Connaway.  OCLC Online Computer Library Center, Office of Research.</p>
+
+<p class=MsoNormal style='margin-left:.5in'><b>
+<br />
+<a href="#p24"><span style='font-size:10.0pt;color:#3366FF'>From aggregation to
+commerce: the next phase for the RLG Cultural Materials Alliance</span></a></b>  <b><span style='font-size:10.0pt;color:#3366FF'>.</span></b><span
+style='font-size:10.0pt'> Ricky <span
+class=SpellE>Erway</span>, Digital Resources Manager, RLG </span></p>
+
+<hr width="75%">
+
+<p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:14.0pt'>Monday 17 November</span> </b></p>
+
+
+<p class=MsoNormal><st1:time Minute="0" Hour="13"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>1:00-2:00</span></b></st1:time><b>:</b><span style='mso-tab-count:1'>       </span><b>REGISTRATION.</b>  <span class=GramE><b><i style='mso-bidi-font-style:normal'>Foyer to Alvarado Room.</i></b></span><b><i style='mso-bidi-font-style:normal'> </i></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="14"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>2:00-3:30</span></b></st1:time><b>:</b> <b>BREAKOUT
+SESSION 1: PRESERVATION.<span style='mso-spacerun:yes'>    </span><i
+style='mso-bidi-font-style:normal'>Alvarado Room ABC.</i> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p1">Digital Formats: Factors for
+Sustainability, Functionality, and Quality</a></span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=GramE><b>Caroline Arms and Carl Fleischhauer.</b></span><b> <span class=GramE>Office of Strategic
+Initiatives, Library of Congress.</span> 
+
+
+<br><a href="arms/DLF-Formats-arms.htm">View presentation</a>
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The Library of Congress is drafting a planning
+framework that identifies and documents digital content formats that are
+promising (and unpromising) for long-term sustainability.  The resulting reference resource is intended
+to serve staff <span class=GramE>who</span> evaluate born digital content for
+selection for the Library's collections and make provisions to sustain that
+content. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The term format is used broadly in this context,
+and includes:  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>file
+formats at the level indicated by Windows file extensions or Internet <span
+class=SpellE>MediaType</span> (<span class=SpellE>aka</span> MIME type)  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>versions
+or subtypes of these that develop through time or are tailored to narrow,
+specific purposes  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>classes
+of related formats, whose familial characteristics are important  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>
+<span style='font-size:12.0pt;font-family:"Times New Roman"'>&quot;wrappers&quot;
+that must be distinguished in terms of their underlying <span class=SpellE>bitstream</span>
+structures  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>bundling
+formats that bind together the files or <span class=SpellE>bitstreams</span>
+comprising a single digital work </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The initial investigation has outlined two sets
+of high-level factors that may be used when choosing formats:  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l1 level1 lfo4;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><span style='mso-list:
+Ignore'>(a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>conceptual factors that
+affect the sustainability of any digital format </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l1 level1 lfo4;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><span style='mso-list:
+Ignore'>(b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>factors that relate to
+quality or functionality (beyond normal rendering) that might be desired for
+certain categories of content </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The shorthand names for the sustainability
+factors are disclosure, adoption, transparency, self-documentation, external
+dependencies, and technical protection mechanisms.  Quality and functionality factors have been sketched
+for sound, still images, text, and video -- content categories with which
+Library staff have experience in the digital realm.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Additional content categories are being added as
+the investigation continues. The
+activity is also developing summary descriptions for digital formats, intended
+to be synergistic with the proposed Digital Format Registry. </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=GramE><b><a name="p2"><span style='color:#3366FF'>Digital Object
+Format Validation</span></a>.</b></span><b> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Stephen L. Abrams, Digital Library Program Manager, </b>  <b>Harvard</b> <b> </b> <b>University</b>  <b> Library 
+<br><a href="abrams/DLF-formats-Abrams.htm">View presentation</a></b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The concept of representation format, or type,
+permeates all technical areas of digital repositories.  Policy and processing decisions regarding
+object ingest, storage, access, and preservation are frequently conditioned on
+a per-format basis. In order to achieve
+necessary operational efficiencies, repositories need to be able to automate
+these procedures to the fullest extent possible.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>JSTOR and the Harvard University Library are
+collaborating on a project to develop an extensible framework for format
+validation: JHOVE (pronounced &quot;<span class=SpellE>jove</span>&quot;), the
+JSTOR/Harvard Object Validation Environment.<span style='mso-spacerun:yes'>  
+</span> </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>JHOVE provides functions to identify, validate,
+and characterize digital objects: Format identification is the process of
+determining the format to which a digital object conforms, e.g.: &quot;I have a
+digital object; what format is it?&quot;  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Format validation is the process of determining
+the level of compliance of a digital object to the specification for its
+purported format: &quot;I have an object purportedly of format F; is it?&quot;  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Format characterization is the process of determining
+the format-specific significant properties of an object of a given format:
+&quot;I have an object of format F; what are its salient properties?&quot;<span
+style='mso-spacerun:yes'>   </span>JHOVE is a stand-alone, command-line
+oriented Java application, with an extensible plug-in architecture.  In its initial release, JHOVE includes
+modules for recognizing and validating ASCII and UTF-8 encoded text, TIFF
+(including popular public profiles, such as TIFF/EP, TIFF/IT, and <span
+class=SpellE>GeoTIFF</span>), and PDF (including profiles such as PDF/X-1, -1a,
+-2, and -3).  </span></p>
+
+<br />
+
+<br />
+
+<p class=MsoNormal><b><span
+style='color:#993366'>2:00-3:30</span>:</b> <b>BREAKOUT SESSION 2: RESOURCE MANAGEMENT.  <span class=GramE><i style='mso-bidi-font-style:
+normal'>Alvarado D.</i></span> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p3">The DLF E-Resource Management Initiative:
+Project Report</a></span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><st1:PersonName> <b> Tim Jewell</b></st1:PersonName><b>, University of Washington; Ivy Anderson,
+Harvard; Adam Chandler, Cornell; Sharon <span class=SpellE>Farb</span>, UCLA; </b><st1:PersonName> <b> Kimberly Parker</b></st1:PersonName><b>, Yale; Angela <span class=SpellE>Riggio</span>, UCLA; </b><st1:PersonName> <b> Nathan </b><st1:PersonName><b>Robert</b></st1:PersonName> <b> son</b></st1:PersonName><b>, Johns Hopkins. 
+
+
+
+<br><a href="jewell/RevDLFERMIFallForum2003.htm">View presentation</a>
+</b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="30" Hour="15"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>3:30-4:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span><b>Break: <i style='mso-bidi-font-style:normal'>Foyer
+to Alvarado Room.</i></b><i style='mso-bidi-font-style:normal'> </i></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="16"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>4:00-5:30</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span><b>BREAKOUT SESSION 3: ARCHITECTURES. <i
+style='mso-bidi-font-style:normal'>Alvarado Room ABC</i></b><i
+style='mso-bidi-font-style:normal'> </i></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:blue'><a name="p4">MPEG-21 DIDL, the OAI-PMH, and the OpenURL as building blocks for representing, storing and disseminating complex digital objects. </a> </span></b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span lang=NL-BE style='mso-ansi-language:NL-BE'>Jeroen Bekaert,
+Patrick Hochstenbach, Herbert Van de Sompel. </span></b>  <b> Los Alamos</b> <b> National Laboratory, Research Library,
+Prototyping Team.  
+
+<br><a href="presentations/vandesompel-2003-09.pdf">View presentation</a>
+<br><a href="sompel/handout-DLF-sompel.pdf">View handout</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'>Various XML-based approaches aimed
+at representing so-called complex digital objects have emerged over the last
+years. The MPEG-21 Digital Item
+Declaration Language (DIDL) is an XML-packaging specification that, so far, has
+received little attention in the Digital Library Community.  The first part of this presentation will
+highlight major characteristics of DIDL, and report on research conducted at
+the LANL Research Library to determine the applicability of DIDL for the
+representation of complex objects in the LANL repository.  The second part of the presentation will
+discuss <span class=GramE>a repository</span> architecture under development at
+LANL, in which DIDL-conformant documents are the unit of storage.  The architecture builds on the OAI-PMH, the
+forthcoming NISO <span class=SpellE>OpenURL</span> Framework Standard, and
+concepts from the MPEG-21 Digital Item Processing specification to make stored
+content accessible. While the discussion will be framed in the context of
+ongoing work at LANL, it is hoped that it will reveal the relevance of some of
+the presented concepts to other Digital Library efforts.<b> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:blue'><a name="p5">Update on the Fedora Open-Source Project. </a></span></b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Sandy Payette, </b>  <b>Cornell</b> <b> </b> <b>University</b>  <b> 
+
+<br><a href="payette/DLF-fedora-payette.htm">View presentation</a></b>
+
+</p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Thanks to a generous grant from the Andrew W.
+Mellon Foundation, the </span>  <span style='font-size:
+  12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Virginia Library</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> and Cornell Information
+Science have now made available an open-source version of the Flexible
+Extensible Digital Object Repository Architecture (Fedora).  This presentation is an update on the Fedora
+project since its initial release on </span><st1:date Month="5" Day="15"
+Year="2003"><span style='font-size:12.0pt;font-family:"Times New Roman"'>May
+ 15, 2003</span></st1:date><span style='font-size:12.0pt;font-family:"Times New Roman"'>.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Fedora is an open source digital object
+repository system that supports both management and delivery of heterogeneous
+digital content. The system can be used
+as the foundation for a variety of information management solutions including
+institutional repositories, preservation management systems, digital asset
+management systems, content management systems (CMS), and digital
+libraries.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>As a simple use case, Fedora can be used to
+manage and deliver digital objects that aggregate one or more content streams
+into a single digital object.<span style='mso-spacerun:yes'>   </span>For
+example, a Fedora object can be an aggregation of different resolutions of the
+same digital image. More interestingly,
+Fedora provides the building blocks for managing and delivering more complex
+objects which have services associated with them.  These objects can define relationships among
+content streams and can be configured to deliver one or more specialized views
+or &quot;representations&quot; of the content streams within the object.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Fedora provides web service interfaces to
+support digital object management and access. New features of the system include content versioning, object change
+tracking, time-stamped access requests (i.e., to obtain former views of
+objects), and a new graphical object editor. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>This presentation will offer a brief review of
+the system features, followed by a demo of the latest software release (Fedora
+1.2, available October 2003). It will
+also report on progress of institutions who have installed Fedora, software
+download statistics, and future development plans.<span
+style='mso-spacerun:yes'>   </span>Fedora is currently available for download
+at <a href="http://www.fedora/info">http://www.fedora/info</a> </span></p>
+
+<br />
+
+<p class=MsoPlainText><st1:time Minute="0" Hour="16"><b style='mso-bidi-font-weight:
+ normal'><span style='font-size:12.0pt;font-family:"Times New Roman";
+ color:#993366'>4:00-5:30</span></b></st1:time><b><span style='font-size:12.0pt;font-family:"Times New Roman"'>:</span></b><span
+style='font-size:12.0pt;font-family:"Times New Roman"'> <span style='mso-tab-count:
+1'>      </span><b>BREAKOUT SESSION 4:
+PRESERVATION. <i style='mso-bidi-font-style:
+normal'>Alvarado Room D</i></b> </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'>LOCKSS Implementation: technology, collections, and access.</span> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Tom <st1:PersonName>Robertson, Technical Manager, LOCKSS Program,
+Stanford University; </b><st1:PersonName> <b> Perry Willett</b></st1:PersonName><b>, Head, Library Electronic Text Resource
+Service, Indiana University; </b><st1:PersonName><b style='mso-bidi-font-weight:
+ normal'>Martin Halbert</b></st1:PersonName><b>, Director for Library Systems, Emory University. 
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>An unintended consequence of the web is that
+libraries cannot easily collect and preserve e-collections.  They lease access to paid content; they
+merely access freely available content. Libraries are unable to own
+collections; they are able to offer only very limited services around these
+collections. Libraries in the web
+environment are unable to full their traditional society memory organizational
+role. One of the biggest risks to libraries fulfilling their memory role, or
+for any institution wishing to take responsibility for digital preservation, is
+a budget cut. The LOCKSS approach tries
+to prevent content being lost through budget cuts by dispersing all costs and
+responsibilities across many institutions. The systems robustness depends upon
+redundancy of hardware, software, content and administration.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The panel will present a technical overview and
+real-world implementation activities: Collection Development activities in the
+Humanities; Providing seamless end user access to locally stored content. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><i style='mso-bidi-font-style:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'><a name="p6"></a>Tom
+Robertson, Technical Manager, LOCKSS Program, </span></i>  <span
+  class=GramE><i style='mso-bidi-font-style:normal'><span style='font-size:
+  12.0pt;font-family:"Times New Roman"'>Stanford</span></i></span> <i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+ "Times New Roman"'> </span></i> <i style='mso-bidi-font-style:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'>University</span></i>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'>: Tom will outline the
+LOCKSS technology, the Program's status, and next steps 
+
+
+<br><b><a href="lockss/DLF-lockss-robertson.htm">View presentation</a></b>
+</span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><i style='mso-bidi-font-style:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'><a name="p7"></a>Perry
+Willett, Head, <span class=GramE>Library</span> Electronic Text Resource
+Service, </span></i>  <i style='mso-bidi-font-style:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'>Indiana</span></i> <i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+ "Times New Roman"'> </span></i> <i style='mso-bidi-font-style:
+  normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'>University</span></i>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'>: Perry co-chairs a group selecting American
+and British literature e-journals for LOCKSS preservation. He will discuss importance of preserving
+humanities born digital materials and the process of obtaining publisher
+permissions. 
+
+<br><b><a href="lockss/DLF-lockss-willett.htm">View presentation</a></b></span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><st1:PersonName><i
+ style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+ "Times New Roman"'><a name="p8"></a>Martin Halbert</span></i></st1:PersonName><i
+style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman"'>, Director for Library Systems, </span></i>  <i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman"'>Emory</span></i> <i style='mso-bidi-font-style:
+ normal'><span style='font-size:12.0pt;font-family:"Times New Roman"'> </span></i> <i
+  style='mso-bidi-font-style:normal'><span style='font-size:12.0pt;font-family:
+  "Times New Roman"'>University</span></i>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'>: Emory is prototyping
+various methods of configuring LOCKSS caches within institutional networks so
+readers can access &quot;lockss-cached&quot; materials when the publisher's
+site is unavailable. Martin will outline
+experiences and methods to integrate LOCKSS using PAC files, EZ Proxy, and
+Squid and describe future work with Open URLs.  
+
+<br><b></a><a href="lockss/DLF-LOCKSS-halbert.htm">View presentation</a></b></span></p>
+
+<br />
+
+
+<p class=MsoNormal style='margin-left:.5in;text-indent:-.5in'><st1:time
+Minute="30" Hour="18"><b><span
+ style='color:#993366'>6:30-9:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span><b>Reception. <span class=GramE>The Franciscan Ballroom, </span></b>  <span
+  class=GramE><b>Sheraton</b></span> <span
+ class=GramE><b> </b></span> <span
+  class=GramE><b>Old</b></span> <span
+ class=GramE><b> </b></span> <span
+  class=GramE><b>Town</b></span>  <span
+class=GramE><b>.</b></span><b> </b></p>
+
+<table align="center">
+<tr><td><img src="Img0969s.jpg" alt="DLF reception" />
+</td><td><img src="Img0939s.jpg" alt="DLF reception" /></td>
+</tr>
+</table>
+
+<p align="center"><img src="Img0965s.jpg" alt="DLF reception" /></p>
+
+<br />
+
+<p class=MsoNormal align=center style='margin-left:.5in;text-align:center;
+text-indent:-.5in'><b><span
+style='font-size:14.0pt'>Tuesday 18 November</span> </b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="8"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>8:00-9:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span><b>Continental Breakfast.  <span class=GramE><i style='mso-bidi-font-style:
+normal'>Foyer to Alvarado Room.</i></span><i style='mso-bidi-font-style:normal'> </i></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="9"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>    </span><b>BREAKOUT SESSION 5: TOOLS.  <i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC. </i></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'><span style='mso-tab-count:1'>            </span><span
+class=GramE><b><span style='color:#3366FF'>
+<a name="p9">Responding
+to Digital Data Needs: The DEWI System.</a>
+</span></b></span><b> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Ron Nakao and </b><st1:PersonName><b>Chris
+ Bourg</b></st1:PersonName><b>, </b>  <b>Stanford</b>  <b>  </b> <b>University</b>  <b> Libraries 
+
+
+<br><a href="nakao/DEWI_DLF2003.htm">View presentation</a>
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Although data has long been an important element
+of social science research and instruction, the nature of data needs within the
+social sciences has changed dramatically in recent years.  A major trend is the dramatic increase in
+demand for numeric data by undergraduates who use and manipulate it in their
+own research. The number of courses that
+include data intensive assignments has also increased.  As technology has developed, researchers are
+increasingly looking for efficient ways to share data electronically with local
+and distant colleagues. Finally,
+researchers and librarians alike are recognizing the need to create electronic
+archives of available data. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The Data Extraction Web Interface (DEWI) System
+is a suite of tools for the processing, preservation, and delivery of
+Stanford's social science numeric data collection.  DEWI provides an integrated point of service
+for data users, by allowing users to browse lists of variables, search for
+variables of interest, and create custom sub-sets of data which can be
+downloaded to personal computers in a variety of formats compatible with
+popular statistical software. In
+addition, supporting documentation in the form of codebooks, external links,
+and locally developed guides to the data are available for most data sets. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>DEWI can also be used to restrict access to
+datasets to selected users. This allows us to ingest and serve current data
+collected by faculty, so that research teams can use DEWI to access, control,
+and archive their data before releasing it for public use.  This feature of DEWI encourages early and
+therefore more accurate and complete, creation of metadata and documentation. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>In this presentation, we will describe the
+development of DEWI, discuss how DEWI has been used within the Stanford
+research and teaching community, and discuss some of the directions--including
+broader collaborative efforts--we are exploring in the future development of
+DEWI. We will also discuss how DEWI represents one approach in the search for
+solutions to the kinds of challenges identified at the 1999 Digital Library
+Federation Workshop on Social Science Data Archives. </span></p>
+
+<br />
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=GramE><b><span style='color:#3366FF'><a name="p10"></a> Building
+Collections with Greenstone Digital Library Software.</span></b></span><b> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Tod A. Olson, Programmer/Analyst Digital Library Development Center, </b>  <b>University</b>  <b>  of </b> <b>Chicago</b>  <b> Library 
+
+
+
+<br><a href="presentations/olson-2003-09.pdf">View presentation</a>
+
+<br><a href="olson/dlf2003fall-gs-hand.doc">View handout</a>
+
+<br><a href="http://www.lib.uchicago.edu/dldc/talks/2003/dlf-greenstone/">
+View Powerpoint</a></b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The </span>  <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Chicago Library</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> recently launched a new
+digital collection of musical scores, Chopin Early Editions, using emerging
+standards for building digital collections from reformatted materials.
+Descriptive metadata were extracted from the OPAC, cross-walked to MODS, and
+combined with structural metadata to create METS objects. Using XSLT, METS
+records were converted into the Greenstone Archival Format and loaded into
+Greenstone Digital Library Software.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Greenstone is a well-established, configurable,
+and customizable system for creating digital libraries.  It accepts documents in a number of common
+formats and its own internal format. With no customization, Greenstone provides
+full text searching, metadata-based searching and browsing, support for custom
+metadata, and hierarchical or page-turning document navigation.  Because of Greenstone's great flexibility,
+and with support from an active and knowledgeable user community, most of the
+desired interface features for this collection have been implemented.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>We have added custom metadata, modified browse
+and search results displays, and implemented custom document displays and
+intra-document navigation features. Modifications were accomplished through
+editing configuration files, modifying display macros, and custom generation of
+the internal Greenstone document format. More recently, Greenstone includes a tool to aid the creation and
+administration of collections, including direct editing of document metadata. </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="9"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b>:</b> <b>BREAKOUT
+SESSION 6: METADATA &amp; PRODUCTION. <i style='mso-bidi-font-style:normal'>Alvarado
+D</i> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p11"></a> 
+Metadata Tradeoffs in High-Production
+Digitization Environments.</span> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='mso-spacerun:yes'> </span>Nancy J. Hoebelheinrich.  Metadata Coordinator, </b>  <b>Stanford</b>  <b>  </b> <b>University</b>  <b> Libraries / Academic Information Resources (SUL/AIR) 
+
+
+
+<br><a href="hoebelheinrich/dlf-hoebelheinrich.htm">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>A common myth exists from the Library point of
+view that the more metadata that can be captured for a digital object the
+better –- for purposes of resource identification, selection, rendering, and
+reconstruction. But, how much metadata
+is really necessary and practicable to capture and/or create in high-production
+digitization environments for those purposes? What are economically feasible, realistic workflow scenarios that will
+scale to a faster pace and enable enough metadata to be captured and created to
+accomplish the goals of a digital repository? What are the tradeoffs between creating more-and-better metadata, and
+creating a greater number of high quality digital objects? In this
+presentation, metadata creation and capture will be described and evaluated for
+two different high production environments at Stanford University Libraries. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>SUL/AIR has developed two high-production digitization
+channels in recent years:  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l6 level1 lfo6;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>the
+onsite capture of the GATT Archive at the World Trade Organization </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l6 level1 lfo6;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>the
+DL1 Laboratory on Stanford campus </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>For each of these channels, part of the
+challenge associated with the capture process has been to decide kind, extent,
+and feasibility of creating descriptive, technical, and administrative metadata
+in a collaboration of collection, scanning, cataloging and metadata, IT, and
+preservation staff. For this
+presentation, the rationale behind the metadata models used will be
+discussed. Also discussed will be the
+roles played by metadata standards, and the tradeoffs made between sound data
+structure and information capture. Finally, an assessment will be offered of some areas of research and
+further testing that would prove useful to develop better answers to the
+questions raised. </span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p12"></a> The Union Catalog of Art Images
+(UCAI): Aggregating and Standardizing
+Diverse Legacy Metadata.</span> 
+
+
+
+
+</b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Esme Cowles (Database Developer) and </b><b>Linda Barnhart</b><b> (Project Coordinator), Union Catalog of
+Art Images 
+<br><a href="presentations/cowles-2003-09.pdf">View presentation</a></b></p>
+
+<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The Union Catalog of Art Images (UCAI) project,
+funded by The Andrew W. Mellon Foundation and centered at UCSD, has built a
+prototype union catalog from three large and extremely diverse sets of legacy
+metadata for art images. UCAI is a
+research and development project that is building the technical infrastructure
+for a shared cataloging resource for the visual resources community to promote
+the copy cataloging of images. The
+platform for the prototype is the open source native XML database <span
+class=SpellE><i style='mso-bidi-font-style:normal'>Xindice</i></span>, with an
+open source front end search engine, <span class=SpellE><i style='mso-bidi-font-style:
+normal'>Lucene</i></span>. The aggregated
+dataset, at 675,000 records, may be one of the larger implementations of a
+native XML database in the digital library community, and includes thumbnail
+images for approximately 25% of the records.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The speakers will describe the problems
+uncovered and the software tools developed to map, standardize, and ingest the
+metadata to build the UCAI prototype. The challenges of clustering and merging redundant metadata will also be
+described. The speakers will also
+address the drawbacks and benefits of our experience with this native XML
+database, and the next steps for project development. </span></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="30" Hour="10"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>10:30-11:00</span></b></st1:time><b>:</b> <b>Break:<i
+style='mso-bidi-font-style:normal'> Foyer to Alvarado Room.</i></b><i
+style='mso-bidi-font-style:normal'> </i></p>
+
+<p class=MsoNormal style='tab-stops:96.0pt'><span style='mso-tab-count:1'></span><b> </b></p>
+
+<p class=MsoNormal><st1:time Minute="0" Hour="11"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><b>: BREAKOUT SESSION 7:  PRESERVATION.<span
+style='mso-spacerun:yes'>    </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i> </b></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><a name="p13"></a><b><span style='color:#3366FF'>Preservation-Worthy Digital Video; or, How
+to Drive your Library into Chapter 11</span> 
+</b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Jerry McDonough. </b>  <b>New York</b>  <b>  </b> <b>University</b>  <b> 
+
+
+<br><a href="mcdonough/DLF-mcdonough-PreservationVideo.htm">View presentation</a></b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>This session will provide an overview of what
+NYU has learned so far in trying to establish best practices with regards to
+archiving digital video, including a brief technical overview of relevant
+characteristics of digital video, a discussion of the abstract requirements for
+preservation-worthy digital video, and some discussion of costs for creating
+and maintaining a large scale digital video archive. </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><st1:State> <b><span style='color:#3366FF'><a name="p14"></a>California</span></b> </st1:State><b><span style='color:#3366FF'> Digital
+Library's Digital Preservation Program</span>.  </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><st1:PersonName> <b> Patricia Cruse</b></st1:PersonName><b>, Director, Digital Preservation Program, </b><st1:State> <b>California</b> </st1:State><b> Digital Library 
+
+
+<br><a href="cruse/cruse_dlf_fall03.htm">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>In partnership with the </span>  <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>California</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> libraries, the
+California Digital Library established a digital preservation program to focus
+on the persistent management of digital information.  Since its inception last year, CDL's program
+has developed so that it leverages the infrastructure available to the
+California Digital Library. The program
+is active in three primary areas:  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><span style='mso-list:
+Ignore'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>identifying
+methods to preserve and persistently manage e-journals </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><span style='mso-list:
+Ignore'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>establishing
+a preservation repository for content created or managed by the UC libraries  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:"Times New Roman"'><span style='mso-list:
+Ignore'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>evaluating
+methods for gathering and persistently managing web-based materials </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Findings from CDL's web-archiving activities,
+which were funded by The Andrew W. Mellon Foundation, will be presented.  </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="11"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time>: <b>BREAKOUT SESSION 8: USER PERSPECTIVE AND
+ASSESSMENT.<span style='mso-spacerun:yes'>    </span><span class=GramE><i
+style='mso-bidi-font-style:normal'>Alvarado Room D.</i></span> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p15"></a>Digital Scholarship in the Academy: What
+Scholars Need</span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Ann Lally, Head, Digital Initiatives, </b>  <b>University</b>  <b>  of </b> <b>Washington</b>  <b> Libraries 
+
+
+<br><a href="lally/DLF-lally-graham.htm">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>In March, 2003, the </span>  <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Washington Libraries</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> held a retreat to
+discuss digital scholarship – that is, academic work that was not possible
+prior to the development of digital technology.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>This retreat, titled &quot;From Vision to
+Transformation: New Models of Academic Support for Digital Scholarship&quot;,
+brought together sixty-two scholars, librarians, archivists, museum curators,
+academic leaders and technologists. Discussions with retreat participants centered around two questions:  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l5 level1 lfo10;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>&quot;What
+are scholars’ needs and wants regarding digital scholarship, collections, and
+technology?&quot;  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l5 level1 lfo10;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>&quot;What
+strategies should the </span>  <span style='font-size:
+  12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Washington</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> and the UW Libraries
+take to advance such scholarship and learning?&quot; </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The retreat included presentations, facilitated
+small group discussions, and opportunities for social interactions.  Overwhelmingly the retreat attendees pointed
+to the Library as the logical place to turn for assistance. A wealth of
+information was collected at this retreat; the issues raised (and the
+interesting omissions) and the models proposed by faculty will be discussed and
+will include potential implications for libraries. </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p16"></a>The Evolution of an Interface from the User
+Perspective: From End User Testing to a Usage Log Analysis</span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Sarah Chandler, </b>  <b>Cornell</b> <b> </b> <b>University</b>  <b> 
+
+
+<br><a href="chandler/schandlerdlf.htm">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>“Find Articles/Find Databases/Find e-Journals”
+is the new system the Cornell University Library (CUL) has implemented to
+replace the old “e-Reference Collection” system.   </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Find Articles/Find Databases/Find e-Journals is
+built using Endeavor’s <i style='mso-bidi-font-style:normal'>ENCompass</i> product,
+Oracle and XSL, whereas the e-Reference Collection was based on a MySQL
+database and Perl. E-Reference allowed
+for searching the metadata about both proprietary and unrestricted resources
+and then connecting directly to each database for searching in its native
+environment. The new system builds on
+the existing database search capability with “Find Databases,” adds federated
+searching at the article level with “Find Articles,” and provides title-level
+access to the 20,000 or so electronic journals available through the CUL with
+“Find e-Journals.” In addition, the
+system adds reference linking with “Find it at Cornell,” which utilizes
+Endeavor’s <span class=SpellE><i style='mso-bidi-font-style:normal'>LinkFinder</i></span><i
+style='mso-bidi-font-style:normal'> Plus</i>.<span style='mso-spacerun:yes'>  
+
+</span> </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span class=SpellE><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>CUL’s</span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman"'> <span class=SpellE><i
+style='mso-bidi-font-style:normal'>ENCompass</i></span> project team began
+working on the new system in earnest in the summer of 2002 and brought the
+system up live in May of 2003. Beginning
+in fall, 2002, the team undertook substantial XSL and HTML customization of the
+web interface and integrated a new authentication system using EZProxy.<span
+style='mso-spacerun:yes'>   </span>Through the course of faculty and student
+focus groups, reference staff feedback, and, most recently, a usage log
+analysis, the <span class=SpellE><i style='mso-bidi-font-style:normal'>ENCompass</i></span>
+team has been able to measure effectiveness of the new system and consider or
+implement improvements. The presentation will focus on the evolution of the
+interface and implications the usage log study raises for maximizing system
+performance in future. </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="30" Hour="12"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>12:30-2:00</span></b></st1:time><b>:</b> <b>Lunch.
+<span class=GramE><i style='mso-bidi-font-style:normal'>Franciscan Ballroom.</i></span><i
+style='mso-bidi-font-style:normal'> </i></b></p>
+
+<p class=MsoNormal><b><i style='mso-bidi-font-style:
+normal'><o:p>&nbsp;</o:p></i></b></p>
+
+<p class=MsoNormal><st1:time Minute="0" Hour="14"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>2:00-3:30</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>      </span><b>PLENARY.</b> <b><i style='mso-bidi-font-style:normal'>Alvarado Room ABC </i></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:blue'>Introduction</span>  </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><st1:PersonName> <b> David Seaman</b></st1:PersonName><b>, DLF </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:blue'><a name="p17"></a>A rose is a rose by any other name; what's a
+DODL?</span> 
+
+
+</b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Michael Keller, </b>  <b>Stanford</b> <b> </b> <b>University</b>  <b> 
+<br><a href="keller/DLF-keller-031118.htm">View presentation</a>
+</b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="30" Hour="15"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>3:30-4:00</span></b></st1:time>: <b>Break:<i style='mso-bidi-font-style:normal'>
+Foyer to Alvarado Room. </i></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="16"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>4:00</span></b></st1:time><b><span style='color:#993366'>-6.00</span>:
+BIRDS OF A FEATHER SESSIONS </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>a) Elizabeth A. S. Beaudin (Yale): <b>UNICODE: The Right Tools, but how to use
+them?<span style='mso-spacerun:yes'>   </span></b><span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i><b> </b></p>
+
+<p class=MsoPlainText><span style='font-size:12.0pt;font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The proposed presentation will review the
+technological decisions made at the outset of an open source electronic union
+list of Middle Eastern serials. For
+example, it might be argued that a Microsoft solution was and is available to
+address the aspects of the project's linguistic needs.  Why not use it?  Several factors informed the decision, among
+these: server configuration and experimentation, hardware costs for Middle
+Eastern partners, and international software accessibility, expertise and
+popularity. Further, how is Unicode being
+exploited in our system prototype? How
+has the tool been put to use to resolve search, retrieval, and display
+requirements? What challenges remain to
+solve, for example, when XML is introduced in later years of the project?  </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>b) John Kunze (CDL): <b>Persistent Identifiers:  What's left to be done?</b>  <i style='mso-bidi-font-style:normal'>Alvarado
+Room D.</i></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>To solicit ideas, needs, and
+visions that could be used to inform an analysis of how to move library
+community discussion forward on the creation and maintenance of durable
+links. As a possible point of departure,
+attendees are encouraged to read a recent reformulation of the problem that can
+be found here (PDF, 9 pages):  </p>
+
+<p class=MsoNormal style='margin-left:.5in'><a href="http://www.cdlib.org/inside/diglib/ark/arkcdl.pdf">
+http://www.cdlib.org/inside/diglib/ark/arkcdl.pdf</a> <br />
+(alternate 
+URL: 
+<a href="http://bibnum.bnf.fr/ecdl/2003/proceedings.php?f=kunze">
+http://bibnum.bnf.fr/ecdl/2003/proceedings.php?f=kunze</a> )</p>
+
+<br />
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>c) Jerry McDonough (NYU): <b>METS Implementers</b>. <i
+style='mso-bidi-font-style:normal'>Potters Room. </i></span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:.5in'><a name="OLE_LINK1"><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>An opportunity to
+discuss a range of METS issues. </span></a></p>
+
+<span style='mso-bookmark:OLE_LINK1'></span>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>d) <st1:PersonName>Perry Willett</st1:PersonName>
+
+(<st1:State> Indiana </st1:State>): <b>The Text Encoding Initiative and the revision of the DLF &quot;TEI in
+Libraries&quot; Guidelines</b><i style='mso-bidi-font-style:normal'>.  Weavers Room </i></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>An opportunity to discuss a range of TEI issues. </span></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:.5in'>e) Mackenzie Smith (MIT): <b>Global Digital Format Registry.  </b><i style='mso-bidi-font-style:normal'>Fireplace
+Room. </i></p>
+
+<p class=MsoNormal style='margin-left:.5in'><b><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span class=GramE><span
+style='font-size:12.0pt;font-family:"Times New Roman"'>An opportunity to
+discuss a range of GDFR issues.</span></span><span style='font-size:12.0pt;
+font-family:"Times New Roman"'> </span></p>
+
+<br />
+
+<br />
+
+<p class=MsoNormal align=center style='text-align:center'><b><span style='font-size:14.0pt'>Wednesday 19 November </span></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="8"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>8:00-9:00</span></b></st1:time><b>:</b> <b>Continental
+Breakfast: <i style='mso-bidi-font-style:normal'>Foyer to Alvarado Room. </i></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="9"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time><b>:</b> <b>BREAKOUT
+SESSION 9: PRESERVATION. <i
+style='mso-bidi-font-style:normal'>Alvarado Room ABC.</i> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=GramE><b><span style='color:#3366FF'><a name="p18"></a>The National
+Digital Information Infrastructure and Preservation Program</span>.</b></span><b> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>The National
+Digital Information Infrastructure and Preservation Program (NDIIPP).  Laura Campbell.</b>
+<br /><br />
+<a href="ndiipp/ndiipp_dlf_nov_14_new_2003.htm">View presentation</a>
+<br />
+
+<b>NDIIPP Architectural Model for Federated Digital Preservation.  Clay Shirky.</b>
+
+<br>
+<a href="ndiipp/LoC Architecture DLF.htm">View presentation</a></p>
+
+</p>
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="9"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>9:00-10:30</span></b></st1:time>: <b>BREAKOUT SESSION 10: RESOURCE MANAGEMENT. <span
+class=GramE><i style='mso-bidi-font-style:normal'>Alvarado D.</i></span> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><span class=SpellE><b><span style='color:#3366FF'><a name="p19"></a>LibData</span></b></span><b><span style='color:#3366FF'>: a library web
+management system</span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Paul F. Bramscher, Shane A, Nackerud, and John T. Butler, </b>  <b>University</b>  <b>  of </b> <b>Minnesota</b>  <b>, </b>  <b>Twin</b>  <b>  </b> <b>Cities</b>  <b> 
+
+<br>
+<a href="http://www.lib.umn.edu/san/DLF/DLF.htm">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The goal of publishing dynamically-generated
+library web pages through a system that integrates easy-to-use web authoring
+tools with a large database of information resources led the </span>  <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>University</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Minnesota Libraries</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> to build LibData. <span
+style='mso-spacerun:yes'> </span>Like many large research libraries, </span><st1:State> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Minnesota</span> </st1:State><span
+style='font-size:12.0pt;font-family:"Times New Roman"'> provides access to
+thousands of resources, both licensed and freely available. Access to these
+resources is provided in numerous ways, including through its web site, subject
+pathfinders, and course-customized library web pages.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>LibData's master database -- which contains
+records for resources, services, library locations, staff, and more -- was
+designed to allow for easier management of these resources and their rapid
+retrieval and incorporation into the variety of web presentations that
+librarians create for users. LibData currently offers three distinct page
+authoring tools useful to both novice and expert librarian users:  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>Research
+QuickStart Subject Builder (for subject pathfinders),  </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>CourseLib
+(for course-related pages) </span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l2 level1 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman"'>PageScribe
+(for free form pages).  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>These tools are tightly integrated with the main
+database, making resource management easier to control, and assuring that
+library users receive predictable and up-to-date information. <span
+style='mso-spacerun:yes'> </span><span class=SpellE>LibData</span> also
+features a robust staff management system, user and page statistics, and
+complete customizability and extensibility. This presentation will discuss the <span
+class=SpellE>LibData</span> system, its underlying database architecture, the
+administration interface, and efforts to create an open source distribution of
+the system. Also discussed will be the extensibility of <span class=SpellE>LibData</span>
+
+including work to connect it with enterprise systems such as the campus portal
+and course management software. </span></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p20"></a>NAND: A New Tool for an Old Problem</span>. </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Charles Blair, Elisabeth Long, and Keith Waclena, <span class=GramE>The</span>
+</b>  <b>Digital</b>  <b>  </b> <b>Library</b> <b> </b> <b>Development</b>  <b>  </b> <b>Center</b>  <b>, The </b>  <b>University</b> <b>
+
+ of </b> <b>Chicago</b>  <b> Library 
+
+<br />
+<a href="http://www.lib.uchicago.edu/dldc/talks/2003/dlf-nand">View presentation</a>
+
+</b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The Digital Library Development Center (DLDC) at
+the </span>  <span style='font-size:12.0pt;font-family:
+  "Times New Roman"'>University</span> <span style='font-size:
+ 12.0pt;font-family:"Times New Roman"'> of </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Chicago Library</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> has developed a
+lightweight, versatile tool for searching and browsing collections of data,
+including but not limited to bibliographic data, via the World Wide Web. This
+tool, NAND: A Non-Relational Database, has allowed the DLDC both to meet the
+current needs of its user base and also to anticipate demand in some areas. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>NAND has been used on a variety of projects
+ranging from an e-journals list to an integrated search interface for digital
+projects to management information for Unix computers. It is a generic tool
+that addresses a class of data-indexing and presentation needs while allowing
+customization by relatively non-technical staff to meet individual project
+requirements. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>NAND is a portable single-file executable which
+combines a back-end indexing component and a CGI-based web interface for
+searching and browsing. A project can be completely set up with as few as three
+lines of configuration, but advanced users have recourse to a complete
+object-oriented programming language within the configuration file. The system
+supports several types of input data (including delimited fields, CSV, refer,
+HTML, and electronic mail). The CGI interface supports customizable HTML and
+record layout; multiple sorts; multi-page hierarchical browsing; and Boolean
+searches across any number and combination of fields with phrase searching,
+wildcards and regular expressions. </span></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="30" Hour="10"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>10:30-11:00</span></b></st1:time>: <b>Break: <i style='mso-bidi-font-style:normal'>Foyer
+to Alvarado Room. </i></b></p>
+
+<br />
+
+<p class=MsoNormal><st1:time Minute="0" Hour="11"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time><b>: BREAKOUT SESSION 11: NATIONAL SCIENCE
+DIGITAL LIBRARY. <i style='mso-bidi-font-style:
+normal'>Alvarado Room ABC.</i> </b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'>NSDL Projects Update</span>. <span
+style='mso-spacerun:yes'> </span> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><st1:PersonName> <b> Martin Halbert</b></st1:PersonName><b>, Director for Library Systems, </b>  <b>Emory</b>  <b>  </b> <b>University</b>  <b> </b></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Two DLF institutions, </span>  <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>Emory</span> <span
+ style='font-size:12.0pt;font-family:"Times New Roman"'> </span> <span
+  style='font-size:12.0pt;font-family:"Times New Roman"'>University</span>  <span
+style='font-size:12.0pt;font-family:"Times New Roman"'> and the CDL, have
+independently received NSDL grants for similar and potentially complementary
+work on interoperability with the NSDL.</span></p>
+
+<ul style='margin-left:1.5in'>
+
+<li><a name="p21"></a>"The OCKHAM Library Network."  Martin Halbert, Emory University, with a draft of the OCKHAM reference model, as well as results from an early survey.
+
+<br>
+<b><a href="nsdl/DLF-Fall-03-OCKHAM.htm">View presentation</a></b>
+</p>
+
+<li><a name="p22"></a>"Adding Value to NSDL : A Business Proposition and Service Enhancement."  Laine Farley, 
+Director, Digital Library Services, California Digital Library
+
+
+<br>
+<b><a href="nsdl/NSDL_DLF111903.htm">View presentation</a></b>
+
+</p>
+</ul>
+<br />
+
+<p class=MsoNormal><st1:time Hour="11" Minute="0"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>11:00-12:30</span></b></st1:time>: <b>BREAKOUT SESSION 12.  <span class=GramE><i style='mso-bidi-font-style:
+normal'>Alvarado Room D.</i></span><i style='mso-bidi-font-style:normal'> </i></b></p>
+
+<br />
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p23"></a>Data Mining Library Collection Silos: An </span></b>  <b> <span style='color:#3366FF'>Opportunity</span></b> <b><span style='color:#3366FF'> for
+Cooperative Collection Management of Print and Electronic Books.</span> </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Lynn Silipigni Connaway. OCLC
+Online </b>  <b>Computer</b>  <b>  </b> <b>Library</b> <b> </b> <b>Center</b>  <b>, Office of Research. </b>
+
+
+<br>
+<b><a href="connaway/DLF_11-03_Post.htm">View presentation</a></b>
+</p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>The OCLC Online Computer Library Center WorldCat
+database is used to identify print books (p-books) that have an electronic book
+(e-book) edition and the libraries that hold these materials. An analysis of
+the bibliographic characteristics of and the geographic holdings for these
+materials provide empirical data for library decision-making. </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>Libraries are installing compact shelving,
+moving lesser-used and older collections to remote storage locations and,
+increasingly, are digitizing their materials. With digital collections come new
+challenges, such as usage and cost comparisons of print and electronic
+resources, digitization and preservation processes, organization, retrieval
+systems, services, and collection management. By analyzing collection data
+across institutions and within collections, library decision-makers are able to
+make collection decisions based on empirical data. An aggregated database of
+library holdings is required for such an analysis.  </span></p>
+
+<br />
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>This research draws on the OCLC Online Computer
+Library Center <span class=SpellE>WorldCat</span> database, containing more
+than 50 million records. <span class=SpellE>WorldCat</span> has not only served
+as an aggregator of bibliographic data for thirty years, but also identifies
+almost a billion holding locations for library resources. <span class=SpellE>WorldCat</span>
+can be used to describe collections bibliographically, as well as
+geographically. <span style='mso-spacerun:yes'> </span>The researchers use <span
+class=SpellE>WorldCat</span> to identify paper books (p-books) that have an
+electronic book (e-book) edition. Holding patterns are analyzed by type of
+library, publisher, date, and subject areas (using the North American Title
+Count) for all p-books and e-books. A comparison of the characteristics of
+p-books and e-books document the development and growth of the transition from
+the paper library to the digital library. The findings from this research will
+not only increase our understanding of the current e-book/p-book scenario, but
+could also be useful in seeking outside funding for a range of library
+operational issues, such as, preservation and digitization of materials and cooperative
+and individual library collection development and management decisions.  </span></p>
+
+<span style='font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+</span>
+
+
+
+<p class=MsoNormal style='margin-left:1.0in'><b><span style='color:#3366FF'><a name="p24"></a>From aggregation to commerce: the next
+phase for the RLG Cultural Materials </span></b><st1:City> <b><span style='color:#3366FF'>Alliance</span></b>  <b><span style='color:#3366FF'>.</span>  </b></p>
+
+<p class=MsoNormal style='margin-left:1.0in'><b>Ricky <span class=SpellE>Erway</span>, Digital Resources Manager, RLG </b>
+
+<br />
+<b><a href="erway/DLF From aggregation to commerce.htm">View presentation</a></b>
+<br /><br />
+</p>
+
+<p class=MsoNormal style='margin-left:1.0in;mso-layout-grid-align:none;
+text-autospace:none'>Beginning with a brief review of where RLG and the
+institutions in the Cultural Materials Alliance are today in aggregating their
+digitized special collections to make them easily accessible for teaching and
+research, the majority of the presentation will focus on the next phase of the
+initiative, which has as its goals reaching new audiences, providing broader
+awareness of and access to the institutions' special collections, and testing
+the waters of commercial licensing.&nbsp; This will include the results of <span
+class=SpellE>RLG's</span> investigation of image stock-houses, the plans for
+open web access via internet search engines, and the results of the
+deliberations of the <st1:City> Alliance  
+policy advisory group.</p>
+
+<br />
+
+<p class=MsoNormal><st1:time Hour="12" Minute="30"><b style='mso-bidi-font-weight:
+ normal'><span style='color:#993366'>12:30-1:00</span></b></st1:time><b>:</b> <span style='mso-tab-count:1'>    </span>Closing
+remarks: <st1:PersonName>David Seaman</st1:PersonName>, DLF.  <i style='mso-bidi-font-style:normal'>Alvarado
+Room ABC.</i></p>
+
+
+
+</div>
+
+<!-- End text -->
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+
+</tr></table>
+
+<hr width="75%" />
+<p align="center" style='text-align:center'><i><span style=
+'font-size:10.0pt'>Copyright &copy; 2004 by the Digital Library
+Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+<script language='javascript'>postamble();</script>

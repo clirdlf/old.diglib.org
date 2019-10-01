@@ -1,0 +1,1471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="How and Why Are Libraries Changing?" />
+<meta name="dc.Creator" content="Denise A. Troll" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2001-01-09" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>How and Why Are Libraries Changing?</title>
+
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+  if (Math.random) {
+    strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+    arrQuote = strQuote.split("^");
+    var num = Math.floor(Math.random() * arrQuote.length);
+    quote_rotate.src = "../images/"+arrQuote[num];
+  }
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../styles.css" rel="stylesheet" type=
+"text/css" />
+<link media="print" href="../print.css" rel="stylesheet" type=
+"text/css" />
+</head>
+<body onload=
+"MM_preloadImages('../images/preserve_r.gif','../images/use_r.gif','../images/build_r.gif','../images/logo_r.gif','../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)" onfocus=
+"MM_swapImage('dlf_logo','','../images/logo_r.gif',1)"><img src=
+"../images/logo.gif" alt="Digital Library Federation, Link: Home"
+name="dlf_logo" width="192" height="133" border="0" id=
+"dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../images/quote_hold.gif" name="quote_rotate" alt=
+"random quote" width="333" height="95" id="quote_rotate" /></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../publications.htm"><img src="../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+<td width="50" height="45" valign="top"><img src=
+"../images/forum.gif" alt="Forum" width="50" height="27" border=
+"0" /></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../about.htm"><img src="../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../news.htm"><img src="../images/news.gif" alt="Link: News"
+width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top"><a href=
+"http://www.diglib.org/search.html">Search</a> 
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> --></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../images/collect_r.gif',1);">
+<img src="../images/collect.gif" alt="Link: Digital Collections"
+name="collect" width="117" height="38" border="0" id=
+"collect" /></a></td>
+<td width="117" height="38" valign="top"><a href="../produce.htm"
+onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../images/produce_r.gif',1)">
+<img src="../images/produce.gif" alt="Link: Digital Production"
+name="produce" width="117" height="38" border="0" id=
+"produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../images/preserve_r.gif',1)">
+<img src="../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()"
+onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../images/use_r.gif',1)">
+<img src="../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../images/build_r.gif',1)">
+<img src="../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src="../images/horizline.gif"
+alt="&quot;&quot;" width="156" height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top"><!-- Begin text here -->
+<h1 class="sectionhead">DRAFT</h1>
+<p>How and Why Are Libraries Changing?</p>
+Denise A. Troll<br />
+Distinguished Fellow, Digital Library Federation<br />
+Assistant University Librarian, Library Information Technology,
+Carnegie Mellon<br />
+January 9, 2001<br />
+<a href="mailto:troll@andrew.cmu.edu">troll@andrew.cmu.edu</a>
+<h3>Introduction</h3>
+<p>The purpose of this paper is to initiate discussion among a
+small group of university and college library directors being
+convened by the Digital Library Federation (DLF) and the Council
+on Library and Information Resources (CLIR) to explore how and
+why libraries and library use are changing. This exploration is
+envisioned as the first step in a larger initiative that includes
+conducting research and presenting the research results to
+library directors, their provosts, presidents and faculty. The
+ultimate goal is to facilitate understanding of how and why
+libraries are changing and better position the library to meet
+the needs and expectations of university and college
+administrators and library users. This paper and the published
+results of the research proposed here will be of interest to all
+academic librarians because they address significant issues and
+concerns that confront libraries being held accountable for the
+learning and research outcomes and cost-effectiveness of their
+efforts.</p>
+<p>Though librarians have always collected data to support
+strategic planning, the rampant changes precipitated by new
+technologies are making traditional performance measures less
+effective in demonstrating the library's contribution to higher
+education. The first section of this paper explains the problem
+in detail and describes what is at stake. The second section
+analyzes the intrinsic limitations of traditional measures and
+our understanding of the trends they reveal. The third section
+addresses some environmental factors that may help us understand
+why library use is changing. The paper concludes by proposing
+research designed to help fill the gaps in our understanding of
+changes in library use.</p>
+<h3>Problem Statement</h3>
+<p>What do we know about how and why libraries are changing? We
+have the traditional measures that quantify a library's raw
+materials or potential to meet user needs ("inputs"), the work
+done with these raw materials ("outputs"), and fledgling efforts
+to assess the impact that library collections and services have
+on users ("outcomes"). The purpose of all inputs and outputs is
+to achieve outcomes, but neither inputs nor outputs indicate how
+well user needs are being met, the quality of library collections
+and services, or whether the library is accomplishing its mission
+within the larger institution. Traditional measures do not cover
+the full scope of how libraries are changing or explain why these
+changes are occurring.</p>
+<p>The absence of reliable information that documents and
+explains shifting patterns in library operations and use is
+adversely affecting strategic planning and the cases that
+academic library directors must make to win or bolster support
+for the library and its changing directions. Academic libraries
+cannot effectively prepare for the future or position themselves
+on campus until they understand their changing roles in the
+current learning and research environment, which is radically
+different from the environment a decade ago. Understanding and
+evaluating library usage patterns and developmental paths are
+prerequisites to formulating a critical and appropriate response
+to widespread, rapid changes in higher education.</p>
+<p>Sources of library use data exist, but the data are incomplete
+and problematic. For example, the data that libraries gather are
+often not consistent across institutions or through time, so the
+value of peer-comparisons and time-series trends is dubious.
+Similarly, usage data from commercial vendors of electronic
+resources cannot be compared easily because they measure or
+define the data differently. Trend data indicate but do not
+explain why library use varies in relation to library size.
+Interpretation is confounded by different institutional goals and
+local library policies. Differences in institutional mission
+affect not only support for and (therefore) use of the campus
+library, but the library's commitment to data collection and
+analysis. Confronted with these difficulties and yet clamoring
+for some vision of what is happening, the tendency is to
+aggregate existing heterogeneous data to reveal trends, then
+interpret the normalized data cautiously because they may be
+misleading. Even if these complicated problems were solved,
+traditional library measures would still provide an incomplete
+picture of the information landscape because they focus strictly
+on information services provided by libraries, ignoring
+information services provided by other entities on or off
+campus.</p>
+<p>Academic libraries may be gathering data because they are easy
+to gather or because they have always been gathered, rather than
+gathering data that inform clearly articulated purposes or
+important decisions to be made. Traditional measures of library
+inputs, outputs, and calculated ratios serve to rank and compare
+libraries along lines well-entrenched in the profession, but the
+data are of little value in meeting the current strategic
+planning and case-building needs of library administrators. What
+does it mean, for example, to know that X number of books was
+added to the collection this year, or that Y materials were
+circulated or Z reference questions answered? Though ratios that
+relate traditional output measures to the size of the campus
+community facilitate comparison, what good is it to know the
+ratio of total volumes or library staff to the student
+population? Are we assuming that more is always better than less?
+Is it necessarily bad if market penetration of interlibrary loan
+or reference service reaches only a small percentage of students
+and faculty? Is there some magic formula for allocating the
+appropriate percentage of a library's total budget to materials,
+staff, and operating expenses that will guarantee library
+outcomes in line with the university's mission? Ratios and
+percentages may be interesting indicators of local trends or
+progress toward local goals, but what do they really mean for the
+future of libraries and librarianship? Web server statistics are
+another case in point. The data easily gathered by Web servers
+may be interesting, but their meaning and application are
+elusive. Is the number of hits on a Web page low because the page
+is unnecessary or because (buried under too many links or a
+single, poorly labeled link) the page is difficult to find? In
+what context are numbers about total database sessions, Web page
+hits, and bytes transferred meaningful or useful?</p>
+<p>New technologies have rendered traditional measures less
+effective in explaining what is happening in libraries because
+the scope of traditional measures is too narrow to encompass the
+field of change. For example, traditional measures do not capture
+sufficiently the readily apparent changes in the definition,
+preservation, and delivery of library collections. In the past a
+"collection" was what the library physically owned. Records in
+the library catalog referred to items in the collection.
+Libraries now license access to remote electronic collections
+that they do not own. The library catalog contains records with
+interactive URLs pointing to the licensed items and libraries
+frequently provide other points of access to these items on their
+Web site. If a print subscription is cancelled, the library
+retains ownership of the (previous) physical volumes. If an
+electronic subscription is cancelled, the library does not retain
+access to the (previous) digital volumes. In the past, multiple
+purchasing or subscribing libraries in effect archived and
+preserved print publications. In the digital arena of licensed
+access, libraries no longer play this role, but must look to
+publishers to provide this service for digital
+collections.[<a href="#n1">1</a>] Traditional library performance
+measures do not reveal these significant changes or the real
+concerns or serious implications that arise from them.</p>
+<p>Concerns about the stability and longevity of digital
+publications discourage many institutions from valuing
+publications "born digital" in promotion and tenure
+considerations, which is a strong deterrent for faculty, though
+such publications are the conspicuous solution to the economic
+crisis in scholarly publications. This crisis and efforts to
+better serve our constituencies are changing the relationship
+between libraries, publishers, authors, and artists. Libraries
+become publishers when they digitize collections, host journals
+that are "born digital," or assemble student or faculty works
+online. [<a href="#n2">2</a>] Librarians become politicians when
+they lobby faculty not to sign away copyright to a print
+publisher, who then requires them or the library to pay for use
+of their own works. Traditional measures do not capture these new
+roles.</p>
+<p>As commercial publishers and aggregators usurp much of the
+work involved in collecting, organizing, and preserving (digital)
+information, the focus of librarians is shifting to teaching and
+research. Librarians are expected to facilitate skilled
+information retrieval (not Web "surfing"), intervene between the
+user and the information to help users evaluate what they
+retrieve, and assume greater responsibility for learning and
+research outcomes. Knowing that usability affects usage,
+librarians are also expected to do more user-centered research
+employing a greater variety of research methods than in the past
+(for example, focus groups, surveys, interviews, user protocols,
+card-sorting studies, and paper prototyping). Developing or
+providing access to digital collections and services requires
+librarians to collaborate with a wider range of people than in
+the past, including computer scientists, graphic designers,
+pedagogy experts, archivists, and museum curators. The core
+competencies required to perform these new tasks are different
+from those required of librarians in the traditional print
+environment. Again, traditional measures do not capture these new
+roles and responsibilities.</p>
+<p>New technologies are also changing the services that libraries
+provide, for example, online reference, instruction, document
+delivery, user-initiated library loan, direct borrowing and
+self-checkout. At least one librarian sees the shift to
+user-initiated services as analogous to fast food, a cheapening
+or devaluing of what libraries provide, hence the phrase "the
+mcdonaldization of libraries." [<a href="#n3">3</a>] Usage
+statistics and cost analyses of these services are not readily
+available, but even a simple change in service can have
+significant impact on library operations. [<a href="#n4">4</a>]
+Traditional measures do not capture these changes or their
+implications.</p>
+<p>The cumulative effect of these changes appears to be a
+reformulation of the library's mission. The freely accessible
+information on the Web, in consort with the escalating cost of
+library materials, jeopardizes the traditional mission of
+libraries to create and sustain large self-sufficient collections
+for their users. Library philosophy and practice have shifted
+from purchasing materials and offering services "just in case" to
+"just in time." The cost of access appears to be more affordable
+than the cost of ownership, though it comes with the accompanying
+risk of loss if no one purchases or preserves an item (ending the
+viability of interlibrary loan) or if no one archives or migrates
+digital collections to the inevitable new formats and platforms
+that the future will bring. The widespread adoption of technology
+and reduced barriers to access account for these trends and the
+speculation that the digital divide is disappearing. [<a href=
+"#n5">5</a>] If the access model continues to offer more
+information at less cost to an increasing number of people, the
+ownership model may disappear altogether or be reserved for only
+high-cost, low-use materials. What would this mean for the future
+of libraries and their assessments of cost-effectiveness and
+learning and research outcomes?</p>
+<p>Traditional library measures indicate some differences among
+libraries and changes over time within libraries but, in the
+absence of additional library measures, the consideration of
+contextual factors, and clearly articulated assumptions, offer
+nothing that will help us recognize which differences or changes
+are significant in terms of fulfilling our mission and serving
+our constituencies in higher education. The situation is
+critical. Without this knowledge, we cannot prove to university
+and college administrators that our efforts contribute
+substantially and cost-effectively to the learning and research
+outcomes of the institution. This fact should fuel reflection,
+discussion, the surfacing of assumptions, setting of strategic
+goals, and framing of a constellation of existing and new
+measures that will provide the context necessary for interpreting
+change and planning the future trajectory of libraries. Library
+directors must</p>
+<ol>
+<li>Understand how and why libraries and library use are
+changing</li>
+<li>Reach agreement on how to measure the learning and research
+outcomes and cost-effectiveness of library collections and
+services, which entails determining how to define and assess
+"value" in a hybrid world of traditional and electronic
+collections and face-to-face and online services</li>
+<li>Plot a course into the future that is flexible enough to cope
+with the speed of change precipitated by information technologies
+and the Internet[<a href="#n6">6</a>]</li>
+</ol>
+<p>If we're not diligent, the speed of change will inhibit if not
+paralyze attempts to make sense of what's happening in libraries
+and intervene for the good of our constituencies. Admittedly,
+change sometimes occurs so quickly that by the time a research
+project is designed and implemented, and the results analyzed,
+the results are no longer applicable because the situation has
+changed. [<a href="#n7">7</a>] We know that we cannot plan
+effectively for the future by projecting increased access to
+current technologies, but we dare not be discouraged. The future
+of academic libraries is at stake. We must begin now to
+understand how and why libraries and library use are changing if
+we want libraries to be positioned effectively in higher
+education a decade from now.</p>
+<h3>Trends in Traditional Library Performance Measures</h3>
+<p>What do we know about how and why libraries are changing? The
+points for discussion presented below were garnered from publicly
+available statistical data[<a href="#n8">8</a>] and a telephone
+survey of librarians and staff being conducted by the Digital
+Library Federation as part of itsusage, usability, and user
+support initiative. They address trends and therefore do not
+necessarily reflect every library's experience. All that we
+appear to know with confidence is what trends have emerged in
+traditional library inputs and outputs. The trend data are
+indicative but not explanatory of change. They are difficult to
+interpret because they lack context and are rife with hidden
+assumptions. Nevertheless, reasonable speculation abounds to
+account for the trends.</p>
+<h4>Trends in Traditional Input Measures</h4>
+<p><b><i>Budgets.</i></b> With rare exception, libraries are
+experiencing slight increases in materials budgets, educational
+and general operating budgets, and staff salary lines. Operating
+expenditures have increased significantly to meet automation and
+electronic resource needs, which create shifts in staffing,
+resources, materials, space, and equipment. [<a href="#n9">9</a>]
+Current budgets are insufficient to keep pace with the
+skyrocketing cost of materials, the increasing burden of capital
+expenditures for technologies that rapidly become obsolete, and
+the need for retraining or recruiting and retaining staff with
+the skills required to use and maintain the technologies.
+"Experience has shown that library budgets, exclusive of capital
+costs and the costs of physical maintenance, which fall below 6%
+of the [institution's] educational and general [operating] [E&GO]
+expenditures are seldom able to sustain the range of library
+programs required by the institution," [<a href="#n10">10</a>]
+but many libraries receive less than 6% of their institution's
+E&GO budget. Another rule of thumb for a successful library
+operation is that the percentage of increase in library budgets
+each year should equal or exceed the percentage increase of
+tuition and fees, yet library budgets appear to seldom reflect
+such increases. In some cases, libraries are not informed when
+new degree programs, majors or research centers are instituted.
+Even when they are informed, more often than not they are
+expected to stretch existing budgets to support the new
+initiatives. Libraries have been unable to make a convincing case
+to university and college administrators to increase their
+budgets using traditional performance measures. Aside from these
+considerations, library expenditures do not provide
+administrators with a complete picture of the cost of information
+service provision in a networked environment. The cost of the
+campus network, software, and hardware in public computer
+clusters or laboratories; and the licensing, storage, and
+delivery costs of electronic information provided by other units
+on campus, along with the staff costs to manage these facilities,
+must also be considered. Libraries are competing for these campus
+dollars.</p>
+<p><b><i>Collections.</i></b> Most libraries are canceling serial
+subscriptions, purchasing fewer monographs, and-to keep pace with
+user demands for more desktop delivery of materials-spending a
+growing percentage of their materials budget on licensing access
+to electronic resources. The decline in acquisitions may be due
+to the increased cost of materials, a more effective distribution
+of materials through collaborative purchasing (via consortia,
+organizational networks and inter-institutional agreements), or a
+shift in users' expectations of libraries. "Just in time"
+information delivery may be becoming an acceptable replacement
+for the traditional "just in case" archival imperative. Libraries
+are operating with fewer volumes per student than in the past,
+but there is no context in which to determine if this is good or
+bad.</p>
+<p><b><i>Staff.</i></b> Overall staff size is slowly declining,
+but many library systems departments are hiring more people to
+maintain the increasing array of library information
+technologies. Clerical positions are being eliminated throughout
+the library and positions are being created or reclassified at
+higher levels (with higher salaries) because more sophisticated
+technical or managerial skills are needed now than in the past.
+Typically, new or upgraded positions are accommodated by
+combining open positions because salary lines are insufficient to
+do otherwise. The need to retrain staff to keep pace with
+technological change adds the burden of finding increased funding
+for travel and training in an already strained budget. [<a href=
+"#n11">11</a>] Libraries are operating with fewer staff per
+student than in the past, but again there is no context in which
+to determine if this is good or bad.</p>
+<p><b><i>Equipment.</i></b> The era of microform equipment,
+photocopiers, and the card catalog has been replaced with a
+growing array of hardware, software, and systems. Libraries need
+budgets and articulated replacement cycles for all of this
+equipment. More often than not, the capital budget is
+insufficient to replace equipment before it becomes obsolete.
+Furthermore, libraries must find the financial resources to
+replace equipment purchased with one-time funding from grants.
+Aside from the budgetary concerns, traditional measures do not
+help libraries with equipment planning. For example, they provide
+no contextual information that would facilitate calculating how
+many computers the library should provide for public use based on
+the number of students who have their own desktop or laptop
+computer or the number of computers available in public clusters
+or laboratories on campus. Lacking this information, difficult
+and time-consuming queuing studies may be required to determine
+whether the number of public computers in the library is
+appropriate for the user population.</p>
+<p><b><i>Space.</i></b> Following years of reducing or
+eliminating user and staff spaces to accommodate growing physical
+collections, more and more libraries are looking to offsite
+storage to solve their space problems and wondering how to fund
+offsite storage from an already strained budget. Current library
+standards for user, staff, and collection spaces do not consider
+the space occupied by technology, for example, computers,
+printers, scanners, and fax machines. Traditional measures have
+been ineffective if not irrelevant in efforts to convince
+university and college administrators that the Internet and
+digitization are not a near-term solution to the library space
+shortage.</p>
+<h4>Trends in Traditional and Emerging Output Measures</h4>
+<p><b><i>Materials circulated.</i></b> Use of print resources is
+decreasing. Use of video and other media appears to be
+increasing. Overall circulation is declining. In-house use of
+library materials is also declining. Why come to the library to
+check out a printed book or use a printed journal when you can
+find an electronic version of the book or journal or something
+comparable or good enough on the Web? In the absence of any data
+about student and faculty use of information resources provided
+by entities other than the library, what does a decline in
+circulation really mean in terms of supporting education and
+research?</p>
+<p><b><i>Reserve items circulated.</i></b> The circulation of
+print reserves is declining rapidly, even in institutions that do
+not offer electronic reserves. In some institutions faculty are
+putting fewer materials on reserves. The decline in reserve items
+and usage may be due to the availability of full-text resources
+on the Web - provided by the library or by other entities.
+Faculty may be mounting full-text materials in course management
+software like BlackBoard, thereby eliminating use of the library
+but accomplishing the same purpose. The decline in reserve use
+could also simply reflect the behavior of current students.
+[<a href="#n12">12</a>] In the absence of usage data on other
+information sources, what does a decline in the use of reserves
+mean for the quality of education and research? Electronic
+reserves are popular with students and faculty, but the added
+value of desktop delivery is accompanied by added costs. The cost
+of providing electronic reserves is significantly higher than
+providing print reserves because of the equipment and staff
+skills needed to scan, store, link, track usage, and seek
+copyright permission to digitize the materials.</p>
+<p><b><i>Reference questions answered.</i></b> Use of reference
+service has been fluctuating, but appears to have dropped
+significantly in the past year. Traditional face-to-face
+reference service with a librarian is being transformed by
+information technologies deployed to reach an increasingly remote
+audience, for example, electronic mail, "chat" and "see you, see
+me" videoconferencing software. Reference services provided by
+the library are apparently being challenged by reference (or
+reference-like) services provided by entities outside of the
+library. Why ask a reference librarian when you can Ask Jeeves,
+Allexperts.com, or one of the many other Ask-A services now
+common on the Web? In the absence of usage data from and quality
+assessments of these other sources, what does a decline in the
+number of reference questions answered in the library mean for
+the quality of education and research? Libraries lack sufficient
+contextual information to make sense of what's happening in
+reference service.</p>
+<p><b><i>Interlibrary loan transactions.</i></b> Use of
+interlibrary loan (ILL) is increasing, in many cases
+dramatically, probably because of cancelled journal
+subscriptions, the purchasing of fewer monographs, and the
+provision of citation databases that index materials not owned by
+the library. Improved service quality could also be a factor. The
+bottom line, however, is that we do not have the contextual
+information we need to understand why ILL is increasing. We do
+know that new technologies are transforming ILL, blurring the
+lines between ILL and document delivery services, and shifting
+costs. Increased costs for staff training, hardware, and software
+(like ILLIAD and ARIEL) exceed decreases in staff costs
+associated with photocopying and mailing, though the added value
+to users of patron-initiated ILL and desktop delivery and
+tracking no doubt improve service quality.</p>
+<p><b><i>Library instruction classes.</i></b> The number of
+traditional library instruction sessions and participants was
+increasing until recently, but now appear to be on the decline,
+perhaps because distance-learning technologies are being deployed
+to deliver library instruction. Other environmental factors that
+may be affecting library instruction are the increasing
+technological savvy of users who can transfer skills from one
+vendor's databases to another, or student and faculty use of
+information resources and services not provided by the library,
+in which case library instruction is not in step with user needs
+or behavior. Again, we lack the necessary contextual information
+to interpret what a decline in library instruction sessions or
+participants really means or why it is happening.</p>
+<p><b><i>Gate counts.</i></b> Gate counts are declining. Why go
+to the library if you can find the information you need using
+your personal computer, create an Internet chat room to discuss
+your group project, or use a similar discussion facility provided
+in course management software like Blackboard that integrates
+your class syllabus, assignments, readings, quizzes, and grades?
+We can speculate all we want, but we lack the contextual
+information to interpret why gate counts are declining or what
+the decline means for education and research.</p>
+<p><b><i>Electronic resource use.</i></b> The demand for desktop
+delivery of materials is increasing. Use of electronic resources
+is growing more rapidly than expected. Use of older journal
+volumes in electronic format is increasing even more rapidly than
+use of electronic resources overall. [<a href="#n13">13</a>] The
+problems associated with vendor statistics are well known and
+many organizations, including the Association of Research
+Libraries (ARL) and the International Coalition of Library
+Consortia (ICOLC), are working with vendors to create standard
+definitions, methods of measurement and delivery formats to
+facilitate comparative analyses. [<a href="#n14">14</a>]</p>
+<p><b><i>Printing and photocopying.</i></b> The trend appears to
+be that the volume of printing is increasing and the volume of
+photocopying is decreasing, probably because of the increased
+availability of full-text electronic resources and printing of
+electronic journal articles. However, additional contextual
+information is needed to understand what is actually happening in
+any given institution. For example, in at least one library that
+charges for printing in an institution where printing in public
+computing labs is still free, printing has dropped because users
+seek free printing, yet photocopying has remained constant. At
+Carnegie Mellon, where printing is free campus wide, printing in
+the libraries dropped significantly this past year, particularly
+printing by library staff. Users may be printing more information
+outside of the library, but the dramatic decline in staff
+printing is inexplicable. Regardless of the volume of printing,
+more expensive printers and supplies are required now than in the
+past to accommodate printing color and new file formats like PDF,
+TIFF, GIF, and JPEG. If libraries can recover costs for printing,
+the new income may eventually offset the potential decrease in
+revenue from photocopying. [<a href="#n15">15</a>]</p>
+<h4>Trends in Outcomes Assessment</h4>
+<p>Outcomes assessments are hampered because they rely on input
+and output measures that are difficult to interpret and on
+institutional performance objectives that frequently are only
+vaguely defined and perhaps even contested on campus. If
+university and college administrators and faculty have not
+clearly articulated the learning and research outcomes they
+expect from the library, how do libraries know what outcomes to
+assess in order to demonstrate their contribution to the
+institutional mission?</p>
+<p><b><i>Learning and research outcomes.</i></b> In response to
+the (vague) call for accountability for student and faculty
+achievements, libraries are beginning to measure the impact of
+their collections and services on users. The effort to date has
+focused on assessments of user satisfaction and service quality.
+The easiest and most popular measurement is a survey of user
+satisfaction, but this assessment alone is a "facile outcome"
+because it provides little if any insight into what contributes
+to user dissatisfaction. [<a href="#n16">16</a>] Nevertheless,
+the trend in these assessments indicates that user satisfaction
+is a function of the individual user's perception of the quality
+of the library's resources, the competence and demeanor of
+library staff, and the physical appearance of library facilities.
+[<a href="#n17">17</a>] In contrast, service quality focuses on
+reducing the gap between user expectations of excellent service
+and their perception of the service delivered. Studies of service
+quality assess the collective experience of many users and
+suggest that reliability is the most important characteristic of
+service quality. [<a href="#n18">18</a>] Though these approaches
+to outcomes assessment are sufficiently interesting and
+informative to warrant continued use and development, they may be
+doomed to failure in terms of winning or bolstering library
+support from university and college administrators and faculty if
+the outcomes they assess are not based on proficiencies aligned
+with the nature and mission of the institution or integrated with
+the campus's overall assessment efforts.</p>
+<p><b><i>Cost-effectiveness.</i></b> Libraries appear to be
+stymied about how to assess the cost-effectiveness of their
+operations. To survive they must understand the costs associated
+with their collections and services. The difficulty of allocating
+the costs of a particular collection or service to content,
+staffing, facilities, hardware, and overhead is compounded by the
+difficulty of distinguishing between start-up costs and ongoing
+expenditures in an era of rapidly changing technologies, prices,
+and workflows. A thorough cost analysis must include purchasing
+or licensing costs and operational costs, such as the cost of
+selection, ordering, cataloging, shelving, checkout, networking,
+printing, associated reference questions, instruction, technical
+support, and maintaining related Web pages and links.
+Furthermore, such analyses must be repeated to keep abreast of
+changes. For example, a 1993 functional cost analysis of
+interlibrary loan indicated that staff costs accounted for 77% of
+the total cost of the service. [<a href="#n19">19</a>] Given the
+technological changes and accompanying cost shifts in providing
+ILL, this analysis needs to be repeated.</p>
+<p>Even if libraries could periodically and accurately allocate
+and calculate increases and decreases in costs for collections
+and services, the analyses would be insufficient to determine
+cost effectiveness. Cost effectiveness requires a clear
+definition of "value" to users and some way to factor this
+qualitative indicator into an otherwise quantitative model. For
+example, undergraduate students appear to value convenience and
+delivery speed more than the quality of the information
+delivered. (Confronted with this dilemma, what is the appropriate
+role for academic librarians? What do we do when we have a
+compelling reason to believe that what users want is not what
+they need?) Purchasing electronic resources or digitizing
+information adds value, but increases costs. In an environment
+where faculty want electronic access but are reluctant to
+dispense with print, [<a href="#n20">20</a>] the additional
+expense of acquiring and maintaining both print and electronic
+collections is difficult to determine but predicted to be
+exorbitant and unsustainable. Libraries need to explore
+alternatives and conduct more cost analyses like the 1998 journal
+study at Wellesley College to compare the cost-effectiveness of
+subscribing to a title with the cost of purchasing articles from
+that journal on an as-needed basis. [<a href="#n21">21</a>] To
+make informed decisions, such analyses must be accompanied by
+assessments of user satisfaction or service quality with the
+different alternatives. Assessments of cost effectiveness are
+subordinate to and must be placed in the context of outcomes
+assessments to take into account the value of library collections
+and services to users.</p>
+<p>A study of costs associated with electronic journals conducted
+at Drexel University illustrates the complexity of doing cost
+analyses. The Drexel study reveals that providing electronic
+journals creates significant shifts in staffing and operational
+costs. While the purchasing power of an electronic-journal dollar
+is greater than that of a print-journal dollar (because of
+bundling and backfiles), providing the requisite infrastructure
+of hardware, software, and systems staff significantly increases
+operating costs. The cost of staffing increases with electronic
+journals, partly because library administrators must be involved
+in negotiating licenses, joining consortia to get better pricing,
+developing collection strategies, and managing change
+(restructuring workflow, reorganizing staff positions, and
+building staff with appropriate skills, including the skills
+needed to track usage statistics and produce meaningful reports).
+The cost per unit of processing electronic journals is less than
+print, but requires staff with computer skills and the ability to
+adjust to continuous change in procedures. Even if the physical
+journals are no longer maintained, the increased cost of system
+maintenance, license negotiation, printing, and reference is
+greater than the decreased cost in physical collection
+acquisition and maintenance (including check-in, claiming,
+circulation, re-shelving, weeding, binding, converting to
+microform or offsite storage). [<a href="#n22">22</a>] The
+question remains, is the overall increase in costs incurred by
+providing electronic journals offset by the added value to users?
+Even if we believe that it is, how do we effectively make that
+case to university and college administrators so that budgets can
+be increased appropriately?</p>
+<p>Difficult tasks take a significant amount of time to
+accomplish. Librarians and staff are already overburdened with
+increasing and changing responsibilities. Even if the institution
+has clearly defined the outcomes it expects, many libraries do
+not have people with the requisite skills either to assess the
+teaching, research, and financial outcomes of the library's
+efforts or to prepare the materials required to present them
+effectively to university and college administrators in the
+limited time typically allotted to libraries to make their case.
+In the absence of clear guidelines and supportive models,
+libraries appear to be doing what is simple. For example,
+libraries perform simple calculations of the cost-per-search or
+cost-per-session of electronic resource use, based on the license
+cost alone, to determine whether to maintain a subscription,
+regardless of the fact that the calculation is misleading because
+it ignores the many associated costs and the user-centered
+qualitative dimension that ought to be the focus of any outcomes
+assessment. Usage is not synonymous with value.</p>
+<p>What value do users place on library collections and services?
+The commercial enterprise called Questia may provide a measure of
+the library's dollar value to students. Questia's success depends
+on students being willing to pay $20-22 a month for access to
+50,000 digital volumes and software tools that facilitate writing
+their papers. If Questia succeeds, will it help or hinder
+academic library efforts to illustrate their value and win
+support for digital library development? We don't know the answer
+to this question in large part because we do not really know what
+university and college administrators and faculty want or expect
+the library to contribute to the institution's mission.
+Administrators and faculty must clearly articulate their
+expectations and identify the performance indicators that they
+believe measure them before libraries can conduct meaningful and
+convincing outcomes assessments. Library inputs, outputs, and
+assessment efforts should be guided by what the institution says
+it wants. Without such guidance, libraries may fail to win
+support for their initiatives.</p>
+<h3>Environmental Factors</h3>
+<p>In the absence of environmental contextual data, traditional
+measures are difficult to interpret and explanations of why
+library use is changing are destined to be speculative. The
+larger context surrounding libraries must be examined to identify
+environmental factors that may be influencing the changes
+occurring in libraries and confounding interpretation of library
+trend data. The list of factors explored below is not
+comprehensive. It is presented to stimulate reflection and
+discussion. Exploration of additional factors is invited and
+encouraged.</p>
+<h4>Changes in Literate Habits</h4>
+<p>Research indicates that a rapidly growing percentage of the
+use of electronic library resources occurs outside of the
+library. At some institutions, the percentage approaches or
+exceeds 75%. Remote use of library resources means that users of
+unrestricted resources and services may not even be affiliated
+with the institution. Where once students and faculty turned to
+libraries, they now turn to their personal computers when they
+need to find information. Faculty members appreciate the
+convenience of the Web, but know that often the best resource is
+still only available in print. They know how to determine whether
+an information source is authoritative and timely, and generally
+have months or years to complete a project, so interlibrary loan
+and document delivery services are viable options for their
+research. Students, in contrast, are unable to distinguish
+appropriate from inappropriate resources for their assignments,
+have little time to complete their projects (in part because they
+procrastinate) and are enamored of the Web. In many cases, if the
+information is not available on the Web, it does not exist for
+them. They want a way to restrict their queries to retrieve just
+full-text electronic resources, regardless of whether the best
+material for their assignments is available only in print.</p>
+<p>Focus group and survey research indicates that undergraduate
+students typically turn to popular Web search engines when they
+need to find information. These search engines index only the
+"surface Web," where less than 7% of the information is
+appropriate for educational or scholarly purposes. No single Web
+search engine indexes more than 16% of the surface Web, [<a href=
+"#n23">23</a>] yet we have no evidence that students use more
+than one search engine when they look for information. According
+to BrightPlanet, the "deep Web" is 500 times larger and growing
+faster than the surface Web. The deep Web provides information in
+all disciplines, for all constituencies, that is 1,000-2,000
+times better in quality than the surface Web. Approximately 95%
+of deep Web content is publicly accessible without fees or
+subscriptions, but deep Web content, like scholarly commercial
+resources licensed by the library, is not indexed and therefore
+not accessible using popular Web search engines. [<a href=
+"#n24">24</a>] The growing concern is that many undergraduate
+students may be searching only 0.03% of the Web to complete their
+assignments, ignoring entirely the books, journals, databases,
+full-text digital resources and other scholarly materials
+provided by the library. Because of easy access to the Web,
+undergraduates are using library collections and services less
+than in the past and, in the absence of quality information and
+tools on the surface, this may imperil the quality of student
+learning. For this reason, some faculty members do not allow
+their students to use Web resources in class projects.</p>
+<p>Even if undergraduate students turn to the scholarly
+electronic resources licensed by libraries, their search skills
+are poor. They seldom if ever use advanced search features, do
+not understand that result sets are not necessarily organized by
+relevance to their query, and look only at the first Web page of
+ten to twenty items retrieved. Even if they come into the
+library, they seldom consult a reference librarian. In response,
+librarians are developing Web-based training materials to teach
+critical thinking skills and search techniques to remote or
+Web-enthralled users.</p>
+<p>These are desperate times for outreach to students. Even if
+the Web accounts in part for the decline in library usage, other
+factors must be considered if we want a complete picture of the
+environment that constrains library use.</p>
+<h4>Changes in Students and the Curriculum</h4>
+<p>Do current students read less or have less intellectual
+curiosity than former students? Are they just too enamored of the
+surface Web or too busy to explore or learn how to explore what
+libraries offer? Years ago, Carnegie Mellon students had
+difficulty using the online catalog, but could find the books
+they needed on the library shelf using the Dewey Decimal System.
+Today, they have no difficulty using the Web-based catalog, but
+they cannot find the books they want on the shelf because they do
+not understand the classification system. They ignore the numbers
+to the right of the decimal point and appear to be oblivious of
+the alphanumeric Cutter number. [<a href="#n25">25</a>]</p>
+<p>Students today want 24-hour access to digital library
+collections and services, as evidenced by a study of the online
+habits of 2,000 American college students conducted by
+netLibrary.</p>
+<ul>
+<li>82% of the students surveyed own a computer and "virtually
+all of them use the Internet."</li>
+<li>93% claimed that finding information online makes more sense
+than going to the library.</li>
+<li>83% said they were frequently unable to get the materials
+they need from the library because it is too late or too early to
+go to the library.</li>
+<li>75% said they do not have enough time.</li>
+<li>75% liked the convenience and 71% liked the time saved by
+finding information online any hour of the day. [<a href=
+"#n26">26</a>]</li>
+</ul>
+<p>Library directors can only wonder what impact Questia will
+have on student use of the library. Perhaps students have (or
+will have) little if any need to use the library. Faculty may be
+assigning fewer projects that require use of library resources.
+Like librarians, faculty members are being held accountable for
+the educational impact of their efforts. Does the preparation of
+course packs or the use of courseware like BlackBoard that
+bundles all the materials students need for a course simplify
+faculty outcomes assessments by eliminating the independent
+variable of student skill in using the library? Do faculty in
+certificate and graduate degree programs that are designed to
+move students quickly through with minimal burden on their time
+pre-package materials to eliminate the need to spend time using
+the library? What impact does the growing interest in online
+courses and distance education have on library use? In the
+absence of digital user certificates, libraries provide proxy
+servers for remote access to restricted electronic resources and
+services, but this technology is problematic, high maintenance,
+and may be circumvented by pre-packaging course materials.</p>
+<h4>Changes in the Technological Infrastructure</h4>
+<p>As computers become more affordable and more and more students
+purchase their own, what impact does this have on library use?
+What impact do wireless access and the growing number of
+student-owned laptops have on library use? Students clearly
+prefer desktop delivery of information and if they have a
+personal networked computer, in their eyes they may have no need
+to come to the library - hence the decline in gate counts and
+reduced circulation of traditional library materials. Do
+differences in student ownership of computers and the bandwidth
+of the campus computing infrastructure account for the
+differences in trends among large and small libraries? Is the
+percentage of remote use of electronic resources and services
+influenced by the penetration of computing and network bandwidth
+of the campus?</p>
+<p>Perhaps equipment configurations and replacement cycles are
+also a factor in library use. Why, for example, would students
+come to the library to retrieve electronic resources using
+obsolete equipment when their own computers are faster, better
+equipped to handle multimedia and loaded with all of the software
+they need to complete their assignments? Libraries typically
+restrict their public workstations to information retrieval tasks
+only, preferring students to go elsewhere to do email, word
+processing, programming, etc.</p>
+<h4>Information Resources and Services Provided by Entities
+Outside of the Library</h4>
+<p>What impact do Ask-A services, Questia, and Web sites like
+LibrarySpot have on student use of their local library? We need
+systematic quantitative and qualitative studies of these
+information resources and services to understand their impact on
+library use and the constituencies that libraries aim to serve.
+If the goal is to provide quality service to users, does it
+matter whether libraries provide the service or someone else
+does? If students are using these services and their quality is
+poor or inconsistent, how do librarians direct them to the better
+services and teach them how to critique the information they
+retrieve? Perhaps most importantly, how do libraries factor in
+the impact of these services in their efforts to assess the
+educational outcomes of the collections and services that they
+provide?</p>
+<h4>Proposed Research</h4>
+<p>Librarians must lobby university and college administrators
+and faculty to articulate clearly what they expect the library to
+contribute to the institutional mission. Meanwhile, librarians
+must continue to develop strategic plans for the future and
+endeavor to win or bolster support for the library and its
+changing directions. To do these tasks effectively, we must
+understand how and why libraries and library use are changing.
+Traditional library measures are inadequate for this purpose.
+Substantial research is required.</p>
+<p>The range of changes that libraries are experiencing is too
+broad for a single research study to address. The study proposed
+here is to conduct an exemplary quantitative analysis that will
+begin to explain how and why library use is changing
+significantly. The study is warranted because existing trend
+data, anecdotes, and speculation, however reasonable, are
+insufficient evidence for planning and case building with
+university and college administrators. To start filling the gaps
+in our current understanding, at least three tasks must be
+accomplished. A small, representative group of concerned and
+motivated library directors need to</p>
+<ol>
+<li>Identify and define a manageable set[<a href="#n27">27</a>]
+of measures, including new environmental indicators, that can be
+used to document and explain how and why library use is
+changing</li>
+<li>Recruit staff to collect and analyze genuinely comparable
+data about library use and influential environmental factors</li>
+<li>Publish and disseminate the results of this analysis to
+inform strategic planning and case-building and spur discussion
+of the implications of changing patterns of library use for the
+future of libraries and librarianship</li>
+</ol>
+<p>Performance measurement is admittedly a political activity.
+Electronic resource vendors are hesitant to share certain kinds
+of usage data for fear libraries will cancel subscriptions.
+[<a href="#n28">28</a>] Similarly, libraries are hesitant to
+share certain kinds of usage data for fear their institutions
+will interpret the data to mean that the value or importance of
+libraries is declining and consequently cut their budgets.
+However, non-disclosure of data inhibits understanding and
+jeopardizes effective planning. [<a href="#n29">29</a>] The
+challenge is twofold. First, stakeholders must understand how to
+interpret the data and the context in which it is meaningful.
+Second, they must trust one another. Caution and perseverance are
+essential to the goal of understanding how and why library use is
+changing. Library directors who participate in the research
+proposed here must be both bold and sensitive, understanding that
+the importance of the comparative aspect of this work and the
+need for trust must outweigh concerns about sharing confidential
+data that may reveal significant declines in library use and the
+striking impact of our competitors in the information
+marketplace.</p>
+<p>The proposed research calls for changing or expanding
+traditional library measures in a new direction. Management
+literature offers encouraging guidance. For example, the
+eight-stage process for creating change outlined by John P.
+Kotter begins with establishing a sense of urgency (by examining
+competitive realities and identifying opportunities) and creating
+a guiding coalition to articulate the vision, plan the strategy,
+and lead the change. Kotter explains that encouraging agents of
+change is less important than identifying and removing obstacles
+to change-like reluctance to trust one another or to tackle the
+difficulty of assessing the impact of Ask-A services on library
+use. [<a href="#n30">30</a>] Stephen R. Covey says that to change
+a situation, we first have to change ourselves. [<a href=
+"#n31">31</a>] Daryl R. Connor's research on change indicates
+that we will necessarily move from a period of "uninformed
+optimism to informed pessimism," but we should not be
+discouraged. [<a href="#n32">32</a>] The future of libraries and
+librarianship and the learning and research outcomes of our
+institutions of higher education will be determined by what we
+initiate today. The question is do we have the chutzpah to
+pioneer the frontier that currently overwhelms us?</p>
+<p>The Digital Library Federation and the Council on Library and
+Information Resources are providing the opportunity to examine
+the competition and create the guiding coalition. For practical
+reasons they have invited only a small number of libraries to
+participate in the proposed research, but all academic libraries
+are invited and encouraged to follow the group's work and to
+supply input and feedback that will help refine the project and
+interpret the results.</p>
+<h3>Notes</h3>
+<p><a name="n1" id="n1">1</a>. Publishers offer lip service, but
+have done little if anything to demonstrate their commitment to
+archiving and preservation or to assure libraries that the
+service will be affordable.</p>
+<p><a name="n2" id="n2">2</a>. Conversations at conferences with
+vendors of digital rights management software indicate that
+vendors do not perceive libraries as publishers and consequently
+are not developing affordable software to meet library needs.
+Similarly, vendors of e-book devices seem to be unaware or
+na&iuml;ve about how universities operate, believing that the
+campus bookstore or library is organized and prepared to load
+each student's device with the textbooks and other materials
+needed for their courses when these become available.</p>
+<p><a name="n3" id="n3">3</a>. B. Quinn, "The McDonaldization of
+Academic Libraries." <i>College and Research Libraries</i>, Vol.
+61, 3, pp. 248-261.</p>
+<p><a name="n4" id="n4">4</a>. For example, the shift to
+providing email notices of overdue books and enabling online
+renewals resulted in a significant drop in revenue from fines in
+Carnegie Mellon University Libraries.</p>
+<p><a name="n5" id="n5">5</a>. S. Singleton and L. Mast, "How
+Does the Empty Glass Fill? A Modern Philosophy of the Digital
+Divide." <i>EDUCAUSE Review</i>. November-December 2000,
+pp.30-34, 36.</p>
+<p><a name="n6" id="n6">6</a>. According to Raymond Kurzweil, the
+rate of technological progress currently doubles every decade, so
+a hundred years of progress at the current rate will happen in 25
+years. Change itself will reach an exponential rate of growth by
+2015. Kurzweil, Founder and Chief Technology Officer, Kurzweil
+Applied Intelligence, and Founder and Chief Executive Officer,
+Kurzweil Educational Systems, made this projection at the
+Earthware Symposium at Carnegie Mellon in October 2000.</p>
+<p><a name="n7" id="n7">7</a>. For example, years ago Carnegie
+Mellon consulted with experts in the field and began to design a
+queuing study to determine whether we had enough public
+workstations for our users. Before the study design was even
+completed, we abandoned the project because more and more
+incoming freshmen arrived on campus with their own computers.
+Similarly, we considered how to stretch our already strained
+budget to accommodate adding network ports (a "Netbar") for the
+conspicuously growing number of laptop computers that students
+were bringing into the library. This project too was abandoned
+when wireless computing and affordable wireless cards rendered
+"Netbar" unnecessary.</p>
+<p><a name="n8" id="n8">8</a>. The trends discussed in this paper
+are based on an examination of aggregate data from ARL and annual
+reports from selected Oberlin Group libraries. Aggregate Oberlin
+Group data is not publicly available.</p>
+<p><a name="n9" id="n9">9</a>. For example, the shift from print
+to electronic journals dramatically changes the workload and kind
+of work to be done, and affects space, equipment and supply
+needs.</p>
+<p><a name="n10" id="n10">10</a>. Standards for College Libraries
+of the Association of College and Research Libraries</p>
+<p><a name="n11" id="n11">11</a>. EDUCAUSE recently released a
+report stating that insufficient funds to recruit or retain
+qualified information technology staff has reached crisis
+proportions in higher education, a crisis that requires the
+attention and support of university presidents and provosts to
+solve. See EDUCAUSE Executive Briefing. "Recruiting and Retaining
+Information Technology Staff in Higher Education." <i>EDUCAUSE
+Quarterly</i>, Vol. 23, 3, 2000, pp. 4-7.</p>
+<p><a name="n12" id="n12">12</a>. A presentation at the annual
+American Library Association Conference a couple years ago
+reported on a comparative study of print and electronic reserves
+use. The results revealed that some students do reserve readings
+and some do not. The delivery media was irrelevant.</p>
+<p><a name="n13" id="n13">13</a>. K.M. Guthrie. <a href=
+"http://www.si.umich.edu/PEAK-2000/guthrie.pdf">"Revitalizing
+Older Published Literature: Preliminary Lessons from the Use of
+JSTOR."</a> March 23, 2000. Cornell University and the University
+of Michigan have seen similar results with the Making of America
+collections.</p>
+<p><a name="n14" id="n14">14</a>. The licensing and associated
+costs of electronic resources are addressed later in this
+paper.</p>
+<p><a name="n15" id="n15">15</a>. The equipment that enables cost
+recovery for networked printing is expensive, so it may take
+years to break even.</p>
+<p><a name="n16" id="n16">16</a>. <a href=
+"http://www.ala.org/acrl/outcome.html">"Task Force on Academic
+Library Outcomes Assessment Report."</a> Association of College
+and Research Libraries, June 27, 1998, p. 3.</p>
+<p><a name="n17" id="n17">17</a>. S.S. Andaleeb and P.L.
+Simmonds. "Explaining User Satisfaction with Academic Libraries:
+Strategic Implications." <i>College and Research Libraries</i> 59
+(March 1998), pp. 156-167.</p>
+<p><a name="n18" id="n18">18</a>. D.A. Nitecki, "Assessment of
+Service Quality in Academic Libraries: Focus on the Applicability
+of SERVQUAL," <i>Proceedings of the 2nd Northumbria International
+Conference on Performance Measurement in Libraries and
+Information Services</i> (Newcastle on Tyne, England: Department
+of Information and Library Management, University of Northumbria
+at Newcastle, 1998), pp. 181-196. One of the primary thrusts of
+ARL's New Measures Initiative is converting the service-specific
+SERVQUAL instrument into a library-wide LIBQUAL instrument, which
+is being pilot tested at this time.</p>
+<p><a name="n19" id="n19">19</a>. Referenced in C.H. Montgomery
+and J. Sparks, <a href=
+"http://www.si.umich.edu/PEAK-2000/montgomery.pdf">"Framework for
+Assessing the Impact of an Electronic Journal Collection on
+Library Costs and Staffing Patterns."</a>.</p>
+<p><a name="n20" id="n20">20</a>. A survey of ARL and non-ARL
+libraries in 1997-1998 indicated that 29% of the ARL libraries
+and 34% of the non-ARL libraries had canceled print journals for
+electronic access in the previous year, but 51% of the ARL
+libraries and 40% of the non-ARL libraries said that they did not
+and will not cancel print for electronic subscriptions because
+the academy is not ready to relinquish print. Referenced in C.H.
+Montgomery and J. Sparks, <a href=
+"http://www.si.umich.edu/PEAK-2000/montgomery.pdf">"Framework for
+Assessing the Impact of an Electronic Journal Collection on
+Library Costs and Staffing Patterns."</a>. The 1999 survey of 214
+JSTOR subscribers revealed that 64% of the institutions had no
+plans to discard bound volumes of JSTOR titles, 39% had moved or
+planned to move physical copies of JSTOR titles to offsite
+storage, and only 24% had stopped binding or planned to stop
+binding recent issues. See <a href=
+"http://www.jstor.org/about/bvs.html">http://www.jstor.org/about/bvs.html</a>.</p>
+<p><a name="n21" id="n21">21</a>. Referenced in <a href=
+"http://www.wellesley.edu/Reaccreditation/seven.html">http://www.wellesley.edu/Reaccreditation/seven.html</a>.</p>
+<p><a name="n22" id="n22">22</a>. C.H. Montgomery and J. Sparks.
+<a href=
+"%20http://www.si.umich.edu/PEAK-2000/montgomery.pdf">"Framework
+for Assessing the Impact of an Electronic Journal Collection on
+Library Costs and Staffing Patterns."</a></p>
+<p><a name="n23" id="n23">23</a>. S. Lawrence and L. Giles.
+<a href="http://www.wwwmetrics.com">"Accessibility and
+Distribution of Information on the Web."</a> 1999. (See also,
+<i>Nature</i> 400 [1999]: 107-109.)</p>
+<p><a name="n24" id="n24">24</a>. M.K. Bergman. <a href=
+"http://128.121.227.57/download/deepwebwhitepaper.pdf">"White
+Paper - The Deep Web: Surfacing Hidden Value."</a> July 2000.</p>
+<p><a name="n25" id="n25">25</a>. This observation is based on
+the author's experience of being interrupted in her office on the
+second floor of Hunt Library, which houses all the monographs in
+the social sciences and humanities, to help students find books
+they discovered using the public workstations outside her
+office.</p>
+<p><a name="n26" id="n26">26</a>. <a href=
+"http://www.netlibrary.com/Press_Releases/January132000-1.asp">"Yankelovich
+/ netLibrary Study Looks at Online Habits of American College
+Students."</a></p>
+<p><a name="n27" id="n27">27</a>. "A limited amount of data
+gathered with clear intentions is much more valuable than a vast
+amount of data with no specific purpose." W. Shim, C.R. McClure,
+J.C. Bertot et al. "ARL E-Metrics project: Developing Statistics
+and Performance Measures to Describe Electronic Information
+Services and Resources for ARL Libraries, Phase One Report."
+November 7, 2000, p. 55.</p>
+<p><a name="n28" id="n28">28</a>. One of the librarians
+interviewed in the DLF survey of usage and usability assessments
+told a story of a vendor who called to report a large number of
+turn-aways trying to access their resource, presumably to get the
+institution to license more simultaneous users. A close
+examination of the usage reports indicated that the turn-aways
+were clustered over two days during which there were very few
+database sessions, suggesting that the problem was technical, not
+a licensing issue. Vendors also neglect to discern logouts from
+time-outs in their usage reports, which librarians believe
+significantly skews reports of average session length.</p>
+<p><a name="n29" id="n29">29</a>. See, for example, M.
+Kyrillidou. <a href=
+"http://www.arl.org/newsltr/197/overview.html">"Overview of
+Performance Measures in Higher Education and Libraries."</a></p>
+<p><a name="n30" id="n30">30</a>. J. P. Kotter. "Why
+Transformation Efforts Fail." <i>Harvard Business Review</i>.
+March-April 1995, p. 61.</p>
+<p><a name="n31" id="n31">311</a>. S. R. Covey. <i>The 7 Habits
+of Highly Effective People</i>. Simon & Schuster, 1990, p.
+18.</p>
+<p><a name="n32" id="n32">32</a>. D. R. Conner. <i>Managing at
+the Speed of Change</i>. Random House, Inc., 1992. 
+<!-- End text --></p>
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+</td>
+</tr>
+</table>
+<p align="center" class="copyright">Copyright &copy; 2004 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

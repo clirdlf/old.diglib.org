@@ -1,0 +1,781 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<title>University of Michigan, DLF Newsletter.  Vol 5 (2004)</title>
+
+<meta content="University of Michigan, DLF Newsletter.  Vol 5 (2004)" name="dc.Title" />
+<meta content="University of Michigan" name="dc.Creator" />
+<meta content="Newsletter" name="dc.Subject" />
+<meta content="Report of Activities" name="dc.Description" />
+<meta content="Digital Library Federation. Washington, DC" name="dc.Publisher" />
+<meta content="Perry Willett" name="dc.Contributor" />
+<meta content="2004-10-18" name="dc.Date" />
+<meta content="text" name="dc.Type" />
+<meta content="text/html" name="dc.Format" />
+<meta content="" name="dc.Identifier" />
+<meta content="none" name="dc.Source" />
+<meta content="en-us" name="dc.Language" />
+<meta content="http://www.diglib.org/" name="dc.Relation" />
+<meta content="none" name="dc.Coverage" />
+<meta content="Copyright 2004, Digital Library Federation. Publicly-accessible" name="dc.Rights" />
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+ /* Font Definitions */
+ @font-face
+  {font-family:Tahoma;
+  panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+
+h1
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:16.0pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h2
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:14.0pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h3
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+h4
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12pt;
+  font-family:"Times New Roman";
+  font-weight:bold;}
+
+p
+  {margin-right:0mm;
+  margin-left:0mm;
+  font-size:12.0pt;
+  font-family:"Times New Roman";
+  text-indent: 0cm; 
+}
+
+ul
+{list-style-type: circle;
+}
+
+ol
+{list-style-type: lower-roman;
+}
+
+li
+  {line-height: 1.5;
+}
+
+.titlepage {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16pt;
+	font-style: italic;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	background-color: #CCCC99;
+}
+
+.TOC {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;
+}
+
+.collections {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	background-color: whitesmoke;	
+}
+
+.services {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.systems {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.projects {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.programs {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.challenges {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+.bibl {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	text-align: left;
+	background-color: whitesmoke;	
+}
+
+-->
+/*]]>*/
+</style>
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/logo_r.gif','../../images/collect_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  
+<tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+    <td width="50" height="45" valign="top"><a href="../../forums.htm"><img src="../../images/forum.gif" alt="Link: Forum" width="50" height="27" border="0" /></a></td>
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+    <td width="53" height="45" valign="top"><a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr class="noprint">
+    <td width="50" height="50" colspan="6" valign="top">
+<a href="/search.html">
+<img src="../../images/search.gif" alt="Search this site" border="0" /></a>
+
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"> <span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();"><img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+              <img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> 
+            </form> -->
+
+</td>
+        </tr>
+  
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+    <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+    <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top">
+<a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="117" height="38" border="0" />
+</a></td>
+  </tr>
+  <tr>
+
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+          <td valign="top">
+<img src="../../images/chip.gif" alt="photo of computer chip" width="56" height="59" />
+</td></tr>
+
+        <tr> 
+          <td align="left" valign="top"> 
+
+</td>
+        </tr>
+      </table> 
+
+</td>
+
+    <td width="584" height="634" colspan="9" valign="top">
+
+      <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td height="99" colspan="3" align="left" valign="top"> 
+
+<!-- TEXT STARTS HERE -->
+
+
+
+<div class="titlepage">
+
+<h1>University of Michigan</h1>
+
+<h2>Report to the Digital Library Federation<br />
+October, 2004</h2>
+</div>
+
+<div class="TOC">
+<h2>TABLE OF CONTENTS</h2>
+
+<ol>
+<li>  <a href="#sec1">Collections, services, and systems</a>  </li>
+<li>  <a href="#sec2">Projects and programs</a>  </li>
+<li>  <a href="#sec3">Specific digital library challenges</a>  </li>
+<li>  <a href="#sec4">Digital library publications, policies, working papers, and other documents</a> </li>
+</ol>
+
+</div>
+
+<hr width="75%" align="center" />
+
+<div class="Section1">
+<h1><a name="sec1">I. Collections, services, and systems</a></h1>
+
+<div class="collections">
+<h2>A. Collections</h2>
+
+<blockquote>
+<h3>Michigan County Histories and Atlases</h3>
+<p>
+The Michigan County Histories collection is a collaborative effort
+of Michigan's Council of Library Directors. The collection is
+projected to provide access to 192 histories dating from 1866
+to 1926. There are 195 volumes in 164 titles currently online.
+The collection is made possible, in part, through a generous
+Library Services and Technology Act (LSTA) grant.
+<br />
+<a href="http://www.hti.umich.edu/m/micounty/">http://www.hti.umich.edu/m/micounty</a>.</p>
+
+<h3>LLMC-Digital</h3>
+<p>
+The Scholarly Publishing Office (SPO) is partnering with the Law Library Microfilm Consortium (LLMC) to produce LLMC-Digital.
+LLMC is a non-profit cooperative serving member libraries' needs for preservation, space recovery, and collection development on film and on-line. In its first 27 years of operation, it filmed over 7,500 titles, some 90,000 volumes, of interest to researchers in law and history. Its backfile comprises the world's largest collection of legal literature and government documents in microform. That backfile, and future filming of some 10,000 volumes per year, are being made available for on-line access through the hosting services of SPO.  LLMC-Digital had nearly 4,000 volumes and 3.4 million pages online as of early August 2004. LLMC-Digital is currently comprised of four collections:
+Collection contains legal titles generated in or for the British colonies which became part of modern Canada. Parting from LLMC practice with most other jurisdictions covered in the Common Law Abroad project, due to the high interest in Canada within the LLMC community, this collection also includes many titles published post-independence.
+</p>
+
+<p>The interface includes a specially developed Title-Volume-Page search, which allows users to navigate to a known page or to all online volumes for a title via a drop-down list of titles and search boxes to designate volumes, parts, and pages.
+<br />
+<a href="http://ets.umdl.umich.edu/l/llmc/">http://ets.umdl.umich.edu/l/llmc/</a></p>
+
+
+<blockquote>
+<h4>Common Law Abroad-British Canada</h4>
+<p>
+Collection contains legal titles generated in or for the British colonies which became part of modern Canada. Parting from LLMC practice with most other jurisdictions covered in the Common Law Abroad project, due to the high interest in Canada within the LLMC community, this collection also includes many titles published post-independence.
+</p>
+<h4>U.S. Federal-Executive</h4>
+<p>Collection contains all titles offered by LLMC generated by any U.S. federal department, agency, commission, or other rule-making and enforcement body dependent upon the executive supervision of the President of the United States.
+</p>
+<h4>U.S. Federal-Judicial</h4>
+<p>
+Collection contains all titles offered by LLMC generated by any of the U.S. Federal Courts, as well as those statutory organizations, such as the Federal Judicial Center, which facilitate the administration of the courts.
+</p>
+<h4>U.S. Federal-Legislative</h4>
+<p>
+Collection contains all titles offered by LLMC generated by the U.S. Congress, its committees and temporary commissions, and those agencies, such as the GAO, Library of Congress, and the Copyright office, which report directly to Congress.
+</p>
+</blockquote>
+
+<h3>Evans Digital Imprint Text Creation Partnership</h3>
+<p>
+The University of Michigan, NewsBank/Readex Co., and the American Antiquarian Society are cooperating in a Text Creation Partnership to create 6,000 accurately keyed and fully searchable SGML/XML text editions from among the 40,000 titles available in the Evans Early American Imprints Collection. Evans is the most significant collection of titles relating to the history of seventeenth and eighteenth century America, and the Text creation partnership seeks to create enduring digital text editions of the most frequently studied works. NewsBank/Readex is producing digital page images and searchable OCR (Optical Character Recognition) for the overall collection. The standards-based editions created and owned by Text Creation Partnership will link directly to the corresponding Newsbank/Readex page images and will provide a research and instructional tool of enduring scholarly and instructional value.
+<br />
+<a href="http://www.lib.umich.edu/tcp/evans/">http://www.lib.umich.edu/tcp/evans/</a></p>
+
+
+<h3>Digital General Collection</h3>
+<p>We have brought together all print materials converted to electronic text into a single collection, called the Digital General Collection. This collection includes materials that have been reformatted digitally for preservation, as well as digital collections. The collection consists of more than 20,000 volumes at present, and we expect to add more than 3,000 volumes per year.
+<br />
+<a href="http://www.hti.umich.edu/g/genpub/">http://www.hti.umich.edu/g/genpub/</a></p>
+
+
+<h3>Center for Japanese Studies Publications</h3>
+<p>
+The Scholarly Publishing Office (SPO) is working with the Center for Japanese Studies to make its publication series more accessible, both through the Web and through print. The Out-of-Print Books Online 
+has 38 out-of-print titles and includes <cite>Occasional Papers in Japanese Studies</cite> and the <cite>Bibliographical Series</cite>, published by the Center from 1951 until 1979 and now out of print. In addition, a number of <cite>Michigan Papers in Japanese Studies</cite> now out of print have also been made available
+in searchable and downloadable formats.  All volumes may be searched and downloaded for free. Users will also soon have the option of purchasing a quality reprint from the Center.  In addition, SPO and the Center for Japanese Studies will soon release the first of a planned series of faculty selected reprints, entitled, <cite>CJS Faculty Series: Motion Pictures Reprint Series</cite>
+(edited by Ab&eacute; Mark Nornes). This collection contains production materials from <cite>The Effects of the Atomic Bomb on Hiroshima and Nagasaki</cite> (1946), and the Prewar Proletarian Film Movements Collection, including rare monographs, journals, censored newsletters and leaflets, and Quicktime films.
+<br />
+<a href="http://www.hti.umich.edu/c/cjs/">http://www.hti.umich.edu/c/cjs</a>
+</p>
+
+
+<h3>Encyclopedia of Diderot and D'Alembert Collaborative Translation Project</h3>
+<p>
+This collaborative translation project built by scholars and translators around the world now has almost 200 articles.  New enhancements will be released this fall including use of a bilingual controlled vocabulary created in collaboration with ARTFL, revised article metadata and content, and new support for cross-references and non-Latin characters. 
+<br />
+<a href="http://www.hti.umich.edu/d/did">http://www.hti.umich.edu/d/did</a>
+</p>
+</blockquote>
+
+</div>
+
+
+<div class="services">
+<h2>B. Services</h2>
+
+<blockquote>
+
+<p>
+Services may include user-profiling services, online reference
+services, services supporting interlibrary loan or the use of
+electronic reserves. Details below.</p>
+
+<h3>Print on Demand</h3>
+
+<p>
+The Scholarly Publishing Office (SPO) continues to build and expand its print on demand service for digitally reformatted volumes from the collection of the University of Michigan Library.  More than 560 copies have been sold, including 93 hardcovers (Only available since May, 2004), since the program's inception in February 2003. An e-Commerce system, allowing online ordering via credit card, went live in late May 2004. SPO partnered with the University of Michigan Business school and Cybersource to implement the new system. POD is currently an option in the Making Of America (<a href="http://moa.umdl.umich.edu">http://moa.umdl.umich.edu</a>),
+Historical Math (<a href="http://www.hti.umich.edu/u/umhistmath">http://www.hti.umich.edu/u/umhistmath</a>),
+and UM Technical Reports (<a href="http://www.hti.umich.edu/u/umr">http://www.hti.umich.edu/u/umr</a>) collections, representing more than 24,000 available titles.
+<br />
+<a href="http://spo.umdl.umich.edu/">http://spo.umdl.umich.edu/</a></p>
+
+
+<h3>Delivering Library Reserves</h3>
+<p>
+University of Michigan Web Services, a unit of Library Information Technology, has collaborated with the UM CTools development team to create a tool for interoperability between the Aleph 16 course reserves module and CTools.  CTools is part of the Sakai Project, a research and development project for creating open source collaborative tools for use in learning, research, and other types of distributed group work. The SAKAI project involves a consortium of universities from across the country.
+
+On demand, the web-based tool queries Aleph's X Server for items on reserve for the given class. From this, it builds an RSS 0.92 feed that contains short descriptions of each item on reserve, as well as links to full records. Additionally, the tool provides a link to a list of items on reserve for the course and library branding via a graphical logo.
+</p>
+</blockquote></div>
+
+<div class="systems">
+<h2>C. Systems</h2>
+
+<blockquote>
+<h3>Version 11a of DLXS software released</h3>
+<p>
+Version 11a is an interim release that fixes some problems and enhances some features of version
+11. Enhancements include XML/Unicode support in XPAT, the creation of a class for finding aids,
+and the introduction of mysql into ImageClass. We held a weeklong workshop in August 2004, 
+with 23 participants from 13 institutions. A full syllabus, along with full documentation for the
+DLXS system, is available on the website.
+
+<br />
+<a href="http://www.dlxs.org/">http://www.dlxs.org/</a></p>
+</blockquote>
+</div>
+</div>
+
+<hr width="75%" align="center" />
+
+<div class="section2">
+<h1><a name="sec2">II. Projects and programs</a></h1>
+
+<div class="projects">
+<h2>A. Projects</h2>
+
+<h3>New Project Announcements</h3>
+
+<blockquote>
+
+<h4>Eighteenth Century Collections Online Text Creation Partnership (ECCO-TCP)</h4>
+<p>A new Text Creation Partnership, in partnership with the Eighteenth Century 
+Collection Online published by Thomson-Gale. This TCP is similar to previous partnerships for
+EEBO and Evans.
+<br />
+<a href="http://www.lib.umich.edu/tcp/ecco/">http://www.lib.umich.edu/tcp/ecco/</a></p>
+
+
+</blockquote>
+
+<h3>Update on Existing Projects</h3>
+
+<blockquote>
+<h4>Making of America turns 7 years old.</h4>
+<p>It was a surprise to many of us, but several people wrote to the diglib listserv to commemorate the 7th anniversary of the Making of America collection.
+See <a href="http://infoserv.inist.fr/wwsympa.fcgi/arc/diglib/2004-03/msg00042.html">http://infoserv.inist.fr/wwsympa.fcgi/arc/diglib/2004-03/msg00042.html</a>
+and <a href="http://infoserv.inist.fr/wwsympa.fcgi/arc/diglib/2004-03/msg00044.html">http://infoserv.inist.fr/wwsympa.fcgi/arc/diglib/2004-03/msg00044.html</a> for the messages.
+<br />
+<a href="http://moa.umdl.umich.edu/">http://moa.umdl.umich.edu/</a></p>
+
+<h4>NYC books added to Making of America</h4>
+<p>Thanks to a ongoing, generous donation from Lawrence Portnoy, a Michigan alumnus, we are adding 19th century books
+about New York City to the Making of America collection. So far, we've added about 280 volumes. 
+<br />
+<a href="http://www.hti.umich.edu/cgi/t/text/text-idx?type=bib&amp;c=moa&amp;q1=portnoy&amp;rgn1=citation">
+Portnoy collection</a></p>
+
+<h4>Early English Books Online / Text Creation Partnership</h4>
+<p>The Early English Books Online-Text Creation Partnership (EEBO/TCP) now has 7,900 books online, with 200-300 added each month. 
+The production partnership between the Universities of Michigan and Oxford remains vital, and has been 
+extended on a trial basis to the production of Latin books at the University of Toronto. Other news:
+</p>
+<ul>
+<li>The Joint Information Systems Committee (JISC) has joined the EEBO TCP. See 
+<a href="http://www.jisc.ac.uk/printer_friendly.cfm?name=news_eebo">http://www.jisc.ac.uk/printer_friendly.cfm?name=news_eebo</a>
+for more information.</li>
+<li>The University of Chicago has loaded EEBO TCP texts into Philologic.</li>
+<li>EEBO-TCP is cooperating with the Spenser project at Washington University in St. Louis.</li>
+<li>There is a new academic advisory group representing 12 renaissance studies centers around the U.S., Canada, and the U.K. who will be helping to select materials and build relationships within the academic community.</li>
+<li>30 new institutions joined EEBO-TCP over the past year, including members of the Oberlin Group and the Consortium of Prairie and Pacific Libraries (COPPUL) in Canada, bringing the grand total to over 120. </li>
+<li>We have piloted a project both for foreign language review at the University of Toronto and for Welsh language review at the National Library of Wales.</li>
+<li>MARC records were distributed to the University of Toronto, University of North Carolina-Chapel Hill, and the University of Iowa.</li>
+</ul>
+
+<p><a href="http://www.lib.umich.edu/tcp/eebo/">http://www.lib.umich.edu/tcp/eebo/</a></p>
+
+</blockquote>
+</div>
+
+
+<hr width="75%" align="center" />
+
+<div class="section3">
+<h1><a name="sec3">III. Specific Digital Library Challenges</a></h1>
+
+
+<div class="challenges">
+<blockquote>
+<h2>Standards, Protocols, Best Practices</h2>
+
+<p>Given the blizzard of new standards, protocols and best practices, how do we keep current? 
+How do we bring along our digital collections in other, older formats? How do we adapt our digital
+library system in response?</p>
+
+<h2>Pervasive digitization</h2>
+
+<p>As digitization activity spreads throughout the organization, how do we maintain
+quality? How do we identify places along the way where errors are likely to occur? How do we 
+work with various departments and organizations both within and outside the library to develop
+a digital library?</p>
+</blockquote>
+</div>
+</div>
+
+<hr width="75%" align="center" />
+
+<div class="section4">
+<h1><a name="sec4">IV. Digital library publications, policies, working papers, and other documents</a></h1>
+
+<div class="bibl">
+<ul>
+<li>Halbert, M., Kaczmarek, J. and Hagedorn, K. "Findings from the Mellon Metadata Harvesting
+Initiative." In <cite>Research and Advanced Technology for Digital Libraries, 7th
+European Conference, ECDL 2003 Proceedings</cite>, Trondheim, Norway, August 17-22, 2003, eds.
+Koch, T. and Solvberg, I.T. <cite>Lecture Notes in Computer Science</cite> 2769 (2003) 
+pp. 58-69.</li>
+<li>Hagedorn, K. and Hodges, P. "U-M expands access to hidden electronic resources with
+OAIster." <cite>University of Michigan Record</cite> (March 8, 2004)
+<a href="http://www.umich.edu/~urecord/0304/Mar08_04/07.shtml">http://www.umich.edu/~urecord/0304/Mar08_04/07.shtml</a></li>
+<li>Schaffner, Paul. "DOST and MED and the Virtues of Sibling Rivalry," in <cite>Perspectives 
+on the Older Scottish Tongue</cite>, ed. Christian Kay. Edinburgh: Edinburgh
+University Press, 2005 [forthcoming].</li>
+<li>Willett, Perry. "Electronic Texts: Perspectives and Communities," IN: <cite>A Companion
+to Digital Humanities.</cite> Susan Schreibman, Ray Siemens, and John Unsworth, eds. Malden,
+MA: Blackwell, [forthcoming Nov. 2004.]</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+<!-- TEXT ENDS HERE -->
+
+
+
+        <p class="body"><br />
+
+              <a href="#top" class="link">return to top &gt;&gt;</a> </p>
+
+            </td>
+        </tr>
+      </table>
+
+      <p>&nbsp;</p>
+
+<p align="center" class="copyright">Copyright &copy; 2004 Digital Library Federation. All rights reserved.</p>
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+</p>
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body></html>

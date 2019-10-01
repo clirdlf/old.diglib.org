@@ -1,0 +1,114 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" notessizex="4608" notessizey="6048"
+  gridspacingx="49152" gridspacingy="49152" advisor="2">
+  <p:master id="3" slidesn="0,0" type="main" href="master03.htm"
+   xmlhref="master03.xml" template="Default Design" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+    <p:colorscheme
+     colors="#0000ff,#ffffff,#000000,#ffff00,#ff9900,#00ffff,#ff0000,#969696"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#333333,#000000,#dddddd,#808080,#4d4d4d,#eaeaea"/>
+    <p:colorscheme
+     colors="#ffffcc,#000000,#666633,#808000,#339933,#800000,#0033cc,#ffcc66"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#ffcc66,#0000ff,#cc00cc,#c0c0c0"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#c0c0c0,#0066ff,#ff0000,#009900"/>
+    <p:colorscheme
+     colors="#ffffff,#000000,#808080,#000000,#3399ff,#99ffcc,#cc00cc,#b2b2b2"/>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1C707F8,41AAB9A0" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:master id="2" slidesn="1C707F8,43444560" type="handout" href="master02.htm"
+   layout="handout" slots="header,dateTime,footer,slideNumber"/>
+  <p:slide id="14" slidesn="0,0" href="slide0014.htm" layout="title_subtitle"
+   slots="centerTitle,subTitle" collapseoutline="t"/>
+  <p:slide id="1" slidesn="0,0" href="slide0001.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="80" slidesn="0,0" href="slide0080.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="82" slidesn="0,0" href="slide0082.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="83" slidesn="0,0" href="slide0083.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="84" slidesn="0,0" href="slide0084.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="85" slidesn="0,0" href="slide0085.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="86" slidesn="0,0" href="slide0086.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="87" slidesn="0,0" href="slide0087.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="88" slidesn="0,0" href="slide0088.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="89" slidesn="0,0" href="slide0089.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="91" slidesn="0,0" href="slide0091.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="92" slidesn="0,0" href="slide0092.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="123" slidesn="0,0" href="slide0123.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="122" slidesn="0,0" href="slide0122.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="11" slidesn="0,0" href="slide0011.htm"/>
+  <p:slide id="94" slidesn="0,0" href="slide0094.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="95" slidesn="0,0" href="slide0095.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="64" slidesn="0,0" href="slide0064.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="99" slidesn="0,0" href="slide0099.htm"/>
+  <p:slide id="114" slidesn="0,0" href="slide0114.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="115" slidesn="0,0" href="slide0115.htm" layout="title_only"
+   slots="title"/>
+  <p:slide id="25" slidesn="0,0" href="slide0025.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="124" slidesn="0,0" href="slide0124.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="59" slidesn="0,0" href="slide0059.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="71" slidesn="0,0" href="slide0071.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="110" slidesn="0,0" href="slide0110.htm" layout="title_only"
+   slots="title" omitmastershapes="t"/>
+  <p:slide id="112" slidesn="0,0" href="slide0112.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="4" slidesn="0,0" href="slide0004.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="58" slidesn="0,0" href="slide0058.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="23" slidesn="0,0" href="slide0023.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="9" slidesn="0,0" href="slide0009.htm" layout="title_body"
+   slots="title,body" collapseoutline="t"/>
+  <p:slide id="101" slidesn="0,0" href="slide0101.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="109" slidesn="0,0" href="slide0109.htm" layout="title_body"
+   slots="title,body"/>
+  <p:slide id="26" slidesn="0,0" href="slide0026.htm" layout="title_body"
+   slots="title,body"/>
+  <p:viewstate type="slideView" sorterscale="100" restoredleft="155"
+   restoredtop="778" manualadjustleft="t" manualadjusttop="t"
+   hideoutlineicons="t"/>
+  <p:font name="Times New Roman" charset="0" type="4"/>
+  <p:font name="Arial" charset="0" type="4"/>
+  <p:font name="CopprplGoth Bd BT" charset="0" type="6" family="34"/>
+  <p:font name="Trebuchet MS" charset="0" type="6" family="34"/>
+  <p:font name="Tahoma" charset="0" type="4" family="34"/>
+  <p:headersfooters slidenumber="t" formatid="0" noheader="t"/>
+  <p:headersfooters notes="t" slidenumber="t" formatid="0"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="249858" fill="f" stroke="f">
+  <v:fill on="f"/>
+  <v:stroke on="f"/>
+  <o:colormru v:ext="edit" colors="red,#9c9c60,#d7d1b5,#d5d7b5,#930,#e9a9a7,#fc6,yellow"/>
+ </o:shapedefaults></xml>

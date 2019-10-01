@@ -1,0 +1,2288 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta name="dc.Title" content="Enabling Access in Digital Libraries: A Report on a Workshop on Access Management" />
+<meta name="dc.Creator" content="Arms, Caroline" />
+<meta name="dc.Creator" content="Klavans, Judith" />
+<meta name="dc.Creator" content="Waters, Donald J." />
+<meta name="dc.Subject" content="Electronic information resources" />
+<meta name="dc.Description" content="The workshop described in this report focused on the management of access to published information resources through research libraries. Topics discussed include privacy, protection of rights, authorization, and authentication." />
+<meta name="dc.Publisher" content="Digital Library Federation, Washington, D.C." />
+<meta name="dc.Publisher" content="Council on Library and Information Resources, Washington, D.C." />
+<meta name="dc.Contributor" content="Howard, Barrie" />
+<meta name="dc.Date" content="1999-02-01" />
+<meta name="dc.Date" content="2006-08-18" />
+<meta name="dc.Type" content="electronic book abstract" />
+<meta name="dc.Format" content="text/html" />
+
+<meta name="dc.Identifier" content="http://purl.oclc.org/DLF/pubs/dlf087/" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights"
+content="Copyright 1999, Digital Library Federation." />
+<meta name="dc.Rights"
+content="Copyright 1999, Council on Library and Information Resources." />
+<meta name="dc.Rights"
+content="Copyright 2006, Digital Library Federation. Publicly-accessible." />
+<title>Enabling Access in Digital Libraries: A Report on a Workshop on Access Management</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() { 
+if (Math.random) { 
+strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif^quote7.gif^quote8.gif^quote9.gif^quote10.gif^quote11.gif^quote12.gif^quote13.gif^quote14.gif^quote15.gif^quote16.gif^quote17.gif^quote18.gif^quote19.gif^quote20.gif^quote21.gif^quote22.gif^quote23.gif^quote24.gif^quote25.gif^quote26.gif^quote27.gif^quote28.gif^quote29.gif^quote30.gif^quote31.gif^quote32.gif"; 
+arrQuote = strQuote.split("^"); 
+var num = Math.floor(Math.random() * arrQuote.length); 
+document.quote_rotate.src = "../../images/"+arrQuote[num]; 
+}
+}
+//-->
+
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top">
+
+<a href="../../quotations.htm">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt="random library quotation" width="333" height="95" border="0" /></a></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+
+
+
+
+
+<form action="search.asp" method="get" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>            
+
+<input name="qu" id="textfield" type="text" value="" size="10" />  &nbsp;
+            
+<a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" align="middle" /></a>&nbsp; 
+
+<a href="../../sitemap.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /></a> 
+<script language="JavaScript" type="text/javascript"></script>
+      </form>
+
+
+
+
+</td>
+</tr>
+
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"></td>
+       <td width="117" height="38" valign="top"></td>
+    <td width="117" height="38" colspan="2" valign="top"></td>
+    <td width="117" height="38" colspan="3" valign="top"></td>
+    <td width="116" height="38" colspan="2" valign="top"></td>
+  </tr>
+
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<img src="../../images/keybd2.gif" alt="photo of books" width="56" height="59" /> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<script src="../../members.js" type="text/javascript"> </script> 
+
+
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+
+<script src="../../allies.js" type="text/javascript"> </script> 
+
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+
+
+<!-- Begin text here -->
+
+      <center>
+         <b><i>
+               
+               <h3>Enabling Access in Digital Libraries: A Report on a Workshop on Access Management</h3>
+               </i></b>
+         by <b>Caroline Arms</b>
+         
+         
+         <blockquote>
+            February 1999
+            <i>Copyright 1999 by the Council on Library and Information Resources. No part of this publication may be reproduced or transcribed
+               in any form without permission of the publisher. Requests for reproduction should be submitted to the Director of Communications
+               at the Council on Library and Information Resources.</i>
+            
+         </blockquote>
+         
+      </center>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-ii-</i></p>
+      
+      
+      <hr width="75%">
+      <center><b>The Digital Library Federation</b></center>
+      
+      <blockquote>On May 1, 1995, 16 institutions created the Digital Library Federation (additional partners have since joined the original
+         16). The DLF partners have committed themselves to "bring together -- from across the nation and beyond -- digitized materials
+         that will be made accessible to students, scholars, and citizens everywhere." If they are to succeed in reaching their goals,
+         all DLF participants realize that they must act quickly to build the infrastructure and the institutional capacity to sustain
+         digital libraries. In support of DLF participants' efforts to these ends, DLF launched this publication series in 1999 to
+         highlight and disseminate critical work.
+      </blockquote>
+      
+      <blockquote>DONALD J. WATERS <br><i>Director <br>Digital Library Federation</i></blockquote>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-iii-</i></p>
+      
+      
+      <hr width="75%">
+      <center><b>Contents</b></center>
+      
+      <ul>
+         
+         <li><a href="#executive">Executive Summary</a></li>
+         
+         <li><a href="#executiveintroduction">Introduction</a></li>
+         
+         <li><a href="#summary">Summary of the Day's Activities</a></li>
+         
+         <li><a href="#summaryopening">Opening Statements</a>
+            
+            <ul>
+               
+               <li><a href="#summaryklavans">Judith Klavans, Director, Center for Research on Information Access, Columbia University</a></li>
+               
+               <li><a href="#summarywaters">Donald Waters, Director, Digital Library Federation</a></li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#invited">Invited Presentations</a>
+            
+            <ul>
+               
+               <li><a href="#invitedcreation">Creation of an Authorization Database (Russell S. Vaught)</a></li>
+               
+               <li><a href="#invitedreflections">Reflections on the NISO DOI Rights Metadata Working Group (John S. Erickson)</a></li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#discussion">Discussion of Scenarios</a>
+            
+            <ul>
+               
+               <li><a href="#discussiontechnical">Technical Assumptions</a></li>
+               
+               <li><a href="#issues">Issues Affecting User Acceptance</a>
+                  
+                  <ul>
+                     
+                     <li><a href="#issuesutopian">Where is the balance between two utopian visions?</a></li>
+                     
+                     <li><a href="#issuesperspectives">What perspectives are needed?</a></li>
+                     
+                     <li><a href="#issuesevolution">Will there be slow evolution or a revolution?</a></li>
+                     
+                     <li><a href="#issueseconomics">Will economics govern acceptance?</a></li>
+                     
+                     <li><a href="#issuessimplicity">Simplicity pays</a></li>
+                     
+                  </ul>
+               </li>
+               
+               <li><a href="#convenors">Convenors' Questions</a>
+                  
+                  <ul>
+                     
+                     <li><a href="#convenorsdistinctions">What kinds of role distinctions are necessary?</a></li>
+                     
+                     <li><a href="#convenorsduties">What rights and duties are expected?</a></li>
+                     
+                     <li><a href="#convenorsprivacy">What are the privacy issues?</a></li>
+                     
+                     <li><a href="#convenorssecurity">How strong must the security controls be?</a></li>
+                     
+                     <li><a href="#convenorsaccountability">What kinds of accountability are necessary and what kinds of management data are needed?</a></li>
+                     
+                     <li><a href="#convenorseffectiveness">How do we evaluate effectiveness of the system from user and provider perspectives?</a></li>
+                     
+                  </ul>
+               </li>
+               
+               <li><a href="#unanticipated">Unanticipated Issues</a>
+                  
+                  <ul>
+                     
+                     <li><a href="#unanticipatedauthors">Where do authors fit in?</a></li>
+                     
+                     <li><a href="#unanticipatedunaffiliated">What about unaffiliated individuals and small institutions?</a></li>
+                     
+                     <li><a href="#unanticipatedchange">Accommodating change</a></li>
+                     
+                     <li><a href="#unanticipatedambiguity">Accommodating ambiguity</a></li>
+                     
+                  </ul>
+               </li>
+               
+            </ul>
+         </li>
+         
+         <li><a href="#conclusions">Conclusions</a></li>
+         
+         <li><a href="#appendixa">Appendix A: Workshop Participants</a></li>
+         
+         <li><a href="#appendixb">Appendix B: Suggested Readings</a></li>
+         
+         <li><a href="#appendixc">Appendix C: Legislative Update</a></li>
+         
+         <li><a href="#appendixd">Appendix D: Definitions</a></li>
+         
+      </ul>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-iv-</i></p>
+      
+      <a name="executive"></a><hr width="75%">
+      <center><b>Executive Summary</b></center>
+      
+      <blockquote>With digital information rapidly increasing in amount and availability, the information management community finds itself
+         facing a wide-reaching and complex set of challenges. One of the primary challenges is how to manage access to information
+         that is sensitive, proprietary, or protected by copyright. Addressing this question requires the attention of
+      </blockquote>
+      
+      <ul>
+         
+         <li>policy makers concerned with questions of privacy and protection of data,</li>
+         
+         <li>legal experts who draft contracts and licenses whose terms must be implemented through automated systems for authenticating
+            users and authorizing access,
+         </li>
+         
+         <li>technologists who design software for controlling electronic use and misuse, and</li>
+         
+         <li>publishers and librarians, who, as major providers of information, play a central role in striking a balance between protecting
+            copyright and enabling access to the record of knowledge.
+         </li>
+         
+      </ul>
+      
+      <blockquote>The workshop described in this report focused on the management of access to published information resources through research
+         libraries. Topics discussed include privacy, protection of rights, authorization, and authentication. These are, in fact,
+         important issues of concern to all citizens whenever access to information they seek is controlled automatically.
+      </blockquote>
+      
+      <blockquote>Among the groups seeking to meet the challenge of access management are the Digital Library Federation (DLF), which consists
+         of major research libraries and archives in the United States, the Center for Research on Information Access (CRIA) at Columbia
+         University, and the Information and Intelligent Systems Division of the Computers, Information Sciences and Engineering Directorate
+         of the National Science Foundation (NSF). On April 6, 1998, they brought together expert practitioners and researchers from
+         several disciplines at a workshop, held at the Brookings Institution in Washington, D.C., to explore some of the more pressing
+         questions for research libraries, including:
+         
+         <blockquote>
+            <i>How can members of a university that has subscribed to an electronic journal prove that they are authorized to access an article?
+               How is a system to confirm that the staff member, professor, or student is not someone else? Are there ways to screen out
+               impostors?</i>
+            
+         </blockquote>
+         <blockquote>
+            <i>How finely can information providers discriminate among potential users when making their materials available? What criteria
+               should universities and public libraries, among other organizations, use to determine who should have access to a database
+               of published information, such as the online version of The New York Times? What options do public libraries have to be able
+               to authorize the use of licensed materials to the general citizenry that they serve?</i>
+            
+         </blockquote>
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-v-</i></p>
+         
+         
+         <blockquote>
+            <i>How can authors and other creators of information resources be protected from digital thievery? Is Garrison Keillor correct
+               in predicting that authors on the information superhighway will become "the deer in the headlights" of a vast traffic they
+               cannot control?<a href="#n1"> [1]</a> What means do custodians have to ensure that the cultural record is accessible but that the proprietary rights of authors
+               and creators are protected against widespread copying and redistribution?</i>
+            
+         </blockquote>
+         <blockquote>
+            <i>Should digital data be fitted with a digital lock that can be opened only by users with matching keys? How does such a mechanism
+               accord with constitutional and legislative mandates requiring that a balance be struck between the rights of authors and creators
+               and citizens' accessibility to the cultural record?</i>
+            
+         </blockquote> Such questions and the discussions they stimulated led participants to identify five key properties for the design and adoption
+         of systems that enable access for users while respecting the rights and interests of authors and publishers.
+      </blockquote>
+      
+      <ul>
+         
+         <li><i>Simplicity</i>. The less complex a system of access management, the more readily it can be adopted technologically and organizationally,
+            and the more acceptable it is to all involved in its implementation.
+         </li>
+         
+         <li><i>Privacy</i>. Systems that manage access to the cultural record must protect the privacy of users from detailed tracking and disclosure
+            of use. User privacy must not be compromised.
+         </li>
+         
+         <li><i>Good faith</i>. Agreements on access to scholarly information rely on trust among the parties involved. Users and providers would each prefer
+            to depend, in an access management system that implements
+            
+            
+            <hr width="75%">
+            <p align="center"><i>-vi-</i></p>
+            
+            these agreements, on reasonable barriers against abuse rather than complex restrictions that inhibit use.
+         </li>
+         
+         <li><i>Trusted intermediaries</i>. Intermediaries play an essential role in providing access to the cultural record as parties trusted by both users and providers
+            and as efficient aggregators of distribution and usage. System design must take the role of intermediaries into account.
+         </li>
+         
+         <li><i>Reasonable terms</i>. Access management systems and license agreements must recognize the distinction between access and use. Overly tight control
+            of access to a resource may impose inappropriate constraints on its use, especially in teaching and research contexts. The
+            most useful system will not limit access to specific user groups known in advance to be interested in a resource, but will
+            be reasonably open to serving unlikely users whose curiosity and research interests may lead them in directions not predicted
+            by those responsible for making the agreements or designing the systems.
+         </li>
+         
+      </ul>
+      
+      <blockquote>Workshop participants also recommended research and project evaluation in two key areas: ,em&gt;system usability and economic
+         models. First, an effort must be made to understand the ways in which users interact with systems, their needs in relation
+         to new information types, and the functionality of these types in the emerging digital environment. Second, new standards
+         of measure must be found to assess the usage of digital resources and thereby to develop alternative pricing schemes and payment
+         mechanisms. Although the conclusions reached at this workshop relate specifically to the problems of managing access to the
+         cultural record in digital form for research and teaching purposes, they apply to other realms as well, including business,
+         medicine, insurance, credit card transactions, and logfiles from Web browsers, all of which involve more sensitive information.
+         Enabling appropriate access to digital information depends on the efforts and talents of many stakeholders: information specialists,
+         librarians, publishers, computer scientists, lawyers, scientists, and policymakers, and the general citizenry.
+      </blockquote>
+      
+      
+      
+      
+      <hr width="75%">
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-1-</i></p>
+      
+      <a name="executiveintroduction"></a><hr width="75%">
+      <center>
+         <h2>Introduction</h2>
+      </center>
+      
+      <p>On April 6, 1998, the Digital Library Federation (DLF) and the National Science Foundation (NSF) sponsored a one-day workshop
+         on ways to improve systems of managing access to digital information. The workshop was an outgrowth of a two-day meeting sponsored
+         by NSF in September 1996 exploring the technology of the terms and conditions for access.<a href="#n2"> [2]</a> The consensus there was that input from a variety of user communities was required to develop formal mechanisms for implementing
+         terms and conditions within digital libraries. This DLF-NSF workshop was convened to provide input from research libraries
+         with a focus on requirements for access management systems that can be designed and deployed in today's technical, legal,
+         and economic environment.
+      </p>
+      
+      <p>Workshop conveners Judith Klavans, director of Columbia University's Center for Research on Information Access, and Donald
+         Waters, director of the Digital Library Federation, invited experts from the fields of computer science, library technology,
+         publishing, information technology, and to exchange ideas on managing access law (see appendix A for workshop participants).
+         Prior to the workshop, they gave the participants a list of suggested readings and asked them to consider two typical scenarios
+         faced by research libraries (see appendix B for readings and figure 1 for scenarios). In the first scenario, libraries provide
+         digital works to other academic institutions and the public; in the second, they license digital works from publishers or
+         publishers' agents. The conveners asked participants to discuss the scenarios from the perspective of both users and providers
+         of information as a basis for developing requirements for access management systems.
+      </p>
+      
+      <p>The workshop's objectives were
+         
+         <ul>
+            
+            <li>to provide input to the development of the Coalition for Networked Information (CNI) White Paper on interorganizational access
+               management,<a href="#n3"> [3]</a></li>
+            
+            <li>to identify key research problems for programs such as the NSF's Digital Libraries Initiative and Knowledge and Distributed
+               Intelligence program, and
+            </li>
+            
+            <li>to provide a springboard for implementation projects.</li>
+            
+         </ul>
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-2-</i></p>
+      
+      
+      <p>
+         <p align="center"><img src="images/pub79fig1.gif"></p>
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>References</h3>
+      </center>
+      
+      <p><a name="n1"></a><p>1 GarrisonKeillor, remarks at a panel discussion, Session III, Conference on Intellectual Property Rights and the Arts: The
+            Impact of New Technologies, sponsored by the New York International Festival of the Arts, December 13, 1994 (transcript on
+            file with the Columbia Law Review).
+         </p><br><br></p>
+      
+      <p><a name="n2"></a><p>2 James R. Davis and Judith L. Klavans, "Workshop Report: The Technology of Terms and Conditions," <i>D-Lib Magazine</i>, June 1997. Available at <a href="http://www.dlib.org/dlib/june97/06davis.html">http://www.dlib.org/dlib/june97/06davis.html</a>.
+         </p><br><br></p>
+      
+      <p><a name="n3"></a><p>3 Clifford Lynch (ed.), <i>A White Paper on Authentication and Access Management Issues in Cross-Organizational Use of Networked Information Resources</i>, Coalition for Networked Information, Spring 1998. Available at <a href="http://www.cni.org/projects/authentication/authentication-wp.html">http://www.cni.org/projects/authentication/authentication-wp.html</a>.
+         </p><br><br></p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-3-</i></p>
+      
+      <a name="summary"></a><hr width="75%">
+      <center>
+         <h2>Summary of the Day's Activities</h2>
+      </center>
+      
+      <p>In the opening statements, Judith Klavans explained the design and goals of the workshop, noting that its primary concern
+         was <i>access</i> management rather than rights management, as originally announced. Donald Waters explained that systems for access management
+         include two key technical components, <i>authentication</i> and <i>authorization</i>. He noted that the focus of this workshop was on mechanisms for authorization. He outlined issues and options identified
+         through a parallel initiative at CNI, the development of a White Paper on Authentication and Access Management Issues in Cross-organizational
+         Use of Networked Information Resources. Waters reminded participants that the two scenarios presented in the workshop handout
+         should stimulate discussions later in the day.
+      </p>
+      
+      <p>Two invited presentations set the stage for the discussions. Russell Vaught, director of Academic Computing at Penn State
+         University, described the enterprise-wide authorization database in use at Penn State. John Erickson, Vice President for Systems
+         Development at Yankee Book Peddler, Inc., described the goal of the Rights Metadata Working Group established as part of the
+         joint activities of the National Information Standards Organization (NISO) and the International DOI (Digital Object Identifier)
+         Foundation. In particular, he presented the conceptual model developed by the group to represent rights transactions and a
+         proposed schema for rights operations.
+      </p>
+      
+      <p>Three groups were formed for two breakout sessions. Each group reflected a balance of expertise and was instructed to use
+         the same approach, outlined in the handout, to examine the two scenarios. In the first breakout session, they were to consider
+         both scenarios from the perspective of users. For the second, their task was to concentrate on the provider's perspective.
+         In the event, it proved hard to draw such lines. Perhaps because the challenge is to find a balance between the perspectives,
+         the natural instinct was to consider both sides of issues such as security and privacy. At the same time, it was immediately
+         apparent that the perspective of the library or institutional user differs markedly from that of the individual end user.
+         In view of this complexity, the report summarizes the discussions from a thematic rather than a chronological standpoint.
+      </p>
+      
+      <p>Each breakout was followed by a plenary session at which a representative from each group summarized the discussions. Before
+         the final discussion, Peter Jaszi of the Washington College of Law, American University, presented an update on legislative
+         activities concerning copyright and related intellectual property rights (<a href="#appendixc">see appendix C</a>).
+      </p>
+      
+      
+      <a name="summaryopening"></a><hr width="75%">
+      <center>
+         <h2>Opening Statements</h2>
+      </center>
+      <a name="summaryklavans"></a><hr width="75%">
+      <center>
+         <h3>Judith Klavans, Director, Center for Research on Information Access, Columbia University</h3>
+      </center>
+      
+      <p>As a backdrop for discussion, Judith Klavans highlighted the findings of two previous workshops on topics related to access
+         management. The first, a two-day workshop on Technology of Terms and
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-4-</i></p>
+         
+         Conditions, was held in September 1996. This workshop, which Klavans chaired with Jim Davis of Xerox PARC, was also funded
+         by NSF. Roughly 30 participants explored issues from multidisciplinary perspectives. Four breakout groups focused on different
+         aspects of the overall problem, covering the following topics: infrastructure requirements and the factors that encourage
+         or inhibit acceptance of systems for managing terms and conditions; the technical, political, and social uncertainties that
+         prevent the formulation of descriptions of terms and conditions; issues of scale; and ways to express conditions of use.
+      </p>
+      
+      <p>Of the conclusions reached, three in particular gave stimulus to the present workshop:
+         
+         <ul>
+            
+            <li>publishers vary in their approaches to licensing and the degree of control they wish to retain,</li>
+            
+            <li>user communities must be involved in design and testing, and</li>
+            
+            <li>community attitudes and acceptance are of prime importance.</li>
+            
+         </ul> Other important points raised in September 1996 were that technology must accommodate vagueness and ambiguity; ambiguity
+         may be intentional, as a consequence of the legal needs for flexible interpretation; economic pressures push publishers and
+         libraries in opposite directions, and legal and technological developments will affect the economic balance; and international
+         perspectives must be considered.
+      </p>
+      
+      <p>In December 1996, the Digital Library Federation (then the National Digital Library Federation) and researchers from the six
+         projects funded through the first phase of the Digital Libraries Initiative held a joint meeting at Stanford University. A
+         discussion of terms and conditions focused on points of disagreement and other issues preventing progress in building systems
+         to manage access to information in digital libraries. Participants explored requirements from three perspectives: publishing,
+         libraries, and technology. Publishing needs included a link to systems for digital commerce, a legal infrastructure that offered
+         protection for digital contents, and technical mechanisms for controlling and describing digital content objects. Libraries
+         needed mechanisms for authenticating users and roles, the association of new metadata elements with digital content objects
+         to support self-management, and systems that allow for third-party rights. From a technological perspective, it was argued
+         that progress would be made by ignoring some complexities, partitioning the problem, and discarding (or deferring) intractable
+         parts.
+      </p>
+      
+      <p>The present DLF-NSF workshop, Klavans continued, would undoubtedly contribute to the development of the CNI White Paper. In
+         the longer term, the findings would influence ongoing collaborative projects in which participants are engaged and would guide
+         the planning and evaluation of access management components of other digital library projects.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-5-</i></p>
+      
+      <a name="summarywaters"></a><hr width="75%">
+      <center>
+         <h3>Donald Waters, Director, Digital Library Federation</h3>
+      </center>
+      
+      <p>Donald Waters opened with a brief description of the Digital Library Federation, a consortium composed of the Library of Congress,
+         the National Archives, the New York Public Library, and sixteen of the nation's large research libraries. This organization
+         was formed in 1995 to take the lead in identifying and lowering the barriers to federating digital libraries. One such barrier,
+         said Waters, is the lack of adequate systems for access management, particularly for authorization. He emphasized that access
+         management entails both authentication and authorization and presented a diagram to illustrate the elements of access management
+         (see figure 2). Authentication refers to two distinct processes: verifying the identity of a user and ensuring that content
+         is what it purports to be. Authorization ensures that terms and conditions in an agreement are being met by relating roles
+         associated with a user to properties of an object.
+      </p>
+      
+      <p>
+         <p align="center"><img src="images/pub79fig2.gif"></p>
+      </p>
+      
+      <p>Waters asked participants to focus on authorization within the context of access management. Participants could evaluate specific
+         scenarios, he suggested, by drawing on the draft CNI White Paper edited by Clifford Lynch, which recommends that the following
+         factors be considered in evaluating approaches to access management in universities: <i>granularity</i> or degree of role distinction required, privacy, strength of security, manageability with respect to accountability and ability
+         to collect management data, technical feasibility, and affordability.
+      </p>
+      
+      <p>The White Paper identifies three approaches used on campuses to support authentication and facilitate authorization by remote
+         information services or resources.
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-6-</i></p>
+         
+         
+         <ul>
+            
+            <li>IP source filtering: the institution warrants that traffic from a given set of Internet addresses is legitimate.</li>
+            
+            <li>Proxies: the institution provides a specific machine through which all traffic to and from a service is routed and ensures
+               that only legitimate traffic is permitted.
+            </li>
+            
+            <li>Credentials: each user presents a credential (such as a user ID and password or a digital certificate) to warrant legitimacy.</li>
+            
+         </ul>
+      </p>
+      
+      <p>Waters then introduced the two scenarios and specific questions to be addressed in the breakout sessions (see handout reproduced
+         as figure 1). The terms <i>authentication</i>, <i>authorization</i>, and others associated with access management are defined in appendix D, compiled from definitions used by Waters and the
+         other presenters at this workshop, by the DOI Rights Metadata Working Group, and by Clifford Lynch in the draft CNI White
+         Paper.
+      </p>
+      
+      
+      
+      <a name="invited"></a><hr width="75%">
+      <center>
+         <h2>Invited Presentations</h2>
+      </center>
+      <a name="invitedcreation"></a><hr width="75%">
+      <center>
+         <h3><i>Creation of an Authorization Database</i> <br>Russell S. Vaught, Director, Center for Academic Computing, Pennsylvania State University
+         </h3>
+      </center>
+      
+      <p>Russell Vaught described the large multiyear effort at Penn State, a DLF institution, to build central authentication and
+         authorization services for a large university with many campuses. The complexities, he pointed out, reach beyond the technical
+         aspects of the project to issues of university policy and cost-benefit tradeoffs that affect far more than just the computing
+         service organization.
+      </p>
+      
+      <p>Vaught sought to clarify the meaning of <i>authentication</i> and <i>authorization</i>. He pointed out that they are often confused because they are frequently employed together. Users, he noted, can be authenticated
+         by something they know (such as an identity code or user ID and password), something they have (such as a SecureID card),
+         or something they are (which can be verified, for example, using a retina scan). Authorization grants a user the right to
+         use a system or data and usually presupposes authentication of users.
+      </p>
+      
+      <p>In 1992 the centralized Computer and Information Systems (CIS) service installed a distributed file system known as AFS, which
+         relied on Kerberos, developed by the Massachusetts Institute of Technology (MIT), for authentication. AFS was developed at
+         Carnegie Mellon University (CMU) and in its early stages was known as the Andrew File System (AFS). AFS and Kerberos both
+         emerged in the 1980s, the byproducts of large projects dedicated to building campus networks and distributed systems. Kerberos
+         provides authentication based on user ID and a password ("something you know"). In the summer of 1993, CIS decided to build
+         a central authentication service based on version 4 of Kerberos to support all core computing systems (such as e-mail, dialup
+         access, and the use of microcomputer labs). Kerberos is used in conjunction with SecureID cards for administrative
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-7-</i></p>
+         
+         applications in which the high cost of a security breach justifies the cost of the card (which generates passwords for one-time
+         use). The Kerberos database includes 114,500 active principals (user identities); Penn State has 80,000 students and 30,000
+         faculty and staff at 24 locations.
+      </p>
+      
+      <p>In mid-1996, CIS decided to provide authorization services that could support more applications. The new system is based on
+         the Distributed Computing Environment (DCE) Security Services, which uses version 5 of Kerberos for authentication. A cross-organizational
+         task group was formed to develop an initial database to control authorization. The new system saw its first application in
+         the summer of 1997. It is now being used to support many applications, including a proxy system for access to the remote JSTOR
+         archive of scholarly journal literature. Vaught hopes that all systems using the old authentication service will be converted
+         by the summer of 1999.
+      </p>
+      
+      <p>Although the system is complex, Vaught finds other options, such as a Public Key Infrastructure, equally complex and perhaps
+         less cost effective. Performance and scalability, though still a concern, are expected to improve with the planned enhancements
+         to the DCE directory component (and increased network capacity and processing power).
+      </p>
+      
+      
+      <a name="invitedreflections"></a><hr width="75%">
+      <center>
+         <h3><i>Reflections on the NISO DOI Rights Metadata Working Group</i> <br>John S. Erickson, Vice President for Rights Technologies, Yankee Rights Management
+         </h3>
+      </center>
+      
+      <p>John Erickson began by pointing out that copyright serves both as enabler and as inhibitor, establishing a balance to facilitate
+         creativity for the overall benefit of society. His presentation described the current state of thinking of the NISO DOI Rights
+         Metadata Working Group, chaired by Sally Morris, of Wiley, U. K., a working group formed to establish a standard rights metadata
+         schema to facilitate electronic commerce for information objects (whether in digital or nondigital form). This working group,
+         which has very active participation from U.K. publishers, is one of several emerging from a series of joint workshops organized
+         by the National Information Standards Organization (NISO) and the International Digital Object Identifier (DOI) Foundation.<a href="#n4"> [4]</a></p>
+      
+      <p>The DOI system and related activities have developed within the publishing community and until recently, the focus has been
+         on making
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-8-</i></p>
+         
+         money through the enforcement of rights. Erickson believes that the group is beginning to tolerate some degree of fair use
+         and the related ambiguity. The joint activities with NISO signal recognition that discussion must be opened up to a broader
+         community.
+      </p>
+      
+      <p>The group's stated objective is to develop "a consensus rights transaction model through very active, highly visible public
+         discussions and information sharing." The resulting conceptual model is shown in figure 3.<a href="#n5"> [5]</a></p>
+      
+      <p>
+         <p align="center"><img src="images/pub79fig3.gif"></p>
+      </p>
+      
+      <p>In the group's opinion, certain digital property rights languages, such as that proposed by Mark Stefik of Xerox PARC, have
+         both advantages and disadvantages and hence alternative models are needed for purposes of comparison and practical evaluation.
+         In particular, the group sees a need for a model to express agreements. Their current thinking borrows from approaches used
+         by stock photography agencies and is based on the use of decision trees for evaluating permissions. A basic assumption here
+         is that any use has a price, even if the price is zero. The model can accommodate a default agreement with standard prices
+         for all users for a limited set of operations. Agreements could relate users or classes of users to certain operations on
+         (uses of) classes of objects. Owners and administrators of agreements would have to be able to apply templates of operations
+         and prices to groups of objects and users.
+      </p>
+      
+      <p>In Erickson's view, it is essential that the gathering of appropriate metadata become part of the publishing workflow. Two
+         other important issues have been raised. Who would be accountable for codifying a license agreement and maintaining the data
+         that supports access management? And would rights metadata for content be made available to third-party services along with
+         descriptive metadata?
+      </p>
+      
+      <p>After Erickson's presentation, Clifford Lynch (CNI) provided some additional context for the activity of the NISO DOI working
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-9-</i></p>
+         
+         group. In a new approach to standards setting, NISO has sponsored exploratory workshops encouraging broad participation. In
+         1997 and early 1998, NISO and the DOI Foundation sponsored a series of joint meetings that addressed the question of whether
+         DOI activities should be brought into the regular process for national and international standards. The meetings, the related
+         electronic forum, and the five or six working groups they spawned have no formal standing within the national or international
+         standards process. They are not intended to be exclusionary and have served a valuable educational role.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>References</h3>
+      </center>
+      
+      <p><a name="n4"></a><p>4 The Digital Object Identifier (DOI) system is a mechanism for marking digital objects in order to facilitate electronic
+            commerce and enable copyright management in a digital environment. The system emerged from activities of the Association of
+            American Publishers, which is a charter member of the International DOI Foundation. As indicted on its Web site (<a href="http://www.doi.org/">http://www.doi.org/</a>), the foundation is dedicated to supporting the needs of the intellectual property community in the digital environment,
+            by establishing and governing the DOI system, setting policies for the system, choosing service providers for the system,
+            and overseeing its successful operation.
+         </p><br><br></p>
+      
+      <p><a name="n5"></a><p>5 Erickson's full set of slides is available on the Yankee Book Peddler, Inc., Web site (<a href="http://www.ybp.com/yrm/presentations/DLF_CRIAShow/">http://www.ybp.com/yrm/presentations/DLF_CRIAShow/</a></p><br><br></p>
+      
+      
+      
+      <a name="discussion"></a><hr width="75%">
+      <center>
+         <h2>Discussion of Scenarios</h2>
+      </center>
+      
+      <p>The scope of workshop discussions was shaped partly by the facts in the scenarios and the questions asked, but perhaps more
+         significantly by the balance of viewpoints inherent in the list of invitees and the experience of the individual participants.
+         Most had considerable insight into the perspectives and legal responsibilities of both the users (or institutions acting as
+         agents for users) and the providers of information resources. Many had also been involved in the parallel development of the
+         CNI white paper and knew that some technical components were being explored in depth through that exercise. At this DLF-NSF
+         workshop, they tended to focus on high-level requirements and policy issues, rather than on the technical details of automating
+         the terms and conditions of use, which had been the major concern of an earlier NSF workshop. Instead, they concentrated on
+         the problems universities and research libraries face today in their capacity as publishers of digital content created at
+         their institution and as intermediaries licensing access from publishers and publishers' agents.
+      </p>
+      
+      <p>Participants brought substantial real-world experience to the discussion of the scenarios. Many had participated in the negotiation
+         of licenses between libraries and publishers and were familiar with the economic realities that underlie such negotiations
+         and with the practical problems of compliance. Others had struggled to establish what rights might pertain to materials in
+         archival collections being converted to digital form and fully recognize that converting and making such materials accessible
+         entail high costs.
+      </p>
+      
+      <p>The discussion focused on traditional scholarly resources and relations between academic institutions and publishers of scholarly
+         materials. The market for such content is limited; little new money will be entering the system in the near term. The challenge
+         is to take advantage of the opportunities offered by the electronic environment without "rocking the boat." The market for
+         other classes of material, such as works aimed at the business or consumer market, might present very different issues. As
+         pointed out in the earlier workshop, however, whatever the framework for managing access to digital works and balancing the
+         rights and privileges of user and provider, its success depends on user acceptance. Any system that manages
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-10-</i></p>
+         
+         access to the growing body of scholarly journal literature that publishers are making available in digital form, for example,
+         must be accepted by the higher education community represented at this workshop or be doomed to failure.
+      </p>
+      
+      <p>The scenarios prompted discussions on a wide range of topics beyond the specific questions posed in the instructions for the
+         breakout groups. Despite the limitation inherent in a one-day meeting, common themes emerged in the three breakout groups.
+         These themes can guide the design and development of prototype systems.
+      </p>
+      
+      <p>This report summarizes the workshop discussions under three thematic headings rather than following the day's agenda. Although
+         the discussions did not focus on technical matters, they were certainly built on some assumptions about the technical infrastructure.
+         The first section below describes some of these implicit assumptions; they derive primarily from the CNI White Paper. The
+         factors that affect user acceptance are drawn together in the second section. The third section extracts points that address
+         the specific questions posed for consideration during the breakout sessions. Unanticipated issues that do not fit into these
+         categories are described in a fourth and final section.
+      </p>
+      <a name="discussiontechnical"></a><hr width="75%">
+      <center>
+         <h3>Technical Assumptions</h3>
+      </center>
+      
+      <p>A common framework for distributed access management is needed to avoid the proliferation of incompatible mechanisms developed
+         to support specific arrangements. This framework must be general enough to support different mechanisms for authenticating
+         users and must meet global requirements. It must permit access to be controlled at the level of individual objects (such as
+         articles or books), not just at the entrance to a system or service that provides access to a large body of materials.
+      </p>
+      
+      <p>Today the most common method of controlling access is to filter by source address as defined by the Internet Protocol (IP).
+         This mechanism is not adequate for the longer term. A limitation of particular concern to participants in this workshop is
+         the exclusion of authorized users when they are away from an authorized site. In addition, IP source filtering cannot be applied
+         when providing services to the general public or small organizations, such as schools, which may not have permanent IP addresses.
+      </p>
+      
+      <p>Universities need to develop campus-based authentication and authorization schemes for purposes other than access to licensed
+         information resources. Authorization systems, such as that described by Russell Vaught in his presentation, are needed to
+         control access to grades and other personal records, to charge for dining services or bookstore purchases, to permit entrance
+         to libraries and sports facilities, and so on. In many cases, university libraries will be able to build on these capabilities
+         to authenticate users and provide credentials acceptable to an access management system. In some cases, a
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-11-</i></p>
+         
+         library may take a leading role in developing a campus-based authorization scheme.
+      </p>
+      
+      <p>As Donald Waters pointed out in his introduction, the CNI White Paper has identified three approaches to campus-based authentication
+         and authorization that can interface with remote access management systems. The first approach is IP source filtering. The
+         second is the provision of a gateway or proxy server to which each user must authenticate (typically using an ID and password)
+         and through which all interactions with the remote system are transmitted. In the third approach, a campus-based authentication
+         or authorization system issues credentials acceptable to the remote system. An important example of a credential is a digital
+         certificate, having a data format compatible with Web-based security protocols and used for the distribution of secure information
+         over the Internet according to a standard known as X.509. An acceptable access management framework must interface with all
+         three mechanisms, since no one solution will be able to serve all campuses.
+      </p>
+      
+      
+      <a name="issues"></a><hr width="75%">
+      <center>
+         <h3>Issues Affecting User Acceptance</h3>
+      </center>
+      
+      <h4><i>Where is the balance between two utopian visions?</i></h4>
+      
+      <p>Workshop participants observed that two contrasting utopian visions of the future of scholarly communication motivate developments
+         in electronic publishing. For many publishers, the technology provides an opportunity to make more money by charging for every
+         information use. For researchers, the technology holds the promise of free access to information for all. Librarians recognize
+         that the information will not be free, but they seek to provide unfettered access to their users to the extent possible within
+         existing budgets.
+      </p>
+      
+      <p>Over the last two or three years, interested parties have attempted to establish new rules of business for digital works with
+         voluntary guidelines for fair use. These efforts, such as the Conference on Fair Use,<a href="#n6"> [6]</a> have foundered on the conflicting utopian visions of the parties involved. They have, nevertheless, served to educate all
+         communities about the nature of the differences that divide them. Meanwhile, those engaged in private license negotiations
+         and consortial arrangements have discovered the powers of the marketplace to forge workable solutions. As one participant
+         observed, the longer the library and publishing communities are engaged in these activities, the more rational are the business
+         models they adopt and the licenses they negotiate. The requirement for access management systems to allow for the ambiguity
+         inherent in the related law also becomes clearer, as does the need for access management even when no fees are charged (for
+         instance, to comply with the terms of a gift).
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-12-</i></p>
+      
+      
+      <p>Libraries are learning that they can respond to terms and conditions they see as unreasonable with the assistance of market
+         forces. As they gain more experience in providing access to electronic resources, they are discovering that most users will
+         accept less than the utopian ideal of free access to everything when they understand the underlying business model and find
+         it reasonable. Publishers, too, are beginning to see that they are unlikely to earn more revenue from their traditional customer
+         base for scholarly journals; furthermore, they recognize that libraries are making an honest attempt to comply with reasonable
+         terms but cannot be expected to control or monitor their users' behavior closely. Nor can the lack of a robust means to enforce
+         copyright still be blamed for holding back electronic publication of scholarly journals. If anything, their volume is increasing
+         so rapidly that academic libraries are having difficulty absorbing them. Although license terms still vary from publisher
+         to publisher, the agreements are growing more similar with experience.
+      </p>
+      
+      <p>Workshop participants argued that simple, liberal license agreements of the kind used by JSTOR should be the model for the
+         future.<a href="#n7"> [7]</a> Such agreements are clearly less costly to negotiate and implement than others. Licensee institutions should be free to define
+         their user community in the agreement and should take responsibility for authenticating their users (and providing credentials
+         that certify roles, if necessary). Participants also urged publishers of specialized journals not to limit access to specific
+         categories of academic users, as laid out in scenario 2. This practice was seen as a poor business model, since use by community
+         members outside the specific group for whom access was purchased was unlikely to be significant. Prototype access management
+         systems should operationalize simple agreements, to avoid raising expectations that unreasonable conditions could be enforced.
+         Publishers who use simpler business models and offer reasonable license agreements, argued Vicky Reich of HighWire Press and
+         Stanford University, are better able to expand into new markets.
+      </p>
+      
+      <p>At the same time, some participants strongly recommended that the academic community continue to press for free access for
+         all to the scholarly literature. Such "blue-sky" talk, they said, would offset the commercial pressure for pay-per-view access
+         and dampen the ability of publishers to implement access management systems based on that model. They believed other business
+         models could be constructed to support the costs of managing and providing access to high-quality scholarly information.
+      </p>
+      
+      
+      
+      <h4><i>What perspectives are needed?</i></h4>
+      
+      <p>Participants were instructed to consider the two scenarios from two perspectives: user and provider. All three groups, however,
+         soon reached the conclusion that the discussions, particularly of scenario 2, must take into account the perspectives of three
+         entities: publishers,
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-13-</i></p>
+         
+         libraries as intermediaries or institutional users, and individual end users. To be successful, an access management system
+         must be acceptable to both the end users and the intermediary library. The difficulty is, these parties differ greatly in
+         their goals, economic motivations, legal responsibilities (particularly regarding liability), and in the different values
+         or utilities they attribute to particular publications or works.
+      </p>
+      
+      <p>Licenses typically represent agreements made between libraries (or parent academic institutions or consortia) and publishers
+         (or publishers' agents). Access management systems that operationalize those agreements, however, will limit what operations
+         an end user can perform on a digital work. Systems must permit an end user to negotiate different terms and conditions for
+         use of a work by establishing a different role through a separate or additional agreement. For example, enhanced terms might
+         be based on an individual society membership or subscription, or on the acceptance of a charge. Some lawyers pointed out that
+         for the end user to be able to exercise some of the privileges afforded by law or take advantage of ambiguities, he or she
+         should be able to make an informed decision to ignore clauses in an agreement made between a library and a publisher. Agreements,
+         suggested one participant, should incorporate formal loopholes permitting a wider range of operations from a special location
+         or through an additional level of authorization.
+      </p>
+      
+      <p>The fact that all three discussion groups found it necessary to make a distinction between the end user and the institutional
+         user acting as intermediary suggests that access management systems should be designed with such a distinction in mind. One
+         group report included the observation that there will sometimes be a chain of obligation through several intermediaries from
+         users through libraries to publishers (possibly through third-party aggregators) and eventually to authors.
+      </p>
+      
+      
+      
+      <h4><i>Will there be slow evolution or a revolution?</i></h4>
+      
+      <p>For libraries, publishers, and the communities they serve, networked access to scholarly information is not a completely new
+         business, but an extension of an existing portfolio of services in an existing economic structure, with staff and customers
+         familiar with old practices. Although there are hopes for long-term efficiencies in replacing paper-based information products
+         with electronic equivalents, and the transformation of the process of scholarly communication has begun, libraries and publishers
+         must deal with both for many years to come. The continuing availability of well-managed, high-quality bodies of scholarly
+         information will depend on professionals who must be rewarded for their efforts. The economic balance among authors, publishers,
+         aggregators and other service providers, libraries, and users may adjust over time, but unless the adjustment is gradual,
+         existing products and services are likely to suffer.
+      </p>
+      
+      <p>Although participants were not asked to consider the interests of authors, it was clearly assumed that access management systems
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-14-</i></p>
+         
+         must be acceptable to authors who wish to disseminate their work to the scholarly and scientific communities. Simple business
+         models reflected in effective access management systems would go a long way towards satisfying the needs of authors as well
+         as other interested parties.
+      </p>
+      
+      <p>Academic users expect predictability and continuity. They expect the electronic environment to offer the functional equivalent
+         of privileges that exist under current copyright law as applied to physical works, including but not limited to fair use.
+         Conditions on the use of electronic versions of articles that create new impediments to research, to teaching practice, or
+         to collaboration across disciplines or between faculty and students are cause for substantial complaint. The academic user
+         expects to have access to information and be able to use it for scholarly purposes at a reasonable price, preferably, but
+         not necessarily, zero. Charges for photocopying and photographic reproductions are common in academic libraries, which may
+         also charge for or limit use of other services. However, users expect free access to the information traditionally found on
+         the library shelves, such as journals to which the library subscribes.
+      </p>
+      
+      <p>Publishers and learned societies must find ways to reallocate resources and adjust their business model without destroying
+         their short-term financial viability. When negotiating licenses for electronic versions of print publications, they clearly
+         need to maintain revenue (or increase it to cover the new costs associated with the networked dissemination). Learned societies,
+         in particular, are likely to have no cash reserves to invest in the hope of future cost savings; preserving cash flow is a
+         matter of survival.
+      </p>
+      
+      <p>Libraries, too, are facing serious budget constraints. Many must make do with flat or shrinking budgets not only to maintain
+         existing collections and services while struggling to keep up with prices for serials that are outstripping the rate of inflation,
+         but also to meet the demand for new online services. They hesitate to accept pricing models that do not guarantee control
+         over acquisition budgets.
+      </p>
+      
+      
+      
+      <h4><i>Will economics govern acceptance?</i></h4>
+      
+      <p>The acceptance by libraries and end users of electronic publications and associated access management systems will be determined,
+         at least in part, by economic factors. Libraries regularly look for cheaper ways to provide the same services or ways to provide
+         enhanced services at costs they can justify or recover. Users will pay for services and academic administrations will increase
+         budgets only if they expect to receive value for the expenditure.
+      </p>
+      
+      <p>Transaction costs associated with managing and providing access to scholarly information must be reasonable, whether incurred
+         by users, libraries, or publishers. Arrangements between libraries for free interlibrary loan are common, in part to avoid
+         costly accounting or payment procedures. Recent years have seen a growth in library consortia and third-party services that
+         allow institutions to share the fixed costs associated with negotiating licenses and supporting coherent
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-15-</i></p>
+         
+         access to a variety of online resources. It is unlikely that information providers, whether publishers (as in scenario 2)
+         or libraries (as in scenario 1) benefit by limiting access to a resource to subsets of users from an academic institution.
+         The transaction costs of ensuring compliance with such limits will almost certainly exceed any loss of revenue sustained in
+         granting more general access.
+      </p>
+      
+      <p>The pricing of institutional licenses for electronic resources remains a complex issue that requires further research, perhaps
+         along the lines of the University of Michigan's PEAK project. Existing models are not wholly satisfactory. Pay-per-view is
+         not acceptable as the standard pricing scheme for libraries acting as intermediaries. Similarly, it may make sense to base
+         prices on a maximum number of simultaneous users when information is accessed via terminal sessions, but not when it is accessed
+         via stateless Web interactions. For large and heterogeneous user populations (such as the entire population of a state), pricing
+         by size of community makes no sense either. Alternative measures of volume are needed as a basis for subscription prices.
+         But what metrics are appropriate and acceptable? Some participants suggested that fruitful analogies might be drawn from pricing
+         schemes for network connections.
+      </p>
+      
+      
+      
+      <h4><i>Simplicity pays</i></h4>
+      
+      <p>Perhaps the strongest message that emerged from this workshop was that whatever the system for managing access, it must be
+         simple. It must be comprehensible and convenient for intermediaries and end users. The emphasis should be on finding ways
+         to reasonably limit abuses and punish abusers rather than complicating life for every user. The system need not be designed
+         to handle every special case but should be able to inform users of nonstandard provisions (such as the complex terms of a
+         gift) without attempting to enforce them. Prototype systems should be developed to handle the majority of routine needs effectively.
+         Publishers appear willing to tolerate a little leakage, if it does not turn into wholesale hemorrhage.
+      </p>
+      
+      <p>Complexity should be hidden from users, but those who want to know the full details of a complex deed of gift or the reason
+         why access to an item is restricted should be able to find that information. Participants agreed that it is incumbent upon
+         intermediaries (libraries and third-party aggregators) to negotiate simple licenses, with a view to making the management
+         system simple to implement and to explain to users. Several argued that simple licenses benefit providers too, since they
+         are less costly to negotiate and acceptable to a wider range of customers than are more complex licenses.
+      </p>
+      
+      <p>Systems that are straightforward to implement and easy to use will encourage compliance. Participants argued that is not absolutely
+         necessary for systems designed to manage access to scholarly resources also to handle materials to which access must be limited
+         for reasons of security. In the short term, the aim should be to build a system that operationalizes a few different, simple
+         agreements. The design should be modular, flexible, and have the capacity for
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-16-</i></p>
+         
+         growth. Extensions can be made later, on the basis of practical experience.
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>References</h3>
+      </center>
+      
+      <p><a name="n6"></a><p>6 <i>Report to the Commissioner on the Conclusion of the First Phase of the Conference on Fair Use</i>, U.S. Patents and Trademarks Office, September 1997. Available at <a href="http://www1.uspto.gov/web/offices/dcom/olia/confu/conclutoc.html">http://www1.uspto.gov/web/offices/dcom/olia/confu/conclutoc.html</a>.
+         </p><br><br></p>
+      
+      <p><a name="n7"></a><p>7 JSTOR Library License Agreement. Available at <a href="http://www.jstor.org/about/license.html">http://www.jstor.org/about/license.html</a>.
+         </p><br><br></p>
+      
+      
+      
+      <a name="convenors"></a><hr width="75%">
+      <center>
+         <h2>Convenors' Questions</h2>
+      </center>
+      <a name="convenorsdistinctions"></a><hr width="75%">
+      <center>
+         <h3><i>What kinds of role distinctions are necessary?</i></h3>
+      </center>
+      
+      <p>Users of the resources in these scenarios may play many different roles, using the term <i>role</i> in a general sense. A faculty member may, for example, act as teacher, author or creator, researcher, consultant, or private
+         individual. It would be impossible, participants argued, for an individual to declare that access to a particular article
+         was being sought in conjunction with only one such role. Some expressed a fear that the mere technical ability to introduce
+         and enforce distinctions among roles would lead to the adoption of practices that would discourage the general pursuit of
+         knowledge and so would not be in the best of academic interests. One librarian recalled a case in which access to a licensed
+         resource was permitted to faculty only during semesters in which they were teaching particular courses, regardless of whether
+         the resource was useful to research or even to the preparation of the courses.
+      </p>
+      
+      <p>In the context of automated authorization and access management schemes, the term <i>role</i> has a related but more specific sense. It describes recorded characteristics of an individual user, such as membership in
+         a group. Rules within the access management system determine whether a user with a particular role is able to access a resource
+         and what operations he or she can perform on it. A user's role or roles might be established or negotiated in different ways,
+         for example, through a campus-based proxy service or authorization scheme supported by a directory database, by membership
+         in a professional society, or by acceptance of a charge to a credit card. Where institutional licensing of published journals
+         is being considered, roles may be divided into those for which the institution can issue credentials and those that must be
+         negotiated by the individual. Participants agreed that any access management scheme should allow an individual user to negotiate
+         privileges beyond those afforded by institutional credentials or offered to the general public.
+      </p>
+      
+      <p>Much of the discussion in this area focused on the granularity (degree) of role distinctions required and perhaps transmitted
+         through credentials or gateway services that an institution may provide for members of its community. Privacy, cost of implementation,
+         and institutional requirements (associated with varying missions and policies) were seen as factors here. Some argued strongly
+         that the granularity should be no finer than membership in a community as defined by the licensing institution, in other words,
+         that all those affiliated with a university should have access to the same resources on the same terms. Finer distinctions
+         by school or department within a university (such as those suggested in the second scenario) are likely
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-17-</i></p>
+         
+         to inhibit cross-disciplinary research. Distinctions between faculty, undergraduates, and graduate students would cause problems
+         for teaching. Others suggested that some distinctions might be necessary because of institutional policies relating to services
+         for alumni, say, or, in the case of state universities, services for the general public. The consensus was that fine role
+         distinctions should be avoided and that certification of any distinctions should be the responsibility of the user institution.
+      </p>
+      
+      <p>The technology, said participants, should allow libraries and publishers to make the business agreements they want, but both
+         sides are more likely to benefit if the agreements do not rely on complex role distinctions. In the second scenario, licensed
+         journals are only of interest to a subset of the community; in such a case, the licensor and licensee might avoid the transaction
+         costs in enforcing special limitations on access by negotiating the subscription price on a different basis. One suggestion
+         was to base the price on the size of the subset interested in the resource (though not limiting access to this group). Others
+         stressed the value of developing a volume-based approach to pricing other than a pay-per-view model.
+      </p>
+      
+      <p>The purpose of use, observed two breakout groups, is often more relevant than any characteristic of the user. In the first
+         scenario (public domain materials digitized by libraries), libraries would probably encourage any use for teaching or research
+         but wish to control commercial re-use of digital reproductions made at substantial expense, in order to recover costs or fund
+         future digitization projects. The privileges afforded by the fair use doctrine and exceptions granted in copyright laws are
+         also primarily based on the nature (and effects) of use and not on characteristics of the users. On further reflection, participants
+         concluded that requiring users to declare in advance how they intended to use materials was unrealistic and would be seen
+         as an invasion of privacy.
+      </p>
+      
+      
+      <a name="convenorsduties"></a><hr width="75%">
+      <center>
+         <h3><i>What rights and duties are expected?</i></h3>
+      </center>
+      
+      <p>One issue raised by this question related to the use of the term <i>rights</i>. Under U.S. copyright law, observed Mary Levering of the U.S. Copyright Office, publishers and authors have <i>rights</i> in intellectual works but that users exercise <i>privileges</i> and duties. Furthermore, copyright owners and their agents generally manage rights in copyrighted works, whereas libraries
+         generally manage access to those works.
+      </p>
+      
+      <p>As pointed out earlier (under the heading What perspectives are needed?), users and providers have different expectations.
+         Rights, privileges, duties, and responsibilities are shaped not only by license agreements, but also by the overall legal,
+         economic, and technical environment. They will be subject to change over time.
+      </p>
+      
+      <p>Legally, privileges and duties may be established through a chain of obligation from author or creator to publisher, to library
+         (possibly via a consortium or third party aggregator) to end user. Not every link in this chain is associated with a formal
+         agreement. In the first scenario, where unpublished materials may be involved,
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-18-</i></p>
+         
+         there may be no way to follow the chain and establish unambiguously the rights associated with the original materials. Complex
+         terms of gift may impose additional duties on the recipient library. After converting the material to digital form and becoming
+         the provider of online access, the library may wish to assert rights in the digital reproductions in order to safeguard the
+         potential for income or retain control over how the materials are used. Most users of converted archival materials would comply
+         with reasonable terms, if it were easy to determine what the terms were. Automatic enforcement of all such terms is infeasible,
+         since they often apply to subsequent use rather than to access or to specific operations that might be controlled by technical
+         means. Both providers and users would benefit in this case from a mechanism that cautions users about special conditions and
+         allows them to determine whether or how to proceed.
+      </p>
+      
+      <p>Academic users value their personal space highly. In the words of one librarian, users want the library to "make the connection
+         and get out of the way." They expect to be allowed to exercise personal responsibility or, as one breakout group reported,
+         to have the "right to do reasonable things and the responsibility not to do unreasonable things." They would expect any access
+         management system to allow them access to all the information that they are entitled to have access to, inform them of their
+         privileges and responsibilities, and explain how they can negotiate additional privileges. They expect patterns of use permitted
+         for print publications to carry over into the electronic environment. They also expect that publishers will somehow guarantee
+         that the content they are accessing has not been corrupted inadvertently or maliciously.
+      </p>
+      
+      <p>For their part, publishers hope to maintain revenue, whether to satisfy shareholders, subsidize other activities, or simply
+         cover costs. To achieve this end, they expect to control distribution of works for which they hold rights. They expect that
+         privileges given to users based on a reasonable business model can be implemented by technical means. To be acceptable to
+         publishers, an access management scheme must be customizable to individual license agreements and flexible enough to incorporate
+         new types of agreement and new technology for authentication and for delivery of content. Market forces will determine which
+         technical barriers to access and usage protect revenue and which inhibit market expansion.
+      </p>
+      
+      <p>As intermediaries, libraries have the responsibility to negotiate reasonable agreements on behalf of their user communities
+         and parent institutions. They cannot be responsible for the actions of end users, but they do have a duty to take reasonable
+         efforts to inform users of terms and conditions for access and use and to ensure that institutional policies, as well as systems
+         or data that support access controls are effective and valid. They will expect to understand how license agreements are encoded
+         and enforced within an access management scheme, in order to fulfil these responsibilities. Libraries (or their parent institution
+         or agent) must make reasonable assurances that proxy or gateway services exclude unauthorized users and that credentials offered
+         for users are valid. In return, they will expect
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-19-</i></p>
+         
+         publishers' access management schemes to honor the credentials provided and facilitate access through such proxies.
+      </p>
+      
+      <p>In the print environment, libraries have assumed the responsibility for archiving materials for posterity. Under section 108
+         of the U.S. Copyright Law, libraries and archives may reproduce materials in certain circumstances, for example, to replace
+         "a copy or phonorecord that is damaged, deteriorating, lost, or stolen, if the library or archives has, after a reasonable
+         effort, determined that an unused replacement cannot be obtained at a fair price."<a href="#n8"> [8]</a> In an electronic environment in which the publisher controls the master copy, after-the-fact preservation will be impossible.
+         Archiving for preservation must be planned for in advance. Libraries, as custodial institutions, will expect license agreements,
+         and access management schemes that implement them, to provide contingency provisions and fail-safe mechanisms that ensure
+         the long-term accessibility of the information resource. The long-term archiving of information in digital form presents a
+         formidable challenge. Information, concluded one breakout group, "will only be preserved if someone's job depends on preserving
+         it." Although the archiving challenge was beyond the scope of the workshop, participants noted that a possible contribution
+         to an eventual solution would be special access management provisions that allowed libraries or trusted agents to make archival
+         copies.
+      </p>
+      
+      
+      <a name="convenorsprivacy"></a><hr width="75%">
+      <center>
+         <h3><i>What are the privacy issues?</i></h3>
+      </center>
+      
+      <p>Participants were unanimous in their view toward the privacy of individual users, an important issue in the discussions surrounding
+         the development of the CNI White Paper: the metadata that establishes privileges, they argued, should be under the control
+         of the licensing organization and closely guarded. Using the CNI's categories of identification (anonymous, pseudonymous,
+         pseudonymous with demographics, and actual identities), they recommended that campus-based authentication services, gateways,
+         or proxies should not relay actual identities to access management schemes run by publishers or aggregators. Anonymous access,
+         they concluded, poses the least threat to privacy. Pseudonymous identifiers ensure accountability by allowing a publisher
+         to identify abnormal volumes of use by one (unidentified) user and notify the licensing organization. The association of demographic
+         information with pseudonymous identifiers should be limited; under no circumstances should it be detailed enough to identify
+         an individual user. As librarians have found, some publishers request more details than they can usefully analyze. However,
+         libraries require some tracking of demographics for acquisition decisions and resource allocation, while providers may need
+         such information to adjust business models.
+      </p>
+      
+      <p>Participants stressed that no unnecessary information should be tracked by provider or licensing institution. Users should
+         not be required
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-20-</i></p>
+         
+         to indicate the purpose of use. In many states, library reader records are confidential, and the law prohibits libraries from
+         tracking readers' behavior. The academic community, some participants argued, should lobby for more extensive legal protection
+         for privacy, extending to transactions with publishers and bookstores. However, it is reasonable to allow users to reveal
+         personal information voluntarily in order to secure additional privileges, if they are told how that information will be protected.
+      </p>
+      
+      
+      <a name="convenorssecurity"></a><hr width="75%">
+      <center>
+         <h3><i>How strong must the security controls be?</i></h3>
+      </center>
+      
+      <p>The design of any access management scheme will balance the tightness of security against user inconvenience and even denial
+         of access to valid users in some cases. The degree of security enforced should be commensurate with the provider's trust in
+         the user community. Publishers, it was also pointed out, do recognize that libraries are basically honest and will try to
+         comply with reasonable license agreements to the best of their ability. Existing arrangements suggest that they would honor
+         credentials generated through campus-based authentication schemes. Where trust between libraries is concerned, as in the first
+         scenario, libraries have already proved the benefits of mutual trust in many resource-sharing activities, such as interlibrary
+         loan. Libraries will certainly trust each other's authorization procedures if technically compatible.
+      </p>
+      
+      <p>In neither of the scenarios examined by the workshop does the content call for very tight security. The limited market value
+         of scholarly and archival information is unlikely to invite widespread abuse. Thus, in the case of a student dropout, say,
+         it would not be essential for the system to be able to revoke privileges immediately. Other classes of information, however,
+         such as current recreational literature or some reference materials, might require more robust controls because of the potential
+         for publishers to lose revenue.
+      </p>
+      
+      <p>Legal experts reminded participants that no access management scheme exists in a vacuum and that the external environment
+         must be taken into account. They recommended that access management systems emphasize the detection of inappropriate behavior
+         rather than enforcement ahead of time, which is likely to prevent some valid use. Users, they added, need to know what their
+         responsibilities are, and institutional policies need to include adequate sanctions for abusers and procedures for dealing
+         with them. Abuse could be punished by revoking privileges within the system or within the external environment.
+      </p>
+      
+      <p>In considering how to balance accountability and privacy in the campus environment, participants found one technical approach
+         that had emerged in the discussions relating to the CNI White Paper as promising. Campuses could issue short-term pseudonymous
+         certificates to authenticated users. Certificates valid for a semester or a year could act as credentials for access to most
+         information resources. For selected resources, certificates valid for a few hours might be more appropriate.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-21-</i></p>
+      
+      <a name="convenorsaccountability"></a><hr width="75%">
+      <center>
+         <h3><i>What kinds of accountability are necessary and what kinds of management data are needed?</i></h3>
+      </center>
+      
+      <p>Participants reiterated that libraries cannot, in practice, be accountable for the actions of users. Realistically, they can
+         only make reasonable efforts to ensure compliance with license terms and the law. Any license agreement between a publisher
+         or publisher's agent and a library will include some clauses relating to accountability of either party for complying with
+         terms of the agreement. The JSTOR Library License Agreement, repeatedly cited as a model, stipulates that libraries must inform
+         JSTOR if they are using a proxy server to control access, must exert reasonable efforts and cooperate with JSTOR in the implementation
+         of security procedures, must work with JSTOR to inform users of the User Rules, and must notify JSTOR if the library becomes
+         aware of violations. The license allows either JSTOR or the licensee organization to terminate access in the case of unauthorized
+         use. To the extent that access to licensed resources is supported by technical means, some degree of accountability for the
+         effectiveness of those technical controls is to be expected. As mentioned in the discussion on security controls, the group
+         favored after-the-fact accountability rather than automated enforcement that might prevent valid access.
+      </p>
+      
+      <p>In conjunction with the discussion on privacy, participants observed that libraries, even when objecting to licenses that
+         limit access to subsets of users, may still wish to collect usage statistics aggregated by demographic categories in order
+         to make acquisition decisions and allocate resources. As noted earlier, some publishers ask for access to more demographic
+         details than they fully use. No specific suggestions emerged as to an appropriate level of detail. In this instance, it is
+         possible that both publishers and libraries would like to gather more detail for management purposes than is consistent with
+         protection of the user's privacy.
+      </p>
+      
+      
+      <a name="convenorseffectiveness"></a><hr width="75%">
+      <center>
+         <h3><i>How do we evaluate effectiveness of the system from user and provider perspectives?</i></h3>
+      </center>
+      
+      <p>According to participants, the basic test for a general access management scheme will be whether it is adopted in the marketplace.
+         Its success will depend at least in part on quantity and breadth of use and its viability on whether the various parties receive
+         appropriate value in the bargains they strike. Not surprisingly, no short-term or formal measures of effectiveness were discussed,
+         since there is still much uncertainty about how best to evaluate digital libraries. No better criteria have emerged than precision
+         and recall, which have served heretofore to evaluate information retrieval systems of much more limited scope.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-22-</i></p>
+      
+      
+      <hr width="75%">
+      <center>
+         <h3>References</h3>
+      </center>
+      
+      <p><a name="n8"></a><p>8 Copyright Law of the United States, contained in Title 17 of the U.S. Code, Section 108: "Limitations on Exclusive Rights:
+            Reproduction by Libraries and Archives." Available at <a href="http://lcweb.loc.gov/copyright/title17/1-108.html">http://lcweb.loc.gov/copyright/title17/1-108.html</a>.
+         </p><br><br></p>
+      
+      
+      
+      <a name="unanticipated"></a><hr width="75%">
+      <center>
+         <h2>Unanticipated Issues</h2>
+      </center>
+      <a name="unanticipatedauthors"></a><hr width="75%">
+      <center>
+         <h3><i>Where do authors fit in?</i></h3>
+      </center>
+      
+      <p>As pointed out in the final plenary discussion session, the instructions for the breakout discussions omitted an important
+         topic: the rights and perspectives of authors. In the end, it was decided that the relationship between authors, publishers,
+         and users was too complex to bring into the discussion, and that a separate session would be needed to represent the perspective
+         of authors. During the discussion, several points were made. Some participants argued that authors are both the ultimate information
+         providers and, at least for scholarly journals, also the ultimate users. Faculty researchers must be educated to think twice
+         about assigning all rights for articles to publishers, given the costs university libraries must bear in buying back the right
+         to access the content and other barriers to broad access that publishers might wish to impose.
+      </p>
+      
+      <p>Other participants pointed out that the apparent equivalence between users and authors mentioned above is simplistic and demonstrates
+         an American viewpoint rather than a global perspective. Legally, the rights of authors are very different from the privileges
+         of users. In many other countries, authors retain moral rights even when they assign copyright to publishers; in some countries,
+         they may not waive those rights. In Europe, authors have made their voices heard in objections to attempted agreements between
+         libraries and publishers. Groups representing authors are working to use the technology to enforce their own rights, for instance
+         by supporting the development of digital watermarking technology. In the United Kingdom, the Authors' Licensing and Collecting
+         Society (ALCS) is adamantly opposed to the U.S. concept of fair use.
+      </p>
+      
+      
+      <a name="unanticipatedunaffiliated"></a><hr width="75%">
+      <center>
+         <h3><i>What about unaffiliated individuals and small institutions?</i></h3>
+      </center>
+      
+      <p>Scenario 1 highlights the fact that most academic libraries consider their services to unaffiliated individuals -- the general
+         public -- an important component of their mission. For the Library of Congress and the New York Public Library, the provision
+         of unfettered access to digitized collections is essential. Likewise, many state university libraries are required by law
+         to provide service to unaffiliated users.
+      </p>
+      
+      <p>Increasingly, consortial and outreach activities undertaken by universities require academic libraries to provide services
+         to smaller, less well-endowed institutions, such as K-12 schools, that do not have the technical infrastructure to provide
+         authentication services. Institutions may wish to provide access to resources for which the library may not legally provide
+         general access, but for which rights holders have granted permission for educational use. To facilitate access to such materials
+         from schools and public libraries, the Library of Congress has considered establishing a site-license arrangement (at little
+         or no charge). It lacks the technology and resources,
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-23-</i></p>
+         
+         however, to implement such a scheme nationwide, because these institutions lack the necessary technical infrastructure. Even
+         the simple application of IP source filtering is not feasible, since many small organizations do not have permanent IP addresses,
+         but obtain them dynamically from Internet Service Providers each time they establish a connection. Clearly, state or local
+         government agencies, consortia, or other third-party organizations must ensure that basic, uniform authentication and authorization
+         services are available for small institutions and unaffiliated users.
+      </p>
+      
+      
+      <a name="unanticipatedchange"></a><hr width="75%">
+      <center>
+         <h3><i>Accommodating change</i></h3>
+      </center>
+      
+      <p>As pointed out earlier, the external legal, economic, and social framework in which access management schemes operate will
+         change over time. Systems must be able to adapt to such changes if they are to succeed. The need for such flexibility may
+         determine how best to represent rights or responsibilities within metadata associated with digital material and as rules implemented
+         within access management systems. System designers should take nothing for granted: even status transitions that appear to
+         be predictable -- as in the case of expiration dates for copyrights held by corporate bodies or by creators who have died
+         -- are not certain, as current legislative recommendations to extend the period of copyright demonstrate (<a href="#appendixc">see appendix C</a>). Furthermore, they must be prepared for changes of global dimensions: when photocopiers were introduced, copyright laws
+         around the world were modified. Similarly, electronic publishing and network technology will disrupt the delicate balance
+         between enabling creativity and inhibiting theft of intellectual property. As this effect is better understood, more changes
+         to copyright laws are inevitable.
+      </p>
+      
+      <p>Two other notable trends in the external environment in recent years are creating further challenges for the design and deployment
+         of access management systems. The growing phenomenon of distance learning in many universities leads to pressure for remote
+         access to more library services in order to serve the expanded student body. Libraries are also establishing consortia to
+         share the costs of licensing or of mounting electronic resources. For multicampus institutions, new centralized organizations
+         may be formed to serve this role. For libraries without campus-based authentication systems, the consortia may provide authentication
+         and proxy services. Access management schemes must be adaptable to a variety of third-party intermediate arrangements and
+         changes in license agreements.
+      </p>
+      
+      <p>Widespread adoption of technology will undoubtedly stimulate further change. Access management systems must adapt to rights
+         regimes around the world as global access to information becomes feasible from more countries. The scope of publications considered
+         during tenure review is also likely to change. One participant urged the community represented in the room to persuade university
+         presidents that the tenure process is possible without paying exorbitant sums to publishers. Whether or not they are persuaded,
+         the growing
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-24-</i></p>
+         
+         importance of the "grey" literature (such as electronic preprints) in some disciplines will undoubtedly affect the perspective
+         of both users and scholarly publishers.
+      </p>
+      
+      
+      <a name="unanticipatedambiguity"></a><hr width="75%">
+      <center>
+         <h3><i>Accommodating ambiguity</i></h3>
+      </center>
+      
+      <p>The 1996 workshop on Technology of Terms and Conditions revealed the ambiguities and uncertainties inherent in copyright and
+         related law. Systems developers were surprised to learn that laws often allow for flexible interpretations (in other words,
+         are intentionally ambiguous), with the expectation that different interpretations will be tested in the courts and evaluated
+         in the light of practical experience and other laws. Workshop participants devoted considerable attention to the ambiguities
+         that might affect the design of access management systems, most of which have already been noted in this report but merit
+         repeating.
+      </p>
+      
+      <p>License agreements can clarify some ambiguities, but not others. The rights pertaining to the historical materials Digital
+         Library Federation members may propose to digitize for the Making of America project, for instance, may be impossible to ascertain.
+         The moral rights of authors (in countries that recognize such rights) are not usually reflected in license agreements between
+         libraries and publishers. Economic constraints may prevent publishers from establishing unambiguously the rights associated
+         with illustrations and other subcomponents in old publications that are now being made available in electronic form. Like
+         the participants in the Making of America project, they must find a way to assess and manage the risk. The original creators
+         may or may not be interested in asserting any rights, depending on the age and nature of the works, the purpose of the use,
+         and the current commercial viability of the works.
+      </p>
+      
+      <p>Another ambiguity relates to exceptions and limitations to intellectual property rights afforded by laws. Exceptions are usually
+         based on the purpose of use and its effects on any market for the protected work. At the point at which access is controlled,
+         users may not even know how they propose to use the work (beyond ascertaining whether it is of interest at all). In the view
+         of workshop participants, it would be unreasonable and an invasion of privacy to require users to declare why they were accessing
+         a work. A case in point might be researchers who are unwilling to explain their interest in a particular research topic when
+         preparing a grant proposal or in existing patents in an area in which they have developed patentable technology. Users searching
+         MEDLINE to research a serious medical condition may not wish to disclose that they or a family member have health problems.
+         There is no way to enforce the fair use provisions of U.S. copyright law on the basis of characteristics of users. Each case
+         is judged on its merits.
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-25-</i></p>
+      
+      <a name="conclusions"></a><hr width="75%">
+      <center>
+         <h2>Conclusions</h2>
+      </center>
+      
+      <p>The workshop on access management held in Washington, D. C., on April 6, 1998, yielded several conclusions worth highlighting.
+         It identified the need for research and evaluation of prototype projects in two key areas: <i>system usability and economic models</i>. The design of access management systems should be based on a better understanding of how users interact with such systems,
+         what new information types will meet user needs, and what function these types perform in the emerging digital environment.
+         To establish a viable economic balance for publishers, libraries and other intermediaries and users in the academic community,
+         new standards of measure must be found to assess the usage of digital resources and thereby to develop alternative pricing
+         schemes and payment mechanisms.
+      </p>
+      
+      <p>In addition, workshop participants identified five key properties for access management systems that would make them acceptable
+         to users and libraries while respecting the rights and interests of authors and publishers.<a href="#n9"> [9]</a>
+         
+         <ul>
+            
+            <li><i>Simplicity</i>. The less complex a system of access management, the more readily it can be adopted technologically and organizationally,
+               and the more acceptable it is to all involved in its implementation.
+            </li>
+            
+            <li><i>Privacy</i>. Systems that manage access to the cultural record must protect the privacy of users from detailed tracking and disclosure
+               of use. User privacy must not be compromised.
+            </li>
+            
+            <li><i>Good faith</i>. Agreements on access to scholarly information rely on trust among the parties involved. Users and providers would each prefer
+               to depend, in an access management system that implements these agreements, on reasonable barriers against abuse rather than
+               complex restrictions that inhibit use.
+            </li>
+            
+            <li><i>Trusted intermediaries</i>. Intermediaries play an essential role in providing access to the cultural record as parties trusted by both users and providers
+               and as efficient aggregators of distribution and usage. System design must take the role of intermediaries into account.
+            </li>
+            
+            <li><i>Reasonable terms</i>. Access management systems and license agreements must recognize the distinction between access and use. Overly tight control
+               of access to a resource may impose inappropriate constraints on its use, especially in teaching and research contexts. The
+               most useful system will not limit access to specific user groups known in advance to be interested in a resource but will
+               be reasonably open to serving unlikely users whose curiosity and research interests may lead them in directions not predicted
+               by those responsible for making the agreements or designing the systems.
+            </li>
+            
+         </ul>
+      </p>
+      
+      <p>The findings of this workshop are relevant to a wide range of interested parties:
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-26-</i></p>
+         
+         
+         <ul>
+            
+            <li>policy makers involved in making decisions on managing digital data in relation to questions of privacy;</li>
+            
+            <li>legal experts who draft contracts and licenses which must be implemented through technical mechanisms for authentication and
+               authorization;
+            </li>
+            
+            <li>technologists designing new software for controlling electronic use and mis-use; and</li>
+            
+            <li>publishers and librarians, who, as major providers of information, play a central role in striking a balance between protecting
+               copyright and providing access to the cultural record of knowledge.
+            </li>
+            
+         </ul>
+      </p>
+      
+      <p>Although the workshop focused primarily on the means of managing access to published knowledge in digital form in the context
+         of the research library, it also made clear the much larger dimensions of access management issues. With the enormous growth
+         in digital records of every form, the issues of privacy, protection, authorization, and authentication are fast becoming a
+         concern for all citizens.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3>References</h3>
+      </center>
+      
+      <p><a name="n9"></a><p>9 Gerry Bernbom provided this useful summary of design properties in correspondence with Donald Waters, July 29, 1998.</p><br><br></p>
+      
+      
+      
+      
+      
+      <hr width="75%">
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-27-</i></p>
+      
+      <a name="appendixa"></a><hr width="75%">
+      <center>
+         <h2>Appendix A: Workshop Participants</h2>
+      </center>
+      
+      <p><br><table border="1">
+            
+            <tr>
+               <td colspan="1">Caroline Arms <br>NDLP Program Coordinator <br>National Digital Library Program <br>Library of Congress <br>101 Independence Avenue SE <br>Washington, DC 20540-9300 <br>Phone: (202) 707-0105 <br>Fax: (202) 707-0955 <br>E-Mail: <a href="caar@loc.gov">caar@loc.gov</a></td>
+               <td colspan="1">Dennis Cromwell <br>Chief Scientist, Advanced Technology Lab <br>University Information Technology Systems <br>Indiana University <br>2711 East Tenth Street <br>Bloomington, Indiana 47408 <br>Phone: (812) 855-7326 <br>Fax: (812) 855-7868 <br>Email: <a href="dcromwel@indiana.edu">dcromwel@indiana.edu</a> <br>URL: <a href="http://ezinfo.ucs.indiana.edu/~dcromwel/home.html">http://ezinfo.ucs.indiana.edu/~dcromwel/home.html</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">William Y. Arms <br>Vice President <br>Corporation for National Research Initiatives <br>1895 Preston White Drive <br>Reston, Virginia 20191 <br>Phone: (703) 620-8990 <br>Fax: (703) 620-0913<br>Email: <a href="warms@cnri.reston.va.us">warms@cnri.reston.va.us</a></td>
+               <td colspan="1">John Erickson, Ph.D. <br>VP-Rights Technologies <br>Yankee Rights Management <br>999 Maple Street <br>Contoocook, NH 03229 <br>Phone: (802) 649-1847 <br>Fax: (802) 649-2193 <br>Email: <a href="jerickson@ybp.com">jerickson@ybp.com</a> <br>URL: <a href="http://www.ybp.com/yrm">http://www.ybp.com/yrm</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Ross Atkinson <br>Deputy University Librarian <br>Olin Library <br>Cornell University <br>Ithaca, NY 14853 <br>Phone: (607) 255-3393 <br>Fax: (607) 255-9346 <br>E-mail: <a href="ra13@cornell.edu">ra13@cornell.edu</a></td>
+               <td colspan="1">Eric G. Ferrin <br>Director of Library Computer Services <br>8E Pattee Library <br>University Park, PA 16802 <br>Phone: (814) 865-1818 <br>Fax: (814) 863-3560 <br>E-mail: <a href="egf@psu.edu">egf@psu.edu</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Gerry Bernbom <br>Special Assistant for Digital Libraries and Distance Education <br>Office of the Vice President for Information Technology <br>Indiana University <br>2711 East Tenth Street <br>Bloomington, Indiana 47408 <br>Phone: (812) 855-4624 <br>Fax: (812) 855-3310 <br>E-mail: <a href="bernbom@indiana.edu">bernbom@indiana.edu</a></td>
+               <td colspan="1">Les Gasser <br>Director, Computation &amp; Social Systems <br>Division of Information and Intelligent Systems <br>National Science Foundation <br>4201 Wilson Boulevard, Room 1115 <br>Arlington, VA 22230 <br>Phone: (703) 306-1927 <br>E-mail: <a href="lgasser@nsf.gov">lgasser@nsf.gov</a></td>
+            </tr>
+            
+            
+            <hr width="75%">
+            <p align="center"><i>-28-</i></p>
+            
+            
+            <tr>
+               <td colspan="1">Bernie Hurley <br>Chief Scientist <br>The UC Berkeley Library <br>Rm. 245, Doe Library <br>Berkeley, CA 94720-6000 <br>Phone: (510) 642-3773 <br>Fax: (510) 643-8179 <br>E-mail: <a href="bernie@library.berkeley.edu">bernie@library.berkeley.edu</a></td>
+               <td colspan="1">Mary Berghaus Levering <br>Associate Register for National Copyright Programs <br>U.S. Copyright Office <br>Library of Congress <br>Washington, DC 20540-6007 <br>Phone: (202) 707-8350 <br>Fax: (202) 707-8366 <br>E-mail: <a href="mlev@loc.gov">mlev@loc.gov</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Peter Jaszi <br>Washington College of Law <br>American University <br>4801 Mass Avenue <br>Washington, D.C. <br>Phone: (202) 274-4216 <br>E-mail: <a href="pjaszi@american.edu">pjaszi@american.edu</a></td>
+               <td colspan="1">Melissa Smith Levine <br>Legal Advisor, National Digital Library Program <br>Library of Congress <br>Washington, D.C. 20540-1300 <br>Phone: (202) 707-1783 <br>Fax: (202) 707-0815 <br>E-mail: <a href="mele@loc.gov">mele@loc.gov</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Andrea Keyhani <br>Manager, Publisher Relations <br>OCLC Online Computer Library Center <br>6565 Frantz Rd.  <br>Dublin, OH 43017 <br>Phone: (614) 764-6474 <br>Fax: (614) 764-1640 <br>E-mail: <a href="keyhani@oclc.org">keyhani@oclc.org</a></td>
+               <td colspan="1">Wendy P. Lougee <br>Asst. Director, Digital Library Initiatives <br>University of Michigan Library <br>818 Hatcher South <br>Ann Arbor, MI 41809-1205 <br>Phone: (313) 764-8016 <br>Fax: (313) 763-5080 <br>E-mail: <a href="wlougee@umich.edu">wlougee@umich.edu</a> <br>URL: <a href="http://www-personal.umich.edu/~wlougee/">http://www-personal.umich.edu/~wlougee/</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Dr. Judith L. Klavans <br>Director, Center for Research on Information Access <br>Research Scientist, Department of Computer Science <br>Columbia University <br>535 West 114th Street, MC 1103 <br>New York, NY 10027 <br>Phone: (212) 854-7443 <br>Fax: (212) 854-9099 <br>E-mail: <a href="klavans@cs.columbia.edu">klavans@cs.columbia.edu</a> <br>URL: <a href="http://www.cs.columbia.edu/~klavans/home.html">http://www.cs.columbia.edu/~klavans/home.html</a></td>
+               <td colspan="1">Clifford Lynch <br>Executive Director <br>Coalition for Networked Information <br>21 Dupont Circle, Suite #800 <br>Washington, DC 20036-1109 <br>Phone: (202) 296-5098 <br>E-mail: <a href="cliff@cni.org">cliff@cni.org</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Michael Lesk <br>Division Director <br>Division of Information and Intelligent Systems <br>National Science Foundation <br>4201 Wilson Boulevard, Room 1115 <br>Arlington, VA 22230 <br>Phone: (703) 306-1930 <br>E-mail: <a href="mlesk@nsf.gov">mlesk@nsf.gov</a></td>
+               <td colspan="1">Carol Mandel <br>Deputy University Librarian <br>510 Butler Library <br>Columbia University <br>535 West 114th Street <br>New York, NY 10027-7029 <br>Phone: (212) 854-2226 <br>Fax: (212) 854-9099 <br>E-mail: <a href="mandel@columbia.edu">mandel@columbia.edu</a></td>
+            </tr>
+            
+            
+            <hr width="75%">
+            <p align="center"><i>-29-</i></p>
+            
+            
+            <tr>
+               <td colspan="1">Charlene Mason <br>Associate University Librarian <br>499 Wilson Library <br>309 19th Avenue South <br>University of Minnesota Libraries <br>Minneapolis, MN 55455 <br>Phone: (612) 624-4520 <br>Fax: (612) 626-9353 <br>E-mail: <a href="c-maso@tc.umn.edu">c-maso@tc.umn.edu</a></td>
+               <td colspan="1">Terry Ryan <br>Associate University Librarian for Systems <br>11334 University Research Library <br>University of California at Los Angeles <br>Box 951575 <br>Los Angeles, CA 90095-1575 <br>Phone: (310) 825-1201 <br>E-mail: <a href="tryan@library.ucla.edu">tryan@library.ucla.edu</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">David Millman <br>Manager, Research &amp; Development <br>Academic Information Systems <br>Columbia University <br>612 West 115 St <br>New York, NY 10025 <br>Phone: (212) 854-4284 <br>Fax: (212) 662-6442 <br>E-mail: <a href="dsm@columbia.edu">dsm@columbia.edu</a></td>
+               <td colspan="1">Sarah E. Sully <br>General Counsel, Director of Publisher Relations <br>JSTOR <br>188 Madison Avenue <br>New York, NY 10016 <br>Phone: (212) 592-7345 <br>Fax: (212) 592-7355 <br>E-mail: <a href="ss@jstor.org">ss@jstor.org</a> <br>URL: <a href="http://www.jstor.org">http://www.jstor.org</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Ann Okerson <br>Associate University Librarian for Collections Development and Management <br>Yale University Library <br>New Haven, CT 06520-8240 <br>Phone: (203) 432-1763 <br>Fax: (203) 432-8527 <br>E-mail: <a href="ann.okerson@yale.edu">ann.okerson@yale.edu</a></td>
+               <td colspan="1">Russell S. Vaught <br>Director, Center for Academic Computing <br>229 Computer Building <br>Pennsylvania State University <br>University Park, PA 16802 <br>Phone: (814) 863-0421 <br>Fax: (814) 863-7049 <br>E-mail: <a href="rsv@psu.edu">rsv@psu.edu</a> <br>URL: <a href="http://www.personal.psu.edu/rsv">http://www.personal.psu.edu/rsv</a></td>
+            </tr>
+            
+            <tr>
+               <td colspan="1">Vicky Reich <br>Senior Librarian <br>Green Library <br>University Library and Information Resources <br>Stanford, CA 94305 <br>Phone: (650) 725-1134 <br>Fax: (650) 725-4902 <br>E-mail: <a href="vreich@Sulmail.standford.edu">vreich@Sulmail.standford.edu</a></td>
+               <td colspan="1">Donald Waters <br>Director, Digital Library Federation <br>Council on Library and Information Resources <br>205 Church Street, Third Floor <br>New Haven, CT 06510-1805 <br>Phone: (203) 498-6076 <br>Fax: (203) 498-6078 <br>E-mail: <a href="dwaters@clir.org">dwaters@clir.org</a> <br>URL: <a href="">http://www.diglib.org</a></td>
+            </tr>
+            
+         </table><br></p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-30-</i></p>
+      
+      <a name="appendixb"></a><hr width="75%">
+      <center>
+         <h2>Appendix B: Suggested Readings</h2>
+      </center>
+      
+      <ul>
+         
+         <li>A report from a previous, related workshop
+            
+            <ul>
+               
+               <li>Davis, James R., and Judith L. Klavans. "Workshop Report: The Technology of Terms and Conditions." <i>D-Lib Magazine</i>, June 1997. Available from <a href="http://www.dlib.org/dlib/june97/06davis.html">http://www.dlib.org/dlib/june97/06davis.html</a></li>
+               
+            </ul>
+         </li>
+         
+         <li>Core background materials for workshop on April 6
+            
+            <ul>
+               
+               <li>Arms, William Y. "Implementing Policies for Access Management." <i>D-Lib Magazine</i>, February 1998. Available from <a href="http://www.dlib.org/dlib/february98/arms/02arms.html">http://www.dlib.org/dlib/february98/arms/02arms.html</a></li>
+               
+               <li>Gladney, H.M., and J.B. Lotspiech. "Safeguarding Digital Library Contents and Users." <i>D-Lib Magazine</i>, May 1997. Available from <a href="http://www.dlib.org/dlib/may97/ibm/05gladney.html">http://www.dlib.org/dlib/may97/ibm/05gladney.html</a></li>
+               
+               <li>Stefik, Mark. "Trusted Systems." <i>Scientific American</i>, March 1997. Available from <a href="http://www.sciam.com/0397issue/0397stefik.html">http://www.sciam.com/0397issue/0397stefik.html</a>.
+               </li>
+               
+               <li>Wiseman, Norman. "Implementing a National Access Management System for Electronic Services: Technology Alone Is Not Enough."
+                  <i>D-Lib Magazine</i>, March 1998. Available from <a href="http://www.dlib.org/dlib/march98/wiseman/03wiseman.html">http://www.dlib.org/dlib/march98/wiseman/03wiseman.html</a>.
+               </li>
+               
+            </ul>
+         </li>
+         
+         <li>Related background readings
+            
+            <ul>
+               
+               <li>Arms, William Y., Christophe Blanchi, and Edward A. Overly. "An Architecture for Information in Digital Libraries." <i>D-Lib Magazine</i>, February 1997. Available from <a href="http://www.dlib.org/dlib/february97/cnri/02arms1.html">http://www.dlib.org/dlib/february97/cnri/02arms1.html</a>.
+               </li>
+               
+               <li>Bide, Mark. "In Search of the Unicorn: The Digital Object Identifier from a User Perspective." A report for the British National
+                  Bibliography Research Fund, November 1997. Available from <a href="http://www.britain.eu.net/~bic/bicinfo.html">http://www.britain.eu.net/~bic/bicinfo.html</a>.
+               </li>
+               
+               <li>Cross-Industry Working Team. "Managing Access to Digital Information: An Approach Based on Digital Objects and Stated Operations."
+                  May 1997. Available from <a href="http://www.xiwt.org/documents/ManagAccess/ManagAccessTOC.html">http://www.xiwt.org/documents/ManagAccess/ManagAccessTOC.html</a>.
+               </li>
+               
+               <li>Garrison, William V., and Gregory A. McClellan. "Authentication and Authorization, Part 2. Tao of Gateway: Providing Internet
+                  Access to Licensed Databases." <i>Library Hi Tech</i> vol. 15, no. 57-58 (1997): 39-54.
+               </li>
+               
+               <li>Kahn, Robert, and Robert Wilensky. "A Framework for Distributed Digital Object Services." May 1995. Available from <a href="http://www.cnri.reston.va.us/home/cstr/arch/k-w.html">http://www.cnri.reston.va.us/home/cstr/arch/k-w.html</a>.
+               </li>
+               
+               
+               <hr width="75%">
+               <p align="center"><i>-31-</i></p>
+               
+               
+               <li>Lynch, Clifford A. "Authentication and Authorization, Part I. The Changing Role in a Networked Information Environment." <i>Library Hi Tech</i>, vol. 15, no 57-58, 1997: 30-38.
+               </li>
+               
+               <li>Machovec, George. "User Authentication and Authorization in a Networked Library Environment: Alliance Issues." November 1997.
+                  Available from <a href="http://www.coalliance.org/reports/security.html">http://www.coalliance.org/reports/security.html</a>.
+               </li>
+               
+               <li>Paskin, Norman. "Information Identifiers." <i>Learned Publishing</i>, vol. 10, no.2 (April 1997): 135-56. Available from <a href="http://www.elsevier.co.jp/inca/homepage/about/infoident/">http://www.elsevier.co.jp/inca/homepage/about/infoident/</a>.
+               </li>
+               
+               <li>Riddle, Bob. "The ICAAP Project, Part Two: The Web Architecture." <i>Library Hi Tech</i>, vol. 15, no. 57-58 (1997): 71-78.
+               </li>
+               
+               <li>Roscheisen, Martin, and Terry Winograd. "The Stanford FIRM Framework for Interoperable Rights Management." Forum on Technology-Based
+                  Intellectual Property Management. Interactive Media Association, White House Economic Council and White House Office of Science
+                  and Technology. Washington, D.C., 1997. Available from <a href="http://mjosa.stanford.edu/~roscheis/IMA/index.html">http://mjosa.stanford.edu/~roscheis/IMA/index.html</a>.
+               </li>
+               
+            </ul>
+         </li>
+         
+      </ul>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-32-</i></p>
+      
+      <a name="appendixc"></a><hr width="75%">
+      <center>
+         <h2>Appendix C: Update on Related Legislative Activity</h2>
+      </center>
+      
+      <p>At the April 1996 workshop on access management, Peter Jaszi (Washington College of Law, American University) gave a summary
+         of current legislative activity relating to intellectual property rights, drawing attention to some potential problems for
+         libraries. March 1998 had seen considerable activity in Congress, under pressure from the commercial sector, particularly
+         from the motion picture and sound industries. According to Jaszi, the leading legislative proposals made no significant distinctions
+         for scholarly communication or academic use. His impression was that there was an inclination to pass bills within the forty
+         legislative days then left in the current session of Congress.
+      </p>
+      
+      <p>The proposals dealt with three issues, all of which had been under legislative consideration for more than two years: copyright
+         term extension [HR 2589], database protection [HR2652], andWIPO implementation [HR 2281, Coble]. All three proposals had been
+         reported out of the House Subcommittee on Courts and Intellectual Property and the House Judiciary Committee for floor action.
+         HR 2589 had been referred to the Senate Judiciary Committee. Jaszi indicated that the Senate Judiciary Committee was considering
+         passing the bills on for floor action without full consideration within the committee.
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Term extension</i></h3>
+      </center>
+      
+      <p>HR 2589 would add 20 years of copyright protection for works currently under copyright protection. The extension would not
+         apply to works for which copyright has already expired. The new copyright term would be the life of the author plus 70 years.
+         The proposal included no concessions for academic use. According to Jaszi, the exemption for libraries and archives in relation
+         to making copies of out-of-print works, for purposes of preservation, scholarship, or research, during the last 20 years of
+         protection was weak.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Database protection</i></h3>
+      </center>
+      
+      <p>HR 2652 (the Collections of Information Antipiracy Act) proposed a new right for databases that are simply compilations but
+         require significant investment. Based on principles of unfair competition rather than copyright, this bill was partly in response
+         to the decision in Feist Publications v. Rural Telephone Service Co. Inc, [499 U.S. 340, 18 USPQ2d 1275(1991), 41 PTJC 443,
+         453]. Feist denied copyright protection to compilations, unless there is value added through selection, coordination, or arrangement.
+         As written, this new protection for databases would apply to any information that can be organized systematically, including
+         facts, numerical data, and works of authorship. Penalties would apply to those who damaged the actual or potential market
+         for a protected database by extracting data. These penalties would apply to end users as well as to commercial re-users, although
+         an amendment provides partial protection for nonprofit organizations. The period of protection is 15 years.
+      </p>
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-33-</i></p>
+      
+      
+      <p>In response to a question, Jaszi confirmed that there is no associated requirement for deposit (as there is, under mandatory
+         deposit regulations, for most published works protected by copyright). Jaszi reported that the exemptions for scientific and
+         academic use have been described as ineffective.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>WIPO implementation</i></h3>
+      </center>
+      
+      <p>HR 2281 would provide reasonable prohibitions and penalties relating to tampering with copyright management information. In
+         addition, it included prohibitions against circumvention of copyright protection schemes, whatever the motivation. Jaszi regarded
+         it as significant that the bill did not reaffirm the principle of fair use, offered no exemptions for digital preservation
+         by libraries or distance education, and provided no preemption of contract terms by constitutional privileges or federal law.
+         Jaszi noted that a pair of companion bills suggested an alternative approach to conformance with the World Intellectual Property
+         Organization treaty that addressed many of these concerns. These are Senator John Aschroft's (R-MO) Digital Copyright Clarification
+         and Technology Act (S 1146) in the Senate and the Digital Era Copyright Enhancement Act (HR 3048), introduced by Reps. Rick
+         Boucher (D-VA) and Tom Campbell (R-CA) in the House.
+      </p>
+      
+      <p>Jaszi noted that the committee actions on HR 2652 and HR 2281 were very recent. For updates, he recommended consulting the
+         Web site of the Digital Future Coalition, which represents many library organizations, at <a href="http://www.dfc.org/">http://www.dfc.org/</a>.
+      </p>
+      
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-34-</i></p>
+      
+      <a name="appendixd"></a><hr width="75%">
+      <center>
+         <h2>Appendix D: Definitions</h2>
+      </center>
+      
+      <p>The following definitions have been compiled from those used by Waters and the other presenters at this workshop, by the DOI
+         Rights Metadata Working Group, and by Clifford Lynch in the draft CNI White Paper.
+      </p>
+      
+      <p>Terms with an asterisk are used in figure 4, which was drawn up following the workshop as a result of discussions among Donald
+         Waters, John Erickson, William Arms, and Caroline Arms. Figure 4 combines elements of diagrams presented by Waters and Erickson
+         at this workshop (figures 2 and 3) and in William Arms's February 1998 article in <i>D-Lib Magazine</i>, "Implementing Policies for Access Management." The grey boxes represent components of an automated authorization system,
+         whereas the white boxes represent the interactions between users and providers in the external environment or between either
+         party and the access management system.
+      </p>
+      
+      <p>
+         <p align="center"><img src="images/pub79fig4.gif"></p>
+      </p>
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Access Management</i></h3>
+      </center>
+      
+      <p>Access management is a process mediated by information managers by which users gain authorized access to the intellectual
+         property of creators/owners/providers. Access management systems make use of authentication and authorization services to
+         enable or control access to and use of a networked resource.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Agreements</i></h3>
+      </center>
+      
+      <p>In figure 4, the term <i>agreements</i> refers to licenses and other legal agreements, entered into by or on behalf of users with information providers. Agreements
+         may be made in different ways, for example, through formal contract or acceptance of terms at time of access.
+         
+         
+         <hr width="75%">
+         <p align="center"><i>-35-</i></p>
+         
+         Within an automated access management system, the agreement and applicable laws will be implemented through a set of policy
+         rules.
+      </p>
+      
+      <p>The DOI Rights Metadata Working Group uses the term both for a legal agreement between the parties and the corresponding representation
+         of rules that control access within a system. For that group, "an Agreement is a statement of permitted operations, and applicable
+         terms, for a given object or set of objects, and a given user or set of users. The default Agreement is that for 'all users',
+         probably permitting a limited set of operations at standard fees. A site license that is already in place would be a specific
+         Agreement."
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Authentication of users</i></h3>
+      </center>
+      
+      <p>Authentication is the process whereby a network user establishes a right to an identity or name (such as a user ID, or credit
+         card number). A user can establish this right through
+         
+         <ul>
+            
+            <li>something he or she knows (user ID and password),</li>
+            
+            <li>something he or she has (ID card), or</li>
+            
+            <li>something he or she is (handprint or retina scan).</li>
+            
+         </ul>
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Authenticity of content</i></h3>
+      </center>
+      
+      <p>The authenticity of digital content requires mechanisms to assure users that content has not been corrupted. Since digital
+         content is easily manipulated in ways that cannot be easily detected, users will expect publishers and third party custodians
+         of information to provide assurances of authenticity.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Authorization</i></h3>
+      </center>
+      
+      <p>Authorization is the process of determining whether an identity (given a set of role attributes associated with that identity)
+         is permitted to perform some action, such as accessing a resource. The identity may represent a particular individual or be
+         anonymous or pseudonymous. In the context of access management, authorization will rely on access policy rules, role attributes
+         of the user, and terms and conditions attributes of a digital object to determine whether the desired action is permitted
+         and how to disseminate the material.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Credential</i></h3>
+      </center>
+      
+      <p>In the context of access management, a credential is something that a user can present to an authorization system operated
+         by an information provider as evidence of legitimacy. One form of credential is a user ID together with password. Another
+         is a digital certificate following the X.509 standard. Support for transmitting such certificates and using them to control
+         access is being incorporated into the latest versions of Web browsers and Web servers. See the CNI White Paper for more discussion.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <p align="center"><i>-36-</i></p>
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Object attributes</i></h3>
+      </center>
+      
+      <p>If access to certain digital material is to be managed, metadata attributes must be associated with each digital content object
+         to indicate what terms and conditions apply to that object. An attribute would typically indicate a class of material to which
+         an object belongs, with a common set of terms and conditions applying to all material in that class.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Operation</i></h3>
+      </center>
+      
+      <p>In the context of access management, an operation is any act that can be done with an object, internal or external, to a given
+         computer system. Examples: view, print, save; modify, redistribute. (This definition is from the DOI Rights Metadata Working
+         Group.) The word action is sometimes used in roughly the same way.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Policy rules</i></h3>
+      </center>
+      
+      <p>Within in an access management system, policy rules are encoded to determine whether a user is entitled to access the digital
+         object being requested and whether the requested operation is permitted. Policy rules operationalize agreements, such as licenses,
+         and applicable law.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>Proxy</i></h3>
+      </center>
+      
+      <p>In the context of access management, a proxy is a special computer that acts as a gateway to one or more resources. The licensee
+         organization (or its agent) typically deploys a proxy. The proxy relies on authentication services to establish the legitimacy
+         of a user and then routes all traffic between that user and the licensed resource. See the CNI White Paper for more discussion.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Role</i></h3>
+      </center>
+      
+      <p>In the context of access management, role is specified by attributes associated with a user's identity. Examples of role attributes
+         are: membership in a university community, fulltime student, or individual subscriber to a scholarly journal. Authorization
+         mechanisms use role attributes to determine whether a user is permitted to perform certain actions or operations on a resource
+         or content object.
+      </p>
+      
+      
+      
+      <hr width="75%">
+      <center>
+         <h3><i>*Use</i></h3>
+      </center>
+      
+      <p>Use of a digital resource may extend beyond the operations performed online by a user when accessing a digital object. A faculty
+         member who has printed a copy of an article may, for example, use it for personal reference or to make fifty copies for distribution
+         to a class. Access management systems can limit access and have the potential to limit online operations; systems cannot fully
+         control subsequent use.
+      </p>
+
+<!-- End text -->
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p align="center" class="copyright">Copyright &copy; 2006 Digital Library 
+        Federation. All rights reserved.</p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+
+      </td>
+  </tr>
+  <tr>
+
+    <td width="192" height="1" valign="top"><img src="../../transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="../../transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="../../transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="../../transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="../../transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="../../transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="../../transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="../../transparent.gif" alt="" width="63" height="1" /></td>
+
+    <td width="53" height="1" valign="top"><img src="../../transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

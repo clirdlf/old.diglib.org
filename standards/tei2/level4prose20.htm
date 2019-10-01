@@ -1,0 +1,395 @@
+<html>
+<head><title>Level 4 Prose Examples</title>
+<style type="text/css">
+
+
+          body       { margin:30px; background-color: #FFFFFF; width: 30em;
+                       font-family: Times, serif;}
+
+          p          { margin-top: .5em; margin-bottom: .25em;}
+
+          hr         { color: #888833; text-align:left}
+	
+	.lindent1 {margin-left:5px}
+	.lindent2 {margin-left:15px}
+	.lindent3 {margin-left:25px}
+	.lindent4 {margin-left:35px}
+	.lindent5 {margin-left:45px}
+	.example {font-family: courier; margin-left:40px; margin-right: 400px; font-size: 10pt}
+	.example p {margin-top:2em; margin-bottom:1em}
+	.lghead {font-family: times, serif; font-weight:bold; margin-top:2em; margin-bottom:1em}
+	.element {color:brown; font-weight:bold}
+
+</style>
+
+</head>
+
+<body>
+
+<h3>Level 4 Prose Examples</h3> 
+<p>Examples are from Documenting the American South at
+the University of North Carolina at Chapel Hill</p>
+<p>Compiled by Natasha Smith</p>
+
+<hr/>
+
+<ul>
+<li><p>V.4.4. <b>Letters</b> that occur within the text body provide some challenges. It is recommended 
+that quoted letters that occur as part of a text (and not collections of letters themselves) be 
+encoded within <span class="element">&lt;q&gt;</span><span class="element">&lt;text&gt;</span><span class="element">&lt;body&gt;</span><span class="element">&lt;div1 type="letter"&gt;</span>, with <span class="element">&lt;opener&gt;</span>, <span class="element">&lt;dateline&gt;</span>, <span class="element">&lt;salute&gt;</span>, <span class="element">&lt;signed&gt;</span>, 
+<span class="element">&lt;closer&gt;</span> included as appropriate.</p>
+
+
+<p>FROM: Augustus Baldwin Longstreet, 1790-1870<br/>
+Master William Mitten: or, A Youth of Brilliant Talents, Who Was Ruined by Bad Luck.<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/imls/mitten/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/mitten/mitten.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;p&gt;</span>She opened and read as follows:<span class="element">&lt;/p&gt;</span>
+          <span class="element">&lt;q type="letter"&gt;</span>
+            <span class="element">&lt;text&gt;</span>
+              <span class="element">&lt;body&gt;</span>
+                <span class="element">&lt;div1 type="letter"&gt;</span>
+                  <span class="element">&lt;opener&gt;</span>
+                    <span class="element">&lt;dateline&gt;</span>AUGUSTA, March 4th, 18&mdash;<span class="element">&lt;/dateline&gt;</span>
+                    <span class="element">&lt;salute&gt;</span>
+                      <span class="element">&lt;hi rend="italics"&gt;</span>Mrs. A. Mitten:<span class="element">&lt;/hi&gt;</span>
+                    <span class="element">&lt;/salute&gt;</span>
+                  <span class="element">&lt;/opener&gt;</span>
+                  <span class="element">&lt;p&gt;</span>&ldquo;Having recently understood that you have procured a private teacher, we 
+		have ventured to stop your advertisement, <span class="element">&lt;hi rend="italics"&gt;</span>though ordered to continue it until 
+		forbid,<span class="element">&lt;/hi&gt;</span> under the impression that you have probably forgotten to have it stopped. If, however, 
+		we have been misinformed, we will promptly resume the publication of it. You will find our account 
+		below; which as we are much in want of funds, you will oblige us by settling as soon as convenient. 
+		Hoping your teacher is all that you could desire in one,<span class="element">&lt;/p&gt;</span>
+                  <span class="element">&lt;closer&gt;</span>
+                    <span class="element">&lt;salute&gt;</span>&ldquo;We remain, your ob't. serv'ts,<span class="element">&lt;/salute&gt;</span>
+                    <span class="element">&lt;signed&gt;</span>&ldquo;H&mdash;&amp; B&mdash;&rdquo;<span class="element">&lt;/signed&gt;</span>
+                  <span class="element">&lt;/closer&gt;</span>
+                <span class="element">&lt;/div1&gt;</span>
+              <span class="element">&lt;/body&gt;</span>
+            <span class="element">&lt;/text&gt;</span>
+          <span class="element">&lt;/q&gt;</span>
+
+
+</pre></p></div></li>
+<li><p><b>Quotations</b> that do not occur inline, but are set off 
+typographically in some way, should be encoded as <span class="element">&lt;q&gt;</span>.<br/>
+
+FROM: Guion Griffis Johnson, 1900-1989<br/>
+Ante-Bellum North Carolina: A Social History.<br/> 
+Chapel Hill: University of North Carolina Press, 1937. (see: the rendered <a href="http://docsouth.unc.edu/nc/johnson/menu.html">HTML</a> or the entire
+xml file - <a href="http://docsouth.unc.edu/nc/johnson/johnson.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;p&gt;</span>In August, 1855, the <span class="element">&lt;hi rend="italics"&gt;</span>Arator<span class="element">&lt;/hi&gt;</span> of Raleigh thought this group was large:
+	    <span class="element">&lt;q&gt;</span>
+		<span class="element">&lt;p&gt;</span>How many hundreds and thousands of poor men with families, who are existing upon half starvation 
+		from year to year, are there congregated especially about our towns and villages, . . . <span class="element">&lt;/p&gt;</span>
+		<span class="element">&lt;p&gt;</span>There are many in this city, whose wives and children are suffering for the want of food and raiment, who, 
+		if they remain here, are doomed to drag out a miserable and useless existence, but who, by procuring 
+		. . . a homestead in the country and going to work in the right way, might soon become respectable, 
+		useful and happy citizens. This is a subject which demands the serious consideration of the statesman 
+		and philanthropist.<span class="element">&lt;ref id="ref232" target="n221"&gt;</span>54<span class="element">&lt;/ref&gt;</span>
+		<span class="element">&lt;note id="n221" anchored="yes" target="ref232"&gt;</span><span class="element">&lt;p&gt;</span>54 P. 152.<span class="element">&lt;/p&gt;</span><span class="element">&lt;/note&gt;</span>
+		<span class="element">&lt;/p&gt;</span>
+	   <span class="element">&lt;/q&gt;</span>
+	<span class="element">&lt;/p&gt;</span>
+
+	<span class="element">&lt;pb id="p70" n="70"/&gt;</span>
+
+	<span class="element">&lt;p&gt;</span>Yet social and economic differences between the two regions still remained. A few months after the 
+	passage of the Constitutional Amendment of 1857, Samuel H. Wiley, contributing editor of the 
+	<span class="element">&lt;hi rend="italics"&gt;</span>North Carolina Journal of Education,<span class="element">&lt;/hi&gt;</span> predicted that it would be a long time 
+	before eastern and western prejudices would be broken down:<span class="element">&lt;/p&gt;</span>
+            <span class="element">&lt;q&gt;</span>
+              	<span class="element">&lt;p&gt;</span>Now if our Eastern and Western teachers . . . will so mould and discipline the minds 
+		of their pupils as to bring them up free from sectional bias . . . (not Eastern or Western men), they 
+		will effect a great good which the wisdom of our legislators and the influence of a free press, for 
+		the last seventy-five years, have been unable to accomplish . . . ; and a new era in our State's history 
+		will begin. . . . Our Western friends grow up too much with the notion that the East is a nation composed 
+		of &ldquo;niggers,&rdquo; half-starved, half-clad and worked to death, of pale, pine-smoked white 
+		<span class="element">&lt;hi rend="italics"&gt;</span>born<span class="element">&lt;/hi&gt;</span> paupers, living on fish and &ldquo;huckleberries,&rdquo; and of rich, proud, 
+		oppressive Nabobs, whose only god is money and whose only pleasure is the wine cup. While our Eastern 
+		friends are much of the notion that the West is a nation of semi-barbarians, destitute of good breeding, 
+		politeness and everything else like refinement, living in the woods and subsisting on roots and 
+		berries.<span class="element">&lt;ref id="ref118" target="n116"&gt;</span>62<span class="element">&lt;/ref&gt;</span>
+		<span class="element">&lt;note id="n116" anchored="yes" target="ref118"&gt;</span><span class="element">&lt;p&gt;</span>62 &ldquo;The East and the West,&rdquo; 
+		<span class="element">&lt;hi rend="italics"&gt;</span>North Carolina Journal of Education<span class="element">&lt;/hi&gt;</span> (hereafter cited as <span class="element">&lt;hi rend="italics"&gt;</span>NCJE<span class="element">&lt;/hi&gt;</span>), 
+		I, 13.<span class="element">&lt;/p&gt;</span><span class="element">&lt;/note&gt;</span>
+		<span class="element">&lt;/p&gt;</span>
+            <span class="element">&lt;/q&gt;</span>
+
+
+</pre></p></div></li>
+
+<li><p><b>Notes</b> are to be encoded as described in Level 3.<br/>
+
+FOR INLINE NOTES<br/>
+FROM: Augustus Baldwin Longstreet, 1790-1870<br/>
+Master William Mitten: or, A Youth of Brilliant Talents, Who Was Ruined by Bad Luck.<br/>
+Macon, Ga.: Burke, Boykin, 1864.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/imls/mitten/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/mitten/mitten.xml">XML</a> file)</p><div class="example"><p><pre>
+
+
+	<span class="element">&lt;p&gt;</span>This was a clear <span class="element">&lt;hi rend="italics"&gt;</span>splurge<span class="element">&lt;/hi&gt;</span><span class="element">&lt;ref id="ref2" n="2" rend="sc" target="note2"&gt;</span>*<span class="element">&lt;/ref&gt;</span>
+	<span class="element">&lt;note id="note2" n="2" rend="sc" place="foot" anchored="yes" target="ref2"&gt;</span><span class="element">&lt;p&gt;</span>* A splurge is a moral 
+	<span class="element">&lt;hi rend="italics"&gt;</span>cavort.<span class="element">&lt;/hi&gt;</span> Both are embraced in the generic term, <span class="element">&lt;hi rend="italics"&gt;</span>cutting shines. 
+	Ga. Vocab.<span class="element">&lt;/hi&gt;</span><span class="element">&lt;/p&gt;</span><span class="element">&lt;/note&gt;</span> for William's benefit.<span class="element">&lt;/p&gt;</span>
+
+</pre></p></div>      
+<p>NOTE that the <span class="element">&lt;editorialDecl&gt;</span> should include an appropriate reference:</p>
+<div class="example"><p><pre>
+	<span class="element">&lt;p&gt;</span>All footnotes are inserted at the point of reference within paragraphs.<span class="element">&lt;/p&gt;</span>
+	</pre></p></div>
+
+	<p>Or</p>
+
+<div class="example"><p><pre>
+	<span class="element">&lt;p&gt;</span>All footnotes are moved to the end of a paragraph in which the reference occurs.<span class="element">&lt;/p&gt;</span>
+
+
+</pre></p></div></li>
+
+
+<li><p><b>&lt;argument&gt;</b><br/>
+FROM: Octavia V. Rogers Albert (Octavia Victoria Rogers), 1853-1889?<br/>
+The House of Bondage, or, Charlotte Brooks and Other Slaves, Original and Life Like, As They Appeared<br/>
+in Their Old Plantation and City Slave Life; Together with Pen-Pictures of the Peculiar Institution,<br/> 
+with Sights and Insights into Their New Relations as Freedmen, Freemen, and Citizens.  New York: Hunt<br/> 
+& Eaton, 1890.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/neh/albert/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/neh/albert/albert.xml">XML</a> file)</p><div class="example"><p><pre>
+
+<span class="element">&lt;argument&gt;</span>
+	<span class="element">&lt;p&gt;</span>Causes of immorality among colored people&mdash;Charlotte Brooks&mdash;She is sold South&mdash;Sunday 
+	work.<span class="element">&lt;/p&gt;</span>
+<span class="element">&lt;/argument&gt;</span>
+
+	<span class="element">&lt;div2 type="chapter"&gt;</span>
+		<span class="element">&lt;pb id="albert14" n="14"/&gt;</span>
+		<span class="element">&lt;head&gt;</span>CHAPTER III.<span class="element">&lt;lb/&gt;</span>AUNT CHARLOTTE'S FRIENDS.<span class="element">&lt;/head&gt;</span>
+		<span class="element">&lt;argument&gt;</span>
+			<span class="element">&lt;p&gt;</span>Death of Aunt Charlotte's children&mdash;Jane Lee's master leaves
+			the neighborhood&mdash;Nellie Johnson tries to escape to her
+			old Virginia home.<span class="element">&lt;/p&gt;</span>
+		<span class="element">&lt;/argument&gt;</span>
+		<span class="element">&lt;p&gt;</span> ... <span class="element">&lt;/p&gt;</span>
+	<span class="element">&lt;/div2&gt;</span>
+
+
+</pre></p></div></li>
+
+
+<li><p><b>&lt;opener&gt;</b><br/>
+FROM: Baron Christoph von Graffenried, 1661-1743, Vincent H. Todd (Vincent Hollis), 1879-, edited by,<br/> 
+and Julius Goebel, 1857-1931, edited by Christoph von Graffenried's Account of the Founding of New Bern.<br/> 
+Edited with an Historical Introduction and an English Translation by Vincent H. Todd, Ph.D. University of<br/> 
+Illinois in Cooperation with Julius Goebel, Ph.D., Professor of Germanic Languages University of Illinois.<br/> 
+Raleigh: Edwards & Broughton Printing, 1920.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/nc/graffenried/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/nc/graffenried/graffenried.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;opener&gt;</span>
+		<span class="element">&lt;dateline&gt;</span>July 21st, 1714.<span class="element">&lt;/dateline&gt;</span>
+		<span class="element">&lt;salute&gt;</span>To the L'ds Comm'rs of Trade. <span class="element">&lt;/salute&gt;</span>
+		<span class="element">&lt;salute&gt;</span> My Lords:<span class="element">&lt;/salute&gt;</span>
+	<span class="element">&lt;/opener&gt;</span>
+	<span class="element">&lt;p&gt;</span>Since my last of the 9th of March, (whereof the enclosed is a Duplicate) 
+	I have had the hon'r to receive y'r Lo'ps of the 6th of April . . .<span class="element">&lt;/p&gt;</span>
+               
+
+</pre></p></div></li>
+
+<li><p><b>&lt;epigraph&gt;</b><br/>
+FROM: J. Lansing Burrows (John Lansing), 1814-1893<br/>
+Shiloh. A Sermon.<br/> 
+[S.l.: s.n., between 1861 and 1865].<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/imls/burrows/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/burrows/burrows.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;head&gt;</span>A SERMON.<span class="element">&lt;/head&gt;</span>
+	<span class="element">&lt;epigraph&gt;</span>
+	  <span class="element">&lt;q&gt;</span>
+	     <span class="element">&lt;p&gt;</span>&ldquo;The Lord appeared again; in Shiloh.&rdquo;<span class="element">&lt;bibl&gt;</span>&mdash;SAM. III. 21.<span class="element">&lt;/bibl&gt;</span><span class="element">&lt;/p&gt;</span>
+	  <span class="element">&lt;/q&gt;</span>
+	<span class="element">&lt;/epigraph&gt;</span>
+</pre></p></div>
+
+
+<p>FROM: Sidney Lanier, 1842-1881<br/>
+Poems of Sidney Lanier, Edited by his Wife.<br/> 
+New York: Charles Scribners Sons, 1884.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/lanier/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/lanier/lanier.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;epigraph&gt;</span>
+          <span class="element">&lt;lg type="stanza"&gt;</span>
+            <span class="element">&lt;l&gt;</span>- &ldquo;Go, trembling song,<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>And stay not long; oh stay not long:<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>Thou'rt only a gray and sober dove,<span class="element">&lt;/l&gt;</span>
+            <span class="element">&lt;l&gt;</span>But thine eye is faith and thy wing is love.&rdquo;<span class="element">&lt;/l&gt;</span>
+          <span class="element">&lt;/lg&gt;</span>
+        <span class="element">&lt;/epigraph&gt;</span>
+
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;closer&gt;</b><br/>
+FROM: Confederate States of America. Surgeon-General's Office<br/>
+Circular No. 17. <br/>
+[Richmond: Surgeon General's Office, 1864].<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/imls/circular17/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/circular17/circular17.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;closer&gt;</span>
+		<span class="element">&lt;signed&gt;</span>SURG. S. H. STOUT,<span class="element">&lt;lb/&gt;</span>
+		<span class="element">&lt;hi rend="italics"&gt;</span>Med. Dir.<span class="element">&lt;/hi&gt;</span>
+		<span class="element">&lt;/signed&gt;</span>
+		<span class="element">&lt;dateline&gt;</span> Macon, Ga.<span class="element">&lt;/dateline&gt;</span>	
+		<span class="element">&lt;signed&gt;</span>S. P. MOORE,<span class="element">&lt;lb/&gt;</span>
+		<span class="element">&lt;hi rend="italics"&gt;</span>Surgeon General C. S. A. <span class="element">&lt;/hi&gt;</span>
+		<span class="element">&lt;/signed&gt;</span>
+	<span class="element">&lt;/closer&gt;</span>
+</pre></p></div>
+
+<p>FROM: Kimberly Family<br/>
+Personal Correspondence, 1862-1864.<br/> 
+Transcript of the manuscript, UNC-Chapel Hill, Southern Historical Collection<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/imls/kimberly/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/kimberly/kimberly.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;closer&gt;</span>
+		<span class="element">&lt;salute&gt;</span>With much love my dear sister<span class="element">&lt;lb/&gt;</span>
+		I am ever<span class="element">&lt;lb/&gt;</span>
+		Your affectionate brother<span class="element">&lt;/salute&gt;</span>
+		<span class="element">&lt;signed&gt;</span>John Sehon.<span class="element">&lt;/signed&gt;</span>
+	<span class="element">&lt;/closer&gt;</span>
+
+
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;trailer&gt;</b><br/> 
+FROM: Sidney Lanier, 1842-1881<br/>
+Poems of Sidney Lanier, Edited by his Wife.<br/> 
+New York: Charles Scribners Sons, 1884.<br/>
+(see: the rendered <a href="http://dev.docsouth.unc.edu/lanier/menu.html">HTML</a> or the entire
+<a href="http://dev.docsouth.unc.edu/lanier/lanier.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;trailer&gt;</span>(End of Chapter V.)<span class="element">&lt;/trailer&gt;</span>
+</pre></p></div>
+
+<p>FROM: Marion Harland, 1830-1922<br/>
+Marion Harland's Autobiography: The Story of a Long Life.<br/> 
+New York; London: Harper & Brothers Publishers, 1910.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/harland/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/harland/harland.xml">XML</a> file)</p><div class="example"><p><pre>
+
+			<span class="element">&lt;/div2&gt;</span>
+        	    <span class="element">&lt;trailer&gt;</span>THE END<span class="element">&lt;/trailer&gt;</span>
+	      	<span class="element">&lt;/div1&gt;</span>
+    	     <span class="element">&lt;/back&gt;</span>
+  	   <span class="element">&lt;/text&gt;</span>
+	<span class="element">&lt;/TEI.2&gt;</span>
+
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;add&gt;</b><br/> 
+FROM:  Excerpts from the Diary of William S. Mullins, November 23 through 25, 1840<br/>
+Mullins, William Sidney, 1824-1878<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/true/mss04-02/mss04-02.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/true/mss04-02/mss04-02.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	The recitation was much better than I expected, and showed that the class had 
+	a much <span class="element">&lt;add rend="sup" hand="WSM"&gt;</span>more<span class="element">&lt;/add&gt;</span> thorough knowledge with Logic than 
+	I had supposed.
+
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;del&gt;</b><br/> 
+FROM: Class Composition of J. Horace Lacy, [January 1851]1<br/> 
+Lacy, James Horace, 1834-1852<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/true/mss05-02/mss05-02.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/true/mss05-02/mss05-02.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	But it is well authenticated by the observation of every one, that
+	<span class="element">&lt;del rend="overstrike" hand="JHL"&gt;</span>their manner<span class="element">&lt;/del&gt;</span> <span class="element">&lt;add rend="sup" hand="JHL"&gt;</span>this way&mdash;i.e. 
+	the above<span class="element">&lt;/add&gt;</span> of writing influences the style of compos. of those who practise it considerably, 
+	when they grow up to years of manhood; for their productions, <span class="element">&lt;del hand="JHL" rend="overstrike"&gt;</span>instead<span class="element">&lt;/del&gt;</span> 
+	far from being terse, argumentative, convincing, are without head or tail &amp; are generally an 
+	incongruous mass mixed up in the most disgusting manner, without divisions or heads &amp; in short 
+	without a subject (so to speak).
+
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;unclear&gt;</b><br/>
+
+FROM: Kimberly Family<br/>
+Personal Correspondence, 1862-1864.<br/> 
+Transcript of the manuscript, UNC-Chapel Hill, Southern Historical Collection<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/imls/kimberly/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/kimberly/kimberly.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;p&gt;</span> [. . .]But I still hope for &amp; trust in God and I believe he will animate our brave defenders 
+	with a superhuman power and we will yet drive from our soil the hated invaders 
+	whose tread <span class="element">&lt;unclear reason="ink blot"&gt;</span><span class="element">&lt;/unclear&gt;</span> profanation, but this is an hour to try men's souls&mdash;Fort 
+	Donelson has been taken by the enemy.  Frank was there and covered himself with honor but his bravery 
+	cost him a wound; he was wounded in the leg slightly&mdash;a flesh wound only, you must not be uneasy
+	.  [. .] <span class="element">&lt;/p&gt;</span>
+</pre></p></div>
+
+<p>FROM: Thomas Carpenter Master of the Academy, Barking, Essex <br/> 
+The Scholar's Spelling Assistant; Wherein the Words Are Arranged on an Improved Plan, According to<br/> 
+Their Respective Principles of Accentuation. In a Manner Calculated to Familiarize the Art of Spelling<br/> 
+and Pronunciation, to Remove Difficulties, and to Facilitate General Improvement Intended for the Use<br/> 
+of Schools and Private Tuition. Charleston, S.C.: McCarter & Dawson, 1861, [c1835].<br/> 
+(see: the rendered <a href="http://docsouth.unc.edu/imls/carpenter/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/imls/carpenter/carpenter.xml">XML</a> file)</p>
+<div class="example"><p><pre>
+
+	<span class="element">&lt;note&gt;</span><span class="element">&lt;p&gt;</span>Note.&mdash;<span class="element">&lt;hi rend="italics"&gt;</span>a<span class="element">&lt;/hi&gt;</span> is used before <span class="element">&lt;hi rend="italics"&gt;</span>m, v; ab<span class="element">&lt;/hi&gt;</span> before 
+	<span class="element">&lt;hi rend="italics"&gt;</span>d, h, j, <span class="element">&lt;unclear reason="foxed"&gt;</span><span class="element">&lt;/unclear&gt;</span>, n, r, s; abs<span class="element">&lt;/hi&gt;</span> before <span class="element">&lt;hi rend="italics"&gt;</span>c, t.<span class="element">&lt;/hi&gt;</span> 
+	These prepositions denote the point where motion begins, and are opposed to <span class="element">&lt;hi rend="italics"&gt;</span>ad<span class="element">&lt;/hi&gt;</span> 
+	which denotes where it must end.<span class="element">&lt;/p&gt;</span>
+	<span class="element">&lt;/note&gt;</span>
+
+
+</pre></p></div></li>
+
+<li><p><b>&lt;gap&gt;</b><br/>
+FROM: No Author<br/>
+Slavery Illustrated, in the Histories of Zangara and Maquama, Two Negroes Stolen From Africa and Sold<br/> 
+Into Slavery. Related by Themselves.<br/> 
+Manchester: Wm. Irwin, London: Simpkin, Marshall, and Co., 1849.<br/>
+(see: the rendered <a href="http://docsouth.unc.edu/neh/slaveryillus/menu.html">HTML</a> or the entire
+<a href="http://docsouth.unc.edu/neh/slaveryillus/slaveryillus.xml">XML</a> file)</p><div class="example"><p><pre>
+
+	<span class="element">&lt;p&gt;</span>In the Press, People's Edition of SEWELL'S HISTORY of the SOCIETY of FR<span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> 
+	Being the Second Vol. of Wm. Irwin's &ldquo;People's Editions of the W<span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> 
+	Early Friends,&rdquo; uniform in size with his Cheap Edition of &ldquo;Barclay's Apo<span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> 
+	which will shortly be issued, and form the first vol. of the Series. The<span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> 
+	is offered to Subscribers only at the following very low prices:&mdash;100 <span class="element">&lt;gap reason="cut off" extent="unknown"/&gt;</span> 
+	&pound;18; 20 copies, &pound;4; Single Copies, 4s. 6d.<span class="element">&lt;/p&gt;</span>
+
+</pre></p></div></li></ul>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

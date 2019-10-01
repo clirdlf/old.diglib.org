@@ -1,0 +1,979 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 11">
+<link id=Main-File rel=Main-File href="../guenther1004.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr  
+
+	InitArray()
+
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		} 
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+
+		if( obj.id.indexOf("PPTC") >= 0 )  
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].Enabled(1)
+	gBtnArr["nb_ntsBorder"].SetFlag( parent.gHasNts )
+
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+
+function ExecBtn()
+{
+	if (event.keyCode == 13)
+	{
+		BtnOnDown();
+		BtnOnUp();
+	}
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+
+
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='display:none;position:relative;width:55px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" title="Show/Hide
+Notes" align=center style='position:relative;margin-left:5px;margin-right:5px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt; cursor:default'>
+ <img src="notes_flag.gif" id="nb_nts" style='display:none'> &nbsp;Notes</div>
+ <div id="nb_ntsBorder" title ="Show/Hide
+Notes" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=1 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+
+ </div>
+ </td>
+</table>
+
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=5 style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=4 class=button>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=2 class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=3 class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="ExecBtn()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl" onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=11
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' onfocus="BtnOnOver()" onblur="BtnOnOut()" TABINDEX=12 id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0091.htm');" id=PPTL1><br>
+    The PREMIS Working Group:<br>
+    Preservation Metadata<br>
+    for Digital Repositories</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>DLF Fall Forum</li>
+   <li>October 26, 2004</li>
+   <li></li>
+   <li>Rebecca Guenther</li>
+   <li>LC/NDMSO</li>
+   <li>rgue@loc.gov</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0098.htm');" id=PPTL2>Preservation Metadata
+  Functions</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Information that supports and documents the digital preservation
+       process:</li>
+   <ul>
+    <li>Establish provenance: track chain of custody and alterations over time</li>
+    <li>Details authenticity</li>
+    <li>Documents technical processes object has undergone</li>
+    <li>Describes technical details of object</li>
+    <li>Describes the environment from which it originated</li>
+    <li>Specify rights management information</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0099.htm');" id=PPTL3>Preservation Metadata
+  Functions (cont.)</a></font></div>
+  <div id=PPTC3 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <br>
+   <li>Provide information to maintain resources over the long term:</li>
+   <ul>
+    <li>viability: object’s bitstream is intact</li>
+    <li>renderability: object can be translated to a form that can be viewed or
+        used</li>
+    <li>understandability: rendered content can be interpreted and understood</li>
+   </ul>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0093.htm');" id=PPTL4>Background</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>March 2000: OCLC and RLG jointly sponsor international working group on
+       preservation metadata</li>
+   <ul>
+    <li>Identify key issues/challenges</li>
+    <li>Seek consensus on recommendations and best practice</li>
+   </ul>
+   <br>
+   <li>White paper (January 2001)</li>
+   <ul>
+    <li>Defined preservation metadata; role in preservation process</li>
+    <li>Reviewed/synthesized existing preservation metadata schemes</li>
+   </ul>
+   <br>
+   <li>Preservation metadata framework (June 2002)</li>
+   <ul>
+    <li>Comprehensive description of types of information constituting
+        preservation metadata</li>
+    <li>Based on OAIS information model</li>
+    <li>Set of “prototype” preservation metadata elements</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0094.htm');" id=PPTL5>Aftermath …</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Framework …</li>
+   <ul>
+    <li>Consolidated expertise</li>
+    <li>Provided foundation for developing formal preservation metadata
+        specifications</li>
+    <li>Common departure point for different schema implementations</li>
+   </ul>
+   <br>
+   <li>But ... further scope for collaboration in preservation metadata</li>
+   <ul>
+    <li>Needed best practices/recommendations for implementing preservation
+        metadata in real world digital archiving systems</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0100.htm');" id=PPTL6>Issues unresolved in WG</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>How minimal is a core preservation metadata element set?</li>
+   <li>How much metadata can be generated automatically?</li>
+   <li>Is it useful to apply metadata elements by object type or object
+       behavior?</li>
+   <li>Levels of granularity not addressed</li>
+   <li>Need to provide less abstract view of preservation metadata for
+       implementation</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0095.htm');" id=PPTL7>PREMIS</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>June 2003: OCLC and RLG sponsored new working group: PREMIS</li>
+   <ul>
+    <li>Preservation Metadata: Implementation Strategies</li>
+   </ul>
+   <br>
+   <li>Objectives</li>
+   <ul>
+    <li>Define “core” set of preservation metadata elements, with supporting
+        data dictionary, applicable to broad range of digital preservation
+        activities</li>
+    <li>Identify and evaluate alternative strategies for encoding, storing,
+        managing, and exchanging preservation metadata</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0096.htm');" id=PPTL8>Membership</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Priscilla Caplan, FCLA (Chair)</li>
+   <li>Rebecca Guenther, LC (Chair)</li>
+   <li>Michael Alexander, British Library</li>
+   <li>George Barnum, GPO</li>
+   <li>Charles Blair, U. of Chicago</li>
+   <li>Olaf Brandt, U. of Gottingen</li>
+   <li>Adam Farquhar, British Library</li>
+   <li>David Gewirtz, Yale</li>
+   <li>Kevin Glavash, MIT/Dspace</li>
+   <li>Cathy Hartman, U. of N. Texas</li>
+   <li>Helen Hodgart, British Library</li>
+   <li>Nancy Hoebelheinrich, Stanford</li>
+   <li>Roger Howard/Sally Hubbard, Getty Museum</li>
+   <li>Pam Kircher, OCLC</li>
+   <li>John Kunze, Calif. Digital Library</li>
+   <li>Brian Lavoie, OCLC liaison</li>
+   <li>Robin Dale, RLG liaison</li>
+   <li>Vicky McCarger, LA Times</li>
+   <li>Jerry McDonough, NYU/METS</li>
+   <li>Evan Owens, JSTOR</li>
+   <li>Erin Rhodes, NARA</li>
+   <li>Madi Solomon, Walt Disney Co.</li>
+   <li>Angela Spinazze, ATSPIN</li>
+   <li>Stefan Strathmann, U. of Gottingen</li>
+   <li>Gunter Waibel, RLG</li>
+   <li>Lisa Weber, NARA</li>
+   <li>Robin Wendler, Harvard</li>
+   <li>Hilde van Wijngaarden, KB</li>
+   <li>Andrew Wilson, NAA</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0097.htm');" id=PPTL9>Advisory Committee</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Howard Besser, UCLA</li>
+   <li>Liz Bishoff, OCLC (via Colorado Digitization Program)</li>
+   <li>Gerard Clifton, National Library of Australia</li>
+   <li>Gail Hodge, CENDI</li>
+   <li>Steve Knight, National Library of New Zealand</li>
+   <li>Maggie Jones, Digital Preservation Coalition</li>
+   <li>Nancy McGovern, Cornell</li>
+   <li>Cliff Morgan, Wiley UK</li>
+   <li>Richard Rinehart, U. of California, Berkeley</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0077.htm');" id=PPTL10>PREMIS Subgroups</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Core elements</li>
+   <ul>
+    <li>Establish core metadata elements and data dictionary</li>
+    <li>Developed a data model</li>
+    <li>Has had 2 face-to-face meetings</li>
+    <li>Weekly conference calls</li>
+   </ul>
+   <li>Implementation</li>
+   <ul>
+    <li>Examine alternative strategies for encoding, storage and management of
+        preservation metadata</li>
+    <li>Conducted a survey of practices</li>
+    <li>Monthly conference call</li>
+   </ul>
+   <li>Expect to complete activities by end of 2004</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0078.htm');" id=PPTL11>Core elements subgroup</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Development of data model</li>
+   <ul>
+    <li>Objects</li>
+    <li>Events</li>
+    <li>Agents</li>
+    <li>Intellectual entities</li>
+    <li>Rights</li>
+   </ul>
+   <li>Data dictionary structured according to entities</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0101.htm');" id=PPTL12>Core Elements</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Conducting element-by-element review of prototype elements from metadata
+       framework</li>
+   <ul>
+    <li>Is the element “core”?</li>
+    <li>How is it being used at WG members’ institutions?</li>
+    <li>How should it be implemented/populated?</li>
+    <li>Elements not covered by the framework?</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0079.htm');" id=PPTL13>Objects</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Identifiers</li>
+   <li>Location</li>
+   <li>Descriptive metadata out of scope</li>
+   <li>Technical metadata not specific to particular file format</li>
+   <li>Levels of objects: representation, file, filestream, bitstream</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0081.htm');" id=PPTL14>Objects:<br>
+    Technical metadata</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Object characteristics</li>
+   <ul>
+    <li>Fixity</li>
+    <li>Size</li>
+    <li>Format (including link to format registry)</li>
+    <li>Inhibitors</li>
+    <li>Significant properties</li>
+    <li>Creating application information</li>
+   </ul>
+   <li>Environment (software, hardware)</li>
+   <li>Externally defined technical metadata (e.g. Z39.87/MIX)</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0080.htm');" id=PPTL15>Events</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Digital provenance/process information</li>
+   <li>Actions that involve one or more objects</li>
+   <li>May be related to one or more agents</li>
+   <li>Semantic units</li>
+   <ul>
+    <li>Event identifier</li>
+    <li>Event type</li>
+    <li>Event outcome</li>
+    <li>Event detail</li>
+    <li>Event date/time</li>
+    <br>
+    <br>
+   </ul>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0082.htm');" id=PPTL16>Agents</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Agent descriptions out of scope</li>
+   <li>Attributes of agents associated with preservation events and rights
+       management</li>
+   <ul>
+    <li>May carry-out, authorize, or compel one or more events</li>
+    <li>may create or act upon one or more objects</li>
+    <li>may hold or grant one or more rights</li>
+   </ul>
+   <li>Semantic units</li>
+   <ul>
+    <li>Agent identifier</li>
+    <li>Agent name</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0083.htm');" id=PPTL17>Rights and
+  relationships</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Rights</li>
+   <ul>
+    <li>Only in context of right to preserve</li>
+    <li>Collecting rights use cases</li>
+   </ul>
+   <li>Relationships</li>
+   <ul>
+    <li>Data model expresses relationships between entities</li>
+    <li>Relationships between objects</li>
+    <ul>
+     <li>Derivative, dependency, structural</li>
+    </ul>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0102.htm');" id=PPTL18><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0103.htm');" id=PPTL19><span
+  style='mso-spacerun:yes'> </span></a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0084.htm');" id=PPTL20>Implementation
+  Strategies subgroup</a></font></div>
+  <div id=PPTC20 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Conducted survey of preservation repositories to explore the state of
+       the art</li>
+   <li>Questions about policies, governance, funding, system architecture,
+       preservation strategies, metadata implementation</li>
+   <li>70 surveys sent</li>
+   <li>Responses from 28 libraries, 7 archives, 14 other in 13 different
+       countries</li>
+   <li>10 national libraries, 6 national archives</li>
+   <li>Survey published Oct. 2004</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0085.htm');" id=PPTL21>Survey findings</a></font></div>
+  <div id=PPTC21 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Little experience with digital preservation</li>
+   <ul>
+    <li>Most didn’t have active preservation strategy</li>
+    <li>Many not yet in production</li>
+    <li>Cannot assess adequacy of metadata</li>
+   </ul>
+   <li>Lack of common vocabulary and conceptual framework</li>
+   <ul>
+    <li>Informed by OAIS reference model</li>
+    <li>Difference of opinion as to meaning of OAIS compliance</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0086.htm');" id=PPTL22>Survey findings (cont.)</a></font></div>
+  <div id=PPTC22 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Metadata</li>
+   <ul>
+    <li>Many recording rights, provenance, technical, administrative,
+        descriptive and structural</li>
+   </ul>
+   <li>Consistent roles in preservation scope and policies (academic libraries,
+       archives, national libraries)</li>
+   <li>Substantial use of METS, Z39.87/MIX, OCLC sets</li>
+   <li>Most repositories serve goals of both preservation and access</li>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0087.htm');" id=PPTL23>Trends</a></font></div>
+  <div id=PPTC23 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Store metadata redundantly in XML or relational database and with
+       content data objects</li>
+   <li>Use METS for structural metadata and as container for descriptive and
+       administrative; MIX for images</li>
+   <li>Use OAIS as framework and starting point</li>
+   <li>Maintain multiple versions (originals, some normalized or migrated) in
+       repository with complete metadata for all versions</li>
+   <li>Choose multiple strategies for digital preservation</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0105.htm');" id=PPTL24>Looking ahead</a></font></div>
+  <div id=PPTC24 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Finalize core preservation metadata elements set</li>
+   <br>
+   <br>
+   <li>Complete data dictionary</li>
+   <br>
+   <br>
+   <li>XML schemas to support exchange of core elements for digital
+       provenance/process and technical metadata</li>
+   <br>
+   <br>
+   <li>Final PREMIS report by end of 2004</li>
+   <br>
+   <br>
+   <li>Community outreach: opportunities for public comment</li>
+   <br>
+   <br>
+   <li>Follow-on activities?</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0104.htm');" id=PPTL25>More information…</a></font></div>
+  <div id=PPTC25 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>PREMIS Web site:</li>
+   <ul>
+    <li>http://www.oclc.org/research/projects/pmwg/</li>
+   </ul>
+   <br>
+   <li>“Implementing Metadata in Digital Preservation Systems: The PREMIS
+       Activity” D-Lib (April ‘04)</li>
+   <ul>
+    <li>http://www.dlib.org/dlib/april04/lavoie/04lavoie.html</li>
+   </ul>
+   <br>
+   <li>Rebecca Guenther: rgue@loc.gov</li>
+   <br>
+   <br>
+   <li>Priscilla Caplan: pcaplan@ufl.edu</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href=master04.htm></a><a href=master04.xml></a><a
+href=preview.wmf></a><a href="master04_image001.png"></a><a href=master05.htm></a><a
+href=master05.xml></a><a href=master02.htm></a><a href=pres.xml></a><a
+href=slide0091.htm></a><a href="master05_image002.gif"></a><a
+href=slide0098.htm></a><a href="master04_image003.gif"></a><a
+href=slide0099.htm></a><a href=slide0093.htm></a><a href=slide0094.htm></a><a
+href=slide0100.htm></a><a href=slide0095.htm></a><a href=slide0096.htm></a><a
+href=slide0097.htm></a><a href=slide0077.htm></a><a href=slide0078.htm></a><a
+href=slide0101.htm></a><a href=slide0079.htm></a><a href=slide0081.htm></a><a
+href=slide0080.htm></a><a href=slide0082.htm></a><a href=slide0083.htm></a><a
+href=slide0102.htm></a><a href="slide0102_image004.png"></a><a
+href=oledata.mso></a><a href="slide0102_image005.jpg"></a><a
+href=slide0103.htm></a><a href="slide0103_image006.png"></a><a
+href="slide0103_image007.jpg"></a><a href=slide0084.htm></a><a
+href=slide0085.htm></a><a href=slide0086.htm></a><a href=slide0087.htm></a><a
+href=slide0105.htm></a><a href=slide0104.htm></a><a href=master01.htm></a><a
+href="master04_stylesheet.css"></a><a href=script.js></a><a
+href="../guenther1004.htm"></a><a href=fullscreen.htm></a><a href=buttons.gif></a><a
+href=frame.htm></a><a href=outline.htm></a></div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+
+</html>

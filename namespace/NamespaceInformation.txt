@@ -1,0 +1,7 @@
+Identifiers in the dlf namespace are used to identify 
+information assets used in Digital Library Federation 
+research and development projects.  Identifiers will vary according to project.  Their uses currently include:
+
+* Target namespaces for XML Schema, for example: info:dlf/Aquifer/AssetActions/AssetDefinition/
+
+* Identifiers for use in ontologies, for example RDF property labels, such as:  info:dlf/Aquifer/AssetActions/getWebView

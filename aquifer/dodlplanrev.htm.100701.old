@@ -1,0 +1,1134 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Distributed Open Digital Library (DODL): Realizing the Promise of Digital Libraries</title>
+
+<meta content="" name="dc.title" />
+<meta content="digital library federation" name="dc.creator" />
+<meta content="forum" name="dc.subject" />
+<meta content="" name="dc.description" />
+<meta content="digital library federation. washington, dc" name="dc.publisher" />
+<meta content="david seaman.  added dc metadata." name="dc.contributor" />
+<meta content="2003-09-03" name="dc.date" />
+<meta content="text" name="dc.type" />
+<meta content="text/html" name="dc.format" />
+<meta content="" name="dc.identifier" />
+<meta content="none" name="dc.source" />
+<meta content="en-us" name="dc.language" />
+<meta content="http://www.diglib.org/" name="dc.relation" />
+<meta content="none" name="dc.coverage" />
+<meta content="copyright 2004, council on library and information resources. digital library federation. publicly-accessible" name="dc.rights" />
+
+<style type="stylesheet">
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	color:black;}
+h4
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:283266748;
+	mso-list-template-ids:-1506494402;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:552472607;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1262503154 1758484358 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:691225615;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2048119246 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:893540680;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-22001584 67698705 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:917833805;
+	mso-list-type:hybrid;
+	mso-list-template-ids:916600126 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:986741621;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-123292892 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1124078563;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1341447268 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1431243692;
+	mso-list-template-ids:-234071466;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:1442452410;
+	mso-list-type:hybrid;
+	mso-list-template-ids:39728124 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l8:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l8:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type="text/JavaScript"></script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+	if (Math.random) {
+		strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+		arrQuote = strQuote.split("^");
+		var num = Math.floor(Math.random() * arrQuote.length);
+		quote_rotate.src = "../../images/"+arrQuote[num];
+	}
+}
+//-->
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet" type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body onload="MM_preloadImages('images/preserve_r.gif','images/use_r.gif','images/build_r.gif','images/logo_r.gif','images/produce_r.gif')">
+<script language="JavaScript1.2" type="text/JavaScript">mmLoadMenus();</script>
+<a name="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr class="noprint">
+    <td width="192" height="133" rowspan="3" valign="bottom"><a href="../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur="MM_swapImgRestore()" onmouseover="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)" onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"><img src="../../images/logo.gif" alt="Digital Library Federation, Link: Home" name="dlf_logo" width="192" height="133" border="0" id="dlf_logo" /></a></td>
+
+    <td width="333" height="95" colspan="3" rowspan="2" valign="top"><img src="../../images/quote_hold.gif" name="quote_rotate" alt="random quote" width="333" height="95" /></td>
+
+    <td width="77" height="45" colspan="2" valign="top"><a href="../../publications.htm"><img src="../../images/pubs.gif" alt="Link: Publications" width="77" height="27" border="0" /></a></td>
+
+    <td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src="../../images/forum.gif" alt="Forum" width="50" height="27" border="0" /></a></td>
+
+    <td width="71" height="45" colspan="2" valign="top"><a href="../../about.htm"><img src="../../images/about.gif" alt="Link: About DLF" width="71" height="27" border="0" /></a></td>
+
+    <td width="53" height="45" valign="top">
+<a href="../../news.htm"><img src="../../images/news.gif" alt="Link: News" width="53" height="27" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="251" height="50" colspan="6" valign="top">
+
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+        <tr class="noprint"> 
+          <td valign="top">
+<a href="/search.html">Search</a>
+<!-- <form action="" method="post" name="searchform" id="search">
+              <label for="textfield"><span class="news">Search&nbsp;</span></label>
+              <input name="textfield" id="textfield" type="text" size="15" />
+              <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> -->
+
+</td>
+</tr>
+</table></td>
+  </tr>
+  <tr class="noprint"><!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+
+   <td width="117" height="38" valign="top"><a href="../../collections.htm" onmouseout="MM_startTimeout();MM_swapImgRestore();" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);" onfocus="MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','images/collect_r.gif',1);"><img src="../../images/collect.gif" alt="Link: Digital Collections" name="collect" width="117" height="38" border="0" id="collect" /></a></td>
+       <td width="117" height="38" valign="top"><a href="../../produce.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','images/produce_r.gif',1)"><img src="../../images/produce.gif" alt="Link: Digital Production" name="produce" width="117" height="38" border="0" id="produce" /></a></td>
+    <td width="117" height="38" colspan="2" valign="top"><a href="../../preserve.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','images/preserve_r.gif',1)"><img src="../../images/preserve.gif" alt="Link: Digital Preservation" name="preserve" width="117" height="38" border="0" /></a></td>
+    <td width="117" height="38" colspan="3" valign="top"><a href="../../use.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','images/use_r.gif',1)"><img src="../../images/use.gif" alt="Link: Use, users, and user support" name="use" width="117" height="38" border="0" /></a></td>
+    <td width="116" height="38" colspan="2" valign="top"><a href="../../architectures.htm" onmouseout="MM_startTimeout();MM_swapImgRestore()" onblur="MM_startTimeout();MM_swapImgRestore();" onmouseover="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)" onfocus="MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','images/build_r.gif',1)"><img src="../../images/build.gif" alt="Link: Build: Digital Library Architectures, Systems, and Tools" name="build" width="116" height="38" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td class="noprint" width="192" height="634" valign="top" bgcolor="#CCCC99"><table width="192" border="0" cellpadding="0" cellspacing="18">
+        <tr> 
+       <td align="left" valign="top"> 
+
+<p class="level2nav">DLF PARTNERS</p>
+
+<ol class="newsbold">
+<li><a href="http://www.bl.uk/">British Library</a><br /><br /></li>
+<li><a href="http://www.cdlib.org/">California Digital Library</a><br /><br /></li><li>
+<a href="http://www.library.cmu.edu/">Carnegie Mellon University</a><br /><br /></li><li>
+<a href="http://www.columbia.edu/cu/libraries/digital/">Columbia University</a><br /><br /></li><li>
+<a href="http://campusgw.library.cornell.edu/">Cornell University</a><br /><br /></li><li>
+<a href="http://www.clir.org/">Council on Libraries and Information Resources</a><br /><br /></li><li>
+<a href="http://www.dartmouth.edu/libcomp/">Dartmouth College</a><br /><br /></li><li>
+<a href="http://www.emory.edu/LIBRARIES/">Emory University</a><br /><br /></li><li>
+<a href="http://hul.harvard.edu/ldi/">Harvard University </a><br /><br /></li><li>
+<a href="http://www.dlib.indiana.edu/">Indiana University</a><br /><br /></li><li>
+<a href="http://webapps.jhu.edu/jhuniverse/libraries/">Johns Hopkins University</a><br /><br /></li><li>
+<a href="http://memory.loc.gov/ammem/dli2/html/lcndlp.html">Library of Congress</a><br /><br /></li><li>
+<a href="http://libraries.mit.edu/">Massachusetts Institute of Technology</a><br /><br /></li><li>
+<a href="http://www.archives.gov/index.html">National Archives and Records Administration </a><br /><br /></li><li>
+<a href="http://digital.nypl.org/">New York Public Library </a><br /><br /></li><li>
+<a href="http://www.nyu.edu/library/">New York University </a><br /><br /></li><li>
+<a href="http://www.lib.ncsu.edu/">North Carolina State University </a><br /><br /></li><li>
+<a href="http://www.psu.edu/ur/libraries.html">Pennsylvania State University </a><br /><br /></li><li>
+<a href="http://artsdata.princeton.edu/">Princeton University </a><br /><br /></li><li>
+
+<a href="http://www.rice.edu/fondren/">Rice University </a><br /><br /></li><li>
+
+<a href="http://www-sul.stanford.edu/">Stanford University </a><br /><br /></li><li>
+<a href="http://sunsite.berkeley.edu/">University of California, Berkeley</a><br /><br /></li><li>
+<a href="http://www.lib.uchicago.edu/e/index.html">University of Chicago </a><br /><br /></li><li>
+<a href="http://gateway.library.uiuc.edu/index.html">University of Illinois at Urbana-Champaign </a><br /><br /></li><li>
+<a href="http://www.lib.umich.edu/lit/">University of Michigan </a><br /><br /></li><li>
+<a href="http://www.lib.umn.edu/">University of Minnesota </a><br /><br /></li><li>
+<a href="http://www.library.upenn.edu/">University of Pennsylvania </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Southern California </a><br /><br /></li><li>
+<a href="http://www.usc.edu/academics/libraries_computing/libraries/">University of Tennessee </a><br /><br /></li><li>
+<a href="http://www.lib.utexas.edu/">University of Texas at Austin </a><br /><br /></li><li>
+<a href="http://www.lib.virginia.edu/">University of Virginia </a><br /><br /></li><li>
+<a href="http://www.lib.washington.edu/">University of Washington</a>
+<br /><br /></li><li>
+<a href="http://www.library.yale.edu/">Yale University </a></li>
+</ol>
+</td>
+        </tr>
+        <tr> 
+          <td align="left" valign="top"><img src="../../images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+
+        <tr> 
+        <td align="left" valign="top"> <p class="level2nav">DLF ALLIES</p>
+<ol class="newsbold">
+
+<li><a href="http://www.oclc.org/home/">Online Computer Library Center </a>
+<br /><br /></li>
+<li><a href="http://www.rlg.org/toc.html">Research Libraries Group </a>
+<br /><br /></li>
+<li><a href="http://www.cni.org">Coalition for Networked Information </a>
+<br /><br /></li>
+<li><a href="http://lib-www.lanl.gov/">Los Alamos National Laboratory Research Library </a></li>
+</ol>
+        </td>
+        </tr>
+
+      <tr> 
+          <td align="left" valign="top"><img src="images/horizline.gif" alt="&quot;&quot;" width="156" height="16" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF Director</a> 
+your comments or suggestions. </p></td>
+        </tr>
+      </table></td>
+    <td width="584" height="634" colspan="9" valign="top">
+
+<!-- Begin text here -->
+ <table width="100%" border="0" cellpadding="0" cellspacing="26">
+        <tr> 
+          <td align="left" valign="top"> 
+<div class="Section1">
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style=
+'font-size:14.0pt;font-family:"Times New Roman";letter-spacing:1.0pt'>
+Distributed Open Digital Library (DODL)
+<br />
+Realizing the Promise of Digital Libraries</span></b></p>
+</div>
+<br />
+
+<p class="MsoBodyText">DLF proposes to move digital library
+development to a new phase, a phase characterized by increasing
+contributions of content, a deeper context for sharing that
+content and a more robust architecture for supporting digital
+services through the creation of a Distributed Open Digital
+Library (DODL).</p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The Digital
+Library Federation has a strategic mission to foster and leverage
+digital library activity among its members and in consort with
+other allied organizations. Since its inception, it has provided
+leadership for digital library development, served as a catalyst
+in the creation of innovative information services and
+organizations, and provided a venue and context for learning
+within the profession. The time has come for DLF to extend its
+leadership by launching an ambitious effort to aggregate and
+develop a substantial corpus of research collections in the
+humanities and related disciplines, a corpus that will make
+certain kinds of research easier and richer, and will actually
+encourage new kinds of research and pedagogy. This initiative
+will result in a larger body of content of significance to
+humanities scholars, provided in a digital service environment
+that deploys innovative tools to share content and ultimately
+enable researchers, students, and the larger public to interact
+more deeply with digital content.</span></p>
+<br />
+
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>GOALS</span></b></p>
+<br />
+
+<p class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>As stated by the
+DODL Initiative Committee in their May 2003 document,
+&ldquo;Framework for a Distributed Open Digital Library,&rdquo;
+the goals of the Distributed Open Digital Library (DODL)
+include:</span></p>
+<br />
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>To create a
+framework for shared digital library content, tools, and services
+among the DLF membership and broader community</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>To catalyze
+collaboration among digital library stakeholders in the
+development of rich content and innovative services</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>To develop an
+extensible architecture to leverage existing digital library
+assets, enable the development of layered services, and explore
+models for managing digital content rights in a collaborative
+environment</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>To generate,
+facilitate and evaluate use of digital library content and
+services among our users</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>To engage
+potential funding agencies in this effort</span></li>
+</ul>
+<br />
+<p class="MsoFooter">In short, DODL is intended to enable better,
+as well as broader, use of digital assets.</p>
+
+<p class="MsoNormal" align="center" style='text-align:center'>
+<b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>STRATEGY</span></b></p>
+<br />
+<p class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>In developing a
+federated online library, DLF seeks to leverage the considerable
+investments made by its members in building a digital library
+infrastructure.  DODL will enlist the staff expertise, technical
+standards, user communities, and above all the rich digital
+collections that DLF members have developed locally over the
+course of the past decade and more. Capitalizing on these core
+assets, DODL will develop components that, with minimal or no
+changes to local practices, will enable libraries with
+digitization plans to build them in collaboration with member
+libraries, and to benefit in turn from the shared collections
+that members contribute. DODL will simultaneously continue and
+enhance members&rsquo; work on tools and services to deliver,
+use, and repurpose digital content.</span></p>
+<br />
+<p class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>DODL will move
+forward on two fronts: <i>collection development</i>; and the
+<i>enabling technology</i> to support the services and tools that
+enhance research and learning. DODL will be built in phases that
+target near-, mid-, and long-term goals and are designed to build
+on rather than change existing practices.</span></p>
+<br />
+<p class="MsoNormal" align="center" style=
+'text-align:center;text-autospace:none'><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>COMPONENTS OF
+THE DODL INITIATIVE</span></b></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>DODL comprises
+three components:</span></p>
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>building new
+digital collections</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>easing the
+search, discovery, and use of shared collections</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>specifying the
+elements of a digital library infrastructure that will enable
+deeper sharing of resources among and between members</span></li>
+</ul>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Building
+Collections</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Initially, DODL
+will give priority to the pooling of existing content in DLF
+libraries. This is in most cases humanities and related content,
+collections that DLF members have already converted and created
+for use locally and often made freely accessible beyond their
+domain. The pooling of existing content will enable libraries and
+their users to develop new, coherent bodies of content around
+which communities of users can work, create and test tools, and
+deploy them in research and teaching. The pooling of content will
+also allow for the identification of areas of systematic growth
+for future collections in subsequent phases of DODL development.
+DLF will engage both communities of users on campuses and
+relevant stakeholder groups, such as the American Council of
+Learned Societies and their constituent societies. Similar to the
+National Science Foundation&rsquo;s National Science Digital
+Library, there will also be effort to identify and include
+non-DLF created content when appropriate.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Building a
+Finding System</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>In the first
+phase of DODL implementation, member libraries will develop a
+finding system to enable end-users to search distributed library
+content and records. This initial finding system will build on
+the meaningful investments made by DLF members in the creation of
+OAI records and harvesting activities. While a recent survey
+commissioned by DLF points out the fairly generic nature of OAI
+services to date, there is clearly an opportunity to build on
+these services to enhance access to DODL content for targeted
+communities of users. Over time, this finding system will be
+developed and enhanced to ensure easy search and retrieval of
+increasingly complex digital objects.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Building Deeper
+Sharing of Content</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The ultimate
+goal of sharing content is to enable DLF libraries to present
+shared content seamlessly incorporated into local digital service
+environments. For certain digital collections, such as text and
+simple images, this may be relatively straightforward. For more
+complex digital objects, the processes for deep sharing demand
+more investigation before scalable, production-level methods can
+make them readily accessible for DODL. In the end, deep sharing
+will mean that the full range of DLF-created
+content&mdash;encoded texts (e.g. from the text centers at
+Virginia, Michigan, Stanford), to digital images (e.g. at
+Cornell, Yale, Minnesota, New York Public Library), research
+publications (e.g. in pre-print servers or institutional
+repositories at Cornell and MIT, respectively), sound recordings
+(Indiana), archival finding aids (Chicago), maps (Texas), and
+data collections (e.g. at Emory)&mdash;can be shared among
+libraries and used to create wholly new collections, uses, and
+potentially new research methodologies and pedagogical
+opportunities.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>This is an area
+where interested DLF member libraries will collaborate to develop
+and test advanced applications to specify shareable content.
+Similarly, interested members will focus attention on the
+creation and testing of new types of user services. Those
+services might range from a subject portal to an archival portal,
+an alerting service to print-on-demand.</span></p>
+<br />
+<p class="MsoNormal" align="center" style=
+'text-align:center;text-autospace:none'><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>PLAN TO BUILD
+THE COMPONENTS</span></b></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The DODL
+Initiative requires these key elements to succeed: </span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Leadership</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The development
+and implementation of DODL over time demands strong leadership
+from DLF to coordinate and integrate the many components of and
+contributors to the library as it grows towards its potential to
+advance scholarship and learning.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>One of the
+first actions towards DODL, then, is the clear designation of
+leadership, someone dedicated to building partnerships, nurturing
+relationships with stakeholder communities, and furthering the
+compelling and visible case for funding. This leader will
+facilitate key working groups to ensure coherence in
+planning.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Two crucial
+working groups, drawn from the deep staff expertise found among
+DLF libraries and beyond, will address content development and
+the enabling technology architecture.</span></p>
+<br />
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The first
+working group is charged with strategic planning for <i>content
+development</i> (component 1), both the pooling of existing
+content, and the development of systemic collection
+development.</span></li>
+</ul>
+<br />
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The second
+working group will focus on the <i>technology and enabling
+infrastructure</i> that will support DODL and plan for its
+extension and deepening of sharing (components 2 and
+3).</span></li>
+</ul>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>These two
+working groups will guide the development of technical
+specifications and the solicitation for participation.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Technical
+Specifications</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Technical
+specification work will begin by defining the range of content
+that can form the seed of systematic collection development
+efforts. Further work will define the precise range of
+predictable content to go in a DLF-friendly OAI record for the
+finding system. Simultaneously, work will commence in defining
+minimum standards for sharable content, as well as the transport
+mechanisms that move such things as master files from an
+originating organization to the library or individual who needs
+them for a service or a project, work that will involve some
+research and testing. The work of specification will be guided by
+the two working groups and continue through all phases of DODL
+development.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Solicitation</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>The third
+element of the strategy to build DODL is the solicitation of
+participation from the member libraries. DODL will be as strong
+and deep as the pooled expertise, collections, and users of its
+contributing libraries. Each library will be able to identify a
+contribution to DODL over the span of its development and
+deployment, from those who are ready now to contribute content or
+OAI services, to those that have long-range collection
+development plans that will add significant new dimensions to the
+shared resources of DODL.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Funding</span></i></b></p>
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Finally, the
+ambitious efforts of DLF to move digital library development into
+a critical new stage of content creation and service delivery
+provides an outstanding opportunity to seek significant outside
+funding. The Executive Committee, Initiative Committee, and DODL
+leadership will begin immediately to forge a coherent fundraising
+strategy that will target both collection development and
+technology plans for major funding.</span></p>
+<br />
+<p class="MsoNormal" align="center" style=
+'text-align:center;text-autospace:none'><b><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>NEXT
+STEPS</span></b></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>With a
+strategic plan for DODL in place and an initial group of member
+libraries prepared to begin work, implementation will begin
+immediately.</span></p>
+<br />
+<p class="MsoNormal" style='text-autospace:none'>
+<b><i><span style=
+'font-size: 12.0pt;font-family:"Times New Roman"'>Phase
+I</span></i></b></p>
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Designation of
+leadership, working with the DODL Initiative Committee, to
+develop principles for coordination and management of
+DODL</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Appointment of
+content development and technology working groups, each to begin
+work on stipulating specifications for the
+solicitation</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Solicitation of
+participation from members for digital content and
+services</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Fundraising</span></li>
+<li class="MsoNormal" style='text-autospace:none'><span style=
+'font-size:12.0pt; font-family:"Times New Roman"'>Outreach to
+stakeholder communities</span></li>
+</ul>
+<br />
+<p class="MsoNormal"><b><i><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>Phase
+II</span></i></b></p>
+<ul style='margin-top:0mm' type="disc">
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>Working in small
+groups of collaborating libraries, collection development
+begins</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>Developing and
+testing specification for shareable content</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>Continue
+fundraising</span></li>
+<li class="MsoNormal"><span style=
+'font-size:12.0pt;font-family:"Times New Roman"'>Continued
+outreach to stakeholders</span></li>
+</ul>
+<br />
+
+<!-- End text -->
+
+<script type="text/javascript" language="javascript">
+postamble();
+</script>
+
+            <p><a href="#top" class="link">return to top &gt;&gt;</a></p></td>
+
+</tr></table>
+
+<hr width="75%" />
+<p align="center" style='text-align:center'><i><span style=
+'font-size:10.0pt'>Copyright &copy; 2004 by the Digital Library
+Federation</span></i></p>
+
+<p align="center" class="copyright"> Last updated: 
+<script language="JavaScript" type="text/javascript">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+</script>
+
+
+
+</p>
+
+      </td>
+  </tr>
+  <tr>
+    <td width="192" height="1" valign="top"><img src="transparent.gif" alt="" width="192" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="117" height="1" valign="top"><img src="transparent.gif" alt="" width="117" height="1" /></td>
+    <td width="99" height="1" valign="top"><img src="transparent.gif" alt="" width="99" height="1" /></td>
+    <td width="18" height="1" valign="top"><img src="transparent.gif" alt="" width="18" height="1" /></td>
+    <td width="59" height="1" valign="top"><img src="transparent.gif" alt="" width="59" height="1" /></td>
+    <td width="50" height="1" valign="top"><img src="transparent.gif" alt="" width="50" height="1" /></td>
+    <td width="8" height="1" valign="top"><img src="transparent.gif" alt="" width="8" height="1" /></td>
+    <td width="63" height="1" valign="top"><img src="transparent.gif" alt="" width="63" height="1" /></td>
+    <td width="53" height="1" valign="top"><img src="transparent.gif" alt="" width="53" height="1" /></td>
+  </tr>
+</table>
+<script language="JavaScript" type="text/JavaScript"><!--
+	quoteRotate();
+//--></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

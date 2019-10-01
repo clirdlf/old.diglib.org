@@ -1,0 +1,618 @@
+<!DOCTYPE html SYSTEM "xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1" />
+<title>DLF. Architectures. Evaluation of open source software for
+libraries.</title>
+</head>
+<body background="http://www.diglib.org/img/DLFsidebar.gif"
+bgcolor="#FFFFFF" link="#006600" alink="#660000" vlink="#CC6600"
+text="#000000">
+<!-- Begin Table -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<!-- DLF Graphic -->
+<tr>
+<td valign="bottom" align="left" colspan="3">
+<img
+src="http://www.diglib.org/img/spacer.gif" width="12" height="1"
+border="0" align="bottom" alt="" /> 
+<img
+src="http://www.diglib.org/img/dlflogosquare.gif" alt="DLF logo"
+align="bottom" width="56" height="50" hspace="0" vspace="15" />
+
+<img src="http://www.diglib.org/img/spacer.gif" width="20" height="1" border="0" align="bottom" alt="" /> 
+<img
+src="http://www.diglib.org/img/dlflogotext.gif" alt="DLF logo"
+align="bottom" width="282" height="41" hspace="1" vspace="15" />
+</td>
+</tr>
+
+<tr>
+<td valign="top" align="left" colspan="3">
+<img
+src="http://www.diglib.org/img/spacer.gif" width="100" height="1"
+border="0" align="bottom" alt="" /> <a
+href="ossreppv.htm">Printer-Friendly Page</a> </td>
+</tr>
+
+<!-- Navigation column -->
+<tr>
+<td valign="top" align="left" width="180">
+<img
+src="http://www.diglib.org/img/spacer.gif" width="180" height="1"
+border="0" align="left" alt="" /> <br clear="all" />
+ <a href="/dlfhomepage.htm">
+<img
+src="http://www.diglib.org/img/rdlfhome.gif" width="155" height="16" alt="DLF Home" border="0" /></a> 
+
+<p><a href="/about.htm">
+<img
+src="http://www.diglib.org/img/rabout.gif" width="155" height="16" alt="About" border="0" /></a></p>
+
+<p><a href="/architectures.htm">
+<img
+src="http://www.diglib.org/img/rarch.gif" width="155" height="16"
+alt="Architectures, systems and tools" border="0" /></a></p>
+
+<p><a href="/preserve.htm">
+<img
+src="http://www.diglib.org/img/rpresv.gif" width="155" height="16" alt="Digital preservation" border="0" /></a></p>
+
+<p><a href="/collections.htm">
+<img
+src="http://www.diglib.org/img/rcoll.gif" width="155" height="16"
+alt="Digital collections" border="0" /></a></p>
+
+<p><a href="/standards.htm">
+<img
+src="http://www.diglib.org/img/rsandp.gif" width="155" height="16" alt="Standards and practices" border="0" /></a></p>
+
+<p><a href="/use.htm">
+<img
+src="http://www.diglib.org/img/ruandu.gif" width="155" height="16" alt="Use and users" border="0" /></a></p>
+
+<p><a href="/roles.htm">
+<img
+src="http://www.diglib.org/img/rrandr.gif" width="155" height="16" alt="Roles and responsibilities" border="0" />
+</a></p>
+
+<p><a href="/forums.htm">
+<img
+src="http://www.diglib.org/img/rforum.gif" width="155" height="16" alt="DLF Forum" border="0" /></a></p>
+
+<p><a href="/publications.htm">
+<img
+src="http://www.diglib.org/img/rpandr.gif" width="155" height="16" alt="Publications and resources" border="0" />
+</a></p>
+</td>
+<!-- Gutter column -->
+<td valign="top">
+<img src="http://www.diglib.org/img/spacer.gif"
+alt="" align="top" width="25" height="1" /> </td>
+<!-- Text column -->
+<td valign="top" width="75%"><!-- Begin text here -->
+<h2>Draft report of a meeting convened by the Digital Library
+Federation on October 5-6, 2001 in Washington DC to consider Open
+Source Software for Libraries</h2>
+
+<p><b>Notes by D Greenstein</b><br />
+October 22, 2001</p>
+
+<p><b>Present</b>: Dave Bretthauer (University of Connecticut),
+Rachel Cheng (Wesleyan University), Daniel Chudnov (MIT), David
+Dorman (Lincoln Trail Libraries System), Jeremy Frumkin
+(University of Arizona), Daniel Greenstein (DLF), Marilu Goodyear
+(University of Kansas), Martin Halbert (Emory University), Thom
+Hickey (OCLC), Eric Lease Morgan (University of Notre Dame), John
+Ockerbloom (University of Pennsylvania), Victoria Reich (Stanford
+University), Art Rhyno (University of Windsor), Kyle Fenton
+(Emory University), Aaron Trehub (University of Illinois at
+Urbana-Champaign), Beth Warner (University of Kansas), Joan Frye
+Williams</p>
+
+<h3>I. Executive summary</h3>
+
+<p>The meeting was convened to consider how to assess various
+claims made for open-source software and, if appropriate, to
+identify steps to move OSS activity into the mainstream of
+digital library development in a manner that might appeal to all
+sectors of the library community.</p>
+
+<p>The meeting focused almost exclusively on the assessment
+agenda and accomplished the following:</p>
+
+<ol>
+<li>Seven testable hypotheses about open source software and its
+impact on libraries that might focus some review and
+assessment</li>
+
+<li>Development of a review, assessment, and publication agenda
+designed to test those hypotheses and to inform decisions about
+open source that need to be taken by a range of key stakeholders
+in the library and related communities</li>
+
+<li>Specification of a functional requirement for a "library of
+open source software"</li>
+
+<li>Initial contemplation of a development agenda for those
+interested in open source software for libraries</li>
+
+<li>Identification of immediate next steps to accomplish these
+aims</li>
+</ol>
+
+<p>The report on the meeting is set out under these five
+heads.</p>
+
+<h3>II. Hypotheses</h3>
+
+<p>The meeting identified seven testable hypotheses about Open
+Source Software (hereafter OSS). The first three of these
+hypotheses (1-3 below) reflect claims made for the economical and
+functional importance of OSS for libraries and stem directly from
+the values that OSS developers bring to their work. A further
+four hypotheses (4-7 below) attempt to explain why OSS
+development remains in the hands of a few activist developers and
+is not more a part of the library's mainstream.</p>
+
+<ol>
+<li>OSS is an economical alternative to libraries' reliance upon
+commercially supplied software. That is, despite the real costs
+involved in the development, maintenance, and use of OSS software
+but these are lower than those associated with library reliance
+upon commercial software. Accordingly, OSS economical is not free
+opens an economical alternative to reliance upon commercial
+software</li>
+
+<li>OSS is essential if libraries are to develop software and
+systems that meet their patrons' needs. With OSS the IT
+infrastructure that is essential to library operations and
+services can be: 
+
+<ul>
+<li>open (that is, built according to open standards and as such
+potentially inter operable with other essential software and
+systems);</li>
+
+<li>ubiquitously available to libraries;</li>
+
+<li>capable of being tailored to suit the needs and circumstances
+of individual libraries</li>
+
+<li>documented (and documentation must be available); and</li>
+
+<li>errors can more effectively be identified and corrected
+("many eyeballs make bugs shallow")</li>
+</ul>
+</li>
+
+<li>OSS ensures that library systems and online services will be
+more functional for libraries and their patrons and as such be
+good for library patrons. This hypothesis is posited because,
+through OSS developments, libraries: 
+
+<ul>
+<li>are reinserted into the research and development process that
+results in systems and software;</li>
+
+<li>share a stake in software development and as such have
+greater influence over (and as a result take a greater interest
+in specification of) the functional and performance requirements
+associated with particular software tools and systems</li>
+
+<li>motivate and empower systems librarians and related technical
+staff by encouraging creativity and positioning them to make a
+difference; and</li>
+
+<li>are able more easily to collaborate with other information
+science communities involved in common research and development
+area</li>
+</ul>
+</li>
+
+<li>OSS can lack formal support making it difficult for libraries
+without significant capacity in their systems department to
+participate in OSS development or to use OSS.</li>
+
+<li>OSS needs to develop a participatory organizational model
+that allows many to contribute perhaps in different ways to OSS
+development.</li>
+
+<li>OSS is not always easy to use. It is therefore largely
+inaccessible to the many libraries and library system departments
+that require plug-and-play software that is well documented and
+supported and can be easily installed (and uninstalled).</li>
+
+<li>OSS initiatives do not always do enough to get non-systems
+librarians and library patrons involved in design and testing of
+OSS. As such, they are seen as being something that exclusively
+offers benefits to and holds interest for library systems staff
+and not for the wider library community.</li>
+</ol>
+
+<h3>III. Research and publication agenda</h3>
+
+<p>The group recommended the development of two publications that
+would test hypotheses developed above and inform decisions about
+OSS as need to be taken by members of key communities. The aims,
+objectives, contents, and target audiences of these publications
+are set out below.</p>
+
+<h4>Publication 1. OSS. A critical review and assessment</h4>
+
+<p><i>Aim</i>: To raise awareness about the potential value of
+OSS and to encourage informed decision making about potential
+investments in its development and use.</p>
+
+<p><i>Contents of publication</i>: This publication would</p>
+
+<ul>
+<li>introduce and define OSS;</li>
+
+<li>provide a synoptic and annotated inventory (illustrative,
+perhaps, more than comprehensive) of OSS activity for libraries
+in the US and abroad, assessing the extent and nature of tat
+activity;</li>
+
+<li>include case studies of OSS initiatives (involving different
+kinds of software and different kinds of libraries) written
+wherever possible to a common outline that ensures the studies'
+comparability and their use in assessing costs, benefits,
+functionality, sustainability, viability of OSS;</li>
+
+<li>include a critical assessment (based on the inventory, the
+case studies, and on additional research) of some of the
+hypotheses stated above about the economic viability and
+functionality of OSS as an alternative to commercially produced
+software;</li>
+
+<li>offer some of the cost-benefit considerations that libraries
+need to consider when thinking about investing in OSS
+development/use.</li>
+</ul>
+
+<p>Where appropriate, the study might also review some of the
+barriers to library's more effective exploitation of OSS and how
+those barriers might be reduced.</p>
+
+<p><i>Target audience</i>: The report should be written
+principally for the following audiences giving preference to
+library directors and to decision makers and program officers at
+both federal and philanthropic agencies that invest in libraries,
+digital libraries, and mechanisms that support scholarly
+communications</p>
+
+<ul>
+<li>library directors (including directors from libraries with
+both large and highly constrained IT budgets),</li>
+
+<li>decision makers and program officers at both federal and
+philanthropic agencies that invest in libraries, digital library,
+mechanisms that support scholarly communications, etc</li>
+
+<li>CIOs (e.g. in large public libraries, but also in
+institutions such as universities which host libraries and where
+CIOs may manage appropriate R&amp;D budgets and staff)</li>
+
+<li>officers and lead participants in library consortia
+(particularly where those consortia are responsible for
+operational systems)</li>
+
+<li>reference and other librarians who are affected by but not
+party too the strategic, tactical, and operational decisions made
+in library systems departments</li>
+
+<li>library system vendors</li>
+
+<li>a general professional audience and readership such as that
+targeted by library professional associations</li>
+</ul>
+
+<p><i>Possible development process</i>: The background,
+inventory, and assessment could be commissioned from a single
+author, while case studies could be commissioned from a variety
+of authors as appropriate. In order to ensure the study was
+written for and responsive to the interests and needs of its
+target audience, it might be developed in consultation with an
+advisory or editorial board.</p>
+
+<p>Publication venue: The study should be published by a
+creditable journal or organization such as Library Trends,
+CLIR/DLF, etc.</p>
+
+<h4>Publication 2. OSS. An introduction for systems
+librarians</h4>
+
+<p><i>Aim</i>: To support informed decision making about OSS by
+library systems and other technical staff who are involved in the
+day-to-day development or management of operational IT services
+in or for libraries.</p>
+
+<p><i>Content of publication</i>: The report should:</p>
+
+<ul>
+<li>Include an introduction defining open source, offering a
+synoptic assessment of OSS activity to date for libraries in the
+US a and indicating why systems librarians should take an
+interest in OSS developments</li>
+
+<li>Review the issues that need to be considered within a library
+systems department that is thinking about implementing OSS tools
+or getting involved in OSS development (including technical,
+funding, human resource, managerial issues)</li>
+
+<li>Review of good practice in development, documentation, and
+licensing OSS and with regard to participation in OSS development
+processes</li>
+
+<li>Review of next steps for departments wishing to get more
+involved with OSS</li>
+</ul>
+
+<p><i>Target audience</i>: The report should be written
+principally for:</p>
+
+<ul>
+<li>programmers/developers, other information scientists and
+software and system developers</li>
+
+<li>library system vendors</li>
+
+<li>professional schools and other agencies from which systems
+librarians are recruited</li>
+</ul>
+
+<p><i>Production process</i>: to be resolved</p>
+
+<p><i>Publication venue</i>: a creditable publisher of similar
+texts</p>
+
+<h3>IV. An OSS Library or Portal</h3>
+
+<p>The group identified the potential value of an OSS library or
+portal service</p>
+
+<ul>
+<li>to assist in the identification and review of OSS for
+libraries and support in informed decision-making as pertaining
+to its application and use and</li>
+
+<li>to lower some of the barriers that currently impede the more
+effective development and exploitation of OSS for libraries.</li>
+</ul>
+
+<p>As a library, the service might maintain an organized catalog
+of selected and consistently documented persistent and accessible
+OSS for libraries. In addition, it could:</p>
+
+<ul>
+<li>maintain a list (formally or otherwise) of OSS for library
+development projects. In this respect it would be a repository of
+projects as well as of products;</li>
+
+<li>support an open review and feedback mechanism whereby library
+users could review, provide feedback about, develop case studies
+arising from their use of catalogued OSS;</li>
+
+<li>provide a mapping between software systems and tools
+including in that mapping both open source and commercial systems
+and tools. With such a mapping, a user would be able to identify
+and then assess the various tools capable to supplying a
+particular function or functions;</li>
+
+<li>act as a broker able to match institution's specific human
+resource needs (e.g. for people able to supply or install
+particular tools) with the qualified people able to meet them and
+to marry programmers to development projects;</li>
+
+<li>provide access to general information (e.g. about the costs
+and benefits involved in using OSS, about criteria that may be
+used to assess OSS) and pointers to related information
+resources; and</li>
+
+<li>encourage good practice, e.g. with respect to licensing
+arrangements, documentation, etc).</li>
+</ul>
+
+<p>In these several capacities the OSS library or portal
+could:</p>
+
+<ul>
+<li>provide an inventory of OSS;</li>
+
+<li>act as a clearinghouse for information about OSS that may
+assist in its identification, location, assessment, access;
+and</li>
+
+<li>lower the barriers for libraries in identifying, assessing
+and possible using/developing OSS</li>
+</ul>
+
+<p>In addition, the library or portal's very existence could
+supply a number of vital functions almost as byproducts. Use of
+the library or portal would:</p>
+
+<ul>
+<li>help to document trends in library software development,
+notably in the kinds of software tools and systems
+libraries;</li>
+
+<li>incubate and facilitate the development of selected OSS
+projects;</li>
+
+<li>encourage informed decision-making about OSS licensing;</li>
+
+<li>inform (identify need for further) OSS development work;</li>
+
+<li>support attempts to articulate system and service functions
+required by libraries;</li>
+
+<li>support standards development work as appropriate to
+integration of library software and systems (whether of OSS or
+commercial origins)</li>
+</ul>
+
+<p>Remaining questions as yet to be resolved</p>
+
+<ul>
+<li>What selection criteria should be employed by such a library
+or portal (software would have to be accessible, persistent,
+applicable to use in libraries, etc)?</li>
+
+<li>What level of support would a portal supply to whom and for
+what software tools?</li>
+
+<li>What documentation should be associated with catalogued OSS -
+what subset of documentation (if any) should be required; what
+should remain optional. Here, it was noted that the exemplar of a
+good free software listing site (one that could be used by those
+interested in OSS for libraries). The freshmeat model basically
+supplies project name, project description, version history
+(announcement text, dates), names of one or two authors, link to
+project page, link to download page, link to change-log, link to
+binary/source download, link to alternate/mirror page,
+descriptive categorization, screenshot. In a follow-up
+communication, a participant noted the importance to OSS
+assessment of consistent documentation, suggesting that
+consistent documentation may preferably fit within a known
+documentation format and may include 
+
+<ul>
+<li>problem statement</li>
+
+<li>project background 
+
+<ul>
+<li>narrative history</li>
+
+<li>changelog</li>
+
+<li>license</li>
+
+<li>credits</li>
+</ul>
+</li>
+
+<li>protocol/spec/standard references</li>
+
+<li>install how-to 
+
+<ul>
+<li>requirements/dependencies</li>
+
+<li>platform variations</li>
+</ul>
+</li>
+
+<li>administration guide</li>
+
+<li>operating tasks</li>
+
+<li>user guide or help subsystem</li>
+
+<li>subsystem documentation (e.g. data model/dictionary,
+scripting guide)</li>
+
+<li>to-do list (unfinished tasks)</li>
+
+<li>how to help list (we need help doing X, Y, Z)</li>
+
+<li>wishlist (blue-sky would be nice if la dee da...)</li>
+
+<li>mailing list archives</li>
+</ul>
+</li>
+
+<li>What template, if any, should be recommended for reviews and
+feedback in order, for example, to encourage comparability</li>
+</ul>
+
+<h3>V. OSS research and development agenda</h3>
+
+<p>Recognizing the likelihood that much OSS would support
+specific library functions, the group focused on the requirements
+for integrating these tools in any library environment. Although
+no concrete research agenda emerged, emphasis was given to the
+following:</p>
+
+<ul>
+<li>standards required to integrate software tools in a library
+systems environment with particular focus on APIs</li>
+
+<li>common understanding of digital library systems architecture
+and the formal systems relationship between component modules of
+that architecture</li>
+
+<li>identification of and possible concentration on the system
+functions and tools that libraries require but that are least
+likely to be supplied (or supplied well or effectively)
+commercially</li>
+
+<li>conduct a piece of survey research into licensing terms used
+with OSS with a view to developing a model license agreement (the
+work of Liblicense might be used as a model)</li>
+</ul>
+
+<h3>VI. Next steps</h3>
+
+<ol>
+<li>Discuss the meeting and its outcomes with stakeholders who
+may have an interest in and might wish to participate in some way
+in the review, assessment, and publications, activities
+contemplated above in section 2. Candidates for consultation
+include representatives from Educause, CNI, ARL, NLM, IMLS, NSF,
+Mellon, the Urban Library Council, the Oberlin Group, ICOLC.</li>
+
+<li>Identify, in part through that discussion, support for and
+authors of relevant component parts of those activities</li>
+
+<li>Work on the repository might be conducted along a parallel
+track. Alternatively, it might be formed by the review,
+assessment, and publications effort that could in effect act to
+develop a feasibility study for such a repository</li>
+
+<li>Participants also agreed to undertake specific actions, for
+example to initiate development of a prototype portal, develop
+content appropriate to the research and publication agenda,
+explore outreach and awareness-raising opportunities e.g. at the
+ALA conference in summer 2002</li>
+</ol>
+
+<!-- End text -->
+<!-- Comments and credits -->
+<p>
+<img src="http://www.diglib.org/img/spacer.gif" alt="" align="top" width="400" height="10" /><br />
+ <font size="1"><a href="mailto:dlf@clir.org">Please send
+comments or suggestions</a>.<br />
+ Last updated: <!--#echo var="LAST_MODIFIED" --><br />
+ &copy; 2000 Council on Library and Information
+Resources</font></p>
+
+<!-- Link to CLIR pages -->
+<table border="0" cellpadding="0" cellspacing="0" width="140">
+<tr>
+<td>
+<img src="http://www.diglib.org/img/clirlogo.gif" alt="CLIR"
+width="40" height="40" /></td>
+<td><a href="http://www.clir.org"><font size="2">CLIR Home
+Page</font><br />
+</a> </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._setDomainName('.diglib.org');
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+

@@ -1,0 +1,155 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf100
+{\fonttbl\f0\fmodern\fcharset77 Courier-Bold;\f1\fmodern\fcharset77 Courier;\f2\fswiss\fcharset77 ArialMS;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww22100\viewh16020\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b\fs26\fsmilli13333 \cf0 Date:
+\f1\b0          Fri, 12 Aug 2005 19:52:47 -0400\
+
+\f0\b Reply-To:
+\f1\b0      Cory Snavely <csnavely@umich.edu>\
+
+\f0\b Sender:
+\f1\b0        DLF-Aquifer-Technology <DLF-AQUIFER-TECH@WWW.DIGLIB.ORG>\
+
+\f0\b From:
+\f1\b0          Cory Snavely <csnavely@umich.edu>\
+
+\f0\b Organization:
+\f1\b0  UM Library IT Core Services\
+
+\f0\b Subject:
+\f1\b0       thinking re: policies/principles\
+
+\f0\b Content-Type:
+\f1\b0  text/plain; charset=us-ascii; format=flowed\
+\
+I'm taking a last-minute stab at a wireframe for some technical policies \
+and principles for our group, as promised. Thorny, you might try to \
+flesh things out a little, or the group might just want to talk about \
+how these might be articulated, the extent to which they touch on other \
+groups, or whether they could be just refactored into a list of \
+assumptions we'll develop during our upcoming meeting. (I'll be away for \
+the next call.)\
+\
+The original activities draft Jon wrote had some good questions that \
+identify areas for policies/principles. Here's an extraction of those, \
+with some proposed positions drawn from our conversations a little, with \
+some personal bias to get the discussion going. :)\
+\
+* Platform requirements\
+\
+Because participation is to a large extent voluntary, the technical \
+architecture should place as few restrictions on implementors as \
+possible, but needs to state a strong preference for at least the \
+following criteria of standardization:\
+   - adherence to relevant standards, i.e., *proper* and *valid*\
+     although not necessarily *fully complete* implementations are\
+     highly preferred, especially where interoperability is concerned\
+   - where code may be shared to other institutions, reasonable\
+     consideration given to abstraction at appropriate levels; for\
+     example, modularized database APIs to allow for portability,\
+     avoidance of OS-specific technologies\
+   - attention to scalability, i.e. proof-of-concept models should not\
+     be supplied as surrogates for reliable production systems\
+\
+* Open source versus commercial tools\
+\
+The nature of our project (emerging standards) and the nature of our \
+institutions (not-for-profit) lead us to prefer the track record of open \
+source software, which have provided excellent reference implementations \
+of developing technologies, a minimal threat of proprietary influence, \
+data migration problems, etc. However, in the interest of encouraging \
+participation and achieving interoperability, we place adherence to \
+standards at a higher priority.\
+\
+Replication/redundancy/scalability/performance\
+\
+For initial work, the focus should be on functionality and not \
+performance. However, all work should be done with an eye toward \
+scalability. In particular:\
+- OAI-based work in the first two phases should focus on standardization \
+and common practices, so that replication will be easy to achieve, and \
+will produce consistent results for users. This will enable multiple \
+sites to be put on line that harvest the same material and provide \
+roughly the same search experience.\
+- Work in future stages that may involve distributed technology should \
+focus on evolving standards for those technologies, as well as \
+methodologies for increasing capacity to prevent performance problems as \
+usage grows.\
+- In general, as architectures introduce interdependencies, the standard \
+principles of avoiding single points of failure should be followed.\
+\
+Forward flexibility\
+\
+(I'll punt on this one for now.)\
+\
+I hope this provides some framework for principles as they develop.\
+\
+Cory\
+\
+=====================================================================\
+
+\f0\b Date:
+\f1\b0          Thu, 18 Aug 2005 07:54:52 -0400\
+
+\f0\b Reply-To:
+\f1\b0      Thornton Staples <tls@virginia.edu>\
+
+\f0\b Sender:
+\f1\b0        DLF-Aquifer-Technology <DLF-AQUIFER-TECH@WWW.DIGLIB.ORG>\
+
+\f0\b From:
+\f1\b0          Thornton Staples <tls@virginia.edu>\
+
+\f0\b Subject:
+\f1\b0       Re: thinking re: policies/principles\
+
+\f0\b Comments:
+\f1\b0  To: Cory Snavely <csnavely@umich.edu>\
+
+\f0\b In-Reply-To:
+\f1\b0   <42FD364F.7060700@umich.edu>\
+
+\f0\b Content-Type:
+\f1\b0  text/plain; charset=ISO-8859-1; format=flowed\
+\
+Here is my addition (driven by early-morning coffee) to what Cory \
+originally wrote. I think that there is some overlap but I wanted to add \
+a dimension that was more about the abstract architecture. It also \
+should be assumed that my list was not intended to be complete nor \
+without my prejudices!\
+\
+thorny\
+\
+   * Architectural Requirements\
+\
+The main goal for this project is (apparently!) to build services that \
+can be used broadly without requiring absolute agreement on how to \
+implement a content management strategy locally.  The following \
+assumptions would seem to be required:\
+\
+- Discovery services are very important. The purpose of these services \
+is to actally find things. Users who find digital resources often want \
+to do something with the resource found immediately, sometimes to gather \
+them for later use.\
+\
+- The Aquifer definition of interoperablility will be based on the idea \
+of exposing metadata for arbitrary use. That metadata will include that \
+needed for discovery as well as metadata that characterizes the content \
+found.\
+\
+- The architecture should support harvesting for use by members of the \
+consortium and for arbitrary aggregators without any built-in prejudice.\
+\
+- Fine-grained policies about how the data can be used and by whom \
+should be enforceable throughout the lifecycle of the exposed information.\
+\
+- The architecture should be sufficiently abstract to support a wide \
+variety of implementations.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f2 \cf0 \
+}

@@ -1,0 +1,19 @@
+.noticeofold {
+	background-image: url(/wrap/wrap.png);
+	padding: 10px;
+}
+.noticeofoldtext {
+	text-shadow: 2px 2px 2px black;
+	color: white;
+	font: bold 18pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+}
+.contentofold {
+	background-color: white;
+	margin: 10px;
+	font: none;
+	text-align: none;
+}
+.noticeofoldtext a {
+	color: #fbd800;
+}

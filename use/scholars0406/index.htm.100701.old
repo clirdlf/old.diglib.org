@@ -1,0 +1,1229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang=
+"en">
+<head>
+<meta name="dc.Title" content="" />
+<meta name="dc.Creator" content="Digital Library Federation" />
+<meta name="dc.Subject" content="" />
+<meta name="dc.Description" content="" />
+<meta name="dc.Publisher" content=
+"Digital Library Federation. Washington, DC" />
+<meta name="dc.Contributor" content=
+"David Seaman. Converted from htm to xhtml and added DC metadata." />
+<meta name="dc.Date" content="2004-12-07" />
+<meta name="dc.Type" content="text" />
+<meta name="dc.Format" content="text/html" />
+<meta name="dc.Identifier" content="" />
+<meta name="dc.Source" content="none" />
+<meta name="dc.Language" content="en-us" />
+<meta name="dc.Relation" content="http://www.diglib.org/" />
+<meta name="dc.Coverage" content="none" />
+<meta name="dc.Rights" content=
+"Copyright 2004, Council on Library and Information Resources. Digital Library Federation. Publicly-accessible." />
+<title>DLF Scholars' Panel</title>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0509010157_0) return;
+  window.mm_menu_0509010157_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010157_0.addMenuItem("DLF&nbsp;documents","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;promotes&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("strategies&nbsp;for","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("building&nbsp;sustainable,&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("scalable&nbsp;digital&nbsp;","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("collections,&nbsp;and","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("encourages&nbsp;the","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("development&nbsp;of","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("new&nbsp;collections","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("and&nbsp;related","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("services.","location='../../collections.htm'");
+  mm_menu_0509010157_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010157_0.hideOnMouseOut=true;
+   mm_menu_0509010157_0.menuBorder=0;
+   mm_menu_0509010157_0.menuLiteBgColor='#ffffff';
+   mm_menu_0509010157_0.menuBorderBgColor='#555555';
+   mm_menu_0509010157_0.bgColor='#555555';
+  window.mm_menu_0429144626_0 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0429144626_0.addMenuItem("DLF&nbsp;identifies,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("documents,&nbsp;and","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("endorses&nbsp;standards","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("and&nbsp;best&nbsp;practices","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("that&nbsp;support&nbsp;the","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("effective&nbsp;creation,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("interchange,","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("re-use,&nbsp;and&nbsp;","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("persistence&nbsp;of","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("digital&nbsp;library","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("objects.","location='../../produce.htm'");
+  mm_menu_0429144626_0.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0429144626_0.hideOnMouseOut=true;
+   mm_menu_0429144626_0.menuBorder=0;
+   mm_menu_0429144626_0.menuLiteBgColor='#ffffff';
+   mm_menu_0429144626_0.menuBorderBgColor='#555555';
+   mm_menu_0429144626_0.bgColor='#555555';
+  window.mm_menu_0509010816_1 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509010816_1.addMenuItem("DLF&nbsp;focuses&nbsp;on","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("practical&nbsp;initiatives","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("and&nbsp;research&nbsp;in","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("under-served","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("areas&nbsp;of&nbsp;digital&nbsp;","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("preservation,&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("is&nbsp;committed&nbsp;to","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("long-term&nbsp;access","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("to&nbsp;the&nbsp;digital","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("intellectual&nbsp;and","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("scholarly&nbsp;record.","location='../../preserve.htm'");
+  mm_menu_0509010816_1.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509010816_1.hideOnMouseOut=true;
+   mm_menu_0509010816_1.menuBorder=0;
+   mm_menu_0509010816_1.menuLiteBgColor='#ffffff';
+   mm_menu_0509010816_1.menuBorderBgColor='#555555';
+   mm_menu_0509010816_1.bgColor='#555555';
+  window.mm_menu_0509011300_2 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011300_2.addMenuItem("DLF&nbsp;encourages","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("initiatives&nbsp;that","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("assess&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("explain&nbsp;patterns","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("of&nbsp;digital&nbsp;library","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("usage,&nbsp;to&nbsp;help","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("libraries&nbsp;build","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("better-informed,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("more&nbsp;useable,","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("collections&nbsp;and","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("services.","location='../../use.htm'");
+  mm_menu_0509011300_2.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011300_2.hideOnMouseOut=true;
+   mm_menu_0509011300_2.menuBorder=0;
+   mm_menu_0509011300_2.menuLiteBgColor='#ffffff';
+   mm_menu_0509011300_2.menuBorderBgColor='#555555';
+   mm_menu_0509011300_2.bgColor='#555555';
+  window.mm_menu_0509011629_3 = new Menu("root",118,15,"Arial, Helvetica, sans-serif",11,"#330033","#330033","#cccc99","#cccc99","left","middle",2,0,500,-5,7,true,false,true,12,false,true);
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+  mm_menu_0509011629_3.addMenuItem("DLF&nbsp;defines&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("and&nbsp;develops","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("prototypes&nbsp;for&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("digital&nbsp;library","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("architectures,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("systems,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("system&nbsp;components,","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("communicates","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("important&nbsp;technical","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("trends,&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("encourages","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("technology&nbsp;","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("transfer&nbsp;and","location='../../architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("information&nbsp;sharing.","../../location='architectures.htm'");
+  mm_menu_0509011629_3.addMenuItem("&nbsp;&nbsp;");
+   mm_menu_0509011629_3.hideOnMouseOut=true;
+   mm_menu_0509011629_3.menuBorder=0;
+   mm_menu_0509011629_3.menuLiteBgColor='#ffffff';
+   mm_menu_0509011629_3.menuBorderBgColor='#555555';
+   mm_menu_0509011629_3.bgColor='#555555';
+
+  mm_menu_0509011629_3.writeMenus();
+} // mmLoadMenus()
+
+//-->
+//]]>
+</script>
+<script language="JavaScript1.2" src="../../mm_menu.js" type=
+"text/JavaScript">
+</script>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_jumpMenuGo(selName,targ,restore){ //v3.0
+  var selObj = MM_findObj(selName); if (selObj) MM_jumpMenu(targ,selObj,restore);
+}
+
+function quoteRotate() {
+  if (Math.random) {
+    strQuote = "quote1.gif^quote2.gif^quote3.gif^quote4.gif^quote5.gif^quote6.gif";
+    arrQuote = strQuote.split("^");
+    var num = Math.floor(Math.random() * arrQuote.length);
+    quote_rotate.src = "/../../images/"+arrQuote[num];
+  }
+}
+//-->
+//]]>
+</script>
+<link media="screen" href="../../styles.css" rel="stylesheet"
+type="text/css" />
+<link media="print" href="../../print.css" rel="stylesheet" type=
+"text/css" />
+
+
+
+
+<style type="css">
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.mini1
+	{font-family:Verdana;
+	color:#666666;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+
+li      {line-height: 18pt} 
+
+
+-->
+</style>
+
+</head>
+
+
+
+
+
+
+<body onload=
+"MM_preloadImages('../../images/preserve_r.gif','../../images/use_r.gif','../../images/build_r.gif','../../images/logo_r.gif','../../images/produce_r.gif')">
+
+<script language="JavaScript1.2" type="text/JavaScript">
+//<![CDATA[
+mmLoadMenus();
+//]]>
+</script><a name="top" id="top"></a>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td width="192" height="133" rowspan="3" valign="bottom"><a href=
+"../../dlfhomepage.htm" onmouseout="MM_swapImgRestore()" onblur=
+"MM_swapImgRestore()" onmouseover=
+"MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)"
+onfocus="MM_swapImage('dlf_logo','','../../images/logo_r.gif',1)">
+<img src="../../images/logo.gif" alt=
+"Digital Library Federation, Link: Home" name="dlf_logo" width=
+"192" height="133" border="0" id="dlf_logo" /></a></td>
+<td width="333" height="95" colspan="3" rowspan="2" valign="top">
+<img src="../../images/quote_hold.gif" name="quote_rotate" alt=
+"random quote" width="333" height="95" id="quote_rotate" /></td>
+<td width="77" height="45" colspan="2" valign="top"><a href=
+"../../publications.htm"><img src="../../images/pubs.gif" alt=
+"Link: Publications" width="77" height="27" border=
+"0" /></a></td>
+
+<td width="50" height="45" valign="top">
+<a href="../../forums.htm"><img src=
+"../../images/forum.gif" alt="Forum" width="50" height="27"
+border="0" /></a></td>
+<td width="71" height="45" colspan="2" valign="top"><a href=
+"../../about.htm"><img src="../../images/about.gif" alt=
+"Link: About DLF" width="71" height="27" border="0" /></a></td>
+<td width="53" height="45" valign="top"><a href=
+"../../news.htm"><img src="../../images/news.gif" alt=
+"Link: News" width="53" height="27" border="0" /></a></td>
+</tr>
+<tr>
+<td width="251" height="50" colspan="6" valign="top">
+<table width="251" border="0" cellpadding="0" cellspacing="0">
+<tr class="noprint">
+<td valign="top"><a href=
+"http://www.diglib.org/search.html">Search</a> 
+<!-- <form action="" method="post" name="searchform" id="search">
+    <label for="textfield"><span class="news">Search&nbsp;</span></label>
+    <input name="textfield" id="textfield" type="text" size="15" />
+    <a href="javascript:document.searchform.submit();">
+<img src="../../images/go.gif" alt="Link: go search" width="20" height="20" border="0" 
+align="middle" /></a>&nbsp; 
+
+<a href="sitemap/dlfsite.htm">
+<img src="../../images/sitemap.gif" alt="Link: Sitemap" width="47" height="20" border="0" align="middle" /> </a>
+</form> --></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr class="noprint">
+<!-- rollover descriptions for navigation do not line up correctly in Mac IE 5 browser -->
+<td width="117" height="38" valign="top"><a href=
+"../../collections.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore();" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010157_0,0,38,null,'collect');MM_swapImage('collect','','../../images/collect_r.gif',1);">
+<img src="../../images/collect.gif" alt=
+"Link: Digital Collections" name="collect" width="117" height=
+"38" border="0" id="collect" /></a></td>
+<td width="117" height="38" valign="top"><a href=
+"../../produce.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0429144626_0,0,38,null,'produce');MM_swapImage('produce','','../../images/produce_r.gif',1)">
+<img src="../../images/produce.gif" alt=
+"Link: Digital Production" name="produce" width="117" height="38"
+border="0" id="produce" /></a></td>
+<td width="117" height="38" colspan="2" valign="top"><a href=
+"../../preserve.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509010816_1,0,38,null,'preserve');MM_swapImage('preserve','','../../images/preserve_r.gif',1)">
+<img src="../../images/preserve.gif" alt=
+"Link: Digital Preservation" name="preserve" width="117" height=
+"38" border="0" id="preserve" /></a></td>
+<td width="117" height="38" colspan="3" valign="top"><a href=
+"../../use.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011300_2,0,38,null,'use'); MM_swapImage('use','','../../images/use_r.gif',1)">
+<img src="../../images/use.gif" alt=
+"Link: Use, users, and user support" name="use" width="117"
+height="38" border="0" id="use" /></a></td>
+<td width="116" height="38" colspan="2" valign="top"><a href=
+"../../architectures.htm" onmouseout=
+"MM_startTimeout();MM_swapImgRestore()" onblur=
+"MM_startTimeout();MM_swapImgRestore();" onmouseover=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)"
+onfocus=
+"MM_showMenu(window.mm_menu_0509011629_3,0,38,null,'build'); MM_swapImage('build','','../../images/build_r.gif',1)">
+<img src="../../images/build.gif" alt=
+"Link: Build: Digital Library Architectures, Systems, and Tools"
+name="build" width="116" height="38" border="0" id=
+"build" /></a></td>
+</tr>
+<tr>
+<td class="noprint" width="192" height="634" valign="top"
+bgcolor="#CCCC99">
+<table width="192" border="0" cellpadding="0" cellspacing="18">
+<tr>
+<td align="left" valign="top"><img src="../../images/keybd2.gif"
+alt="photo of books" width="56" height="59" />
+<p class="level2nav">DLF PARTNERS</p>
+<script src="../../members.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">DLF ALLIES</p>
+<script src="../../allies.js" type="text/javascript">
+</script></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img src=
+"../../images/horizline.gif" alt="&quot;&quot;" width="156"
+height="16" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<p class="level2nav">Comments</p>
+<p class="news">Please send the <a href="mailto:dlf@clir.org">DLF
+Executive Director</a> your comments or suggestions.</p>
+</td>
+</tr>
+</table>
+</td>
+<td width="584" height="634" colspan="9" valign="top">
+<table width="100%" border="0" cellpadding="0" cellspacing="26">
+<tr>
+<td align="left" valign="top">
+
+<!-- Begin text here -->
+
+<div class="Section1">
+
+<h1 class="sectionhead">DLF SCHOLARS' PANEL</h1>
+
+<p align="center">
+<b>Wednesday June 2-Thursday June 3, 2004<br />
+  Washington, DC</b></p>
+
+
+<p><a href="index.htm#attendees">Attendees</a> |  
+<a href="index.htm#findings">Findings</a> | 
+<a href="index.htm#bibliography">Bibliography</a>
+</p>
+
+<h3><a name="agenda">AGENDA</a></h3>
+<p>
+The impulse driving this meeting was in a large part a desire to learn from
+working scholars what they value and what they need from our digital library
+services -- to test and temper our sense of what library users want against the
+expressed needs of scholars.&nbsp; Everyone attending is deeply engaged in
+creating and using digital library content, often in partnership with an
+academic library.</p>
+
+<h3><a name="attendees">ATTENDEES</a></h3>
+
+<ul>
+
+<li>Vernon Burton.  
+Professor of History and Sociology, and 
+Senior Research Scientist, National Center for Supercomputing Applications, University of Illinois at Urbana Champaign.  
+<br />
+<a href="http://www.history.uiuc.edu/fac_dir/burton_dir/burton.htm">
+http://www.history.uiuc.edu/fac_dir/burton_dir/burton.htm</a>
+<br />
+<a href="http://riverweb.cet.uiuc.edu/">http://riverweb.cet.uiuc.edu/</a>
+<br /><br /></li>
+
+
+ <li>Morris Eaves. 
+Professor of English and Project Director of <i>The William Blake Archive</i>, University of Rochester.
+<br />
+<a href="http://www.rochester.edu/college/eng/faculty/eaves.html">
+http://www.rochester.edu/college/eng/faculty/eaves.html</a>
+<br />
+<a href="http://www.blakearchive.org">http://www.blakearchive.org</a>
+<br /><br /></li>
+
+
+ <li>Mark Kornbluh. 
+Professor of History and Director of MATRIX: Center for the Humane Arts, Letters, 
+and Social Sciences OnLine, Michigan State University.
+
+<br />
+<a href="http://www.history.msu.edu/faculty/kornbluh.html">
+http://www.history.msu.edu/faculty/kornbluh.html</a>
+<br /><br /></li>
+
+ <li>Jeff Looney.
+Editor-in-Chief, Papers of Thomas Jefferson, Retirement Series.  Thomas Jefferson Foundation, 
+Charlottesville, Virginia.  
+<br />
+<a href="http://www.monticello.org/papers/index.html">
+http://www.monticello.org/papers/index.html</a>
+<br /><br /></li>
+
+ <li>Thomas Luxon,  
+Associate Professor of English and Director, Dartmouth Center for the Advancement of Learning, Dartmouth College.
+<br />
+
+<a href="http://www.dartmouth.edu/~english/faculty/luxon.html">
+http://www.dartmouth.edu/~english/faculty/luxon.html</a>
+<br /><br /></li>
+
+ <li>Kenneth M. Price, Professor of American Literature and co-editor, 
+<i>The Walt Whitman Archive</i>, 
+University of Nebraska, Lincoln.
+<br />
+<a href="http://www.unl.edu/Price/">
+http://www.unl.edu/Price/</a>
+<br />
+<a href="http://www.whitmanarchive.org/">http://www.whitmanarchive.org/</a>
+<br /><br /></li>
+
+ <li>Stephen Railton, Professor of English and Director of 
+<i>Mark Twain In His Times: An Electronic Archive</i>, and 
+<i>Uncle Tom's Cabin &amp; American Culture: A Multi-Media Archive,</i> 
+University of Virginia.
+<br />
+<a href="http://etext.lib.virginia.edu/railton/railtonhp.html">
+http://etext.lib.virginia.edu/railton/railtonhp.html</a>
+<br />
+<a href="http://etext.lib.virginia.edu/railton">
+http://etext.lib.virginia.edu/railton</a> 
+<br />
+<a href="http://jefferson.village.virginia.edu/utc"> 
+http://jefferson.village.virginia.edu/utc</a> 
+
+<br /><br /></li>
+
+ <li>Roy Rosenzweig, Professor of History &amp; New Media and the 
+Director of the Center for History &amp; New Media, George Mason University.   
+
+<br />
+<a href="http://cas.gmu.edu/historyarthistory/faculty_staff/biography.php?f=4667">
+http://cas.gmu.edu/historyarthistory/faculty_staff/biography.php?f=4667</a>
+<br />
+<a href="http://chnm.gmu.edu/">http://chnm.gmu.edu/</a>
+<br /><br /></li>
+
+ <li>Benjamin C. Ray, Professor of Religious Studies and 
+Project Director, <i>Salem Witch Trials Documentary Archive</i>, 
+University of Virginia.
+<br />
+<a href="http://www.salemwitchtrials.org/">
+http://www.salemwitchtrials.org/</a>
+<br /><br /></li>
+
+ <li>
+Crandall A. Shifflett, 
+Professor of History and Director of Graduate Studies at 
+Virginia Polytechnic Institute and State University; 
+Project Director, <i>Virtual Jamestown</i>.
+<br />
+<a href="http://www.virtualjamestown.org/">
+http://www.virtualjamestown.org/</a>
+<br /><br /></li>
+
+<li>Martha Nell Smith, Professor of English and Director of MITH, University of Maryland; and General Editor, the  
+<i>Emily Dickinson Electronic Archives</i>
+<br />
+<a href="http://www.mith.umd.edu/mnsmith/">
+http://www.mith.umd.edu/mnsmith/</a>
+<br />
+<a href="http://www.emilydickinson.org/">
+http://www.emilydickinson.org/</a>
+<br /><br /></li>
+
+ <li>William G. Thomas, Associate Professor of History and 
+Director of the Virginia Center for Digital History, University of Virginia.
+<br />
+<a href="http://www.virginia.edu/history/faculty/wthomas.html">
+http://www.virginia.edu/history/faculty/wthomas.html</a>
+<br /><br /></li>
+
+</ul>
+
+
+
+<p>In addition, the following digital library specialists were in attendance: </p>
+
+<ul>
+ <li>Nancy Davenport (Library of Congress)</li>
+ <li>Barrie Howard (DLF)</li>
+ <li>David Greenbaum (UC Berkeley) Co-chair</li>
+ <li>Leslie Johnston (U Virginia)</li>
+ <li>David Seaman (DLF) Co-chair</li>
+</ul>
+
+<h3><a name="findings">FINDINGS</a></h3>
+
+<h4>Introduction</h4>
+
+<p>College and university librarians have a long tradition of listening to their users, and of
+adjusting our services and collections according to the articulated needs of our faculty
+and students. This is nowhere more important that in our emerging digital library
+endeavors, where much is still unfamiliar to patrons and where new products,
+aggregations, tools, and services come (and often go) with confounding frequency.
+Across the many initiatives, benchmarks, and standards undertaken by the Digital Library
+Federation (DLF) is an overarching desire to build library services and online holdings
+that result in richer scholarship and more effective pedagogy.
+</p>
+
+<p>
+To help inform this end, and to test our own assumptions about developing needs in
+digital scholarship, the DLF convened in the summer of 2004 in Washington, DC, a
+group of humanities and social science practitioners, all of whom are actively building
+digital archives, online editions, and electronic scholarship to further their academic and
+teaching interests, and who are working with their library colleagues and digital
+collections in innovative ways. Over two days of lively and free-flowing discussion in
+June, the scholars provided feedback on how libraries could partner with them to serve
+their particular digital scholarship needs.
+
+</p>
+
+<p>Follow-up discussions with several participants
+have further fleshed out the themes and observations detailed below.</p>
+
+<h4>Barriers to Digital Scholarship</h4>
+
+<p>We turned our attention early to the hurdles that face this first wave of scholars
+undertaking serious digital scholarship, in order to understand which of these barriers can
+be overcome by emerging digital library research. There was speedy and widespread
+agreement that an overarching problem was the lack of persistent identifiers  --  permanent
+and trusted internet addresses  --  for online objects. How can you invest in rich,
+hyperlinked scholarly writing or scholar-driven archives if the material not under your
+immediate control keeps moving from web address to web address, or disappearing
+altogether (an irritation commonly known as &quot;link rot&quot;)? It is a waste of time to have to
+monitor and fix broken links, and a disincentive to undertaking further work. This is a
+problem they look to libraries and publishers to solve, and to solve quickly (&quot;aren't you
+guys supposed to be good at this sort of standardization&quot; one participant said). As a
+positive example of persistent identification in the scholarly journals industry we looked
+at Crossref and the Crossref/Google article search service, which have grown up around
+the Digital Object Identifier (DOI) persistent ID that is commonly used in the STM
+scholarly journal arena.
+</p>
+
+<p>The other main thread of this conversation about hindrances to digital scholarship  -- 
+which came up in discussions of institutional repositories too  --  was the failure of
+departmental promotion and rewards structures to recognize and accommodate the shift
+from a print-based to a digital world of scholarly publishing and communications. It is no
+accident that most active humanists and social scientists working with digital media are
+post-tenure, one participant observed, and I suspect that even then they are not all
+immune from the career-depressing effects of being seen to be &quot;too digital&quot; or &quot;only
+digital.&quot;
+</p>
+
+<h4>Need for Tools</h4>
+
+<p>The group was clear that there is a severe need for tools customized for a range of
+scholarly inquiry needs:
+</p>
+<ul>
+<li> Gathering information from multiple sources, along with some information about it (personal libraries with metadata)</li>
+<li> Searching of images</li>
+<li> Visualization of patterns and trends and search results</li>
+<li> Annotation of text, image, and multimedia files</li>
+<li> Writing the new scholarship  --  authoring tools for the digital scholar</li>
+</ul>
+
+<p>
+However, so unfamiliar is this area that we heard from several individuals that they had a
+hard time articulating precisely what they required from such tools, or what level of
+software creation skills or consultancy is available to them, and where. We are still in a
+stage where it is easier to react to an example of an existing tool than to dream them up
+ex nihilo, and with that in mind we discussed and demonstrated a variety of software
+packages that allowed scholars to gather, search, annotate, and re-package digital objects
+from library collections, including New Zealand's impressive Greenstone (referred to in
+this context as a personal library organizer), the suite of tools from UC Berkeley's
+Scholar's Box initiative, and Michigan State's Matrix annotation software that is aimed at
+various streaming media. Clearly a first-order need for this group was simply to know
+how to discover that these sorts of products exist (let alone the range of locally created
+but re-usable software custom-built for various initiatives), and what their characteristics
+are.
+</p>
+
+<h4>Services: Repositories and Harvestable Metadata</h4>
+
+<p>There has been a rapid growth in the ambitions of universities to build systems to
+safeguard and re-use the full range of scholarly and pedagogical output  --  the institutional
+repository movement. Opinions about this phenomena may well differ across disciplines;
+for this group there was a decidedly cool reception to the notion of turning over their
+scholarship, datasets, and archives to their institution for exploitation as institutional
+assets (the language of the institutional repository discussions may well be to its
+detriment  --  faculty do not necessarily take kindly to being cast as asset workers
+producing exploitable product for their institutions, even if only at the level of language).
+While the ability to have a long-term safe-haven for their digital content found some real
+favor, especially as it was curated by the library, there was a range of concerns beyond
+this  --  questions of ownership, permissions, load (how much work is it to prepare a body
+of material for a repository?) and again the observation that there was no link between the
+re-use of a scholarly asset and the current faculty rewards system.
+</p>
+<p>
+Much more positive was the reaction to sharable and harvestable metadata  --  not a
+concept that was very clear to the group prior to the meeting. We used the Open Archives
+Initiative (OAI) as an example of simple metadata records for digital objects that are put
+on the web and harvested by software, in order to build services that include records from
+many sites all arranged in one service of portal. There was a good deal of interest in this
+mechanism both as a way to help make their own scholarship more visible, and as a way
+of gathering up references to related material to which they may want to refer.
+</p>
+
+<h4>Digital Library Collections</h4>
+
+<p>Given the active involvement these scholars have in building and contextualizing content
+ --  in engaging actively in the creation of digital archives that they then manipulate  --  and
+given the concern with link rot  --  it was no surprise to learn that a behavior they wanted
+from collections of digital objects was the ability to capture and re-use that material in
+their own local contexts. There was firm agreement that it is not always enough to link to
+a resource in someone else's system, even if the link is persistent. The need for a local
+copy may be aesthetic integration into an archive; offline use; incorporation into a
+desktop tool of some sort (data visualizer; annotation tool; courseware package; textual
+analysis software); data enrichment with terminology of the scholar's choosing; or even
+the simple need to search a body of material all at once  --  impossible when the books are
+in different systems with different search tools. Equally clear is how difficult it is to get
+permission from data holders to satisfy this common need, even when the material in
+question is freely available on the internet in archives and libraries. Typically the
+institutions who digitized and who host the material do not have policies in place, or
+rights expressions, to allow that content to have a secondary life in an online project at
+another institution. &quot;Just link to it&quot; is not the answer often for this group of scholars, but
+absent a mechanism to explicitly accommodate the desire to bring digital objects into a
+local scholar's archive, they are left with a frustrating and time-consuming series of
+conversations, favors, and personal pleas in order to engage deeply and actively with the
+material in digital library collections.
+</p>
+
+<h4>Closing</h4>
+
+<p>Work with this group has been lively and enlightening  --  for individual projects and in an
+ad hoc manner for the organization as a whole. Such scholarly users make for very
+effective reaction and review panels. After the event, several members articulated a need
+for help in acquiring either digital copies of items as yet undigitized or the permission to
+move digital items held elsewhere into their own archives and tools. The latter may well
+give us a clearer sense of how and when simple access is not enough, and close
+engagement with and enrichment of a file in another library's collection is what is needed
+to fulfill a scholarly or pedagogic need. In addition, one specific opportunity for
+partnership was put forward, by the Virtual Jamestown group; I enclose this as an
+Appendix in case it touches a nerve with any DLF library.
+</p>
+
+<hr width="75%" align="center" />
+
+<h3><a name="bibliography">BIBLIOGRAPHY</a></h3>
+
+<p>The following topics, complete with web addresses and
+annotations, are culled from  --  and act as references to  --  our free-ranging
+conversations during the June 2004 DLF Scholars' Panel meeting.</p>
+
+
+<ul>
+ <li><a href="index.htm#n1">1</a>. Federated searching between Google and Amazon, Google and
+     university repositories, and Google and OCLC</li>
+ <li><a href="index.htm#n2">2</a>. Mass Digitizing Efforts and Ambitions</li>
+ <li><a href="index.htm#n3">3</a>. Institutional Repositories and Digital Library
+     Repositories</li>
+ <li><a href="index.htm#n4">4</a>. Digital Library and Scholarly tools</li>
+ <li><a href="index.htm#n5">5</a>. Data Sharing (datasets)</li>
+ <li><a href="index.htm#n6">6</a>. Shareable Metadata</li>
+ <li><a href="index.htm#n7">7</a>. Courseware</li>
+ <li><a href="index.htm#n8">8</a>. Persistent Identifiers</li>
+ <li><a href="index.htm#n9">9</a>. Scholarly Publishers and Archiving </li>
+ <li><a href="index.htm#n10">10</a>. Digital Preservation</li>
+ <li><a href="index.htm#n11">11</a>. Online Communities</li>
+ <li><a href="index.htm#n12">12</a>. Legislation</li>
+ <li><a href="index.htm#n13">13</a>. Articles that Exemplify Types of &quot;New Scholarship&quot;.</li>
+</ul>
+
+
+<p><b><span style='font-size:14.0pt'><a name="n1">1)</a> Federated searching between
+Google and Amazon, Google and university repositories, and Google and OCLC</span></b></p>
+
+<p><b>A9</b></p>
+
+<p><a href="http://www.a9.com/">http://www.a9.com/</a></p>
+
+<p>Marriage of Amazon and Google
+which is analogous of any single search that links online and print materials.</p>
+
+<p><b>DSpace</b></p>
+
+<p><a href="http://chronicle.com/free/2004/04/2004040901n.htm">http://chronicle.com/free/2004/04/2004040901n.htm</a>
+</p>
+
+<p>Read an article about how this
+consortium plans to use Google to search the contents of institutional
+repositories.</p>
+
+<p><b>OCLC</b></p>
+
+<p><a href="http://www.oclc.org/">http://www.oclc.org</a>; 
+<a href="http://www.oclc.org/worldcat/pilot/">http://www.oclc.org/worldcat/pilot/</a></p>
+
+<p>Read about their experiment to
+add 2 million WorldCat records into Yahoo! And Google with zip code lookup of
+the nearest place they know about that holds the book.</p>
+
+
+
+<p><b><span style='font-size:14.0pt'><a name="n2">2)</a> Mass Digitizing Efforts
+and Ambitions</span></b></p>
+
+<p><b>Digital Promise / Digital Opportunity Investment Trust
+(DO IT)   </b></p>
+
+<p><a href="http://www.digitalpromise.org/">http://www.digitalpromise.org/</a></p>
+
+<p>A proposed $20 billion trust fund
+from the sale of Federal airwaves, to be held by the U.S. Treasury, the
+interest from which (circa $1 billion per annum) would drive massive digitizing
+for the public good, tools building for teaching and using digital content,
+assessment of digital learning, etc.  </p>
+
+<p><b>Government Printing Office (GPO) </b><a
+href="http://www.gpoaccess.gov/about/speeches/04232004_IST.pdf">http://www.gpoaccess.gov/about/speeches/04232004_IST.pdf</a>
+</p>
+
+<p>This agency plans to digitize all
+non-digital Government Documents and make them electronically available.</p>
+
+<p><b><span style='font-size:14.0pt'><a name="n3">3)</a> Institutional
+Repositories and Digital Library Repositories</span></b></p>
+
+<p><b>DSpace Federation</b></p>
+
+<p><a href="http://www.dspace.org/">http://www.dspace.org/</a></p>
+
+<p>The best-known of the
+&quot;institutional repositories&quot;  --  an open source digital library system to
+capture, store, index, preserve, and redistribute the intellectual output of a
+university's research faculty in digital formats, developed jointly by MIT
+Libraries and Hewlett-Packard.</p>
+
+<p><b>Fedora Project</b></p>
+
+<p><a href="http://www.fedora.info/">http://www.fedora.info/</a></p>
+
+<p>An Open-Source Digital Repository
+Management System, used currently to manage  local digital library content, and
+with growing ambitions to operate as the underpinning for institutional
+repositories and content management systems.  Developed by Cornell University and the University of Virginia.</p>
+
+<p><b><span style='font-size:14.0pt'><a name="n4">4)</a> Digital Library and
+Scholarly tools</span></b></p>
+
+<p><b>Greenstone Digital Library Software </b></p>
+
+<p><a href="http://www.greenstone.org/cgi-bin/library">http://www.greenstone.org/cgi-bin/library</a></p>
+
+<p>A free &quot;digital-library-in-a-box&quot;
+delivery program, written in New Zealand specifically for use by libraries and
+scholars online, on a PC, or on a CD.  Ongoing development  --  METS and OAI
+abilities being added (see Shareable Metadata, below, for a sense of OAI and
+METS), as well as richer XML import capabilities.  To see an example of
+Greenstone being used on-line in a DLF library, see <i>Chopin Early Editions</i>:
+&quot;A collection of digital images of early printed editions of musical
+compositions by Fr&eacute;d&eacute;ric Chopin. 
+This collection was created by the University of Chicago Library and, 
+once completed, will include its entire collection of
+over 400 Chopin early editions.&quot; <a href="http://chopin.lib.uchicago.edu/">http://chopin.lib.uchicago.edu/</a>
+ </p>
+
+<p><b>Scholar's Box</b> [David Greenbaum, UC Berkeley
+Interactive University] <br />
+
+<a href="http://iu.berkeley.edu/IU/SB/">http://iu.berkeley.edu/IU/SB/</a> 
+</p>
+
+<p>Demonstrated at the meeting.</p>
+
+<p><b>Media Matrix</b> [Mark
+Kornbluh, Michigan State University]
+
+<br /><a href="http://www.matrix.msu.edu/digital.php">http://www.matrix.msu.edu/digital.php</a>
+<br />
+
+Demonstrated at the meeting.</p>
+
+<p><b>Center for History and New Media tools </b>[Roy
+Rosenzweig, George Mason University]<br />
+
+<a href="http://chnm.gmu.edu/tools">http://chnm.gmu.edu/tools</a></p>
+
+<p>Discussed at the meeting.  More 
+recently, Roy has announced the <b>Echo Tools Center</b>: &ldquo;The 
+number of historians interested in using digital tools to facilitate their work 
+has been rapidly expanding, as has the number of researchers developing online 
+tools for the humanities. In order to facilitate contact between these two 
+groups, Echo would like to announce the beta launch of its new Tools Center, an 
+experimental, comprehensive resource for scholars interested in the nuts and 
+bolts of online history. Just as Echo's Research Center offers a guide to 
+thousands of history websites, the Tools Center is envisioned as a central 
+directory of the myriad pieces of software and other tools available to 
+contemporary historians. Built using the same open-source software that powers 
+sites like Wikipedia, the Tools Center is a specifically collaborative 
+resource, enabling developers to post descriptions of their products, and users 
+to apply their own expertise to build and expand its entries. Though still in 
+beta form, we invite both historians and software developers to visit the Tools Center at 
+<a href="http://echo.gmu.edu/toolcenter-wiki/">http://echo.gmu.edu/toolcenter-wiki/</a> 
+and contribute their knowledge to this growing asset to the online history community.&rdquo;</p>
+
+<p><b><span style='font-size:14.0pt'><a name="n5">5)</a> Data Sharing (datasets)</span></b></p>
+
+<p><b>Inter-University Consortium for Political and Social Research</b>
+<b>(ICPSR)</b><br />
+
+<a
+href="http://www.icpsr.umich.edu/access/deposit/guidelines.html">http://www.icpsr.umich.edu/access/deposit/guidelines.html</a></p>
+
+
+
+<p>For 40 years, an increasingly
+vast archive of social science data for research and instruction.  &quot;ICPSR preserves
+data, migrating them to new storage media as changes in technology warrant. In
+addition, ICPSR provides user support to assist researchers in identifying
+relevant data for analysis and in conducting their research projects.&quot;</p>
+
+<p><b><span style='font-size:14.0pt'><a name="n6">6)</a> Shareable Metadata</span></b></p>
+
+<p><b>Open Archives Initiative (OAI)</b>
+
+<br />
+<a href="http://www.openarchives.org/">http://www.openarchives.org/</a>
+</p>
+
+<p>This allows one to create a
+metadata record for an object, and &quot;publish&quot; that catalog record in a space on
+a web server that allows others to &quot;harvest&quot; it; having gathered up lots of
+records from lots of locations, one can use them to create a service  --  a
+one-stop-shop for a topic or discipline, for example (see <i>NSDL</i> below). 
+Typically, the records contain information about the object's date, author, title,
+genre, subject, etc. potentially allowing a rich service to be created
+(although the service is only as good as the metadata it aggregates, which can
+vary wildly in accuracy and completeness from site to site, complicating the
+creation of a robust and trusted service).</p>
+
+<p><i>National Science Digital Library (NSDL)</i></p>
+
+<p><a href="http://www.nsdl.org/">http://www.nsdl.org/</a></p>
+
+<p>This is a subject-focused OAI
+service  --  &quot;a digital library of exemplary resource collections and services,
+organized in support of science education at all levels.&quot;  The content resides
+on many different sites, but OAI records are harvested from them to a central
+location to build the NSDL &quot;portal&quot;.</p>
+
+<p><i>OAIster [University of Michigan Digital Library Production Services] </i></p>
+
+<p><a href="http://www.oaister.org/">http://www.OAIster.org</a> </p>
+
+<p>A collection of all OAI records
+that have online publicly accessible content.  Searchable by author, date,
+subject, etc.   </p>
+
+<p><b><span style='font-size:14.0pt'><a name="n7">7)</a> Courseware</span></b></p>
+
+<p><b>SAKAI</b></p>
+
+<p><a href="http://www.sakaiproject.org/">
+http://www.sakaiproject.org/</a> </p>
+
+<p>The Sakai Project is a $6.8M
+software development project founded by The University of Michigan, Indiana University, MIT, Stanford, the uPortal Consortium, and the Open Knowledge
+Initiative (OKI) with the support of the Andrew W. Mellon Foundation.  The
+project is producing open source Collaboration and Learning Environment (CLE)
+software.</p>
+
+<p><br />
+<b>Open Courseware Initiative</b></p>
+
+<p><a href="http://ocw.mit.edu/index.html">http://ocw.mit.edu/index.html</a></p>
+
+<p>700 online university courses
+from MIT, which are free on the Web. For a full list of courses, visit <a
+href="http://ocw.mit.edu/OcwWeb/Global/all-courses.htm">http://ocw.mit.edu/OcwWeb/Global/all-courses.htm</a>
+.</p>
+
+
+
+<p><b><span style='font-size:14.0pt'><a name="n8">8)</a> Persistent Identifiers</span></b></p>
+
+
+
+<p>Note: These variously work by having the user point not to a
+file on a website but to a </p>
+
+<p>unique ID number in a web-based
+service that matches the unique ID with a web address.  As long as you update
+the central registry, you can move files from web address to web address
+without any links breaking. Enter the following URL into the address bar of
+your Web browser -- or press Ctrl + click with your pointer over the UR -- 
+to see how this works, <span style='font-size:7.0pt'><a
+href="http://dx.doi.org/10.1037/0003-066X.59.1.29"><span style='font-size:12.0pt;
+font-family:"Times New Roman"'>http://dx.doi.org/10.1037/0003-066X.59.1.29</span></a>.</span></p>
+
+
+
+<p><b>PURL</b></p>
+
+<p><a href="http://www.purl.org/">www.purl.org</a>    </p>
+
+<p>This service is free and used by
+some libraries. It works only for web-based information.</p>
+
+
+
+<p><b>Digital Object Identifier (DOI) </b></p>
+
+<p><a href="http://www.doi.org/">http://www.doi.org</a></p>
+
+<p>Used by many scholarly
+publishers, DOIs can be assigned to anything. It costs money to use. </p>
+
+<p><i>See also</i> DOI FAQs at <a
+href="http://www.tsoid.co.uk/FAQ.aspx?PageID=FAQ&amp;category=general"><span
+style='text-decoration:none'>http://www.tsoid.co.uk/FAQ.aspx?PageID=FAQ&amp;category=general</span></a>
+;</p>
+
+<p>DOI and Google&nbsp;at <a
+href="http://www.crossref.org/01company/pr/press20040428.html">http://www.crossref.org/01company/pr/press20040428.html</a>
+</p>
+
+<p><u><span style='text-decoration:none'>&nbsp;</span></u></p>
+
+<p><b>Radio frequency identification (RFID) tags </b></p>
+
+<p><a href="http://news.com.com/2010-1069-980325.html">http://news.com.com/2010-1069-980325.html</a></p>
+
+<p><a href="http://www.rfidupdate.com/">http://www.rfidupdate.com/</a></p>
+
+<p><a href="http://www.rfidjournal.com/">http://www.rfidjournal.com/</a></p>
+
+<p><b><span style='font-size:14.0pt'><a name="n9">9)</a> Scholarly Publishers and Archiving </span></b></p>
+
+<p><b>Elsevier</b></p>
+
+<p><a href="http://www.elsevier.com/">http://www.elsevier.com/</a> 
+; <a href="http://www.icsti.org/forum/46/Joep_Verheggen.ppt">www.icsti.org/forum/46/Joep_Verheggen.ppt</a></p>
+
+<p style='text-indent:11.5pt'>Read about their relationship
+with the Dutch Royal Library (<span style='color:black'>Koninklijke Bibliotheek</span>).</p>
+
+<p>Elsevier now allows all its
+authors to publish their Elsevier-published articles for free on the web. Read
+the article about Elsevier's open access self-archiving at:  <a
+href="http://www.infotoday.com/newsbreaks/nb040607-2.shtml">http://www.infotoday.com/newsbreaks/nb040607-2.shtml</a>
+</p>
+
+
+
+<p><b>Blackwell</b></p>
+
+<p><i>See also</i> &quot;<span
+style='color:black'>Blackwell Publishing Ltd and the Koninklijke Bibliotheek
+Sign Archiving Agreement,</span>&quot; <a
+href="http://www.blackwellpublishing.com/press/pressitem.asp?ref=83&amp;site=1">http://www.blackwellpublishing.com/press/pressitem.asp?ref=83&amp;site=1</a>
+</p>
+
+
+
+<p><b><span style='font-size:14.0pt'><a name="n10">10)</a> Digital Preservation</span></b></p>
+
+
+
+<p><b>National Digital Information Infrastructure for
+Preservation</b> <b>(NDIIPP) [US] </b><a
+href="http://www.digitalpreservation.gov/">http://www.digitalpreservation.gov/</a> 
+</p>
+
+<p>A federally-funded project,
+administered by the Library of Congress, to explore and design a distributed
+infrastructure for preserving &quot;born digital&quot; materials.</p>
+
+
+
+<p>See also: </p>
+
+
+
+<p><b>Digital Curation Centre</b> <b>(DCC)
+[UK]</b> </p>
+
+<p><a
+href="http://www.dcc.ac.uk/">
+http://www.dcc.ac.uk/</a></p>
+
+
+
+<p><b>Digital Preservation Coalition</b>
+<b>(DPC) [UK]&nbsp;</b></p>
+
+<p><a
+href="http://www.dpconline.org/graphics/">
+http://www.dpconline.org/graphics/</a> 
+</p>
+
+
+
+<p><b>Preserving Access to Digital
+Information (PADI) [Australia]</b></p>
+
+<p><a
+href="http://www.nla.gov.au/padi/">
+http://www.nla.gov.au/padi/</a></p>
+
+<p><b><span style='font-size:14.0pt'>&nbsp;</span></b></p>
+
+<p><b><span style='font-size:14.0pt'>
+<a name="n11">11)</a> Online Communities</span></b></p>
+
+
+
+<p><b>H-Net  </b></p>
+
+<p><a href="http://www.h-net.msu.edu/">http://www.h-net.msu.edu/</a></p>
+
+<p>Mark Kornbluh and colleagues, at
+The Center for Humane Arts, Letters, and Social Sciences Online, Michigan State University: 100 free electronic, edited, interactive newsletters; over
+100,000 subscribers in more than 90 countries.  </p>
+
+
+
+<p><b><span style='font-size:14.0pt'><a name="n12">12)</a> Legislation</span></b></p>
+
+
+
+<p><b>Public Access to Science Act (HR 2613)  --  The Sabo Bill</b></p>
+
+
+
+<p>SPONSOR: Representative Martin Olav Sabo D-MN</p>
+
+<p>STATUS:  &nbsp;&nbsp;&nbsp; Introduced in the House,
+06/26/03</p>
+
+
+
+<p>Amends Federal copyright law to declare copyright protection
+unavailable to any work produced pursuant to scientific research substantially
+funded by the Federal Government.</p>
+
+<p>Requires any Federal department or agency that enters into a
+funding agreement with any person for the performance of scientific research to
+include in the agreement a statement that copyright protection is not available
+for any work produced pursuant to such research under the agreement.  Expresses
+the sense of Congress that any Federal department or agency that enters into
+such funding agreements should make every effort to develop and support
+mechanisms for making the published results of the research conducted pursuant
+to the agreements freely and easily available to the scientific community, the
+private sector, physicians, and the public.</p>
+
+
+
+<p><b><span style='font-size:14.0pt'><a name="n13">13)</a> Articles that
+Exemplify Types of &quot;New Scholarship&quot;.</span></b></p>
+
+
+
+<p>Thomas III, William G., Edward L. Ayers. &quot;The Difference
+Slavery Made: A Close </p>
+
+<p style='text-indent:11.5pt'>Analysis of Two American
+Communities.&quot; University of Virginia. </p>
+
+<p style='text-indent:11.5pt'><a
+href="http://www.vcdh.virginia.edu/AHR/">http://www.vcdh.virginia.edu/AHR/</a>
+(accessed June 10, 2004).</p>
+
+</div>
+
+<p><a href="#top" class="link">return to top &gt;&gt;</a></p>
+
+</td>
+</tr>
+</table>
+
+<p align="center" class="copyright">Copyright &copy; 2005 Digital
+Library Federation. All rights reserved.</p>
+<p align="center" class="copyright">Last updated:
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var days = new Array(8);
+days[1] = "Sunday";
+days[2] = "Monday";
+days[3] = "Tuesday";
+days[4] = "Wednesday";
+days[5] = "Thursday";
+days[6] = "Friday";
+days[7] = "Saturday";
+var months = new Array(13);
+months[1] = "January";
+months[2] = "February";
+months[3] = "March";
+months[4] = "April";
+months[5] = "May";
+months[6] = "June";
+months[7] = "July";
+months[8] = "August";
+months[9] = "September";
+months[10] = "October";
+months[11] = "November";
+months[12] = "December";
+var dateObj = new Date(document.lastModified)
+var wday = days[dateObj.getDay() + 1]
+var lmonth = months[dateObj.getMonth() + 1]
+var date = dateObj.getDate()
+var fyear = dateObj.getYear()
+if (fyear < 2000) 
+fyear = fyear + 1900
+document.write(wday + ", " + lmonth + " " + date + ", " + fyear)
+// End -->
+//]]>
+</script></p>
+</td>
+</tr>
+<tr>
+<td width="192" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="192" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="117" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="117" height="1" /></td>
+<td width="99" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="99" height="1" /></td>
+<td width="18" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="18" height="1" /></td>
+<td width="59" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="59" height="1" /></td>
+<td width="50" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="50" height="1" /></td>
+<td width="8" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="8" height="1" /></td>
+<td width="63" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="63" height="1" /></td>
+<td width="53" height="1" valign="top"><img src=
+"../../transparent.gif" alt="" width="53" height="1" /></td>
+</tr>
+</table>
+<script language="JavaScript" type="text/JavaScript">
+//<![CDATA[
+<!--
+  quoteRotate();
+//-->
+//]]>
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9461551-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

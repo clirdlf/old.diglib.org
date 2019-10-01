@@ -1,0 +1,84 @@
+.body {
+	FONT: 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+.maintitle {
+	FONT: 24px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead {
+	FONT: 24px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead1 {
+	FONT: 22px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead2 {
+	FONT: 18px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.sectionhead3 {
+	FONT: 14px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.bodylarge {
+	FONT: 20px "Times New Roman", Times, serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: none
+}
+.bodybold {
+	FONT: bold 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+.link {
+	FONT: bold 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: none
+}
+.link:hover {
+	FONT: bold 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: underline
+}
+.copyright {
+	FONT: 9px/12px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #999999; TEXT-DECORATION: none
+}
+.bodyital {
+	FONT: italic 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+.bodyboldital {
+	FONT: bold italic 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+.news {
+	FONT: 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: none
+}
+.newsbold {
+	FONT: bold 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: none
+}
+.newsital {
+	FONT: italic 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; TEXT-DECORATION: none
+}
+.pulldownmenu {
+	FONT: 10px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.bodybulleted {
+	LIST-STYLE-POSITION: outside; FONT: 11px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #000000; LIST-STYLE-TYPE: square; TEXT-DECORATION: none
+}
+.level2nav {
+	FONT: bold 13px/16px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #330033; LIST-STYLE-TYPE: none; TEXT-DECORATION: none
+}
+.subhead {
+	MARGIN-BOTTOM: 25px; FONT: bold 13px/15px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #666633; TEXT-DECORATION: none
+}
+.level2nav:hover {
+	FONT: bold 13px/16px Arial, Helvetica, sans-serif; TEXT-TRANSFORM: none; COLOR: #666633; LIST-STYLE-TYPE: none; TEXT-DECORATION: none
+}
+.lindent1 {
+	MARGIN-LEFT: 5px
+}
+.lindent2 {
+	MARGIN-LEFT: 15px
+}
+.lindent3 {
+	MARGIN-LEFT: 25px
+}
+.lindent4 {
+	MARGIN-LEFT: 35px
+}
+.lindent5 {
+	MARGIN-LEFT: 45px
+}
+.lghead {
+	MARGIN-TOP: 2em; FONT-WEIGHT: bold; MARGIN-BOTTOM: 1em; FONT-FAMILY: times, serif
+}

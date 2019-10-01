@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-0.xsd">
+	<titleInfo>
+		<title>Joint Economic Committee</title>
+	</titleInfo>
+	<name type="corporate" authority="naf">
+		<namePart>United States</namePart>
+		<namePart>Congress</namePart>
+		<namePart>Joint Economic Committee</namePart>
+	</name>
+	<typeOfResource>text</typeOfResource>
+	<genre>Web site</genre>
+	<originInfo>
+		<place>
+			<placeTerm type="text">Washington, D.C.</placeTerm>
+		</place>
+		<publisher>United States Senate</publisher>
+		<dateIssued>2002</dateIssued>
+		<dateCaptured encoding="iso8601">20021212</dateCaptured>
+		<issuance>monographic</issuance>
+	</originInfo>
+	<language>
+		<languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+	</language>
+	<physicalDescription>
+		<internetMediaType>text/html</internetMediaType>
+		<internetMediaType>image/jpg</internetMediaType>
+	</physicalDescription>
+	<abstract>Official Web site of the United States Joint Economic Committee, archived by the Library of Congress on December 12, 2002</abstract>
+	<subject>
+		<name type="corporate" authority="naf">
+			<namePart>United States</namePart>
+			<namePart>Congress</namePart>
+			<namePart>Joint Economic Committee</namePart>
+		</name>
+	</subject>
+	<subject authority="lcsh">
+		<geographic>United States</geographic>
+		<topic>Economic policy</topic>
+		<temporal>2001-</temporal>
+	</subject>
+	<subject authority="lcsh">
+		<geographic>United States</geographic>
+		<topic>Economic conditions</topic>
+		<temporal>2001-</temporal>
+	</subject>
+	<subject authority="lcsh">
+		<topic>Fiscal policy</topic>
+		<geographic>United States</geographic>
+	</subject>
+	<classification authority="lcc">KF4939.5.E36</classification>
+	<relatedItem type="host">
+		<titleInfo>
+			<title>107th Congress Web Archive</title>
+		</titleInfo>
+		<location>
+			<url>http://www.loc.gov/minerva/collect/congress/107</url>
+		</location>
+	</relatedItem>
+	<identifier>hdl:loc.natlib.mrva0002.0557</identifier>
+	<location>
+		<url displayLabel="Active site (if available)">http://jec.senate.gov/home.htm</url>
+	</location>
+	<location>
+		<url displayLabel="Archived site">http://wasearch.loc.gov/107th/20021212065455/http://jec.senate.gov/home.htm</url>
+	</location>
+	<accessCondition/>
+	<recordInfo>
+		<recordCreationDate encoding="iso8601"/>
+		<recordIdentifier source="dlc">mrva0002.0557</recordIdentifier>
+	</recordInfo>
+</mods>
