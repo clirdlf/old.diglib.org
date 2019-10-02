@@ -1,3 +1,3 @@
-# S3 sync
+# README
 
-  aws s3 sync . s3://old.diglib.org --delete --exclude=.git/\* --exclude=.git\* --exclude=README.md
+This site is served via Github Pages. 
